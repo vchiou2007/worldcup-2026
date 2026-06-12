@@ -374,7 +374,7 @@ const WC_DATA = {
   matches: [
     // === 6月11日 ===
     { date: '2026-06-11', time: '15:00 ET', group: 'A', team1: 'Mexico', score1: 2, team2: 'South Africa', score2: 0, venue: '墨西哥城·阿茲特克體育場', status: 'completed', details: '基尼奧內斯 9\', 希門尼斯 67\'; 3張紅牌' },
-    { date: '2026-06-11', time: '22:00 ET', group: 'A', team1: 'South Korea', score1: null, team2: 'Czechia', score2: null, venue: '瓜達拉哈拉·阿克隆體育場', status: 'scheduled' },
+    { date: '2026-06-11', time: '22:00 ET', group: 'A', team1: 'South Korea', score1: 2, team2: 'Czechia', score2: 1, venue: '瓜達拉哈拉·阿克隆體育場', status: 'completed', scorers: '黃仁範 67\', 吳賢揆 80\'; Krejčí 59\'' },
 
     // === 6月12日 ===
     { date: '2026-06-12', time: '15:00 ET', group: 'B', team1: 'Canada', score1: null, team2: 'Bosnia and Herzegovina', score2: null, venue: '多倫多·BMO球場', status: 'scheduled' },
@@ -479,8 +479,8 @@ const WC_DATA = {
   standings: {
     'A': [
       { team: 'Mexico', played: 1, won: 1, drawn: 0, lost: 0, gf: 2, ga: 0, gd: 2, pts: 3 },
-      { team: 'South Korea', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Czechia', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
+      { team: 'South Korea', played: 1, won: 1, drawn: 0, lost: 0, gf: 2, ga: 1, gd: 1, pts: 3 },
+      { team: 'Czechia', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 2, gd: -1, pts: 0 },
       { team: 'South Africa', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 2, gd: -2, pts: 0 }
     ],
     'B': [
