@@ -110,19 +110,23 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片 =====
+// ===== 輪播牆圖片（2026-06-12 更新：加入比賽精彩照片） =====
 const HERO_IMAGES = [
-  'https://www.dailypress.com/wp-content/uploads/2026/06/AP26162729655983-1.jpg',
-  'https://www.dailypress.com/wp-content/uploads/2026/06/AP26162635668484.jpg',
-  'https://www.dailypress.com/wp-content/uploads/2026/06/AP26162724799876.jpg',
-  'https://www.dailypress.com/wp-content/uploads/2026/06/AP26162779340073.jpg',
-  'https://www.dailypress.com/wp-content/uploads/2026/06/AP26162735903816.jpg'
+  'https://newsimg.koreatimes.co.kr/2026/06/12/52f24e5c-8732-403e-bfb8-7e0157af31af.jpg',
+  'https://newsimg.koreatimes.co.kr/2026/06/12/ed9d8441-9b03-4988-aa32-e94e367d3286.jpg',
+  'https://newsimg.koreatimes.co.kr/2026/06/12/b84301a8-c143-4171-94ae-2575fca41755.jpg',
+  'https://newsimg.koreatimes.co.kr/2026/06/12/43164dda-c264-4fb0-be48-94ccc9f83dce.jpg',
+  'https://newsimg.koreatimes.co.kr/2026/06/12/d4375e72-27a8-4927-bcfc-869fe3cd387f.jpg',
+  'https://i.cbc.ca/ais/85284ef7-7a6f-4b90-bc57-2f0ad0b80825,1781300429117/full/max/0/default.jpg',
+  'https://newsimg.koreatimes.co.kr/2026/06/12/583891ae-173e-4477-b54f-271edbcac6e2.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇲🇽 墨西哥 vs 🇿🇦 南非 — 2026 世界盃揭幕戰 @ 阿茲特克體育場',
-  '🌎 全球球迷齊聚墨西哥城，迎接世界盃開幕',
-  '⚽ 墨西哥球迷熱情高漲，慶祝主場開幕戰',
-  '🏟️ 阿茲特克體育場 — 史上首座三度舉辦世界盃的球場',
-  '🎊 開幕式盛大登場，Shakira 與 Burna Boy 聯袂演出'
+  '🇰🇷 南韓 vs 🇨🇿 捷克 — 2026 世界盃小組賽 @ 瓜達拉哈拉體育場',
+  '⚽ 黃仁範精彩進球！南韓 2-1 逆轉擊敗捷克',
+  '🔥 吳賢揆替補建功，南韓世界盃首戰開紅盤',
+  '🎉 孫興慜與隊友慶祝勝利 @ 瓜達拉哈拉',
+  '🇰🇷 首爾光化門廣場 — 韓國球迷街頭狂歡',
+  '🇨🇦 加拿大 1-1 🇧🇦 波士尼亞 — Cyle Larin 第78分鐘扳平 @ 多倫多',
+  '⚡ 孫興慜屢造威脅，南韓攻勢如潮'
 ];
