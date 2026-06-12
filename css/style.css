@@ -554,25 +554,26 @@ body {
 .star-row .s-icon { color: var(--gold); font-size: 0.75rem; margin-top: 2px; flex-shrink: 0; }
 
 .star-photo {
-  width: 44px; height: 44px;
+  width: 32px; height: 32px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
-  border: 2px solid var(--card-border);
+  border: 1.5px solid var(--card-border);
   background: var(--bg-alt);
 }
 
 .star-photo-placeholder {
-  width: 44px; height: 44px;
+  width: 32px; height: 32px;
   border-radius: 50%;
   flex-shrink: 0;
   background: linear-gradient(135deg, var(--teal-light), var(--blue-light));
-  border: 2px solid var(--card-border);
+  border: 1.5px solid var(--card-border);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   color: var(--teal);
+  font-weight: 700;
 }
 .star-row .n-zh { font-weight: 700; font-size: 0.85rem; }
 .star-row .n-en { font-size: 0.7rem; color: var(--text-muted); }

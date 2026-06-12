@@ -49,8 +49,14 @@ const WD=['日','一','二','三','四','五','六'];
 function fd(d){const dt=new Date(d+'T12:00:00');return`${dt.getMonth()+1}月${dt.getDate()}日`;}
 function fdFull(d){const dt=new Date(d+'T12:00:00');return`${fd(d)}（週${WD[dt.getDay()]}）`;}
 
-function td(){return new Date().toISOString().slice(0,10);}
-function yd(){const d=new Date();d.setDate(d.getDate()-1);return d.toISOString().slice(0,10);}
+// ===== 加拿大時間（多倫多/美東 EDT）=====
+function nowToronto(){
+  const s=new Date().toLocaleString('en-CA',{timeZone:'America/Toronto',hour12:false});
+  // Returns "2026-06-11, 15:30:00" - just take the date part
+  return s.split(',')[0].trim();
+}
+function td(){return nowToronto();}
+function yd(){const d=new Date(nowToronto()+'T12:00:00');d.setDate(d.getDate()-1);return d.toISOString().slice(0,10);}
 function gf(gid){const g=WC_DATA.groups.find(x=>x.id===gid);return g?g.teams.map(t=>fimgSm(t.name)).join(' '):'';}
 
 // ========== 比賽卡片（含星期幾） ==========
