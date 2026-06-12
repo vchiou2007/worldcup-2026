@@ -297,14 +297,14 @@ function renderSlideshow(){
     <div class="hero-overlay">
       <div class="hero-content">
         <div class="hero-badge" style="color:#fff;border-color:rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);">⚽ FIFA WORLD CUP 2026</div>
-        <h1 style="color:#fff;-webkit-text-fill-color:#fff;">2026 世界盃</h1>
+        <h1 style="color:#fff;">2026 世界盃</h1>
         <p class="hero-subtitle" style="color:rgba(255,255,255,0.65);">${fimgSm('USA')} 美國 · ${fimgSm('Canada')} 加拿大 · ${fimgSm('Mexico')} 墨西哥 ｜ 6.11 — 7.19</p>
         <div id="live-clock" style="font-size:0.9rem;font-weight:600;color:rgba(255,255,255,0.7);margin-bottom:20px;font-variant-numeric:tabular-nums;">🕐 載入中...</div>
         <div class="hero-stats">
-          <div class="hero-stat"><div class="hero-stat-number" style="-webkit-text-fill-color:#fff;color:#fff;">48</div><div class="hero-stat-label" style="color:rgba(255,255,255,0.5);">參賽隊伍</div></div>
-          <div class="hero-stat"><div class="hero-stat-number" style="-webkit-text-fill-color:#fff;color:#fff;">${WC_DATA.matches.length}</div><div class="hero-stat-label" style="color:rgba(255,255,255,0.5);">總場次</div></div>
-          <div class="hero-stat"><div class="hero-stat-number" style="-webkit-text-fill-color:#fff;color:#fff;">${WC_DATA.matches.filter(m=>m.status==='completed').length}</div><div class="hero-stat-label" style="color:rgba(255,255,255,0.5);">已賽</div></div>
-          <div class="hero-stat"><div class="hero-stat-number" style="-webkit-text-fill-color:#fff;color:#fff;">16</div><div class="hero-stat-label" style="color:rgba(255,255,255,0.5);">主辦城市</div></div>
+          <div class="hero-stat"><div class="hero-stat-number" style="color:#fff;">48</div><div class="hero-stat-label" style="color:rgba(255,255,255,0.5);">參賽隊伍</div></div>
+          <div class="hero-stat"><div class="hero-stat-number" style="color:#fff;">${WC_DATA.matches.length}</div><div class="hero-stat-label" style="color:rgba(255,255,255,0.5);">總場次</div></div>
+          <div class="hero-stat"><div class="hero-stat-number" style="color:#fff;">${WC_DATA.matches.filter(m=>m.status==='completed').length}</div><div class="hero-stat-label" style="color:rgba(255,255,255,0.5);">已賽</div></div>
+          <div class="hero-stat"><div class="hero-stat-number" style="color:#fff;">16</div><div class="hero-stat-label" style="color:rgba(255,255,255,0.5);">主辦城市</div></div>
         </div>
       </div>
     </div>

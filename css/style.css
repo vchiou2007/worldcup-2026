@@ -106,6 +106,7 @@ body {
   min-height: 420px;
   overflow: hidden;
   border-bottom: 1px solid var(--card-border);
+  contain: layout;
 }
 
 .hero-slideshow {
