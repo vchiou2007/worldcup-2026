@@ -72,12 +72,104 @@ function td(){return nowToronto();}
 function yd(){const d=new Date(nowToronto()+'T12:00:00');d.setDate(d.getDate()-1);return d.toISOString().slice(0,10);}
 function gf(gid){const g=WC_DATA.groups.find(x=>x.id===gid);return g?g.teams.map(t=>fimgSm(t.name)).join(' '):'';}
 
-// ========== 比賽卡片（含星期幾） ==========
+// ========== 比賽卡片（含星期幾 + 詳細統計） ==========
 function mCard(m){
   const done=m.status==='completed',live=m.status==='live';
   const sc=done?`${m.score1}-${m.score2}`:live?`${m.score1||0}-${m.score2||0}`:'VS';
   const scCls=done?'final':live?'live':'upcoming';
   const stLbl=done?'已完賽':live?'●LIVE':'未開賽';
+
+  // 進球時間軸
+  let goalsHtml='';
+  if(m.goals&&m.goals.length){
+    goalsHtml='<div class="match-goals"><div class="match-goals-title">⚽ 進球記錄</div>';
+    for(const g of m.goals){
+      const side=g.team===1?'goal-team1':'goal-team2';
+      goalsHtml+=`<div class="goal-event ${side}">
+        <span class="goal-min">${g.min}'</span>
+        <span class="goal-icon">⚽</span>
+        <span><span class="goal-scorer">${g.scorer}</span>
+        ${g.assist?`<span class="goal-assist">（助攻：${g.assist}）</span>`:''}
+        ${g.detail?`<span class="goal-detail">— ${g.detail}</span>`:''}</span>
+      </div>`;
+    }
+    goalsHtml+='</div>';
+  }
+
+  // 卡片
+  let cardsHtml='';
+  if(m.cards&&m.cards.length){
+    cardsHtml='<div class="match-cards">';
+    for(const c of m.cards){
+      const cName=c.card==='red'?'🔴 ':'🟨 ';
+      cardsHtml+=`<span class="card-badge ${c.card}">${cName}${c.min}' ${c.player}${c.detail?`（${c.detail}）`:''}</span>`;
+    }
+    cardsHtml+='</div>';
+  }
+
+  // 統計比較表
+  let statsHtml='';
+  if(m.stats){
+    const statsDef = [
+      {key:'possession',label:'持球率',unit:'%',suffix:'%'},
+      {key:'shots',label:'射門',unit:'',suffix:''},
+      {key:'shotsOnTarget',label:'射正',unit:'',suffix:''},
+      {key:'shotsOffTarget',label:'射偏',unit:'',suffix:''},
+      {key:'shotsInsideBox',label:'禁區射門',unit:'',suffix:''},
+      {key:'shotsOutsideBox',label:'禁區外射門',unit:'',suffix:''},
+      {key:'passes',label:'傳球',unit:'',suffix:''},
+      {key:'passAccuracy',label:'傳球成功率',unit:'%',suffix:'%'},
+      {key:'corners',label:'角球',unit:'',suffix:''},
+      {key:'freeKicks',label:'自由球',unit:'',suffix:''},
+      {key:'fouls',label:'犯規',unit:'',suffix:''},
+      {key:'offsides',label:'越位',unit:'',suffix:''},
+      {key:'yellowCards',label:'黃牌',unit:'',suffix:''},
+      {key:'redCards',label:'紅牌',unit:'',suffix:''},
+      {key:'crosses',label:'傳中',unit:'',suffix:''},
+      {key:'crossesCompleted',label:'傳中成功',unit:'',suffix:''},
+      {key:'forcedTurnovers',label:'逼搶成功',unit:'',suffix:''},
+      {key:'pressingApplied',label:'壓迫次數',unit:'',suffix:''}
+    ];
+    statsHtml='<div class="stats-comparison">';
+    for(const s of statsDef){
+      const v=m.stats[s.key];
+      if(!v||v.length<2)continue;
+      const total=v[0]+v[1];
+      const pct1=total>0?(v[0]/total*100):50;
+      const pct2=100-pct1;
+      const val1=s.suffix?`${v[0]}${s.suffix}`:v[0];
+      const val2=s.suffix?`${v[1]}${s.suffix}`:v[1];
+      statsHtml+=`<div class="stats-row">
+        <span class="stats-val-left" style="width:50px;text-align:right;font-size:0.75rem;font-weight:700;flex-shrink:0;color:var(--teal);">${val1}</span>
+        <div class="stats-bar-wrap">
+          <div class="stats-bar-bg">
+            <div class="stats-bar-left" style="width:${pct1}%"></div>
+            <div class="stats-bar-right" style="width:${pct2}%"></div>
+          </div>
+        </div>
+        <span class="stats-label">${s.label}</span>
+        <div class="stats-bar-wrap">
+          <div class="stats-bar-bg">
+            <div class="stats-bar-left" style="width:${pct2}%"></div>
+            <div class="stats-bar-right" style="width:${pct1}%"></div>
+          </div>
+        </div>
+        <span class="stats-val-right" style="width:50px;text-align:left;font-size:0.75rem;font-weight:700;flex-shrink:0;color:#818cf8;">${val2}</span>
+      </div>`;
+    }
+    statsHtml+='</div>';
+
+    // 加入展開/收合按鈕
+    statsHtml=`<div class="match-stats-toggle" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
+      📊 詳細數據 <span class="arrow">▼</span>
+    </div>
+    <div class="match-stats-panel">
+      ${goalsHtml}
+      ${cardsHtml}
+      ${statsHtml}
+    </div>`;
+  }
+
   return`
 <div class="match-card">
   <div class="match-header">
@@ -93,6 +185,7 @@ function mCard(m){
     <span>📍 ${m.venue}</span><span>🕐 ${fdFull(m.date)} ${m.time}</span>
   </div>
   ${m.details?`<div class="match-highlights">⚡ ${m.details}</div>`:''}
+  ${statsHtml}
 </div>`;
 }
 

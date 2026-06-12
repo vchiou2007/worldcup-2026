@@ -387,6 +387,157 @@ body {
   border-radius: 6px;
 }
 
+/* ========== MATCH STATS ========== */
+.match-stats-toggle {
+  margin-top: 10px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--teal);
+  padding: 6px;
+  border-radius: 6px;
+  background: var(--bg-alt);
+  transition: var(--transition);
+  user-select: none;
+}
+.match-stats-toggle:hover { background: var(--blue-light); }
+.match-stats-toggle .arrow { display: inline-block; transition: transform 0.3s; }
+.match-stats-toggle.open .arrow { transform: rotate(180deg); }
+
+.match-stats-panel {
+  display: none;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--card-border);
+}
+.match-stats-panel.open { display: block; }
+
+/* 進球時間軸 */
+.match-goals {
+  margin-bottom: 14px;
+}
+.match-goals-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.goal-event {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 0;
+  font-size: 0.78rem;
+}
+.goal-min {
+  font-weight: 800;
+  color: var(--teal);
+  min-width: 40px;
+  font-size: 0.85rem;
+}
+.goal-icon {
+  color: var(--gold);
+  font-size: 1rem;
+}
+.goal-team1 { padding-left: 0; }
+.goal-team2 { padding-left: 28px; }
+.goal-scorer { font-weight: 600; }
+.goal-detail { color: var(--text-muted); font-size: 0.7rem; }
+.goal-assist { color: var(--text-muted); font-size: 0.7rem; }
+
+/* 卡片 */
+.match-cards {
+  margin-bottom: 14px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.card-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.7rem;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.card-badge.yellow {
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #fbbf24;
+}
+.card-badge.red {
+  background: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #ef4444;
+}
+
+/* 統計比較表 */
+.stats-comparison {
+  margin-top: 6px;
+}
+.stats-row {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  gap: 8px;
+}
+.stats-label {
+  width: 65px;
+  text-align: center;
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+.stats-bar-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  height: 22px;
+  position: relative;
+}
+.stats-bar-bg {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--bg-alt);
+}
+.stats-bar-left {
+  height: 100%;
+  background: var(--teal);
+  opacity: 0.6;
+  border-radius: 4px 0 0 4px;
+  transition: width 0.5s ease;
+}
+.stats-bar-right {
+  height: 100%;
+  background: #818cf8;
+  opacity: 0.6;
+  border-radius: 0 4px 4px 0;
+  transition: width 0.5s ease;
+}
+.stats-value {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  z-index: 1;
+}
+.stats-val-left { color: #fff; }
+.stats-val-right { color: #fff; }
+
 /* ========== STANDINGS TABLE ========== */
 .group-section { margin-bottom: 32px; }
 

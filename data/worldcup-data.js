@@ -373,8 +373,71 @@ const WC_DATA = {
   // 比賽結果（開賽前為預定賽程，賽後更新比分）
   matches: [
     // === 6月11日 ===
-    { date: '2026-06-11', time: '15:00 ET', group: 'A', team1: 'Mexico', score1: 2, team2: 'South Africa', score2: 0, venue: '墨西哥城·阿茲特克體育場', status: 'completed', details: '基尼奧內斯 9\', 希門尼斯 67\'; 3張紅牌' },
-    { date: '2026-06-11', time: '22:00 ET', group: 'A', team1: 'South Korea', score1: 2, team2: 'Czechia', score2: 1, venue: '瓜達拉哈拉·阿克隆體育場', status: 'completed', scorers: '黃仁範 67\', 吳賢揆 80\'; Krejčí 59\'' },
+    { date: '2026-06-11', time: '15:00 ET', group: 'A', team1: 'Mexico', score1: 2, team2: 'South Africa', score2: 0, venue: '墨西哥城·阿茲特克體育場', status: 'completed',
+      goals: [
+        { min: 9, team: 1, scorer: 'Julián Quiñones', assist: 'Erik Lira', detail: '禁區內射門穿檔' },
+        { min: 67, team: 1, scorer: 'Raúl Jiménez', assist: 'Julián Quiñones', detail: '禁區內射門' }
+      ],
+      cards: [
+        { min: 49, team: 2, player: 'Sphephelo Sithole', card: 'yellow' },
+        { min: 62, team: 2, player: 'Themba Zwane', card: 'yellow' },
+        { min: 72, team: 1, player: 'César Montes', card: 'red' },
+        { min: 78, team: 2, player: 'Teboho Mokoena', card: 'red' },
+        { min: 88, team: 2, player: 'Ime Okon', card: 'red' }
+      ],
+      stats: {
+        possession: [58, 42],
+        shots: [16, 3],
+        shotsOnTarget: [4, 2],
+        shotsOffTarget: [8, 1],
+        shotsInsideBox: [9, 1],
+        shotsOutsideBox: [7, 2],
+        passes: [547, 351],
+        passCompleted: [495, 290],
+        passAccuracy: [90.5, 82.6],
+        crosses: [13, 8],
+        crossesCompleted: [3, 0],
+        corners: [3, 1],
+        freeKicks: [12, 13],
+        fouls: [12, 11],
+        offsides: [1, 1],
+        yellowCards: [1, 2],
+        redCards: [1, 2],
+        forcedTurnovers: [31, 32],
+        pressingApplied: [170, 306]
+      }
+    },
+    { date: '2026-06-11', time: '22:00 ET', group: 'A', team1: 'South Korea', score1: 2, team2: 'Czechia', score2: 1, venue: '瓜達拉哈拉·阿克隆體育場', status: 'completed',
+      goals: [
+        { min: 59, team: 2, scorer: 'Ladislav Krejčí', assist: 'Vladimír Coufal', detail: '角球頭槌' },
+        { min: 67, team: 1, scorer: '黃仁範 (Hwang In-beom)', assist: '李康仁 (Lee Kang-in)', detail: '禁區外遠射破門' },
+        { min: 80, team: 1, scorer: '吳賢揆 (Oh Hyeon-gyu)', assist: '黃仁範 (Hwang In-beom)', detail: '禁區內接應射門' }
+      ],
+      cards: [
+        { min: 90, team: 1, player: '李基赫 (Lee Gi-hyuk)', card: 'yellow', detail: '惡意犯規' }
+      ],
+      stats: {
+        possession: [52, 48],
+        shots: [15, 12],
+        shotsOnTarget: [6, 5],
+        shotsOffTarget: [6, 5],
+        shotsInsideBox: [9, 7],
+        shotsOutsideBox: [6, 5],
+        passes: [480, 420],
+        passCompleted: [410, 360],
+        passAccuracy: [85.4, 85.7],
+        crosses: [18, 22],
+        crossesCompleted: [5, 6],
+        corners: [7, 8],
+        freeKicks: [14, 11],
+        fouls: [11, 14],
+        offsides: [2, 1],
+        yellowCards: [1, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 35],
+        pressingApplied: [250, 280]
+      }
+    },
 
     // === 6月12日 ===
     { date: '2026-06-12', time: '15:00 ET', group: 'B', team1: 'Canada', score1: null, team2: 'Bosnia and Herzegovina', score2: null, venue: '多倫多·BMO球場', status: 'scheduled' },
