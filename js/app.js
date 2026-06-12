@@ -97,13 +97,14 @@ function mCard(m){
     goalsHtml+='</div>';
   }
 
-  // 卡片
+  // 卡片（含國旗）
   let cardsHtml='';
   if(m.cards&&m.cards.length){
     cardsHtml='<div class="match-cards">';
     for(const c of m.cards){
       const cName=c.card==='red'?'🔴 ':'🟨 ';
-      cardsHtml+=`<span class="card-badge ${c.card}">${cName}${c.min}' ${c.player}${c.detail?`（${c.detail}）`:''}</span>`;
+      const teamName=c.team===1?m.team1:m.team2;
+      cardsHtml+=`<span class="card-badge ${c.card}">${cName}${c.min}' ${fimgSm(teamName)} ${c.player}${c.detail?`（${c.detail}）`:''}</span>`;
     }
     cardsHtml+='</div>';
   }
