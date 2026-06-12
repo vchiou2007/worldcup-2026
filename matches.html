@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>賽程 — 2026 世界盃足球賽</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>">
+</head>
+<body data-page="matches">
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">⚽</span>
+        <span>2026 世界盃</span>
+      </a>
+      <nav class="main-nav">
+        <a href="index.html">首頁</a>
+        <a href="groups.html">分組積分</a>
+        <a href="teams.html">48 隊介紹</a>
+        <a href="matches.html" class="active">賽程</a>
+        <a href="knockout.html">淘汰賽</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" id="matches-container">
+    <div class="loading">
+      <div class="loading-spinner"></div>
+      <p>載入賽程資料中...</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>⚽ 2026 世界盃足球賽即時資訊站</p>
+    <div class="footer-links">
+      <a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026" target="_blank">FIFA 官方網站</a>
+      <a href="https://github.com/vchiou2007/worldcup-2026" target="_blank">GitHub 專案</a>
+    </div>
+  </footer>
+
+  <script src="data/worldcup-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
