@@ -443,7 +443,7 @@ const WC_DATA = {
     { date: '2026-06-12', time: '15:00 ET', group: 'B', team1: 'Canada', score1: 1, team2: 'Bosnia and Herzegovina', score2: 1, venue: '多倫多·BMO球場', status: 'completed',
       goals: [
         { min: 21, team: 2, scorer: 'Jovo Lukic', assist: 'Sead Kolašinac', detail: '角球頭槌' },
-        { min: 78, team: 1, scorer: 'Cyle Larin', assist: 'Stephen Eustáquio', detail: '禁區內射門扳平' }
+        { min: 78, team: 1, scorer: 'Cyle Larin', assist: 'Promise David', detail: '禁區內射門扳平' }
       ],
       cards: [
         { min: 38, team: 1, player: 'Richie Laryea', card: 'yellow' },
