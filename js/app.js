@@ -109,10 +109,9 @@ function mCard(m){
     cardsHtml+='</div>';
   }
 
-  // 統計比較表（含重要性顏色標示）
+  // 統計比較表（v2：單一條狀圖、兩邊都有百分比、贏家深色輸家淺色）
   let statsHtml='';
   if(m.stats){
-    // 重要性層級：critical(⭐) / high / normal / low
     const statsDef = [
       {key:'possession',label:'持球率',unit:'%',suffix:'%',importance:'critical',desc:'哪隊掌控比賽節奏'},
       {key:'shotsOnTarget',label:'射正',unit:'',suffix:'',importance:'critical',desc:'最有威脅的進攻次數'},
@@ -133,71 +132,49 @@ function mCard(m){
       {key:'forcedTurnovers',label:'逼搶成功',unit:'',suffix:'',importance:'low',desc:'壓迫造成失誤'},
       {key:'pressingApplied',label:'壓迫次數',unit:'',suffix:'',importance:'low',desc:'高位壓迫'}
     ];
+    const hueMap = {
+      critical:{dark:'#0d9488',light:'#80cbc4',cls:'stats-label-critical',star:'⭐ '},
+      high:{dark:'#0891b2',light:'#7dd3fc',cls:'stats-label-high',star:''},
+      normal:{dark:'#64748b',light:'#b0bec5',cls:'stats-label-normal',star:''},
+      low:{dark:'#94a3b8',light:'#cfd8dc',cls:'stats-label-low',star:''}
+    };
+    const lowerBetter = new Set(['fouls','yellowCards','redCards','offsides']);
     statsHtml='<div class="stats-comparison">';
     for(const s of statsDef){
       const v=m.stats[s.key];
       if(!v||v.length<2)continue;
-      const total=v[0]+v[1];
-      const pct1=total>0?(v[0]/total*100):50;
+      const v1=parseFloat(v[0])||0, v2=parseFloat(v[1])||0;
+      const total=v1+v2;
+      const pct1=total>0?(v1/total*100):50;
       const pct2=100-pct1;
-      const val1=s.suffix?`${v[0]}${s.suffix}`:v[0];
-      const val2=s.suffix?`${v[1]}${s.suffix}`:v[1];
+      const val1=s.suffix?`${v1}${s.suffix}`:v1;
+      const val2=s.suffix?`${v2}${s.suffix}`:v2;
+      const h=hueMap[s.importance]||hueMap.normal;
 
-      // 根據重要性設定顏色
-      let leftColor, rightColor, labelClass;
-      if(s.importance==='critical'){
-        leftColor='#0d9488';   // 深青色
-        rightColor='#0d9488';
-        labelClass='stats-label-critical';
-      } else if(s.importance==='high'){
-        leftColor='#0891b2';   // 天藍
-        rightColor='#0891b2';
-        labelClass='stats-label-high';
-      } else if(s.importance==='normal'){
-        leftColor='#64748b';   // 灰色
-        rightColor='#64748b';
-        labelClass='stats-label-normal';
-      } else {
-        leftColor='#94a3b8';   // 淺灰
-        rightColor='#94a3b8';
-        labelClass='stats-label-low';
-      }
+      const isTied=v1===v2;
+      const t1Wins=lowerBetter.has(s.key)?(v1<v2):(v1>v2);
+      const t2Wins=lowerBetter.has(s.key)?(v2<v1):(v2>v1);
 
-      const star = s.importance==='critical'?'⭐ ':'';
-      // 判斷哪一隊在這個數據上佔優勢
-      const v1num = parseFloat(v[0]) || 0;
-      const v2num = parseFloat(v[1]) || 0;
-      const isTied = v1num === v2num;
-      const lowerIsBetter = ['fouls','yellowCards','redCards','offsides'].includes(s.key);
-      const t1Wins = lowerIsBetter ? (v1num < v2num) : (v1num > v2num);
-      const t2Wins = lowerIsBetter ? (v2num < v1num) : (v2num > v1num);
-      // 同一色系：贏家深色、輸家維持正常色
-      const rowHue = s.importance==='critical'?'teal':'blue';
-      const clrDark = rowHue==='teal'?'#0d9488':'#0891b2';
-      const clrNormal = rowHue==='teal'?'#5cb9b0':'#5ba8c0';
-      const winColor1 = t1Wins ? clrDark : (isTied ? '#64748b' : clrNormal);
-      const winColor2 = t2Wins ? clrDark : (isTied ? '#64748b' : clrNormal);
-      const winWeight1 = t1Wins ? '800' : (isTied ? '600' : '500');
-      const winWeight2 = t2Wins ? '800' : (isTied ? '600' : '500');
-      // 色條：贏家深色不透明、輸家正常色半透明
-      const barOpacity1 = t1Wins ? '0.7' : '0.35';
-      const barOpacity2 = t2Wins ? '0.7' : '0.35';
+      // 贏家=深色粗體，輸家=淺色正常，平手=灰色
+      const c1=isTied?'#94a3b8':(t1Wins?h.dark:h.light);
+      const c2=isTied?'#94a3b8':(t2Wins?h.dark:h.light);
+      const w1=isTied?'500':(t1Wins?'800':'500');
+      const w2=isTied?'500':(t2Wins?'800':'500');
+      const b1=isTied?'0.5':(t1Wins?'0.8':'0.3');
+      const b2=isTied?'0.5':(t2Wins?'0.8':'0.3');
+
       statsHtml+=`<div class="stats-row">
-        <span class="stats-val-left" style="width:50px;text-align:right;font-size:0.78rem;font-weight:${winWeight1};flex-shrink:0;color:${winColor1};">${val1}</span>
-        <div class="stats-bar-wrap">
-          <div class="stats-bar-bg">
-            <div class="stats-bar-left" style="width:${pct1}%;background:${clrDark};opacity:${barOpacity1}"></div>
-            <div class="stats-bar-right" style="width:${pct2}%;background:${clrDark};opacity:${barOpacity2}"></div>
-          </div>
-        </div>
-        <span class="${labelClass}">${star}${s.label}</span>
-        <div class="stats-bar-wrap">
-          <div class="stats-bar-bg">
-            <div class="stats-bar-left" style="width:${pct2}%;background:${rightColor};opacity:0.5"></div>
-            <div class="stats-bar-right" style="width:${pct1}%;background:${leftColor};opacity:0.5"></div>
-          </div>
-        </div>
-        <span class="stats-val-right" style="width:50px;text-align:left;font-size:0.78rem;font-weight:${winWeight2};flex-shrink:0;color:${winColor2};">${val2}</span>
+        <span class="stats-val" style="color:${c1};font-weight:${w1};">${val1}</span>
+        <div class="stats-bar-single"><div class="stats-bar-bg-single">
+          <div class="stats-bar-t1" style="width:${pct1}%;background:${h.dark};opacity:${b1}"></div>
+          <div class="stats-bar-t2" style="width:${pct2}%;background:${h.dark};opacity:${b2}"></div>
+        </div></div>
+        <span class="${h.cls}">${h.star}${s.label}</span>
+        <div class="stats-bar-single"><div class="stats-bar-bg-single">
+          <div class="stats-bar-t2" style="width:${pct2}%;background:${h.dark};opacity:${b2}"></div>
+          <div class="stats-bar-t1" style="width:${pct1}%;background:${h.dark};opacity:${b1}"></div>
+        </div></div>
+        <span class="stats-val" style="color:${c2};font-weight:${w2};">${val2}</span>
       </div>`;
     }
     statsHtml+='</div>';
