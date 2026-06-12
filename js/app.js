@@ -155,24 +155,25 @@ function mCard(m){
       const t1Wins=lowerBetter.has(s.key)?(v1<v2):(v1>v2);
       const t2Wins=lowerBetter.has(s.key)?(v2<v1):(v2>v1);
 
-      // 贏家=深色粗體，輸家=淺色正常，平手=灰色
+      // 贏家=深色粗體+深色條，輸家=淺色正常+淺色條，平手=灰色
       const c1=isTied?'#94a3b8':(t1Wins?h.dark:h.light);
       const c2=isTied?'#94a3b8':(t2Wins?h.dark:h.light);
       const w1=isTied?'500':(t1Wins?'800':'500');
       const w2=isTied?'500':(t2Wins?'800':'500');
-      const b1=isTied?'0.5':(t1Wins?'0.8':'0.3');
-      const b2=isTied?'0.5':(t2Wins?'0.8':'0.3');
+      // 條狀圖：贏家用深色實色，輸家用淺色實色（不用透明度）
+      const bar1=isTied?h.light:(t1Wins?h.dark:h.light);
+      const bar2=isTied?h.light:(t2Wins?h.dark:h.light);
 
       statsHtml+=`<div class="stats-row">
         <span class="stats-val" style="color:${c1};font-weight:${w1};">${val1}</span>
         <div class="stats-bar-single"><div class="stats-bar-bg-single">
-          <div class="stats-bar-t1" style="width:${pct1}%;background:${h.dark};opacity:${b1}"></div>
-          <div class="stats-bar-t2" style="width:${pct2}%;background:${h.dark};opacity:${b2}"></div>
+          <div class="stats-bar-t1" style="width:${pct1}%;background:${bar1}"></div>
+          <div class="stats-bar-t2" style="width:${pct2}%;background:${bar2}"></div>
         </div></div>
         <span class="${h.cls}">${h.star}${s.label}</span>
         <div class="stats-bar-single"><div class="stats-bar-bg-single">
-          <div class="stats-bar-t2" style="width:${pct2}%;background:${h.dark};opacity:${b2}"></div>
-          <div class="stats-bar-t1" style="width:${pct1}%;background:${h.dark};opacity:${b1}"></div>
+          <div class="stats-bar-t2" style="width:${pct2}%;background:${bar2}"></div>
+          <div class="stats-bar-t1" style="width:${pct1}%;background:${bar1}"></div>
         </div></div>
         <span class="stats-val" style="color:${c2};font-weight:${w2};">${val2}</span>
       </div>`;
