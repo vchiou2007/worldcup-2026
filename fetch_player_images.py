@@ -125,5 +125,24 @@ with open(OUTPUT_FILE, 'w', encoding='utf-8') as f:
     f.write('const PLAYER_IMAGES = {\n')
     f.write(',\n'.join(lines))
     f.write('\n};\n')
+    # Preserve HERO_IMAGES and HERO_CAPTIONS if they exist
+    f.write("""
+// ===== 輪播牆圖片 =====
+const HERO_IMAGES = [
+  'https://www.dailypress.com/wp-content/uploads/2026/06/AP26162729655983-1.jpg',
+  'https://www.dailypress.com/wp-content/uploads/2026/06/AP26162635668484.jpg',
+  'https://www.dailypress.com/wp-content/uploads/2026/06/AP26162724799876.jpg',
+  'https://www.dailypress.com/wp-content/uploads/2026/06/AP26162779340073.jpg',
+  'https://www.dailypress.com/wp-content/uploads/2026/06/AP26162735903816.jpg'
+];
+
+const HERO_CAPTIONS = [
+  '🇲🇽 墨西哥 vs 🇿🇦 南非 — 2026 世界盃揭幕戰 @ 阿茲特克體育場',
+  '🌎 全球球迷齊聚墨西哥城，迎接世界盃開幕',
+  '⚽ 墨西哥球迷熱情高漲，慶祝主場開幕戰',
+  '🏟️ 阿茲特克體育場 — 史上首座三度舉辦世界盃的球場',
+  '🎊 開幕式盛大登場，Shakira 與 Burna Boy 聯袂演出'
+];
+""")
 
 print(f"Written to {OUTPUT_FILE}")
