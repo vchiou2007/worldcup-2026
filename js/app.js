@@ -168,20 +168,25 @@ function mCard(m){
       const v1num = parseFloat(v[0]) || 0;
       const v2num = parseFloat(v[1]) || 0;
       const isTied = v1num === v2num;
-      // 對犯規/黃牌/紅牌來說，數字低反而較好
       const lowerIsBetter = ['fouls','yellowCards','redCards','offsides'].includes(s.key);
       const t1Wins = lowerIsBetter ? (v1num < v2num) : (v1num > v2num);
       const t2Wins = lowerIsBetter ? (v2num < v1num) : (v2num > v1num);
-      const winColor1 = t1Wins ? '#0d9488' : (isTied ? '#64748b' : '#94a3b8');
-      const winColor2 = t2Wins ? '#818cf8' : (isTied ? '#64748b' : '#94a3b8');
-      const winWeight1 = t1Wins ? '800' : '400';
-      const winWeight2 = t2Wins ? '800' : '400';
+      // 同一色系：贏家深色、輸家淺色
+      const rowHue = s.importance==='critical'?'teal':'blue';
+      const dark1 = rowHue==='teal'?'#0d9488':'#0891b2';
+      const light1 = rowHue==='teal'?'#a0d9d0':'#99d6e8';
+      const dark2 = rowHue==='teal'?'#0d9488':'#0891b2';
+      const light2 = rowHue==='teal'?'#a0d9d0':'#99d6e8';
+      const winColor1 = t1Wins ? dark1 : (isTied ? '#64748b' : light1);
+      const winColor2 = t2Wins ? dark2 : (isTied ? '#64748b' : light2);
+      const winWeight1 = t1Wins ? '800' : (isTied ? '600' : '400');
+      const winWeight2 = t2Wins ? '800' : (isTied ? '600' : '400');
       statsHtml+=`<div class="stats-row">
         <span class="stats-val-left" style="width:50px;text-align:right;font-size:0.78rem;font-weight:${winWeight1};flex-shrink:0;color:${winColor1};">${val1}</span>
         <div class="stats-bar-wrap">
           <div class="stats-bar-bg">
-            <div class="stats-bar-left" style="width:${pct1}%;background:${leftColor};opacity:0.5"></div>
-            <div class="stats-bar-right" style="width:${pct2}%;background:${rightColor};opacity:0.5"></div>
+            <div class="stats-bar-left" style="width:${pct1}%;background:${dark1};opacity:${t1Wins?0.7:0.25}"></div>
+            <div class="stats-bar-right" style="width:${pct2}%;background:${dark2};opacity:${t2Wins?0.7:0.25}"></div>
           </div>
         </div>
         <span class="${labelClass}">${star}${s.label}</span>
