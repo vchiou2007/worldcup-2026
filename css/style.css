@@ -495,6 +495,46 @@ body {
   letter-spacing: 0.5px;
   flex-shrink: 0;
 }
+.stats-label-critical {
+  width: 65px;
+  text-align: center;
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #0d9488;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+.stats-label-high {
+  width: 65px;
+  text-align: center;
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: #0891b2;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+.stats-label-normal {
+  width: 65px;
+  text-align: center;
+  font-size: 0.65rem;
+  font-weight: 500;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+.stats-label-low {
+  width: 65px;
+  text-align: center;
+  font-size: 0.65rem;
+  font-weight: 400;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
 .stats-bar-wrap {
   flex: 1;
   display: flex;

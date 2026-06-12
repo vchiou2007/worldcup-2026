@@ -79,16 +79,17 @@ function mCard(m){
   const scCls=done?'final':live?'live':'upcoming';
   const stLbl=done?'已完賽':live?'●LIVE':'未開賽';
 
-  // 進球時間軸
+  // 進球時間軸（含國旗）
   let goalsHtml='';
   if(m.goals&&m.goals.length){
     goalsHtml='<div class="match-goals"><div class="match-goals-title">⚽ 進球記錄</div>';
     for(const g of m.goals){
       const side=g.team===1?'goal-team1':'goal-team2';
+      const teamName=g.team===1?m.team1:m.team2;
       goalsHtml+=`<div class="goal-event ${side}">
         <span class="goal-min">${g.min}'</span>
         <span class="goal-icon">⚽</span>
-        <span><span class="goal-scorer">${g.scorer}</span>
+        <span>${fimgSm(teamName)} <span class="goal-scorer">${g.scorer}</span>
         ${g.assist?`<span class="goal-assist">（助攻：${g.assist}）</span>`:''}
         ${g.detail?`<span class="goal-detail">— ${g.detail}</span>`:''}</span>
       </div>`;
@@ -107,28 +108,29 @@ function mCard(m){
     cardsHtml+='</div>';
   }
 
-  // 統計比較表
+  // 統計比較表（含重要性顏色標示）
   let statsHtml='';
   if(m.stats){
+    // 重要性層級：critical(⭐) / high / normal / low
     const statsDef = [
-      {key:'possession',label:'持球率',unit:'%',suffix:'%'},
-      {key:'shots',label:'射門',unit:'',suffix:''},
-      {key:'shotsOnTarget',label:'射正',unit:'',suffix:''},
-      {key:'shotsOffTarget',label:'射偏',unit:'',suffix:''},
-      {key:'shotsInsideBox',label:'禁區射門',unit:'',suffix:''},
-      {key:'shotsOutsideBox',label:'禁區外射門',unit:'',suffix:''},
-      {key:'passes',label:'傳球',unit:'',suffix:''},
-      {key:'passAccuracy',label:'傳球成功率',unit:'%',suffix:'%'},
-      {key:'corners',label:'角球',unit:'',suffix:''},
-      {key:'freeKicks',label:'自由球',unit:'',suffix:''},
-      {key:'fouls',label:'犯規',unit:'',suffix:''},
-      {key:'offsides',label:'越位',unit:'',suffix:''},
-      {key:'yellowCards',label:'黃牌',unit:'',suffix:''},
-      {key:'redCards',label:'紅牌',unit:'',suffix:''},
-      {key:'crosses',label:'傳中',unit:'',suffix:''},
-      {key:'crossesCompleted',label:'傳中成功',unit:'',suffix:''},
-      {key:'forcedTurnovers',label:'逼搶成功',unit:'',suffix:''},
-      {key:'pressingApplied',label:'壓迫次數',unit:'',suffix:''}
+      {key:'possession',label:'持球率',unit:'%',suffix:'%',importance:'critical',desc:'哪隊掌控比賽節奏'},
+      {key:'shotsOnTarget',label:'射正',unit:'',suffix:'',importance:'critical',desc:'最有威脅的進攻次數'},
+      {key:'shots',label:'射門',unit:'',suffix:'',importance:'high',desc:'總射門次數'},
+      {key:'passAccuracy',label:'傳球成功率',unit:'%',suffix:'%',importance:'high',desc:'傳球品質指標'},
+      {key:'fouls',label:'犯規',unit:'',suffix:'',importance:'high',desc:'犯規次數'},
+      {key:'yellowCards',label:'黃牌',unit:'',suffix:'',importance:'high',desc:'警告次數'},
+      {key:'redCards',label:'紅牌',unit:'',suffix:'',importance:'high',desc:'驅逐出場'},
+      {key:'shotsOffTarget',label:'射偏',unit:'',suffix:'',importance:'normal',desc:'未命中目標的射門'},
+      {key:'shotsInsideBox',label:'禁區射門',unit:'',suffix:'',importance:'normal',desc:'禁區內威脅'},
+      {key:'shotsOutsideBox',label:'禁區外射門',unit:'',suffix:'',importance:'normal',desc:'遠距離嘗試'},
+      {key:'corners',label:'角球',unit:'',suffix:'',importance:'normal',desc:'定位球機會'},
+      {key:'offsides',label:'越位',unit:'',suffix:'',importance:'normal',desc:'越位次數'},
+      {key:'freeKicks',label:'自由球',unit:'',suffix:'',importance:'low',desc:'自由球機會'},
+      {key:'passes',label:'傳球次數',unit:'',suffix:'',importance:'low',desc:'總傳球'},
+      {key:'crosses',label:'傳中',unit:'',suffix:'',importance:'low',desc:'邊路傳中'},
+      {key:'crossesCompleted',label:'傳中成功',unit:'',suffix:'',importance:'low',desc:'成功傳中'},
+      {key:'forcedTurnovers',label:'逼搶成功',unit:'',suffix:'',importance:'low',desc:'壓迫造成失誤'},
+      {key:'pressingApplied',label:'壓迫次數',unit:'',suffix:'',importance:'low',desc:'高位壓迫'}
     ];
     statsHtml='<div class="stats-comparison">';
     for(const s of statsDef){
@@ -139,25 +141,54 @@ function mCard(m){
       const pct2=100-pct1;
       const val1=s.suffix?`${v[0]}${s.suffix}`:v[0];
       const val2=s.suffix?`${v[1]}${s.suffix}`:v[1];
+
+      // 根據重要性設定顏色
+      let leftColor, rightColor, labelClass;
+      if(s.importance==='critical'){
+        leftColor='#0d9488';   // 深青色
+        rightColor='#0d9488';
+        labelClass='stats-label-critical';
+      } else if(s.importance==='high'){
+        leftColor='#0891b2';   // 天藍
+        rightColor='#0891b2';
+        labelClass='stats-label-high';
+      } else if(s.importance==='normal'){
+        leftColor='#64748b';   // 灰色
+        rightColor='#64748b';
+        labelClass='stats-label-normal';
+      } else {
+        leftColor='#94a3b8';   // 淺灰
+        rightColor='#94a3b8';
+        labelClass='stats-label-low';
+      }
+
+      const star = s.importance==='critical'?'⭐ ':'';
       statsHtml+=`<div class="stats-row">
-        <span class="stats-val-left" style="width:50px;text-align:right;font-size:0.75rem;font-weight:700;flex-shrink:0;color:var(--teal);">${val1}</span>
+        <span class="stats-val-left" style="width:50px;text-align:right;font-size:0.75rem;font-weight:700;flex-shrink:0;color:${leftColor};">${val1}</span>
         <div class="stats-bar-wrap">
           <div class="stats-bar-bg">
-            <div class="stats-bar-left" style="width:${pct1}%"></div>
-            <div class="stats-bar-right" style="width:${pct2}%"></div>
+            <div class="stats-bar-left" style="width:${pct1}%;background:${leftColor};opacity:0.5"></div>
+            <div class="stats-bar-right" style="width:${pct2}%;background:${rightColor};opacity:0.5"></div>
           </div>
         </div>
-        <span class="stats-label">${s.label}</span>
+        <span class="${labelClass}">${star}${s.label}</span>
         <div class="stats-bar-wrap">
           <div class="stats-bar-bg">
-            <div class="stats-bar-left" style="width:${pct2}%"></div>
-            <div class="stats-bar-right" style="width:${pct1}%"></div>
+            <div class="stats-bar-left" style="width:${pct2}%;background:${rightColor};opacity:0.5"></div>
+            <div class="stats-bar-right" style="width:${pct1}%;background:${leftColor};opacity:0.5"></div>
           </div>
         </div>
-        <span class="stats-val-right" style="width:50px;text-align:left;font-size:0.75rem;font-weight:700;flex-shrink:0;color:#818cf8;">${val2}</span>
+        <span class="stats-val-right" style="width:50px;text-align:left;font-size:0.75rem;font-weight:700;flex-shrink:0;color:${rightColor};">${val2}</span>
       </div>`;
     }
     statsHtml+='</div>';
+
+    // 圖例說明
+    statsHtml+=`<div style="margin-top:10px;padding-top:8px;border-top:1px solid var(--card-border);display:flex;gap:12px;flex-wrap:wrap;font-size:0.65rem;color:var(--text-muted);">
+      <span>⭐ <span style="color:#0d9488;font-weight:600;">核心數據</span> — 最重要的比賽指標</span>
+      <span>🔵 <span style="color:#0891b2;font-weight:600;">重要數據</span> — 輔助分析</span>
+      <span>⚪ <span style="color:#64748b;">一般數據</span> — 參考資訊</span>
+    </div>`;
 
     // 加入展開/收合按鈕
     statsHtml=`<div class="match-stats-toggle" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
