@@ -171,22 +171,23 @@ function mCard(m){
       const lowerIsBetter = ['fouls','yellowCards','redCards','offsides'].includes(s.key);
       const t1Wins = lowerIsBetter ? (v1num < v2num) : (v1num > v2num);
       const t2Wins = lowerIsBetter ? (v2num < v1num) : (v2num > v1num);
-      // 同一色系：贏家深色、輸家淺色
+      // 同一色系：贏家深色、輸家維持正常色
       const rowHue = s.importance==='critical'?'teal':'blue';
-      const dark1 = rowHue==='teal'?'#0d9488':'#0891b2';
-      const light1 = rowHue==='teal'?'#a0d9d0':'#99d6e8';
-      const dark2 = rowHue==='teal'?'#0d9488':'#0891b2';
-      const light2 = rowHue==='teal'?'#a0d9d0':'#99d6e8';
-      const winColor1 = t1Wins ? dark1 : (isTied ? '#64748b' : light1);
-      const winColor2 = t2Wins ? dark2 : (isTied ? '#64748b' : light2);
-      const winWeight1 = t1Wins ? '800' : (isTied ? '600' : '400');
-      const winWeight2 = t2Wins ? '800' : (isTied ? '600' : '400');
+      const clrDark = rowHue==='teal'?'#0d9488':'#0891b2';
+      const clrNormal = rowHue==='teal'?'#5cb9b0':'#5ba8c0';
+      const winColor1 = t1Wins ? clrDark : (isTied ? '#64748b' : clrNormal);
+      const winColor2 = t2Wins ? clrDark : (isTied ? '#64748b' : clrNormal);
+      const winWeight1 = t1Wins ? '800' : (isTied ? '600' : '500');
+      const winWeight2 = t2Wins ? '800' : (isTied ? '600' : '500');
+      // 色條：贏家深色不透明、輸家正常色半透明
+      const barOpacity1 = t1Wins ? '0.7' : '0.35';
+      const barOpacity2 = t2Wins ? '0.7' : '0.35';
       statsHtml+=`<div class="stats-row">
         <span class="stats-val-left" style="width:50px;text-align:right;font-size:0.78rem;font-weight:${winWeight1};flex-shrink:0;color:${winColor1};">${val1}</span>
         <div class="stats-bar-wrap">
           <div class="stats-bar-bg">
-            <div class="stats-bar-left" style="width:${pct1}%;background:${dark1};opacity:${t1Wins?0.7:0.25}"></div>
-            <div class="stats-bar-right" style="width:${pct2}%;background:${dark2};opacity:${t2Wins?0.7:0.25}"></div>
+            <div class="stats-bar-left" style="width:${pct1}%;background:${clrDark};opacity:${barOpacity1}"></div>
+            <div class="stats-bar-right" style="width:${pct2}%;background:${clrDark};opacity:${barOpacity2}"></div>
           </div>
         </div>
         <span class="${labelClass}">${star}${s.label}</span>
