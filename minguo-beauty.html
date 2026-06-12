@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>民國美女</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background: linear-gradient(145deg, #f5efe6 0%, #e8ddd0 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Noto Serif SC", "STSong", serif;
+}
+.frame {
+  background: #faf6f0;
+  padding: 40px 40px 20px;
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.08), 0 2px 8px rgba(0,0,0,0.04);
+  position: relative;
+}
+canvas {
+  display: block;
+  width: 400px;
+  height: 500px;
+}
+.caption {
+  text-align: center;
+  margin-top: 16px;
+  color: #8b7d6b;
+  font-size: 0.9rem;
+  letter-spacing: 3px;
+}
+</style>
+</head>
+<body>
+<div class="frame">
+  <canvas id="c" width="400" height="500"></canvas>
+  <div class="caption">— 民國 • 林下風度 —</div>
+</div>
+<script>
+const c = document.getElementById('c');
+const ctx = c.getContext('2d');
+
+// 背景 - 淡雅宣紙色
+ctx.fillStyle = '#faf6f0';
+ctx.fillRect(0, 0, 400, 500);
+
+// 淺淺的遠山／背景
+ctx.save();
+ctx.globalAlpha = 0.06;
+ctx.fillStyle = '#5b7a6e';
+ctx.beginPath();
+ctx.moveTo(0, 380);
+ctx.quadraticCurveTo(100, 320, 200, 360);
+ctx.quadraticCurveTo(300, 340, 400, 370);
+ctx.lineTo(400, 500);
+ctx.lineTo(0, 500);
+ctx.fill();
+ctx.restore();
+
+// 頭髮（包頭+瀏海）
+ctx.save();
+ctx.fillStyle = '#2a1a0e';
+// 包頭
+ctx.beginPath();
+ctx.ellipse(200, 98, 28, 24, 0, 0, Math.PI*2);
+ctx.fill();
+// 瀏海
+ctx.beginPath();
+ctx.ellipse(200, 124, 52, 18, 0, Math.PI, Math.PI*2);
+ctx.fill();
+// 側髮
+ctx.beginPath();
+ctx.ellipse(170, 118, 14, 32, -0.15, 0, Math.PI*2);
+ctx.fill();
+ctx.beginPath();
+ctx.ellipse(230, 118, 14, 32, 0.15, 0, Math.PI*2);
+ctx.fill();
+ctx.restore();
+
+// 臉
+ctx.save();
+ctx.fillStyle = '#f5e8da';
+ctx.beginPath();
+ctx.ellipse(200, 148, 40, 50, 0, 0, Math.PI*2);
+ctx.fill();
+ctx.restore();
+
+// 眉毛
+ctx.save();
+ctx.strokeStyle = '#4a3828';
+ctx.lineWidth = 1.5;
+ctx.beginPath();
+ctx.moveTo(182, 138);
+ctx.quadraticCurveTo(190, 134, 197, 137);
+ctx.stroke();
+ctx.beginPath();
+ctx.moveTo(203, 137);
+ctx.quadraticCurveTo(210, 134, 218, 138);
+ctx.stroke();
+ctx.restore();
+
+// 眼睛（低垂溫婉）
+ctx.save();
+ctx.fillStyle = '#3a281a';
+ctx.beginPath();
+ctx.ellipse(189, 147, 5, 3.5, 0, 0, Math.PI*2);
+ctx.fill();
+ctx.beginPath();
+ctx.ellipse(211, 147, 5, 3.5, 0, 0, Math.PI*2);
+ctx.fill();
+// 眼神光
+ctx.fillStyle = '#faf6f0';
+ctx.beginPath();
+ctx.ellipse(187, 146, 1.8, 1.5, 0, 0, Math.PI*2);
+ctx.fill();
+ctx.beginPath();
+ctx.ellipse(209, 146, 1.8, 1.5, 0, 0, Math.PI*2);
+ctx.fill();
+ctx.restore();
+
+// 鼻子
+ctx.save();
+ctx.strokeStyle = '#c4a892';
+ctx.lineWidth = 1;
+ctx.beginPath();
+ctx.moveTo(200, 152);
+ctx.lineTo(200, 160);
+ctx.stroke();
+ctx.restore();
+
+// 嘴唇（淺淺微笑）
+ctx.save();
+ctx.strokeStyle = '#c4766a';
+ctx.lineWidth = 2;
+ctx.beginPath();
+ctx.moveTo(194, 167);
+ctx.quadraticCurveTo(200, 173, 206, 167);
+ctx.stroke();
+ctx.restore();
+
+// 耳環（小小珍珠耳扣）
+ctx.save();
+ctx.fillStyle = '#e8ddd0';
+ctx.strokeStyle = '#c4a892';
+ctx.lineWidth = 0.5;
+ctx.beginPath();
+ctx.arc(160, 148, 3, 0, Math.PI*2);
+ctx.fill();
+ctx.stroke();
+ctx.beginPath();
+ctx.arc(240, 148, 3, 0, Math.PI*2);
+ctx.fill();
+ctx.stroke();
+ctx.restore();
+
+// 衣服：民國女學生藍色上衣（五四裝）
+ctx.save();
+ctx.fillStyle = '#5b7a9e';
+ctx.beginPath();
+// 左肩到右肩
+ctx.moveTo(150, 188);
+ctx.quadraticCurveTo(200, 178, 250, 188);
+// 右下擺
+ctx.quadraticCurveTo(260, 200, 255, 280);
+// 右袖口（燈籠袖）
+ctx.quadraticCurveTo(270, 278, 268, 260);
+ctx.lineTo(268, 228);
+// 右肩
+ctx.quadraticCurveTo(260, 222, 250, 220);
+ctx.lineTo(245, 190);
+// 左下擺
+ctx.quadraticCurveTo(240, 200, 145, 280);
+// 左袖口
+ctx.quadraticCurveTo(130, 278, 132, 260);
+ctx.lineTo(132, 228);
+// 左肩
+ctx.quadraticCurveTo(140, 222, 150, 220);
+ctx.closePath();
+ctx.fill();
+
+// 領口（旗袍領）
+ctx.fillStyle = '#4a6a8a';
+ctx.fillRect(194, 182, 12, 22);
+// 領口滾邊
+ctx.strokeStyle = '#8b6f5c';
+ctx.lineWidth = 1;
+ctx.strokeRect(194, 182, 12, 22);
+ctx.restore();
+
+// 盤扣（領口）
+ctx.save();
+ctx.fillStyle = '#8b6f5c';
+for(let y=185; y<=200; y+=8){
+  ctx.beginPath();
+  ctx.arc(200, y, 1.8, 0, Math.PI*2);
+  ctx.fill();
+}
+ctx.restore();
+
+// 黑色過膝裙
+ctx.save();
+ctx.fillStyle = '#2a2a2e';
+ctx.beginPath();
+ctx.moveTo(148, 280);
+ctx.quadraticCurveTo(200, 274, 252, 280);
+ctx.lineTo(258, 390);
+ctx.quadraticCurveTo(200, 394, 142, 390);
+ctx.closePath();
+ctx.fill();
+// 裙褶
+ctx.strokeStyle = '#1a1a1e';
+ctx.lineWidth = 0.5;
+ctx.setLineDash([2,4]);
+for(let x=165; x<=240; x+=12){
+  ctx.beginPath();
+  ctx.moveTo(x, 285);
+  ctx.lineTo(x+3, 390);
+  ctx.stroke();
+}
+ctx.restore();
+
+// 手臂（白色襯袖）
+ctx.save();
+ctx.fillStyle = '#f0ebe3';
+// 左臂
+ctx.beginPath();
+ctx.ellipse(140, 224, 12, 24, -0.1, 0, Math.PI*2);
+ctx.fill();
+// 右手
+ctx.beginPath();
+ctx.ellipse(260, 224, 12, 24, 0.1, 0, Math.PI*2);
+ctx.fill();
+// 右手持書
+ctx.restore();
+
+// 書本（右手拿著）
+ctx.save();
+ctx.fillStyle = '#8b6f5c';
+ctx.beginPath();
+ctx.moveTo(262, 260);
+ctx.lineTo(282, 254);
+ctx.lineTo(278, 244);
+ctx.lineTo(258, 248);
+ctx.closePath();
+ctx.fill();
+ctx.fillStyle = '#a0806a';
+ctx.beginPath();
+ctx.moveTo(262, 260);
+ctx.lineTo(258, 248);
+ctx.lineTo(254, 252);
+ctx.lineTo(258, 264);
+ctx.closePath();
+ctx.fill();
+ctx.fillStyle = '#f5efe6';
+ctx.font = '6px serif';
+ctx.fillText('詩經', 260, 258);
+ctx.restore();
+
+// 梅花枝（從左下伸出）
+ctx.save();
+ctx.strokeStyle = '#6b4c3a';
+ctx.lineWidth = 2.5;
+ctx.beginPath();
+ctx.moveTo(80, 460);
+ctx.quadraticCurveTo(110, 420, 130, 380);
+ctx.stroke();
+ctx.lineWidth = 1.5;
+ctx.beginPath();
+ctx.moveTo(110, 410);
+ctx.quadraticCurveTo(140, 390, 160, 385);
+ctx.stroke();
+// 梅花
+ctx.fillStyle = '#e8b4b8';
+for(let p of [{x:130,y:380},{x:160,y:385},{x:105,y:418},{x:118,y:395}]){
+  for(let i=0;i<5;i++){
+    let a=i*Math.PI*2/5-Math.PI/2;
+    ctx.beginPath();
+    ctx.ellipse(p.x+Math.cos(a)*4, p.y+Math.sin(a)*4, 4, 2.5, a, 0, Math.PI*2);
+    ctx.fill();
+  }
+  ctx.fillStyle = '#c4766a';
+  ctx.beginPath();
+  ctx.arc(p.x, p.y, 1.5, 0, Math.PI*2);
+  ctx.fill();
+  ctx.fillStyle = '#e8b4b8';
+}
+ctx.restore();
+
+// 左上角題字
+ctx.save();
+ctx.fillStyle = '#b8a892';
+ctx.globalAlpha = 0.35;
+ctx.font = '12px "Noto Serif SC", "STSong", serif';
+ctx.fillText('歲寒', 30, 60);
+ctx.globalAlpha = 0.2;
+ctx.font = '10px "Noto Serif SC", "STSong", serif';
+ctx.fillText('乙巳年冬', 30, 78);
+ctx.restore();
+
+// 右下印章
+ctx.save();
+ctx.strokeStyle = '#c4766a';
+ctx.globalAlpha = 0.4;
+ctx.lineWidth = 1.5;
+ctx.strokeRect(330, 430, 45, 45);
+ctx.globalAlpha = 0.35;
+ctx.font = '16px "Noto Serif SC", "STSong", serif';
+ctx.fillStyle = '#c4766a';
+ctx.fillText('清', 340, 453);
+ctx.fillText('韻', 348, 468);
+ctx.restore();
+
+</script>
+</body>
+</html>

@@ -440,7 +440,39 @@ const WC_DATA = {
     },
 
     // === 6月12日 ===
-    { date: '2026-06-12', time: '15:00 ET', group: 'B', team1: 'Canada', score1: null, team2: 'Bosnia and Herzegovina', score2: null, venue: '多倫多·BMO球場', status: 'scheduled' },
+    { date: '2026-06-12', time: '15:00 ET', group: 'B', team1: 'Canada', score1: 1, team2: 'Bosnia and Herzegovina', score2: 1, venue: '多倫多·BMO球場', status: 'completed',
+      goals: [
+        { min: 21, team: 2, scorer: 'Jovo Lukic', assist: 'Sead Kolašinac', detail: '角球頭槌' },
+        { min: 78, team: 1, scorer: 'Cyle Larin', assist: 'Stephen Eustáquio', detail: '禁區內射門扳平' }
+      ],
+      cards: [
+        { min: 38, team: 1, player: 'Richie Laryea', card: 'yellow' },
+        { min: 55, team: 1, player: 'Ismaël Koné', card: 'yellow' },
+        { min: 61, team: 2, player: 'Ivan Bašić', card: 'yellow' },
+        { min: 73, team: 2, player: 'Benjamin Tahirović', card: 'yellow' }
+      ],
+      stats: {
+        possession: [64, 36],
+        shots: [12, 8],
+        shotsOnTarget: [4, 3],
+        shotsOffTarget: [5, 3],
+        shotsInsideBox: [8, 5],
+        shotsOutsideBox: [4, 3],
+        passes: [520, 380],
+        passCompleted: [430, 310],
+        passAccuracy: [82.7, 81.6],
+        crosses: [24, 14],
+        crossesCompleted: [6, 5],
+        corners: [9, 3],
+        freeKicks: [13, 16],
+        fouls: [13, 14],
+        offsides: [2, 1],
+        yellowCards: [2, 2],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [210, 260]
+      }
+    },
     { date: '2026-06-12', time: '21:00 ET', group: 'D', team1: 'USA', score1: null, team2: 'Paraguay', score2: null, venue: '洛杉磯·SoFi體育場', status: 'scheduled' },
 
     // === 6月13日 ===
@@ -547,10 +579,10 @@ const WC_DATA = {
       { team: 'South Africa', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 2, gd: -2, pts: 0 }
     ],
     'B': [
-      { team: 'Canada', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
+      { team: 'Canada', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
+      { team: 'Bosnia and Herzegovina', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
       { team: 'Switzerland', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Qatar', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Bosnia and Herzegovina', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
+      { team: 'Qatar', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
     ],
     'C': [
       { team: 'Brazil', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
