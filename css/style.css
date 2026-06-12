@@ -293,12 +293,15 @@ body {
 }
 
 .match-group-badge {
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-weight: 700;
-  padding: 4px 14px;
+  padding: 5px 16px;
   border-radius: 20px;
   background: var(--blue-light);
   color: var(--blue);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .match-status-badge {

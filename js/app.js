@@ -32,7 +32,7 @@ function fimg(t,size='32x24',cls='fimg'){
   const c=FLAG_MAP[t]||'un';
   return `<img class="${cls}" src="https://flagcdn.com/${size}/${c}.png" alt="${t}" loading="lazy" onerror="this.outerHTML='🏳️'">`;
 }
-function fimgSm(t){return fimg(t,'24x18','fimg fimg-sm');}
+function fimgSm(t){return fimg(t,'28x21','fimg fimg-sm');}
 function fimgMd(t){return fimg(t,'32x24','fimg');}
 function fimgLg(t){return fimg(t,'48x36','fimg fimg-lg');}
 function fimgXl(t){return fimg(t,'64x48','fimg fimg-xl');}
