@@ -133,10 +133,10 @@ function mCard(m){
       {key:'pressingApplied',label:'壓迫次數',unit:'',suffix:'',importance:'low',desc:'高位壓迫'}
     ];
     const hueMap = {
-      critical:{dark:'#0d9488',light:'#5cb9b0',cls:'stats-label-critical',star:'⭐ '},
-      high:{dark:'#0891b2',light:'#5ba8c0',cls:'stats-label-high',star:''},
-      normal:{dark:'#64748b',light:'#94a3b8',cls:'stats-label-normal',star:''},
-      low:{dark:'#94a3b8',light:'#cbd5e1',cls:'stats-label-low',star:''}
+      critical:{dark:'#065f46',light:'#0d9488',cls:'stats-label-critical',star:'⭐ '},
+      high:{dark:'#075985',light:'#0891b2',cls:'stats-label-high',star:''},
+      normal:{dark:'#334155',light:'#64748b',cls:'stats-label-normal',star:''},
+      low:{dark:'#64748b',light:'#94a3b8',cls:'stats-label-low',star:''}
     };
     const lowerBetter = new Set(['fouls','yellowCards','redCards','offsides']);
     statsHtml='<div class="stats-comparison">';
