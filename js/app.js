@@ -164,8 +164,20 @@ function mCard(m){
       }
 
       const star = s.importance==='critical'?'⭐ ':'';
+      // 判斷哪一隊在這個數據上佔優勢
+      const v1num = parseFloat(v[0]) || 0;
+      const v2num = parseFloat(v[1]) || 0;
+      const isTied = v1num === v2num;
+      // 對犯規/黃牌/紅牌來說，數字低反而較好
+      const lowerIsBetter = ['fouls','yellowCards','redCards','offsides'].includes(s.key);
+      const t1Wins = lowerIsBetter ? (v1num < v2num) : (v1num > v2num);
+      const t2Wins = lowerIsBetter ? (v2num < v1num) : (v2num > v1num);
+      const winColor1 = t1Wins ? '#0d9488' : (isTied ? '#64748b' : '#94a3b8');
+      const winColor2 = t2Wins ? '#818cf8' : (isTied ? '#64748b' : '#94a3b8');
+      const winWeight1 = t1Wins ? '800' : '400';
+      const winWeight2 = t2Wins ? '800' : '400';
       statsHtml+=`<div class="stats-row">
-        <span class="stats-val-left" style="width:50px;text-align:right;font-size:0.75rem;font-weight:700;flex-shrink:0;color:${leftColor};">${val1}</span>
+        <span class="stats-val-left" style="width:50px;text-align:right;font-size:0.78rem;font-weight:${winWeight1};flex-shrink:0;color:${winColor1};">${val1}</span>
         <div class="stats-bar-wrap">
           <div class="stats-bar-bg">
             <div class="stats-bar-left" style="width:${pct1}%;background:${leftColor};opacity:0.5"></div>
@@ -179,7 +191,7 @@ function mCard(m){
             <div class="stats-bar-right" style="width:${pct1}%;background:${leftColor};opacity:0.5"></div>
           </div>
         </div>
-        <span class="stats-val-right" style="width:50px;text-align:left;font-size:0.75rem;font-weight:700;flex-shrink:0;color:${rightColor};">${val2}</span>
+        <span class="stats-val-right" style="width:50px;text-align:left;font-size:0.78rem;font-weight:${winWeight2};flex-shrink:0;color:${winColor2};">${val2}</span>
       </div>`;
     }
     statsHtml+='</div>';
