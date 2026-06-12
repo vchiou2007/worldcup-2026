@@ -46,6 +46,19 @@ function stnd(g){return WC_DATA.standings[g]||[];}
 
 // ===== 星期幾 — 永遠顯示 =====
 const WD=['日','一','二','三','四','五','六'];
+function clockTick(){
+  const el=document.getElementById('live-clock');
+  if(!el)return;
+  const now=new Date();
+  const timeStr=now.toLocaleString('zh-TW',{timeZone:'America/Toronto',hour:'2-digit',minute:'2-digit',hour12:false});
+  const dateStr=now.toLocaleString('zh-TW',{timeZone:'America/Toronto',month:'numeric',day:'numeric'});
+  const dow=WD[now.getDay()];
+  el.innerHTML=`🕐 加拿大時間 ${dateStr}（${dow}） ${timeStr}`;
+}
+function initLiveClock(){
+  clockTick();
+  setInterval(clockTick,10000);
+}
 function fd(d){const dt=new Date(d+'T12:00:00');return`${dt.getMonth()+1}月${dt.getDate()}日`;}
 function fdFull(d){const dt=new Date(d+'T12:00:00');return`${fd(d)}（週${WD[dt.getDay()]}）`;}
 
@@ -161,6 +174,7 @@ function renderSlideshow(){
         <div class="hero-badge" style="color:#fff;border-color:rgba(255,255,255,0.2);background:rgba(255,255,255,0.08);">⚽ FIFA WORLD CUP 2026</div>
         <h1 style="color:#fff;-webkit-text-fill-color:#fff;">2026 世界盃</h1>
         <p class="hero-subtitle" style="color:rgba(255,255,255,0.65);">${fimgSm('USA')} 美國 · ${fimgSm('Canada')} 加拿大 · ${fimgSm('Mexico')} 墨西哥 ｜ 6.11 — 7.19</p>
+        <div id="live-clock" style="font-size:0.9rem;font-weight:600;color:rgba(255,255,255,0.7);margin-bottom:20px;font-variant-numeric:tabular-nums;">🕐 載入中...</div>
         <div class="hero-stats">
           <div class="hero-stat"><div class="hero-stat-number" style="-webkit-text-fill-color:#fff;color:#fff;">48</div><div class="hero-stat-label" style="color:rgba(255,255,255,0.5);">參賽隊伍</div></div>
           <div class="hero-stat"><div class="hero-stat-number" style="-webkit-text-fill-color:#fff;color:#fff;">${WC_DATA.matches.length}</div><div class="hero-stat-label" style="color:rgba(255,255,255,0.5);">總場次</div></div>
@@ -178,6 +192,7 @@ function renderSlideshow(){
 // ========== 主頁 ==========
 function renderHome(){
   renderSlideshow();
+  initLiveClock();
   const t=td();
   const el1=document.getElementById('today-matches');
   if(el1){
