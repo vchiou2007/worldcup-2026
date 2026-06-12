@@ -293,9 +293,9 @@ body {
 }
 
 .match-group-badge {
-  font-size: 0.68rem;
-  font-weight: 600;
-  padding: 3px 12px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  padding: 4px 14px;
   border-radius: 20px;
   background: var(--blue-light);
   color: var(--blue);
@@ -709,7 +709,7 @@ body {
 .team-card-top .tinfo .zh { font-size: 0.75rem; color: var(--text-muted); }
 .team-card-top .tinfo .badge {
   display: inline-block;
-  font-size: 0.6rem;
+  font-size: 0.78rem;
   padding: 2px 8px;
   border-radius: 10px;
   background: var(--blue-light);
@@ -838,7 +838,7 @@ body {
 .gm-card:hover { box-shadow: var(--card-shadow-hover); }
 
 .gm-title {
-  font-size: 0.82rem;
+  font-size: 0.88rem;
   font-weight: 700;
   color: var(--blue);
   margin-bottom: 8px;
