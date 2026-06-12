@@ -32,26 +32,26 @@ self.addEventListener('activate', e => {
 self.addEventListener('fetch', e => {
   const url = new URL(e.request.url);
 
-  // 資料檔案：一律從網路取得最新版，快取作為離線備援
+  // 資料檔案、JS、CSS：一律從網路取得最新版，快取作為離線備援
   if (url.pathname.includes('/data/worldcup-data.js') ||
-      url.pathname.includes('/data/player_images.js')) {
+      url.pathname.includes('/data/player_images.js') ||
+      url.pathname.includes('/js/') ||
+      url.pathname.includes('/css/')) {
     e.respondWith(
       fetch(e.request)
         .then(res => {
-          // 成功取得網路資料 → 更新快取
           const clone = res.clone();
           caches.open(CACHE).then(c => c.put(e.request, clone));
           return res;
         })
         .catch(() => caches.match(e.request).then(r => {
-          // 離線時回傳快取
           return r || new Response('Offline', { status: 503 });
         }))
     );
     return;
   }
 
-  // 其他靜態資源：快取優先（現有策略）
+  // HTML 頁面與其他靜態資源：快取優先
   e.respondWith(
     caches.match(e.request).then(r => r || fetch(e.request).catch(() => {
       if (e.request.mode === 'navigate') {
