@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚽</text></svg>">
   <meta property="og:title" content="2026 世界盃足球賽 — 即時資訊站">
-  <meta property="og:description" content="48 隊分組、即時賽果、球星介紹 — 每日自動更新">
+  <meta property="og:description" content="🇺🇸🇨🇦🇲🇽 48 隊分組｜即時賽果｜球星中英文介紹｜每日自動更新">
   <meta property="og:image" content="https://vchiou2007.github.io/worldcup-2026/og-image.png">
 </head>
 <body data-page="home">
@@ -19,44 +19,37 @@
       </a>
       <nav class="main-nav">
         <a href="index.html" class="active">首頁</a>
-        <a href="groups.html">分組積分</a>
-        <a href="teams.html">48 隊介紹</a>
-        <a href="matches.html">賽程</a>
-        <a href="knockout.html">淘汰賽</a>
-        <a href="https://github.com/vchiou2007/worldcup-2026" target="_blank" style="color:var(--text-muted)">原始碼</a>
+        <a href="groups.html">🏆 分組</a>
+        <a href="teams.html">🌍 48隊</a>
+        <a href="matches.html">📅 賽程</a>
+        <a href="knockout.html">🏅 淘汰賽</a>
+        <a href="https://github.com/vchiou2007/worldcup-2026" target="_blank" style="color:var(--text-muted);font-size:0.75rem;">GitHub</a>
       </nav>
     </div>
   </header>
 
-  <section class="hero" id="hero-container"></section>
+  <section class="hero" id="hero"></section>
 
   <main class="container">
     <div id="today-matches"></div>
-    
-    <div style="margin-top: 40px;" id="yesterday-results"></div>
-    
-    <div style="margin-top: 40px;" id="all-groups-mini"></div>
-    
-    <div style="margin-top: 40px; text-align:center; padding: 32px; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius);">
-      <p style="color: var(--text-secondary); font-size: 0.9rem;">
-        📊 資料來源：FIFA 官方網站 ｜ 每日自動更新 ｜ 
-        資料擷取時間：<span id="update-time">載入中...</span>
-      </p>
+    <div style="margin-top:44px;" id="yesterday-matches"></div>
+    <div style="margin-top:44px;" id="groups-mini"></div>
+    <div class="update-banner">
+      📊 資料來源：<a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026" target="_blank" style="color:var(--gold-light);">FIFA 官方</a>
+       ｜ 每日 4 次自動更新（09:00 · 12:00 · 18:00 · 00:00 ET）
+       ｜ <strong>🕐</strong> <span id="update-time">載入中...</span>
     </div>
   </main>
 
   <footer class="site-footer">
-    <p>⚽ 2026 世界盃足球賽即時資訊站 — 非官方網站</p>
+    <p>⚽ 2026 世界盃即時資訊站 — 非官方網站 ｜ 🇺🇸🇨🇦🇲🇽</p>
     <div class="footer-links">
-      <a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026" target="_blank">FIFA 官方網站</a>
+      <a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026" target="_blank">FIFA 官網</a>
       <a href="https://github.com/vchiou2007/worldcup-2026" target="_blank">GitHub 專案</a>
     </div>
   </footer>
 
   <script src="data/worldcup-data.js"></script>
   <script src="js/app.js"></script>
-  <script>
-    document.getElementById('update-time').textContent = new Date().toLocaleString('zh-TW', { timeZone: 'America/Toronto' });
-  </script>
 </body>
 </html>
