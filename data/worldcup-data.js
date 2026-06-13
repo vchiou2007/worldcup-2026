@@ -543,8 +543,65 @@ const WC_DATA = {
         pressingApplied: [180, 240]
       }
     },
-    { date: '2026-06-13', time: '18:00 ET', group: 'C', team1: 'Brazil', score1: 1, team2: 'Morocco', score2: 1, venue: '紐約/新澤西·大都會人壽體育場', status: 'completed' },
-    { date: '2026-06-13', time: '21:00 ET', group: 'C', team1: 'Haiti', score1: 0, team2: 'Scotland', score2: 0, venue: '波士頓·吉列體育場', status: 'completed' },
+    { date: '2026-06-13', time: '18:00 ET', group: 'C', team1: 'Brazil', score1: 1, team2: 'Morocco', score2: 1, venue: '紐約/新澤西·大都會人壽體育場', status: 'completed',
+      goals: [
+        { min: 21, team: 2, scorer: 'Ismael Saibari', assist: 'Brahim Diaz', detail: '禁區內射門入網，摩洛哥領先' },
+        { min: 32, team: 1, scorer: 'Vinícius Júnior', assist: 'Bruno Guimarães', detail: '禁區內轉身抽射扳平比分' }
+      ],
+      cards: [
+        { min: 37, team: 1, player: 'Casemiro', card: 'yellow', detail: '戰術犯規阻止反擊' },
+        { min: 43, team: 1, player: 'Roger Ibanez', card: 'yellow', detail: '鏟球犯規' }
+      ],
+      stats: {
+        possession: [54, 46],
+        shots: [15, 12],
+        shotsOnTarget: [4, 5],
+        shotsOffTarget: [7, 4],
+        shotsInsideBox: [9, 6],
+        shotsOutsideBox: [6, 6],
+        passes: [520, 460],
+        passCompleted: [465, 395],
+        passAccuracy: [89.4, 85.9],
+        crosses: [22, 14],
+        crossesCompleted: [6, 4],
+        corners: [7, 3],
+        freeKicks: [12, 14],
+        fouls: [14, 13],
+        offsides: [1, 3],
+        yellowCards: [2, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [195, 220]
+      }
+    },
+    { date: '2026-06-13', time: '21:00 ET', group: 'C', team1: 'Haiti', score1: 0, team2: 'Scotland', score2: 0, venue: '波士頓·吉列體育場', status: 'completed',
+      goals: [],
+      cards: [
+        { min: 58, team: 2, player: 'Scott McTominay', card: 'yellow', detail: '中場鏟球犯規' },
+        { min: 72, team: 1, player: 'Jean-Ricner Bellegarde', card: 'yellow', detail: '戰術犯規' }
+      ],
+      stats: {
+        possession: [38, 62],
+        shots: [6, 14],
+        shotsOnTarget: [1, 3],
+        shotsOffTarget: [3, 8],
+        shotsInsideBox: [2, 7],
+        shotsOutsideBox: [4, 7],
+        passes: [290, 510],
+        passCompleted: [225, 440],
+        passAccuracy: [77.6, 86.3],
+        crosses: [7, 18],
+        crossesCompleted: [1, 5],
+        corners: [2, 6],
+        freeKicks: [15, 12],
+        fouls: [16, 10],
+        offsides: [2, 1],
+        yellowCards: [1, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [22, 18],
+        pressingApplied: [160, 200]
+      }
+    },
     { date: '2026-06-13', time: '00:00 ET', group: 'D', team1: 'Australia', score1: null, team2: 'Turkey', score2: null, venue: '溫哥華·BC Place', status: 'scheduled' },
 
     // === 6月14日 ===
