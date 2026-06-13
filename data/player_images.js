@@ -110,23 +110,23 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-13 更新：加入美國、加拿大比賽照片） =====
+// ===== 輪播牆圖片（2026-06-13 更新：加入最新比賽精彩照片） =====
 const HERO_IMAGES = [
-  'https://newsimg.koreatimes.co.kr/2026/06/12/52f24e5c-8732-403e-bfb8-7e0157af31af.jpg',
-  'https://www.dailypress.com/wp-content/uploads/2026/06/AP26164031790490-2.jpg',
-  'https://www.dailypress.com/wp-content/uploads/2026/06/LDN-L-WC-USMNT-0613-KB08-1.jpg',
-  'https://toronto.citynews.ca/wp-content/blogs.dir/sites/10/2026/06/a627dc5c9537929f0ecf37e3283723608fa4979f069deed905aafd6ac3bbde4d-1024x683.jpg',
-  'https://www.dailypress.com/wp-content/uploads/2026/06/LDN-L-WC-USMNT-0613-KB09-1.jpg',
-  'https://toronto.citynews.ca/wp-content/blogs.dir/sites/10/2026/06/92be2e8a2a598c5a3245a6bc2c601095beca99c59cd20f15a8c16c7922ef86b2-1024x682.jpg',
-  'https://www.dailypress.com/wp-content/uploads/2026/06/LDN-L-WC-USMNT-0613-KB10-2.jpg'
+  'https://i.abcnewsfe.com/a/0c1cd694-91b2-4fb8-85be-6c6ab982b800/wc-8-gty-gmh-260611_1781200388928_hpMain_sl_3x2.jpg',
+  'https://i.abcnewsfe.com/a/877b7a98-7be4-448a-8a4c-5703e699567c/wc-2-rt-gmh-260611_1781190643675_hpEmbed_sl_3x2.jpg',
+  'https://media.cnn.com/api/v1/images/stellar/prod/ap26163690621671.jpg',
+  'https://i.abcnewsfe.com/a/cd40426e-107d-4368-a1c7-7f59f08cbfd3/wc-1-ap-gmh-260612_1781356402533_hpEmbed_sl_3x2.jpg',
+  'https://i.abcnewsfe.com/a/b5cea504-2289-46c2-a781-8d714c465433/wc1-gty-gmh-260612_1781272680696_hpEmbed_sl_3x2.jpg',
+  'https://i.abcnewsfe.com/a/782dcc11-f37a-4f51-9c13-d8a809d68533/wc-3-gty-gmh-260612_1781357358827_hpEmbed_sl_3x2.jpg',
+  'https://i.abcnewsfe.com/a/11e7d8c8-e1d3-4ae8-ad78-59f04f46f9dd/wc-12-gty-gmh-260613_1781369988172_hpEmbed_sl_3x2.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇰🇷 南韓 vs 🇨🇿 捷克 — 2026 世界盃小組賽 @ 瓜達拉哈拉體育場',
-  '🇺🇸 美國 4-1 🇵🇾 巴拉圭 — Folarin Balogun 梅開二度 @ 洛杉磯 SoFi 體育場',
-  '⚽ Pulisic 助攻 Balogun！美國夢幻開局 3-0 領先巴拉圭',
-  '🇨🇦 加拿大 1-1 🇧🇦 波士尼亞 — Cyle Larin 第78分鐘扳平，加拿大史上首個世界盃積分！',
-  '🔥 Giovanni Reyna 禁區外腳外背世界波！美國 4-1 鎖定勝局',
-  '💪 加拿大首場主場世界盃 — BMO 球場 45,000 球迷見證歷史一刻',
-  '🎉 美國球迷在 SoFi 球場狂歡 — 32 年來首場本土世界盃比賽'
+  '🇲🇽 墨西哥 2-0 🇿🇦 南非 — Julián Quiñones 射入 2026 世界盃首球！@ 墨西哥城·阿茲特克體育場',
+  '🇰🇷 南韓 2-1 🇨🇿 捷克 — 黃仁範禁區外遠射扳平，南韓下半場逆轉勝 @ 瓜達拉哈拉體育場',
+  '🇨🇦 加拿大 1-1 🇧🇦 波士尼亞 — Cyle Larin 第78分鐘頭槌扳平，加拿大史上首個世界盃積分 @ 多倫多 BMO 球場',
+  '🇺🇸 美國 4-1 🇵🇾 巴拉圭 — Folarin Balogun 上半場梅開二度！美國隊史世界盃單場最多進球 @ 洛杉磯 SoFi 體育場',
+  '⚽ Christian Pulisic 精彩助攻 Balogun，美國夢幻開局 2-0！32 年來首場本土世界盃比賽',
+  '🔥 Giovanni Reyna 禁區外腳外背世界波！美國 4-1 鎖定勝局，SoFi 球場全場沸騰',
+  '⚡ 2026 世界盃小組賽第 3 天 — 卡達 vs 瑞士 @ 舊金山李維斯體育場，賽前精彩畫面'
 ];
