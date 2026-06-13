@@ -473,7 +473,42 @@ const WC_DATA = {
         pressingApplied: [210, 260]
       }
     },
-    { date: '2026-06-12', time: '21:00 ET', group: 'D', team1: 'USA', score1: null, team2: 'Paraguay', score2: null, venue: '洛杉磯·SoFi體育場', status: 'scheduled' },
+    { date: '2026-06-12', time: '21:00 ET', group: 'D', team1: 'USA', score1: 4, team2: 'Paraguay', score2: 1, venue: '洛杉磯·SoFi體育場', status: 'completed',
+      goals: [
+        { min: 7, team: 1, scorer: 'Damian Bobadilla (OG)', detail: '巴拉圭後衛烏龍球' },
+        { min: 31, team: 1, scorer: 'Folarin Balogun', assist: 'Christian Pulisic', detail: '禁區內射門入網' },
+        { min: 45, team: 1, scorer: 'Folarin Balogun', assist: 'Malik Tillman', detail: '禁區弧頂抽射左上角' },
+        { min: 73, team: 2, scorer: 'Mauricio', detail: '禁區內射門' },
+        { min: 90, team: 1, scorer: 'Giovanni Reyna', detail: '禁區邊緣外腳背遠射' }
+      ],
+      cards: [
+        { min: 32, team: 2, player: 'Miguel Almiron', card: 'yellow' },
+        { min: 55, team: 2, player: 'Diego Gomez', card: 'yellow' },
+        { min: 80, team: 2, player: 'Alex Arce', card: 'yellow' },
+        { min: 88, team: 2, player: 'Junior Alonso', card: 'yellow' }
+      ],
+      stats: {
+        possession: [63, 37],
+        shots: [17, 8],
+        shotsOnTarget: [6, 1],
+        shotsOffTarget: [8, 3],
+        shotsInsideBox: [11, 4],
+        shotsOutsideBox: [6, 4],
+        passes: [577, 282],
+        passCompleted: [525, 209],
+        passAccuracy: [91, 74],
+        crosses: [18, 10],
+        crossesCompleted: [6, 2],
+        corners: [8, 2],
+        freeKicks: [14, 16],
+        fouls: [12, 14],
+        offsides: [3, 2],
+        yellowCards: [0, 4],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [240, 220]
+      }
+    },
 
     // === 6月13日 ===
     { date: '2026-06-13', time: '15:00 ET', group: 'B', team1: 'Qatar', score1: null, team2: 'Switzerland', score2: null, venue: '舊金山·李維斯體育場', status: 'scheduled' },
@@ -591,10 +626,10 @@ const WC_DATA = {
       { team: 'Haiti', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
     ],
     'D': [
-      { team: 'USA', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
+      { team: 'USA', played: 1, won: 1, drawn: 0, lost: 0, gf: 4, ga: 1, gd: 3, pts: 3 },
       { team: 'Turkey', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
       { team: 'Australia', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Paraguay', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
+      { team: 'Paraguay', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 4, gd: -3, pts: 0 }
     ],
     'E': [
       { team: 'Germany', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },

@@ -110,23 +110,23 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-12 更新：加入比賽精彩照片） =====
+// ===== 輪播牆圖片（2026-06-13 更新：加入美國、加拿大比賽照片） =====
 const HERO_IMAGES = [
   'https://newsimg.koreatimes.co.kr/2026/06/12/52f24e5c-8732-403e-bfb8-7e0157af31af.jpg',
-  'https://newsimg.koreatimes.co.kr/2026/06/12/ed9d8441-9b03-4988-aa32-e94e367d3286.jpg',
-  'https://newsimg.koreatimes.co.kr/2026/06/12/b84301a8-c143-4171-94ae-2575fca41755.jpg',
-  'https://newsimg.koreatimes.co.kr/2026/06/12/43164dda-c264-4fb0-be48-94ccc9f83dce.jpg',
-  'https://newsimg.koreatimes.co.kr/2026/06/12/d4375e72-27a8-4927-bcfc-869fe3cd387f.jpg',
-  'https://i.cbc.ca/ais/85284ef7-7a6f-4b90-bc57-2f0ad0b80825,1781300429117/full/max/0/default.jpg',
-  'https://newsimg.koreatimes.co.kr/2026/06/12/583891ae-173e-4477-b54f-271edbcac6e2.jpg'
+  'https://www.dailypress.com/wp-content/uploads/2026/06/AP26164031790490-2.jpg',
+  'https://www.dailypress.com/wp-content/uploads/2026/06/LDN-L-WC-USMNT-0613-KB08-1.jpg',
+  'https://toronto.citynews.ca/wp-content/blogs.dir/sites/10/2026/06/a627dc5c9537929f0ecf37e3283723608fa4979f069deed905aafd6ac3bbde4d-1024x683.jpg',
+  'https://www.dailypress.com/wp-content/uploads/2026/06/LDN-L-WC-USMNT-0613-KB09-1.jpg',
+  'https://toronto.citynews.ca/wp-content/blogs.dir/sites/10/2026/06/92be2e8a2a598c5a3245a6bc2c601095beca99c59cd20f15a8c16c7922ef86b2-1024x682.jpg',
+  'https://www.dailypress.com/wp-content/uploads/2026/06/LDN-L-WC-USMNT-0613-KB10-2.jpg'
 ];
 
 const HERO_CAPTIONS = [
   '🇰🇷 南韓 vs 🇨🇿 捷克 — 2026 世界盃小組賽 @ 瓜達拉哈拉體育場',
-  '⚽ 黃仁範精彩進球！南韓 2-1 逆轉擊敗捷克',
-  '🔥 吳賢揆替補建功，南韓世界盃首戰開紅盤',
-  '🎉 孫興慜與隊友慶祝勝利 @ 瓜達拉哈拉',
-  '🇰🇷 首爾光化門廣場 — 韓國球迷街頭狂歡',
-  '🇨🇦 加拿大 1-1 🇧🇦 波士尼亞 — Cyle Larin 第78分鐘扳平 @ 多倫多',
-  '⚡ 孫興慜屢造威脅，南韓攻勢如潮'
+  '🇺🇸 美國 4-1 🇵🇾 巴拉圭 — Folarin Balogun 梅開二度 @ 洛杉磯 SoFi 體育場',
+  '⚽ Pulisic 助攻 Balogun！美國夢幻開局 3-0 領先巴拉圭',
+  '🇨🇦 加拿大 1-1 🇧🇦 波士尼亞 — Cyle Larin 第78分鐘扳平，加拿大史上首個世界盃積分！',
+  '🔥 Giovanni Reyna 禁區外腳外背世界波！美國 4-1 鎖定勝局',
+  '💪 加拿大首場主場世界盃 — BMO 球場 45,000 球迷見證歷史一刻',
+  '🎉 美國球迷在 SoFi 球場狂歡 — 32 年來首場本土世界盃比賽'
 ];
