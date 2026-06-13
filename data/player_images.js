@@ -112,21 +112,28 @@ const PLAYER_IMAGES = {
 
 // ===== 輪播牆圖片（2026-06-13 更新：加入第3天精彩照片） =====
 const HERO_IMAGES = [
-  'https://www.mercurynews.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0614-152.jpg',
-  'https://www.mercurynews.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0614-124.jpg',
-  'https://www.mercurynews.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0614-120.jpg',
-  'https://www.mercurynews.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0614-112.jpg',
-  'https://www.mercurynews.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0614-10.jpg',
-  'https://i.abcnewsfe.com/a/11e7d8c8-e1d3-4ae8-ad78-59f04f46f9dd/wc-12-gty-gmh-260613_1781369988172_hpEmbed_sl_3x2.jpg',
-  'https://i.abcnewsfe.com/a/b5cea504-2289-46c2-a781-8d714c465433/wc1-gty-gmh-260612_1781272680696_hpEmbed_sl_3x2.jpg'
+  // 🇧🇷 巴西 1-1 🇲🇦 摩洛哥 — Vinicius Jr 進球後慶祝（AP Photo）
+  'https://cf-images.assettype.com/outlookindia/2026-06-13/2xiibx1j/Brazil-Vs-Morocco-FIFA-World-Cup-2026-Group-C-Vini-Goal-Celeb-Team-AP-Photo.jpg',
+  // 🇧🇷 巴西 1-1 🇲🇦 摩洛哥 — Ismael Saibari 慶祝摩洛哥進球（AP Photo）
+  'https://cf-images.assettype.com/outlookindia/2026-06-13/kkz0yhdv/Brazil-Vs-Morocco-FIFA-World-Cup-2026-Group-C-Saibari-Goal-Team-Celeb-AP-Photo.jpg',
+  // 🇧🇷 巴西 vs 🇲🇦 摩洛哥 — Vinicius Jr vs Hakimi 對決（AP Photo）
+  'https://cf-images.assettype.com/outlookindia/2026-06-13/td2fpmva/Brazil-Vs-Morocco-FIFA-World-Cup-2026-Group-C-Vinicius-Hakimi-AP-Photo.jpg',
+  // 🇧🇷 巴西 vs 🇲🇦 摩洛哥 — 球迷在 Brooklyn Bridge Park 觀賽（AP Photo）
+  'https://cf-images.assettype.com/outlookindia/2026-06-13/x0dqq500/Brazil-Vs-Morocco-FIFA-World-Cup-2026-Group-C-Brooklyn-Bridge-Park-AP-Photo.jpg',
+  // 🇶🇦 卡達 1-1 🇨🇭 瑞士 — Boualem Khoukhi 絕平進球慶祝（AP Photo）
+  'https://cf-images.assettype.com/outlookindia/2026-06-13/ca5c0513/Qatar-Vs-Switzerland-FIFA-World-Cup-2026-Group-B-Qatar-Celeb-AP-Photo.jpg',
+  // 🇺🇸 美國 4-1 🇵🇾 巴拉圭 — Folarin Balogun 進球慶祝（ABC News)
+  'https://i.abcnewsfe.com/a/b5cea504-2289-46c2-a781-8d714c465433/wc1-gty-gmh-260612_1781272680696_hpEmbed_sl_3x2.jpg',
+  // 🏟️ 紐約/新澤西 大都會人壽體育場全景（Mercury News)
+  'https://www.mercurynews.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0614-152.jpg'
 ];
 
 const HERO_CAPTIONS = [
+  '🇧🇷 巴西 1-1 🇲🇦 摩洛哥 — Vinicius Júnior 第32分鐘禁區內轉身抽射扳平！Bruno Guimarães 助攻 @ 大都會人壽體育場',
+  '🇲🇦 摩洛哥 1-0 🇧🇷 巴西 — Ismael Saibari 第21分鐘接 Brahim Diaz 妙傳，精彩挑射越過 Alisson 破門！摩洛哥震撼開局',
+  '⚔️ Vinicius Júnior vs Achraf Hakimi — 皇家馬德里隊友世界盃賽場正面對決！兩位巨星各為其主 @ 紐約/新澤西',
+  '🗽 紐約 Brooklyn Bridge Park 萬人戶外觀賽派對！球迷齊聚觀看巴西 vs 摩洛哥精彩大戰',
   '🇶🇦 卡達 1-1 🇨🇭 瑞士 — Boualem Khoukhi 第94分鐘頭槌絕平！卡達史上首個世界盃積分 @ 舊金山·李維斯體育場',
-  '⚡ Breel Embolo 踢進瑞士世界盃史上首個12碼罰球，第17分鐘破門 @ 聖塔克拉拉',
-  '🇶🇦 卡達隊長 Khoukhi 遠柱接獲傳中，精彩頭槌改寫歷史 — 卡達終於在世界盃取得分數！',
-  '😲 賽後 Gregg Neville 痛批 FIFA 不公：VAR 裁定 Embolo 12碼前越位畫面從未公開，球迷質疑制度透明性',
-  '🇨🇭 瑞士全場68%控球率、25次射門卻僅得1分 — Granit Xhaka 與 Ricardo Rodriguez 並列瑞士世界盃最多出賽紀錄',
-  '⚽ 2026 世界盃小組賽第3天 — 巴西 vs 摩洛哥 @ 大都會人壽體育場，南美 vs 非洲頂尖對決',
-  '🔥 美國 4-1 巴拉圭 — Giovanni Reyna 禁區外腳外背世界波！SoFi 球場全場沸騰'
+  '🇺🇸 美國 4-1 🇵🇾 巴拉圭 — Folarin Balogun 梅開二度！世界盃首秀即進2球 @ 洛杉磯·SoFi體育場',
+  '🏟️ 大都會人壽體育場（紐約/新澤西）— 今晚迎來巴西 vs 摩洛哥頂尖對決，容納82,500人座無虛席'
 ];
