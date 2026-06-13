@@ -187,10 +187,10 @@ function mCard(m){
     </div>`;
 
     // 加入展開/收合按鈕
-    statsHtml=`<div class="match-stats-toggle" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
+    statsHtml=`<div class="match-stats-toggle open" onclick="this.classList.toggle('open');this.nextElementSibling.classList.toggle('open')">
       📊 詳細數據 <span class="arrow">▼</span>
     </div>
-    <div class="match-stats-panel">
+    <div class="match-stats-panel open">
       ${goalsHtml}
       ${cardsHtml}
       ${statsHtml}
