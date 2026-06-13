@@ -544,7 +544,7 @@ const WC_DATA = {
       }
     },
     { date: '2026-06-13', time: '18:00 ET', group: 'C', team1: 'Brazil', score1: 1, team2: 'Morocco', score2: 1, venue: '紐約/新澤西·大都會人壽體育場', status: 'completed' },
-    { date: '2026-06-13', time: '21:00 ET', group: 'C', team1: 'Haiti', score1: null, team2: 'Scotland', score2: null, venue: '波士頓·吉列體育場', status: 'scheduled' },
+    { date: '2026-06-13', time: '21:00 ET', group: 'C', team1: 'Haiti', score1: 0, team2: 'Scotland', score2: 0, venue: '波士頓·吉列體育場', status: 'completed' },
     { date: '2026-06-13', time: '00:00 ET', group: 'D', team1: 'Australia', score1: null, team2: 'Turkey', score2: null, venue: '溫哥華·BC Place', status: 'scheduled' },
 
     // === 6月14日 ===
@@ -653,8 +653,8 @@ const WC_DATA = {
     'C': [
       { team: 'Brazil', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
       { team: 'Morocco', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
-      { team: 'Scotland', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Haiti', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
+      { team: 'Scotland', played: 1, won: 0, drawn: 1, lost: 0, gf: 0, ga: 0, gd: 0, pts: 1 },
+      { team: 'Haiti', played: 1, won: 0, drawn: 1, lost: 0, gf: 0, ga: 0, gd: 0, pts: 1 }
     ],
     'D': [
       { team: 'USA', played: 1, won: 1, drawn: 0, lost: 0, gf: 4, ga: 1, gd: 3, pts: 3 },
