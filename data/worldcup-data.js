@@ -511,7 +511,38 @@ const WC_DATA = {
     },
 
     // === 6月13日 ===
-    { date: '2026-06-13', time: '15:00 ET', group: 'B', team1: 'Qatar', score1: null, team2: 'Switzerland', score2: null, venue: '舊金山·李維斯體育場', status: 'scheduled' },
+    { date: '2026-06-13', time: '15:00 ET', group: 'B', team1: 'Qatar', score1: 1, team2: 'Switzerland', score2: 1, venue: '舊金山·李維斯體育場', status: 'completed',
+      goals: [
+        { min: 17, team: 2, scorer: 'Breel Embolo', detail: '12碼罰球 — VAR確認犯規後判罰' },
+        { min: 90, team: 1, scorer: 'Boualem Khoukhi', assist: 'Homam El Amin', detail: '左路傳中遠柱頭槌破門，卡達史上首個世界盃積分' }
+      ],
+      cards: [
+        { min: 17, team: 1, player: 'Mahmoud Abunada', card: 'yellow', detail: '禁區內撲倒 Remo Freuler 犯規' },
+        { min: 73, team: 1, player: 'Assim Madibo', card: 'yellow' },
+        { min: 85, team: 2, player: 'Michel Aebischer', card: 'yellow' }
+      ],
+      stats: {
+        possession: [32, 68],
+        shots: [5, 22],
+        shotsOnTarget: [3, 10],
+        shotsOffTarget: [1, 7],
+        shotsInsideBox: [3, 12],
+        shotsOutsideBox: [2, 10],
+        passes: [280, 580],
+        passCompleted: [210, 510],
+        passAccuracy: [75.0, 87.9],
+        crosses: [8, 25],
+        crossesCompleted: [2, 8],
+        corners: [2, 9],
+        freeKicks: [14, 10],
+        fouls: [12, 14],
+        offsides: [1, 3],
+        yellowCards: [2, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [24, 36],
+        pressingApplied: [180, 240]
+      }
+    },
     { date: '2026-06-13', time: '18:00 ET', group: 'C', team1: 'Brazil', score1: null, team2: 'Morocco', score2: null, venue: '紐約/新澤西·大都會人壽體育場', status: 'scheduled' },
     { date: '2026-06-13', time: '21:00 ET', group: 'C', team1: 'Haiti', score1: null, team2: 'Scotland', score2: null, venue: '波士頓·吉列體育場', status: 'scheduled' },
     { date: '2026-06-13', time: '00:00 ET', group: 'D', team1: 'Australia', score1: null, team2: 'Turkey', score2: null, venue: '溫哥華·BC Place', status: 'scheduled' },
@@ -615,9 +646,9 @@ const WC_DATA = {
     ],
     'B': [
       { team: 'Canada', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
-      { team: 'Bosnia and Herzegovina', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
-      { team: 'Switzerland', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Qatar', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
+      { team: 'Switzerland', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
+      { team: 'Qatar', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
+      { team: 'Bosnia and Herzegovina', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 }
     ],
     'C': [
       { team: 'Brazil', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },

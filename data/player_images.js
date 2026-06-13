@@ -110,23 +110,23 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-13 更新：加入最新比賽精彩照片） =====
+// ===== 輪播牆圖片（2026-06-13 更新：加入第3天精彩照片） =====
 const HERO_IMAGES = [
-  'https://i.abcnewsfe.com/a/0c1cd694-91b2-4fb8-85be-6c6ab982b800/wc-8-gty-gmh-260611_1781200388928_hpMain_sl_3x2.jpg',
-  'https://i.abcnewsfe.com/a/877b7a98-7be4-448a-8a4c-5703e699567c/wc-2-rt-gmh-260611_1781190643675_hpEmbed_sl_3x2.jpg',
-  'https://media.cnn.com/api/v1/images/stellar/prod/ap26163690621671.jpg',
-  'https://i.abcnewsfe.com/a/cd40426e-107d-4368-a1c7-7f59f08cbfd3/wc-1-ap-gmh-260612_1781356402533_hpEmbed_sl_3x2.jpg',
-  'https://i.abcnewsfe.com/a/b5cea504-2289-46c2-a781-8d714c465433/wc1-gty-gmh-260612_1781272680696_hpEmbed_sl_3x2.jpg',
-  'https://i.abcnewsfe.com/a/782dcc11-f37a-4f51-9c13-d8a809d68533/wc-3-gty-gmh-260612_1781357358827_hpEmbed_sl_3x2.jpg',
-  'https://i.abcnewsfe.com/a/11e7d8c8-e1d3-4ae8-ad78-59f04f46f9dd/wc-12-gty-gmh-260613_1781369988172_hpEmbed_sl_3x2.jpg'
+  'https://www.mercurynews.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0614-152.jpg',
+  'https://www.mercurynews.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0614-124.jpg',
+  'https://www.mercurynews.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0614-120.jpg',
+  'https://www.mercurynews.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0614-112.jpg',
+  'https://www.mercurynews.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0614-10.jpg',
+  'https://i.abcnewsfe.com/a/11e7d8c8-e1d3-4ae8-ad78-59f04f46f9dd/wc-12-gty-gmh-260613_1781369988172_hpEmbed_sl_3x2.jpg',
+  'https://i.abcnewsfe.com/a/b5cea504-2289-46c2-a781-8d714c465433/wc1-gty-gmh-260612_1781272680696_hpEmbed_sl_3x2.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇲🇽 墨西哥 2-0 🇿🇦 南非 — Julián Quiñones 射入 2026 世界盃首球！@ 墨西哥城·阿茲特克體育場',
-  '🇰🇷 南韓 2-1 🇨🇿 捷克 — 黃仁範禁區外遠射扳平，南韓下半場逆轉勝 @ 瓜達拉哈拉體育場',
-  '🇨🇦 加拿大 1-1 🇧🇦 波士尼亞 — Cyle Larin 第78分鐘頭槌扳平，加拿大史上首個世界盃積分 @ 多倫多 BMO 球場',
-  '🇺🇸 美國 4-1 🇵🇾 巴拉圭 — Folarin Balogun 上半場梅開二度！美國隊史世界盃單場最多進球 @ 洛杉磯 SoFi 體育場',
-  '⚽ Christian Pulisic 精彩助攻 Balogun，美國夢幻開局 2-0！32 年來首場本土世界盃比賽',
-  '🔥 Giovanni Reyna 禁區外腳外背世界波！美國 4-1 鎖定勝局，SoFi 球場全場沸騰',
-  '⚡ 2026 世界盃小組賽第 3 天 — 卡達 vs 瑞士 @ 舊金山李維斯體育場，賽前精彩畫面'
+  '🇶🇦 卡達 1-1 🇨🇭 瑞士 — Boualem Khoukhi 第94分鐘頭槌絕平！卡達史上首個世界盃積分 @ 舊金山·李維斯體育場',
+  '⚡ Breel Embolo 踢進瑞士世界盃史上首個12碼罰球，第17分鐘破門 @ 聖塔克拉拉',
+  '🇶🇦 卡達隊長 Khoukhi 遠柱接獲傳中，精彩頭槌改寫歷史 — 卡達終於在世界盃取得分數！',
+  '😲 賽後 Gregg Neville 痛批 FIFA 不公：VAR 裁定 Embolo 12碼前越位畫面從未公開，球迷質疑制度透明性',
+  '🇨🇭 瑞士全場68%控球率、25次射門卻僅得1分 — Granit Xhaka 與 Ricardo Rodriguez 並列瑞士世界盃最多出賽紀錄',
+  '⚽ 2026 世界盃小組賽第3天 — 巴西 vs 摩洛哥 @ 大都會人壽體育場，南美 vs 非洲頂尖對決',
+  '🔥 美國 4-1 巴拉圭 — Giovanni Reyna 禁區外腳外背世界波！SoFi 球場全場沸騰'
 ];
