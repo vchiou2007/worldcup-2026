@@ -636,7 +636,43 @@ const WC_DATA = {
     },
 
     // === 6月14日 ===
-    { date: '2026-06-14', time: '13:00 ET', group: 'E', team1: 'Germany', score1: null, team2: 'Curaçao', score2: null, venue: '休斯頓·NRG體育場', status: 'scheduled' },
+    { date: '2026-06-14', time: '13:00 ET', group: 'E', team1: 'Germany', score1: 7, team2: 'Curaçao', score2: 1, venue: '休斯頓·NRG體育場', status: 'completed',
+      goals: [
+        { min: 6, team: 1, scorer: 'Felix Nmecha', assist: 'Florian Wirtz', detail: '禁區邊緣與Wirtz二過一配合後起腳射入遠角' },
+        { min: 21, team: 2, scorer: 'Livano Comenencia', detail: '禁區邊緣勁射，庫拉索世界盃歷史首球' },
+        { min: 38, team: 1, scorer: 'Nico Schlotterbeck', assist: 'Nathaniel Brown', detail: '角球頭槌破門' },
+        { min: 45, team: 1, scorer: 'Kai Havertz', detail: '12碼罰球 — Nmecha禁區內被Bazoer絆倒' },
+        { min: 47, team: 1, scorer: 'Jamal Musiala', assist: 'Kai Havertz', detail: '禁區內強力射門' },
+        { min: 68, team: 1, scorer: 'Nathaniel Brown', assist: 'Deniz Undav', detail: '禁區內接應傳球後射遠角' },
+        { min: 78, team: 1, scorer: 'Deniz Undav', assist: 'Nathaniel Brown', detail: '禁區內射門' },
+        { min: 88, team: 1, scorer: 'Kai Havertz', assist: 'Jamal Musiala', detail: '禁區內接應射門，Havertz梅開二度' }
+      ],
+      cards: [
+        { min: 55, team: 2, player: 'Juninho Bacuna', card: 'yellow' },
+        { min: 63, team: 2, player: 'Riechedly Bazoer', card: 'yellow' }
+      ],
+      stats: {
+        possession: [68, 32],
+        shots: [28, 5],
+        shotsOnTarget: [12, 2],
+        shotsOffTarget: [12, 2],
+        shotsInsideBox: [18, 3],
+        shotsOutsideBox: [10, 2],
+        passes: [680, 290],
+        passCompleted: [618, 238],
+        passAccuracy: [90.9, 82.1],
+        crosses: [24, 10],
+        crossesCompleted: [9, 2],
+        corners: [12, 1],
+        freeKicks: [8, 14],
+        fouls: [12, 8],
+        offsides: [3, 1],
+        yellowCards: [0, 2],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 34],
+        pressingApplied: [200, 280]
+      }
+    },
     { date: '2026-06-14', time: '16:00 ET', group: 'F', team1: 'Netherlands', score1: null, team2: 'Japan', score2: null, venue: '達拉斯·AT&T體育場', status: 'scheduled' },
     { date: '2026-06-14', time: '19:00 ET', group: 'E', team1: 'Ivory Coast', score1: null, team2: 'Ecuador', score2: null, venue: '費城·林肯金融球場', status: 'scheduled' },
     { date: '2026-06-14', time: '22:00 ET', group: 'F', team1: 'Sweden', score1: null, team2: 'Tunisia', score2: null, venue: '蒙特雷·BBVA球場', status: 'scheduled' },
@@ -751,10 +787,10 @@ const WC_DATA = {
       { team: 'Paraguay', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 4, gd: -3, pts: 0 }
     ],
     'E': [
-      { team: 'Germany', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
+      { team: 'Germany', played: 1, won: 1, drawn: 0, lost: 0, gf: 7, ga: 1, gd: 6, pts: 3 },
       { team: 'Ecuador', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
       { team: 'Ivory Coast', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Curaçao', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
+      { team: 'Curaçao', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 7, gd: -6, pts: 0 }
     ],
     'F': [
       { team: 'Netherlands', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },

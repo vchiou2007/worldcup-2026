@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-14 更新：加入澳洲 2-0 土耳其第4天精彩照片） =====
+// ===== 輪播牆圖片（2026-06-14 更新：加入德國 7-1 庫拉索第4天精彩照片） =====
 const HERO_IMAGES = [
-  // 🇦🇺 澳洲 2-0 🇹🇷 土耳其 — Nestory Irankunda 第27分鐘進球！20歲125天澳洲最年輕世界盃進球者（AP Photo/Emma Peterson）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/5u2y6u8k/Australia-Vs-Turkiye-FIFA-World-Cup-2026-Group-D-Nestory-Irankunda-Scores-AP-Photo.jpg',
-  // 🇦🇺 Nestory Irankunda 慶祝進球 — 模仿 Tim Cahill 經典角旗杆慶祝（AP Photo/Abbie Parr）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/d90b8e4i/Australia-Vs-Turkiye-FIFA-World-Cup-2026-Group-D-Nestory-Irankunda-Celeb-AP-Photo.jpg',
-  // 🇦🇺 Connor Metcalfe 第75分鐘禁區外抽射鎖定勝局（AP Photo/Abbie Parr）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/1keej83m/Australia-Vs-Turkiye-FIFA-World-Cup-2026-Group-Connor-Metcalfe-Celeb-AP-Photo.jpg',
-  // 🇹🇷 Arda Güler 控球 — 皇馬21歲天才土耳其24年來首場世界盃（AP Photo/Abbie Parr）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/do1sxix0/Australia-Vs-Turkiye-FIFA-World-Cup-2026-Group-D-Arda-Guler-AP-Photo.jpg',
-  // 🇹🇷 土耳其球迷在溫哥華BC Place看台（Darryl Dyck/The Canadian Press via AP）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/2mf3raww/Australia-Vs-Turkiye-FIFA-World-Cup-2026-Group-D-Turkish-Fans-Darryl-DyckThe-Canadian-Press-via-AP.jpg',
-  // 👨‍🏫 澳洲主帥 Tony Popovic 場邊指揮 — 大膽棄用門將Ryan、讓10名世界盃新秀先發（AP Photo/Abbie Parr）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/chjki09d/Australia-Vs-Turkiye-FIFA-World-Cup-2026-Group-D-Tony-Popovic-AP-Photo.jpg',
-  // 🇦🇺 澳洲球迷在雪梨慶祝世界盃開門紅（AP Photo/Rick Rycroft）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/7kxtermo/Australia-Vs-Turkiye-FIFA-World-Cup-2026-Group-D-kangaroo-toy-AP-Photo.jpg'
+  // 🇩🇪 德國 7-1 🇨🇼 庫拉索 — Felix Nmecha 第6分鐘禁區邊緣射入遠角，德國閃電開局（AP Photo/Eric Gay）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/tk89hhj9/AP26165619587045.jpg',
+  // 🇨🇼 Livano Comenencia 第21分鐘禁區邊緣勁射破門 — 庫拉索世界盃歷史首球！全場沸騰（AP Photo/Karen Warren）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/2ze69mlj/AP26165596651414.jpg',
+  // 🇩🇪 Kai Havertz 點球破門（45+4'）— Nmecha 禁區內被 Bazoer 絆倒，Havertz 穩穩罰入（AP Photo/Eric Gay）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/iopj39vt/AP26165599002767.jpg',
+  // 🇩🇪 Jamal Musiala 第47分鐘禁區內強力射門，德國4-1擴大領先（AP Photo/Eric Gay）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/qanwri2s/AP26165619549738.jpg',
+  // 🇩🇪 40歲門將 Manuel Neuer 成為德國世界盃史上最年長出賽球員（AP Photo/Karen Warren）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/7f5t10gq/AP26165628057142.jpg',
+  // 👨‍🏫 德國主帥 Julian Nagelsmann（38歲）vs 庫拉索主帥 Dick Advocaat（78歲）— 最年輕vs最年長教練對決（AP Photo/Eric Gay）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/envdr2v9/AP26165628365050.jpg',
+  // 🇨🇼 庫拉索球迷在休斯頓NRG體育場熱情應援 — 世界盃史上最小參賽國家的歷史性一天（AP Photo/Karen Warren）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/eccw2vnb/AP26165640595574.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇦🇺 澳洲 2-0 🇹🇷 土耳其 — Nestory Irankunda 第27分鐘反擊中左路切入禁區勁射破門！20歲125天成爲澳洲史上最年輕世界盃進球者（超越 Tim Cahill），Paul Okon-Engstler 長傳助攻 @ 溫哥華·BC Place（54,500人）',
-  '🇦🇺 Nestory Irankunda 進球後奔跑到角旗杆處慶祝 — 刻意模仿澳洲傳奇 Tim Cahill 的經典慶祝動作！這位出生於坦尚尼亞難民營、3個月大移居澳洲的20歲小將，寫下屬於自己的歷史時刻',
-  '🇦🇺 Connor Metcalfe 第75分鐘禁區外20碼左腳抽射入右下角！土耳其後場傳球失誤被截，Metcalfe 冷靜低射鎖定 2-0 勝局，澳洲自2006年以來首度在世界盃開幕戰贏球',
-  '🇹🇷 土耳其天才 Arda Güler（21歲·皇家馬德里）控球突破 — 土耳其24年來重返世界盃舞台（上次2002年奪季軍），擁有全歐頂級陣容但全場30次射門0進球，Patrick Beach 8次撲救力保澳洲大門不失',
-  '🇹🇷 土耳其球迷在溫哥華BC Place熱情應援 — 身披星月旗、高唱加油歌，可惜土耳其雖掌握71%控球率、30次射門8次射正，卻始終無法攻破澳洲防線，24年等待以失望收場',
-  '👨‍🏫 澳洲主帥 Tony Popovic 場邊指揮 — 大膽棄用隊長門將 Mathew Ryan，改派 Patrick Beach（第3頂國家隊帽）先發！10名世界盃新秀進入先發11人，戰術賭博完美兌現，Beach 獲選全場最佳球員',
-  '🇦🇺 澳洲球迷在雪梨街頭瘋狂慶祝 — 袋鼠玩偶在國旗煙霧中飛舞！澳洲 2-0 擊敗土耳其取得世界盃開門紅，目前與美國同為3分並列D組前兩名，下場將對決地主美國爭奪分組龍頭'
+  '🇩🇪 德國 7-1 🇨🇼 庫拉索 — Felix Nmecha 第6分鐘與 Florian Wirtz 禁區邊緣二過一配合後起腳射入遠角！德國閃電取得領先，39,000名球迷見證 @ 休斯頓·NRG體育場',
+  '🇨🇼 Livano Comenencia 第21分鐘禁區邊緣勁射，Ball bei Manuel Neuer 破門！庫拉索歷史性一刻 — 世界盃史上最小參賽國家（人口僅15萬）攻入隊史世界盃首球！全場起立鼓掌',
+  '🇩🇪 Kai Havertz 第45+4分鐘冷靜罰入12碼 — Nmecha 禁區內被 Riechedly Bazoer 絆倒，Havertz 穩穩射入左下角，上半場德國3-1領先。Havertz 全場梅開二度',
+  '🇩🇪 Jamal Musiala 下半場開賽僅2分鐘（47分鐘）禁區內接 Havertz 妙傳後強力射門入網！這位拜仁慕尼黑天才已在世界盃舞台證明自己，德國4-1',
+  '🇩🇪 40歲傳奇門將 Manuel Neuer 時隔2年重返國家隊先發 — 成為德國世界盃史上最年長出賽球員！Neuer 全場仍展現世界級撲救，帶領後防線穩定發揮',
+  '👨‍🏫 38歲 Julian Nagelsmann 成為世界盃史上最年輕主帥之一，與78歲 Dick Advocaat（最年長）對決寫下年齡差距最大紀錄！Nagelsmann 賽後讚球隊展現"應有的侵略性"',
+  '🇨🇼 庫拉索球迷在休斯頓 NRG 體育場看台揮舞國旗 — 儘管1-7落敗，這支來自加勒比海的小國（人口15萬，面積444km²）已創造歷史！球迷賽後仍高唱國歌致敬球隊'
 ];
