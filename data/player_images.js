@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-14 更新：修正 Haiti 0-1 Scotland 比數 + 加入第4天精彩照片） =====
+// ===== 輪播牆圖片（2026-06-14 更新：加入澳洲 2-0 土耳其第4天精彩照片） =====
 const HERO_IMAGES = [
-  // 🇧🇷 巴西 1-1 🇲🇦 摩洛哥 — Vinicius Jr 進球慶祝（AP Photo/Petr David Josek）
-  'https://cf-images.assettype.com/outlookindia/2026-06-13/14yhktm2/Brazil-Vs-Morocco-FIFA-World-Cup-2026-Group-C-Vinicius-Goal-Celeb-AP-Photo.jpg',
-  // 🇲🇦 摩洛哥 1-0 🇧🇷 巴西 — Ismael Saibari 慶祝進球（AP Photo/Petr David Josek）
-  'https://cf-images.assettype.com/outlookindia/2026-06-13/ow59ztal/Brazil-Vs-Morocco-FIFA-World-Cup-2026-Group-C-Ismael-Saibari-Celebrates-AP-Photo.jpg',
-  // ⚔️ Vinicius Jr vs Achraf Hakimi 皇馬隊友對決（AP Photo）
-  'https://cf-images.assettype.com/outlookindia/2026-06-13/td2fpmva/Brazil-Vs-Morocco-FIFA-World-Cup-2026-Group-C-Vinicius-Hakimi-AP-Photo.jpg',
-  // 🇧🇷 Carlo Ancelotti 場邊指揮巴西首戰（AP Photo/Matt Slocum）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/snsxie4c/Brazil-Vs-Morocco-FIFA-World-Cup-2026-Group-C-Carlo-Ancelotti-Touchline-AP-Photo.jpg',
-  // 🇶🇦 卡達 1-1 🇨🇭 瑞士 — Boualem Khoukhi 頭槌絕平！卡達史上首個世界盃積分（AP Photo/Eugene Hoshiko）
-  'https://cf-images.assettype.com/outlookindia/2026-06-13/ca5c0513/Qatar-Vs-Switzerland-FIFA-World-Cup-2026-Group-B-Qatar-Celeb-AP-Photo.jpg',
-  // 🇶🇦 卡達 vs 🇨🇭 瑞士 — 卡達球迷看台狂歡慶祝（AP Photo/Eugene Hoshiko）
-  'https://cf-images.assettype.com/outlookindia/2026-06-13/93j4u76r/Qatar-Vs-Switzerland-FIFA-World-Cup-2026-Group-B-Qatar-Fans-Celeb-AP-Photo.jpg',
-  // 🇭🇹 海地 0-1 🏴󠁧󠁢󠁳󠁣󠁴󠁿 蘇格蘭 — John McGinn 第29分鐘進球！蘇格蘭36年來首場世界盃勝利，上次世界盃贏球為1990年（AP Photo）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/jzb9vsaf/Haiti-Vs-Scotland-FIFA-World-Cup-2026-Group-C-Warm-Ups-AP-Photo.jpg'
+  // 🇦🇺 澳洲 2-0 🇹🇷 土耳其 — Nestory Irankunda 第27分鐘進球！20歲125天澳洲最年輕世界盃進球者（AP Photo/Emma Peterson）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/5u2y6u8k/Australia-Vs-Turkiye-FIFA-World-Cup-2026-Group-D-Nestory-Irankunda-Scores-AP-Photo.jpg',
+  // 🇦🇺 Nestory Irankunda 慶祝進球 — 模仿 Tim Cahill 經典角旗杆慶祝（AP Photo/Abbie Parr）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/d90b8e4i/Australia-Vs-Turkiye-FIFA-World-Cup-2026-Group-D-Nestory-Irankunda-Celeb-AP-Photo.jpg',
+  // 🇦🇺 Connor Metcalfe 第75分鐘禁區外抽射鎖定勝局（AP Photo/Abbie Parr）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/1keej83m/Australia-Vs-Turkiye-FIFA-World-Cup-2026-Group-Connor-Metcalfe-Celeb-AP-Photo.jpg',
+  // 🇹🇷 Arda Güler 控球 — 皇馬21歲天才土耳其24年來首場世界盃（AP Photo/Abbie Parr）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/do1sxix0/Australia-Vs-Turkiye-FIFA-World-Cup-2026-Group-D-Arda-Guler-AP-Photo.jpg',
+  // 🇹🇷 土耳其球迷在溫哥華BC Place看台（Darryl Dyck/The Canadian Press via AP）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/2mf3raww/Australia-Vs-Turkiye-FIFA-World-Cup-2026-Group-D-Turkish-Fans-Darryl-DyckThe-Canadian-Press-via-AP.jpg',
+  // 👨‍🏫 澳洲主帥 Tony Popovic 場邊指揮 — 大膽棄用門將Ryan、讓10名世界盃新秀先發（AP Photo/Abbie Parr）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/chjki09d/Australia-Vs-Turkiye-FIFA-World-Cup-2026-Group-D-Tony-Popovic-AP-Photo.jpg',
+  // 🇦🇺 澳洲球迷在雪梨慶祝世界盃開門紅（AP Photo/Rick Rycroft）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/7kxtermo/Australia-Vs-Turkiye-FIFA-World-Cup-2026-Group-D-kangaroo-toy-AP-Photo.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇧🇷 巴西 1-1 🇲🇦 摩洛哥 — Vinicius Júnior 第32分鐘轉身抽射扳平！Bruno Guimarães 送出關鍵助攻 @ 大都會人壽體育場（80,663人）',
-  '🇲🇦 摩洛哥 1-0 🇧🇷 巴西 — Ismael Saibari 第21分鐘挑射破門，摩洛哥震撼開局！Brahim Diaz 送出漂亮直塞助攻 @ 紐約/新澤西',
-  '⚔️ Vinicius Júnior vs Achraf Hakimi — 皇家馬德里隊友世界盃正面交鋒！兩位南美 vs 非洲巨星各為其主',
-  '🇧🇷 Carlo Ancelotti — 巴西首位外籍主帥場邊指揮首戰！這位五屆歐冠冠軍教頭帶領森巴軍團追尋第6座世界盃',
-  '🇶🇦 卡達 1-1 🇨🇭 瑞士 — Boualem Khoukhi 第94分鐘頭槌絕平！卡達迎來史上首個世界盃積分，全隊陷入瘋狂 @ 舊金山·李維斯體育場（67,966人）',
-  '🇶🇦 卡達球迷看台狂歡慶祝 — 上半場落後瑞士、下半場死守到傷停補時，Boualem Khoukhi 一記頭槌改寫歷史！前西班牙主帥 Julen Lopetegui 率隊締造驚奇',
-  '🇭🇹 海地 0-1 🏴󠁧󠁢󠁳󠁣󠁴󠁿 蘇格蘭 — John McGinn 第29分鐘禁區邊緣射門折射入網！蘇格蘭36年來首場世界盃勝利（上次1990年），Ben Gannon-Doak（20歲214天）成為蘇格蘭世界盃史上最年輕出場球員 @ 波士頓·吉列體育場'
+  '🇦🇺 澳洲 2-0 🇹🇷 土耳其 — Nestory Irankunda 第27分鐘反擊中左路切入禁區勁射破門！20歲125天成爲澳洲史上最年輕世界盃進球者（超越 Tim Cahill），Paul Okon-Engstler 長傳助攻 @ 溫哥華·BC Place（54,500人）',
+  '🇦🇺 Nestory Irankunda 進球後奔跑到角旗杆處慶祝 — 刻意模仿澳洲傳奇 Tim Cahill 的經典慶祝動作！這位出生於坦尚尼亞難民營、3個月大移居澳洲的20歲小將，寫下屬於自己的歷史時刻',
+  '🇦🇺 Connor Metcalfe 第75分鐘禁區外20碼左腳抽射入右下角！土耳其後場傳球失誤被截，Metcalfe 冷靜低射鎖定 2-0 勝局，澳洲自2006年以來首度在世界盃開幕戰贏球',
+  '🇹🇷 土耳其天才 Arda Güler（21歲·皇家馬德里）控球突破 — 土耳其24年來重返世界盃舞台（上次2002年奪季軍），擁有全歐頂級陣容但全場30次射門0進球，Patrick Beach 8次撲救力保澳洲大門不失',
+  '🇹🇷 土耳其球迷在溫哥華BC Place熱情應援 — 身披星月旗、高唱加油歌，可惜土耳其雖掌握71%控球率、30次射門8次射正，卻始終無法攻破澳洲防線，24年等待以失望收場',
+  '👨‍🏫 澳洲主帥 Tony Popovic 場邊指揮 — 大膽棄用隊長門將 Mathew Ryan，改派 Patrick Beach（第3頂國家隊帽）先發！10名世界盃新秀進入先發11人，戰術賭博完美兌現，Beach 獲選全場最佳球員',
+  '🇦🇺 澳洲球迷在雪梨街頭瘋狂慶祝 — 袋鼠玩偶在國旗煙霧中飛舞！澳洲 2-0 擊敗土耳其取得世界盃開門紅，目前與美國同為3分並列D組前兩名，下場將對決地主美國爭奪分組龍頭'
 ];

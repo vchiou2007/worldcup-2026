@@ -604,7 +604,36 @@ const WC_DATA = {
         pressingApplied: [160, 200]
       }
     },
-    { date: '2026-06-13', time: '00:00 ET', group: 'D', team1: 'Australia', score1: null, team2: 'Turkey', score2: null, venue: '溫哥華·BC Place', status: 'scheduled' },
+    { date: '2026-06-13', time: '00:00 ET', group: 'D', team1: 'Australia', score1: 2, team2: 'Turkey', score2: 0, venue: '溫哥華·BC Place', status: 'completed',
+      goals: [
+        { min: 27, team: 1, scorer: 'Nestory Irankunda', assist: 'Paul Okon-Engstler', detail: '反擊中左路切入禁區勁射入網，20歲125天成爲澳洲最年輕世界盃進球者' },
+        { min: 75, team: 1, scorer: 'Connor Metcalfe', assist: null, detail: '禁區外20碼左腳低射入右下角，土耳其後場傳球失誤被截' }
+      ],
+      cards: [
+        { min: 86, team: 2, player: 'Yunus Akgün', card: 'yellow', detail: '戰術犯規' }
+      ],
+      stats: {
+        possession: [30, 57],
+        shots: [9, 30],
+        shotsOnTarget: [4, 8],
+        shotsOffTarget: [5, 12],
+        shotsInsideBox: [6, 16],
+        shotsOutsideBox: [3, 14],
+        passes: [292, 719],
+        passCompleted: [217, 646],
+        passAccuracy: [74.3, 89.8],
+        crosses: [10, 28],
+        crossesCompleted: [5, 3],
+        corners: [5, 8],
+        freeKicks: [7, 13],
+        fouls: [12, 4],
+        offsides: [1, 3],
+        yellowCards: [0, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [33, 24],
+        pressingApplied: [210, 260]
+      }
+    },
 
     // === 6月14日 ===
     { date: '2026-06-14', time: '13:00 ET', group: 'E', team1: 'Germany', score1: null, team2: 'Curaçao', score2: null, venue: '休斯頓·NRG體育場', status: 'scheduled' },
@@ -717,8 +746,8 @@ const WC_DATA = {
     ],
     'D': [
       { team: 'USA', played: 1, won: 1, drawn: 0, lost: 0, gf: 4, ga: 1, gd: 3, pts: 3 },
-      { team: 'Turkey', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Australia', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
+      { team: 'Australia', played: 1, won: 1, drawn: 0, lost: 0, gf: 2, ga: 0, gd: 2, pts: 3 },
+      { team: 'Turkey', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 2, gd: -2, pts: 0 },
       { team: 'Paraguay', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 4, gd: -3, pts: 0 }
     ],
     'E': [
