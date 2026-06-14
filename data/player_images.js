@@ -110,7 +110,7 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-14 更新：加入第4天精彩照片） =====
+// ===== 輪播牆圖片（2026-06-14 更新：修正 Haiti 0-1 Scotland 比數 + 加入第4天精彩照片） =====
 const HERO_IMAGES = [
   // 🇧🇷 巴西 1-1 🇲🇦 摩洛哥 — Vinicius Jr 進球慶祝（AP Photo/Petr David Josek）
   'https://cf-images.assettype.com/outlookindia/2026-06-13/14yhktm2/Brazil-Vs-Morocco-FIFA-World-Cup-2026-Group-C-Vinicius-Goal-Celeb-AP-Photo.jpg',
@@ -124,7 +124,7 @@ const HERO_IMAGES = [
   'https://cf-images.assettype.com/outlookindia/2026-06-13/ca5c0513/Qatar-Vs-Switzerland-FIFA-World-Cup-2026-Group-B-Qatar-Celeb-AP-Photo.jpg',
   // 🇶🇦 卡達 vs 🇨🇭 瑞士 — 卡達球迷看台狂歡慶祝（AP Photo/Eugene Hoshiko）
   'https://cf-images.assettype.com/outlookindia/2026-06-13/93j4u76r/Qatar-Vs-Switzerland-FIFA-World-Cup-2026-Group-B-Qatar-Fans-Celeb-AP-Photo.jpg',
-  // 🇭🇹 海地 0-0 🏴󠁧󠁢󠁳󠁣󠁴󠁿 蘇格蘭 — 52年後海地重返世界盃！蘇格蘭28年後再登大賽舞台 @ 吉列體育場（AP Photo）
+  // 🇭🇹 海地 0-1 🏴󠁧󠁢󠁳󠁣󠁴󠁿 蘇格蘭 — John McGinn 第29分鐘進球！蘇格蘭36年來首場世界盃勝利，上次世界盃贏球為1990年（AP Photo）
   'https://cf-images.assettype.com/outlookindia/2026-06-14/jzb9vsaf/Haiti-Vs-Scotland-FIFA-World-Cup-2026-Group-C-Warm-Ups-AP-Photo.jpg'
 ];
 
@@ -135,5 +135,5 @@ const HERO_CAPTIONS = [
   '🇧🇷 Carlo Ancelotti — 巴西首位外籍主帥場邊指揮首戰！這位五屆歐冠冠軍教頭帶領森巴軍團追尋第6座世界盃',
   '🇶🇦 卡達 1-1 🇨🇭 瑞士 — Boualem Khoukhi 第94分鐘頭槌絕平！卡達迎來史上首個世界盃積分，全隊陷入瘋狂 @ 舊金山·李維斯體育場（67,966人）',
   '🇶🇦 卡達球迷看台狂歡慶祝 — 上半場落後瑞士、下半場死守到傷停補時，Boualem Khoukhi 一記頭槌改寫歷史！前西班牙主帥 Julen Lopetegui 率隊締造驚奇',
-  '🇭🇹 海地 vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 蘇格蘭 — 海地52年後重返世界盃（上次1974年），蘇格蘭終結28年等待（上次1998年）！0-0 握手言和 @ 波士頓·吉列體育場'
+  '🇭🇹 海地 0-1 🏴󠁧󠁢󠁳󠁣󠁴󠁿 蘇格蘭 — John McGinn 第29分鐘禁區邊緣射門折射入網！蘇格蘭36年來首場世界盃勝利（上次1990年），Ben Gannon-Doak（20歲214天）成為蘇格蘭世界盃史上最年輕出場球員 @ 波士頓·吉列體育場'
 ];

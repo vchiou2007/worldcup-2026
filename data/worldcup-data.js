@@ -574,8 +574,10 @@ const WC_DATA = {
         pressingApplied: [195, 220]
       }
     },
-    { date: '2026-06-13', time: '21:00 ET', group: 'C', team1: 'Haiti', score1: 0, team2: 'Scotland', score2: 0, venue: '波士頓·吉列體育場', status: 'completed',
-      goals: [],
+    { date: '2026-06-13', time: '21:00 ET', group: 'C', team1: 'Haiti', score1: 0, team2: 'Scotland', score2: 1, venue: '波士頓·吉列體育場', status: 'completed',
+      goals: [
+        { min: 29, team: 2, scorer: 'John McGinn', assist: 'Ben Gannon-Doak', detail: '禁區邊緣射門，碰到海地球員折射入網' }
+      ],
       cards: [
         { min: 58, team: 2, player: 'Scott McTominay', card: 'yellow', detail: '中場鏟球犯規' },
         { min: 72, team: 1, player: 'Jean-Ricner Bellegarde', card: 'yellow', detail: '戰術犯規' }
@@ -708,10 +710,10 @@ const WC_DATA = {
       { team: 'Bosnia and Herzegovina', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 }
     ],
     'C': [
+      { team: 'Scotland', played: 1, won: 1, drawn: 0, lost: 0, gf: 1, ga: 0, gd: 1, pts: 3 },
       { team: 'Brazil', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
       { team: 'Morocco', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
-      { team: 'Scotland', played: 1, won: 0, drawn: 1, lost: 0, gf: 0, ga: 0, gd: 0, pts: 1 },
-      { team: 'Haiti', played: 1, won: 0, drawn: 1, lost: 0, gf: 0, ga: 0, gd: 0, pts: 1 }
+      { team: 'Haiti', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 1, gd: -1, pts: 0 }
     ],
     'D': [
       { team: 'USA', played: 1, won: 1, drawn: 0, lost: 0, gf: 4, ga: 1, gd: 3, pts: 3 },
