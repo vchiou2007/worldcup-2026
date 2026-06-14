@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-13 更新：加入第3天精彩照片） =====
+// ===== 輪播牆圖片（2026-06-14 更新：加入第4天精彩照片） =====
 const HERO_IMAGES = [
-  // 🇧🇷 巴西 1-1 🇲🇦 摩洛哥 — Vinicius Jr 進球後慶祝（AP Photo）
-  'https://cf-images.assettype.com/outlookindia/2026-06-13/2xiibx1j/Brazil-Vs-Morocco-FIFA-World-Cup-2026-Group-C-Vini-Goal-Celeb-Team-AP-Photo.jpg',
-  // 🇧🇷 巴西 1-1 🇲🇦 摩洛哥 — Ismael Saibari 慶祝摩洛哥進球（AP Photo）
-  'https://cf-images.assettype.com/outlookindia/2026-06-13/kkz0yhdv/Brazil-Vs-Morocco-FIFA-World-Cup-2026-Group-C-Saibari-Goal-Team-Celeb-AP-Photo.jpg',
-  // 🇧🇷 巴西 vs 🇲🇦 摩洛哥 — Vinicius Jr vs Hakimi 對決（AP Photo）
+  // 🇧🇷 巴西 1-1 🇲🇦 摩洛哥 — Vinicius Jr 進球慶祝（AP Photo/Petr David Josek）
+  'https://cf-images.assettype.com/outlookindia/2026-06-13/14yhktm2/Brazil-Vs-Morocco-FIFA-World-Cup-2026-Group-C-Vinicius-Goal-Celeb-AP-Photo.jpg',
+  // 🇲🇦 摩洛哥 1-0 🇧🇷 巴西 — Ismael Saibari 慶祝進球（AP Photo/Petr David Josek）
+  'https://cf-images.assettype.com/outlookindia/2026-06-13/ow59ztal/Brazil-Vs-Morocco-FIFA-World-Cup-2026-Group-C-Ismael-Saibari-Celebrates-AP-Photo.jpg',
+  // ⚔️ Vinicius Jr vs Achraf Hakimi 皇馬隊友對決（AP Photo）
   'https://cf-images.assettype.com/outlookindia/2026-06-13/td2fpmva/Brazil-Vs-Morocco-FIFA-World-Cup-2026-Group-C-Vinicius-Hakimi-AP-Photo.jpg',
-  // 🇧🇷 巴西 vs 🇲🇦 摩洛哥 — 球迷在 Brooklyn Bridge Park 觀賽（AP Photo）
-  'https://cf-images.assettype.com/outlookindia/2026-06-13/x0dqq500/Brazil-Vs-Morocco-FIFA-World-Cup-2026-Group-C-Brooklyn-Bridge-Park-AP-Photo.jpg',
-  // 🇶🇦 卡達 1-1 🇨🇭 瑞士 — Boualem Khoukhi 絕平進球慶祝（AP Photo）
+  // 🇧🇷 Carlo Ancelotti 場邊指揮巴西首戰（AP Photo/Matt Slocum）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/snsxie4c/Brazil-Vs-Morocco-FIFA-World-Cup-2026-Group-C-Carlo-Ancelotti-Touchline-AP-Photo.jpg',
+  // 🇶🇦 卡達 1-1 🇨🇭 瑞士 — Boualem Khoukhi 頭槌絕平！卡達史上首個世界盃積分（AP Photo/Eugene Hoshiko）
   'https://cf-images.assettype.com/outlookindia/2026-06-13/ca5c0513/Qatar-Vs-Switzerland-FIFA-World-Cup-2026-Group-B-Qatar-Celeb-AP-Photo.jpg',
-  // 🇺🇸 美國 4-1 🇵🇾 巴拉圭 — Folarin Balogun 進球慶祝（ABC News)
-  'https://i.abcnewsfe.com/a/b5cea504-2289-46c2-a781-8d714c465433/wc1-gty-gmh-260612_1781272680696_hpEmbed_sl_3x2.jpg',
-  // 🏟️ 紐約/新澤西 大都會人壽體育場全景（Mercury News)
-  'https://www.mercurynews.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0614-152.jpg'
+  // 🇶🇦 卡達 vs 🇨🇭 瑞士 — 卡達球迷看台狂歡慶祝（AP Photo/Eugene Hoshiko）
+  'https://cf-images.assettype.com/outlookindia/2026-06-13/93j4u76r/Qatar-Vs-Switzerland-FIFA-World-Cup-2026-Group-B-Qatar-Fans-Celeb-AP-Photo.jpg',
+  // 🇭🇹 海地 0-0 🏴󠁧󠁢󠁳󠁣󠁴󠁿 蘇格蘭 — 52年後海地重返世界盃！蘇格蘭28年後再登大賽舞台 @ 吉列體育場（AP Photo）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/jzb9vsaf/Haiti-Vs-Scotland-FIFA-World-Cup-2026-Group-C-Warm-Ups-AP-Photo.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇧🇷 巴西 1-1 🇲🇦 摩洛哥 — Vinicius Júnior 第32分鐘禁區內轉身抽射扳平！Bruno Guimarães 助攻 @ 大都會人壽體育場',
-  '🇲🇦 摩洛哥 1-0 🇧🇷 巴西 — Ismael Saibari 第21分鐘接 Brahim Diaz 妙傳，精彩挑射越過 Alisson 破門！摩洛哥震撼開局',
-  '⚔️ Vinicius Júnior vs Achraf Hakimi — 皇家馬德里隊友世界盃賽場正面對決！兩位巨星各為其主 @ 紐約/新澤西',
-  '🗽 紐約 Brooklyn Bridge Park 萬人戶外觀賽派對！球迷齊聚觀看巴西 vs 摩洛哥精彩大戰',
-  '🇶🇦 卡達 1-1 🇨🇭 瑞士 — Boualem Khoukhi 第94分鐘頭槌絕平！卡達史上首個世界盃積分 @ 舊金山·李維斯體育場',
-  '🇺🇸 美國 4-1 🇵🇾 巴拉圭 — Folarin Balogun 梅開二度！世界盃首秀即進2球 @ 洛杉磯·SoFi體育場',
-  '🏟️ 大都會人壽體育場（紐約/新澤西）— 今晚迎來巴西 vs 摩洛哥頂尖對決，容納82,500人座無虛席'
+  '🇧🇷 巴西 1-1 🇲🇦 摩洛哥 — Vinicius Júnior 第32分鐘轉身抽射扳平！Bruno Guimarães 送出關鍵助攻 @ 大都會人壽體育場（80,663人）',
+  '🇲🇦 摩洛哥 1-0 🇧🇷 巴西 — Ismael Saibari 第21分鐘挑射破門，摩洛哥震撼開局！Brahim Diaz 送出漂亮直塞助攻 @ 紐約/新澤西',
+  '⚔️ Vinicius Júnior vs Achraf Hakimi — 皇家馬德里隊友世界盃正面交鋒！兩位南美 vs 非洲巨星各為其主',
+  '🇧🇷 Carlo Ancelotti — 巴西首位外籍主帥場邊指揮首戰！這位五屆歐冠冠軍教頭帶領森巴軍團追尋第6座世界盃',
+  '🇶🇦 卡達 1-1 🇨🇭 瑞士 — Boualem Khoukhi 第94分鐘頭槌絕平！卡達迎來史上首個世界盃積分，全隊陷入瘋狂 @ 舊金山·李維斯體育場（67,966人）',
+  '🇶🇦 卡達球迷看台狂歡慶祝 — 上半場落後瑞士、下半場死守到傷停補時，Boualem Khoukhi 一記頭槌改寫歷史！前西班牙主帥 Julen Lopetegui 率隊締造驚奇',
+  '🇭🇹 海地 vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 蘇格蘭 — 海地52年後重返世界盃（上次1974年），蘇格蘭終結28年等待（上次1998年）！0-0 握手言和 @ 波士頓·吉列體育場'
 ];
