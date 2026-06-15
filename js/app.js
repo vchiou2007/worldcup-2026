@@ -73,7 +73,8 @@ function yd(){const d=new Date(nowToronto()+'T12:00:00');d.setDate(d.getDate()-1
 function gf(gid){const g=WC_DATA.groups.find(x=>x.id===gid);return g?g.teams.map(t=>fimgSm(t.name)).join(' '):'';}
 
 // ========== 比賽卡片（含星期幾 + 詳細統計） ==========
-function mCard(m){
+// plain=true → 無詳細數據（賽程頁用），false→含完整數據（首頁用）
+function mCard(m, plain){
   const done=m.status==='completed',live=m.status==='live';
   const sc=done?`${m.score1}-${m.score2}`:live?`${m.score1||0}-${m.score2||0}`:'VS';
   const scCls=done?'final':live?'live':'upcoming';
@@ -212,7 +213,7 @@ function mCard(m){
     <span>📍 ${m.venue}</span><span>🕐 ${fdFull(m.date)} ${m.time}</span>
   </div>
   ${m.details?`<div class="match-highlights">⚡ ${m.details}</div>`:''}
-  ${statsHtml}
+  ${!plain && statsHtml}
 </div>`;
 }
 
@@ -408,7 +409,7 @@ function showMD(d){
   document.querySelectorAll('.date-btn').forEach(b=>b.classList.toggle('active',b.textContent.includes(d.slice(-5))));
   if(!ms.length){el.innerHTML=`<p style="color:var(--text-muted);padding:16px;">${fdFull(d)} 無賽事</p>`;return;}
   let h=`<h2 class="section-title" style="margin-bottom:14px;">📅 ${fdFull(d)}</h2><div class="matches-grid two-cols">`;
-  for(const m of ms)h+=mCard(m);h+=`</div>`;el.innerHTML=h;
+  for(const m of ms)h+=mCard(m, true);h+=`</div>`;el.innerHTML=h;
 }
 
 // ========== 淘汰賽頁 ==========
