@@ -733,7 +733,40 @@ const WC_DATA = {
         pressingApplied: [190, 230]
       }
     },
-    { date: '2026-06-14', time: '22:00 ET', group: 'F', team1: 'Sweden', score1: null, team2: 'Tunisia', score2: null, venue: '蒙特雷·BBVA球場', status: 'scheduled' },
+    { date: '2026-06-14', time: '22:00 ET', group: 'F', team1: 'Sweden', score1: 5, team2: 'Tunisia', score2: 1, venue: '蒙特雷·BBVA球場', status: 'completed',
+      goals: [
+        { min: 7, team: 1, scorer: 'Yasin Ayari', assist: 'Viktor Gyökeres', detail: '禁區外弧線球射入左上角，刷新瑞典36年來世界盃最年輕進球紀錄' },
+        { min: 30, team: 1, scorer: 'Alexander Isak', assist: 'Benjamin Nygren', detail: '反擊中禁區邊緣射門入網' },
+        { min: 43, team: 2, scorer: 'Omar Rekik', assist: 'Hannibal Mejbri', detail: '角球頭槌破門，突尼西亞追回一球' },
+        { min: 87, team: 1, scorer: 'Viktor Gyökeres', assist: 'Alexander Bernhardsson', detail: '禁區內接應傳球後轉身射門入網' },
+        { min: 90, team: 1, scorer: 'Mattias Svanberg', detail: 'VAR確認後判定進球有效，瑞典第四球' },
+        { min: 90, team: 1, scorer: 'Anthony Elanga', assist: 'Mattias Svanberg', detail: '禁區內補射入網，瑞典5-1鎖定勝局' }
+      ],
+      cards: [
+        { min: 54, team: 1, player: 'Isak Hien', card: 'yellow', detail: '戰術犯規' }
+      ],
+      stats: {
+        possession: [57, 43],
+        shots: [18, 8],
+        shotsOnTarget: [8, 3],
+        shotsOffTarget: [7, 3],
+        shotsInsideBox: [12, 4],
+        shotsOutsideBox: [6, 4],
+        passes: [480, 340],
+        passCompleted: [410, 270],
+        passAccuracy: [85.4, 79.4],
+        crosses: [16, 12],
+        crossesCompleted: [5, 3],
+        corners: [7, 3],
+        freeKicks: [12, 15],
+        fouls: [14, 12],
+        offsides: [2, 3],
+        yellowCards: [1, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [230, 250]
+      }
+    },
 
     // === 6月15日 ===
     { date: '2026-06-15', time: '12:00 ET', group: 'H', team1: 'Spain', score1: null, team2: 'Cape Verde', score2: null, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'scheduled' },
@@ -851,10 +884,10 @@ const WC_DATA = {
       { team: 'Curaçao', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 7, gd: -6, pts: 0 }
     ],
     'F': [
+      { team: 'Sweden', played: 1, won: 1, drawn: 0, lost: 0, gf: 5, ga: 1, gd: 4, pts: 3 },
       { team: 'Netherlands', played: 1, won: 0, drawn: 1, lost: 0, gf: 2, ga: 2, gd: 0, pts: 1 },
       { team: 'Japan', played: 1, won: 0, drawn: 1, lost: 0, gf: 2, ga: 2, gd: 0, pts: 1 },
-      { team: 'Sweden', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Tunisia', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
+      { team: 'Tunisia', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 5, gd: -4, pts: 0 }
     ],
     'G': [
       { team: 'Belgium', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },

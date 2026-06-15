@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-14 更新：第4天荷蘭2-2日本、象牙海岸1-0厄瓜多精彩照片） =====
+// ===== 輪播牆圖片（2026-06-15 更新：第5天瑞典5-1突尼西亞精彩照片） =====
 const HERO_IMAGES = [
-  // 🇳🇱 Virgil van Dijk 第51分鐘頭槌破門 — 荷蘭隊長在角球中力壓日本後衛頂入遠柱（AP Photo/Julio Cortez）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/8puol74e/Netherlands-Vs-Japan-FIFA-World-Cup-Group-F-Virgil-van-Dijk-header-beats-Zion-Suzuki-AP-Photo.jpg',
-  // 🇯🇵 Keito Nakamura 第57分鐘禁區弧頂勁射碰 van Hecke 折射入網 — 日本閃電扳平！（AP Photo/Julio Cortez）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/jav71jcl/Netherlands-Vs-Japan-FIFA-World-Cup-Group-F-Keito-Nakamura-AP-Photo.jpg',
-  // 🇳🇱 Crysencio Summerville 第64分鐘禁區左側內切後射遠角擊中內柱入網，荷蘭2-1再度領先（AP Photo/LM Otero）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/143z1b5b/Netherlands-Vs-Japan-FIFA-World-Cup-Group-F-Summerville-Scores-AP-Photo.jpg',
-  // 🇯🇵 Daichi Kamada 第89分鐘角球頭槌折射入網 — Koki Ogawa 頭球蹭到 Kamada 頭部，日本絕平！（AP Photo/Julio Cortez）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/ejdz935k/Netherlands-Vs-Japan-FIFA-World-Cup-Group-F-Koki-Ogawa-Takehiro-Tomiyasu-Celeb-AP-Photo.jpg',
-  // 🇨🇮 Amad Diallo 第90分鐘左腳推射遠角破門 — 象牙海岸絕殺厄瓜多！曼聯邊鋒替補上場建功（AP Photo/Matt Rourke）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/ne1ve7r4/Ivory-Coast-Vs-Ecuador-FIFA-World-Cup-2026-Group-E-Amad-Diallo-Celeb-AP-Photo.jpg',
-  // 🇨🇮 Diallo 被隊友團團包圍 — 象牙海岸12年來首場世界盃勝利，終結厄瓜多19場不敗紀錄（AP Photo/Matt Rourke）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/wwmk7m0h/Ivory-Coast-Vs-Ecuador-FIFA-World-Cup-2026-Group-E-Amad-Diallo-Mobbed-AP-Photo.jpg',
-  // 🏟️ 費城林肯金融球場熱情球迷 — 象牙海岸與厄瓜多球迷同框（AP Photo/Matt Rourke）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/705wdbf1/Ivory-Coast-Vs-Ecuador-FIFA-World-Cup-2026-Group-E-Fans-Cheer-AP-Photo.jpg'
+  // 🇸🇪 Yasin Ayari 第7分鐘禁區外弧線球破門 — Brighton中場以22歲251天成爲瑞典36年來世界盃最年輕進球者（AP Photo/Addison Simmons）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/hfdv8y73/Sweden-vs-Tunisia-FIFA-World-Cup-2026-Group-F-Yasin-Ayari-Goal-AP-Photo.jpg',
+  // 🇸🇪 Yasin Ayari 被隊友團團包圍慶祝 — 但他拒絕慶祝，因爲他的父親出生於突尼西亞，他對這個國家懷有敬意（AP Photo/Matias Delacroix）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/5z0wuijw/Sweden-vs-Tunisia-FIFA-World-Cup-2026-Group-F-Yasin-Ayari-congratulated-AP-Photo.jpg',
+  // 🇸🇪 Alexander Isak 第30分鐘反擊中禁區邊緣射門入網 — 紐卡索前鋒攻入世界盃首球，瑞典2-0領先！（AP Photo/Matias Delacroix）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/p5p47ico/Sweden-vs-Tunisia-FIFA-World-Cup-2026-Group-F-Alexander-Isak-Scores-AP-Photo.jpg',
+  // 🇸🇪 Alexander Isak 飛躍慶祝 — 瑞典前鋒跳在空中握拳歡呼，攻入個人世界盃第2球，瑞典球迷在看台上歡聲雷動（AP Photo/Matias Delacroix）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/ns78mp0r/Sweden-vs-Tunisia-FIFA-World-Cup-2026-Group-F-Alexander-Isak-Leaps-AP-Photo.jpg',
+  // 🇹🇳 Omar Rekik 第43分鐘角球頭槌破門 — 南安普頓後衛在禁區內力壓瑞典後衛頂入，突尼西亞追回一球！（AP Photo/Moises Castillo）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/5gc0ep5a/Sweden-vs-Tunisia-FIFA-World-Cup-2026-Group-F-Omar-Rekik-goal-AP-Photo.jpg',
+  // 🇸🇪 Viktor Gyökeres 第87分鐘禁區內轉身射門 — Arsenal前鋒鎖定勝局，瑞典3-1領先，隨後Mattias Svanberg VAR進球與Anthony Elanga補射連下兩城！（AP Photo/Dolores Ochoa）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/xmah0ntj/Sweden-vs-Tunisia-FIFA-World-Cup-2026-Group-F-Viktor-Gyokeres-scores-AP-Photo.jpg',
+  // 🇸🇪 Mattias Svanberg VAR確認後慶祝 — 瑞典中場的進球先被取消，經VAR覆核後改判有效，Svanberg與隊友擁抱慶祝（AP Photo/Sofia Yaker）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/xd2b6jvu/Sweden-vs-Tunisia-FIFA-World-Cup-2026-Group-F-Mattias-Svanberg-Celeb-AP-photo.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇳🇱 荷蘭 2-2 🇯🇵 日本 — Virgil van Dijk 第51分鐘接 Ryan Gravenberch 角球頭槌破門！34歲341天的荷蘭隊長成為隊史世界盃第二年長進球者 @ 達拉斯·AT&T體育場',
-  '🇯🇵 Keito Nakamura 第57分鐘禁區弧頂接 Takefusa Kubo 傳球後轉身勁射，球碰 Jan Paul van Hecke 折射入網！日本僅用6分鐘就扳平比分，展現「不屈的武士道精神」',
-  '🇳🇱 Crysencio Summerville 第64分鐘在禁區左側接到 Gravenberch 傳球後內切射遠角擊中內柱入網！這位西漢姆聯邊鋒攻入國家隊首球，荷蘭2-1再度領先',
-  '🇯🇵 Daichi Kamada 第89分鐘角球混戰中頭球破門！替補上場的 Koki Ogawa 頭槌先蹭到 Kamada 頭部折射入網，Bart Verbruggen 撲到球但仍無法阻止日本絕平！2-2',
-  '🇨🇮 象牙海岸 1-0 🇪🇨 厄瓜多 — Amad Diallo 第90分鐘接到 Wilfried Singo 右路長驅直入傳中後左腳推射遠角！曼聯邊鋒替補登場絕殺，象牙海岸12年來首場世界盃勝利',
-  '🇨🇮 Amad Diallo 被隊友團團包圍慶祝！象牙海岸1-0擊敗厄瓜多，終結對手19場不敗紀錄。2023非洲盃冠軍在死亡之組E組展現競爭力 @ 費城·林肯金融球場',
-  '🏟️ 費城林肯金融球場 — 象牙海岸與厄瓜多球迷在看台上揮舞旗幟助威。此役厄瓜多 John Yeboah 和 Alan Minda 在上半場各擊中一次門框，但最終未能破門'
+  '🇸🇪 瑞典 1-0 🇹🇳 突尼西亞 — Yasin Ayari 第7分鐘禁區外弧線球射入左上角！Brighton中場成為瑞典36年來世界盃最年輕進球者（22歲251天） @ 蒙特雷·BBVA球場',
+  '🇸🇪 Yasin Ayari 被隊友圍住慶祝，但他拒絕大肆慶祝——他的父親出生於突尼西亞，Ayari 原本有資格代表突尼西亞，但選擇了出生國瑞典。賽後他表示：「我對突尼西亞只有尊重」',
+  '🇸🇪 Alexander Isak 第30分鐘反擊中接 Benjamin Nygren 傳球，禁區邊緣冷靜射門入網！瑞典2-0領先，紐卡索前鋒攻入個人世界盃首粒進球',
+  '🇸🇪 Alexander Isak 跳在空中握拳歡呼！瑞典前鋒與 Viktor Gyökeres 的雙箭頭組合讓突尼西亞防線疲於奔命。Graham Potter 治下的瑞典展現出流暢的攻勢足球',
+  '🇹🇳 Omar Rekik 第43分鐘角球頭槌破門！Hannibal Mejbri 開出角球，南安普頓後衛禁區內力壓防守頂入，突尼西亞在半場前追成1-2',
+  '🇸🇪 Viktor Gyökeres 第87分鐘禁區內接 Alexander Bernhardsson 傳球後轉身射門入網，瑞典3-1鎖定勝局。補時階段 Svanberg（VAR 確認）和 Elanga 再進兩球，終場5-1',
+  '🇸🇪 Mattias Svanberg 慶祝VAR改判進球！瑞典中場的禁區外射門先被吹掉，經VAR覆核後裁定進球有效。瑞典5-1大勝，在F組以淨勝球優勢暫居榜首 @ 蒙特雷·BBVA球場'
 ];
