@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-14 更新：加入德國 7-1 庫拉索第4天精彩照片） =====
+// ===== 輪播牆圖片（2026-06-14 更新：第4天荷蘭2-2日本、象牙海岸1-0厄瓜多精彩照片） =====
 const HERO_IMAGES = [
-  // 🇩🇪 德國 7-1 🇨🇼 庫拉索 — Felix Nmecha 第6分鐘禁區邊緣射入遠角，德國閃電開局（AP Photo/Eric Gay）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/tk89hhj9/AP26165619587045.jpg',
-  // 🇨🇼 Livano Comenencia 第21分鐘禁區邊緣勁射破門 — 庫拉索世界盃歷史首球！全場沸騰（AP Photo/Karen Warren）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/2ze69mlj/AP26165596651414.jpg',
-  // 🇩🇪 Kai Havertz 點球破門（45+4'）— Nmecha 禁區內被 Bazoer 絆倒，Havertz 穩穩罰入（AP Photo/Eric Gay）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/iopj39vt/AP26165599002767.jpg',
-  // 🇩🇪 Jamal Musiala 第47分鐘禁區內強力射門，德國4-1擴大領先（AP Photo/Eric Gay）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/qanwri2s/AP26165619549738.jpg',
-  // 🇩🇪 40歲門將 Manuel Neuer 成為德國世界盃史上最年長出賽球員（AP Photo/Karen Warren）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/7f5t10gq/AP26165628057142.jpg',
-  // 👨‍🏫 德國主帥 Julian Nagelsmann（38歲）vs 庫拉索主帥 Dick Advocaat（78歲）— 最年輕vs最年長教練對決（AP Photo/Eric Gay）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/envdr2v9/AP26165628365050.jpg',
-  // 🇨🇼 庫拉索球迷在休斯頓NRG體育場熱情應援 — 世界盃史上最小參賽國家的歷史性一天（AP Photo/Karen Warren）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/eccw2vnb/AP26165640595574.jpg'
+  // 🇳🇱 Virgil van Dijk 第51分鐘頭槌破門 — 荷蘭隊長在角球中力壓日本後衛頂入遠柱（AP Photo/Julio Cortez）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/8puol74e/Netherlands-Vs-Japan-FIFA-World-Cup-Group-F-Virgil-van-Dijk-header-beats-Zion-Suzuki-AP-Photo.jpg',
+  // 🇯🇵 Keito Nakamura 第57分鐘禁區弧頂勁射碰 van Hecke 折射入網 — 日本閃電扳平！（AP Photo/Julio Cortez）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/jav71jcl/Netherlands-Vs-Japan-FIFA-World-Cup-Group-F-Keito-Nakamura-AP-Photo.jpg',
+  // 🇳🇱 Crysencio Summerville 第64分鐘禁區左側內切後射遠角擊中內柱入網，荷蘭2-1再度領先（AP Photo/LM Otero）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/143z1b5b/Netherlands-Vs-Japan-FIFA-World-Cup-Group-F-Summerville-Scores-AP-Photo.jpg',
+  // 🇯🇵 Daichi Kamada 第89分鐘角球頭槌折射入網 — Koki Ogawa 頭球蹭到 Kamada 頭部，日本絕平！（AP Photo/Julio Cortez）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/ejdz935k/Netherlands-Vs-Japan-FIFA-World-Cup-Group-F-Koki-Ogawa-Takehiro-Tomiyasu-Celeb-AP-Photo.jpg',
+  // 🇨🇮 Amad Diallo 第90分鐘左腳推射遠角破門 — 象牙海岸絕殺厄瓜多！曼聯邊鋒替補上場建功（AP Photo/Matt Rourke）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/ne1ve7r4/Ivory-Coast-Vs-Ecuador-FIFA-World-Cup-2026-Group-E-Amad-Diallo-Celeb-AP-Photo.jpg',
+  // 🇨🇮 Diallo 被隊友團團包圍 — 象牙海岸12年來首場世界盃勝利，終結厄瓜多19場不敗紀錄（AP Photo/Matt Rourke）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/wwmk7m0h/Ivory-Coast-Vs-Ecuador-FIFA-World-Cup-2026-Group-E-Amad-Diallo-Mobbed-AP-Photo.jpg',
+  // 🏟️ 費城林肯金融球場熱情球迷 — 象牙海岸與厄瓜多球迷同框（AP Photo/Matt Rourke）
+  'https://cf-images.assettype.com/outlookindia/2026-06-14/705wdbf1/Ivory-Coast-Vs-Ecuador-FIFA-World-Cup-2026-Group-E-Fans-Cheer-AP-Photo.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇩🇪 德國 7-1 🇨🇼 庫拉索 — Felix Nmecha 第6分鐘與 Florian Wirtz 禁區邊緣二過一配合後起腳射入遠角！德國閃電取得領先，39,000名球迷見證 @ 休斯頓·NRG體育場',
-  '🇨🇼 Livano Comenencia 第21分鐘禁區邊緣勁射，Ball bei Manuel Neuer 破門！庫拉索歷史性一刻 — 世界盃史上最小參賽國家（人口僅15萬）攻入隊史世界盃首球！全場起立鼓掌',
-  '🇩🇪 Kai Havertz 第45+4分鐘冷靜罰入12碼 — Nmecha 禁區內被 Riechedly Bazoer 絆倒，Havertz 穩穩射入左下角，上半場德國3-1領先。Havertz 全場梅開二度',
-  '🇩🇪 Jamal Musiala 下半場開賽僅2分鐘（47分鐘）禁區內接 Havertz 妙傳後強力射門入網！這位拜仁慕尼黑天才已在世界盃舞台證明自己，德國4-1',
-  '🇩🇪 40歲傳奇門將 Manuel Neuer 時隔2年重返國家隊先發 — 成為德國世界盃史上最年長出賽球員！Neuer 全場仍展現世界級撲救，帶領後防線穩定發揮',
-  '👨‍🏫 38歲 Julian Nagelsmann 成為世界盃史上最年輕主帥之一，與78歲 Dick Advocaat（最年長）對決寫下年齡差距最大紀錄！Nagelsmann 賽後讚球隊展現"應有的侵略性"',
-  '🇨🇼 庫拉索球迷在休斯頓 NRG 體育場看台揮舞國旗 — 儘管1-7落敗，這支來自加勒比海的小國（人口15萬，面積444km²）已創造歷史！球迷賽後仍高唱國歌致敬球隊'
+  '🇳🇱 荷蘭 2-2 🇯🇵 日本 — Virgil van Dijk 第51分鐘接 Ryan Gravenberch 角球頭槌破門！34歲341天的荷蘭隊長成為隊史世界盃第二年長進球者 @ 達拉斯·AT&T體育場',
+  '🇯🇵 Keito Nakamura 第57分鐘禁區弧頂接 Takefusa Kubo 傳球後轉身勁射，球碰 Jan Paul van Hecke 折射入網！日本僅用6分鐘就扳平比分，展現「不屈的武士道精神」',
+  '🇳🇱 Crysencio Summerville 第64分鐘在禁區左側接到 Gravenberch 傳球後內切射遠角擊中內柱入網！這位西漢姆聯邊鋒攻入國家隊首球，荷蘭2-1再度領先',
+  '🇯🇵 Daichi Kamada 第89分鐘角球混戰中頭球破門！替補上場的 Koki Ogawa 頭槌先蹭到 Kamada 頭部折射入網，Bart Verbruggen 撲到球但仍無法阻止日本絕平！2-2',
+  '🇨🇮 象牙海岸 1-0 🇪🇨 厄瓜多 — Amad Diallo 第90分鐘接到 Wilfried Singo 右路長驅直入傳中後左腳推射遠角！曼聯邊鋒替補登場絕殺，象牙海岸12年來首場世界盃勝利',
+  '🇨🇮 Amad Diallo 被隊友團團包圍慶祝！象牙海岸1-0擊敗厄瓜多，終結對手19場不敗紀錄。2023非洲盃冠軍在死亡之組E組展現競爭力 @ 費城·林肯金融球場',
+  '🏟️ 費城林肯金融球場 — 象牙海岸與厄瓜多球迷在看台上揮舞旗幟助威。此役厄瓜多 John Yeboah 和 Alan Minda 在上半場各擊中一次門框，但最終未能破門'
 ];

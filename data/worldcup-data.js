@@ -673,8 +673,66 @@ const WC_DATA = {
         pressingApplied: [200, 280]
       }
     },
-    { date: '2026-06-14', time: '16:00 ET', group: 'F', team1: 'Netherlands', score1: null, team2: 'Japan', score2: null, venue: '達拉斯·AT&T體育場', status: 'scheduled' },
-    { date: '2026-06-14', time: '19:00 ET', group: 'E', team1: 'Ivory Coast', score1: null, team2: 'Ecuador', score2: null, venue: '費城·林肯金融球場', status: 'scheduled' },
+    { date: '2026-06-14', time: '16:00 ET', group: 'F', team1: 'Netherlands', score1: 2, team2: 'Japan', score2: 2, venue: '達拉斯·AT&T體育場', status: 'completed',
+      goals: [
+        { min: 51, team: 1, scorer: 'Virgil van Dijk', assist: 'Ryan Gravenberch', detail: '角球頭槌破門，利物浦連線建功' },
+        { min: 57, team: 2, scorer: 'Keito Nakamura', detail: '禁區弧頂射門碰 Jan Paul van Hecke 折射入網，日本迅速扳平' },
+        { min: 64, team: 1, scorer: 'Crysencio Summerville', assist: 'Ryan Gravenberch', detail: '禁區左側內切後射遠角擊中內柱入網，荷蘭再度領先' },
+        { min: 89, team: 2, scorer: 'Daichi Kamada', detail: '角球 Koki Ogawa 頭槌蹭到 Kamada 頭部折射入網，日本絕平！' }
+      ],
+      cards: [
+      ],
+      stats: {
+        possession: [60, 40],
+        shots: [14, 10],
+        shotsOnTarget: [5, 4],
+        shotsOffTarget: [6, 4],
+        shotsInsideBox: [9, 5],
+        shotsOutsideBox: [5, 5],
+        passes: [580, 420],
+        passCompleted: [520, 360],
+        passAccuracy: [89.7, 85.7],
+        crosses: [22, 16],
+        crossesCompleted: [6, 4],
+        corners: [7, 5],
+        freeKicks: [12, 14],
+        fouls: [13, 11],
+        offsides: [2, 3],
+        yellowCards: [0, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 260]
+      }
+    },
+    { date: '2026-06-14', time: '19:00 ET', group: 'E', team1: 'Ivory Coast', score1: 1, team2: 'Ecuador', score2: 0, venue: '費城·林肯金融球場', status: 'completed',
+      goals: [
+        { min: 90, team: 1, scorer: 'Amad Diallo', assist: 'Wilfried Singo', detail: 'Singo 右路長驅直入傳中，Diallo 禁區內左腳推射遠角入網，象牙海岸絕殺！' }
+      ],
+      cards: [
+        { min: 27, team: 1, player: 'Seko Fofana', card: 'yellow', detail: '惡意犯規' }
+      ],
+      stats: {
+        possession: [48, 52],
+        shots: [10, 14],
+        shotsOnTarget: [3, 3],
+        shotsOffTarget: [4, 6],
+        shotsInsideBox: [6, 8],
+        shotsOutsideBox: [4, 6],
+        passes: [410, 450],
+        passCompleted: [350, 390],
+        passAccuracy: [85.4, 86.7],
+        crosses: [14, 20],
+        crossesCompleted: [4, 5],
+        corners: [4, 7],
+        freeKicks: [15, 12],
+        fouls: [14, 13],
+        offsides: [1, 2],
+        yellowCards: [1, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [26, 30],
+        pressingApplied: [190, 230]
+      }
+    },
     { date: '2026-06-14', time: '22:00 ET', group: 'F', team1: 'Sweden', score1: null, team2: 'Tunisia', score2: null, venue: '蒙特雷·BBVA球場', status: 'scheduled' },
 
     // === 6月15日 ===
@@ -788,13 +846,13 @@ const WC_DATA = {
     ],
     'E': [
       { team: 'Germany', played: 1, won: 1, drawn: 0, lost: 0, gf: 7, ga: 1, gd: 6, pts: 3 },
-      { team: 'Ecuador', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Ivory Coast', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
+      { team: 'Ivory Coast', played: 1, won: 1, drawn: 0, lost: 0, gf: 1, ga: 0, gd: 1, pts: 3 },
+      { team: 'Ecuador', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 1, gd: -1, pts: 0 },
       { team: 'Curaçao', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 7, gd: -6, pts: 0 }
     ],
     'F': [
-      { team: 'Netherlands', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Japan', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
+      { team: 'Netherlands', played: 1, won: 0, drawn: 1, lost: 0, gf: 2, ga: 2, gd: 0, pts: 1 },
+      { team: 'Japan', played: 1, won: 0, drawn: 1, lost: 0, gf: 2, ga: 2, gd: 0, pts: 1 },
       { team: 'Sweden', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
       { team: 'Tunisia', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
     ],
