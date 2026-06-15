@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-15 更新：前5日賽事精華 — 美國主場大勝、德國7-1橫掃、瑞典5-1轟炸） =====
+// ===== 輪播牆圖片（2026-06-15 更新：西班牙0-0遭維德角逼平、Vozinha 40歲門神傳奇） =====
 const HERO_IMAGES = [
-  // 🇺🇸 Folarin Balogun 慶祝梅開二度 — Monaco前鋒上半場獨進兩球，美國隊4-1大勝巴拉圭，寫下32年來主場世界盃開幕戰最大勝利（AP Photo/Andre Penner）
-  'https://cf-images.assettype.com/outlookindia/2026-06-13/4ekl2sd6/USA-vs-Paraguay-FIFA-World-Cup-2026-Group-D-Folarin-Balogun-Celeb-3-AP-Photo.jpg',
-  // 🇩🇪 Kai Havertz 梅開二度領軍 — 德國坦克7-1血洗世界盃新軍庫拉索，四屆冠軍展現重返榮耀的決心（AP Photo/Eric Gay）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/bp3k83ze/AP26165651620816.jpg',
-  // 🇸🇪 Viktor Gyökeres 禁區內轉身射門 — 兵工廠射手在瑞典5-1大勝突尼西亞之戰貢獻進球與助攻，與 Isak 聯手轟炸北非防線（AP Photo/Matias Delacroix）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/25pscsh7/Sweden-vs-Tunisia-FIFA-World-Cup-2026-Group-F-Viktor-Gyokeres-AP-Photo.jpg',
-  // 🇺🇸 洛杉磯 SoFi 體育場滿座觀眾 — 70,492名球迷見證美國隊史世界盃最大勝仗，Katy Perry 開幕表演後 Balogun 與 Reyna 聯手轟入4球（AP Photo/Jae C. Hong）
-  'https://cf-images.assettype.com/outlookindia/2026-06-13/itnyfv4y/AP26163860617870.jpg',
-  // 🇩🇪 Curaçao 寫下歷史 — Livano Comenencia 在第21分鐘攻入該國世界盃史上第一球！世界盃史上最小參賽國（人口僅15萬）在休士頓留下永恆印記（AP Photo/Eric Gay）
-  'https://cf-images.assettype.com/outlookindia/2026-06-14/zsyrr999/AP26165681916530.jpg',
-  // 🇸🇪 Alexander Isak 與 Viktor Gyökeres 慶祝進球 — 這是自1994年以來第一對在世界盃同場貢獻進球+助攻的瑞典雙星，瑞典5-1大勝後獨居F組榜首（AP Photo/Sofia Yaker）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/2om5uprs/Sweden-vs-Tunisia-FIFA-World-Cup-2026-Group-F-Sweden-XI-AP-Photo.jpg',
-  // 🇺🇸 Giovanni Reyna 禁區邊緣外腳背遠射破網 — 傷停補時階段以招牌「trivela」為美國隊錦上添花，美國4-1大勝巴拉圭，寫下隊史世界盃單場最多進球紀錄（AP Photo/Mark J. Terrill）
-  'https://cf-images.assettype.com/outlookindia/2026-06-13/ksgh2p92/AP26163850379186.jpg'
+  // 🇪🇸 西班牙 0-0 🇨🇻 維德角 — Vozinha 撲救後激動落淚！40歲門神單場7次撲救、擋出 Ferran Torres 中柱射門與 Laporte 頭槌，以生涯最傳奇一戰率人口僅50萬的維德角逼平歐洲冠軍（AP Photo/Erik S. Lesser）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/v4tvuqak/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-Verde-players-celebrate-AP-Photo.jpg',
+  // 🇪🇸 Lamine Yamal 替補上陣 — 18歲巴薩天才第71分鐘登場，隨即改變比賽節奏。雖未能突破維德角鐵桶陣，但他在世界盃的首秀已讓全球球迷期待（AP Photo/Jacob Kupferman）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/9hvvo716/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-Lamine-Yamal-AP-Photo.jpg',
+  // 🇪🇸 Ferran Torres 中柱一刻 — 巴薩前鋒在第30分鐘接 Cucurella 傳球勁射擊中橫樑，Oyarzabal 補射又被 Vozinha 神撲！這是西班牙全場最接近破門的機會（AP Photo/Mike Stewart）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/bs4chuej/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-Ferran-Torres-In-Action-AP-Photo.jpg',
+  // 🇨🇻 維德角史上第一場世界盃 — 大合照！世界排名第67的島國，人口僅約50萬，在亞特蘭大 Mercedes-Benz 體育場寫下歷史。Bubista 教練讓全世界看見藍鯊的韌性（AP Photo/Mike Stewart）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/tua0frzd/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-Cape-Verde-XI-AP-Photo.jpg',
+  // 🇨🇻 Sidny Lopes Cabral 防守 Pedri — 維德角球員整場展現驚人防守強度，擋住西班牙27次射門。Pedri 全場傳球成功率92%仍無法撕開維德角防線（AP Photo/Erik S. Lesser）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/mq9ue1qh/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-Sidny-Lopes-Cabral-AP-Photo.jpg',
+  // 🇪🇸 Rodri 與 Pedri 的無力 — 曼城鐵腰與巴薩中場聯手掌控74%控球率，傳球620次、11次角球，但始終無法攻破 Vozinha 把守的大門。西班牙賽後承認「面對鐵桶陣需要更多耐心」（AP Photo/Erik S. Lesser）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/6xmxnu80/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-Marc-Cucurella-Ryan-Mendes-AP-Photo.jpg',
+  // 🇪🇸 🇨🇻 比賽終場 — 維德角球員圍圈慶祝歷史性0-0！這是2026世界盃迄今最大冷門。Vozinha 獲選全場最佳球員，賽後受訪時哽咽：「這是獻給所有維德角人民的禮物」（AP Photo/Jacob Kupferman）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/z3uvvdz0/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-flags-anthems-AP-Photo.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇺🇸 美國 4-1 🇵🇾 巴拉圭 — Folarin Balogun 梅開二度！Monaco 前鋒上半場連進兩球，加上 Reyna 傷停補時「trivela」遠射，美國隊在主場 SoFi 球場大勝，寫下32年來世界盃開幕戰最風光一役 @ 洛杉磯·SoFi體育場',
-  '🇩🇪 德國 7-1 🇨🇼 庫拉索 — Kai Havertz 梅開二度！Musiala、Nmecha、Schlotterbeck、Brown、Undav 各進一球，四屆冠軍坦克大軍碾壓世界盃史上最小參賽國。庫拉索雖慘敗但仍靠 Comenencia 攻入隊史首顆世界盃進球 @ 休士頓·NRG體育場',
-  '🇸🇪 瑞典 5-1 🇹🇳 突尼西亞 — Viktor Gyökeres 與 Alexander Isak 各進一球並送出助攻！這是自1994年以來首次有兩名瑞典球員在世界盃同場達成進球+助攻。Yasin Ayari 梅開二度，瑞典輕鬆拿下 F 組榜首 @ 蒙特雷·BBVA球場',
-  '🇺🇸 美國球迷在 SoFi 球場沸騰 — 70,492 人見證美國隊史最大世界盃勝仗。Pochettino 的進攻體系讓美國上半場就取得3-0領先，整場比賽好萊塢明星雲集，Katy Perry 賽前表演為盛會揭開序幕',
-  '🇨🇼 庫拉索 Livano Comenencia 攻入國家歷史性進球 — 第21分鐘，這位21歲邊鋒禁區邊緣勁射破網，為人口僅15萬的加勒比海島國攻下世界盃史上第一球！雖然最終1-7落敗，但他們已讓全世界記住了這個名字',
-  '🇸🇪 Alexander Isak 與隊友慶祝 — 利物浦前鋒 Isak 在比賽中展現世界級水準：一次精彩個人突破進球、一次助攻、一次高壓逼搶導致對手失誤。兵工廠射手 Gyökeres 賽後表示：「我們向全世界證明了瑞典足球回來了」',
-  '🇺🇸 Giovanni Reyna 招牌 trivela 遠射 — 傷停補時第8分鐘，多特蒙德中場在禁區邊緣以外腳背劃出致命弧線，球直掛左上角入網！這是美國隊史世界盃單場第4顆進球，刷新隊史紀錄。Reyna 賽後說：「這是獻給全美球迷的禮物」'
+  '🇨🇻 維德角 0-0 🇪🇸 西班牙 — 40歲門神 Vozinha 單場7次撲救，助人口僅50萬的島國逼平歐洲冠軍！賽後他跪地痛哭，隊友將他高高拋起。這是世界盃史上最令人動容的 debut 之一 @ 亞特蘭大·Mercedes-Benz 體育場',
+  '🇪🇸 Lamine Yamal 世界盃初登場 — 第71分鐘替補上陣，年僅18歲的巴薩邊鋒在滿場7萬球迷面前展現天賦。雖然未能改寫比分，但他的每一次觸球都讓現場沸騰。西班牙媒體評價：「史上最年輕的世界盃出賽球員之一」',
+  '🇪🇸 Ferran Torres 中柱 — 巴薩前鋒禁區邊緣勁射擊中橫樑！這是西班牙全場最佳機會之一。西班牙全場27次射門7次射正，xG高達3.14卻顆粒無收，創下本屆世界盃最令人跌破眼鏡的數據',
+  '🇨🇻 維德角世界盃首戰陣容 — 11人來自9個國家聯賽，最年長者40歲 Vozinha、最年輕22歲 Diney Borges。Bubista 排出5-4-1鐵桶陣，全場僅6次射門但拼出歷史性一分。賽後更衣室影片在社群平台瘋傳',
+  '🇨🇻 Sidny Lopes Cabral 死守 Pedri — 這位效力葡萄牙乙級聯賽的防守中場全場鏟斷7次、攔截5次，讓向來以靈巧見長的 Pedri 無從發揮。賽後數據顯示維德角全隊跑動距離達118公里，比西班牙還多6公里',
+  '🇪🇸 Cucurella 與 Mendes 空中對決 — 西班牙左後衛全場傳中9次僅成功2次，維德角高大的防線讓西班牙傳中戰術完全失效。Cucurella 賽後坦言：「我們低估了他們的組織性和身體對抗能力」',
+  '🇪🇸 🇨🇻 終場哨響瞬間 — 西班牙球員低頭離場，維德角全隊相擁而泣。從 -1200 的賠率差距到0-0的結果，維德角用實際行動證明：世界盃沒有弱旅，夢想可以擊敗任何數字 @ 亞特蘭大'
 ];
