@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-15 更新：第5天瑞典5-1突尼西亞精彩照片） =====
+// ===== 輪播牆圖片（2026-06-15 更新：第5天西班牙0-0維德角 — 維德角首秀驚艷逼平歐洲冠軍） =====
 const HERO_IMAGES = [
-  // 🇸🇪 Yasin Ayari 第7分鐘禁區外弧線球破門 — Brighton中場以22歲251天成爲瑞典36年來世界盃最年輕進球者（AP Photo/Addison Simmons）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/hfdv8y73/Sweden-vs-Tunisia-FIFA-World-Cup-2026-Group-F-Yasin-Ayari-Goal-AP-Photo.jpg',
-  // 🇸🇪 Yasin Ayari 被隊友團團包圍慶祝 — 但他拒絕慶祝，因爲他的父親出生於突尼西亞，他對這個國家懷有敬意（AP Photo/Matias Delacroix）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/5z0wuijw/Sweden-vs-Tunisia-FIFA-World-Cup-2026-Group-F-Yasin-Ayari-congratulated-AP-Photo.jpg',
-  // 🇸🇪 Alexander Isak 第30分鐘反擊中禁區邊緣射門入網 — 紐卡索前鋒攻入世界盃首球，瑞典2-0領先！（AP Photo/Matias Delacroix）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/p5p47ico/Sweden-vs-Tunisia-FIFA-World-Cup-2026-Group-F-Alexander-Isak-Scores-AP-Photo.jpg',
-  // 🇸🇪 Alexander Isak 飛躍慶祝 — 瑞典前鋒跳在空中握拳歡呼，攻入個人世界盃第2球，瑞典球迷在看台上歡聲雷動（AP Photo/Matias Delacroix）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/ns78mp0r/Sweden-vs-Tunisia-FIFA-World-Cup-2026-Group-F-Alexander-Isak-Leaps-AP-Photo.jpg',
-  // 🇹🇳 Omar Rekik 第43分鐘角球頭槌破門 — 南安普頓後衛在禁區內力壓瑞典後衛頂入，突尼西亞追回一球！（AP Photo/Moises Castillo）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/5gc0ep5a/Sweden-vs-Tunisia-FIFA-World-Cup-2026-Group-F-Omar-Rekik-goal-AP-Photo.jpg',
-  // 🇸🇪 Viktor Gyökeres 第87分鐘禁區內轉身射門 — Arsenal前鋒鎖定勝局，瑞典3-1領先，隨後Mattias Svanberg VAR進球與Anthony Elanga補射連下兩城！（AP Photo/Dolores Ochoa）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/xmah0ntj/Sweden-vs-Tunisia-FIFA-World-Cup-2026-Group-F-Viktor-Gyokeres-scores-AP-Photo.jpg',
-  // 🇸🇪 Mattias Svanberg VAR確認後慶祝 — 瑞典中場的進球先被取消，經VAR覆核後改判有效，Svanberg與隊友擁抱慶祝（AP Photo/Sofia Yaker）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/xd2b6jvu/Sweden-vs-Tunisia-FIFA-World-Cup-2026-Group-F-Mattias-Svanberg-Celeb-AP-photo.jpg'
+  // 🇨🇻 40歲門將 Vozinha 飛身撲救 — 維德角英雄單場7次撲救，擋出西班牙22次射門（AP Photo/Mike Stewart）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/7sgxruww/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-Vozinha-Makes-A-Save-AP-Photo.jpg',
+  // 🇨🇻 維德角球員賽後相擁慶祝 — 世界盃首秀即逼平歐洲冠軍，寫下該國足球歷史最光榮一頁（AP Photo/Erik S. Lesser）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/v4tvuqak/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-Verde-players-celebrate-AP-Photo.jpg',
+  // 🇨🇻 Vozinha 披著維德角國旗賽後致敬 — 40歲老將淚灑球場：「這是獻給我們整個國家的禮物」（AP Photo/Erik S. Lesser）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/f97eqh19/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-Vozinha-Post-Match-AP-Photo.jpg',
+  // 🇪🇸 Lamine Yamal 下半場替補上陣 — 18歲337天，巴塞隆納天才成為西班牙在世界盃史上最年輕出場球員（AP Photo/Erik S. Lesser）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/9hvvo716/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-Lamine-Yamal-AP-Photo.jpg',
+  // 🇪🇸 Ferran Torres 禁區內射門中柱 — 西班牙上半場最佳機會，Torres 六碼處轉身射門擊中橫樑（AP Photo/Erik S. Lesser）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/bs4chuej/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-Ferran-Torres-In-Action-AP-Photo.jpg',
+  // 🇪🇸 Pedri 第90分鐘領到黃牌 — 西班牙中場因拉倒 Cape Verde 反擊球員被警告，這也是西班牙全場唯一的黃牌（AP Photo/Jacob Kupferman）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/irj57w1p/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-Pedri-Booked-AP-Photo.jpg',
+  // 🇨🇻 維德角球迷在看台上歡呼 — 遠征亞特蘭大的維德角球迷見證國家歷史性一刻，終場哨響時欣喜若狂（AP Photo/Jacob Kupferman）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/enx9o78r/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-Cape-Verde-fans-celebrate-AP-Photo.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇸🇪 瑞典 1-0 🇹🇳 突尼西亞 — Yasin Ayari 第7分鐘禁區外弧線球射入左上角！Brighton中場成為瑞典36年來世界盃最年輕進球者（22歲251天） @ 蒙特雷·BBVA球場',
-  '🇸🇪 Yasin Ayari 被隊友圍住慶祝，但他拒絕大肆慶祝——他的父親出生於突尼西亞，Ayari 原本有資格代表突尼西亞，但選擇了出生國瑞典。賽後他表示：「我對突尼西亞只有尊重」',
-  '🇸🇪 Alexander Isak 第30分鐘反擊中接 Benjamin Nygren 傳球，禁區邊緣冷靜射門入網！瑞典2-0領先，紐卡索前鋒攻入個人世界盃首粒進球',
-  '🇸🇪 Alexander Isak 跳在空中握拳歡呼！瑞典前鋒與 Viktor Gyökeres 的雙箭頭組合讓突尼西亞防線疲於奔命。Graham Potter 治下的瑞典展現出流暢的攻勢足球',
-  '🇹🇳 Omar Rekik 第43分鐘角球頭槌破門！Hannibal Mejbri 開出角球，南安普頓後衛禁區內力壓防守頂入，突尼西亞在半場前追成1-2',
-  '🇸🇪 Viktor Gyökeres 第87分鐘禁區內接 Alexander Bernhardsson 傳球後轉身射門入網，瑞典3-1鎖定勝局。補時階段 Svanberg（VAR 確認）和 Elanga 再進兩球，終場5-1',
-  '🇸🇪 Mattias Svanberg 慶祝VAR改判進球！瑞典中場的禁區外射門先被吹掉，經VAR覆核後裁定進球有效。瑞典5-1大勝，在F組以淨勝球優勢暫居榜首 @ 蒙特雷·BBVA球場'
+  '🇨🇻 維德角 0-0 🇪🇸 西班牙 — 40歲門將 Vozinha 飛身撲救！全場7次撲救擋出22次射門，維德角世界盃首秀即逼平歐洲冠軍 @ 亞特蘭大·梅賽德斯-賓士體育場',
+  '🇨🇻 維德角球員賽後相擁慶祝 — Sidny Lopes Cabral、Diney Borges 與隊友們在場中央圍圈歡呼。世界盃首秀即從頭號種子手中搶下1分，寫下國家足球史最光榮一頁',
+  '🇨🇻 Vozinha 披著維德角國旗淚灑球場 — 賽後受訪時哽咽：「我來自一個只有50萬人的小島國，但今晚整個世界都看到了我們的力量。這分是獻給所有維德角人的禮物」',
+  '🇪🇸 Lamine Yamal 第70分鐘替補上陣 — 18歲337天的巴塞隆納天才成為西班牙世界盃史上最年輕出場球員。Yamal 上場後創造了 Olmo 給 Oyarzabal 的一次絕佳機會，可惜被擋出',
+  '🇪🇸 Ferran Torres 六碼處轉身射門中柱 — 第39分鐘 Cucurella 左路傳中，Torres 門前轉身抽射擊中橫樑！Oyarzabal 補射被 Vozinha 神勇撲出，西班牙錯失全場最佳機會',
+  '🇪🇸 Pedri 第90分鐘因戰術犯規領到黃牌 — 西班牙中場在 Cape Verde 反擊中拉倒 Da Costa，被約旦裁判 Adham Makhadmeh 出示黃牌。西班牙全場22次射門、74%控球率，卻始終無法攻破 Vozinha 的十指關',
+  '🇨🇻 維德角球迷在看台上欣喜若狂 — 終場哨響那一刻，遠征亞特蘭大的維德角球迷高舉國旗歡呼。這個人口僅50萬的島國，在世界盃首秀就讓全世界刮目相看'
 ];

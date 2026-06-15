@@ -769,7 +769,34 @@ const WC_DATA = {
     },
 
     // === 6月15日 ===
-    { date: '2026-06-15', time: '12:00 ET', group: 'H', team1: 'Spain', score1: null, team2: 'Cape Verde', score2: null, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'scheduled' },
+    { date: '2026-06-15', time: '12:00 ET', group: 'H', team1: 'Spain', score1: 0, team2: 'Cape Verde', score2: 0, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'completed',
+      goals: [],
+      cards: [
+        { min: 16, team: 2, player: 'Sidny Lopes Cabral', card: 'yellow', detail: '手部動作犯規' },
+        { min: 90, team: 1, player: 'Pedri', card: 'yellow', detail: '拉倒對手阻止反擊' }
+      ],
+      stats: {
+        possession: [74, 26],
+        shots: [27, 6],
+        shotsOnTarget: [7, 1],
+        shotsOffTarget: [11, 3],
+        shotsInsideBox: [16, 3],
+        shotsOutsideBox: [11, 3],
+        passes: [620, 210],
+        passCompleted: [550, 150],
+        passAccuracy: [88.7, 71.4],
+        crosses: [25, 6],
+        crossesCompleted: [7, 1],
+        corners: [11, 1],
+        freeKicks: [12, 14],
+        fouls: [10, 14],
+        offsides: [2, 3],
+        yellowCards: [1, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 280]
+      }
+    },
     { date: '2026-06-15', time: '15:00 ET', group: 'G', team1: 'Belgium', score1: null, team2: 'Egypt', score2: null, venue: '西雅圖·流明球場', status: 'scheduled' },
     { date: '2026-06-15', time: '18:00 ET', group: 'H', team1: 'Saudi Arabia', score1: null, team2: 'Uruguay', score2: null, venue: '邁阿密·硬石體育場', status: 'scheduled' },
     { date: '2026-06-15', time: '21:00 ET', group: 'G', team1: 'Iran', score1: null, team2: 'New Zealand', score2: null, venue: '洛杉磯·SoFi體育場', status: 'scheduled' },
@@ -896,10 +923,10 @@ const WC_DATA = {
       { team: 'New Zealand', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
     ],
     'H': [
-      { team: 'Spain', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
+      { team: 'Spain', played: 1, won: 0, drawn: 1, lost: 0, gf: 0, ga: 0, gd: 0, pts: 1 },
+      { team: 'Cape Verde', played: 1, won: 0, drawn: 1, lost: 0, gf: 0, ga: 0, gd: 0, pts: 1 },
       { team: 'Uruguay', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Saudi Arabia', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Cape Verde', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
+      { team: 'Saudi Arabia', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
     ],
     'I': [
       { team: 'France', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
