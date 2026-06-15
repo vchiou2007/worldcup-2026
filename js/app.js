@@ -409,7 +409,7 @@ function showMD(d){
   document.querySelectorAll('.date-btn').forEach(b=>b.classList.toggle('active',b.textContent.includes(d.slice(-5))));
   if(!ms.length){el.innerHTML=`<p style="color:var(--text-muted);padding:16px;">${fdFull(d)} 無賽事</p>`;return;}
   let h=`<h2 class="section-title" style="margin-bottom:14px;">📅 ${fdFull(d)}</h2><div class="matches-grid two-cols">`;
-  for(const m of ms)h+=mCard(m, true);h+=`</div>`;el.innerHTML=h;
+  for(const m of ms)h+=mCard(m);h+=`</div>`;el.innerHTML=h;
 }
 
 // ========== 淘汰賽頁 ==========
