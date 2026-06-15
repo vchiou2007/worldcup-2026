@@ -341,7 +341,12 @@ function renderHome(){
       const st=stnd(g.id);
       h+=`<div class="gm-card"><a href="groups.html#group-${g.id}" style="text-decoration:none;color:inherit;"><div class="gm-title">${g.id}組 ${gf(g.id)}</div></a>`;
       for(let i=0;i<st.length;i++){const s=st[i];
-        h+=`<div class="gm-row"><span class="gm-rank rank-${Math.min(i+1,4)}">${i+1}</span>${fimgSm(s.team)}<span style="flex:1;">${s.team}</span><span class="gm-pts">${s.pts}</span></div>`;}
+        const isTop=i===0||i===1;
+        const rankStyle=isTop?`font-weight:800;color:#0d9488;`:`font-weight:500;color:var(--text-muted);`;
+        const nameStyle=isTop?`font-weight:700;font-size:0.88rem;`:`font-weight:500;font-size:0.85rem;`;
+        const ptsStyle=isTop?`background:#0d9488;color:#fff;font-weight:800;padding:2px 8px;border-radius:6px;font-size:0.85rem;`:`font-weight:700;color:var(--text-muted);font-size:0.82rem;`;
+        const rowBg=isTop?`background:rgba(13,148,136,0.06);border-radius:6px;margin:1px 0;`:'';
+        h+=`<div class="gm-row" style="${rowBg}"><span class="gm-rank" style="${rankStyle}">${i+1}</span>${fimgSm(s.team)}<span style="flex:1;${nameStyle}">${s.team}</span><span style="${ptsStyle}">${s.pts}</span></div>`;}
       h+=`</div>`;
     }h+=`</div>`;el3.innerHTML=h;
   }
