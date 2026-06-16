@@ -830,8 +830,74 @@ const WC_DATA = {
         pressingApplied: [210, 230]
       }
     },
-    { date: '2026-06-15', time: '18:00 ET', group: 'H', team1: 'Saudi Arabia', score1: null, team2: 'Uruguay', score2: null, venue: '邁阿密·硬石體育場', status: 'scheduled' },
-    { date: '2026-06-15', time: '21:00 ET', group: 'G', team1: 'Iran', score1: null, team2: 'New Zealand', score2: null, venue: '洛杉磯·SoFi體育場', status: 'scheduled' },
+    { date: '2026-06-15', time: '18:00 ET', group: 'H', team1: 'Saudi Arabia', score1: 1, team2: 'Uruguay', score2: 1, venue: '邁阿密·硬石體育場', status: 'completed',
+      goals: [
+        { min: 41, team: 1, scorer: 'Abdulelah Al Amri', assist: 'Hassan Al Tambakti', detail: '角球 Hassan Al Tambakti 頭槌被撲，Al Amri 補射入網' },
+        { min: 80, team: 2, scorer: 'Maxi Araujo', assist: 'Mathias Olivera', detail: 'Olivera 左路傳中，Vinas 頭槌被撲，Araujo 補射破門扳平' }
+      ],
+      cards: [
+        { min: 34, team: 2, player: 'Rodrigo Bentancur', card: 'yellow', detail: '中場戰術犯規' },
+        { min: 55, team: 1, player: 'Mohamed Kanno', card: 'yellow', detail: '犯規阻止反擊' },
+        { min: 72, team: 1, player: 'Ali Al-Bulaihi', card: 'yellow', detail: '拉扯球衣犯規' },
+        { min: 85, team: 2, player: 'Manuel Ugarte', card: 'yellow', detail: '中場鏟球犯規' }
+      ],
+      stats: {
+        possession: [38, 62],
+        shots: [7, 22],
+        shotsOnTarget: [3, 10],
+        shotsOffTarget: [2, 8],
+        shotsInsideBox: [4, 14],
+        shotsOutsideBox: [3, 8],
+        passes: [320, 560],
+        passCompleted: [250, 490],
+        passAccuracy: [78.1, 87.5],
+        crosses: [8, 22],
+        crossesCompleted: [2, 6],
+        corners: [4, 9],
+        freeKicks: [12, 14],
+        fouls: [14, 12],
+        offsides: [2, 3],
+        yellowCards: [2, 2],
+        redCards: [0, 0],
+        forcedTurnovers: [26, 30],
+        pressingApplied: [200, 240]
+      }
+    },
+    { date: '2026-06-15', time: '21:00 ET', group: 'G', team1: 'Iran', score1: 2, team2: 'New Zealand', score2: 2, venue: '洛杉磯·SoFi體育場', status: 'completed',
+      goals: [
+        { min: 7, team: 2, scorer: 'Elijah Just', assist: 'Chris Wood', detail: 'Wood 胸部停球後敲給 Just，禁區內勁射入網' },
+        { min: 32, team: 1, scorer: 'Ramin Rezaeian', detail: '禁區內混戰中補射入網，伊朗扳平比分' },
+        { min: 54, team: 2, scorer: 'Elijah Just', assist: 'Chris Wood', detail: 'Wood 與 Just 禁區二過一配合，Just 勁射梅開二度' },
+        { min: 68, team: 1, scorer: 'Mohammad Mohebbi', assist: 'Ramin Rezaeian', detail: 'Rezaeian 左路傳中，Mohebbi 頭槌擊中門柱內側入網' }
+      ],
+      cards: [
+        { min: 28, team: 2, player: 'Marko Stamenic', card: 'yellow', detail: '戰術犯規阻止反擊' },
+        { min: 44, team: 1, player: 'Saman Ghoddos', card: 'yellow', detail: '中場犯規' },
+        { min: 71, team: 1, player: 'Saeid Ezatolahi', card: 'yellow', detail: '鏟球犯規' },
+        { min: 82, team: 2, player: 'Liberato Cacace', card: 'yellow', detail: '延誤比賽重新開始' }
+      ],
+      stats: {
+        possession: [52, 48],
+        shots: [14, 12],
+        shotsOnTarget: [5, 5],
+        shotsOffTarget: [6, 4],
+        shotsInsideBox: [8, 7],
+        shotsOutsideBox: [6, 5],
+        passes: [430, 390],
+        passCompleted: [365, 322],
+        passAccuracy: [84.9, 82.6],
+        crosses: [16, 14],
+        crossesCompleted: [5, 4],
+        corners: [6, 5],
+        freeKicks: [14, 12],
+        fouls: [14, 13],
+        offsides: [2, 3],
+        yellowCards: [2, 2],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 250]
+      }
+    },
 
     // === 6月16日 ===
     { date: '2026-06-16', time: '15:00 ET', group: 'I', team1: 'France', score1: null, team2: 'Senegal', score2: null, venue: '紐約/新澤西·大都會人壽體育場', status: 'scheduled' },
@@ -950,15 +1016,15 @@ const WC_DATA = {
     ],
     'G': [
       { team: 'Belgium', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
-      { team: 'New Zealand', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Iran', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Egypt', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 }
+      { team: 'Egypt', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
+      { team: 'Iran', played: 1, won: 0, drawn: 1, lost: 0, gf: 2, ga: 2, gd: 0, pts: 1 },
+      { team: 'New Zealand', played: 1, won: 0, drawn: 1, lost: 0, gf: 2, ga: 2, gd: 0, pts: 1 }
     ],
     'H': [
       { team: 'Spain', played: 1, won: 0, drawn: 1, lost: 0, gf: 0, ga: 0, gd: 0, pts: 1 },
       { team: 'Cape Verde', played: 1, won: 0, drawn: 1, lost: 0, gf: 0, ga: 0, gd: 0, pts: 1 },
-      { team: 'Uruguay', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Saudi Arabia', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
+      { team: 'Saudi Arabia', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
+      { team: 'Uruguay', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 }
     ],
     'I': [
       { team: 'France', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },

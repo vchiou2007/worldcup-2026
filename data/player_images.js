@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-15 更新：比利時 1-1 埃及 — Lukaku 22秒改變戰局） =====
+// ===== 輪播牆圖片（2026-06-16 更新：沙烏地阿拉伯 1-1 烏拉圭、伊朗 2-2 紐西蘭） =====
 const HERO_IMAGES = [
-  // 🇧🇪 Romelu Lukaku 替補上陣22秒即建功 — 拿坡里前鋒第66分鐘替補登場，隨即衝入禁區迫使 Mohamed Hany 擺烏龍，為比利時扳平比數。這是世界盃史上最快速的替補影響力之一（AP Photo/Manu Fernandez）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/j6yjdjzk/Belgium-Vs-Egypt-FIFA-World-Cup-2026-Group-G-Romelu-Lukaku-In-action-AP-Photo.jpg',
-  // 🇪🇬 Emam Ashour 慶祝進球 — Al Ahly 中場在第19分鐘接獲 Mohamed Salah 助攻，禁區邊緣勁射破網，攻入個人國際賽首球！這是埃及在世界盃史上的第2次領先（AP Photo/Lindsey Wasson）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/wyu12gnw/Belgium-Vs-Egypt-FIFA-World-Cup-2026-Group-G-Emam-Ashour-Celebs-Goal-AP-Photo.jpg',
-  // 🇧🇪 Lukaku 撿球 — 扳平後 Lukaku 從網內撿起球準備重新開球，展現不放棄的鬥志。比利時全場控球率53.5%但僅3次射正，進攻效率不佳（AP Photo/Manu Fernandez）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/7u3evczj/Belgium-Vs-Egypt-FIFA-World-Cup-2026-Group-G-Romelu-Lukaku-Collects-Ball-AP-Photo.jpg',
-  // 🇪🇬 Mohamed Salah 慢快門運球 — 西雅圖午後陽光中，Salah 在34歲生日這天送出助攻，成為世界盃史上首位生日當天送出關鍵傳球的非洲球員（AP Photo/Lindsey Wasson）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/1c5htrgd/Belgium-Vs-Egypt-FIFA-World-Cup-2026-Group-G-Mohamed-Salah-Shutter-Shot-AP-Photo.jpg',
-  // 🇧🇪 Thibaut Courtois 奮力擊球 — 比利時傳奇門將全場2次撲救，包括第55分鐘擋出 Salah 的頭槌。皇馬門神生涯第四屆世界盃、第12場出賽（AP Photo/Lindsey Wasson）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/8cek5ur5/Belgium-Vs-Egypt-FIFA-World-Cup-2026-Group-G-Thibaut-Courtois-punches-AP-Photo.jpg',
-  // 🇧🇪 Kevin De Bruyne 控球 — 比利時中場大師在第53分鐘自由球擊中左柱外側，距離進球僅咫尺之遙。De Bruyne 全場創造3次機會，13次傳中6次成功（AP Photo/Manu Fernandez）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/bjwgfkjn/Belgium-Vs-Egypt-FIFA-World-Cup-2026-Group-G-Kevin-De-Bruyne-Controls-AP-Photo.jpg',
-  // 🇪🇬 開羅球迷觀賽 — 埃及球迷在開羅咖啡廳透過轉播觀看比賽，背景為 Salah 塗鴉。埃及至今仍未在世界盃贏過球，但這場1-1讓全國看見希望（AP Photo/Amr Nabil）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/uegtlhob/Belgium-Vs-Egypt-FIFA-World-Cup-2026-Group-G-Mohamed-Salah-Graffiti-Cairo-AP-Photo.jpg'
+  // 🇸🇦 Abdulelah Al Amri 進球 — Al Hilal 後衛在第41分鐘角球混戰中補射入網，幫助沙烏地在邁阿密取得領先！Uruguay 門將 Muslera 先撲出 Al Tambakti 頭槌，但無法阻止 Al Amri 的補射（AP Photo/Lynne Sladky）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/x0h49ykx/Saudi-Arabia-vs-Uruguay-FIFA-World-Cup-2026-Group-H-Abdulelah-Alamri-Scores-AP-Photo.jpg',
+  // 🇺🇾 Maxi Araujo 扳平比分慶祝 — 替補登場的 Araujo 在第80分鐘接 Vinas 頭槌被撲後的補射入網，為烏拉圭搶回一分！Bielsa 的球隊全場壓制但直到最後10分鐘才破門（AP Photo/Rebecca Blackwell）
+  'https://cf-images.assettype.com/outlookindia/2026-06-16/615jp84p/Saudi-Arabia-vs-Uruguay-FIFA-World-Cup-2026-Group-H-Araujo-Scores-AP-Photo.jpg',
+  // 🇺🇾 Marcelo Bielsa 場邊激動指揮 — 烏拉圭傳奇教頭在第80分鐘扳平後仍不滿意，持續在場邊高聲指揮。Bielsa 的球隊全場控球率達62%，射門22次但僅10次射正（AP Photo/Marta Lavandier）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/z7ua6msu/Saudi-Arabia-vs-Uruguay-FIFA-World-Cup-2026-Group-H-Marcelo-Bielsa-Not-happy-AP-Photo.jpg',
+  // 🇸🇦 Mohammed Al-Owais 賽後擁抱隊友 — 沙烏地球門全場貢獻9次撲救，包括擋出 Valverde 和 Vinas 的必進球，獲選全場最佳！Al Owais 的英勇表現讓沙烏地在 H 組保住一分（AP Photo/Lynne Sladky）
+  'https://cf-images.assettype.com/outlookindia/2026-06-16/anot5y94/Saudi-Arabia-vs-Uruguay-FIFA-World-Cup-2026-Group-H-Mohammed-Al-Owais-Post-match-AP-Photo.jpg',
+  // 🇺🇾 Uruguay 球員慶祝 Araujo 進球 — 烏拉圭隊員簇擁慶祝扳平球！Darwin Nunez 上半場僅完成3次傳球即被換下，烏拉圭前場攻勢受阻。H組四隊目前各積1分（AP Photo/Matilde Campodonico）
+  'https://cf-images.assettype.com/outlookindia/2026-06-16/9rlb2mx5/Saudi-Arabia-vs-Uruguay-FIFA-World-Cup-2026-Group-H-Team-Celeb-Araujo-Goal-AP-Photo.jpg',
+  // 🇮🇷 Mohammad Mohebbi 進球慶祝 — 伊朗中場在第68分鐘接 Rezaeian 傳中頭槌擊中門柱內側入網，兩度落後兩度扳平！伊朗展現強大韌性，在洛杉磯 SoFi 體育場搶下寶貴一分（AP Photo/Mark J. Terrill）
+  'https://cf-images.assettype.com/outlookindia/2026-06-16/pm32c477/Iran-Vs-New-Zealand-FIFA-World-Cup-2026-Group-G-Mohebbi-Celeb-AP-Photo.jpg',
+  // 🇳🇿 Elijah Just 梅開二度 — Motherwell 邊鋒成為紐西蘭史上首位在世界盃單場進兩球的球員！7分鐘和54分鐘兩度接 Chris Wood 助攻破門。All Whites 相隔16年重返世界盃即展現競爭力（AP Photo/Mark J. Terrill）
+  'https://www.hindustantimes.com/ht-img/img/2026/06/16/550x309/APTOPIX-New-Zealand-Iran-WCup-Soccer-20_1781581098691_1781581169746_9771ccde-912e-4462-8723-2b897baa275b.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇧🇪 比利時 1-1 🇪🇬 埃及 — Lukaku 替補22秒即造烏龍！拿坡里前鋒第66分鐘登場，衝入禁區迫使 Mohamed Hany 擺烏龍扳平。比利時全場控球53.5%僅3射正，進攻效率不佳 @ 西雅圖·流明球場',
-  '🇪🇬 Emam Ashour 世界盃首球！Al Ahly 中場第19分鐘接獲 Mohamed Salah 助攻，禁區邊緣勁射入網。這是 Ashour 國際賽37場首球，也是埃及世界盃史上第2次領先',
-  '🇧🇪 Lukaku 撿球 — 扳平後立即從網內撿球，展現不放棄的比利時精神。Napoli 前鋒雖因傷缺席春季熱身賽，但替補上場的22秒已改寫比賽走向',
-  '🇪🇬 Mohamed Salah 慢快門運球 — 34歲生日這天，Salah 送出世界盃史上首個非洲球員生日助攻。利物浦傳奇在滿場66,775人面前展現優雅，第75分鐘被換下時獲全場掌聲',
-  '🇧🇪 Thibaut Courtois 奮力擊球 — 皇馬門神全場2次撲救，關鍵擋出 Salah 頭槌。34歲的 Courtois 生涯第4屆世界盃、第12場出賽，仍是比利時最後防線',
-  '🇧🇪 Kevin De Bruyne 控球 — 比利時中場大師第53分鐘自由球擊中左柱！De Bruyne 全場創造3次機會但無法破門。賽後坦言：「上半場太靜態，我們失去了太多球權」',
-  '🇪🇬 開羅咖啡廳 — 埃及球迷透過轉播觀賽，背景為 Salah 巨型塗鴉。埃及第4次世界盃出賽仍未嘗勝績，但這場1-1讓全國看見希望。埃及教頭 Hassan：「我們更接近勝利」'
+  '🇸🇦 沙烏地阿拉伯 1-1 🇺🇾 烏拉圭 — Al Amri 角球補射破門！Al Hilal 後衛第41分鐘在門前混戰中機警補射，幫助沙烏地在邁阿密先馳得點。Muslera 雖然撲出 Al Tambakti 頭槌但無法阻止補射 @ 邁阿密·硬石體育場',
+  '🇺🇾 Maxi Araujo 補射扳平！替補登場的 Araujo 在第80分鐘把握 Vinas 頭槌被撲的補射機會，為烏拉圭搶回一分。烏拉圭全場控球62%、射門22次但效率不佳，Bielsa 場邊焦急如焚',
+  '🇺🇾 Marcelo Bielsa 場邊激動指揮 — 烏拉圭傳奇教練全場站立指揮，對球隊浪費機會感到不滿。Darwin Nunez 上半場僅完成3次傳球即被換下，成為全場最大亮點之外的話題',
+  '🇸🇦 Mohammed Al-Owais 賽後擁抱隊友 — 沙烏地球門全場9次撲救獲選最佳球員！Al Owais 擋出 Valverde 遠射、Vinas 頭槌等多個必進球，堪稱本屆世界盃至今最精彩的門將表現之一',
+  '🇺🇾 Uruguay 慶祝 Araujo 進球 — 烏拉圭全隊圍繞 Araujo 慶祝扳平球。Bielsa 賽後表示：「上半場缺乏節奏，我們在禁區內不夠果斷」。H 組四隊同積1分，競爭白熱化',
+  '🇮🇷 Mohammad Mohebbi 頭槌扳平！伊朗第68分鐘由 Rezaeian 左路傳中，Mohebbi 頭槌擊中門柱內側入網，伊朗兩度落後兩度扳平。G 組四隊全部以1分開局，競爭激烈',
+  '🇳🇿 Elijah Just 成為紐西蘭英雄！Motherwell 邊鋒梅開二度寫下 All Whites 歷史，兩球皆由 Nottingham Forest 前鋒 Chris Wood 助攻。紐西蘭時隔16年重返世界盃即展現競爭力，排名85仍逼平20名伊朗'
 ];
