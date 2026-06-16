@@ -797,7 +797,39 @@ const WC_DATA = {
         pressingApplied: [220, 280]
       }
     },
-    { date: '2026-06-15', time: '15:00 ET', group: 'G', team1: 'Belgium', score1: null, team2: 'Egypt', score2: null, venue: '西雅圖·流明球場', status: 'scheduled' },
+    { date: '2026-06-15', time: '15:00 ET', group: 'G', team1: 'Belgium', score1: 1, team2: 'Egypt', score2: 1, venue: '西雅圖·流明球場', status: 'completed',
+      goals: [
+        { min: 19, team: 2, scorer: 'Emam Ashour', assist: 'Mohamed Salah', detail: '禁區邊緣勁射破網，Ashour 國際賽首球！Salah 在34歲生日送出助攻，成為世界盃史上首位生日當天送出助攻的非洲球員' },
+        { min: 66, team: 1, scorer: 'Mohamed Hany (OG)', detail: 'Lukaku 替補上場22秒即衝入禁區接 Meunier 傳中，Hany 解圍不慎將球碰入自家大門' }
+      ],
+      cards: [
+        { min: 58, team: 1, player: 'Amadou Onana', card: 'yellow', detail: '中場戰術犯規阻止反擊' },
+        { min: 72, team: 1, player: 'Maxim De Cuyper', card: 'yellow', detail: '犯規' },
+        { min: 35, team: 2, player: 'Marwan Attia', card: 'yellow', detail: '中場犯規' },
+        { min: 78, team: 2, player: 'Mohamed Hany', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [53.5, 46.5],
+        shots: [15, 14],
+        shotsOnTarget: [3, 3],
+        shotsOffTarget: [7, 3],
+        shotsInsideBox: [8, 6],
+        shotsOutsideBox: [7, 8],
+        passes: [452, 397],
+        passCompleted: [388, 322],
+        passAccuracy: [85.8, 81.1],
+        crosses: [16, 13],
+        crossesCompleted: [6, 2],
+        corners: [2, 7],
+        freeKicks: [14, 15],
+        fouls: [15, 15],
+        offsides: [0, 1],
+        yellowCards: [2, 2],
+        redCards: [0, 0],
+        forcedTurnovers: [49, 46],
+        pressingApplied: [210, 230]
+      }
+    },
     { date: '2026-06-15', time: '18:00 ET', group: 'H', team1: 'Saudi Arabia', score1: null, team2: 'Uruguay', score2: null, venue: '邁阿密·硬石體育場', status: 'scheduled' },
     { date: '2026-06-15', time: '21:00 ET', group: 'G', team1: 'Iran', score1: null, team2: 'New Zealand', score2: null, venue: '洛杉磯·SoFi體育場', status: 'scheduled' },
 
@@ -917,10 +949,10 @@ const WC_DATA = {
       { team: 'Tunisia', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 5, gd: -4, pts: 0 }
     ],
     'G': [
-      { team: 'Belgium', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
+      { team: 'Belgium', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
+      { team: 'New Zealand', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
       { team: 'Iran', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Egypt', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'New Zealand', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
+      { team: 'Egypt', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 }
     ],
     'H': [
       { team: 'Spain', played: 1, won: 0, drawn: 1, lost: 0, gf: 0, ga: 0, gd: 0, pts: 1 },

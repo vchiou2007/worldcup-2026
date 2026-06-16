@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-15 更新：西班牙0-0遭維德角逼平、Vozinha 40歲門神傳奇） =====
+// ===== 輪播牆圖片（2026-06-15 更新：比利時 1-1 埃及 — Lukaku 22秒改變戰局） =====
 const HERO_IMAGES = [
-  // 🇪🇸 西班牙 0-0 🇨🇻 維德角 — Vozinha 撲救後激動落淚！40歲門神單場7次撲救、擋出 Ferran Torres 中柱射門與 Laporte 頭槌，以生涯最傳奇一戰率人口僅50萬的維德角逼平歐洲冠軍（AP Photo/Erik S. Lesser）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/v4tvuqak/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-Verde-players-celebrate-AP-Photo.jpg',
-  // 🇪🇸 Lamine Yamal 替補上陣 — 18歲巴薩天才第71分鐘登場，隨即改變比賽節奏。雖未能突破維德角鐵桶陣，但他在世界盃的首秀已讓全球球迷期待（AP Photo/Jacob Kupferman）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/9hvvo716/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-Lamine-Yamal-AP-Photo.jpg',
-  // 🇪🇸 Ferran Torres 中柱一刻 — 巴薩前鋒在第30分鐘接 Cucurella 傳球勁射擊中橫樑，Oyarzabal 補射又被 Vozinha 神撲！這是西班牙全場最接近破門的機會（AP Photo/Mike Stewart）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/bs4chuej/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-Ferran-Torres-In-Action-AP-Photo.jpg',
-  // 🇨🇻 維德角史上第一場世界盃 — 大合照！世界排名第67的島國，人口僅約50萬，在亞特蘭大 Mercedes-Benz 體育場寫下歷史。Bubista 教練讓全世界看見藍鯊的韌性（AP Photo/Mike Stewart）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/tua0frzd/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-Cape-Verde-XI-AP-Photo.jpg',
-  // 🇨🇻 Sidny Lopes Cabral 防守 Pedri — 維德角球員整場展現驚人防守強度，擋住西班牙27次射門。Pedri 全場傳球成功率92%仍無法撕開維德角防線（AP Photo/Erik S. Lesser）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/mq9ue1qh/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-Sidny-Lopes-Cabral-AP-Photo.jpg',
-  // 🇪🇸 Rodri 與 Pedri 的無力 — 曼城鐵腰與巴薩中場聯手掌控74%控球率，傳球620次、11次角球，但始終無法攻破 Vozinha 把守的大門。西班牙賽後承認「面對鐵桶陣需要更多耐心」（AP Photo/Erik S. Lesser）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/6xmxnu80/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-Marc-Cucurella-Ryan-Mendes-AP-Photo.jpg',
-  // 🇪🇸 🇨🇻 比賽終場 — 維德角球員圍圈慶祝歷史性0-0！這是2026世界盃迄今最大冷門。Vozinha 獲選全場最佳球員，賽後受訪時哽咽：「這是獻給所有維德角人民的禮物」（AP Photo/Jacob Kupferman）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/z3uvvdz0/Spain-Vs-Cape-Verde-FIFA-World-Cup-2026-Group-H-flags-anthems-AP-Photo.jpg'
+  // 🇧🇪 Romelu Lukaku 替補上陣22秒即建功 — 拿坡里前鋒第66分鐘替補登場，隨即衝入禁區迫使 Mohamed Hany 擺烏龍，為比利時扳平比數。這是世界盃史上最快速的替補影響力之一（AP Photo/Manu Fernandez）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/j6yjdjzk/Belgium-Vs-Egypt-FIFA-World-Cup-2026-Group-G-Romelu-Lukaku-In-action-AP-Photo.jpg',
+  // 🇪🇬 Emam Ashour 慶祝進球 — Al Ahly 中場在第19分鐘接獲 Mohamed Salah 助攻，禁區邊緣勁射破網，攻入個人國際賽首球！這是埃及在世界盃史上的第2次領先（AP Photo/Lindsey Wasson）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/wyu12gnw/Belgium-Vs-Egypt-FIFA-World-Cup-2026-Group-G-Emam-Ashour-Celebs-Goal-AP-Photo.jpg',
+  // 🇧🇪 Lukaku 撿球 — 扳平後 Lukaku 從網內撿起球準備重新開球，展現不放棄的鬥志。比利時全場控球率53.5%但僅3次射正，進攻效率不佳（AP Photo/Manu Fernandez）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/7u3evczj/Belgium-Vs-Egypt-FIFA-World-Cup-2026-Group-G-Romelu-Lukaku-Collects-Ball-AP-Photo.jpg',
+  // 🇪🇬 Mohamed Salah 慢快門運球 — 西雅圖午後陽光中，Salah 在34歲生日這天送出助攻，成為世界盃史上首位生日當天送出關鍵傳球的非洲球員（AP Photo/Lindsey Wasson）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/1c5htrgd/Belgium-Vs-Egypt-FIFA-World-Cup-2026-Group-G-Mohamed-Salah-Shutter-Shot-AP-Photo.jpg',
+  // 🇧🇪 Thibaut Courtois 奮力擊球 — 比利時傳奇門將全場2次撲救，包括第55分鐘擋出 Salah 的頭槌。皇馬門神生涯第四屆世界盃、第12場出賽（AP Photo/Lindsey Wasson）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/8cek5ur5/Belgium-Vs-Egypt-FIFA-World-Cup-2026-Group-G-Thibaut-Courtois-punches-AP-Photo.jpg',
+  // 🇧🇪 Kevin De Bruyne 控球 — 比利時中場大師在第53分鐘自由球擊中左柱外側，距離進球僅咫尺之遙。De Bruyne 全場創造3次機會，13次傳中6次成功（AP Photo/Manu Fernandez）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/bjwgfkjn/Belgium-Vs-Egypt-FIFA-World-Cup-2026-Group-G-Kevin-De-Bruyne-Controls-AP-Photo.jpg',
+  // 🇪🇬 開羅球迷觀賽 — 埃及球迷在開羅咖啡廳透過轉播觀看比賽，背景為 Salah 塗鴉。埃及至今仍未在世界盃贏過球，但這場1-1讓全國看見希望（AP Photo/Amr Nabil）
+  'https://cf-images.assettype.com/outlookindia/2026-06-15/uegtlhob/Belgium-Vs-Egypt-FIFA-World-Cup-2026-Group-G-Mohamed-Salah-Graffiti-Cairo-AP-Photo.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇨🇻 維德角 0-0 🇪🇸 西班牙 — 40歲門神 Vozinha 單場7次撲救，助人口僅50萬的島國逼平歐洲冠軍！賽後他跪地痛哭，隊友將他高高拋起。這是世界盃史上最令人動容的 debut 之一 @ 亞特蘭大·Mercedes-Benz 體育場',
-  '🇪🇸 Lamine Yamal 世界盃初登場 — 第71分鐘替補上陣，年僅18歲的巴薩邊鋒在滿場7萬球迷面前展現天賦。雖然未能改寫比分，但他的每一次觸球都讓現場沸騰。西班牙媒體評價：「史上最年輕的世界盃出賽球員之一」',
-  '🇪🇸 Ferran Torres 中柱 — 巴薩前鋒禁區邊緣勁射擊中橫樑！這是西班牙全場最佳機會之一。西班牙全場27次射門7次射正，xG高達3.14卻顆粒無收，創下本屆世界盃最令人跌破眼鏡的數據',
-  '🇨🇻 維德角世界盃首戰陣容 — 11人來自9個國家聯賽，最年長者40歲 Vozinha、最年輕22歲 Diney Borges。Bubista 排出5-4-1鐵桶陣，全場僅6次射門但拼出歷史性一分。賽後更衣室影片在社群平台瘋傳',
-  '🇨🇻 Sidny Lopes Cabral 死守 Pedri — 這位效力葡萄牙乙級聯賽的防守中場全場鏟斷7次、攔截5次，讓向來以靈巧見長的 Pedri 無從發揮。賽後數據顯示維德角全隊跑動距離達118公里，比西班牙還多6公里',
-  '🇪🇸 Cucurella 與 Mendes 空中對決 — 西班牙左後衛全場傳中9次僅成功2次，維德角高大的防線讓西班牙傳中戰術完全失效。Cucurella 賽後坦言：「我們低估了他們的組織性和身體對抗能力」',
-  '🇪🇸 🇨🇻 終場哨響瞬間 — 西班牙球員低頭離場，維德角全隊相擁而泣。從 -1200 的賠率差距到0-0的結果，維德角用實際行動證明：世界盃沒有弱旅，夢想可以擊敗任何數字 @ 亞特蘭大'
+  '🇧🇪 比利時 1-1 🇪🇬 埃及 — Lukaku 替補22秒即造烏龍！拿坡里前鋒第66分鐘登場，衝入禁區迫使 Mohamed Hany 擺烏龍扳平。比利時全場控球53.5%僅3射正，進攻效率不佳 @ 西雅圖·流明球場',
+  '🇪🇬 Emam Ashour 世界盃首球！Al Ahly 中場第19分鐘接獲 Mohamed Salah 助攻，禁區邊緣勁射入網。這是 Ashour 國際賽37場首球，也是埃及世界盃史上第2次領先',
+  '🇧🇪 Lukaku 撿球 — 扳平後立即從網內撿球，展現不放棄的比利時精神。Napoli 前鋒雖因傷缺席春季熱身賽，但替補上場的22秒已改寫比賽走向',
+  '🇪🇬 Mohamed Salah 慢快門運球 — 34歲生日這天，Salah 送出世界盃史上首個非洲球員生日助攻。利物浦傳奇在滿場66,775人面前展現優雅，第75分鐘被換下時獲全場掌聲',
+  '🇧🇪 Thibaut Courtois 奮力擊球 — 皇馬門神全場2次撲救，關鍵擋出 Salah 頭槌。34歲的 Courtois 生涯第4屆世界盃、第12場出賽，仍是比利時最後防線',
+  '🇧🇪 Kevin De Bruyne 控球 — 比利時中場大師第53分鐘自由球擊中左柱！De Bruyne 全場創造3次機會但無法破門。賽後坦言：「上半場太靜態，我們失去了太多球權」',
+  '🇪🇬 開羅咖啡廳 — 埃及球迷透過轉播觀賽，背景為 Salah 巨型塗鴉。埃及第4次世界盃出賽仍未嘗勝績，但這場1-1讓全國看見希望。埃及教頭 Hassan：「我們更接近勝利」'
 ];
