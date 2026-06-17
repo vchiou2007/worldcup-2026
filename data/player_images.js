@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-17 自動更新：奧地利 3-1 約旦 — Austria 重返世界盃 28 年後首勝） =====
+// ===== 輪播牆圖片（2026-06-17 自動更新：法國 3-1 塞內加爾、伊拉克 1-4 挪威、阿根廷 3-0 阿爾及利亞） =====
 const HERO_IMAGES = [
-  // 🇦🇹🇯🇴 賽前聖克拉拉李維斯體育場 — 奧地利球迷與約旦球迷合照互動！68,527名觀眾近乎滿座，世界盃第二場在李維斯體育場的比賽。約旦首次亮相世界盃決賽圈，球迷手持約旦國旗熱情不減（Bay Area News Group/Doug Duran）
-  'https://www.eastbaytimes.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0617-1_bbfdf8.jpg',
-  // 🇦🇹 奧地利球迷為球隊打氣！世界盃自1998年法國後首次重返，Ralf Rangnick 的高壓逼搶戰術成為奧地利最大武器。David Alaba 隊長帶領球隊，球迷身穿傳統服飾熱情助威（Bay Area News Group/Ray Chavez）
-  'https://www.eastbaytimes.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0617-2_2bc3cd.jpg',
-  // 🇦🇹 Romano Schmid 第20分鐘遠射破門！Xaver Schlager 精準傳球，Schmid 禁區外22碼勁射右上角入網，Werder Bremen 中場的世界盃首球。這是奧地利28年來在世界盃的第一個進球（Bay Area News Group/Nhat Meyer）
-  'https://www.eastbaytimes.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0617-7_0561c0.jpg',
-  // 🇯🇴 Ali Olwan 第50分鐘扳平！接 Noor Al-Rawabdeh 長傳，Olwan 左路切入禁區，15碼弧線球射入遠柱！全隊五人跪地祈禱慶祝，約旦世界盃歷史首球。這是亞洲球隊本屆世界盃的第7球（Bay Area News Group/Doug Duran）
-  'https://www.eastbaytimes.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0617-11-1.jpg',
-  // 🇦🇹 Marko Arnautović 第67分鐘進球被 VAR 取消！Arnautović 頭槌破門後，VAR 判定 Stefan Posch 手球在先。奧地利球迷從狂喜到失望。Arnautović 與裁判激烈爭論，這是本場第二個 VAR 爭議判決（Bay Area News Group/Nhat Meyer）
-  'https://www.eastbaytimes.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0617-18_aee305.jpg',
-  // 🇦🇹🇯🇴 Yazan Alarab 第76分鐘烏龍球！Sabitzer 開出角球，Abdallah Nasib 頭槌碰到 Alarab 脖子折射入網。這是本屆世界盃第五個烏龍球（6天內）。奧地利球員慶祝，約旦球員無助倒地（Bay Area News Group/Ray Chavez）
-  'https://www.eastbaytimes.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0617-26_fcf082.jpg',
-  // 🇦🇹 奧地利慶祝重返世界盃首勝！Arnautović 第90+12分鐘罰進12碼，全場沸騰。68,527名觀眾超過11點仍未離席。奧地利3-1擊敗約旦，積3分暫居J組第二，僅次於阿根廷（Bay Area News Group/Doug Duran）
-  'https://www.eastbaytimes.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0617-35_9bf779.jpg'
+  // 🇫🇷🇸🇳 Mbappé 慶祝！法國3-1擊敗塞內加爾，Mbappé 梅開二度以58球成為法國歷史射手王！MetLife Stadium 80,545名觀眾，上半場塞內加爾表現更佳但未能把握。Mbappé 66分鐘打破僵局，Barcola 82分鐘擴大比分（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-kylian-mbappe-france_7275371.jpg?20260616215556',
+  // 🇳🇴 Haaland 世界盃首秀即梅開二度！挪威4-1擊敗伊拉克，Haaland 29分鐘禁區內搶點破門，43分鐘因伊拉克回傳失誤斷球得分。挪威28年來首場世界盃，曼城前鋒展現世界級實力（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-haaland-norway_7275412.jpg?20260617092009',
+  // 🇮🇶 Aymen Hussein 頭槌破門！伊拉克39分鐘扳平挪威，Al-Ammari 精準傳中，Hussein 禁區內強力頭槌入網。伊拉克自1986年後重返世界盃，Hussein 成為伊拉克史上第二位世界盃進球者。可惜下半場挪威連進三球鎖定勝局（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-aymen-hussein-iraq_7275424.jpg?20260617002935',
+  // 🇫🇷 Mbappé 90+6分鐘30碼外遠射！開球後立即起腳，皮球越過 Mendy 頭頂擊中橫樑下沿入網。這球讓 Mbappé 世界盃進球數來到14球，超越 Pelé 和 Messi 的12/13球。法國3-1勝塞內加爾，Mbappé 賽後獲選全場最佳（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-kylian-mbappe_7275390.jpg?20260617091834',
+  // 🇳🇴 Leo Østigård 頭槌破門！挪威76分鐘鎖定勝局，Martin Ødegaard 開出角球，Østigård 後點精準頭球入網。挪威3-1領先伊拉克。Østigård 替補上場僅3分半鐘即進球，最終挪威4-1大勝，Haaland 賽後與 Ødegaard 相擁慶祝（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-leo-ostigard-norway_7275427.jpg?20260617005227',
+  // 🇦🇷 Lionel Messi 帽子戲法！阿根廷3-0阿爾及利亞，Messi 16球追平 Klose 世界盃歷史進球紀錄。第17分鐘遠射破門，第55分鐘補射入網，第76分鐘弧線球破網。38歲的 Messi 成為世界盃史上最年長帽子戲法球員（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-messi-lionel-argentina_7275462.jpg?20260617061930',
+  // 🇦🇷 Messi 世界盃首個帽子戲法！200場國家隊里程碑，生涯第61次帽子戲法。阿根廷衛冕之路強勢開局，J組3分暫居榜首。阿根廷球迷擠爆堪薩斯城箭頭體育場，賽後 Messi 表示「這是給全阿根廷人民的勝利」（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-lionel-messi-argentina_7275451.jpg?20260617055125'
 ];
 
 const HERO_CAPTIONS = [
-  '🇦🇹🇯🇴 奧地利 3-1 🇯🇴 約旦 — 68,527名球迷擠爆 Levi\'s Stadium！奧地利球迷與約旦球迷賽前熱情互動。約旦首次亮相世界盃，球迷們身穿紅白球衣高唱國歌。世界盃時隔28年重返聖克拉拉，氣氛火熱（Bay Area News Group/Doug Duran）',
-  '🇦🇹 奧地利 3-1 🇯🇴 約旦 — 奧地利球迷身穿傳統服飾為球隊加油！自1998年後首次重返世界盃，Ralf Rangnick 的高壓逼搶戰術令全場驚豔。David Alaba 帶領 Austria 全場63%控球率，壓制約旦反擊（Bay Area News Group/Ray Chavez）',
-  '🇦🇹 奧地利 3-1 🇯🇴 約旦 — Romano Schmid 第20分鐘禁區外22碼勁射右上角！Xaver Schlager 助攻，5呎6吋的 Werder Bremen 中場打進奧地利28年來世界盃首球。Schmid 賽後獲選全場最佳球員（Bay Area News Group/Nhat Meyer）',
-  '🇯🇴 奧地利 3-1 🇯🇴 約旦 — Ali Olwan 第50分鐘扳平，約旦世界盃歷史首球！接到 Noor Al-Rawabdeh 長傳，Olwan 禁區左側15碼弧線球射入遠柱，全隊五人跪地祈禱慶祝。亞洲球隊本屆第7球，Olwan 賽前數次險些進球（Bay Area News Group/Doug Duran）',
-  '🇦🇹 奧地利 3-1 🇯🇴 約旦 — Marko Arnautović 第67分鐘頭槌破門被 VAR 取消！Stefan Posch 在角球中手球在先，Arnautović 從狂喜到失落。本場第二個 VAR 判決爭議——這也是本屆世界盃至今使用 VAR 次數最多的一場（Bay Area News Group/Nhat Meyer）',
-  '🇦🇹🇯🇴 奧地利 3-1 🇯🇴 約旦 — Yazan Alarab 第76分鐘烏龍球！Marcel Sabitzer 開出角球，Abdallah Nasib 頭槌碰到 Alarab 脖子折射入網。這已是本屆世界盃6天來的第5個烏龍球（賽會紀錄）。奧地利球員慶祝，約旦球員無助倒地（Bay Area News Group/Ray Chavez）',
-  '🇦🇹 奧地利 3-1 🇯🇴 約旦 — 奧地利慶祝28年來世界盃首勝！Arnautović 第90+12分鐘罰進12碼鎖定勝局，68,527名觀眾超過11點仍未離席。J組暫居第二，僅次於阿根廷（Messi 帽子戲法3-0勝阿爾及利亞）。下場對決阿根廷！（Bay Area News Group/Doug Duran）'
+  '🇫🇷🇸🇳 法國 3-1 🇸🇳 塞內加爾 — Mbappé 梅開二度以58球成法國歷史射手王！上半場沉寂後，Mbappé 66分鐘接 Olise 直塞冷靜推射破門。Barcola 替補82分鐘精巧挑射，Mbappé 90+6遠射鎖定勝局。80,545人擠爆 MetLife Stadium（Sky Sports）',
+  '🇳🇴 挪威 4-1 🇮🇶 伊拉克 — Erling Haaland 世界盃首秀梅開二度！29分鐘禁區內滑鏟破門首開紀錄，43分鐘伊拉克回傳失誤，Haaland 斷球後冷靜推射。挪威28年來首場世界盃勝利，全場62%控球率，18次射門壓制伊拉克（Sky Sports）',
+  '🇮🇶 挪威 4-1 🇮🇶 伊拉克 — Aymen Hussein 頭槌扳平！39分鐘 Al-Ammari 底線傳中，Hussein 強力頭槌破網，伊拉克自1986年後世界盃首球。Hussein 34個國際賽進球，包含4月資格賽絕殺玻利維亞的關鍵進球。伊拉克球迷在世界盃睽違40年後重返賽場（Sky Sports）',
+  '🇫🇷 法國 3-1 🇸🇳 塞內加爾 — Mbappé 30碼世界波！禁區外遠射擊中橫樑下沿入網，門將 Mendy 鞭長莫及。Mbappé 世界盃累計14球（超越 Pelé 12球、Messi 13球），僅次於 Klose 16球和 Ronaldo 15球。法國尋求連續三屆世界盃闖入決賽（Sky Sports）',
+  '🇳🇴 挪威 4-1 🇮🇶 伊拉克 — Leo Østigård 角球頭槌破門！Ødegaard 精準開出角球，Østigård 後點頭球建功。替補上場僅3分半鐘即進球，挪威76分鐘3-1鎖定勝局。伊拉克下半場體能下滑，挪威掌控比賽節奏。Haaland 賽後獲選全場最佳（Sky Sports）',
+  '🇦🇷 阿根廷 3-0 🇩🇿 阿爾及利亞 — Lionel Messi 世界盃首個帽子戲法！16球追平 Klose 歷史紀錄。第17分鐘 De Paul 直塞，Messi 遠射破網；第55分鐘補射入網；第76分鐘弧線球破門。38歲 Messi 成世界盃最年長帽子戲法球員（Sky Sports）',
+  '🇦🇷 阿根廷 3-0 🇩🇿 阿爾及利亞 — Messi 200場國家隊里程碑！11次國際賽帽子戲法，世界盃第六次參賽。阿根廷球迷擠爆堪薩斯城箭頭體育場，Messi 退場時全場起立鼓掌。阿根廷衛冕之路啟程，下場對陣奧地利（6/22達拉斯）（Sky Sports）'
 ];
