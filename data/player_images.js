@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-17 自動更新：阿根廷 3-0 阿爾及利亞 — Messi 帽子戲法追平 Klose 紀錄） =====
+// ===== 輪播牆圖片（2026-06-17 自動更新：奧地利 3-1 約旦 — Austria 重返世界盃 28 年後首勝） =====
 const HERO_IMAGES = [
-  // 🇦🇷 Lionel Messi 第17分鐘遠射破門！De Paul 直塞穿透阿爾及利亞防線，Messi 左腳弧線球射入遠角，200場國家隊里程碑。這是 Messi 第六屆世界盃的首個進球（AP Photo/Ed Zurga）
-  'https://cf-images.assettype.com/outlookindia/2026-06-17/lp4zg0ij/Argentina-Vs-Algeria-FIFA-World-Cup-2026-Group-J-Messi-Celebs-AP-Photo.jpg',
-  // 🇦🇷 阿根廷球迷在堪薩斯城箭頭體育場熱情助威！超過69,000名觀眾到場，其中阿根廷球迷佔大多數，身穿10號球衣齊聲高唱。Messi 賽後落淚感謝球迷支持（AP Photo/Charlie Riedel）
-  'https://cf-images.assettype.com/outlookindia/2026-06-17/l654deb7/Argentina-Vs-Algeria-FIFA-World-Cup-2026-Argentina-Fans-Group-J-AP-Photo.jpg',
-  // 🇦🇷🇩🇿 Lionel Messi 在開賽前向觀眾揮手致意。38歲的 Messi 成為史上首位參加六屆世界盃的球員，也是第三位達成200場國家隊出賽的足球員（AP Photo/Reed Hoffmann）
-  'https://cf-images.assettype.com/outlookindia/2026-06-17/wnmwj7hb/Argentina-Vs-Algeria-FIFA-World-Cup-2026-Group-J-Messi-Waves-AP-Photo.jpg',
-  // 🇦🇷 Lionel Messi 第76分鐘完成帽子戲法！Nicolás González 切入禁區回傳，Messi 左腳弧線球破網。16個世界盃進球追平 Klose 紀錄，61次生涯帽子戲法。Messi 成為世界盃史上上演帽子戲法最年長球員（Getty Images）
-  'https://media.nbcwashington.com/2026/06/GettyImages-2281966486-e1781659619893.jpg',
-  // 🇦🇷🇩🇿 阿根廷 vs 阿爾及利亞 — Kansas City Stadium 全場爆滿！NFL 球星 Patrick Mahomes 夫婦親臨現場觀戰。Messi 在80分鐘被換下時全場起立鼓掌，小將 Nico Paz 替補上場完成世界盃首秀（AP Photo/Reed Hoffmann）
-  'https://cf-images.assettype.com/outlookindia/2026-06-17/5ep7hr8o/Argentina-Vs-Algeria-FIFA-World-Cup-2026-Group-J-Fans-Mask-AP-Photo.jpg',
-  // 🇩🇿 阿爾及利亞球迷熱情應援！阿爾及利亞自2014年後重返世界盃，門將 Luca Zidane（席丹之子）多次精彩撲救，但無法阻擋 Messi 的三度破門。Riyad Mahrez 第64分鐘替補上場（AP Photo/A3fm7sda）
-  'https://cf-images.assettype.com/outlookindia/2026-06-17/a3fm7sda/Argentina-Vs-Algeria-FIFA-World-Cup-2026-Algeria-Fans-Group-J-AP-Photo.jpg',
-  // 🇦🇷 Lionel Messi 賽後與隊友 Cristian Romero 和 Lisandro Martínez 擁抱慶祝！阿根廷衛冕之路順利起步，小組賽3-0完勝 Alergia。Messi 賽後表示：「我今天感覺很好，重要的是以勝利開始世界盃」@ 堪薩斯城·箭頭體育場（AP Photo/Ed Zurga）
-  'https://cf-images.assettype.com/outlookindia/2026-06-17/a5spob2b/Argentina-Vs-Algeria-FIFA-World-Cup-2026-Group-J-Messi-Ronaldo-Mascots-Mexico-AP-Photo.jpg'
+  // 🇦🇹🇯🇴 賽前聖克拉拉李維斯體育場 — 奧地利球迷與約旦球迷合照互動！68,527名觀眾近乎滿座，世界盃第二場在李維斯體育場的比賽。約旦首次亮相世界盃決賽圈，球迷手持約旦國旗熱情不減（Bay Area News Group/Doug Duran）
+  'https://www.eastbaytimes.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0617-1_bbfdf8.jpg',
+  // 🇦🇹 奧地利球迷為球隊打氣！世界盃自1998年法國後首次重返，Ralf Rangnick 的高壓逼搶戰術成為奧地利最大武器。David Alaba 隊長帶領球隊，球迷身穿傳統服飾熱情助威（Bay Area News Group/Ray Chavez）
+  'https://www.eastbaytimes.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0617-2_2bc3cd.jpg',
+  // 🇦🇹 Romano Schmid 第20分鐘遠射破門！Xaver Schlager 精準傳球，Schmid 禁區外22碼勁射右上角入網，Werder Bremen 中場的世界盃首球。這是奧地利28年來在世界盃的第一個進球（Bay Area News Group/Nhat Meyer）
+  'https://www.eastbaytimes.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0617-7_0561c0.jpg',
+  // 🇯🇴 Ali Olwan 第50分鐘扳平！接 Noor Al-Rawabdeh 長傳，Olwan 左路切入禁區，15碼弧線球射入遠柱！全隊五人跪地祈禱慶祝，約旦世界盃歷史首球。這是亞洲球隊本屆世界盃的第7球（Bay Area News Group/Doug Duran）
+  'https://www.eastbaytimes.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0617-11-1.jpg',
+  // 🇦🇹 Marko Arnautović 第67分鐘進球被 VAR 取消！Arnautović 頭槌破門後，VAR 判定 Stefan Posch 手球在先。奧地利球迷從狂喜到失望。Arnautović 與裁判激烈爭論，這是本場第二個 VAR 爭議判決（Bay Area News Group/Nhat Meyer）
+  'https://www.eastbaytimes.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0617-18_aee305.jpg',
+  // 🇦🇹🇯🇴 Yazan Alarab 第76分鐘烏龍球！Sabitzer 開出角球，Abdallah Nasib 頭槌碰到 Alarab 脖子折射入網。這是本屆世界盃第五個烏龍球（6天內）。奧地利球員慶祝，約旦球員無助倒地（Bay Area News Group/Ray Chavez）
+  'https://www.eastbaytimes.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0617-26_fcf082.jpg',
+  // 🇦🇹 奧地利慶祝重返世界盃首勝！Arnautović 第90+12分鐘罰進12碼，全場沸騰。68,527名觀眾超過11點仍未離席。奧地利3-1擊敗約旦，積3分暫居J組第二，僅次於阿根廷（Bay Area News Group/Doug Duran）
+  'https://www.eastbaytimes.com/wp-content/uploads/2026/06/BNG-L-WORLDCUP-0617-35_9bf779.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇦🇷 阿根廷 3-0 🇩🇿 阿爾及利亞 — Lionel Messi 第17分鐘遠射破門！De Paul 直塞穿透防線，Messi 在200場國家隊里程碑之夜左腳弧線球射入遠角。第一球後 Messi 激動落淚：「這幾週我過得很艱難，感謝隊友和教練團的支持」',
-  '🇦🇷 阿根廷 3-0 🇩🇿 阿爾及利亞 — 阿根廷球迷佔領堪薩斯城！69,045名觀眾擠爆 Arrowhead 體育場，無數10號球衣飄揚。Messi 成為史上首位參加六屆世界盃的球員，也是第三位達到200場國家隊出賽的傳奇',
-  '🇦🇷 阿根廷 3-0 🇩🇿 阿爾及利亞 — Lionel Messi 賽前揮手致意！38歲的 GOAT 在開賽前6分鐘曾有進球被判越位，第8分鐘 Algeria 的 Chaibi 也因越位進球被取消。20年前的今天（2006年6月16日）正是 Messi 的世界盃 debut',
-  '🇦🇷 阿根廷 3-0 🇩🇿 阿爾及利亞 — Messi 第76分鐘完成生涯首個世界盃帽子戲法！16個世界盃進球追平 Miroslav Klose 紀錄。38歲357天，史上最年長世界盃帽子戲法。賽後 Haaland 在 Snapchat 發文：「Messi is a madman」',
-  '🇦🇷 阿根廷 3-0 🇩🇿 阿爾及利亞 — Kansas City 之夜！NFL 四分衛 Patrick Mahomes 到場見證歷史。Messi 80分鐘被 Nico Paz 換下時全場起立鼓掌。阿根廷成為繼義大利（1934-38）和巴西（1958-62）後，有望連霸的第三國',
-  '🇩🇿 阿根廷 3-0 🇩🇿 阿爾及利亞 — Algeria 球迷熱情支持！Fennec Foxes 自2014年後重返世界盃雖0-3落敗但拼勁十足。Luca Zidane（席丹之子）把守大門，Mahrez 替補上場30分鐘。Algeria 教練：「Class is permanent. Messi 是不可阻擋的」',
-  '🇦🇷 阿根廷 3-0 🇩🇿 阿爾及利亞 — Messi 與 Roméro、Martínez 慶祝！阿根廷衛冕冠軍展現統治力：65%控球率、16次射門7次射正、xG 1.51。Messi 賽後：「這是我第六屆世界盃，我仍感覺狀態很好。以勝利開始非常重要」@ 堪薩斯城·箭頭體育場'
+  '🇦🇹🇯🇴 奧地利 3-1 🇯🇴 約旦 — 68,527名球迷擠爆 Levi\'s Stadium！奧地利球迷與約旦球迷賽前熱情互動。約旦首次亮相世界盃，球迷們身穿紅白球衣高唱國歌。世界盃時隔28年重返聖克拉拉，氣氛火熱（Bay Area News Group/Doug Duran）',
+  '🇦🇹 奧地利 3-1 🇯🇴 約旦 — 奧地利球迷身穿傳統服飾為球隊加油！自1998年後首次重返世界盃，Ralf Rangnick 的高壓逼搶戰術令全場驚豔。David Alaba 帶領 Austria 全場63%控球率，壓制約旦反擊（Bay Area News Group/Ray Chavez）',
+  '🇦🇹 奧地利 3-1 🇯🇴 約旦 — Romano Schmid 第20分鐘禁區外22碼勁射右上角！Xaver Schlager 助攻，5呎6吋的 Werder Bremen 中場打進奧地利28年來世界盃首球。Schmid 賽後獲選全場最佳球員（Bay Area News Group/Nhat Meyer）',
+  '🇯🇴 奧地利 3-1 🇯🇴 約旦 — Ali Olwan 第50分鐘扳平，約旦世界盃歷史首球！接到 Noor Al-Rawabdeh 長傳，Olwan 禁區左側15碼弧線球射入遠柱，全隊五人跪地祈禱慶祝。亞洲球隊本屆第7球，Olwan 賽前數次險些進球（Bay Area News Group/Doug Duran）',
+  '🇦🇹 奧地利 3-1 🇯🇴 約旦 — Marko Arnautović 第67分鐘頭槌破門被 VAR 取消！Stefan Posch 在角球中手球在先，Arnautović 從狂喜到失落。本場第二個 VAR 判決爭議——這也是本屆世界盃至今使用 VAR 次數最多的一場（Bay Area News Group/Nhat Meyer）',
+  '🇦🇹🇯🇴 奧地利 3-1 🇯🇴 約旦 — Yazan Alarab 第76分鐘烏龍球！Marcel Sabitzer 開出角球，Abdallah Nasib 頭槌碰到 Alarab 脖子折射入網。這已是本屆世界盃6天來的第5個烏龍球（賽會紀錄）。奧地利球員慶祝，約旦球員無助倒地（Bay Area News Group/Ray Chavez）',
+  '🇦🇹 奧地利 3-1 🇯🇴 約旦 — 奧地利慶祝28年來世界盃首勝！Arnautović 第90+12分鐘罰進12碼鎖定勝局，68,527名觀眾超過11點仍未離席。J組暫居第二，僅次於阿根廷（Messi 帽子戲法3-0勝阿爾及利亞）。下場對決阿根廷！（Bay Area News Group/Doug Duran）'
 ];

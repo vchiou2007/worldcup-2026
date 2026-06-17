@@ -993,7 +993,38 @@ const WC_DATA = {
         pressingApplied: [220, 240]
       }
     },
-    { date: '2026-06-16', time: '00:00 ET', group: 'J', team1: 'Austria', score1: null, team2: 'Jordan', score2: null, venue: '舊金山·李維斯體育場', status: 'scheduled' },
+    { date: '2026-06-16', time: '00:00 ET', group: 'J', team1: 'Austria', score1: 3, team2: 'Jordan', score2: 1, venue: '舊金山·李維斯體育場', status: 'completed',
+      goals: [
+        { min: 20, team: 1, scorer: 'Romano Schmid', assist: 'Xaver Schlager', detail: '22碼遠射右上角破門，奧地利重返世界盃首球' },
+        { min: 50, team: 2, scorer: 'Ali Olwan', assist: 'Noor Al-Rawabdeh', detail: '接長傳切入禁區弧線球射入遠柱，約旦世界盃歷史首球' },
+        { min: 76, team: 1, scorer: 'Yazan Alarab (OG)', detail: 'Sabitzer 角球，Nasib 頭槌碰到 Alarab 脖子折射入網，烏龍球' },
+        { min: 90, team: 1, scorer: 'Marko Arnautović', detail: '12碼罰球 — Obeid 手球犯規，VAR 確認後判罰' }
+      ],
+      cards: [
+        { min: 77, team: 1, player: 'Marcel Sabitzer', card: 'yellow', detail: '中場戰術犯規' }
+      ],
+      stats: {
+        possession: [63, 37],
+        shots: [11, 11],
+        shotsOnTarget: [4, 4],
+        shotsOffTarget: [7, 7],
+        shotsInsideBox: [5, 7],
+        shotsOutsideBox: [6, 4],
+        passes: [580, 328],
+        passCompleted: [489, 240],
+        passAccuracy: [84.3, 73.2],
+        crosses: [17, 15],
+        crossesCompleted: [3, 3],
+        corners: [4, 3],
+        freeKicks: [7, 15],
+        fouls: [12, 7],
+        offsides: [3, 1],
+        yellowCards: [1, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [200, 240]
+      }
+    },
 
     // === 6月17日 ===
     { date: '2026-06-17', time: '13:00 ET', group: 'K', team1: 'Portugal', score1: null, team2: 'DR Congo', score2: null, venue: '休斯頓·NRG體育場', status: 'scheduled' },
@@ -1124,9 +1155,9 @@ const WC_DATA = {
     ],
     'J': [
       { team: 'Argentina', played: 1, won: 1, drawn: 0, lost: 0, gf: 3, ga: 0, gd: 3, pts: 3 },
-      { team: 'Austria', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
+      { team: 'Austria', played: 1, won: 1, drawn: 0, lost: 0, gf: 3, ga: 1, gd: 2, pts: 3 },
       { team: 'Algeria', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 3, gd: -3, pts: 0 },
-      { team: 'Jordan', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
+      { team: 'Jordan', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 3, gd: -2, pts: 0 }
     ],
     'K': [
       { team: 'Portugal', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
