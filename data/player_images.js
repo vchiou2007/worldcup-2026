@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-17 自動更新：法國 3-1 塞內加爾、伊拉克 1-4 挪威、阿根廷 3-0 阿爾及利亞） =====
+// ===== 輪播牆圖片（2026-06-18 自動更新：葡萄牙 1-1 剛果、英格蘭 4-2 克羅埃西亞） =====
 const HERO_IMAGES = [
-  // 🇫🇷🇸🇳 Mbappé 慶祝！法國3-1擊敗塞內加爾，Mbappé 梅開二度以58球成為法國歷史射手王！MetLife Stadium 80,545名觀眾，上半場塞內加爾表現更佳但未能把握。Mbappé 66分鐘打破僵局，Barcola 82分鐘擴大比分（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-kylian-mbappe-france_7275371.jpg?20260616215556',
-  // 🇳🇴 Haaland 世界盃首秀即梅開二度！挪威4-1擊敗伊拉克，Haaland 29分鐘禁區內搶點破門，43分鐘因伊拉克回傳失誤斷球得分。挪威28年來首場世界盃，曼城前鋒展現世界級實力（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-haaland-norway_7275412.jpg?20260617092009',
-  // 🇮🇶 Aymen Hussein 頭槌破門！伊拉克39分鐘扳平挪威，Al-Ammari 精準傳中，Hussein 禁區內強力頭槌入網。伊拉克自1986年後重返世界盃，Hussein 成為伊拉克史上第二位世界盃進球者。可惜下半場挪威連進三球鎖定勝局（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-aymen-hussein-iraq_7275424.jpg?20260617002935',
-  // 🇫🇷 Mbappé 90+6分鐘30碼外遠射！開球後立即起腳，皮球越過 Mendy 頭頂擊中橫樑下沿入網。這球讓 Mbappé 世界盃進球數來到14球，超越 Pelé 和 Messi 的12/13球。法國3-1勝塞內加爾，Mbappé 賽後獲選全場最佳（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-kylian-mbappe_7275390.jpg?20260617091834',
-  // 🇳🇴 Leo Østigård 頭槌破門！挪威76分鐘鎖定勝局，Martin Ødegaard 開出角球，Østigård 後點精準頭球入網。挪威3-1領先伊拉克。Østigård 替補上場僅3分半鐘即進球，最終挪威4-1大勝，Haaland 賽後與 Ødegaard 相擁慶祝（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-leo-ostigard-norway_7275427.jpg?20260617005227',
-  // 🇦🇷 Lionel Messi 帽子戲法！阿根廷3-0阿爾及利亞，Messi 16球追平 Klose 世界盃歷史進球紀錄。第17分鐘遠射破門，第55分鐘補射入網，第76分鐘弧線球破網。38歲的 Messi 成為世界盃史上最年長帽子戲法球員（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-messi-lionel-argentina_7275462.jpg?20260617061930',
-  // 🇦🇷 Messi 世界盃首個帽子戲法！200場國家隊里程碑，生涯第61次帽子戲法。阿根廷衛冕之路強勢開局，J組3分暫居榜首。阿根廷球迷擠爆堪薩斯城箭頭體育場，賽後 Messi 表示「這是給全阿根廷人民的勝利」（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-lionel-messi-argentina_7275451.jpg?20260617055125'
+  // 🇵🇹🇨🇩 Ronaldo 世界盃第六次出賽，全場29次觸球錯失兩次絕佳機會！葡萄牙1-1遭剛果逼平，João Neves 6分鐘頭槌破門後，葡萄牙再無射正。Ronaldo 延續大賽10場進球荒，41歲傳奇的世界盃最後一舞出師不利（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-cristiano-ronaldo_7276226.jpg?20260617222704',
+  // 🇵🇹🇨🇩 João Neves 6分鐘頭槌破門！巴黎聖日耳曼中場接 Pedro Neto 精準傳中，禁區內搶點頭槌入網。這是葡萄牙本場唯一射正，Neves 全場85次傳球成功率94%，21歲新星在世界盃首秀即進球（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-joao-neves_7276152.jpg?20260617201112',
+  // 🇨🇩 Yoane Wissa 頭槌扳平！下半場傷停補時第5分鐘，Arthur Masuaku 開出角球，紐卡索前鋒 Wissa 無人防守下強力頭槌入網。剛果取得52年來世界盃首球！這是剛果自1974年（以薩伊名義參賽）後首個世界盃進球（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-yoane-wissa_7276153.jpg?20260617201143',
+  // 🇨🇩🇵🇹 剛果民主共和國慶祝隊史首個世界盃積分！Wan-Bissaka、Mbemba 領銜防線全場頂住葡萄牙攻勢。Cristiano Ronaldo 68分鐘10碼射門失手，73分鐘再次錯失良機。剛果創造52年來最大驚奇，Houston 球場見證歷史一刻（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-dr-congo_7276188.jpg?20260617210429',
+  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿🇭🇷 Harry Kane 梅開二度！12分鐘12碼罰球（重罰）破門，42分鐘 Rice 角球頭槌入網，Kane 以10球追平 Lineker 的英格蘭世界盃進球紀錄。克羅埃西亞兩度扳平，Bellingham 47分鐘個人突破再次超出比數（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-football-marcus-rashford_7276248.jpg?20260617225545',
+  // 🇵🇹 Ronaldo 41歲第6度征戰世界盃！全場29次觸球遠低於平均水平，68分鐘禁區內射門偏出，73分鐘頭槌頂高。葡萄牙中場 Bruno Fernandes 8次傳中僅1次到位。Roberto Martínez 賽後面臨是否該讓 Ronaldo 續任先發的艱難抉擇（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-cristiano-ronaldo_7276162.png?20260617222704',
+  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿🇭🇷 Bellingham 下半場開場47分鐘個人突破！Elliot Anderson 中路傳球，Bellingham 帶球切入禁區推射遠角，下半場開場僅2分鐘即讓英格蘭再度領先。22歲 Bellingham 成為最年輕參加4項大賽的歐洲球員。Rashford 85分鐘鎖定4-2勝局（Sports Mole/Imago）
+  'https://sportsmole-media-prod.s3.gra.io.cloud.ovh.net/uploads/2026/06/imago1078611591-6a3310114ba25030004970.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇫🇷🇸🇳 法國 3-1 🇸🇳 塞內加爾 — Mbappé 梅開二度以58球成法國歷史射手王！上半場沉寂後，Mbappé 66分鐘接 Olise 直塞冷靜推射破門。Barcola 替補82分鐘精巧挑射，Mbappé 90+6遠射鎖定勝局。80,545人擠爆 MetLife Stadium（Sky Sports）',
-  '🇳🇴 挪威 4-1 🇮🇶 伊拉克 — Erling Haaland 世界盃首秀梅開二度！29分鐘禁區內滑鏟破門首開紀錄，43分鐘伊拉克回傳失誤，Haaland 斷球後冷靜推射。挪威28年來首場世界盃勝利，全場62%控球率，18次射門壓制伊拉克（Sky Sports）',
-  '🇮🇶 挪威 4-1 🇮🇶 伊拉克 — Aymen Hussein 頭槌扳平！39分鐘 Al-Ammari 底線傳中，Hussein 強力頭槌破網，伊拉克自1986年後世界盃首球。Hussein 34個國際賽進球，包含4月資格賽絕殺玻利維亞的關鍵進球。伊拉克球迷在世界盃睽違40年後重返賽場（Sky Sports）',
-  '🇫🇷 法國 3-1 🇸🇳 塞內加爾 — Mbappé 30碼世界波！禁區外遠射擊中橫樑下沿入網，門將 Mendy 鞭長莫及。Mbappé 世界盃累計14球（超越 Pelé 12球、Messi 13球），僅次於 Klose 16球和 Ronaldo 15球。法國尋求連續三屆世界盃闖入決賽（Sky Sports）',
-  '🇳🇴 挪威 4-1 🇮🇶 伊拉克 — Leo Østigård 角球頭槌破門！Ødegaard 精準開出角球，Østigård 後點頭球建功。替補上場僅3分半鐘即進球，挪威76分鐘3-1鎖定勝局。伊拉克下半場體能下滑，挪威掌控比賽節奏。Haaland 賽後獲選全場最佳（Sky Sports）',
-  '🇦🇷 阿根廷 3-0 🇩🇿 阿爾及利亞 — Lionel Messi 世界盃首個帽子戲法！16球追平 Klose 歷史紀錄。第17分鐘 De Paul 直塞，Messi 遠射破網；第55分鐘補射入網；第76分鐘弧線球破門。38歲 Messi 成世界盃最年長帽子戲法球員（Sky Sports）',
-  '🇦🇷 阿根廷 3-0 🇩🇿 阿爾及利亞 — Messi 200場國家隊里程碑！11次國際賽帽子戲法，世界盃第六次參賽。阿根廷球迷擠爆堪薩斯城箭頭體育場，Messi 退場時全場起立鼓掌。阿根廷衛冕之路啟程，下場對陣奧地利（6/22達拉斯）（Sky Sports）'
+  '🇵🇹 葡萄牙 1-1 🇨🇩 剛果民主共和國 — Cristiano Ronaldo 41歲第六屆世界盃出賽，全場29次觸球錯失兩次絕佳機會。João Neves 6分鐘頭槌破門後葡萄牙再無射正，Ronaldo 延續大賽10場進球荒。剛果防守頑強，賽後 Ronaldo 低頭離場（Sky Sports）',
+  '🇵🇹 葡萄牙 1-1 🇨🇩 剛果民主共和國 — João Neves 6分鐘頭槌破門！Pedro Neto 左路精準傳中，21歲 PSG 中場 Neves 禁區內搶點頭槌入網。此為葡萄牙全場唯一射正，Neves 85次傳球成功率94%，世界盃首秀即進球震驚全場（Sky Sports）',
+  '🇨🇩 剛果民主共和國 1-1 🇵🇹 葡萄牙 — Yoane Wissa 45+5分鐘頭槌扳平！Arthur Masuaku 開出角球，紐卡索前鋒 Wissa 禁區內無人防守下強力頭槌破網。這是剛果自1974年（以薩伊名義參賽）後52年來首個世界盃進球，寫下歷史新頁（Sky Sports）',
+  '🇨🇩 剛果民主共和國 1-1 🇵🇹 葡萄牙 — 剛果民主共和國慶祝隊史首個世界盃積分！52年等待終獲回報。Wan-Bissaka、Mbemba 領銜防線成功限制 Ronaldo。Houston NRG 球場見證非洲驚奇，葡萄牙全場16次射門僅1次射正（Sky Sports）',
+  '🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格蘭 4-2 🇭🇷 克羅埃西亞 — Harry Kane 梅開二度！12分鐘12碼罰球（因 Livaković 提前移動重罰）命中，42分鐘 Declan Rice 角球頭槌破門。Kane 以10球追平 Gary Lineker 的英格蘭世界盃進球紀錄。英格蘭全場22次射門11次射正（Sky Sports）',
+  '🇵🇹 葡萄牙 1-1 🇨🇩 剛果民主共和國 — Ronaldo 41歲第6度世界盃：全場29次觸球，68分鐘禁區內射門偏出，73分鐘頭槌頂高。葡萄牙豪華中場群（Bruno Fernandes、Bernardo Silva、Vitinha）無法有效串聯攻勢。Martínez 面臨是否該讓 Ronaldo 坐板凳的難題（Sky Sports）',
+  '🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格蘭 4-2 🇭🇷 克羅埃西亞 — Jude Bellingham 下半場47分鐘個人突破！Elliot Anderson 中路傳球，Bellingham 帶球切入禁區推射遠角入網。Bellingham 22歲即參加4項大賽創歐洲紀錄。Marcus Rashford 85分鐘接 Saka 傳球抽射鎖定勝局（Sports Mole/Imago）'
 ];

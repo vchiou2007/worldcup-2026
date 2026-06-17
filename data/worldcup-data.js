@@ -1027,8 +1027,72 @@ const WC_DATA = {
     },
 
     // === 6月17日 ===
-    { date: '2026-06-17', time: '13:00 ET', group: 'K', team1: 'Portugal', score1: null, team2: 'DR Congo', score2: null, venue: '休斯頓·NRG體育場', status: 'scheduled' },
-    { date: '2026-06-17', time: '16:00 ET', group: 'L', team1: 'England', score1: null, team2: 'Croatia', score2: null, venue: '達拉斯·AT&T體育場', status: 'scheduled' },
+    { date: '2026-06-17', time: '13:00 ET', group: 'K', team1: 'Portugal', score1: 1, team2: 'DR Congo', score2: 1, venue: '休斯頓·NRG體育場', status: 'completed',
+      goals: [
+        { min: 6, team: 1, scorer: 'João Neves', assist: 'Pedro Neto', detail: 'Pedro Neto 左路傳中，João Neves 禁區內頭槌破門' },
+        { min: 45, team: 2, scorer: 'Yoane Wissa', assist: 'Arthur Masuaku', detail: '角球開出，Wissa 無人防守下頭槌入網，剛果取得世界盃歷史首分' }
+      ],
+      cards: [
+        { min: 13, team: 1, player: 'Bernardo Silva', card: 'yellow', detail: '惡意犯規' },
+        { min: 32, team: 2, player: 'Chancel Mbemba', card: 'yellow', detail: '惡意犯規' },
+        { min: 88, team: 1, player: 'Nélson Semedo', card: 'yellow', detail: '阻止反擊戰術犯規' },
+        { min: 90, team: 1, player: 'Tomás Araújo', card: 'yellow', detail: '拉倒 Wissa 犯規' }
+      ],
+      stats: {
+        possession: [65, 35],
+        shots: [16, 8],
+        shotsOnTarget: [4, 3],
+        shotsOffTarget: [8, 3],
+        shotsInsideBox: [10, 5],
+        shotsOutsideBox: [6, 3],
+        passes: [540, 310],
+        passCompleted: [480, 250],
+        passAccuracy: [88.9, 80.6],
+        crosses: [22, 10],
+        crossesCompleted: [6, 3],
+        corners: [7, 5],
+        freeKicks: [14, 16],
+        fouls: [15, 12],
+        offsides: [1, 2],
+        yellowCards: [3, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [200, 240]
+      }
+    },
+    { date: '2026-06-17', time: '16:00 ET', group: 'L', team1: 'England', score1: 4, team2: 'Croatia', score2: 2, venue: '達拉斯·AT&T體育場', status: 'completed',
+      goals: [
+        { min: 12, team: 1, scorer: 'Harry Kane', detail: '12碼罰球 — Modrić 禁區內犯規，Kane 第一次罰球被撲出，因 Livaković 提前移動重罰，第二次冷靜射入左下角' },
+        { min: 38, team: 2, scorer: 'Martin Baturina', assist: 'Ivan Perišić', detail: '禁區外20碼勁射左上角，Pickford 觸到球仍無法阻止入網' },
+        { min: 44, team: 1, scorer: 'Harry Kane', assist: 'Declan Rice', detail: '角球開出後 Kane 禁區內頭槌破門，梅開二度' },
+        { min: 45, team: 2, scorer: 'Petar Musa', detail: '半場最後一擊，禁區內凌空抽射入網，克羅埃西亞二度扳平' },
+        { min: 47, team: 1, scorer: 'Jude Bellingham', assist: 'Elliot Anderson', detail: 'Anderson 傳球，Bellingham 帶球切入禁區推射遠角入網，下半場開場僅2分鐘' },
+        { min: 85, team: 1, scorer: 'Marcus Rashford', assist: 'Bukayo Saka', detail: 'Saka 傳球，Rashford 禁區邊緣抽射入網鎖定勝局' }
+      ],
+      cards: [
+      ],
+      stats: {
+        possession: [58, 42],
+        shots: [18, 10],
+        shotsOnTarget: [8, 4],
+        shotsOffTarget: [7, 4],
+        shotsInsideBox: [12, 6],
+        shotsOutsideBox: [6, 4],
+        passes: [520, 380],
+        passCompleted: [460, 310],
+        passAccuracy: [88.5, 81.6],
+        crosses: [20, 14],
+        crossesCompleted: [6, 4],
+        corners: [8, 4],
+        freeKicks: [12, 14],
+        fouls: [12, 14],
+        offsides: [2, 2],
+        yellowCards: [0, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [220, 240]
+      }
+    },
     { date: '2026-06-17', time: '19:00 ET', group: 'L', team1: 'Ghana', score1: null, team2: 'Panama', score2: null, venue: '多倫多·BMO球場', status: 'scheduled' },
     { date: '2026-06-17', time: '22:00 ET', group: 'K', team1: 'Uzbekistan', score1: null, team2: 'Colombia', score2: null, venue: '墨西哥城·阿茲特克體育場', status: 'scheduled' },
 
@@ -1160,14 +1224,14 @@ const WC_DATA = {
       { team: 'Jordan', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 3, gd: -2, pts: 0 }
     ],
     'K': [
-      { team: 'Portugal', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
+      { team: 'Portugal', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
+      { team: 'DR Congo', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
       { team: 'Colombia', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Uzbekistan', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'DR Congo', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
+      { team: 'Uzbekistan', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
     ],
     'L': [
-      { team: 'England', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Croatia', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
+      { team: 'England', played: 1, won: 1, drawn: 0, lost: 0, gf: 4, ga: 2, gd: 2, pts: 3 },
+      { team: 'Croatia', played: 1, won: 0, drawn: 0, lost: 1, gf: 2, ga: 4, gd: -2, pts: 0 },
       { team: 'Ghana', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
       { team: 'Panama', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
     ]
