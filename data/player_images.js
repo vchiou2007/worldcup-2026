@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-16 21:09 更新：法國 3-1 塞內加爾、挪威 4-1 伊拉克） =====
+// ===== 輪播牆圖片（2026-06-17 自動更新：阿根廷 3-0 阿爾及利亞 — Messi 帽子戲法追平 Klose 紀錄） =====
 const HERO_IMAGES = [
-  // 🇫🇷 Kylian Mbappé 梅開二度！66分鐘接 Olise 助攻打破僵局，90+6分鐘禁區外遠射破網。Mbappé 以58球超越 Giroud 成為法國歷史射手王，世界盃累計14球並列 Müller（MARCA Photo）
-  'https://e01-phantom-marca-us.uecdn.es/cbcbeb4a857497175b26f351b8cb51c6/crop/0x0/1978x1318/resize/1320/f/jpg/assets/multimedia/imagenes/2026/06/16/17816456911415.jpg',
-  // 🇫🇷 Bradley Barcola 替補建功！第80分鐘替換 Dembélé 上場，僅2分鐘後接 Rabiot 傳球單刀破門，法國2-0領先。Barcola 世界盃首球 @ 紐約/新澤西·大都會人壽體育場（AP Photo/Frank Franklin II）
-  'https://www.hindustantimes.com/ht-img/img/2026/06/16/550x309/FBL-WC-2026-MATCH17-FRA-SEN-270_1781644755721_1781644782328_ead019f7-b1c8-469e-aaba-e83b8bb67df8.jpg',
-  // 🇫🇷🇸🇳 法國 vs 塞內加爾 — Senegal 上半場表現出色，Jackson 射中門柱，Sarr 錯失良機。法國上半場僅1次射門，xG僅0.02，半場0-0。下半場 Deschamps 調整後法國全面壓制（AP Photo/Adam Hunger）
-  'https://www.hindustantimes.com/ht-img/img/2026/06/16/550x309/FBL-WC-2026-MATCH17-FRA-SEN-311_1781644829969_1781644846515_66113498-9e5c-4e06-92c2-134b0553ceff.jpg',
-  // 🇫🇷 Kylian Mbappé 慶祝打破法國歷史進球紀錄！14個世界盃進球超越 Pelé 和 Messi（13球），僅次於 Ronaldo（15球）和 Klose（16球）。賽後 Deschamps：「這是個巨大的成就」（Hindustan Times Photo）
-  'https://www.hindustantimes.com/ht-img/img/2026/06/16/550x309/mbappe_1781645048516_1781645048670_f4f25312-6a6c-4b30-b0eb-488e1df014aa_1781645063094_fb2933e2-025e-4b7e-80da-bc03c8d4af3f.jpg',
-  // 🇳🇴 Erling Haaland 世界盃首戰即梅開二度！曼城前鋒29分鐘接 Wolfe 傳中用腳跟破門，43分鐘利用伊拉克後衛 Tahseen 回傳失誤斷球得分。Haaland 以51個國際進球率領挪威4-1大勝（Sky Sports Photo）
-  'https://e0.365dm.com/26/06/768x432/skysports-haaland-norway_7275412.jpg?20260616233401',
-  // 🇮🇶 Aymen Hussein 頭槌扳平！伊拉克前鋒39分鐘接 Al-Ammari 左路傳中一記乾淨俐落的頭槌破門，這是伊拉克40年來首個世界盃進球。Hussein 全場表現出色獲評7分，但90+6分鐘不幸打入烏龍球（Sky Sports Photo）
-  'https://e0.365dm.com/26/06/768x432/skysports-aymen-hussein-iraq_7275424.jpg?20260617002935',
-  // 🇳🇴 Leo Østigård 替補頭槌鎖定勝局！那不勒斯後衛76分鐘接 Ødegaard 角球無人防守下頭球破門。Norway 替補球員貢獻1球1助，展現板凳深度。Haaland 另有一次助攻創造烏龍球 @ 波士頓·吉列體育場（Sky Sports Photo）
-  'https://e0.365dm.com/26/06/768x432/skysports-leo-ostigard-norway_7275427.jpg?20260617005227'
+  // 🇦🇷 Lionel Messi 第17分鐘遠射破門！De Paul 直塞穿透阿爾及利亞防線，Messi 左腳弧線球射入遠角，200場國家隊里程碑。這是 Messi 第六屆世界盃的首個進球（AP Photo/Ed Zurga）
+  'https://cf-images.assettype.com/outlookindia/2026-06-17/lp4zg0ij/Argentina-Vs-Algeria-FIFA-World-Cup-2026-Group-J-Messi-Celebs-AP-Photo.jpg',
+  // 🇦🇷 阿根廷球迷在堪薩斯城箭頭體育場熱情助威！超過69,000名觀眾到場，其中阿根廷球迷佔大多數，身穿10號球衣齊聲高唱。Messi 賽後落淚感謝球迷支持（AP Photo/Charlie Riedel）
+  'https://cf-images.assettype.com/outlookindia/2026-06-17/l654deb7/Argentina-Vs-Algeria-FIFA-World-Cup-2026-Argentina-Fans-Group-J-AP-Photo.jpg',
+  // 🇦🇷🇩🇿 Lionel Messi 在開賽前向觀眾揮手致意。38歲的 Messi 成為史上首位參加六屆世界盃的球員，也是第三位達成200場國家隊出賽的足球員（AP Photo/Reed Hoffmann）
+  'https://cf-images.assettype.com/outlookindia/2026-06-17/wnmwj7hb/Argentina-Vs-Algeria-FIFA-World-Cup-2026-Group-J-Messi-Waves-AP-Photo.jpg',
+  // 🇦🇷 Lionel Messi 第76分鐘完成帽子戲法！Nicolás González 切入禁區回傳，Messi 左腳弧線球破網。16個世界盃進球追平 Klose 紀錄，61次生涯帽子戲法。Messi 成為世界盃史上上演帽子戲法最年長球員（Getty Images）
+  'https://media.nbcwashington.com/2026/06/GettyImages-2281966486-e1781659619893.jpg',
+  // 🇦🇷🇩🇿 阿根廷 vs 阿爾及利亞 — Kansas City Stadium 全場爆滿！NFL 球星 Patrick Mahomes 夫婦親臨現場觀戰。Messi 在80分鐘被換下時全場起立鼓掌，小將 Nico Paz 替補上場完成世界盃首秀（AP Photo/Reed Hoffmann）
+  'https://cf-images.assettype.com/outlookindia/2026-06-17/5ep7hr8o/Argentina-Vs-Algeria-FIFA-World-Cup-2026-Group-J-Fans-Mask-AP-Photo.jpg',
+  // 🇩🇿 阿爾及利亞球迷熱情應援！阿爾及利亞自2014年後重返世界盃，門將 Luca Zidane（席丹之子）多次精彩撲救，但無法阻擋 Messi 的三度破門。Riyad Mahrez 第64分鐘替補上場（AP Photo/A3fm7sda）
+  'https://cf-images.assettype.com/outlookindia/2026-06-17/a3fm7sda/Argentina-Vs-Algeria-FIFA-World-Cup-2026-Algeria-Fans-Group-J-AP-Photo.jpg',
+  // 🇦🇷 Lionel Messi 賽後與隊友 Cristian Romero 和 Lisandro Martínez 擁抱慶祝！阿根廷衛冕之路順利起步，小組賽3-0完勝 Alergia。Messi 賽後表示：「我今天感覺很好，重要的是以勝利開始世界盃」@ 堪薩斯城·箭頭體育場（AP Photo/Ed Zurga）
+  'https://cf-images.assettype.com/outlookindia/2026-06-17/a5spob2b/Argentina-Vs-Algeria-FIFA-World-Cup-2026-Group-J-Messi-Ronaldo-Mascots-Mexico-AP-Photo.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇫🇷 法國 3-1 🇸🇳 塞內加爾 — Kylian Mbappé 梅開二度（66分、90+6分）以58球成為法國歷史射手王！14個世界盃進球並列 Müller。Barcola 82分鐘替補建功。Mbappé：「能在世界盃寫下歷史非常特別」@ 紐約/新澤西·大都會人壽體育場',
-  '🇫🇷 法國 3-1 🇸🇳 塞內加爾 — Bradley Barcola 替補2分鐘即破門！第80分鐘換下 Dembélé，82分鐘接 Rabiot 直塞單刀挑射入網。法國下半場全面壓制，射門10-1碾壓 Senegal。Deschamps：「上半場我們不夠好，但下半場展現了冠軍韌性」',
-  '🇫🇷 法國 3-1 🇸🇳 塞內加爾 — Senegal上半場表現出色但未能把握機會！Jackson 25分鐘射中門柱，Sarr 補時階段射高。法國上半場0射正、xG僅0.02創近年新低。半場調整後 Olise 移中、Dembélé 拉邊奏效',
-  '🇫🇷 Kylian Mbappé — 世界盃傳奇再進化！27歲即擁有14個世界盃進球（15場），超越 Pelé（12球/14場）和 Messi（13球/26場），距離 Klose 的16球紀錄僅差2球。法國力拚三屆內第二冠、連續三屆決賽 @ 大都會人壽體育場',
-  '🇳🇴 挪威 4-1 🇮🇶 伊拉克 — Erling Haaland 世界盃首秀驚豔全場！29分鐘右腳跟凌空墊射、43分鐘反越位斷球破門，28年來首位挪威球員在世界盃單場進兩球。Solbakken：「這就是 Haaland，他為大場面而生」@ 波士頓·吉列體育場',
-  '🇮🇶 伊拉克 1-4 🇳🇴 挪威 — Aymen Hussein 頭槌寫歷史！39分鐘接 Al-Ammari 傳中頭球破門，這是伊拉克自1986年以來首個世界盃進球。Hussein 賽前被美國海關拘留7小時仍奮戰全場，雖打入烏龍球仍獲球迷致敬',
-  '🇳🇴 挪威 4-1 🇮🇶 伊拉克 — Leo Østigård 替補頭槌！76分鐘 Ødegaard 開出精準角球，Østigård 後點無人看防下輕鬆頭球破門。Haaland 83分鐘射門中柱錯失帽子戲法，但伊拉克 Hussein 90+6分鐘打入烏龍球讓 Haaland 記上一次助攻'
+  '🇦🇷 阿根廷 3-0 🇩🇿 阿爾及利亞 — Lionel Messi 第17分鐘遠射破門！De Paul 直塞穿透防線，Messi 在200場國家隊里程碑之夜左腳弧線球射入遠角。第一球後 Messi 激動落淚：「這幾週我過得很艱難，感謝隊友和教練團的支持」',
+  '🇦🇷 阿根廷 3-0 🇩🇿 阿爾及利亞 — 阿根廷球迷佔領堪薩斯城！69,045名觀眾擠爆 Arrowhead 體育場，無數10號球衣飄揚。Messi 成為史上首位參加六屆世界盃的球員，也是第三位達到200場國家隊出賽的傳奇',
+  '🇦🇷 阿根廷 3-0 🇩🇿 阿爾及利亞 — Lionel Messi 賽前揮手致意！38歲的 GOAT 在開賽前6分鐘曾有進球被判越位，第8分鐘 Algeria 的 Chaibi 也因越位進球被取消。20年前的今天（2006年6月16日）正是 Messi 的世界盃 debut',
+  '🇦🇷 阿根廷 3-0 🇩🇿 阿爾及利亞 — Messi 第76分鐘完成生涯首個世界盃帽子戲法！16個世界盃進球追平 Miroslav Klose 紀錄。38歲357天，史上最年長世界盃帽子戲法。賽後 Haaland 在 Snapchat 發文：「Messi is a madman」',
+  '🇦🇷 阿根廷 3-0 🇩🇿 阿爾及利亞 — Kansas City 之夜！NFL 四分衛 Patrick Mahomes 到場見證歷史。Messi 80分鐘被 Nico Paz 換下時全場起立鼓掌。阿根廷成為繼義大利（1934-38）和巴西（1958-62）後，有望連霸的第三國',
+  '🇩🇿 阿根廷 3-0 🇩🇿 阿爾及利亞 — Algeria 球迷熱情支持！Fennec Foxes 自2014年後重返世界盃雖0-3落敗但拼勁十足。Luca Zidane（席丹之子）把守大門，Mahrez 替補上場30分鐘。Algeria 教練：「Class is permanent. Messi 是不可阻擋的」',
+  '🇦🇷 阿根廷 3-0 🇩🇿 阿爾及利亞 — Messi 與 Roméro、Martínez 慶祝！阿根廷衛冕冠軍展現統治力：65%控球率、16次射門7次射正、xG 1.51。Messi 賽後：「這是我第六屆世界盃，我仍感覺狀態很好。以勝利開始非常重要」@ 堪薩斯城·箭頭體育場'
 ];

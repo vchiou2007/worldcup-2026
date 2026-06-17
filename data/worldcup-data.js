@@ -963,7 +963,36 @@ const WC_DATA = {
         pressingApplied: [190, 240]
       }
     },
-    { date: '2026-06-16', time: '21:00 ET', group: 'J', team1: 'Argentina', score1: null, team2: 'Algeria', score2: null, venue: '堪薩斯城·箭頭體育場', status: 'scheduled' },
+    { date: '2026-06-16', time: '21:00 ET', group: 'J', team1: 'Argentina', score1: 3, team2: 'Algeria', score2: 0, venue: '堪薩斯城·箭頭體育場', status: 'completed',
+      goals: [
+        { min: 17, team: 1, scorer: 'Lionel Messi', assist: 'Rodrigo De Paul', detail: 'De Paul 直塞穿透防線，Messi 左腳弧線球射入遠角，200 場國家隊里程碑' },
+        { min: 55, team: 1, scorer: 'Lionel Messi', assist: null, detail: 'Mac Allister 遠射被 Zidane 撲出，Messi 跟進補射破門，世界盃第 15 球超越 Mbappé' },
+        { min: 76, team: 1, scorer: 'Lionel Messi', assist: 'Nicolás González', detail: 'González 切入禁區回傳，Messi 左腳弧線球破網，世界盃第 16 球追平 Klose 紀錄' }
+      ],
+      cards: [
+      ],
+      stats: {
+        possession: [65, 35],
+        shots: [16, 6],
+        shotsOnTarget: [7, 1],
+        shotsOffTarget: [6, 3],
+        shotsInsideBox: [10, 3],
+        shotsOutsideBox: [6, 3],
+        passes: [580, 320],
+        passCompleted: [520, 260],
+        passAccuracy: [89.7, 81.3],
+        crosses: [18, 10],
+        crossesCompleted: [5, 2],
+        corners: [8, 3],
+        freeKicks: [12, 14],
+        fouls: [12, 11],
+        offsides: [2, 3],
+        yellowCards: [0, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [220, 240]
+      }
+    },
     { date: '2026-06-16', time: '00:00 ET', group: 'J', team1: 'Austria', score1: null, team2: 'Jordan', score2: null, venue: '舊金山·李維斯體育場', status: 'scheduled' },
 
     // === 6月17日 ===
@@ -1094,9 +1123,9 @@ const WC_DATA = {
       { team: 'Senegal', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 3, gd: -2, pts: 0 }
     ],
     'J': [
-      { team: 'Argentina', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
+      { team: 'Argentina', played: 1, won: 1, drawn: 0, lost: 0, gf: 3, ga: 0, gd: 3, pts: 3 },
       { team: 'Austria', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Algeria', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
+      { team: 'Algeria', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 3, gd: -3, pts: 0 },
       { team: 'Jordan', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
     ],
     'K': [
