@@ -900,8 +900,69 @@ const WC_DATA = {
     },
 
     // === 6月16日 ===
-    { date: '2026-06-16', time: '15:00 ET', group: 'I', team1: 'France', score1: null, team2: 'Senegal', score2: null, venue: '紐約/新澤西·大都會人壽體育場', status: 'scheduled' },
-    { date: '2026-06-16', time: '18:00 ET', group: 'I', team1: 'Iraq', score1: null, team2: 'Norway', score2: null, venue: '波士頓·吉列體育場', status: 'scheduled' },
+    { date: '2026-06-16', time: '15:00 ET', group: 'I', team1: 'France', score1: 3, team2: 'Senegal', score2: 1, venue: '紐約/新澤西·大都會人壽體育場', status: 'completed',
+      goals: [
+        { min: 66, team: 1, scorer: 'Kylian Mbappé', assist: 'Michael Olise', detail: 'Olise 精準直塞，Mbappé 禁區內冷靜推射破門' },
+        { min: 82, team: 1, scorer: 'Bradley Barcola', assist: null, detail: '禁區內接應射門入網，法國擴大領先' },
+        { min: 90, team: 2, scorer: 'Ibrahim Mbaye', assist: null, detail: 'Senegal 替補前鋒禁區內射門得分' },
+        { min: 90, team: 1, scorer: 'Kylian Mbappé', assist: null, detail: '禁區外遠射破網，Mbappé 梅開二度，以 58 球獨佔法國歷史射手王' }
+      ],
+      cards: [
+      ],
+      stats: {
+        possession: [57, 43],
+        shots: [14, 8],
+        shotsOnTarget: [5, 2],
+        shotsOffTarget: [6, 4],
+        shotsInsideBox: [9, 5],
+        shotsOutsideBox: [5, 3],
+        passes: [530, 380],
+        passCompleted: [470, 310],
+        passAccuracy: [88.7, 81.6],
+        crosses: [18, 14],
+        crossesCompleted: [5, 3],
+        corners: [6, 4],
+        freeKicks: [12, 15],
+        fouls: [13, 12],
+        offsides: [3, 2],
+        yellowCards: [0, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [26, 30],
+        pressingApplied: [210, 250]
+      }
+    },
+    { date: '2026-06-16', time: '18:00 ET', group: 'I', team1: 'Iraq', score1: 1, team2: 'Norway', score2: 4, venue: '波士頓·吉列體育場', status: 'completed',
+      goals: [
+        { min: 29, team: 2, scorer: 'Erling Haaland', assist: 'Antonio Nusa', detail: 'Nusa 左路突破傳中，Haaland 禁區內搶點破門，世界盃首球' },
+        { min: 39, team: 1, scorer: 'Aymen Hussein', assist: 'Amir Al-Ammari', detail: 'Al-Ammari 精確傳中，Hussein 禁區內頭槌扳平' },
+        { min: 43, team: 2, scorer: 'Erling Haaland', assist: null, detail: '伊拉克後衛 Tahseen 回傳失誤，Haaland 斷球後冷靜破門，梅開二度' },
+        { min: 76, team: 2, scorer: 'Leo Østigård', assist: 'Martin Ødegaard', detail: 'Ødegaard 角球開出，Østigård 後點頭槌破門' },
+        { min: 90, team: 2, scorer: 'Aymen Hussein (OG)', detail: '挪威傳中造成禁區混亂，Hussein 解圍不慎自擺烏龍' }
+      ],
+      cards: [
+      ],
+      stats: {
+        possession: [38, 62],
+        shots: [8, 18],
+        shotsOnTarget: [3, 8],
+        shotsOffTarget: [3, 7],
+        shotsInsideBox: [5, 11],
+        shotsOutsideBox: [3, 7],
+        passes: [310, 520],
+        passCompleted: [240, 460],
+        passAccuracy: [77.4, 88.5],
+        crosses: [10, 22],
+        crossesCompleted: [3, 7],
+        corners: [2, 8],
+        freeKicks: [14, 12],
+        fouls: [14, 10],
+        offsides: [1, 3],
+        yellowCards: [0, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 34],
+        pressingApplied: [190, 240]
+      }
+    },
     { date: '2026-06-16', time: '21:00 ET', group: 'J', team1: 'Argentina', score1: null, team2: 'Algeria', score2: null, venue: '堪薩斯城·箭頭體育場', status: 'scheduled' },
     { date: '2026-06-16', time: '00:00 ET', group: 'J', team1: 'Austria', score1: null, team2: 'Jordan', score2: null, venue: '舊金山·李維斯體育場', status: 'scheduled' },
 
@@ -1027,10 +1088,10 @@ const WC_DATA = {
       { team: 'Uruguay', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 }
     ],
     'I': [
-      { team: 'France', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Senegal', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Norway', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Iraq', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
+      { team: 'Norway', played: 1, won: 1, drawn: 0, lost: 0, gf: 4, ga: 1, gd: 3, pts: 3 },
+      { team: 'France', played: 1, won: 1, drawn: 0, lost: 0, gf: 3, ga: 1, gd: 2, pts: 3 },
+      { team: 'Iraq', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 4, gd: -3, pts: 0 },
+      { team: 'Senegal', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 3, gd: -2, pts: 0 }
     ],
     'J': [
       { team: 'Argentina', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },

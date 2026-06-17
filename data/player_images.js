@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-16 09:00 更新：比利時 1-1 埃及、西班牙 0-0 維德角） =====
+// ===== 輪播牆圖片（2026-06-16 21:09 更新：法國 3-1 塞內加爾、挪威 4-1 伊拉克） =====
 const HERO_IMAGES = [
-  // 🇧🇪 Romelu Lukaku 替補登場22秒即造烏龍球！Napoli 前鋒在第66分鐘替補上場後立即衝入禁區，Meunier 傳中造成 Egypt 後衛 Hany 解圍不慎打入自家大門，比利時1-1逼平埃及（MARCA Photo）
-  'https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/06/16/17815625324821.jpg',
-  // 🇪🇸 西班牙 0-0 維德角 — 40歲門神 Vozinha 神勇發揮！維德角在世界盃處女秀中逼平歐洲冠軍西班牙。Vozinha 全場多次撲出 Pedri、Ferran Torres 的必進球，賽後激動落淚（MARCA Photo）
-  'https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/06/15/17815353272223.jpg',
-  // 🇮🇷 伊朗 2-2 紐西蘭 — Mohebbi 頭槌扳平！伊朗中場第68分鐘接 Rezaeian 左路傳中頭槌擊中門柱內側入網，兩度落後兩度扳平展現韌性 @ 洛杉磯 SoFi 體育場（MARCA Photo）
-  'https://objetos.estaticos-marca.com/assets/multimedia/imagenes/2026/06/16/17815624639892.jpg',
-  // 🇧🇪 比利時球迷在西雅圖 Lumen Field 等待開賽 — 比利時黃金世代最後一舞！De Bruyne、Courtois、Lukaku 領軍出擊，但全場表現欠佳僅靠烏龍球逼平埃及（AP Photo/Lindsey Wasson）
-  'https://bloximages.chicago2.vip.townnews.com/bdtonline.com/content/tncms/assets/v3/editorial/5/a3/5a369235-bc55-58ce-ae2c-bff06474fc43/6a3085e13dd88.image.jpg',
-  // 🇸🇦 Abdulelah Al Amri 角球補射破門！Al Hilal 後衛第41分鐘在門前混戰中補射入網，幫助沙烏地在邁阿密先馳得點。Muslera 雖然撲出 Al Tambakti 頭槌但無法阻止補射 @ 邁阿密·硬石體育場（AP Photo/Lynne Sladky）
-  'https://cf-images.assettype.com/outlookindia/2026-06-15/x0h49ykx/Saudi-Arabia-vs-Uruguay-FIFA-World-Cup-2026-Group-H-Abdulelah-Alamri-Scores-AP-Photo.jpg',
-  // 🇳🇿 Elijah Just 梅開二度！Motherwell 邊鋒7分鐘和54分鐘兩度接 Chris Wood 助攻破門，成為紐西蘭史上首位世界盃單場進兩球的球員。All Whites 時隔16年重返世界盃即展現競爭力（AP Photo/Mark J. Terrill）
-  'https://www.hindustantimes.com/ht-img/img/2026/06/16/550x309/APTOPIX-New-Zealand-Iran-WCup-Soccer-20_1781581098691_1781581169746_9771ccde-912e-4462-8723-2b897baa275b.jpg',
-  // 🇸🇦 Mohammed Al-Owais 賽後擁抱隊友！沙烏地球門全場9次撲救獲選最佳球員，包括擋出 Valverde 遠射和 Vinas 頭槌。Al Owais 的英勇表現讓沙烏地在 H 組保住一分（AP Photo/Lynne Sladky）
-  'https://cf-images.assettype.com/outlookindia/2026-06-16/anot5y94/Saudi-Arabia-vs-Uruguay-FIFA-World-Cup-2026-Group-H-Mohammed-Al-Owais-Post-match-AP-Photo.jpg'
+  // 🇫🇷 Kylian Mbappé 梅開二度！66分鐘接 Olise 助攻打破僵局，90+6分鐘禁區外遠射破網。Mbappé 以58球超越 Giroud 成為法國歷史射手王，世界盃累計14球並列 Müller（MARCA Photo）
+  'https://e01-phantom-marca-us.uecdn.es/cbcbeb4a857497175b26f351b8cb51c6/crop/0x0/1978x1318/resize/1320/f/jpg/assets/multimedia/imagenes/2026/06/16/17816456911415.jpg',
+  // 🇫🇷 Bradley Barcola 替補建功！第80分鐘替換 Dembélé 上場，僅2分鐘後接 Rabiot 傳球單刀破門，法國2-0領先。Barcola 世界盃首球 @ 紐約/新澤西·大都會人壽體育場（AP Photo/Frank Franklin II）
+  'https://www.hindustantimes.com/ht-img/img/2026/06/16/550x309/FBL-WC-2026-MATCH17-FRA-SEN-270_1781644755721_1781644782328_ead019f7-b1c8-469e-aaba-e83b8bb67df8.jpg',
+  // 🇫🇷🇸🇳 法國 vs 塞內加爾 — Senegal 上半場表現出色，Jackson 射中門柱，Sarr 錯失良機。法國上半場僅1次射門，xG僅0.02，半場0-0。下半場 Deschamps 調整後法國全面壓制（AP Photo/Adam Hunger）
+  'https://www.hindustantimes.com/ht-img/img/2026/06/16/550x309/FBL-WC-2026-MATCH17-FRA-SEN-311_1781644829969_1781644846515_66113498-9e5c-4e06-92c2-134b0553ceff.jpg',
+  // 🇫🇷 Kylian Mbappé 慶祝打破法國歷史進球紀錄！14個世界盃進球超越 Pelé 和 Messi（13球），僅次於 Ronaldo（15球）和 Klose（16球）。賽後 Deschamps：「這是個巨大的成就」（Hindustan Times Photo）
+  'https://www.hindustantimes.com/ht-img/img/2026/06/16/550x309/mbappe_1781645048516_1781645048670_f4f25312-6a6c-4b30-b0eb-488e1df014aa_1781645063094_fb2933e2-025e-4b7e-80da-bc03c8d4af3f.jpg',
+  // 🇳🇴 Erling Haaland 世界盃首戰即梅開二度！曼城前鋒29分鐘接 Wolfe 傳中用腳跟破門，43分鐘利用伊拉克後衛 Tahseen 回傳失誤斷球得分。Haaland 以51個國際進球率領挪威4-1大勝（Sky Sports Photo）
+  'https://e0.365dm.com/26/06/768x432/skysports-haaland-norway_7275412.jpg?20260616233401',
+  // 🇮🇶 Aymen Hussein 頭槌扳平！伊拉克前鋒39分鐘接 Al-Ammari 左路傳中一記乾淨俐落的頭槌破門，這是伊拉克40年來首個世界盃進球。Hussein 全場表現出色獲評7分，但90+6分鐘不幸打入烏龍球（Sky Sports Photo）
+  'https://e0.365dm.com/26/06/768x432/skysports-aymen-hussein-iraq_7275424.jpg?20260617002935',
+  // 🇳🇴 Leo Østigård 替補頭槌鎖定勝局！那不勒斯後衛76分鐘接 Ødegaard 角球無人防守下頭球破門。Norway 替補球員貢獻1球1助，展現板凳深度。Haaland 另有一次助攻創造烏龍球 @ 波士頓·吉列體育場（Sky Sports Photo）
+  'https://e0.365dm.com/26/06/768x432/skysports-leo-ostigard-norway_7275427.jpg?20260617005227'
 ];
 
 const HERO_CAPTIONS = [
-  '🇧🇪 比利時 1-1 🇪🇬 埃及 — Lukaku 替補22秒造烏龍！Napoli 前鋒第66分鐘上場後立即衝入禁區，Meunier 傳中迫使 Hany 自擺烏龍。埃及 Ashour 第19分鐘先馳得點，Salah 34歲生日送出助攻但無緣勝利 @ 西雅圖·Lumen Field',
-  '🇪🇸 西班牙 0-0 🇨🇻 維德角 — 40歲門神 Vozinha 神勇發揮！維德角世界盃處女秀逼平歐洲冠軍，全場多次撲出 Pedri、Ferran Torres 必進球。西班牙控球74%、射門27次仍無法破門，Lamine Yamal 替補登場也無功而返 @ 亞特蘭大·梅賽德斯-賓士體育場',
-  '🇮🇷 伊朗 2-2 🇳🇿 紐西蘭 — Mohebbi 頭槌扳平！伊朗第68分鐘由 Rezaeian 左路傳中，Mohebbi 頭槌擊中門柱內側入網。紐西蘭 Elijah Just 梅開二度（7分、54分）均由 Chris Wood 助攻。G 組四隊同積1分 @ 洛杉磯·SoFi 體育場',
-  '🇧🇪 比利時球迷西雅圖集結 — 黃金世代最後一舞！De Bruyne 自由球中柱、Doku 多次錯失良機。Rudi Garcia 賽後坦言：「我們技術層面還有很大進步空間。」比利時下場對伊朗必須拿下',
-  '🇸🇦 沙烏地阿拉伯 1-1 🇺🇾 烏拉圭 — Al Amri 角球補射破門！門將 Muslera 撲出 Al Tambakti 頭槌但無法阻止補射。烏拉圭全場控球62%、射門22次但效率不佳，直到80分鐘才由 Araujo 補射扳平 @ 邁阿密·硬石體育場',
-  '🇳🇿 Elijah Just 紐西蘭英雄！Motherwell 邊鋒梅開二度寫下 All Whites 歷史，7分鐘接 Wood 胸部停球勁射、54分鐘禁區二過一破門。紐西蘭時隔16年重返世界盃即展現競爭力，排名85逼平20名伊朗',
-  '🇸🇦 Mohammed Al-Owais 獲選最佳球員！沙烏地球門全場9次撲救，擋出 Valverde 遠射、Vinas 頭槌等必進球。Al Owais：「我們證明沙烏地阿拉伯能與世界強隊抗衡」H 組四隊同積1分'
+  '🇫🇷 法國 3-1 🇸🇳 塞內加爾 — Kylian Mbappé 梅開二度（66分、90+6分）以58球成為法國歷史射手王！14個世界盃進球並列 Müller。Barcola 82分鐘替補建功。Mbappé：「能在世界盃寫下歷史非常特別」@ 紐約/新澤西·大都會人壽體育場',
+  '🇫🇷 法國 3-1 🇸🇳 塞內加爾 — Bradley Barcola 替補2分鐘即破門！第80分鐘換下 Dembélé，82分鐘接 Rabiot 直塞單刀挑射入網。法國下半場全面壓制，射門10-1碾壓 Senegal。Deschamps：「上半場我們不夠好，但下半場展現了冠軍韌性」',
+  '🇫🇷 法國 3-1 🇸🇳 塞內加爾 — Senegal上半場表現出色但未能把握機會！Jackson 25分鐘射中門柱，Sarr 補時階段射高。法國上半場0射正、xG僅0.02創近年新低。半場調整後 Olise 移中、Dembélé 拉邊奏效',
+  '🇫🇷 Kylian Mbappé — 世界盃傳奇再進化！27歲即擁有14個世界盃進球（15場），超越 Pelé（12球/14場）和 Messi（13球/26場），距離 Klose 的16球紀錄僅差2球。法國力拚三屆內第二冠、連續三屆決賽 @ 大都會人壽體育場',
+  '🇳🇴 挪威 4-1 🇮🇶 伊拉克 — Erling Haaland 世界盃首秀驚豔全場！29分鐘右腳跟凌空墊射、43分鐘反越位斷球破門，28年來首位挪威球員在世界盃單場進兩球。Solbakken：「這就是 Haaland，他為大場面而生」@ 波士頓·吉列體育場',
+  '🇮🇶 伊拉克 1-4 🇳🇴 挪威 — Aymen Hussein 頭槌寫歷史！39分鐘接 Al-Ammari 傳中頭球破門，這是伊拉克自1986年以來首個世界盃進球。Hussein 賽前被美國海關拘留7小時仍奮戰全場，雖打入烏龍球仍獲球迷致敬',
+  '🇳🇴 挪威 4-1 🇮🇶 伊拉克 — Leo Østigård 替補頭槌！76分鐘 Ødegaard 開出精準角球，Østigård 後點無人看防下輕鬆頭球破門。Haaland 83分鐘射門中柱錯失帽子戲法，但伊拉克 Hussein 90+6分鐘打入烏龍球讓 Haaland 記上一次助攻'
 ];
