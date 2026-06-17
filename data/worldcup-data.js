@@ -735,12 +735,12 @@ const WC_DATA = {
     },
     { date: '2026-06-14', time: '22:00 ET', group: 'F', team1: 'Sweden', score1: 5, team2: 'Tunisia', score2: 1, venue: '蒙特雷·BBVA球場', status: 'completed',
       goals: [
-        { min: 7, team: 1, scorer: 'Yasin Ayari', assist: 'Viktor Gyökeres', detail: '禁區外弧線球射入左上角，刷新瑞典36年來世界盃最年輕進球紀錄' },
-        { min: 30, team: 1, scorer: 'Alexander Isak', assist: 'Benjamin Nygren', detail: '反擊中禁區邊緣射門入網' },
+        { min: 7, team: 1, scorer: 'Yasin Ayari', assist: 'Viktor Gyökeres', detail: '禁區外弧線球射入左上角，刷新瑞典36年來世界盃最年輕進球紀錄，Ayari因父親為突尼西亞人而選擇不慶祝' },
+        { min: 30, team: 1, scorer: 'Alexander Isak', assist: 'Viktor Gyökeres', detail: 'Gyökeres 中場直塞，Isak 禁區邊緣射門入網' },
         { min: 43, team: 2, scorer: 'Omar Rekik', assist: 'Hannibal Mejbri', detail: '角球頭槌破門，突尼西亞追回一球' },
-        { min: 87, team: 1, scorer: 'Viktor Gyökeres', assist: 'Alexander Bernhardsson', detail: '禁區內接應傳球後轉身射門入網' },
-        { min: 90, team: 1, scorer: 'Mattias Svanberg', detail: 'VAR確認後判定進球有效，瑞典第四球' },
-        { min: 90, team: 1, scorer: 'Anthony Elanga', assist: 'Mattias Svanberg', detail: '禁區內補射入網，瑞典5-1鎖定勝局' }
+        { min: 59, team: 1, scorer: 'Viktor Gyökeres', assist: 'Alexander Isak', detail: 'Isak 妙傳，Gyökeres 禁區內轉身射門入網，瑞典恢復兩球領先' },
+        { min: 84, team: 1, scorer: 'Mattias Svanberg', detail: '替補上場僅18秒即破門，VAR確認後判定進球有效，Isak 在越位位置但未觸球' },
+        { min: 90, team: 1, scorer: 'Yasin Ayari', detail: '禁區外遠射破網梅開二度，Ayari 以兩記世界波當選全場最佳' }
       ],
       cards: [
         { min: 54, team: 1, player: 'Isak Hien', card: 'yellow', detail: '戰術犯規' }
