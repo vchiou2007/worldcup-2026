@@ -903,27 +903,27 @@ const WC_DATA = {
     { date: '2026-06-16', time: '15:00 ET', group: 'I', team1: 'France', score1: 3, team2: 'Senegal', score2: 1, venue: '紐約/新澤西·大都會人壽體育場', status: 'completed',
       goals: [
         { min: 66, team: 1, scorer: 'Kylian Mbappé', assist: 'Michael Olise', detail: 'Olise 精準直塞，Mbappé 禁區內冷靜推射破門' },
-        { min: 82, team: 1, scorer: 'Bradley Barcola', assist: 'Adrien Rabiot', detail: 'Rabiot 傳球，Barcola 禁區內精巧挑射入網' },
-        { min: 90, team: 2, scorer: 'Ibrahim Mbaye', assist: 'Iliman Ndiaye', detail: 'Mbaye 突破 Theo Hernandez 後勁射破門，Senegal 追回一球' },
-        { min: 90, team: 1, scorer: 'Kylian Mbappé', assist: null, detail: '開球後 Mbappé 30碼外遠射破網梅開二度！超越 Henry 以 58 球獨佔法國歷史射手王' }
+        { min: 82, team: 1, scorer: 'Bradley Barcola', assist: null, detail: '禁區內接應射門入網，法國擴大領先' },
+        { min: 90, team: 2, scorer: 'Ibrahim Mbaye', assist: null, detail: 'Senegal 替補前鋒禁區內射門得分' },
+        { min: 90, team: 1, scorer: 'Kylian Mbappé', assist: null, detail: '禁區外遠射破網，Mbappé 梅開二度，以 58 球獨佔法國歷史射手王' }
       ],
       cards: [
       ],
       stats: {
-        possession: [54, 46],
-        shots: [11, 6],
-        shotsOnTarget: [8, 2],
-        shotsOffTarget: [3, 3],
-        shotsInsideBox: [7, 4],
-        shotsOutsideBox: [4, 2],
-        passes: [576, 497],
-        passCompleted: [507, 427],
-        passAccuracy: [88.0, 86.0],
+        possession: [57, 43],
+        shots: [14, 8],
+        shotsOnTarget: [5, 2],
+        shotsOffTarget: [6, 4],
+        shotsInsideBox: [9, 5],
+        shotsOutsideBox: [5, 3],
+        passes: [530, 380],
+        passCompleted: [470, 310],
+        passAccuracy: [88.7, 81.6],
         crosses: [18, 14],
         crossesCompleted: [5, 3],
         corners: [6, 4],
-        freeKicks: [10, 12],
-        fouls: [5, 9],
+        freeKicks: [12, 15],
+        fouls: [13, 12],
         offsides: [3, 2],
         yellowCards: [0, 0],
         redCards: [0, 0],
@@ -1093,75 +1093,70 @@ const WC_DATA = {
         pressingApplied: [220, 240]
       }
     },
-    // 🇬🇭 迦納 1-0 🇵🇦 巴拿馬 — Caleb Yirenkyi 傷停補時第5分鐘絕殺！
     { date: '2026-06-17', time: '19:00 ET', group: 'L', team1: 'Ghana', score1: 1, team2: 'Panama', score2: 0, venue: '多倫多·BMO球場', status: 'completed',
       goals: [
-        { min: 90, team: 1, scorer: 'Caleb Yirenkyi', assist: 'Brandon Thomas-Asante', detail: '傷停補時第5分鐘反擊，Thomas-Asante 左路橫傳，Yirenkyi 遠柱跟進推射入網，迦納絕殺！' }
+        { min: 90, team: 1, scorer: 'Caleb Yirenkyi', assist: 'Brandon Thomas-Asante', detail: 'Thomas-Asante 禁區邊緣傳球，Yirenkyi 禁區內射門入網，傷停補時第5分鐘絕殺！' }
       ],
       cards: [
-        { min: 55, team: 1, player: 'Caleb Yirenkyi', card: 'yellow', detail: '戰術犯規' },
-        { min: 68, team: 2, player: 'César Blackman', card: 'yellow', detail: '犯規阻止反擊' },
-        { min: 78, team: 2, player: 'Carlos Harvey', card: 'yellow', detail: '中場犯規' }
+        { min: 16, team: 1, player: 'Caleb Yirenkyi', card: 'yellow', detail: '拉倒 Barcenas 阻止反擊' }
       ],
       stats: {
-        possession: [44, 56],
-        shots: [6, 11],
-        shotsOnTarget: [2, 3],
-        shotsOffTarget: [3, 5],
-        shotsInsideBox: [4, 6],
-        shotsOutsideBox: [2, 5],
-        passes: [340, 420],
-        passCompleted: [270, 350],
-        passAccuracy: [79.4, 83.3],
-        crosses: [12, 18],
-        crossesCompleted: [3, 4],
-        corners: [3, 6],
+        possession: [52, 48],
+        shots: [12, 9],
+        shotsOnTarget: [4, 3],
+        shotsOffTarget: [5, 4],
+        shotsInsideBox: [7, 5],
+        shotsOutsideBox: [5, 4],
+        passes: [410, 380],
+        passCompleted: [340, 310],
+        passAccuracy: [82.9, 81.6],
+        crosses: [16, 14],
+        crossesCompleted: [4, 3],
+        corners: [5, 4],
+        freeKicks: [14, 13],
+        fouls: [13, 14],
+        offsides: [2, 1],
+        yellowCards: [0, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [26, 30],
+        pressingApplied: [200, 240]
+      }
+    },
+    { date: '2026-06-17', time: '22:00 ET', group: 'K', team1: 'Uzbekistan', score1: null, team2: 'Colombia', score2: null, venue: '墨西哥城·阿茲特克體育場', status: 'scheduled' },
+
+    // === 6月18日 ===
+    { date: '2026-06-18', time: '12:00 ET', group: 'A', team1: 'Czechia', score1: 1, team2: 'South Africa', score2: 1, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'completed',
+      goals: [
+        { min: 6, team: 1, scorer: 'Michal Sadílek', assist: 'Alexandr Sojka', detail: 'Sojka 禁區邊緣傳球，Sadílek 禁區中央右腳射門入網' },
+        { min: 83, team: 2, scorer: 'Teboho Mokoena', detail: '12碼罰球 — Pavel Sulc 禁區內手球犯規，VAR 確認後判罰，Mokoena 騙過門將射入左下角' }
+      ],
+      cards: [
+        { min: 33, team: 2, player: 'Teboho Mokoena', card: 'yellow', detail: '中場犯規' },
+        { min: 40, team: 2, player: 'Thalente Mbatha', card: 'yellow', detail: '惡意犯規' },
+        { min: 75, team: 1, player: 'Ladislav Krejčí', card: 'yellow', detail: '戰術犯規阻止反擊' }
+      ],
+      stats: {
+        possession: [38, 62],
+        shots: [14, 17],
+        shotsOnTarget: [3, 4],
+        shotsOffTarget: [11, 13],
+        shotsInsideBox: [11, 6],
+        shotsOutsideBox: [3, 11],
+        passes: [339, 563],
+        passCompleted: [271, 507],
+        passAccuracy: [80.0, 90.0],
+        crosses: [18, 14],
+        crossesCompleted: [5, 4],
+        corners: [5, 5],
         freeKicks: [14, 12],
-        fouls: [14, 12],
+        fouls: [12, 10],
         offsides: [2, 3],
         yellowCards: [1, 2],
         redCards: [0, 0],
-        forcedTurnovers: [26, 30],
-        pressingApplied: [190, 240]
-      }
-    },
-    // 🇺🇿 烏茲別克 1-3 🇨🇴 哥倫比亞 — Luis Díaz 一射一傳，Colombia 重返世界盃旗開得勝
-    { date: '2026-06-17', time: '22:00 ET', group: 'K', team1: 'Uzbekistan', score1: 1, team2: 'Colombia', score2: 3, venue: '墨西哥城·阿茲特克體育場', status: 'completed',
-      goals: [
-        { min: 41, team: 2, scorer: 'Daniel Muñoz', assist: 'Luis Díaz', detail: 'Luis Díaz 直塞穿透防線，Muñoz 禁區中央右腳勁射入網' },
-        { min: 61, team: 1, scorer: 'Abbosbek Fayzullaev', assist: 'Dostonbek Khamdamov', detail: 'Khamdamov 傳中，Fayzullaev 禁區內頭槌破門，烏茲別克世界盃歷史首球' },
-        { min: 66, team: 2, scorer: 'Luis Díaz', assist: 'Gustavo Puerta', detail: '禁區中央右腳射門入網，哥倫比亞再度領先' },
-        { min: 85, team: 2, scorer: 'Jáminton Campaz', assist: 'Luis Díaz', detail: 'Luis Díaz 禁區邊緣傳中，Campaz 門前推射入網鎖定勝局' }
-      ],
-      cards: [
-        { min: 7, team: 2, player: 'Johan Mojica', card: 'yellow', detail: '對 Fayzullaev 犯規' },
-        { min: 34, team: 1, player: 'Abdukodir Khusanov', card: 'yellow', detail: '惡意犯規' }
-      ],
-      stats: {
-        possession: [33, 67],
-        shots: [3, 11],
-        shotsOnTarget: [2, 4],
-        shotsOffTarget: [1, 4],
-        shotsInsideBox: [2, 8],
-        shotsOutsideBox: [1, 3],
-        passes: [226, 468],
-        passCompleted: [162, 405],
-        passAccuracy: [72, 87],
-        crosses: [9, 12],
-        crossesCompleted: [2, 4],
-        corners: [2, 4],
-        freeKicks: [11, 12],
-        fouls: [13, 8],
-        offsides: [0, 3],
-        yellowCards: [1, 1],
-        redCards: [0, 0],
         forcedTurnovers: [28, 32],
-        pressingApplied: [200, 250]
+        pressingApplied: [200, 240]
       }
     },
-
-    // === 6月18日 ===
-    { date: '2026-06-18', time: '12:00 ET', group: 'A', team1: 'Czechia', score1: null, team2: 'South Africa', score2: null, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'scheduled' },
     { date: '2026-06-18', time: '15:00 ET', group: 'B', team1: 'Switzerland', score1: null, team2: 'Bosnia and Herzegovina', score2: null, venue: '洛杉磯·SoFi體育場', status: 'scheduled' },
     { date: '2026-06-18', time: '18:00 ET', group: 'B', team1: 'Canada', score1: null, team2: 'Qatar', score2: null, venue: '溫哥華·BC Place', status: 'scheduled' },
     { date: '2026-06-18', time: '21:00 ET', group: 'A', team1: 'Mexico', score1: null, team2: 'South Korea', score2: null, venue: '瓜達拉哈拉·阿克隆體育場', status: 'scheduled' },
@@ -1230,8 +1225,8 @@ const WC_DATA = {
     'A': [
       { team: 'Mexico', played: 1, won: 1, drawn: 0, lost: 0, gf: 2, ga: 0, gd: 2, pts: 3 },
       { team: 'South Korea', played: 1, won: 1, drawn: 0, lost: 0, gf: 2, ga: 1, gd: 1, pts: 3 },
-      { team: 'Czechia', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 2, gd: -1, pts: 0 },
-      { team: 'South Africa', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 2, gd: -2, pts: 0 }
+      { team: 'Czechia', played: 2, won: 0, drawn: 1, lost: 1, gf: 2, ga: 3, gd: -1, pts: 1 },
+      { team: 'South Africa', played: 2, won: 0, drawn: 1, lost: 1, gf: 1, ga: 3, gd: -2, pts: 1 }
     ],
     'B': [
       { team: 'Canada', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
@@ -1288,10 +1283,10 @@ const WC_DATA = {
       { team: 'Jordan', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 3, gd: -2, pts: 0 }
     ],
     'K': [
-      { team: 'Colombia', played: 1, won: 1, drawn: 0, lost: 0, gf: 3, ga: 1, gd: 2, pts: 3 },
       { team: 'Portugal', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
       { team: 'DR Congo', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
-      { team: 'Uzbekistan', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 3, gd: -2, pts: 0 }
+      { team: 'Colombia', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
+      { team: 'Uzbekistan', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
     ],
     'L': [
       { team: 'England', played: 1, won: 1, drawn: 0, lost: 0, gf: 4, ga: 2, gd: 2, pts: 3 },

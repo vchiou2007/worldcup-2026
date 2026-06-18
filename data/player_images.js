@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-18 更新：6月17日四場完整賽事精華） =====
+// ===== 輪播牆圖片（2026-06-18 更新：6月18日捷克vs南非 1-1 和今日賽事預告） =====
 const HERO_IMAGES = [
-  // 🇵🇹🇨🇩 Cristiano Ronaldo 與葡萄牙 — 6分鐘 João Neves 頭槌破門先馳得點，下半場久攻不下 1-1 戰平剛果（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-cristiano-ronaldo_7276226.jpg',
-  // 🇨🇩🇵🇹 Yoane Wissa 進球後慶祝！剛果自 1974 年（時為薩伊）後首個世界盃進球，1-1 逼平葡萄牙拿下隊史首分（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-yoane-wissa_7276153.jpg',
-  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿🇭🇷 Harry Kane 梅開二度！12碼罰球被撲出後因守門員提前移動重罰命中，隨後角球頭槌破門（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-harry-kane-england_7276211.jpg',
-  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿🇭🇷 Marcus Rashford 85分鐘替補鎖定勝局！接 Saka 傳球禁區邊緣抽射入網，英格蘭 4-2 擊敗克羅埃西亞（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-football-marcus-rashford_7276248.jpg',
-  // 🇬🇭🇵🇦 Caleb Yirenkyi 傷停補時第5分鐘絕殺！Brandon Thomas-Asante 左路反擊橫傳，Yirenkyi 遠柱推射入網，迦納 1-0 巴拿馬（AP/Frank Gunn）
-  'https://cf-images.assettype.com/outlookindia/2026-06-17/wzzxzmzm/GHA-vs-PAN-6.jpg',
-  // 🇬🇭🇵🇦 Yirenkyi 與隊友狂歡絕殺！迦納自 2010 年後首度世界盃首戰取勝，Carlos Queiroz 寫下連續五屆執教紀錄（The Canadian Press/AP）
-  'https://cf-images.assettype.com/outlookindia/2026-06-18/0rsq25kk/GHA-vs-PAN-15.jpg',
-  // 🇨🇴🇺🇿 Luis Díaz 一射一傳！66分鐘禁區勁射破網，85分鐘助攻 Campaz 鎖定 3-1，哥倫比亞旗開得勝領跑 K 組（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-luis-diaz-colombia_7276321.jpg'
+  // 🇨🇿 Michal Sadilek 6分鐘率先破門！捷克隊近20年來首個世界盃主導進球（AP via Outlook India）
+  'https://cf-images.assettype.com/outlookindia/2026-06-18/klexjcam/AP26169640870712.jpg',
+  // 🇿🇦 Teboho Mokoena 83分鐘12碼扳平！Pavel Sulc 禁區內手球犯規，Mokoena 騙過門將射入左下角（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-teboho-mokoena-south-africa_7277002.jpg',
+  // 🇿🇦 South Africa 球員慶祝 Mokoena 罰進12碼！全場控球率 62% 的南非終於在比賽尾聲收穫回報（AP via Outlook India）
+  'https://cf-images.assettype.com/outlookindia/2026-06-18/wh02l2da/Czechia-Vs-South-Africa-FIFA-World-Cup-2026-Group-A-Thapelo-Maseko-Celeb-Penalty-Goal-AP-Photo.jpg',
+  // 🇨🇿🇿🇦 比賽精彩對抗：SA 後衛 Mbekezeli Mbokazi 飛身鏟斷捷克中場 Lukáš Červ。全美首支全女性裁判組執法（AP/New Indian Express）
+  'https://cf-images.assettype.com/newindianexpress/2026-06-18/bk1lchq3/AP26169603237175.jpg',
+  // 🇨🇿 Ladislav Krejčí 獲選全場最佳球員！捷克隊長領銜防線多次化解南非攻勢，可惜未能守住領先至終場（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-czech-republic-la_7271328.jpg',
+  // 🇰🇷🇨🇿 黃仁範（Hwang In-beom）67分鐘禁區外遠射破門！南韓 2-1 逆轉捷克，寫下世界盃對歐洲球隊三連勝（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-hwang-in-beom-south-korea_7271302.jpg',
+  // 🇨🇭🇧🇦 瑞士 vs 波赫即將開踢！Group B 關鍵戰役：瑞士首戰 1-1 卡達，波赫 1-1 加拿大，雙方都需要搶勝（AP via Outlook India）
+  'https://cf-images.assettype.com/outlookindia/2026-06-18/rptmsud3/Switzerland-Vs-Bosnia-Herzegovina-FIFA-World-Cup-2026-Bosnia-Fans-Lead-AP-Photo.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇵🇹 葡萄牙 1-1 🇨🇩 剛果民主共和國 — Cristiano Ronaldo 先發上陣但屢失良機。João Neves 6分鐘頭槌破門首開紀錄，下半場葡萄牙久攻不下，剛果客場逼平強敵，拿下隊史世界盃首分（Sky Sports）',
-  '🇨🇩 葡萄牙 1-1 🇨🇩 剛果民主共和國 — Yoane Wissa 45分鐘角球頭槌破門！Arthur Masuaku 助攻，剛果自 1974 年以薩伊名義參賽後首個世界盃進球。剛果防線全場頑強守住 1-1 平局（Sky Sports）',
-  '🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格蘭 4-2 🇭🇷 克羅埃西亞 — Harry Kane 梅開二度！12分鐘 12 碼罰球（被撲出後因 Livaković 提前移動重罰命中），44分鐘角球頭槌破門。Kane 世界盃進球數累計 10 球追平 Lineker 隊史紀錄（Sky Sports）',
-  '🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格蘭 4-2 🇭🇷 克羅埃西亞 — Marcus Rashford 85分鐘替補登場鎖定勝局！Bukayo Saka 助攻，Rashford 禁區邊緣右腳抽射入網。英格蘭下半場連進兩球展現進攻火力（Sky Sports）',
-  '🇬🇭 迦納 1-0 🇵🇦 巴拿馬 — Caleb Yirenkyi 傷停補時第5分鐘絕殺！Brandon Thomas-Asante 左路反擊狂奔後橫傳，Yirenkyi 遠柱跟進推射入網。迦納自 2010 年後首度世界盃首戰取勝（AP/Frank Gunn via Outlook India）',
-  '🇬🇭 迦納 1-0 🇵🇦 巴拿馬 — Yirenkyi 與隊友瘋狂慶祝絕殺進球！迦納全場控球率僅 44% 但抓住唯一機會改寫比分。巴拿馬距離隊史首個世界盃積分僅差數秒鐘（The Canadian Press/AP via Outlook India）',
-  '🇨🇴 哥倫比亞 3-1 🇺🇿 烏茲別克 — Luis Díaz 一射一傳！66分鐘禁區中央右腳勁射破網，85分鐘助攻 Jáminton Campaz 門前推射鎖定 3-1 勝局。哥倫比亞以 67% 控球率壓制對手，K 組旗開得勝（Sky Sports）'
+  '🇨🇿 捷克 1-1 🇿🇦 南非 — Michal Sadílek 6分鐘禁區內右腳勁射破門！Adam Hlozek 右路傳中，Alexandr Sojka 巧妙做球，Sadílek 跟進射門入網，捷克取得夢幻開局，這也是捷克近20年來在賽會首個主導進球（AP via Outlook India）',
+  '🇨🇿 捷克 1-1 🇿🇦 南非 — Teboho Mokoena 83分鐘12碼罰球扳平！Pavel Sulc 禁區內手球犯規，VAR 確認後判罰，Mokoena 冷靜射入左下角。南非全場控球率 62% 的壓制終於在比賽尾聲收穫回報（Sky Sports）',
+  '🇨🇿 捷克 1-1 🇿🇦 南非 — 南非球員瘋狂慶祝 Mokoena 罰進12碼！Hugo Broos 下半場換上 Relebohile Mofokeng 改變戰局。南非成為本屆首支從落後局面搶回積分的非洲球隊（AP via Outlook India）',
+  '🇨🇿 捷克 1-1 🇿🇦 南非 — 南非後衛 Mbekezeli Mbokazi 飛身鏟斷捷克中場 Lukáš Červ。本場比賽由全美首支全女性裁判組執法：Tori Penso、Brooke Mayo、Kathryn Nesbitt（AP/New Indian Express）',
+  '🇨🇿 捷克 1-1 🇿🇦 南非 — 捷克隊長 Ladislav Krejčí 獲選 Michelob Ultra 全場最佳球員！上半場在第75分鐘因戰術犯規吃下黃牌，但全場領銜防線多次化解南非攻勢（Sky Sports）',
+  '🇰🇷 南韓 2-1 🇨🇿 捷克 — 黃仁範（Hwang In-beom）67分鐘禁區外遠射破網！李康仁（Lee Kang-in）助攻，黃仁範禁區弧頂左腳弧線球射入左上角，南韓扳平比分後更在80分鐘由吳賢揆絕殺逆轉（Sky Sports）',
+  '🇨🇭 瑞士 vs 🇧🇦 波赫 — Group B 關鍵對決即將在洛杉磯 SoFi 體育場開踢！瑞士首戰 1-1 戰平卡達（Embolo 12碼破門），波赫 1-1 逼平加拿大（Jovo Lukic 頭槌）。雙方都急需搶下首勝爭取晉級主動權（AP via Outlook India）'
 ];
