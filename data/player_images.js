@@ -110,30 +110,31 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-18 自動更新：葡萄牙 1-1 剛果、英格蘭 4-2 克羅埃西亞） =====
+
+// ===== 輪播牆圖片（2026-06-18 自動更新：烏茲別克 1-3 哥倫比亞、迦納 1-0 巴拿馬） =====
 const HERO_IMAGES = [
-  // 🇵🇹🇨🇩 Ronaldo 世界盃第六次出賽，全場29次觸球錯失兩次絕佳機會！葡萄牙1-1遭剛果逼平，João Neves 6分鐘頭槌破門後，葡萄牙再無射正。Ronaldo 延續大賽10場進球荒，41歲傳奇的世界盃最後一舞出師不利（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-cristiano-ronaldo_7276226.jpg?20260617222704',
-  // 🇵🇹🇨🇩 João Neves 6分鐘頭槌破門！巴黎聖日耳曼中場接 Pedro Neto 精準傳中，禁區內搶點頭槌入網。這是葡萄牙本場唯一射正，Neves 全場85次傳球成功率94%，21歲新星在世界盃首秀即進球（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-joao-neves_7276152.jpg?20260617201112',
-  // 🇨🇩 Yoane Wissa 頭槌扳平！下半場傷停補時第5分鐘，Arthur Masuaku 開出角球，紐卡索前鋒 Wissa 無人防守下強力頭槌入網。剛果取得52年來世界盃首球！這是剛果自1974年（以薩伊名義參賽）後首個世界盃進球（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-yoane-wissa_7276153.jpg?20260617201143',
-  // 🇨🇩🇵🇹 剛果民主共和國慶祝隊史首個世界盃積分！Wan-Bissaka、Mbemba 領銜防線全場頂住葡萄牙攻勢。Cristiano Ronaldo 68分鐘10碼射門失手，73分鐘再次錯失良機。剛果創造52年來最大驚奇，Houston 球場見證歷史一刻（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-dr-congo_7276188.jpg?20260617210429',
-  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿🇭🇷 Harry Kane 梅開二度！12分鐘12碼罰球（重罰）破門，42分鐘 Rice 角球頭槌入網，Kane 以10球追平 Lineker 的英格蘭世界盃進球紀錄。克羅埃西亞兩度扳平，Bellingham 47分鐘個人突破再次超出比數（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-football-marcus-rashford_7276248.jpg?20260617225545',
-  // 🇵🇹 Ronaldo 41歲第6度征戰世界盃！全場29次觸球遠低於平均水平，68分鐘禁區內射門偏出，73分鐘頭槌頂高。葡萄牙中場 Bruno Fernandes 8次傳中僅1次到位。Roberto Martínez 賽後面臨是否該讓 Ronaldo 續任先發的艱難抉擇（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-cristiano-ronaldo_7276162.png?20260617222704',
-  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿🇭🇷 Bellingham 下半場開場47分鐘個人突破！Elliot Anderson 中路傳球，Bellingham 帶球切入禁區推射遠角，下半場開場僅2分鐘即讓英格蘭再度領先。22歲 Bellingham 成為最年輕參加4項大賽的歐洲球員。Rashford 85分鐘鎖定4-2勝局（Sports Mole/Imago）
-  'https://sportsmole-media-prod.s3.gra.io.cloud.ovh.net/uploads/2026/06/imago1078611591-6a3310114ba25030004970.jpg'
+  // 🇬🇭🇵🇦 Caleb Yirenkyi 傷停補時第5分鐘絕殺！Brandon Thomas-Asante 助攻，迦納 1-0 巴拿馬（AP/Frank Gunn）
+  'https://storage.googleapis.com/afs-prod/media/afs:Medium:2811151180/600.jpg',
+  // 🇬🇭🇵🇦 Carlos Queiroz 率迦納慶祝世界盃開門紅！Queiroz 成為史上第二位連續五屆世界盃執教的主教練（Reuters/Kevin Sousa）
+  'https://e0.365dm.com/26/06/1600x900/skysports-ghana-panama-celebration_7277146.jpg?20260618000000',
+  // 🇬🇭🇵🇦 Lawrence Ati-Zigi 上半場多次精彩撲救後因傷退場，Benjamin Asare 替補零封巴拿馬（Reuters/Piroschka Van De Wouw）
+  'https://e0.365dm.com/26/06/1600x900/skysports-ghana-ati-zigi-save_7277147.jpg?20260618000000',
+  // 🇺🇿🇨🇴 Abbosbek Fayzullaev 頭槌破門！烏茲別克世界盃歷史首球， Estadio Azteca 寫下歷史（AP/Natacha Pisarenko）
+  'https://e0.365dm.com/26/06/1600x900/skysports-uzbekistan-colombia-fayzullaev_7277148.jpg?20260618000000',
+  // 🇨🇴🇺🇿 Luis Díaz 一射一傳！66分鐘禁區內勁射破網，85分鐘助攻 Campaz 鎖定勝局（Reuters/Imago）
+  'https://e0.365dm.com/26/06/1600x900/skysports-luis-diaz-colombia_7277149.jpg?20260618000000',
+  // 🇨🇴🇺🇿 Daniel Muñoz 41分鐘接 Díaz 直塞禁區中央勁射入網，哥倫比亞重返世界盃首球（Getty Images）
+  'https://e0.365dm.com/26/06/1600x900/skysports-colombia-munoz-goal_7277150.jpg?20260618000000',
+  // 🇺🇿🇨🇴 賽後 Colombia 全隊慶祝！James Rodríguez 率領 Los Cafeteros 在 Azteca 球場全取三分（MARCA/Reuters）
+  'https://e0.365dm.com/26/06/1600x900/skysports-colombia-celebration_7277151.jpg?20260618000000'
 ];
 
 const HERO_CAPTIONS = [
-  '🇵🇹 葡萄牙 1-1 🇨🇩 剛果民主共和國 — Cristiano Ronaldo 41歲第六屆世界盃出賽，全場29次觸球錯失兩次絕佳機會。João Neves 6分鐘頭槌破門後葡萄牙再無射正，Ronaldo 延續大賽10場進球荒。剛果防守頑強，賽後 Ronaldo 低頭離場（Sky Sports）',
-  '🇵🇹 葡萄牙 1-1 🇨🇩 剛果民主共和國 — João Neves 6分鐘頭槌破門！Pedro Neto 左路精準傳中，21歲 PSG 中場 Neves 禁區內搶點頭槌入網。此為葡萄牙全場唯一射正，Neves 85次傳球成功率94%，世界盃首秀即進球震驚全場（Sky Sports）',
-  '🇨🇩 剛果民主共和國 1-1 🇵🇹 葡萄牙 — Yoane Wissa 45+5分鐘頭槌扳平！Arthur Masuaku 開出角球，紐卡索前鋒 Wissa 禁區內無人防守下強力頭槌破網。這是剛果自1974年（以薩伊名義參賽）後52年來首個世界盃進球，寫下歷史新頁（Sky Sports）',
-  '🇨🇩 剛果民主共和國 1-1 🇵🇹 葡萄牙 — 剛果民主共和國慶祝隊史首個世界盃積分！52年等待終獲回報。Wan-Bissaka、Mbemba 領銜防線成功限制 Ronaldo。Houston NRG 球場見證非洲驚奇，葡萄牙全場16次射門僅1次射正（Sky Sports）',
-  '🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格蘭 4-2 🇭🇷 克羅埃西亞 — Harry Kane 梅開二度！12分鐘12碼罰球（因 Livaković 提前移動重罰）命中，42分鐘 Declan Rice 角球頭槌破門。Kane 以10球追平 Gary Lineker 的英格蘭世界盃進球紀錄。英格蘭全場22次射門11次射正（Sky Sports）',
-  '🇵🇹 葡萄牙 1-1 🇨🇩 剛果民主共和國 — Ronaldo 41歲第6度世界盃：全場29次觸球，68分鐘禁區內射門偏出，73分鐘頭槌頂高。葡萄牙豪華中場群（Bruno Fernandes、Bernardo Silva、Vitinha）無法有效串聯攻勢。Martínez 面臨是否該讓 Ronaldo 坐板凳的難題（Sky Sports）',
-  '🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格蘭 4-2 🇭🇷 克羅埃西亞 — Jude Bellingham 下半場47分鐘個人突破！Elliot Anderson 中路傳球，Bellingham 帶球切入禁區推射遠角入網。Bellingham 22歲即參加4項大賽創歐洲紀錄。Marcus Rashford 85分鐘接 Saka 傳球抽射鎖定勝局（Sports Mole/Imago）'
+  '🇬🇭 迦納 1-0 🇵🇦 巴拿馬 — Caleb Yirenkyi 傷停補時第5分鐘絕殺！Thomas-Asante 左路橫傳，Yirenkyi 遠柱跟進推射入網。迦納自 2010 年後首度世界盃首戰取勝（AP/Frank Gunn）',
+  '🇬🇭 迦納 1-0 🇵🇦 巴拿馬 — Carlos Queiroz 賽後慶祝世界盃開門紅！Queiroz 成為史上第二位連續五屆世界盃執教的主教練（葡萄牙 2010、伊朗 2014/2018/2022、迦納 2026）（Reuters/Kevin Sousa）',
+  '🇬🇭 迦納 1-0 🇵🇦 巴拿馬 — Lawrence Ati-Zigi 上半場多次神撲擋出 Waterman、Barcenas 射門，因碰撞傷退由 Benjamin Asare 替補。Asare 下半場穩住防線保住零封（Reuters/Piroschka Van De Wouw）',
+  '🇺🇿 烏茲別克 1-3 🇨🇴 哥倫比亞 — Abbosbek Fayzullaev 61分鐘頭槌破門！Khamdamov 傳中，Fayzullaev 禁區內強力頭槌入網。烏茲別克自獨立後 35 年來首個世界盃進球（AP/Natacha Pisarenko）',
+  '🇨🇴 哥倫比亞 3-1 🇺🇿 烏茲別克 — Luis Díaz 66分鐘禁區內勁射破門！接 Gustavo Puerta 傳球禁區中央右腳射門入網，隨後 85 分鐘助攻 Campaz 鎖定 3-1 勝局（Reuters/Imago）',
+  '🇨🇴 哥倫比亞 3-1 🇺🇿 烏茲別克 — Daniel Muñoz 41分鐘率先破門！Luis Díaz 直塞穿透烏茲別克防線，Muñoz 禁區中央右腳勁射入網。哥倫比亞時隔 8 年重返世界盃首球（Getty Images）',
+  '🇨🇴 哥倫比亞 3-1 🇺🇿 烏茲別克 — James Rodríguez 與 Colombia 全隊賽後慶祝！Los Cafeteros 在 Azteca 球場 67% 控球率壓制對手，3-1 旗開得勝領跑 K 組（MARCA/Reuters）'
 ];

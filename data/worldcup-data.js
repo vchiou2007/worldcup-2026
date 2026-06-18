@@ -1093,8 +1093,72 @@ const WC_DATA = {
         pressingApplied: [220, 240]
       }
     },
-    { date: '2026-06-17', time: '19:00 ET', group: 'L', team1: 'Ghana', score1: null, team2: 'Panama', score2: null, venue: '多倫多·BMO球場', status: 'scheduled' },
-    { date: '2026-06-17', time: '22:00 ET', group: 'K', team1: 'Uzbekistan', score1: null, team2: 'Colombia', score2: null, venue: '墨西哥城·阿茲特克體育場', status: 'scheduled' },
+    // 🇬🇭 迦納 1-0 🇵🇦 巴拿馬 — Caleb Yirenkyi 傷停補時第5分鐘絕殺！
+    { date: '2026-06-17', time: '19:00 ET', group: 'L', team1: 'Ghana', score1: 1, team2: 'Panama', score2: 0, venue: '多倫多·BMO球場', status: 'completed',
+      goals: [
+        { min: 90, team: 1, scorer: 'Caleb Yirenkyi', assist: 'Brandon Thomas-Asante', detail: '傷停補時第5分鐘反擊，Thomas-Asante 左路橫傳，Yirenkyi 遠柱跟進推射入網，迦納絕殺！' }
+      ],
+      cards: [
+        { min: 55, team: 1, player: 'Caleb Yirenkyi', card: 'yellow', detail: '戰術犯規' },
+        { min: 68, team: 2, player: 'César Blackman', card: 'yellow', detail: '犯規阻止反擊' },
+        { min: 78, team: 2, player: 'Carlos Harvey', card: 'yellow', detail: '中場犯規' }
+      ],
+      stats: {
+        possession: [44, 56],
+        shots: [6, 11],
+        shotsOnTarget: [2, 3],
+        shotsOffTarget: [3, 5],
+        shotsInsideBox: [4, 6],
+        shotsOutsideBox: [2, 5],
+        passes: [340, 420],
+        passCompleted: [270, 350],
+        passAccuracy: [79.4, 83.3],
+        crosses: [12, 18],
+        crossesCompleted: [3, 4],
+        corners: [3, 6],
+        freeKicks: [14, 12],
+        fouls: [14, 12],
+        offsides: [2, 3],
+        yellowCards: [1, 2],
+        redCards: [0, 0],
+        forcedTurnovers: [26, 30],
+        pressingApplied: [190, 240]
+      }
+    },
+    // 🇺🇿 烏茲別克 1-3 🇨🇴 哥倫比亞 — Luis Díaz 一射一傳，Colombia 重返世界盃旗開得勝
+    { date: '2026-06-17', time: '22:00 ET', group: 'K', team1: 'Uzbekistan', score1: 1, team2: 'Colombia', score2: 3, venue: '墨西哥城·阿茲特克體育場', status: 'completed',
+      goals: [
+        { min: 41, team: 2, scorer: 'Daniel Muñoz', assist: 'Luis Díaz', detail: 'Luis Díaz 直塞穿透防線，Muñoz 禁區中央右腳勁射入網' },
+        { min: 61, team: 1, scorer: 'Abbosbek Fayzullaev', assist: 'Dostonbek Khamdamov', detail: 'Khamdamov 傳中，Fayzullaev 禁區內頭槌破門，烏茲別克世界盃歷史首球' },
+        { min: 66, team: 2, scorer: 'Luis Díaz', assist: 'Gustavo Puerta', detail: '禁區中央右腳射門入網，哥倫比亞再度領先' },
+        { min: 85, team: 2, scorer: 'Jáminton Campaz', assist: 'Luis Díaz', detail: 'Luis Díaz 禁區邊緣傳中，Campaz 門前推射入網鎖定勝局' }
+      ],
+      cards: [
+        { min: 7, team: 2, player: 'Johan Mojica', card: 'yellow', detail: '對 Fayzullaev 犯規' },
+        { min: 34, team: 1, player: 'Abdukodir Khusanov', card: 'yellow', detail: '惡意犯規' }
+      ],
+      stats: {
+        possession: [33, 67],
+        shots: [3, 11],
+        shotsOnTarget: [2, 4],
+        shotsOffTarget: [1, 4],
+        shotsInsideBox: [2, 8],
+        shotsOutsideBox: [1, 3],
+        passes: [226, 468],
+        passCompleted: [162, 405],
+        passAccuracy: [72, 87],
+        crosses: [9, 12],
+        crossesCompleted: [2, 4],
+        corners: [2, 4],
+        freeKicks: [11, 12],
+        fouls: [13, 8],
+        offsides: [0, 3],
+        yellowCards: [1, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [200, 250]
+      }
+    },
 
     // === 6月18日 ===
     { date: '2026-06-18', time: '12:00 ET', group: 'A', team1: 'Czechia', score1: null, team2: 'South Africa', score2: null, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'scheduled' },
@@ -1224,16 +1288,16 @@ const WC_DATA = {
       { team: 'Jordan', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 3, gd: -2, pts: 0 }
     ],
     'K': [
+      { team: 'Colombia', played: 1, won: 1, drawn: 0, lost: 0, gf: 3, ga: 1, gd: 2, pts: 3 },
       { team: 'Portugal', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
       { team: 'DR Congo', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
-      { team: 'Colombia', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Uzbekistan', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
+      { team: 'Uzbekistan', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 3, gd: -2, pts: 0 }
     ],
     'L': [
       { team: 'England', played: 1, won: 1, drawn: 0, lost: 0, gf: 4, ga: 2, gd: 2, pts: 3 },
+      { team: 'Ghana', played: 1, won: 1, drawn: 0, lost: 0, gf: 1, ga: 0, gd: 1, pts: 3 },
       { team: 'Croatia', played: 1, won: 0, drawn: 0, lost: 1, gf: 2, ga: 4, gd: -2, pts: 0 },
-      { team: 'Ghana', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Panama', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
+      { team: 'Panama', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 1, gd: -1, pts: 0 }
     ]
   }
 };
