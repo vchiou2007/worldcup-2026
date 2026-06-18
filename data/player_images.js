@@ -110,31 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-
-// ===== 輪播牆圖片（2026-06-18 自動更新：烏茲別克 1-3 哥倫比亞、迦納 1-0 巴拿馬） =====
+// ===== 輪播牆圖片（2026-06-18 更新：6月17日四場完整賽事精華） =====
 const HERO_IMAGES = [
-  // 🇬🇭🇵🇦 Caleb Yirenkyi 傷停補時第5分鐘絕殺！Brandon Thomas-Asante 助攻，迦納 1-0 巴拿馬（AP/Frank Gunn）
-  'https://storage.googleapis.com/afs-prod/media/afs:Medium:2811151180/600.jpg',
-  // 🇬🇭🇵🇦 Carlos Queiroz 率迦納慶祝世界盃開門紅！Queiroz 成為史上第二位連續五屆世界盃執教的主教練（Reuters/Kevin Sousa）
-  'https://e0.365dm.com/26/06/1600x900/skysports-ghana-panama-celebration_7277146.jpg?20260618000000',
-  // 🇬🇭🇵🇦 Lawrence Ati-Zigi 上半場多次精彩撲救後因傷退場，Benjamin Asare 替補零封巴拿馬（Reuters/Piroschka Van De Wouw）
-  'https://e0.365dm.com/26/06/1600x900/skysports-ghana-ati-zigi-save_7277147.jpg?20260618000000',
-  // 🇺🇿🇨🇴 Abbosbek Fayzullaev 頭槌破門！烏茲別克世界盃歷史首球， Estadio Azteca 寫下歷史（AP/Natacha Pisarenko）
-  'https://e0.365dm.com/26/06/1600x900/skysports-uzbekistan-colombia-fayzullaev_7277148.jpg?20260618000000',
-  // 🇨🇴🇺🇿 Luis Díaz 一射一傳！66分鐘禁區內勁射破網，85分鐘助攻 Campaz 鎖定勝局（Reuters/Imago）
-  'https://e0.365dm.com/26/06/1600x900/skysports-luis-diaz-colombia_7277149.jpg?20260618000000',
-  // 🇨🇴🇺🇿 Daniel Muñoz 41分鐘接 Díaz 直塞禁區中央勁射入網，哥倫比亞重返世界盃首球（Getty Images）
-  'https://e0.365dm.com/26/06/1600x900/skysports-colombia-munoz-goal_7277150.jpg?20260618000000',
-  // 🇺🇿🇨🇴 賽後 Colombia 全隊慶祝！James Rodríguez 率領 Los Cafeteros 在 Azteca 球場全取三分（MARCA/Reuters）
-  'https://e0.365dm.com/26/06/1600x900/skysports-colombia-celebration_7277151.jpg?20260618000000'
+  // 🇵🇹🇨🇩 Cristiano Ronaldo 與葡萄牙 — 6分鐘 João Neves 頭槌破門先馳得點，下半場久攻不下 1-1 戰平剛果（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-cristiano-ronaldo_7276226.jpg',
+  // 🇨🇩🇵🇹 Yoane Wissa 進球後慶祝！剛果自 1974 年（時為薩伊）後首個世界盃進球，1-1 逼平葡萄牙拿下隊史首分（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-yoane-wissa_7276153.jpg',
+  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿🇭🇷 Harry Kane 梅開二度！12碼罰球被撲出後因守門員提前移動重罰命中，隨後角球頭槌破門（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-harry-kane-england_7276211.jpg',
+  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿🇭🇷 Marcus Rashford 85分鐘替補鎖定勝局！接 Saka 傳球禁區邊緣抽射入網，英格蘭 4-2 擊敗克羅埃西亞（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-football-marcus-rashford_7276248.jpg',
+  // 🇬🇭🇵🇦 Caleb Yirenkyi 傷停補時第5分鐘絕殺！Brandon Thomas-Asante 左路反擊橫傳，Yirenkyi 遠柱推射入網，迦納 1-0 巴拿馬（AP/Frank Gunn）
+  'https://cf-images.assettype.com/outlookindia/2026-06-17/wzzxzmzm/GHA-vs-PAN-6.jpg',
+  // 🇬🇭🇵🇦 Yirenkyi 與隊友狂歡絕殺！迦納自 2010 年後首度世界盃首戰取勝，Carlos Queiroz 寫下連續五屆執教紀錄（The Canadian Press/AP）
+  'https://cf-images.assettype.com/outlookindia/2026-06-18/0rsq25kk/GHA-vs-PAN-15.jpg',
+  // 🇨🇴🇺🇿 Luis Díaz 一射一傳！66分鐘禁區勁射破網，85分鐘助攻 Campaz 鎖定 3-1，哥倫比亞旗開得勝領跑 K 組（Sky Sports）
+  'https://e0.365dm.com/26/06/1600x900/skysports-luis-diaz-colombia_7276321.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇬🇭 迦納 1-0 🇵🇦 巴拿馬 — Caleb Yirenkyi 傷停補時第5分鐘絕殺！Thomas-Asante 左路橫傳，Yirenkyi 遠柱跟進推射入網。迦納自 2010 年後首度世界盃首戰取勝（AP/Frank Gunn）',
-  '🇬🇭 迦納 1-0 🇵🇦 巴拿馬 — Carlos Queiroz 賽後慶祝世界盃開門紅！Queiroz 成為史上第二位連續五屆世界盃執教的主教練（葡萄牙 2010、伊朗 2014/2018/2022、迦納 2026）（Reuters/Kevin Sousa）',
-  '🇬🇭 迦納 1-0 🇵🇦 巴拿馬 — Lawrence Ati-Zigi 上半場多次神撲擋出 Waterman、Barcenas 射門，因碰撞傷退由 Benjamin Asare 替補。Asare 下半場穩住防線保住零封（Reuters/Piroschka Van De Wouw）',
-  '🇺🇿 烏茲別克 1-3 🇨🇴 哥倫比亞 — Abbosbek Fayzullaev 61分鐘頭槌破門！Khamdamov 傳中，Fayzullaev 禁區內強力頭槌入網。烏茲別克自獨立後 35 年來首個世界盃進球（AP/Natacha Pisarenko）',
-  '🇨🇴 哥倫比亞 3-1 🇺🇿 烏茲別克 — Luis Díaz 66分鐘禁區內勁射破門！接 Gustavo Puerta 傳球禁區中央右腳射門入網，隨後 85 分鐘助攻 Campaz 鎖定 3-1 勝局（Reuters/Imago）',
-  '🇨🇴 哥倫比亞 3-1 🇺🇿 烏茲別克 — Daniel Muñoz 41分鐘率先破門！Luis Díaz 直塞穿透烏茲別克防線，Muñoz 禁區中央右腳勁射入網。哥倫比亞時隔 8 年重返世界盃首球（Getty Images）',
-  '🇨🇴 哥倫比亞 3-1 🇺🇿 烏茲別克 — James Rodríguez 與 Colombia 全隊賽後慶祝！Los Cafeteros 在 Azteca 球場 67% 控球率壓制對手，3-1 旗開得勝領跑 K 組（MARCA/Reuters）'
+  '🇵🇹 葡萄牙 1-1 🇨🇩 剛果民主共和國 — Cristiano Ronaldo 先發上陣但屢失良機。João Neves 6分鐘頭槌破門首開紀錄，下半場葡萄牙久攻不下，剛果客場逼平強敵，拿下隊史世界盃首分（Sky Sports）',
+  '🇨🇩 葡萄牙 1-1 🇨🇩 剛果民主共和國 — Yoane Wissa 45分鐘角球頭槌破門！Arthur Masuaku 助攻，剛果自 1974 年以薩伊名義參賽後首個世界盃進球。剛果防線全場頑強守住 1-1 平局（Sky Sports）',
+  '🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格蘭 4-2 🇭🇷 克羅埃西亞 — Harry Kane 梅開二度！12分鐘 12 碼罰球（被撲出後因 Livaković 提前移動重罰命中），44分鐘角球頭槌破門。Kane 世界盃進球數累計 10 球追平 Lineker 隊史紀錄（Sky Sports）',
+  '🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格蘭 4-2 🇭🇷 克羅埃西亞 — Marcus Rashford 85分鐘替補登場鎖定勝局！Bukayo Saka 助攻，Rashford 禁區邊緣右腳抽射入網。英格蘭下半場連進兩球展現進攻火力（Sky Sports）',
+  '🇬🇭 迦納 1-0 🇵🇦 巴拿馬 — Caleb Yirenkyi 傷停補時第5分鐘絕殺！Brandon Thomas-Asante 左路反擊狂奔後橫傳，Yirenkyi 遠柱跟進推射入網。迦納自 2010 年後首度世界盃首戰取勝（AP/Frank Gunn via Outlook India）',
+  '🇬🇭 迦納 1-0 🇵🇦 巴拿馬 — Yirenkyi 與隊友瘋狂慶祝絕殺進球！迦納全場控球率僅 44% 但抓住唯一機會改寫比分。巴拿馬距離隊史首個世界盃積分僅差數秒鐘（The Canadian Press/AP via Outlook India）',
+  '🇨🇴 哥倫比亞 3-1 🇺🇿 烏茲別克 — Luis Díaz 一射一傳！66分鐘禁區中央右腳勁射破網，85分鐘助攻 Jáminton Campaz 門前推射鎖定 3-1 勝局。哥倫比亞以 67% 控球率壓制對手，K 組旗開得勝（Sky Sports）'
 ];
