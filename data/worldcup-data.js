@@ -1294,12 +1294,12 @@ const WC_DATA = {
     },
 
     // === 6月19日 ===
-    { date: '2026-06-19', time: '00:00 ET', group: 'D', team1: 'Turkey', score1: null, team2: 'Paraguay', score2: null, venue: '舊金山·李維斯體育場', status: 'scheduled' },
     { date: '2026-06-19', time: '15:00 ET', group: 'D', team1: 'USA', score1: null, team2: 'Australia', score2: null, venue: '西雅圖·流明球場', status: 'scheduled' },
     { date: '2026-06-19', time: '18:00 ET', group: 'C', team1: 'Scotland', score1: null, team2: 'Morocco', score2: null, venue: '波士頓·吉列體育場', status: 'scheduled' },
     { date: '2026-06-19', time: '21:00 ET', group: 'C', team1: 'Brazil', score1: null, team2: 'Haiti', score2: null, venue: '費城·林肯金融球場', status: 'scheduled' },
 
     // === 6月20日 ===
+    { date: '2026-06-20', time: '06:00 ET', group: 'D', team1: 'Turkey', score1: null, team2: 'Paraguay', score2: null, venue: '舊金山·李維斯體育場', status: 'scheduled' },
     { date: '2026-06-20', time: '13:00 ET', group: 'F', team1: 'Netherlands', score1: null, team2: 'Sweden', score2: null, venue: '休斯頓·NRG體育場', status: 'scheduled' },
     { date: '2026-06-20', time: '00:00 ET', group: 'F', team1: 'Tunisia', score1: null, team2: 'Japan', score2: null, venue: '蒙特雷·BBVA球場', status: 'scheduled' },
     { date: '2026-06-20', time: '16:00 ET', group: 'E', team1: 'Germany', score1: null, team2: 'Ivory Coast', score2: null, venue: '多倫多·BMO球場', status: 'scheduled' },
