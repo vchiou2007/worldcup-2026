@@ -111,30 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-18 更新：6月17日賽果與6月18日賽事預告，輪播照片已換新） =====
+// ===== 輪播牆圖片（2026-06-19 更新：6月18日賽果 — 加拿大創歷史首勝、瑞士大勝、墨西哥晉級32強） =====
 const HERO_IMAGES = [
-  // 🇨🇴 Luis Díaz 65分鐘禁區內低射破門！個人世界盃首球，全場1進球1助攻當選最佳（AP Photo/Eduardo Verdugo via Outlook India）
-  'https://cf-images.assettype.com/outlookindia/2026-06-18/y415otxu/AP26169149612993.jpg',
-  // 🇺🇿 Abbosbek Fayzullaev 60分鐘門前頭槌補射入網！烏茲別克世界盃歷史首球（AP Photo/Natacha Pisarenko via Outlook India）
-  'https://cf-images.assettype.com/outlookindia/2026-06-18/suxj8oyu/AP26169074598647.jpg',
-  // 🇨🇴 Daniel Muñoz 40分鐘凌空墊射！Luis Díaz 精準過頂傳球，Muñoz 從右後衛位置斜插禁區破門（AP Photo/Eduardo Verdugo via Outlook India）
-  'https://cf-images.assettype.com/outlookindia/2026-06-18/4l5bblse/AP26169075206943.jpg',
-  // 🇨🇴 Jaminton Campaz 90+9分鐘頭槌破門！Cucho Hernández 右路斷球傳中，Campaz 強力頭槌鎖定 3-1 勝局（AP Photo/Fernando Llano via Outlook India）
-  'https://cf-images.assettype.com/outlookindia/2026-06-18/1l0af764/AP26169081235604.jpg',
-  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Jude Bellingham 47分鐘禁區內勁射入網！下半場開場僅2分鐘即破門，英格蘭 4-2 擊敗克羅埃西亞（AP Photo via Outlook India）
-  'https://cf-images.assettype.com/outlookindia/2026-06-17/3jx74pof/ENG-vs-CRO-28.jpg',
-  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Harry Kane 12分鐘12碼罰球破門！本場梅開二度追平英格蘭世界盃進球紀錄（AP Photo via Outlook India）
-  'https://cf-images.assettype.com/outlookindia/2026-06-17/8l3wzl2k/ENG-vs-CRO-22.jpg',
-  // 🇲🇽🇰🇷 今日賽事預告：墨西哥 vs 南韓（21:00 ET）Group A 榜首大戰！雙方都以勝利開局，勝者獨佔小組龍頭（AP Photo via Outlook India）
-  'https://cf-images.assettype.com/outlookindia/2026-06-18/28588wsw/AP26169100214382.jpg'
+  // 🇨🇦 Jonathan David 禁區內凌空抽射破門！加拿大世界盃史上首勝，David 帽子戲法（PNG/Jason Payne）
+  'https://smartcdn.gprod.postmedia.digital/theprovince/wp-content/uploads/2026/06/png-0618n-fifacanadaqatar-1130_303805022.jpg',
+  // 🇨🇦 Nathan Saliba 64分鐘自由球破門！舉起 Ismaël Koné 球衣致敬重傷隊友（AP Photo/Abbie Parr via NewsX）
+  'https://www.newsx.com/wp-content/uploads/2026/06/fifa-world-cup-2026-jonathan-davids-hat-trick-fires-canada-to-historic-6-0-win-over-qatar.jpg',
+  // 🇨🇭 Johan Manzambi 74分鐘替補凌空抽射！瑞士 4-1 大勝波赫，Manzambi 替補梅開二度（Reuters Daniel Cole via France24）
+  'https://s.france24.com/media/display/856699b6-6b56-11f1-9ae1-005056a90284/w:1024/p:16x9/2026-06-18T204056Z-31089398-UP1EM6I1LG658-RTRMADP-3-SOCCER-WORLDCUP-SWI-BIH.jpg',
+  // 🇨🇭 Rubén Vargas 84分鐘低射！瑞士在紅牌後迅速擴大領先（via France24）
+  'https://s.france24.com/media/display/2762aaf4-6b3c-11f1-9ced-005056bf30b7/w:280/p:16x9/063-2282220267.jpg',
+  // 🇲🇽 Luis Romo 50分鐘推射空門！墨西哥 1-0 南韓，成為首支晉級32強球隊（AP-Yonhap via Korea Times）
+  'https://newsimg.koreatimes.co.kr/2026/06/19/a0fd75de-4189-4742-8f4e-302972109f7e.jpg?w=1600',
+  // 🇲🇽🇰🇷 瓜達拉哈拉球場外墨西哥與韓國球迷齊聚（Reuters-Yonhap via Korea Times）
+  'https://newsimg.koreatimes.co.kr/2026/06/19/d1fcd0c0-f880-4e11-86d0-14b7148688ae.jpg?w=1600',
+  // 🇰🇷 韓國球迷在首爾光化門廣場舉辦大型街頭應援（Korea Times/Shim Hyun-chul）
+  'https://newsimg.koreatimes.co.kr/2026/06/19/bed97567-01f2-4c78-a964-ef33eb471c8f.jpg?w=1600'
 ];
 
 const HERO_CAPTIONS = [
-  '🇨🇴 哥倫比亞 3-1 🇺🇿 烏茲別克 — Luis Díaz 65分鐘禁區內低射破門！中場斷球後果斷起腳，球穿過門將十指關入網。Díaz 全場貢獻1進球1助攻，獲選全場最佳球員，這是他個人世界盃首球（AP Photo/Eduardo Verdugo）',
-  '🇨🇴 哥倫比亞 3-1 🇺🇿 烏茲別克 — Abbosbek Fayzullaev 60分鐘門前頭槌補射入網！Eldor Shomurodov 的射門被撲出後擊中門柱反彈，Fayzullaev 跟進頭槌破門，寫下烏茲別克足球史上首個世界盃進球。墨西哥城阿茲特克球場80,824名觀眾共同見證歷史（AP Photo/Natacha Pisarenko）',
-  '🇨🇴 哥倫比亞 3-1 🇺🇿 烏茲別克 — Daniel Muñoz 40分鐘凌空墊射破門！Luis Díaz 精準過頂傳球穿越烏茲別克防線，Muñoz 從右後衛位置斜插禁區，以腳外側凌空墊射入網，取得個人在世界盃的首個進球（AP Photo/Eduardo Verdugo）',
-  '🇨🇴 哥倫比亞 3-1 🇺🇿 烏茲別克 — Jaminton Campaz 傷停補時第9分鐘頭槌破門！替補上場的 Cucho Hernández 在右路積極拼搶斷球後傳中，Campaz 禁區內強力頭槌入網，為哥倫比亞鎖定3-1勝局。哥倫比亞以3分暫居K組榜首（AP Photo/Fernando Llano）',
-  '🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格蘭 4-2 🇭🇷 克羅埃西亞 — Jude Bellingham 47分鐘禁區內勁射破網！下半場開場僅2分鐘，Bellingham 右路帶球切入禁區，起腳射入遠角。英格蘭在 Thomas Tuchel 帶領下以4-2取得開門紅（AP Photo）',
-  '🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格蘭 4-2 🇭🇷 克羅埃西亞 — Harry Kane 12分鐘12碼罰球破門！第一次罰球被撲出但因門將提前移動重罰，第二次冷靜射入左下角。Kane 本場梅開二度追平 Gary Lineker 的英格蘭世界盃進球紀錄（AP Photo）',
-  '🇲🇽 墨西哥 vs 🇰🇷 南韓 — 今晚 21:00 ET 在瓜達拉哈拉阿克隆體育場上演 Group A 榜首大戰！墨西哥首戰 2-0 勝南非，南韓 2-1 逆轉捷克，雙方都以勝利開局。本場勝者將獨佔小組榜首，為晉級淘汰賽奠定堅實基礎（AP Photo）'
+  '🇨🇦 加拿大 6-0 🇶🇦 卡達 — Jonathan David 29分鐘禁區內凌空抽射破門！David 完成帽子戲法（90+2分鐘），成為加拿大史上首位世界盃戴帽球員，也是1966年以來首位在主场完成世界盃帽子戲法的球員。加拿大以6-0取得世界盃史上首勝，全場52,497名觀眾沸騰（PNG/Jason Payne）',
+  '🇨🇦 加拿大 6-0 🇶🇦 卡達 — Nathan Saliba 64分鐘自由球破門！替補 Koné 上場的 Saliba 直接自由球彎過人牆入網後，立即跑到場邊舉起隊友的球衣致敬。Koné 因 Assim Madibo 的危險鏟球重傷離場，該犯規導致卡達第二張紅牌（AP Photo/Abbie Parr via NewsX）',
+  '🇨🇭 瑞士 4-1 🇧🇦 波赫 — Johan Manzambi 74分鐘替補凌空抽射破門！年僅20歲的弗萊堡新星上場僅3分鐘即凌空抽射破僵局，90分鐘再補射梅開二度。瑞士4球全在74分鐘後攻入，創世界盃歷史紀錄（Reuters Daniel Cole via France24）',
+  '🇨🇭 瑞士 4-1 🇧🇦 波赫 — Rubén Vargas 84分鐘低射破網！波赫後衛 Muharemovic 80分鐘直紅罰下後，瑞士迅速把握人數優勢。瑞士以2戰4分暫居B組榜首，下場將在溫哥華與加拿大爭小組第一（via France24）',
+  '🇲🇽 墨西哥 1-0 🇰🇷 南韓 — Luis Romo 50分鐘推射空門！韓國門將 Kim Seunggyu 與後衛 Lee Gihyuk 禁區內碰撞失誤，Romo 輕鬆破門。墨西哥2連勝不失1球，成為本屆世界盃首支晉級32強球隊（AP-Yonhap via Korea Times）',
+  '🇲🇽🇰🇷 墨西哥 vs 南韓 — 瓜達拉哈拉球場外擠滿熱情球迷，45,522人座無虛席。南韓雖0-1落敗，孫興慜仍製造多次威脅，但墨西哥門將 Raúl Rangel 87分鐘神奇兩連撲力保球門不失（Reuters-Yonhap via Korea Times）',
+  '🇰🇷 南韓球迷在首爾光化門廣場 — 數千名韓國球迷不畏時差深夜聚集街頭應援。太極虎雖惜敗墨西哥，仍以3分保有晉級希望，小組賽最終戰將全力爭勝（Korea Times/Shim Hyun-chul）'
 ];

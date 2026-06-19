@@ -1189,9 +1189,109 @@ const WC_DATA = {
         pressingApplied: [200, 240]
       }
     },
-    { date: '2026-06-18', time: '15:00 ET', group: 'B', team1: 'Switzerland', score1: null, team2: 'Bosnia and Herzegovina', score2: null, venue: '洛杉磯·SoFi體育場', status: 'scheduled' },
-    { date: '2026-06-18', time: '18:00 ET', group: 'B', team1: 'Canada', score1: null, team2: 'Qatar', score2: null, venue: '溫哥華·BC Place', status: 'scheduled' },
-    { date: '2026-06-18', time: '21:00 ET', group: 'A', team1: 'Mexico', score1: null, team2: 'South Korea', score2: null, venue: '瓜達拉哈拉·阿克隆體育場', status: 'scheduled' },
+    { date: '2026-06-18', time: '15:00 ET', group: 'B', team1: 'Switzerland', score1: 4, team2: 'Bosnia and Herzegovina', score2: 1, venue: '洛杉磯·SoFi體育場', status: 'completed',
+      goals: [
+        { min: 74, team: 1, scorer: 'Johan Manzambi', detail: '替補上場僅3分鐘，禁區內凌空抽射破網！Manzambi 世界盃首球' },
+        { min: 84, team: 1, scorer: 'Rubén Vargas', detail: '禁區內低射入遠角擴大領先' },
+        { min: 90, team: 1, scorer: 'Johan Manzambi', detail: '禁區內接應傳球冷靜推射，Manzambi 替補梅開二度' },
+        { min: 93, team: 2, scorer: 'Ermin Mahmić', detail: '禁區內強力射門入網，波赫挽回顏面' },
+        { min: 97, team: 1, scorer: 'Granit Xhaka', detail: '12碼罰球 — Sow 禁區內被犯規，Xhaka 冷靜射入，瑞士4-1鎖定勝局' }
+      ],
+      cards: [
+        { min: 59, team: 2, player: 'Amar Dedić', card: 'yellow', detail: '犯規' },
+        { min: 61, team: 2, player: 'Edin Džeko', card: 'yellow', detail: '爭搶犯規' },
+        { min: 65, team: 1, player: 'Nico Elvedi', card: 'yellow', detail: '戰術犯規' },
+        { min: 80, team: 2, player: 'Tarik Muharemovic', card: 'red', detail: '破壞明顯得分機會，直接紅牌' }
+      ],
+      stats: {
+        possession: [62, 38],
+        shots: [13, 5],
+        shotsOnTarget: [7, 3],
+        shotsOffTarget: [4, 2],
+        shotsInsideBox: [9, 3],
+        shotsOutsideBox: [4, 2],
+        passes: [480, 310],
+        passCompleted: [410, 240],
+        passAccuracy: [85.4, 77.4],
+        crosses: [20, 12],
+        crossesCompleted: [6, 3],
+        corners: [7, 3],
+        freeKicks: [14, 16],
+        fouls: [12, 16],
+        offsides: [2, 2],
+        yellowCards: [1, 2],
+        redCards: [0, 1],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [200, 240]
+      }
+    },
+    { date: '2026-06-18', time: '18:00 ET', group: 'B', team1: 'Canada', score1: 6, team2: 'Qatar', score2: 0, venue: '溫哥華·BC Place', status: 'completed',
+      goals: [
+        { min: 16, team: 1, scorer: 'Cyle Larin', detail: 'David 射門被撲出，Larin 門前兩碼補射入網，加拿大世界盃史上首勝開端' },
+        { min: 29, team: 1, scorer: 'Jonathan David', detail: 'Buchanan 遠射後 David 禁區內轉身凌空抽射得分，2-0' },
+        { min: 48, team: 1, scorer: 'Jonathan David', detail: 'Larin 射門被撲，David 門前頭槌補射入網，David 梅開二度' },
+        { min: 64, team: 1, scorer: 'Nathan Saliba', detail: '自由球直接彎過人牆入網！Saliba 舉起 Kone 球衣致敬受傷隊友' },
+        { min: 75, team: 2, scorer: 'Mohamed Al Manai (OG)', detail: 'Shaffelburg 射門擊中 Mannai 折射入網，烏龍球' },
+        { min: 92, team: 1, scorer: 'Jonathan David', detail: 'David 門前補射入空門，完成帽子戲法！加拿大史上首位世界盃戴帽球員' }
+      ],
+      cards: [
+        { min: 32, team: 2, player: 'Homam Ahmed', card: 'red', detail: '禁區內拉倒 Buchanan，直接紅牌' },
+        { min: 52, team: 2, player: 'Assim Madibo', card: 'red', detail: '危險鏟球導致 Ismaël Koné 重傷離場，直接紅牌' },
+        { min: 55, team: 2, player: 'Mohamed Al Manai', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [67, 33],
+        shots: [20, 3],
+        shotsOnTarget: [10, 0],
+        shotsOffTarget: [7, 2],
+        shotsInsideBox: [14, 1],
+        shotsOutsideBox: [6, 2],
+        passes: [580, 280],
+        passCompleted: [520, 210],
+        passAccuracy: [89.7, 75.0],
+        crosses: [24, 8],
+        crossesCompleted: [8, 1],
+        corners: [10, 1],
+        freeKicks: [14, 12],
+        fouls: [12, 16],
+        offsides: [3, 1],
+        yellowCards: [0, 1],
+        redCards: [0, 2],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [220, 260]
+      }
+    },
+    { date: '2026-06-18', time: '21:00 ET', group: 'A', team1: 'Mexico', score1: 1, team2: 'South Korea', score2: 0, venue: '瓜達拉哈拉·阿克隆體育場', status: 'completed',
+      goals: [
+        { min: 50, team: 1, scorer: 'Luis Romo', detail: '韓國門將 Kim Seunggyu 與後衛 Lee Gihyuk 溝通失誤，Romo 輕鬆推入空門，墨西哥晉級32強' }
+      ],
+      cards: [
+        { min: 3, team: 2, player: 'Lee Kang-in', card: 'yellow', detail: '過激鏟球犯規' },
+        { min: 63, team: 1, player: 'Jesús Gallardo', card: 'yellow', detail: '戰術犯規' },
+        { min: 75, team: 1, player: 'Edson Álvarez', card: 'yellow', detail: '拖延比賽時間' }
+      ],
+      stats: {
+        possession: [51, 49],
+        shots: [12, 10],
+        shotsOnTarget: [4, 3],
+        shotsOffTarget: [5, 5],
+        shotsInsideBox: [7, 5],
+        shotsOutsideBox: [5, 5],
+        passes: [420, 400],
+        passCompleted: [360, 340],
+        passAccuracy: [85.7, 85.0],
+        crosses: [16, 18],
+        crossesCompleted: [4, 5],
+        corners: [5, 4],
+        freeKicks: [14, 13],
+        fouls: [14, 13],
+        offsides: [2, 4],
+        yellowCards: [2, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 30],
+        pressingApplied: [220, 250]
+      }
+    },
 
     // === 6月19日 ===
     { date: '2026-06-19', time: '00:00 ET', group: 'D', team1: 'Turkey', score1: null, team2: 'Paraguay', score2: null, venue: '舊金山·李維斯體育場', status: 'scheduled' },
@@ -1255,16 +1355,16 @@ const WC_DATA = {
   // 分組積分（賽後更新）
   standings: {
     'A': [
-      { team: 'Mexico', played: 1, won: 1, drawn: 0, lost: 0, gf: 2, ga: 0, gd: 2, pts: 3 },
-      { team: 'South Korea', played: 1, won: 1, drawn: 0, lost: 0, gf: 2, ga: 1, gd: 1, pts: 3 },
+      { team: 'Mexico', played: 2, won: 2, drawn: 0, lost: 0, gf: 3, ga: 0, gd: 3, pts: 6 },
+      { team: 'South Korea', played: 2, won: 1, drawn: 0, lost: 1, gf: 2, ga: 2, gd: 0, pts: 3 },
       { team: 'Czechia', played: 2, won: 0, drawn: 1, lost: 1, gf: 2, ga: 3, gd: -1, pts: 1 },
       { team: 'South Africa', played: 2, won: 0, drawn: 1, lost: 1, gf: 1, ga: 3, gd: -2, pts: 1 }
     ],
     'B': [
-      { team: 'Canada', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
-      { team: 'Switzerland', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
-      { team: 'Qatar', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
-      { team: 'Bosnia and Herzegovina', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 }
+      { team: 'Canada', played: 2, won: 1, drawn: 1, lost: 0, gf: 7, ga: 1, gd: 6, pts: 4 },
+      { team: 'Switzerland', played: 2, won: 1, drawn: 1, lost: 0, gf: 5, ga: 2, gd: 3, pts: 4 },
+      { team: 'Bosnia and Herzegovina', played: 2, won: 0, drawn: 1, lost: 1, gf: 2, ga: 5, gd: -3, pts: 1 },
+      { team: 'Qatar', played: 2, won: 0, drawn: 1, lost: 1, gf: 1, ga: 7, gd: -6, pts: 1 }
     ],
     'C': [
       { team: 'Scotland', played: 1, won: 1, drawn: 0, lost: 0, gf: 1, ga: 0, gd: 1, pts: 3 },
