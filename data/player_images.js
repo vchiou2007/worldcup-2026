@@ -110,30 +110,31 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-18 更新：6月18日捷克vs南非 1-1 和今日賽事預告） =====
+
+// ===== 輪播牆圖片（2026-06-18 更新：6月17日賽果與6月18日賽事預告，輪播照片已換新） =====
 const HERO_IMAGES = [
-  // 🇨🇿 Michal Sadilek 6分鐘率先破門！捷克隊近20年來首個世界盃主導進球（AP via Outlook India）
-  'https://cf-images.assettype.com/outlookindia/2026-06-18/klexjcam/AP26169640870712.jpg',
-  // 🇿🇦 Teboho Mokoena 83分鐘12碼扳平！Pavel Sulc 禁區內手球犯規，Mokoena 騙過門將射入左下角（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-teboho-mokoena-south-africa_7277002.jpg',
-  // 🇿🇦 South Africa 球員慶祝 Mokoena 罰進12碼！全場控球率 62% 的南非終於在比賽尾聲收穫回報（AP via Outlook India）
-  'https://cf-images.assettype.com/outlookindia/2026-06-18/wh02l2da/Czechia-Vs-South-Africa-FIFA-World-Cup-2026-Group-A-Thapelo-Maseko-Celeb-Penalty-Goal-AP-Photo.jpg',
-  // 🇨🇿🇿🇦 比賽精彩對抗：SA 後衛 Mbekezeli Mbokazi 飛身鏟斷捷克中場 Lukáš Červ。全美首支全女性裁判組執法（AP/New Indian Express）
-  'https://cf-images.assettype.com/newindianexpress/2026-06-18/bk1lchq3/AP26169603237175.jpg',
-  // 🇨🇿 Ladislav Krejčí 獲選全場最佳球員！捷克隊長領銜防線多次化解南非攻勢，可惜未能守住領先至終場（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-czech-republic-la_7271328.jpg',
-  // 🇰🇷🇨🇿 黃仁範（Hwang In-beom）67分鐘禁區外遠射破門！南韓 2-1 逆轉捷克，寫下世界盃對歐洲球隊三連勝（Sky Sports）
-  'https://e0.365dm.com/26/06/1600x900/skysports-hwang-in-beom-south-korea_7271302.jpg',
-  // 🇨🇭🇧🇦 瑞士 vs 波赫即將開踢！Group B 關鍵戰役：瑞士首戰 1-1 卡達，波赫 1-1 加拿大，雙方都需要搶勝（AP via Outlook India）
-  'https://cf-images.assettype.com/outlookindia/2026-06-18/rptmsud3/Switzerland-Vs-Bosnia-Herzegovina-FIFA-World-Cup-2026-Bosnia-Fans-Lead-AP-Photo.jpg'
+  // 🇨🇴 Luis Díaz 65分鐘禁區內低射破門！個人世界盃首球，全場1進球1助攻當選最佳（AP Photo/Eduardo Verdugo via Outlook India）
+  'https://cf-images.assettype.com/outlookindia/2026-06-18/y415otxu/AP26169149612993.jpg',
+  // 🇺🇿 Abbosbek Fayzullaev 60分鐘門前頭槌補射入網！烏茲別克世界盃歷史首球（AP Photo/Natacha Pisarenko via Outlook India）
+  'https://cf-images.assettype.com/outlookindia/2026-06-18/suxj8oyu/AP26169074598647.jpg',
+  // 🇨🇴 Daniel Muñoz 40分鐘凌空墊射！Luis Díaz 精準過頂傳球，Muñoz 從右後衛位置斜插禁區破門（AP Photo/Eduardo Verdugo via Outlook India）
+  'https://cf-images.assettype.com/outlookindia/2026-06-18/4l5bblse/AP26169075206943.jpg',
+  // 🇨🇴 Jaminton Campaz 90+9分鐘頭槌破門！Cucho Hernández 右路斷球傳中，Campaz 強力頭槌鎖定 3-1 勝局（AP Photo/Fernando Llano via Outlook India）
+  'https://cf-images.assettype.com/outlookindia/2026-06-18/1l0af764/AP26169081235604.jpg',
+  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Jude Bellingham 47分鐘禁區內勁射入網！下半場開場僅2分鐘即破門，英格蘭 4-2 擊敗克羅埃西亞（AP Photo via Outlook India）
+  'https://cf-images.assettype.com/outlookindia/2026-06-17/3jx74pof/ENG-vs-CRO-28.jpg',
+  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿 Harry Kane 12分鐘12碼罰球破門！本場梅開二度追平英格蘭世界盃進球紀錄（AP Photo via Outlook India）
+  'https://cf-images.assettype.com/outlookindia/2026-06-17/8l3wzl2k/ENG-vs-CRO-22.jpg',
+  // 🇲🇽🇰🇷 今日賽事預告：墨西哥 vs 南韓（21:00 ET）Group A 榜首大戰！雙方都以勝利開局，勝者獨佔小組龍頭（AP Photo via Outlook India）
+  'https://cf-images.assettype.com/outlookindia/2026-06-18/28588wsw/AP26169100214382.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇨🇿 捷克 1-1 🇿🇦 南非 — Michal Sadílek 6分鐘禁區內右腳勁射破門！Adam Hlozek 右路傳中，Alexandr Sojka 巧妙做球，Sadílek 跟進射門入網，捷克取得夢幻開局，這也是捷克近20年來在賽會首個主導進球（AP via Outlook India）',
-  '🇨🇿 捷克 1-1 🇿🇦 南非 — Teboho Mokoena 83分鐘12碼罰球扳平！Pavel Sulc 禁區內手球犯規，VAR 確認後判罰，Mokoena 冷靜射入左下角。南非全場控球率 62% 的壓制終於在比賽尾聲收穫回報（Sky Sports）',
-  '🇨🇿 捷克 1-1 🇿🇦 南非 — 南非球員瘋狂慶祝 Mokoena 罰進12碼！Hugo Broos 下半場換上 Relebohile Mofokeng 改變戰局。南非成為本屆首支從落後局面搶回積分的非洲球隊（AP via Outlook India）',
-  '🇨🇿 捷克 1-1 🇿🇦 南非 — 南非後衛 Mbekezeli Mbokazi 飛身鏟斷捷克中場 Lukáš Červ。本場比賽由全美首支全女性裁判組執法：Tori Penso、Brooke Mayo、Kathryn Nesbitt（AP/New Indian Express）',
-  '🇨🇿 捷克 1-1 🇿🇦 南非 — 捷克隊長 Ladislav Krejčí 獲選 Michelob Ultra 全場最佳球員！上半場在第75分鐘因戰術犯規吃下黃牌，但全場領銜防線多次化解南非攻勢（Sky Sports）',
-  '🇰🇷 南韓 2-1 🇨🇿 捷克 — 黃仁範（Hwang In-beom）67分鐘禁區外遠射破網！李康仁（Lee Kang-in）助攻，黃仁範禁區弧頂左腳弧線球射入左上角，南韓扳平比分後更在80分鐘由吳賢揆絕殺逆轉（Sky Sports）',
-  '🇨🇭 瑞士 vs 🇧🇦 波赫 — Group B 關鍵對決即將在洛杉磯 SoFi 體育場開踢！瑞士首戰 1-1 戰平卡達（Embolo 12碼破門），波赫 1-1 逼平加拿大（Jovo Lukic 頭槌）。雙方都急需搶下首勝爭取晉級主動權（AP via Outlook India）'
+  '🇨🇴 哥倫比亞 3-1 🇺🇿 烏茲別克 — Luis Díaz 65分鐘禁區內低射破門！中場斷球後果斷起腳，球穿過門將十指關入網。Díaz 全場貢獻1進球1助攻，獲選全場最佳球員，這是他個人世界盃首球（AP Photo/Eduardo Verdugo）',
+  '🇨🇴 哥倫比亞 3-1 🇺🇿 烏茲別克 — Abbosbek Fayzullaev 60分鐘門前頭槌補射入網！Eldor Shomurodov 的射門被撲出後擊中門柱反彈，Fayzullaev 跟進頭槌破門，寫下烏茲別克足球史上首個世界盃進球。墨西哥城阿茲特克球場80,824名觀眾共同見證歷史（AP Photo/Natacha Pisarenko）',
+  '🇨🇴 哥倫比亞 3-1 🇺🇿 烏茲別克 — Daniel Muñoz 40分鐘凌空墊射破門！Luis Díaz 精準過頂傳球穿越烏茲別克防線，Muñoz 從右後衛位置斜插禁區，以腳外側凌空墊射入網，取得個人在世界盃的首個進球（AP Photo/Eduardo Verdugo）',
+  '🇨🇴 哥倫比亞 3-1 🇺🇿 烏茲別克 — Jaminton Campaz 傷停補時第9分鐘頭槌破門！替補上場的 Cucho Hernández 在右路積極拼搶斷球後傳中，Campaz 禁區內強力頭槌入網，為哥倫比亞鎖定3-1勝局。哥倫比亞以3分暫居K組榜首（AP Photo/Fernando Llano）',
+  '🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格蘭 4-2 🇭🇷 克羅埃西亞 — Jude Bellingham 47分鐘禁區內勁射破網！下半場開場僅2分鐘，Bellingham 右路帶球切入禁區，起腳射入遠角。英格蘭在 Thomas Tuchel 帶領下以4-2取得開門紅（AP Photo）',
+  '🏴󠁧󠁢󠁥󠁮󠁧󠁿 英格蘭 4-2 🇭🇷 克羅埃西亞 — Harry Kane 12分鐘12碼罰球破門！第一次罰球被撲出但因門將提前移動重罰，第二次冷靜射入左下角。Kane 本場梅開二度追平 Gary Lineker 的英格蘭世界盃進球紀錄（AP Photo）',
+  '🇲🇽 墨西哥 vs 🇰🇷 南韓 — 今晚 21:00 ET 在瓜達拉哈拉阿克隆體育場上演 Group A 榜首大戰！墨西哥首戰 2-0 勝南非，南韓 2-1 逆轉捷克，雙方都以勝利開局。本場勝者將獨佔小組榜首，為晉級淘汰賽奠定堅實基礎（AP Photo）'
 ];

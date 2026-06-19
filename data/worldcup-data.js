@@ -1122,7 +1122,39 @@ const WC_DATA = {
         pressingApplied: [200, 240]
       }
     },
-    { date: '2026-06-17', time: '22:00 ET', group: 'K', team1: 'Uzbekistan', score1: null, team2: 'Colombia', score2: null, venue: '墨西哥城·阿茲特克體育場', status: 'scheduled' },
+    { date: '2026-06-17', time: '22:00 ET', group: 'K', team1: 'Uzbekistan', score1: 1, team2: 'Colombia', score2: 3, venue: '墨西哥城·阿茲特克體育場', status: 'completed',
+      goals: [
+        { min: 40, team: 2, scorer: 'Daniel Muñoz', assist: 'Luis Díaz', detail: 'Díaz 精準過頂傳球，Muñoz 從右後衛位置斜插禁區凌空墊射破門' },
+        { min: 60, team: 1, scorer: 'Abbosbek Fayzullaev', assist: 'Dostonbek Khamdamov', detail: 'Shomurodov 左路傳中，Khamdamov 凌空射門擊中門柱反彈，Fayzullaev 門前頭槌補射入網 — 烏茲別克世界盃歷史首球' },
+        { min: 65, team: 2, scorer: 'Luis Díaz', assist: null, detail: '中場斷球後禁區內低射穿過門將十指關入網，Díaz 個人世界盃首球' },
+        { min: 90, team: 2, scorer: 'Jaminton Campaz', assist: 'Cucho Hernández', detail: 'Hernández 右路斷球傳中，Campaz 禁區內強力頭槌破門' }
+      ],
+      cards: [
+        { min: 7, team: 2, player: 'Johan Mojica', card: 'yellow', detail: '早期身體對抗犯規' },
+        { min: 34, team: 1, player: 'Abdukodir Khusanov', card: 'yellow', detail: '阻止 Luis Díaz 反擊的戰術犯規' }
+      ],
+      stats: {
+        possession: [33, 56],
+        shots: [8, 15],
+        shotsOnTarget: [2, 4],
+        shotsOffTarget: [3, 7],
+        shotsInsideBox: [4, 9],
+        shotsOutsideBox: [4, 6],
+        passes: [334, 534],
+        passCompleted: [267, 469],
+        passAccuracy: [79.9, 87.8],
+        crosses: [11, 18],
+        crossesCompleted: [2, 6],
+        corners: [3, 4],
+        freeKicks: [14, 14],
+        fouls: [11, 14],
+        offsides: [0, 3],
+        yellowCards: [1, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [32, 31],
+        pressingApplied: [264, 160]
+      }
+    },
 
     // === 6月18日 ===
     { date: '2026-06-18', time: '12:00 ET', group: 'A', team1: 'Czechia', score1: 1, team2: 'South Africa', score2: 1, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'completed',
@@ -1283,10 +1315,10 @@ const WC_DATA = {
       { team: 'Jordan', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 3, gd: -2, pts: 0 }
     ],
     'K': [
+      { team: 'Colombia', played: 1, won: 1, drawn: 0, lost: 0, gf: 3, ga: 1, gd: 2, pts: 3 },
       { team: 'Portugal', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
       { team: 'DR Congo', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
-      { team: 'Colombia', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 },
-      { team: 'Uzbekistan', played: 0, won: 0, drawn: 0, lost: 0, gf: 0, ga: 0, gd: 0, pts: 0 }
+      { team: 'Uzbekistan', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 3, gd: -2, pts: 0 }
     ],
     'L': [
       { team: 'England', played: 1, won: 1, drawn: 0, lost: 0, gf: 4, ga: 2, gd: 2, pts: 3 },
