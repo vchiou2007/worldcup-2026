@@ -111,30 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-19 更新：6月18日賽果 — 加拿大創歷史首勝、瑞士大勝、墨西哥晉級32強） =====
+// ===== 輪播牆圖片（2026-06-19 更新：6月19日賽果 — 美國2-0澳洲晉級32強、主辦國5勝1和） =====
 const HERO_IMAGES = [
-  // 🇨🇦 Jonathan David 禁區內凌空抽射破門！加拿大世界盃史上首勝，David 帽子戲法（PNG/Jason Payne）
-  'https://smartcdn.gprod.postmedia.digital/theprovince/wp-content/uploads/2026/06/png-0618n-fifacanadaqatar-1130_303805022.jpg',
-  // 🇨🇦 Nathan Saliba 64分鐘自由球破門！舉起 Ismaël Koné 球衣致敬重傷隊友（AP Photo/Abbie Parr via NewsX）
-  'https://www.newsx.com/wp-content/uploads/2026/06/fifa-world-cup-2026-jonathan-davids-hat-trick-fires-canada-to-historic-6-0-win-over-qatar.jpg',
-  // 🇨🇭 Johan Manzambi 74分鐘替補凌空抽射！瑞士 4-1 大勝波赫，Manzambi 替補梅開二度（Reuters Daniel Cole via France24）
-  'https://s.france24.com/media/display/856699b6-6b56-11f1-9ae1-005056a90284/w:1024/p:16x9/2026-06-18T204056Z-31089398-UP1EM6I1LG658-RTRMADP-3-SOCCER-WORLDCUP-SWI-BIH.jpg',
-  // 🇨🇭 Rubén Vargas 84分鐘低射！瑞士在紅牌後迅速擴大領先（via France24）
-  'https://s.france24.com/media/display/2762aaf4-6b3c-11f1-9ced-005056bf30b7/w:280/p:16x9/063-2282220267.jpg',
-  // 🇲🇽 Luis Romo 50分鐘推射空門！墨西哥 1-0 南韓，成為首支晉級32強球隊（AP-Yonhap via Korea Times）
-  'https://newsimg.koreatimes.co.kr/2026/06/19/a0fd75de-4189-4742-8f4e-302972109f7e.jpg?w=1600',
-  // 🇲🇽🇰🇷 瓜達拉哈拉球場外墨西哥與韓國球迷齊聚（Reuters-Yonhap via Korea Times）
-  'https://newsimg.koreatimes.co.kr/2026/06/19/d1fcd0c0-f880-4e11-86d0-14b7148688ae.jpg?w=1600',
-  // 🇰🇷 韓國球迷在首爾光化門廣場舉辦大型街頭應援（Korea Times/Shim Hyun-chul）
-  'https://newsimg.koreatimes.co.kr/2026/06/19/bed97567-01f2-4c78-a964-ef33eb471c8f.jpg?w=1600'
+  // 🇺🇸 Folarin Balogun 與 Antonee Robinson 慶祝開紀錄！Burgess 烏龍球助美國領先（Getty via USA Today Sports）
+  'https://www.twincities.com/wp-content/uploads/2026/06/Australia_US_WCup_Soccer_4_55_.jpg',
+  // 🇺🇸 Alex Freeman 43分鐘頭槌破門！VAR推翻越位判決，Freeman 攻入個人世界盃首球（Getty via USA Today Sports）
+  'https://www.twincities.com/wp-content/uploads/2026/06/Australia_US_WCup_Soccer_6371_-1-2.jpg',
+  // 🇺🇸 Matt Freese 賽後慶祝！美國門將 Freese 完成零封，兩戰僅失1球（Getty via USA Today Sports）
+  'https://www.twincities.com/wp-content/uploads/2026/06/Australia_US_WCup_Soccer_4_178.jpg',
+  // 🇺🇸 Ricardo Pepi 與 Harry Souttar 禁區內激烈對抗！澳洲後衛奮力阻擋美國攻勢（Getty via USA Today Sports）
+  'https://www.twincities.com/wp-content/uploads/2026/06/Australia_US_WCup_Soccer_15914-1.jpg',
+  // 🇺🇸🇦🇺 美國球迷高舉標語為球隊加油！西雅圖流明球場座無虛席，67,000名觀眾創造熱烈氛圍（Getty via USA Today Sports）
+  'https://www.twincities.com/wp-content/uploads/2026/06/Australia_US_WCup_Soccer_12957-1.jpg',
+  // 🇺🇸 美國球迷在賽後歡慶勝利！美國2連勝以6分提前晉級32強，成為第2支確定出線的球隊（AP Photo/Lindsey Wasson）
+  'https://www.twincities.com/wp-content/uploads/2026/06/AP26170769510792.jpg',
+  // 🇺🇸 Christian Pulisic 在場邊觀戰！美國隊長因小腿傷勢缺陣，仍在場邊為隊友加油（AP Photo/Manu Fernandez）
+  'https://www.twincities.com/wp-content/uploads/2026/06/AP26170711639324-1.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇨🇦 加拿大 6-0 🇶🇦 卡達 — Jonathan David 29分鐘禁區內凌空抽射破門！David 完成帽子戲法（90+2分鐘），成為加拿大史上首位世界盃戴帽球員，也是1966年以來首位在主场完成世界盃帽子戲法的球員。加拿大以6-0取得世界盃史上首勝，全場52,497名觀眾沸騰（PNG/Jason Payne）',
-  '🇨🇦 加拿大 6-0 🇶🇦 卡達 — Nathan Saliba 64分鐘自由球破門！替補 Koné 上場的 Saliba 直接自由球彎過人牆入網後，立即跑到場邊舉起隊友的球衣致敬。Koné 因 Assim Madibo 的危險鏟球重傷離場，該犯規導致卡達第二張紅牌（AP Photo/Abbie Parr via NewsX）',
-  '🇨🇭 瑞士 4-1 🇧🇦 波赫 — Johan Manzambi 74分鐘替補凌空抽射破門！年僅20歲的弗萊堡新星上場僅3分鐘即凌空抽射破僵局，90分鐘再補射梅開二度。瑞士4球全在74分鐘後攻入，創世界盃歷史紀錄（Reuters Daniel Cole via France24）',
-  '🇨🇭 瑞士 4-1 🇧🇦 波赫 — Rubén Vargas 84分鐘低射破網！波赫後衛 Muharemovic 80分鐘直紅罰下後，瑞士迅速把握人數優勢。瑞士以2戰4分暫居B組榜首，下場將在溫哥華與加拿大爭小組第一（via France24）',
-  '🇲🇽 墨西哥 1-0 🇰🇷 南韓 — Luis Romo 50分鐘推射空門！韓國門將 Kim Seunggyu 與後衛 Lee Gihyuk 禁區內碰撞失誤，Romo 輕鬆破門。墨西哥2連勝不失1球，成為本屆世界盃首支晉級32強球隊（AP-Yonhap via Korea Times）',
-  '🇲🇽🇰🇷 墨西哥 vs 南韓 — 瓜達拉哈拉球場外擠滿熱情球迷，45,522人座無虛席。南韓雖0-1落敗，孫興慜仍製造多次威脅，但墨西哥門將 Raúl Rangel 87分鐘神奇兩連撲力保球門不失（Reuters-Yonhap via Korea Times）',
-  '🇰🇷 南韓球迷在首爾光化門廣場 — 數千名韓國球迷不畏時差深夜聚集街頭應援。太極虎雖惜敗墨西哥，仍以3分保有晉級希望，小組賽最終戰將全力爭勝（Korea Times/Shim Hyun-chul）'
+  '🇺🇸 美國 2-0 🇦🇺 澳洲 — Folarin Balogun 與 Antonee Robinson 慶祝開紀錄！11分鐘 Balogun 左路狂飆突破傳中，澳洲後衛 Cameron Burgess 解圍不慎將球碰入自家大門，美國靠烏龍球取得領先。這是本屆世界盃第7顆烏龍球，已超越2022年整屆總數（Getty via USA Today Sports）',
+  '🇺🇸 美國 2-0 🇦🇺 澳洲 — Alex Freeman 43分鐘頭槌破門！Antonee Robinson 勁射後球反彈，Freeman 門前頭槌入網。邊裁起初舉旗示意越位，VAR 介入後推翻判決，Freeman 攻入個人世界盃首球，同時也是美國 Heritage 高中校友的驕傲時刻（Getty via USA Today Sports）',
+  '🇺🇸 美國 2-0 🇦🇺 澳洲 — Matt Freese 賽後反應！由於 Turner 受傷，Freese 連續2場把關大門，本場完成零封。美國兩戰僅失1球（首戰對巴拉圭失1球），防守表現穩健，Mauricio Pochettino 的戰術體系逐漸成型（Getty via USA Today Sports）',
+  '🇺🇸 美國 2-0 🇦🇺 澳洲 — Ricardo Pepi 與澳洲 Harry Souttar 禁區內激烈對抗！Souttar 全場多次化解美國攻勢，但澳洲攻勢乏力全場僅5次射門。美國以62%控球率完全掌控比賽節奏（Getty via USA Today Sports）',
+  '🇺🇸🇦🇺 美國 vs 澳洲 — 西雅圖流明球場（Seattle Stadium）湧入67,000名觀眾，美國球迷高舉標語熱情應援。本場也是 Juneteenth（六月節）紀念日的特別賽事，西雅圖舉辦了一系列慶祝活動（Getty via USA Today Sports）',
+  '🇺🇸 美國球迷在賽後歡慶晉級32強！美國以2連勝、6分積分確定晉級淘汰賽，成為繼墨西哥之後第2支提前出線的球隊。Pochettino 的美國隊打出「高位壓迫、控制節奏」的風格，主辦國三強（美加墨）目前5勝1和保持不敗（AP Photo/Lindsey Wasson）',
+  '🇺🇸 Christian Pulisic 在場邊觀戰！美國隊長因小腿傷勢連續第二場缺陣，但仍在場邊積極為隊友加油。Pulisic 預計在小組賽最終戰對土耳其時復出，為淘汰賽調整狀態（AP Photo/Manu Fernandez）'
 ];

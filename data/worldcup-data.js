@@ -1294,7 +1294,41 @@ const WC_DATA = {
     },
 
     // === 6月19日 ===
-    { date: '2026-06-19', time: '15:00 ET', group: 'D', team1: 'USA', score1: null, team2: 'Australia', score2: null, venue: '西雅圖·流明球場', status: 'scheduled' },
+    { date: '2026-06-19', time: '15:00 ET', group: 'D', team1: 'USA', score1: 2, team2: 'Australia', score2: 0, venue: '西雅圖·流明球場', status: 'completed',
+      goals: [
+        { min: 11, team: 1, scorer: 'Cameron Burgess (OG)', detail: 'Balogun 左路突破傳中，Burgess 解圍不慎將球碰入自家大門，烏龍球' },
+        { min: 43, team: 1, scorer: 'Alex Freeman', assist: 'Antonee Robinson', detail: 'Robinson 勁射後球反彈，Freeman 門前頭槌破門，VAR 確認越位無效後改判進球有效' }
+      ],
+      cards: [
+        { min: 16, team: 2, player: 'Jordan Bos', card: 'yellow', detail: '戰術犯規' },
+        { min: 32, team: 2, player: 'Alessandro Circati', card: 'yellow', detail: '犯規' },
+        { min: 56, team: 1, player: 'Antonee Robinson', card: 'yellow', detail: '犯規' },
+        { min: 89, team: 1, player: 'Folarin Balogun', card: 'yellow', detail: '爭搶犯規' },
+        { min: 89, team: 2, player: 'Harry Souttar', card: 'yellow', detail: '犯規' },
+        { min: 93, team: 1, player: 'Chris Richards', card: 'yellow', detail: '拖延時間' }
+      ],
+      stats: {
+        possession: [62, 38],
+        shots: [10, 5],
+        shotsOnTarget: [2, 2],
+        shotsOffTarget: [5, 2],
+        shotsInsideBox: [6, 3],
+        shotsOutsideBox: [4, 2],
+        passes: [490, 310],
+        passCompleted: [440, 260],
+        passAccuracy: [89.8, 83.9],
+        crosses: [18, 10],
+        crossesCompleted: [5, 2],
+        corners: [7, 4],
+        freeKicks: [14, 16],
+        fouls: [14, 15],
+        offsides: [3, 2],
+        yellowCards: [3, 3],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 240]
+      }
+    },
     { date: '2026-06-19', time: '18:00 ET', group: 'C', team1: 'Scotland', score1: null, team2: 'Morocco', score2: null, venue: '波士頓·吉列體育場', status: 'scheduled' },
     { date: '2026-06-19', time: '21:00 ET', group: 'C', team1: 'Brazil', score1: null, team2: 'Haiti', score2: null, venue: '費城·林肯金融球場', status: 'scheduled' },
 
@@ -1373,8 +1407,8 @@ const WC_DATA = {
       { team: 'Haiti', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 1, gd: -1, pts: 0 }
     ],
     'D': [
-      { team: 'USA', played: 1, won: 1, drawn: 0, lost: 0, gf: 4, ga: 1, gd: 3, pts: 3 },
-      { team: 'Australia', played: 1, won: 1, drawn: 0, lost: 0, gf: 2, ga: 0, gd: 2, pts: 3 },
+      { team: 'USA', played: 2, won: 2, drawn: 0, lost: 0, gf: 6, ga: 1, gd: 5, pts: 6 },
+      { team: 'Australia', played: 2, won: 1, drawn: 0, lost: 1, gf: 2, ga: 2, gd: 0, pts: 3 },
       { team: 'Turkey', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 2, gd: -2, pts: 0 },
       { team: 'Paraguay', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 4, gd: -3, pts: 0 }
     ],
