@@ -1362,7 +1362,38 @@ const WC_DATA = {
         pressingApplied: [200, 240]
       }
     },
-    { date: '2026-06-19', time: '21:00 ET', group: 'C', team1: 'Brazil', score1: null, team2: 'Haiti', score2: null, venue: '費城·林肯金融球場', status: 'scheduled' },
+    { date: '2026-06-19', time: '21:00 ET', group: 'C', team1: 'Brazil', score1: 3, team2: 'Haiti', score2: 0, venue: '費城·林肯金融球場', status: 'completed',
+      goals: [
+        { min: 23, team: 1, scorer: 'Matheus Cunha', assist: 'Vinícius Júnior', detail: 'Vinícius Júnior 射門被撲出，Cunha 跟進補射入網，1-0' },
+        { min: 36, team: 1, scorer: 'Matheus Cunha', assist: 'Vinícius Júnior', detail: 'Vinícius Júnior 快速反擊傳中，Cunha 左腳射入左上角，2-0' },
+        { min: 45+3, team: 1, scorer: 'Vinícius Júnior', assist: 'Lucas Paquetá', detail: 'Paquetá 直傳穿越防線，Vinícius Júnior 禁區內推射破門，3-0' }
+      ],
+      cards: [
+        { min: 4, team: 2, player: 'Carlens Arcus', card: 'yellow', detail: '惡意犯規' },
+        { min: 45+4, team: 2, player: 'Frantzdy Pierrot', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [63, 37],
+        shots: [16, 4],
+        shotsOnTarget: [6, 1],
+        shotsOffTarget: [7, 2],
+        shotsInsideBox: [10, 2],
+        shotsOutsideBox: [6, 2],
+        passes: [520, 330],
+        passCompleted: [470, 270],
+        passAccuracy: [90.4, 81.8],
+        crosses: [15, 9],
+        crossesCompleted: [4, 1],
+        corners: [8, 1],
+        freeKicks: [11, 14],
+        fouls: [12, 13],
+        offsides: [3, 0],
+        yellowCards: [0, 2],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [230, 220]
+      }
+    },
 
     // === 6月20日 ===
     { date: '2026-06-20', time: '06:00 ET', group: 'D', team1: 'Turkey', score1: null, team2: 'Paraguay', score2: null, venue: '舊金山·李維斯體育場', status: 'scheduled' },
@@ -1435,8 +1466,8 @@ const WC_DATA = {
     'C': [
       { team: 'Scotland', played: 2, won: 1, drawn: 0, lost: 1, gf: 1, ga: 1, gd: 0, pts: 3 },
       { team: 'Morocco', played: 2, won: 1, drawn: 1, lost: 0, gf: 2, ga: 1, gd: 1, pts: 4 },
-      { team: 'Brazil', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
-      { team: 'Haiti', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 1, gd: -1, pts: 0 }
+      { team: 'Brazil', played: 2, won: 1, drawn: 1, lost: 0, gf: 4, ga: 1, gd: 3, pts: 4 },
+      { team: 'Haiti', played: 2, won: 0, drawn: 0, lost: 2, gf: 0, ga: 4, gd: -4, pts: 0 }
     ],
     'D': [
       { team: 'USA', played: 2, won: 2, drawn: 0, lost: 0, gf: 6, ga: 1, gd: 5, pts: 6 },

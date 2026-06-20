@@ -111,8 +111,16 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-19 更新：6月19日賽果 — 摩洛哥1-0蘇格蘭、美國2-0澳洲晉級32強） =====
+// ===== 輪播牆圖片（2026-06-20 更新：巴西3-0海地 — Cunha梅開二度、海地淘汰） =====
 const HERO_IMAGES = [
+  // 🇧🇷 Matheus Cunha 慶祝進球！Cunha 梅開二度，巴西球迷在費城歡聲雷動（AP Photo/Petr David Josek）
+  'https://www.news4jax.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fgmg%2FHPUQBLRJ2RCNTCBQEFBYEMSJHM.jpg',
+  // 🇧🇷 Vinícius Júnior 慶祝進球！巴西3-0領先海地，鎖定勝局（AP Photo/Petr David Josek）
+  'https://www.news4jax.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fgmg%2FCINCMN6DFZFGHJ2I3JKHFLQX3A.jpg',
+  // 🇧🇷🇭🇹 巴西 vs 海地 — 海地球迷高唱 Grenadye Alaso，為隊加油（AP Photo/Matt Slocum）
+  'https://www.news4jax.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fgmg%2FS5JKXAPXPRF3JBMK44HMGDRAEE.jpg',
+  // 🇧🇷 Matheus Cunha 與 Vinícius Júnior、Lucas Paquetá 慶祝！巴西3-0完勝海地（AP Photo/Petr David Josek）
+  'https://www.news4jax.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fgmg%2FBRHJE3WCKFD27C6QAQNM2SVY5A.jpg',
   // 🇲🇦 Ismael Saibari 攻入本屆世界盃最快進球！70秒即破門，摩洛哥1-0領先蘇格蘭（Reuters via Al Jazeera）
   'https://www.aljazeera.com/wp-content/uploads/2026/06/2026-06-20T000714Z_541883974_UP1EM6K00C1DF_RTRMADP_3_SOCCER-WORLDCUP-SCO-MAR-1781914951.jpg',
   // 🇲🇦🇲🇦 Saibari 與隊友慶祝！PSV中場攻入個人本屆世界盃第2球，摩洛哥小組賽4分暫居榜首（Reuters via Al Jazeera）
@@ -130,6 +138,10 @@ const HERO_IMAGES = [
 ];
 
 const HERO_CAPTIONS = [
+  '🇧🇷 巴西 3-0 🇭🇹 海地 — Matheus Cunha 梅開二度！Cunha 第23分鐘補射入網，第36分鐘左腳勁射左上角，巴西半場3-0鎖定勝局。Cunha 以衝浪式滑行慶祝，成為全場焦點。海地成為本屆首支確定淘汰的球隊（AP Photo/Petr David Josek）',
+  '🇧🇷 巴西 3-0 🇭🇹 海地 — Vinícius Júnior 第45+3分鐘推射破門！Lucas Paquetá 直傳穿越防線，Vini 禁區內冷靜推射入網，半場結束前將比分改寫為3-0。Vini 本場1進球1助攻，當選全場最佳（AP Photo/Petr David Josek）',
+  '🇧🇷🇭🇹 巴西 3-0 🇭🇹 海地 — 海地球迷在費城林肯金融球場高唱 Grenadye Alaso！海地相隔52年重返世界盃，雖遭淘汰但仍獲全場掌聲。68,324名觀眾見證了海地球員的拼勁與熱情（AP Photo/Matt Slocum）',
+  '🇧🇷 巴西 3-0 🇭🇹 海地 — Matheus Cunha（中）與 Vinícius Júnior（左）、Lucas Paquetá（右）慶祝！巴西以4分躍居C組榜首，與摩洛哥同分。Carlo Ancelotti 賽後確認 Neymar 有望在對蘇格蘭的比賽中復出（AP Photo/Petr David Josek）',
   '🇲🇦 摩洛哥 1-0 🏴󠁧󠁢󠁳󠁣󠁴󠁿 蘇格蘭 — Ismael Saibari 攻入本屆世界盃最快進球！開賽僅70秒，Saibari 接 Brahim Diaz 過頂傳球，禁區內冷靜推射入網。摩洛哥以本屆最快進球取得夢幻開局，最終1-0擊敗蘇格蘭，小組賽1勝1和以4分暫居C組榜首（Reuters via Al Jazeera）',
   '🇲🇦 摩洛哥 1-0 🏴󠁧󠁢󠁳󠁣󠁴󠁿 蘇格蘭 — Ismael Saibari 與隊友慶祝進球！這位 PSV 埃因霍溫中場攻入個人本屆世界盃第2球，延續對巴西一戰的好表現。摩洛哥全場控球率59%、12次射門2次射正，完全掌控比賽節奏（Reuters via Al Jazeera）',
   '🏴󠁧󠁢󠁳󠁣󠁴󠁿🇲🇦 蘇格蘭 vs 摩洛哥 — 波士頓體育場內外球迷熱情交鋒！蘇格蘭全場6次射門0射正，創下本屆世界盃罕見紀錄。Scott McTominay 在第86分鐘禁區內倒地未獲12碼罰球，引發賽後爭議（Reuters via Al Jazeera）',
