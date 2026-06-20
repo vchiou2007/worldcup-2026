@@ -1396,7 +1396,36 @@ const WC_DATA = {
     },
 
     // === 6月20日 ===
-    { date: '2026-06-20', time: '06:00 ET', group: 'D', team1: 'Turkey', score1: null, team2: 'Paraguay', score2: null, venue: '舊金山·李維斯體育場', status: 'scheduled' },
+    { date: '2026-06-20', time: '06:00 ET', group: 'D', team1: 'Turkey', score1: 0, team2: 'Paraguay', score2: 1, venue: '舊金山·李維斯體育場', status: 'completed',
+      goals: [
+        { min: 2, team: 2, scorer: 'Matías Galarza', assist: 'Julio Enciso', detail: 'Andres Cubas 斷球後 Enciso 直塞，Galarza 禁區外左腳射門穿過 Merih Demiral 跨下入網，64秒為本屆最快進球' }
+      ],
+      cards: [
+        { min: 70, team: 1, player: 'Ismail Yuksek', card: 'yellow', detail: '中場犯規' },
+        { min: 90, team: 2, player: 'Miguel Almiron', card: 'red', detail: '爭執中用手遮嘴，成為世界盃史上首位因新規則被罰下的球員' }
+      ],
+      stats: {
+        possession: [78, 22],
+        shots: [19, 5],
+        shotsOnTarget: [4, 2],
+        shotsOffTarget: [15, 3],
+        shotsInsideBox: [11, 3],
+        shotsOutsideBox: [8, 2],
+        passes: [680, 250],
+        passCompleted: [600, 190],
+        passAccuracy: [88.2, 76.0],
+        crosses: [25, 6],
+        crossesCompleted: [7, 1],
+        corners: [7, 0],
+        freeKicks: [12, 15],
+        fouls: [7, 12],
+        offsides: [2, 2],
+        yellowCards: [1, 1],
+        redCards: [0, 1],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [200, 240]
+      }
+    },
     { date: '2026-06-20', time: '13:00 ET', group: 'F', team1: 'Netherlands', score1: null, team2: 'Sweden', score2: null, venue: '休斯頓·NRG體育場', status: 'scheduled' },
     { date: '2026-06-20', time: '00:00 ET', group: 'F', team1: 'Tunisia', score1: null, team2: 'Japan', score2: null, venue: '蒙特雷·BBVA球場', status: 'scheduled' },
     { date: '2026-06-20', time: '16:00 ET', group: 'E', team1: 'Germany', score1: null, team2: 'Ivory Coast', score2: null, venue: '多倫多·BMO球場', status: 'scheduled' },
@@ -1472,8 +1501,8 @@ const WC_DATA = {
     'D': [
       { team: 'USA', played: 2, won: 2, drawn: 0, lost: 0, gf: 6, ga: 1, gd: 5, pts: 6 },
       { team: 'Australia', played: 2, won: 1, drawn: 0, lost: 1, gf: 2, ga: 2, gd: 0, pts: 3 },
-      { team: 'Turkey', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 2, gd: -2, pts: 0 },
-      { team: 'Paraguay', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 4, gd: -3, pts: 0 }
+      { team: 'Paraguay', played: 2, won: 1, drawn: 0, lost: 1, gf: 2, ga: 4, gd: -2, pts: 3 },
+      { team: 'Turkey', played: 2, won: 0, drawn: 0, lost: 2, gf: 0, ga: 3, gd: -3, pts: 0 }
     ],
     'E': [
       { team: 'Germany', played: 1, won: 1, drawn: 0, lost: 0, gf: 7, ga: 1, gd: 6, pts: 3 },

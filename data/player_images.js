@@ -111,42 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-20 更新：巴西3-0海地 — Cunha梅開二度、海地淘汰） =====
+// ===== 輪播牆圖片（2026-06-20 更新：巴拉圭1-0土耳其 — Galarza最快進球、Almiron紅牌） =====
 const HERO_IMAGES = [
-  // 🇧🇷 Vinícius Júnior 慶祝巴西第三球！Vini 禁區內冷靜推射入網，全場貢獻1進球1助攻（AFP via Getty Images）
-  'https://www.thedailystar.net/sites/default/files/2026-06/AFP__20260620__B7PJ7P6__v1__MidRes__FblWc2026Match29BraHai.jpg',
-  // 🇧🇷 Matheus Cunha 起腳射門！Cunha 梅開二度，第36分鐘左腳勁射左上角，巴西2-0擴大領先（AFP via Getty Images）
-  'https://www.thedailystar.net/sites/default/files/2026-06/AFP__20260620__B7PK9VE__v1__HighRes__FblWc2026Match29BraHai.jpg',
-  // 🇧🇷🇭🇹 巴西球迷在費城歡呼慶祝！巴西3-0完勝海地，68,324名觀眾見證海地52年後重返世界盃（AFP via Getty Images）
-  'https://www.thedailystar.net/sites/default/files/2026-06/AFP__20260620__B7PJ7Z9__v1__MidRes__FblWc2026Match29BraHai.jpg',
-  // 🇧🇷 Matheus Cunha 慶祝打破世界盃進球荒！Cunha 在費城攻入個人世界盃首球，梅開二度助巴西重返勝利軌道（CBC/AP）
-  'https://i.cbc.ca/ais/4b9ccb86-7e3d-49f0-ad23-378b6f476e63,1781957771780/full/max/0/default.jpg',
-  // 🇲🇦 Ismael Saibari 攻入本屆世界盃最快進球！70秒即破門，摩洛哥1-0領先蘇格蘭（Reuters via Al Jazeera）
-  'https://www.aljazeera.com/wp-content/uploads/2026/06/2026-06-20T000714Z_541883974_UP1EM6K00C1DF_RTRMADP_3_SOCCER-WORLDCUP-SCO-MAR-1781914951.jpg',
-  // 🇲🇦🇲🇦 Saibari 與隊友慶祝！PSV中場攻入個人本屆世界盃第2球，摩洛哥小組賽4分暫居榜首（Reuters via Al Jazeera）
-  'https://www.aljazeera.com/wp-content/uploads/2026/06/2026-06-20T001335Z_2118542275_UP1EM6K00MMEB_RTRMADP_3_SOCCER-WORLDCUP-SCO-MAR-1781914949.jpg',
-  // 🏴󠁧󠁢󠁳󠁣󠁴󠁿🇲🇦 蘇格蘭球迷 vs 摩洛哥球迷！波士頓體育場上演熱烈對決，蘇格蘭全場0射正無力回天（Reuters via Al Jazeera）
-  'https://www.aljazeera.com/wp-content/uploads/2026/06/2026-06-20T000821Z_597810475_UP1EM6K00DVDQ_RTRMADP_3_SOCCER-WORLDCUP-SCO-MAR-FANS-1781916761.jpg',
-  // 🇲🇦 Brahim Diaz 與 Achraf Hakimi 慶祝勝利！摩洛哥1-0擊敗蘇格蘭，有望連續兩屆晉級淘汰賽（AP Photo/Martin Meissner）
-  'https://www.aljazeera.com/wp-content/uploads/2026/06/AP26171001611882-1781914954.jpg',
-  // 🇺🇸 Folarin Balogun 與 Antonee Robinson 慶祝開紀錄！Burgess 烏龍球助美國領先（Getty via USA Today Sports）
-  'https://www.twincities.com/wp-content/uploads/2026/06/Australia_US_WCup_Soccer_4_55_.jpg',
+  // 🇵🇾 Matías Galarza 慶祝本屆世界盃最快進球！開賽僅64秒即破門，成為世界盃史上最快進球之一（AP Photo/Eakin Howard）
+  'https://image.bastillepost.com/1200x/wp-content/uploads/global/2026/06/39092d1e8e7a5e2fbdd840886cdb749a_APTOPIX_Paraguay_Turkey_WCup_Soccer_92511.jpg.webp',
+  // 🇵🇾 Miguel Almiron 收到歷史性紅牌！因遮嘴與對手交談被罰下，成為世界盃新規則首位受罰球員（AP Photo/Jeff Chiu）
+  'https://image.bastillepost.com/1200x/wp-content/uploads/global/2026/06/39092d1e8e7a5e2fbdd840886cdb749a_APTOPIX_Paraguay_Turkey_WCup_Soccer_46813.jpg.webp',
+  // 🇹🇷🇵🇾 土耳其球迷 vs 巴拉圭球迷！舊金山李維斯體育場上演關鍵D組生死戰，土耳其全場78%控球率仍無力回天（AP Photo/Eakin Howard）
+  'https://image.bastillepost.com/1200x/wp-content/uploads/global/2026/06/39092d1e8e7a5e2fbdd840886cdb749a_Paraguay_Turkey_WCup_Soccer_55593.jpg.webp',
+  // 🇹🇷 Abdülkerim Bardakcı 懊悔不已！土耳其0-1不敵10人巴拉圭，兩戰0進球慘遭淘汰（Reuters/Daily Sabah）
+  'https://idsb.tmgrup.com.tr/ly/uploads/images/2026/06/20/446973.JPG',
   // 🇺🇸 Alex Freeman 43分鐘頭槌破門！VAR推翻越位判決，Freeman 攻入個人世界盃首球（Getty via USA Today Sports）
   'https://www.twincities.com/wp-content/uploads/2026/06/Australia_US_WCup_Soccer_6371_-1-2.jpg',
   // 🇺🇸 美國球迷在賽後歡慶晉級32強！美國2連勝以6分提前晉級，主辦國三強目前5勝1和保持不敗（AP Photo/Lindsey Wasson）
-  'https://www.twincities.com/wp-content/uploads/2026/06/AP26170769510792.jpg'
+  'https://www.twincities.com/wp-content/uploads/2026/06/AP26170769510792.jpg',
+  // 🇧🇷 Matheus Cunha 慶祝打破世界盃進球荒！Cunha 在費城攻入個人世界盃首球，梅開二度助巴西重返勝利軌道（CBC/AP）
+  'https://i.cbc.ca/ais/4b9ccb86-7e3d-49f0-ad23-378b6f476e63,1781957771780/full/max/0/default.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇧🇷 巴西 3-0 🇭🇹 海地 — Vinícius Júnior 第45+3分鐘推射破門！Lucas Paquetá 直傳穿越防線，Vini 禁區內冷靜推射入網，半場結束前將比分改寫為3-0。Vini 本場1進球1助攻，當選全場最佳球員（AFP via Getty Images）',
-  '🇧🇷 巴西 3-0 🇭🇹 海地 — Matheus Cunha 梅開二度！Cunha 第36分鐘左腳勁射左上角，攻入個人本場第2球。Manchester United 前鋒在本屆世界盃首次先發即證明自己，Cunha 以招牌衝浪式滑行慶祝進球（AFP via Getty Images）',
-  '🇧🇷🇭🇹 巴西 3-0 🇭🇹 海地 — 巴西球迷在費城林肯金融球場歡呼慶祝！海地相隔52年重返世界盃，雖遭淘汰但仍獲全場掌聲。68,324名觀眾見證了海地球員的拼勁與熱情，巴西以4分躍居C組榜首（AFP via Getty Images）',
-  '🇧🇷 巴西 3-0 🇭🇹 海地 — Matheus Cunha 慶祝打破世界盃進球荒！Cunha 獲 Carlo Ancelotti 信任先發上陣，不負眾望梅開二度助巴西重返勝利軌道。賽後 Ancelotti 確認 Neymar 有望在對蘇格蘭的比賽中復出（CBC/AP）',
-  '🇲🇦 摩洛哥 1-0 🏴󠁧󠁢󠁳󠁣󠁴󠁿 蘇格蘭 — Ismael Saibari 攻入本屆世界盃最快進球！開賽僅70秒，Saibari 接 Brahim Diaz 過頂傳球，禁區內冷靜推射入網。摩洛哥以本屆最快進球取得夢幻開局，最終1-0擊敗蘇格蘭，小組賽1勝1和以4分暫居C組榜首（Reuters via Al Jazeera）',
-  '🇲🇦 摩洛哥 1-0 🏴󠁧󠁢󠁳󠁣󠁴󠁿 蘇格蘭 — Ismael Saibari 與隊友慶祝進球！這位 PSV 埃因霍溫中場攻入個人本屆世界盃第2球，延續對巴西一戰的好表現。摩洛哥全場控球率59%、12次射門2次射正，完全掌控比賽節奏（Reuters via Al Jazeera）',
-  '🏴󠁧󠁢󠁳󠁣󠁴󠁿🇲🇦 蘇格蘭 vs 摩洛哥 — 波士頓體育場內外球迷熱情交鋒！蘇格蘭全場6次射門0射正，創下本屆世界盃罕見紀錄。Scott McTominay 在第86分鐘禁區內倒地未獲12碼罰球，引發賽後爭議（Reuters via Al Jazeera）',
-  '🇲🇦 摩洛哥 1-0 🏴󠁧󠁢󠁳󠁣󠁴󠁿 蘇格蘭 — Brahim Diaz（左）與 Achraf Hakimi 慶祝勝利！Diaz 送出關鍵助攻，摩洛哥防守穩健守住1-0勝果。蘇格蘭1勝1負仍有機會晉級，最後一戰需面對巴西（AP Photo/Martin Meissner）',
-  '🇺🇸 美國 2-0 🇦🇺 澳洲 — Folarin Balogun 與 Antonee Robinson 慶祝開紀錄！11分鐘 Balogun 左路狂飆突破傳中，澳洲後衛 Cameron Burgess 解圍不慎將球碰入自家大門，美國靠烏龍球取得領先。這是本屆世界盃第7顆烏龍球，已超越2022年整屆總數（Getty via USA Today Sports）',
+  '🇵🇾 巴拉圭 1-0 🇹🇷 土耳其 — Matías Galarza 開賽64秒閃電進球創本屆最快紀錄！Julio Enciso 中場直塞，Galarza 禁區外左腳勁射穿過 Merih Demiral 胯下入網。Galarza 成為本屆世界盃首位在開賽2分鐘內進球的球員（AP Photo/Eakin Howard）',
+  '🇵🇾 巴拉圭 1-0 🇹🇷 土耳其 — Miguel Almiron 因遮嘴與土耳其球員交談收到歷史性紅牌！裁判 Ivan Barton 透過VAR確認後直接出示紅牌，Almiron 成為世界盃新規則「禁止遮嘴交談」的首位受罰者，巴拉圭下半場以10人應戰（AP Photo/Jeff Chiu）',
+  '🇹🇷🇵🇾 土耳其 vs 巴拉圭 — 舊金山李維斯體育場上演D組關鍵戰！土耳其全場控球率高達78%、19次射門卻無法破門。巴拉圭門將 Orlando Gill 多次關鍵撲救，Mert Müldür 頭槌擊中橫梁與門柱彈出（AP Photo/Eakin Howard）',
+  '🇹🇷 土耳其 0-1 🇵🇾 巴拉圭 — Abdülkerim Bardakcı 賽後懊悔不已！土耳其兩戰0進球提前淘汰，成為本屆首支遭淘汰的歐洲球隊。Vincenzo Montella 賽後表示：「球員已全力以赴，但足球就是如此殘酷」（Reuters/Daily Sabah）',
   '🇺🇸 美國 2-0 🇦🇺 澳洲 — Alex Freeman 43分鐘頭槌破門！Antonee Robinson 勁射後球反彈，Freeman 門前頭槌入網。邊裁起初舉旗示意越位，VAR 介入後推翻判決，Freeman 攻入個人世界盃首球（Getty via USA Today Sports）',
-  '🇺🇸 美國球迷在賽後歡慶晉級32強！美國以2連勝、6分積分確定晉級淘汰賽，成為繼墨西哥之後第2支提前出線的球隊。Pochettino 的美國隊打出「高位壓迫、控制節奏」的風格，主辦國三強（美加墨）目前5勝1和保持不敗（AP Photo/Lindsey Wasson）'
+  '🇺🇸 美國球迷在賽後歡慶晉級32強！美國以2連勝、6分積分確定晉級淘汰賽，成為繼墨西哥之後第2支提前出線的球隊。Pochettino 的美國隊打出「高位壓迫、控制節奏」的風格，主辦國三強（美加墨）目前5勝1和保持不敗（AP Photo/Lindsey Wasson）',
+  '🇧🇷 巴西 3-0 🇭🇹 海地 — Matheus Cunha 梅開二度慶祝打破世界盃進球荒！Cunha 獲 Carlo Ancelotti 信任先發上陣，不負眾望梅開二度助巴西重返勝利軌道。賽後 Ancelotti 確認 Neymar 有望在對蘇格蘭的比賽中復出（CBC/AP）'
 ];
