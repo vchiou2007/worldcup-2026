@@ -111,30 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-20 更新：巴拉圭1-0土耳其 — Galarza最快進球、Almiron紅牌） =====
+// ===== 輪播牆圖片（2026-06-20 更新：荷蘭5-1瑞典、德國2-1象牙海岸） =====
 const HERO_IMAGES = [
-  // 🇵🇾 Matías Galarza 慶祝本屆世界盃最快進球！開賽僅64秒即破門，成為世界盃史上最快進球之一（AP Photo/Eakin Howard）
-  'https://image.bastillepost.com/1200x/wp-content/uploads/global/2026/06/39092d1e8e7a5e2fbdd840886cdb749a_APTOPIX_Paraguay_Turkey_WCup_Soccer_92511.jpg.webp',
-  // 🇵🇾 Miguel Almiron 收到歷史性紅牌！因遮嘴與對手交談被罰下，成為世界盃新規則首位受罰球員（AP Photo/Jeff Chiu）
-  'https://image.bastillepost.com/1200x/wp-content/uploads/global/2026/06/39092d1e8e7a5e2fbdd840886cdb749a_APTOPIX_Paraguay_Turkey_WCup_Soccer_46813.jpg.webp',
-  // 🇹🇷🇵🇾 土耳其球迷 vs 巴拉圭球迷！舊金山李維斯體育場上演關鍵D組生死戰，土耳其全場78%控球率仍無力回天（AP Photo/Eakin Howard）
-  'https://image.bastillepost.com/1200x/wp-content/uploads/global/2026/06/39092d1e8e7a5e2fbdd840886cdb749a_Paraguay_Turkey_WCup_Soccer_55593.jpg.webp',
-  // 🇹🇷 Abdülkerim Bardakcı 懊悔不已！土耳其0-1不敵10人巴拉圭，兩戰0進球慘遭淘汰（Reuters/Daily Sabah）
-  'https://idsb.tmgrup.com.tr/ly/uploads/images/2026/06/20/446973.JPG',
-  // 🇺🇸 Alex Freeman 43分鐘頭槌破門！VAR推翻越位判決，Freeman 攻入個人世界盃首球（Getty via USA Today Sports）
-  'https://www.twincities.com/wp-content/uploads/2026/06/Australia_US_WCup_Soccer_6371_-1-2.jpg',
-  // 🇺🇸 美國球迷在賽後歡慶晉級32強！美國2連勝以6分提前晉級，主辦國三強目前5勝1和保持不敗（AP Photo/Lindsey Wasson）
-  'https://www.twincities.com/wp-content/uploads/2026/06/AP26170769510792.jpg',
-  // 🇧🇷 Matheus Cunha 慶祝打破世界盃進球荒！Cunha 在費城攻入個人世界盃首球，梅開二度助巴西重返勝利軌道（CBC/AP）
-  'https://i.cbc.ca/ais/4b9ccb86-7e3d-49f0-ad23-378b6f476e63,1781957771780/full/max/0/default.jpg'
+  // 🇳🇱 Brian Brobbey 慶祝開場5分鐘閃電進球！布羅比梅開二度助荷蘭5-1大勝瑞典（AP Photo/Eric Gay）
+  'https://s.hdnux.com/photos/01/66/50/10/31097354/3/rawImage.jpg',
+  // 🇳🇱 Cody Gakpo 慶祝個人第2球，荷蘭10分鐘內連進3球打垮瑞典防線（AP Photo/Ashley Landis）
+  'https://s.hdnux.com/photos/01/66/50/10/31097356/3/rawImage.jpg',
+  // 🇳🇱🇸🇪 荷蘭球迷 Orange Walk 遊行前進休斯頓NRG體育場，整條街淹沒在橙色海洋中（AP Photo/Jon Shapley）
+  'https://s.hdnux.com/photos/01/66/50/06/31097248/3/rawImage.jpg',
+  // 🇸🇪 Anthony Elanga 慶祝瑞典扳回一城，Isak 精準直塞助攻 Elanga 禁區內低射破網（AP Photo/Karen Warren）
+  'https://s.hdnux.com/photos/01/66/50/10/31097360/3/rawImage.jpg',
+  // 🇩🇪 Deniz Undav 慶祝94分鐘絕殺進球！替補上陣梅開二度，德國2-1逆轉象牙海岸晉級32強（AFP/Getty via Toronto Sun）
+  'https://smartcdn.gprod.postmedia.digital/torontosun/wp-content/uploads/2026/06/2282023527.jpg?quality=100&strip=all',
+  // 🇩🇪 Franck Kessié 慶祝為象牙海岸首開紀錄！30分鐘禁區內推射破門，象牙海岸半場領先（AP Photo/Stephanie Scarbrough）
+  'https://s.hdnux.com/photos/01/66/50/10/31097363/3/rawImage.jpg',
+  // 🇩🇪🇨🇮 德國球迷在多倫多街頭遊行，黑紅金旗幟飄揚，"Super Deutschland olé!" 口號響徹雲霄（CP/Jon Blacker）
+  'https://s.hdnux.com/photos/01/66/50/10/31097365/3/rawImage.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🇵🇾 巴拉圭 1-0 🇹🇷 土耳其 — Matías Galarza 開賽64秒閃電進球創本屆最快紀錄！Julio Enciso 中場直塞，Galarza 禁區外左腳勁射穿過 Merih Demiral 胯下入網。Galarza 成為本屆世界盃首位在開賽2分鐘內進球的球員（AP Photo/Eakin Howard）',
-  '🇵🇾 巴拉圭 1-0 🇹🇷 土耳其 — Miguel Almiron 因遮嘴與土耳其球員交談收到歷史性紅牌！裁判 Ivan Barton 透過VAR確認後直接出示紅牌，Almiron 成為世界盃新規則「禁止遮嘴交談」的首位受罰者，巴拉圭下半場以10人應戰（AP Photo/Jeff Chiu）',
-  '🇹🇷🇵🇾 土耳其 vs 巴拉圭 — 舊金山李維斯體育場上演D組關鍵戰！土耳其全場控球率高達78%、19次射門卻無法破門。巴拉圭門將 Orlando Gill 多次關鍵撲救，Mert Müldür 頭槌擊中橫梁與門柱彈出（AP Photo/Eakin Howard）',
-  '🇹🇷 土耳其 0-1 🇵🇾 巴拉圭 — Abdülkerim Bardakcı 賽後懊悔不已！土耳其兩戰0進球提前淘汰，成為本屆首支遭淘汰的歐洲球隊。Vincenzo Montella 賽後表示：「球員已全力以赴，但足球就是如此殘酷」（Reuters/Daily Sabah）',
-  '🇺🇸 美國 2-0 🇦🇺 澳洲 — Alex Freeman 43分鐘頭槌破門！Antonee Robinson 勁射後球反彈，Freeman 門前頭槌入網。邊裁起初舉旗示意越位，VAR 介入後推翻判決，Freeman 攻入個人世界盃首球（Getty via USA Today Sports）',
-  '🇺🇸 美國球迷在賽後歡慶晉級32強！美國以2連勝、6分積分確定晉級淘汰賽，成為繼墨西哥之後第2支提前出線的球隊。Pochettino 的美國隊打出「高位壓迫、控制節奏」的風格，主辦國三強（美加墨）目前5勝1和保持不敗（AP Photo/Lindsey Wasson）',
-  '🇧🇷 巴西 3-0 🇭🇹 海地 — Matheus Cunha 梅開二度慶祝打破世界盃進球荒！Cunha 獲 Carlo Ancelotti 信任先發上陣，不負眾望梅開二度助巴西重返勝利軌道。賽後 Ancelotti 確認 Neymar 有望在對蘇格蘭的比賽中復出（CBC/AP）'
+  '🇳🇱 荷蘭 5-1 🇸🇪 瑞典 — Brian Brobbey 開場5分鐘即破門！Gakpo 左路傳中，Brobbey 門前近距離搶點入網，隨後第17分鐘 Dumfries 傳中 Brobbey 再次破門梅開二度。這位桑德蘭前鋒在世界盃賽場大放異彩（AP Photo/Eric Gay）',
+  '🇳🇱 荷蘭 5-1 🇸🇪 瑞典 — Cody Gakpo 下半場8分鐘內連進2球！第47分鐘 Dumfries 傳中 Gakpo 近射入網，第54分鐘 Summerville 反擊傳球 Gakpo 禁區左側勁射遠角，世界盃累計5球僅次於荷蘭傳奇 Johnny Rep（AP Photo/Ashley Landis）',
+  '🇳🇱 荷蘭球迷 Orange Walk 遊行前進休斯頓NRG體育場！數千名身穿橙色球衣的荷蘭球迷穿過休斯頓市中心，形成壯觀的橙色人潮。荷蘭以一場令人信服的5-1勝利登上F組榜首（AP Photo/Jon Shapley）',
+  '🇸🇪 瑞典 1-5 🇳🇱 荷蘭 — Anthony Elanga 第59分鐘為瑞典扳回一城！Alexander Isak 精準直塞穿透荷蘭防線，Elanga 禁區內低射遠角入網。瑞典雖敗猶榮，仍以3分暫居F組第二（AP Photo/Karen Warren）',
+  '🇩🇪 德國 2-1 🇨🇮 象牙海岸 — Deniz Undav 替補上場梅開二度，94分鐘絕殺逆轉！第68分鐘 Amiri 傳中 Undav 凌空抽射扳平，第90+4分鐘 Nmecha 妙傳 Undav 冷靜射入致勝球。德國成為繼美國、墨西哥後第3支晉級32強的球隊（AFP/Getty via Toronto Sun）',
+  '🇨🇮 象牙海岸 1-2 🇩🇪 德國 — Franck Kessié 第30分鐘首開紀錄！RB萊比錫新星 Yan Diomande 右路突破 Joshua Kimmich 後低平球傳中，Kessié 禁區中央推射入網。象牙海岸上半場完全壓制四屆冠軍德國隊（AP Photo/Stephanie Scarbrough）',
+  '🇩🇪🇨🇮 德國 vs 象牙海岸 — 多倫多街頭德國球迷大遊行！成千上萬德國球迷湧入多倫多 waterfront，高唱 "Super Deutschland olé!" 為球隊助威。德國最終在 Toronto Stadium 以2-1逆轉勝出（THE CANADIAN PRESS/Jon Blacker）'
 ];

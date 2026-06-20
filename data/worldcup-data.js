@@ -1338,27 +1338,6 @@ const WC_DATA = {
         { min: 89, team: 2, player: 'Samir El Mourabet', card: 'yellow', detail: '戰術犯規' },
         { min: 89, team: 2, player: 'Azzedine Ounahi', card: 'yellow', detail: '戰術犯規' },
         { min: 89, team: 1, player: 'Ross Stewart', card: 'yellow', detail: '犯規' },
-        { min: 89, team: 1, player: 'John McGinn', card: 'yellow', detail: '犯規' }
-      ],
-      stats: {
-        possession: [41, 59],
-        shots: [6, 12],
-        shotsOnTarget: [0, 2],
-        shotsOffTarget: [4, 8],
-        shotsInsideBox: [3, 7],
-        shotsOutsideBox: [3, 5],
-        passes: [340, 490],
-        passCompleted: [250, 400],
-        passAccuracy: [73.5, 81.6],
-        crosses: [12, 18],
-        crossesCompleted: [3, 5],
-        corners: [2, 5],
-        freeKicks: [13, 11],
-        fouls: [11, 8],
-        offsides: [1, 0],
-        yellowCards: [2, 3],
-        redCards: [0, 0],
-        forcedTurnovers: [28, 32],
         pressingApplied: [200, 240]
       }
     },
@@ -1394,44 +1373,152 @@ const WC_DATA = {
         pressingApplied: [230, 220]
       }
     },
-
-    // === 6月20日 ===
-    { date: '2026-06-20', time: '06:00 ET', group: 'D', team1: 'Turkey', score1: 0, team2: 'Paraguay', score2: 1, venue: '舊金山·李維斯體育場', status: 'completed',
-      goals: [
-        { min: 2, team: 2, scorer: 'Matías Galarza', assist: 'Julio Enciso', detail: 'Andres Cubas 斷球後 Enciso 直塞，Galarza 禁區外左腳射門穿過 Merih Demiral 跨下入網，64秒為本屆最快進球' }
-      ],
-      cards: [
-        { min: 70, team: 1, player: 'Ismail Yuksek', card: 'yellow', detail: '中場犯規' },
-        { min: 90, team: 2, player: 'Miguel Almiron', card: 'red', detail: '爭執中用手遮嘴，成為世界盃史上首位因新規則被罰下的球員' }
-      ],
-      stats: {
-        possession: [78, 22],
-        shots: [19, 5],
-        shotsOnTarget: [4, 2],
-        shotsOffTarget: [15, 3],
-        shotsInsideBox: [11, 3],
-        shotsOutsideBox: [8, 2],
-        passes: [680, 250],
-        passCompleted: [600, 190],
-        passAccuracy: [88.2, 76.0],
-        crosses: [25, 6],
-        crossesCompleted: [7, 1],
-        corners: [7, 0],
-        freeKicks: [12, 15],
-        fouls: [7, 12],
-        offsides: [2, 2],
-        yellowCards: [1, 1],
-        redCards: [0, 1],
+        redCards: [0, 0],
         forcedTurnovers: [28, 32],
         pressingApplied: [200, 240]
       }
     },
-    { date: '2026-06-20', time: '13:00 ET', group: 'F', team1: 'Netherlands', score1: null, team2: 'Sweden', score2: null, venue: '休斯頓·NRG體育場', status: 'scheduled' },
-    { date: '2026-06-21', time: '00:00 ET', group: 'F', team1: 'Tunisia', score1: null, team2: 'Japan', score2: null, venue: '蒙特雷·BBVA球場', status: 'scheduled' },
-    { date: '2026-06-20', time: '16:00 ET', group: 'E', team1: 'Germany', score1: null, team2: 'Ivory Coast', score2: null, venue: '多倫多·BMO球場', status: 'scheduled' },
+    { date: '2026-06-19', time: '21:00 ET', group: 'C', team1: 'Brazil', score1: 3, team2: 'Haiti', score2: 0, venue: '費城·林肯金融球場', status: 'completed',
+      goals: [
+        { min: 22, team: 1, scorer: 'Matheus Cunha', assist: 'Vinicius Junior', detail: 'Vinicius 射門被撲，Cunha 門前補射入網，個人世界盃首球' },
+        { min: 35, team: 1, scorer: 'Matheus Cunha', assist: 'Vinicius Junior', detail: 'Vinicius 直塞，Cunha 禁區內左腳勁射入左上角，梅開二度' },
+        { min: 45, team: 1, scorer: 'Vinicius Junior', assist: 'Lucas Paqueta', detail: 'Paqueta 過頂傳球，Vinicius 禁區內冷靜推射破門，半場結束前鎖定勝局' }
+      ],
+      cards: [
+        { min: 4, team: 2, player: 'Carlens Arcus', card: 'yellow', detail: '惡意犯規' },
+        { min: 63, team: 2, player: 'Frantzdy Pierrot', card: 'yellow', detail: '犯規' },
+        { min: 78, team: 1, player: 'Bruno Guimarães', card: 'yellow', detail: '戰術犯規' }
+      ],
+      stats: {
+        possession: [61, 39],
+        shots: [7, 5],
+        shotsOnTarget: [5, 1],
+        shotsOffTarget: [2, 2],
+        shotsInsideBox: [5, 3],
+        shotsOutsideBox: [2, 2],
+        passes: [580, 350],
+        passCompleted: [520, 290],
+        passAccuracy: [89.7, 82.9],
+        crosses: [18, 10],
+        crossesCompleted: [6, 2],
+        corners: [4, 2],
+        freeKicks: [12, 14],
+        fouls: [9, 7],
+        offsides: [7, 2],
+        yellowCards: [1, 2],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [210, 250]
+      }
+    },
+
+    // === 6月20日 ===
+    { date: '2026-06-20', time: '06:00 ET', group: 'D', team1: 'Turkey', score1: 0, team2: 'Paraguay', score2: 1, venue: '舊金山·李維斯體育場', status: 'completed',
+      goals: [
+        { min: 2, team: 2, scorer: 'Matías Galarza', assist: 'Julio Enciso', detail: 'Enciso 中場直塞，Galarza 禁區外左腳遠射入右下角，開賽僅2分鐘閃電進球' }
+      ],
+      cards: [
+        { min: 34, team: 2, player: 'Diego Gómez', card: 'yellow', detail: '中場犯規' },
+        { min: 45, team: 1, player: 'Merih Demiral', card: 'yellow', detail: '犯規' },
+        { min: 52, team: 2, player: 'Júnior Alonso', card: 'yellow', detail: '戰術犯規' },
+        { min: 67, team: 1, player: 'Orkun Kökçü', card: 'yellow', detail: '犯規' },
+        { min: 72, team: 2, player: 'Gustavo Gómez', card: 'red', detail: '破壞明顯得分機會，直接紅牌，巴拉圭十人應戰' },
+        { min: 85, team: 1, player: 'Hakan Çalhanoğlu', card: 'yellow', detail: '爭搶犯規' }
+      ],
+      stats: {
+        possession: [62, 38],
+        shots: [18, 4],
+        shotsOnTarget: [5, 2],
+        shotsOffTarget: [9, 1],
+        shotsInsideBox: [11, 2],
+        shotsOutsideBox: [7, 2],
+        passes: [580, 310],
+        passCompleted: [520, 240],
+        passAccuracy: [89.7, 77.4],
+        crosses: [22, 8],
+        crossesCompleted: [7, 1],
+        corners: [9, 2],
+        freeKicks: [14, 16],
+        fouls: [14, 15],
+        offsides: [2, 3],
+        yellowCards: [3, 2],
+        redCards: [0, 1],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [240, 200]
+      }
+    },
+    { date: '2026-06-20', time: '13:00 ET', group: 'F', team1: 'Netherlands', score1: 5, team2: 'Sweden', score2: 1, venue: '休斯頓·NRG體育場', status: 'completed',
+      goals: [
+        { min: 5, team: 1, scorer: 'Brian Brobbey', assist: 'Cody Gakpo', detail: 'Gakpo 右路傳中，Brobbey 門前近距離搶點破門，荷蘭夢幻開局' },
+        { min: 17, team: 1, scorer: 'Brian Brobbey', assist: 'Denzel Dumfries', detail: 'Dumfries 右路傳中，Brobbey 禁區中央再次破門梅開二度' },
+        { min: 47, team: 1, scorer: 'Cody Gakpo', assist: 'Denzel Dumfries', detail: 'Dumfries 再次右路傳中，Gakpo 禁區內近距離射門入網，下半場開場即破門' },
+        { min: 54, team: 1, scorer: 'Cody Gakpo', assist: 'Crysencio Summerville', detail: 'Summerville 反擊中傳球，Gakpo 禁區內冷靜推射梅開二度' },
+        { min: 59, team: 2, scorer: 'Anthony Elanga', assist: 'Alexander Isak', detail: 'Isak 精準直塞，Elanga 禁區內低射破網，瑞典扳回一城' },
+        { min: 89, team: 1, scorer: 'Crysencio Summerville', assist: 'Memphis Depay', detail: 'Depay 禁區外傳球，Summerville 禁區外低射入網，荷蘭鎖定5-1勝局' }
+      ],
+      cards: [
+        { min: 75, team: 2, player: 'Yasin Ayari', card: 'yellow', detail: '惡意犯規' },
+        { min: 80, team: 2, player: 'Lucas Bergvall', card: 'yellow', detail: '惡意犯規' }
+      ],
+      stats: {
+        possession: [58, 42],
+        shots: [18, 10],
+        shotsOnTarget: [8, 3],
+        shotsOffTarget: [7, 5],
+        shotsInsideBox: [12, 6],
+        shotsOutsideBox: [6, 4],
+        passes: [530, 380],
+        passCompleted: [475, 310],
+        passAccuracy: [89.6, 81.6],
+        crosses: [22, 16],
+        crossesCompleted: [8, 4],
+        corners: [8, 4],
+        freeKicks: [12, 14],
+        fouls: [10, 14],
+        offsides: [2, 3],
+        yellowCards: [0, 2],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [220, 250]
+      }
+    },
+    { date: '2026-06-20', time: '16:00 ET', group: 'E', team1: 'Germany', score1: 2, team2: 'Ivory Coast', score2: 1, venue: '多倫多·BMO球場', status: 'completed',
+      goals: [
+        { min: 30, team: 2, scorer: 'Franck Kessié', assist: 'Yan Diomande', detail: 'Diomande 左路低平球傳中，Kessié 禁區中央推射入網，象牙海岸領先' },
+        { min: 68, team: 1, scorer: 'Deniz Undav', assist: 'Nadiem Amiri', detail: 'Amiri 右路精準傳中，Undav 禁區內凌空抽射扳平比分' },
+        { min: 90, team: 1, scorer: 'Deniz Undav', assist: 'Felix Nmecha', detail: '傷停補時第4分鐘，Nmecha 傳球，Undav 禁區內射門入網，德國絕殺逆轉！' }
+      ],
+      cards: [
+        { min: 45, team: 2, player: 'Odilon Kossounou', card: 'yellow', detail: '犯規' },
+        { min: 62, team: 1, player: 'Antonio Rüdiger', card: 'yellow', detail: '戰術犯規' },
+        { min: 78, team: 2, player: 'Seko Fofana', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [59, 41],
+        shots: [16, 6],
+        shotsOnTarget: [5, 3],
+        shotsOffTarget: [8, 2],
+        shotsInsideBox: [10, 4],
+        shotsOutsideBox: [6, 2],
+        passes: [510, 350],
+        passCompleted: [450, 280],
+        passAccuracy: [88.2, 80.0],
+        crosses: [20, 12],
+        crossesCompleted: [5, 3],
+        corners: [7, 3],
+        freeKicks: [14, 16],
+        fouls: [14, 12],
+        offsides: [3, 1],
+        yellowCards: [1, 2],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [210, 250]
+      }
+    },
     { date: '2026-06-20', time: '20:00 ET', group: 'E', team1: 'Ecuador', score1: null, team2: 'Curaçao', score2: null, venue: '堪薩斯城·箭頭體育場', status: 'scheduled' },
 
     // === 6月21日 ===
+    { date: '2026-06-21', time: '00:00 ET', group: 'F', team1: 'Tunisia', score1: null, team2: 'Japan', score2: null, venue: '蒙特雷·BBVA球場', status: 'scheduled' },
     { date: '2026-06-21', time: '12:00 ET', group: 'H', team1: 'Spain', score1: null, team2: 'Saudi Arabia', score2: null, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'scheduled' },
     { date: '2026-06-21', time: '15:00 ET', group: 'G', team1: 'Belgium', score1: null, team2: 'Iran', score2: null, venue: '洛杉磯·SoFi體育場', status: 'scheduled' },
     { date: '2026-06-21', time: '18:00 ET', group: 'H', team1: 'Uruguay', score1: null, team2: 'Cape Verde', score2: null, venue: '邁阿密·硬石體育場', status: 'scheduled' },
@@ -1493,9 +1580,9 @@ const WC_DATA = {
       { team: 'Qatar', played: 2, won: 0, drawn: 1, lost: 1, gf: 1, ga: 7, gd: -6, pts: 1 }
     ],
     'C': [
-      { team: 'Scotland', played: 2, won: 1, drawn: 0, lost: 1, gf: 1, ga: 1, gd: 0, pts: 3 },
       { team: 'Morocco', played: 2, won: 1, drawn: 1, lost: 0, gf: 2, ga: 1, gd: 1, pts: 4 },
       { team: 'Brazil', played: 2, won: 1, drawn: 1, lost: 0, gf: 4, ga: 1, gd: 3, pts: 4 },
+      { team: 'Scotland', played: 2, won: 1, drawn: 0, lost: 1, gf: 1, ga: 1, gd: 0, pts: 3 },
       { team: 'Haiti', played: 2, won: 0, drawn: 0, lost: 2, gf: 0, ga: 4, gd: -4, pts: 0 }
     ],
     'D': [
@@ -1505,14 +1592,14 @@ const WC_DATA = {
       { team: 'Turkey', played: 2, won: 0, drawn: 0, lost: 2, gf: 0, ga: 3, gd: -3, pts: 0 }
     ],
     'E': [
-      { team: 'Germany', played: 1, won: 1, drawn: 0, lost: 0, gf: 7, ga: 1, gd: 6, pts: 3 },
-      { team: 'Ivory Coast', played: 1, won: 1, drawn: 0, lost: 0, gf: 1, ga: 0, gd: 1, pts: 3 },
+      { team: 'Germany', played: 2, won: 2, drawn: 0, lost: 0, gf: 9, ga: 2, gd: 7, pts: 6 },
+      { team: 'Ivory Coast', played: 2, won: 1, drawn: 0, lost: 1, gf: 2, ga: 2, gd: 0, pts: 3 },
       { team: 'Ecuador', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 1, gd: -1, pts: 0 },
       { team: 'Curaçao', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 7, gd: -6, pts: 0 }
     ],
     'F': [
-      { team: 'Sweden', played: 1, won: 1, drawn: 0, lost: 0, gf: 5, ga: 1, gd: 4, pts: 3 },
-      { team: 'Netherlands', played: 1, won: 0, drawn: 1, lost: 0, gf: 2, ga: 2, gd: 0, pts: 1 },
+      { team: 'Netherlands', played: 2, won: 1, drawn: 1, lost: 0, gf: 7, ga: 3, gd: 4, pts: 4 },
+      { team: 'Sweden', played: 2, won: 1, drawn: 0, lost: 1, gf: 6, ga: 6, gd: 0, pts: 3 },
       { team: 'Japan', played: 1, won: 0, drawn: 1, lost: 0, gf: 2, ga: 2, gd: 0, pts: 1 },
       { team: 'Tunisia', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 5, gd: -4, pts: 0 }
     ],
