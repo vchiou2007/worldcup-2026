@@ -111,30 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-19 更新：6月19日賽果 — 美國2-0澳洲晉級32強、主辦國5勝1和） =====
+// ===== 輪播牆圖片（2026-06-19 更新：6月19日賽果 — 摩洛哥1-0蘇格蘭、美國2-0澳洲晉級32強） =====
 const HERO_IMAGES = [
+  // 🇲🇦 Ismael Saibari 攻入本屆世界盃最快進球！70秒即破門，摩洛哥1-0領先蘇格蘭（Reuters via Al Jazeera）
+  'https://www.aljazeera.com/wp-content/uploads/2026/06/2026-06-20T000714Z_541883974_UP1EM6K00C1DF_RTRMADP_3_SOCCER-WORLDCUP-SCO-MAR-1781914951.jpg',
+  // 🇲🇦🇲🇦 Saibari 與隊友慶祝！PSV中場攻入個人本屆世界盃第2球，摩洛哥小組賽4分暫居榜首（Reuters via Al Jazeera）
+  'https://www.aljazeera.com/wp-content/uploads/2026/06/2026-06-20T001335Z_2118542275_UP1EM6K00MMEB_RTRMADP_3_SOCCER-WORLDCUP-SCO-MAR-1781914949.jpg',
+  // 🏴󠁧󠁢󠁳󠁣󠁴󠁿🇲🇦 蘇格蘭球迷 vs 摩洛哥球迷！波士頓體育場上演熱烈對決，蘇格蘭全場0射正無力回天（Reuters via Al Jazeera）
+  'https://www.aljazeera.com/wp-content/uploads/2026/06/2026-06-20T000821Z_597810475_UP1EM6K00DVDQ_RTRMADP_3_SOCCER-WORLDCUP-SCO-MAR-FANS-1781916761.jpg',
+  // 🇲🇦 Brahim Diaz 與 Achraf Hakimi 慶祝勝利！摩洛哥1-0擊敗蘇格蘭，有望連續兩屆晉級淘汰賽（AP Photo/Martin Meissner）
+  'https://www.aljazeera.com/wp-content/uploads/2026/06/AP26171001611882-1781914954.jpg',
   // 🇺🇸 Folarin Balogun 與 Antonee Robinson 慶祝開紀錄！Burgess 烏龍球助美國領先（Getty via USA Today Sports）
   'https://www.twincities.com/wp-content/uploads/2026/06/Australia_US_WCup_Soccer_4_55_.jpg',
   // 🇺🇸 Alex Freeman 43分鐘頭槌破門！VAR推翻越位判決，Freeman 攻入個人世界盃首球（Getty via USA Today Sports）
   'https://www.twincities.com/wp-content/uploads/2026/06/Australia_US_WCup_Soccer_6371_-1-2.jpg',
-  // 🇺🇸 Matt Freese 賽後慶祝！美國門將 Freese 完成零封，兩戰僅失1球（Getty via USA Today Sports）
-  'https://www.twincities.com/wp-content/uploads/2026/06/Australia_US_WCup_Soccer_4_178.jpg',
-  // 🇺🇸 Ricardo Pepi 與 Harry Souttar 禁區內激烈對抗！澳洲後衛奮力阻擋美國攻勢（Getty via USA Today Sports）
-  'https://www.twincities.com/wp-content/uploads/2026/06/Australia_US_WCup_Soccer_15914-1.jpg',
-  // 🇺🇸🇦🇺 美國球迷高舉標語為球隊加油！西雅圖流明球場座無虛席，67,000名觀眾創造熱烈氛圍（Getty via USA Today Sports）
-  'https://www.twincities.com/wp-content/uploads/2026/06/Australia_US_WCup_Soccer_12957-1.jpg',
-  // 🇺🇸 美國球迷在賽後歡慶勝利！美國2連勝以6分提前晉級32強，成為第2支確定出線的球隊（AP Photo/Lindsey Wasson）
-  'https://www.twincities.com/wp-content/uploads/2026/06/AP26170769510792.jpg',
-  // 🇺🇸 Christian Pulisic 在場邊觀戰！美國隊長因小腿傷勢缺陣，仍在場邊為隊友加油（AP Photo/Manu Fernandez）
-  'https://www.twincities.com/wp-content/uploads/2026/06/AP26170711639324-1.jpg'
+  // 🇺🇸 美國球迷在賽後歡慶晉級32強！美國2連勝以6分提前晉級，主辦國三強目前5勝1和保持不敗（AP Photo/Lindsey Wasson）
+  'https://www.twincities.com/wp-content/uploads/2026/06/AP26170769510792.jpg'
 ];
 
 const HERO_CAPTIONS = [
+  '🇲🇦 摩洛哥 1-0 🏴󠁧󠁢󠁳󠁣󠁴󠁿 蘇格蘭 — Ismael Saibari 攻入本屆世界盃最快進球！開賽僅70秒，Saibari 接 Brahim Diaz 過頂傳球，禁區內冷靜推射入網。摩洛哥以本屆最快進球取得夢幻開局，最終1-0擊敗蘇格蘭，小組賽1勝1和以4分暫居C組榜首（Reuters via Al Jazeera）',
+  '🇲🇦 摩洛哥 1-0 🏴󠁧󠁢󠁳󠁣󠁴󠁿 蘇格蘭 — Ismael Saibari 與隊友慶祝進球！這位 PSV 埃因霍溫中場攻入個人本屆世界盃第2球，延續對巴西一戰的好表現。摩洛哥全場控球率59%、12次射門2次射正，完全掌控比賽節奏（Reuters via Al Jazeera）',
+  '🏴󠁧󠁢󠁳󠁣󠁴󠁿🇲🇦 蘇格蘭 vs 摩洛哥 — 波士頓體育場內外球迷熱情交鋒！蘇格蘭全場6次射門0射正，創下本屆世界盃罕見紀錄。Scott McTominay 在第86分鐘禁區內倒地未獲12碼罰球，引發賽後爭議（Reuters via Al Jazeera）',
+  '🇲🇦 摩洛哥 1-0 🏴󠁧󠁢󠁳󠁣󠁴󠁿 蘇格蘭 — Brahim Diaz（左）與 Achraf Hakimi 慶祝勝利！Diaz 送出關鍵助攻，摩洛哥防守穩健守住1-0勝果。蘇格蘭1勝1負仍有機會晉級，最後一戰需面對巴西（AP Photo/Martin Meissner）',
   '🇺🇸 美國 2-0 🇦🇺 澳洲 — Folarin Balogun 與 Antonee Robinson 慶祝開紀錄！11分鐘 Balogun 左路狂飆突破傳中，澳洲後衛 Cameron Burgess 解圍不慎將球碰入自家大門，美國靠烏龍球取得領先。這是本屆世界盃第7顆烏龍球，已超越2022年整屆總數（Getty via USA Today Sports）',
-  '🇺🇸 美國 2-0 🇦🇺 澳洲 — Alex Freeman 43分鐘頭槌破門！Antonee Robinson 勁射後球反彈，Freeman 門前頭槌入網。邊裁起初舉旗示意越位，VAR 介入後推翻判決，Freeman 攻入個人世界盃首球，同時也是美國 Heritage 高中校友的驕傲時刻（Getty via USA Today Sports）',
-  '🇺🇸 美國 2-0 🇦🇺 澳洲 — Matt Freese 賽後反應！由於 Turner 受傷，Freese 連續2場把關大門，本場完成零封。美國兩戰僅失1球（首戰對巴拉圭失1球），防守表現穩健，Mauricio Pochettino 的戰術體系逐漸成型（Getty via USA Today Sports）',
-  '🇺🇸 美國 2-0 🇦🇺 澳洲 — Ricardo Pepi 與澳洲 Harry Souttar 禁區內激烈對抗！Souttar 全場多次化解美國攻勢，但澳洲攻勢乏力全場僅5次射門。美國以62%控球率完全掌控比賽節奏（Getty via USA Today Sports）',
-  '🇺🇸🇦🇺 美國 vs 澳洲 — 西雅圖流明球場（Seattle Stadium）湧入67,000名觀眾，美國球迷高舉標語熱情應援。本場也是 Juneteenth（六月節）紀念日的特別賽事，西雅圖舉辦了一系列慶祝活動（Getty via USA Today Sports）',
-  '🇺🇸 美國球迷在賽後歡慶晉級32強！美國以2連勝、6分積分確定晉級淘汰賽，成為繼墨西哥之後第2支提前出線的球隊。Pochettino 的美國隊打出「高位壓迫、控制節奏」的風格，主辦國三強（美加墨）目前5勝1和保持不敗（AP Photo/Lindsey Wasson）',
-  '🇺🇸 Christian Pulisic 在場邊觀戰！美國隊長因小腿傷勢連續第二場缺陣，但仍在場邊積極為隊友加油。Pulisic 預計在小組賽最終戰對土耳其時復出，為淘汰賽調整狀態（AP Photo/Manu Fernandez）'
+  '🇺🇸 美國 2-0 🇦🇺 澳洲 — Alex Freeman 43分鐘頭槌破門！Antonee Robinson 勁射後球反彈，Freeman 門前頭槌入網。邊裁起初舉旗示意越位，VAR 介入後推翻判決，Freeman 攻入個人世界盃首球（Getty via USA Today Sports）',
+  '🇺🇸 美國球迷在賽後歡慶晉級32強！美國以2連勝、6分積分確定晉級淘汰賽，成為繼墨西哥之後第2支提前出線的球隊。Pochettino 的美國隊打出「高位壓迫、控制節奏」的風格，主辦國三強（美加墨）目前5勝1和保持不敗（AP Photo/Lindsey Wasson）'
 ];

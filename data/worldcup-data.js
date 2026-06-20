@@ -1329,7 +1329,39 @@ const WC_DATA = {
         pressingApplied: [220, 240]
       }
     },
-    { date: '2026-06-19', time: '18:00 ET', group: 'C', team1: 'Scotland', score1: null, team2: 'Morocco', score2: null, venue: '波士頓·吉列體育場', status: 'scheduled' },
+    { date: '2026-06-19', time: '18:00 ET', group: 'C', team1: 'Scotland', score1: 0, team2: 'Morocco', score2: 1, venue: '波士頓·吉列體育場', status: 'completed',
+      goals: [
+        { min: 21, team: 2, scorer: 'Ismael Saibari', assist: 'Brahim Diaz', detail: 'Brahim Diaz 過頂傳球，Saibari 禁區內冷靜推射入網，本屆世界盃最快進球（70秒）' }
+      ],
+      cards: [
+        { min: 3, team: 2, player: 'Carlens Arcus', card: 'yellow', detail: '惡意犯規' },
+        { min: 89, team: 2, player: 'Samir El Mourabet', card: 'yellow', detail: '戰術犯規' },
+        { min: 89, team: 2, player: 'Azzedine Ounahi', card: 'yellow', detail: '戰術犯規' },
+        { min: 89, team: 1, player: 'Ross Stewart', card: 'yellow', detail: '犯規' },
+        { min: 89, team: 1, player: 'John McGinn', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [41, 59],
+        shots: [6, 12],
+        shotsOnTarget: [0, 2],
+        shotsOffTarget: [4, 8],
+        shotsInsideBox: [3, 7],
+        shotsOutsideBox: [3, 5],
+        passes: [340, 490],
+        passCompleted: [250, 400],
+        passAccuracy: [73.5, 81.6],
+        crosses: [12, 18],
+        crossesCompleted: [3, 5],
+        corners: [2, 5],
+        freeKicks: [13, 11],
+        fouls: [11, 8],
+        offsides: [1, 0],
+        yellowCards: [2, 3],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [200, 240]
+      }
+    },
     { date: '2026-06-19', time: '21:00 ET', group: 'C', team1: 'Brazil', score1: null, team2: 'Haiti', score2: null, venue: '費城·林肯金融球場', status: 'scheduled' },
 
     // === 6月20日 ===
@@ -1401,9 +1433,9 @@ const WC_DATA = {
       { team: 'Qatar', played: 2, won: 0, drawn: 1, lost: 1, gf: 1, ga: 7, gd: -6, pts: 1 }
     ],
     'C': [
-      { team: 'Scotland', played: 1, won: 1, drawn: 0, lost: 0, gf: 1, ga: 0, gd: 1, pts: 3 },
+      { team: 'Scotland', played: 2, won: 1, drawn: 0, lost: 1, gf: 1, ga: 1, gd: 0, pts: 3 },
+      { team: 'Morocco', played: 2, won: 1, drawn: 1, lost: 0, gf: 2, ga: 1, gd: 1, pts: 4 },
       { team: 'Brazil', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
-      { team: 'Morocco', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
       { team: 'Haiti', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 1, gd: -1, pts: 0 }
     ],
     'D': [
