@@ -111,30 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-21 更新：日本4-0大勝突尼西亞，Ueda梅開二度） =====
+// ===== 輪播牆圖片（2026-06-21 更新：每日輪播—精選最新精彩賽事） =====
 const HERO_IMAGES = [
-  // 🇯🇵🇹🇳 世界盃第1000場比賽！日本球迷手持氣球慶祝里程碑賽事（AP Photo/Matias Delacroix）
+  // 🇨🇦⚽ 加拿大 6-0 卡達！Jonathan David 飛躍慶祝，加拿大史上首場世界盃勝利（AP Photo/Emma Peterson, Daily Press）
+  'https://cf-images.assettype.com/outlookindia/2026-06-18/0e6fra7d/Canada-vs-Qatar-FIFA-World-Cup-2026-Group-B-Jonathan-David-Leaps-Celeb-AP-Photo.jpg',
+  // 🇩🇪⚽ Deniz Undav 絕殺進球！替補上場的 Undav 梅開二度，德國 2-1 逆轉象牙海岸，12年來首度晉級淘汰賽（AP Photo/Stephanie Scarbrough via CNA）
+  'https://cf-images.assettype.com/outlookindia/2026-06-20/fs92hbt2/AP26171794238681.jpg',
+  // 🇳🇱⚽ 荷蘭 5-1 瑞典！Brian Brobbey 慶祝進球，與 Gakpo 各進兩球，荷蘭強勢反彈登上F組榜首（AP Photo/Eric Gay, beIN Sports）
+  'https://cf-images.assettype.com/outlookindia/2026-06-20/hchml4e4/AP26171617855857.jpg',
+  // 🇯🇵🇹🇳 世界盃第1,000場比賽！日本 vs 突尼西亞賽前球迷手持紀念氣球，日本在這場里程碑比賽中 4-0 大勝（AP Photo/Matias Delacroix）
   'https://cf-images.assettype.com/outlookindia/2026-06-21/dmsaq6bo/Tunisia-Vs-Japan-FIFA-World-Cup-2026-Group-F-Flags-AP-Photo.jpg',
-  // 🇯🇵🇹🇳 Daichi Kamada 開賽4分鐘閃電進球！Nakamura 左路傳中，Kamada 禁區內輕鬆推射入網（AP Photo/Moises Castillo）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/n3y1umwd/Tunisia-Vs-Japan-FIFA-World-Cup-2026-Group-F-Daichi-Kamada-Scores-2-AP-Photo.jpg',
-  // 🇯🇵 Ayase Ueda 禁區外強力遠射破門！第31分鐘擴大領先至2-0，日本完全掌控比賽（AP Photo/Matias Delacroix）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/hv7a1l6h/Tunisia-Vs-Japan-FIFA-World-Cup-2026-Group-F-Ayase-Ueda-shoots-and-scores-AP-Photo.jpg',
-  // 🇯🇵 Junya Ito 慶祝進球！第69分鐘接 Ueda 過頂傳球，冷靜推射破門，日本3-0領先（AP Photo/Matias Delacroix）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/ykjxqu3y/Tunisia-Vs-Japan-FIFA-World-Cup-2026-Group-F-Junya-Ito-and-team-AP-Photo.jpg',
-  // 🇯🇵🇹🇳 Ueda 頭槌梅開二度！第82分鐘 Sano 傳中，Ueda 禁區中央強力頭槌破網，日本4-0鎖定勝局（AP Photo/Matias Delacroix）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/purt1ioh/AP26172208743829.jpg',
-  // 🇯🇵 Ayase Ueda 賽後慶祝！2進球1助攻的完美表現，率日本登上F組榜首之位（AP Photo/Sofia Yaker）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/wy1i23cv/Tunisia-Vs-Japan-FIFA-World-Cup-2026-Group-F-Ayase-Ueda-Celebs-AP-Photo.jpg',
-  // 🇯🇵 東京澀谷街頭觀戰派對！日本球迷在公共場所見證國家隊4-0大勝，士氣高昂（AP Photo/Hiro Komae）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/nod1dgf3/Tunisia-Vs-Japan-FIFA-World-Cup-2026-Group-F-Watch-Party-Tokyo-AP-Photo.jpg'
+  // 🇲🇽🇰🇷 墨西哥門將 Raul Rangel 奇蹟般兩連撲！墨西哥 1-0 南韓，Rangel 第87分鐘擋出 Cho Gue-sung 頭槌及補射，成為首位晉級32強的球隊（AP Photo/Silvia Izquierdo）
+  'https://cf-images.assettype.com/outlookindia/2026-06-19/0f3ns8va/Mexico-vs-South-Korea-FIFA-World-Cup-2026-Raul-Rangel-miracle-save-2-AP-Photo.jpg',
+  // 🇺🇸⚽ 美國 2-0 澳洲！美國球員慶祝 Cameron Burgess 烏龍球後的首個進球，美國晉級32強並鎖定D組榜首之位（AP Photo/Ted S. Warren, The Guardian）
+  'https://cf-images.assettype.com/outlookindia/2026-06-19/1m5dmd4q/USA-vs-Australia-FIFA-World-Cup-2026-Group-D-American-celeb-goal-1-Own-Goal-AP-Photo.jpg',
+  // 🇯🇵⚽ Daichi Kamada 慶祝進球！日本 4-0 大勝突尼西亞，世界盃第1,000場比賽的歷史性一刻（AP Photo/Moises Castillo）
+  'https://cf-images.assettype.com/outlookindia/2026-06-21/n3y1umwd/Tunisia-Vs-Japan-FIFA-World-Cup-2026-Group-F-Daichi-Kamada-Scores-2-AP-Photo.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🎈🇯🇵 世界盃第1,000場比賽紀念！日本 vs 突尼西亞開賽前，球迷在蒙特雷球場手持紀念氣球，慶祝這項世界足球史上的里程碑。日本在這場歷史性比賽中以4-0大勝突尼西亞（AP Photo/Matias Delacroix）',
-  '⚽🇯🇵🇹🇳 日本 1-0 🇹🇳 — Daichi Kamada 開賽僅4分鐘即破門！Keito Nakamura 左路突破後低平球傳中，Kamada 禁區中央輕鬆推射入網，為日本取得夢幻開局。這是世界盃第1,000場比賽的首個進球（AP Photo/Moises Castillo）',
-  '⚽🇯🇵🇹🇳 日本 2-0 🇹🇳 — Ayase Ueda 第31分鐘禁區外強力遠射！Ko Itakura 精準傳球，Ueda 禁區外左腳勁射打入遠角，擴大領先優勢。Ueda 本場表現極其出色，貢獻2進球1助攻（AP Photo/Matias Delacroix）',
-  '⚽🇯🇵🇹🇳 日本 3-0 🇹🇳 — Junya Ito 第69分鐘冷靜推射！Ayase Ueda 送出精準過頂傳球，Ito 禁區內冷靜推射破門，日本徹底掌控比賽節奏（AP Photo/Matias Delacroix）',
-  '⚽🇯🇵🇹🇳 日本 4-0 🇹🇳 — Ayase Ueda 第82分鐘頭槌梅開二度！Kaishu Sano 右路精準傳中，Ueda 禁區中央強力頭槌破網，以完美表現當選全場最佳球員（AP Photo/Matias Delacroix）',
-  '🎉🇯🇵 Ayase Ueda 賽後與隊友慶祝！Ueda 本場貢獻2進球1助攻，成為日本隊史首位在世界盃單場2進球1助攻的球員。日本以4分並列F組榜首，晉級32強在望（AP Photo/Sofia Yaker）',
-  '🇯🇵🇯🇵 東京澀谷街頭觀戰派對！日本球迷聚集在澀谷十字路口，透過大螢幕見證國家隊4-0大勝。日本成為首支在世界盃單場攻入4球的亞洲球隊，球迷歡聲雷動（AP Photo/Hiro Komae）'
+  '🎉🇨🇦🇶🇦 加拿大 6-0 卡達 — Jonathan David 空中飛躍慶祝進球！David 上演帽子戲法，率加拿大奪得隊史首場世界盃勝利。加拿大以4分躍升B組榜首，晉級32強在望。本場卡達兩張紅牌成為轉折點，但 David 的三球依然寫下加拿大足球歷史新頁（AP Photo/Emma Peterson）',
+  '⚽🇩🇪🇨🇮 德國 2-1 象牙海岸 — Deniz Undav 傷停補時第4分鐘絕殺！替補上場的 Undav 梅開二度，第68分鐘扳平、第90+4分鐘逆轉，率德國12年來首度晉級世界盃淘汰賽。象牙海岸雖然由 Franck Kessié 先馳得點，仍無法擋住德國的強勢反撲（AP Photo/Stephanie Scarbrough）',
+  '⚽🇳🇱🇸🇪 荷蘭 5-1 瑞典 — Brian Brobbey 慶祝進球！Brobbey 開賽5分鐘就破門，17分鐘內梅開二度，創世界盃史上第四快雙響炮紀錄。Cody Gakpo 下半場也進兩球，荷蘭強勢反彈登上F組榜首（AP Photo/Eric Gay）',
+  '🎈🇯🇵🇹🇳 世界盃第1,000場比賽紀念！日本 vs 突尼西亞開賽前，球迷在蒙特雷球場手持紀念氣球，慶祝這項世界足球史上的里程碑。日本在這場歷史性比賽中以4-0大勝突尼西亞，成為首支在世界盃單場攻入4球的亞洲球隊（AP Photo/Matias Delacroix）',
+  '🧤🇲🇽🇰🇷 墨西哥門將 Raul Rangel 上演奇蹟兩連撲！第87分鐘，南韓 Cho Gue-sung 頭槌被 Rangel 擋出，跟進補射又被神勇化解。墨西哥以1-0擊敗南韓，六分全取成為本屆首支晉級32強的球隊（AP Photo/Silvia Izquierdo）',
+  '⚽🇺🇸🇦🇺 美國 2-0 澳洲 — 美國球員慶祝首個進球！澳洲後衛 Cameron Burgess 第11分鐘烏龍球，加上 Alex Freeman 頭槌破門，美國兩戰全勝以6分鎖定D組榜首，強勢晉級32強淘汰賽（AP Photo/Ted S. Warren）',
+  '🎉🇯🇵⚽ Daichi Kamada 開賽僅4分鐘即破門！Keito Nakamura 左路突破後低平球傳中，Kamada 禁區中央輕鬆推射入網，為世界盃第1,000場比賽寫下首個進球紀錄。日本隨後再進三球，以4-0大勝突尼西亞（AP Photo/Moises Castillo）'
 ];
