@@ -1558,7 +1558,38 @@ const WC_DATA = {
         pressingApplied: [200, 240]
       }
     },
-    { date: '2026-06-21', time: '12:00 ET', group: 'H', team1: 'Spain', score1: null, team2: 'Saudi Arabia', score2: null, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'scheduled' },
+    { date: '2026-06-21', time: '12:00 ET', group: 'H', team1: 'Spain', score1: 4, team2: 'Saudi Arabia', score2: 0, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'completed',
+      goals: [
+        { min: 10, team: 1, scorer: 'Lamine Yamal', assist: 'Mikel Oyarzabal', detail: 'Oyarzabal 右路精準傳中，Yamal 禁區內滑行鏟射入網，個人世界盃首球，18歲343天' },
+        { min: 21, team: 1, scorer: 'Mikel Oyarzabal', assist: 'Lamine Yamal', detail: 'Yamal 突破後射門被撲出，Oyarzabal 門前補射入網' },
+        { min: 24, team: 1, scorer: 'Mikel Oyarzabal', assist: 'Pedri', detail: 'Pedri 禁區邊緣傳球，Oyarzabal 禁區內轉身射門破網，梅開二度' },
+        { min: 49, team: 1, scorer: 'Hassan Altambakti (OG)', detail: 'Cucurella 禁區外凌空抽射被 Alowais 撲出，Altambakti 不慎將球擋入自家大門' }
+      ],
+      cards: [
+        { min: 62, team: 2, player: 'Ali Lajami', card: 'yellow', detail: '戰術犯規阻止反擊' }
+      ],
+      stats: {
+        possession: [72, 28],
+        shots: [17, 2],
+        shotsOnTarget: [5, 0],
+        shotsOffTarget: [8, 1],
+        shotsInsideBox: [10, 1],
+        shotsOutsideBox: [7, 1],
+        passes: [620, 210],
+        passCompleted: [565, 150],
+        passAccuracy: [91.1, 71.4],
+        crosses: [28, 6],
+        crossesCompleted: [9, 1],
+        corners: [4, 1],
+        freeKicks: [8, 12],
+        fouls: [6, 10],
+        offsides: [1, 3],
+        yellowCards: [0, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [220, 260]
+      }
+    },
     { date: '2026-06-21', time: '15:00 ET', group: 'G', team1: 'Belgium', score1: null, team2: 'Iran', score2: null, venue: '洛杉磯·SoFi體育場', status: 'scheduled' },
     { date: '2026-06-21', time: '18:00 ET', group: 'H', team1: 'Uruguay', score1: null, team2: 'Cape Verde', score2: null, venue: '邁阿密·硬石體育場', status: 'scheduled' },
     { date: '2026-06-21', time: '21:00 ET', group: 'G', team1: 'New Zealand', score1: null, team2: 'Egypt', score2: null, venue: '溫哥華·BC Place', status: 'scheduled' },
@@ -1649,10 +1680,10 @@ const WC_DATA = {
       { team: 'New Zealand', played: 1, won: 0, drawn: 1, lost: 0, gf: 2, ga: 2, gd: 0, pts: 1 }
     ],
     'H': [
-      { team: 'Spain', played: 1, won: 0, drawn: 1, lost: 0, gf: 0, ga: 0, gd: 0, pts: 1 },
+      { team: 'Spain', played: 2, won: 1, drawn: 1, lost: 0, gf: 4, ga: 0, gd: 4, pts: 4 },
       { team: 'Cape Verde', played: 1, won: 0, drawn: 1, lost: 0, gf: 0, ga: 0, gd: 0, pts: 1 },
-      { team: 'Saudi Arabia', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
-      { team: 'Uruguay', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 }
+      { team: 'Uruguay', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
+      { team: 'Saudi Arabia', played: 2, won: 0, drawn: 1, lost: 1, gf: 1, ga: 5, gd: -4, pts: 1 }
     ],
     'I': [
       { team: 'Norway', played: 1, won: 1, drawn: 0, lost: 0, gf: 4, ga: 1, gd: 3, pts: 3 },

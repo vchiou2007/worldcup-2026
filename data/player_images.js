@@ -113,16 +113,16 @@ const PLAYER_IMAGES = {
 
 // ===== 輪播牆圖片（2026-06-21 更新：每日輪播—精選最新精彩賽事） =====
 const HERO_IMAGES = [
-  // 🇨🇦⚽ 加拿大 6-0 卡達！Jonathan David 飛躍慶祝，加拿大史上首場世界盃勝利（AP Photo/Emma Peterson, Daily Press）
-  'https://cf-images.assettype.com/outlookindia/2026-06-18/0e6fra7d/Canada-vs-Qatar-FIFA-World-Cup-2026-Group-B-Jonathan-David-Leaps-Celeb-AP-Photo.jpg',
+  // 🇪🇸⚽ Lamine Yamal 慶祝首個世界盃進球！18歲天才在首次先發第10分鐘即破門，西班牙 4-0 橫掃沙烏地阿拉伯，重回H組榜首（AP Photo/Erik S.Lesser）
+  'https://cf-images.assettype.com/outlookindia/2026-06-21/2cpqjvzs/AP26172590819841.jpg',
   // 🇩🇪⚽ Deniz Undav 絕殺進球！替補上場的 Undav 梅開二度，德國 2-1 逆轉象牙海岸，12年來首度晉級淘汰賽（AP Photo/Stephanie Scarbrough via CNA）
   'https://cf-images.assettype.com/outlookindia/2026-06-20/fs92hbt2/AP26171794238681.jpg',
   // 🇳🇱⚽ 荷蘭 5-1 瑞典！Brian Brobbey 慶祝進球，與 Gakpo 各進兩球，荷蘭強勢反彈登上F組榜首（AP Photo/Eric Gay, beIN Sports）
   'https://cf-images.assettype.com/outlookindia/2026-06-20/hchml4e4/AP26171617855857.jpg',
   // 🇯🇵🇹🇳 世界盃第1,000場比賽！日本 vs 突尼西亞賽前球迷手持紀念氣球，日本在這場里程碑比賽中 4-0 大勝（AP Photo/Matias Delacroix）
   'https://cf-images.assettype.com/outlookindia/2026-06-21/dmsaq6bo/Tunisia-Vs-Japan-FIFA-World-Cup-2026-Group-F-Flags-AP-Photo.jpg',
-  // 🇲🇽🇰🇷 墨西哥門將 Raul Rangel 奇蹟般兩連撲！墨西哥 1-0 南韓，Rangel 第87分鐘擋出 Cho Gue-sung 頭槌及補射，成為首位晉級32強的球隊（AP Photo/Silvia Izquierdo）
-  'https://cf-images.assettype.com/outlookindia/2026-06-19/0f3ns8va/Mexico-vs-South-Korea-FIFA-World-Cup-2026-Raul-Rangel-miracle-save-2-AP-Photo.jpg',
+  // 🇪🇸⚽ Mikel Oyarzabal 梅開二度慶祝！從首戰30分鐘零觸球的批評到本場兩球一助攻，Oyarzabal 強勢回應質疑（AP Photo/Mike Stewart）
+  'https://cf-images.assettype.com/outlookindia/2026-06-21/7f60voh2/AP26172600496990.jpg',
   // 🇺🇸⚽ 美國 2-0 澳洲！美國球員慶祝 Cameron Burgess 烏龍球後的首個進球，美國晉級32強並鎖定D組榜首之位（AP Photo/Ted S. Warren, The Guardian）
   'https://cf-images.assettype.com/outlookindia/2026-06-19/1m5dmd4q/USA-vs-Australia-FIFA-World-Cup-2026-Group-D-American-celeb-goal-1-Own-Goal-AP-Photo.jpg',
   // 🇯🇵⚽ Daichi Kamada 慶祝進球！日本 4-0 大勝突尼西亞，世界盃第1,000場比賽的歷史性一刻（AP Photo/Moises Castillo）
@@ -130,11 +130,11 @@ const HERO_IMAGES = [
 ];
 
 const HERO_CAPTIONS = [
-  '🎉🇨🇦🇶🇦 加拿大 6-0 卡達 — Jonathan David 空中飛躍慶祝進球！David 上演帽子戲法，率加拿大奪得隊史首場世界盃勝利。加拿大以4分躍升B組榜首，晉級32強在望。本場卡達兩張紅牌成為轉折點，但 David 的三球依然寫下加拿大足球歷史新頁（AP Photo/Emma Peterson）',
+  '⚽🇪🇸🇸🇦 西班牙 4-0 沙烏地阿拉伯 — Lamine Yamal 第10分鐘滑行鏟射破門！18歲343天的巴薩天才在首次世界盃先發即進球，成為世界盃史上第八年輕進球者。Yamal 跪地親吻草皮慶祝，西班牙上半場即3-0鎖定勝局，Oyarzabal 兩射一傳光芒四射（AP Photo/Erik S.Lesser）',
   '⚽🇩🇪🇨🇮 德國 2-1 象牙海岸 — Deniz Undav 傷停補時第4分鐘絕殺！替補上場的 Undav 梅開二度，第68分鐘扳平、第90+4分鐘逆轉，率德國12年來首度晉級世界盃淘汰賽。象牙海岸雖然由 Franck Kessié 先馳得點，仍無法擋住德國的強勢反撲（AP Photo/Stephanie Scarbrough）',
   '⚽🇳🇱🇸🇪 荷蘭 5-1 瑞典 — Brian Brobbey 慶祝進球！Brobbey 開賽5分鐘就破門，17分鐘內梅開二度，創世界盃史上第四快雙響炮紀錄。Cody Gakpo 下半場也進兩球，荷蘭強勢反彈登上F組榜首（AP Photo/Eric Gay）',
   '🎈🇯🇵🇹🇳 世界盃第1,000場比賽紀念！日本 vs 突尼西亞開賽前，球迷在蒙特雷球場手持紀念氣球，慶祝這項世界足球史上的里程碑。日本在這場歷史性比賽中以4-0大勝突尼西亞，成為首支在世界盃單場攻入4球的亞洲球隊（AP Photo/Matias Delacroix）',
-  '🧤🇲🇽🇰🇷 墨西哥門將 Raul Rangel 上演奇蹟兩連撲！第87分鐘，南韓 Cho Gue-sung 頭槌被 Rangel 擋出，跟進補射又被神勇化解。墨西哥以1-0擊敗南韓，六分全取成為本屆首支晉級32強的球隊（AP Photo/Silvia Izquierdo）',
+  '⚽🇪🇸🇸🇦 Mikel Oyarzabal 梅開二度霸氣慶祝！從首戰對維德角前30分鐘零觸球的窘境，到本場兩球一助攻的完美演出，Oyarzabal 用實力回應所有質疑。本場他先助攻 Yamal 破門，隨後21分鐘、24分鐘連進兩球，半場即被換下休息（AP Photo/Mike Stewart）',
   '⚽🇺🇸🇦🇺 美國 2-0 澳洲 — 美國球員慶祝首個進球！澳洲後衛 Cameron Burgess 第11分鐘烏龍球，加上 Alex Freeman 頭槌破門，美國兩戰全勝以6分鎖定D組榜首，強勢晉級32強淘汰賽（AP Photo/Ted S. Warren）',
   '🎉🇯🇵⚽ Daichi Kamada 開賽僅4分鐘即破門！Keito Nakamura 左路突破後低平球傳中，Kamada 禁區中央輕鬆推射入網，為世界盃第1,000場比賽寫下首個進球紀錄。日本隨後再進三球，以4-0大勝突尼西亞（AP Photo/Moises Castillo）'
 ];
