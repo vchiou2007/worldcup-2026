@@ -1527,7 +1527,37 @@ const WC_DATA = {
     },
 
     // === 6月21日 ===
-    { date: '2026-06-21', time: '00:00 ET', group: 'F', team1: 'Tunisia', score1: null, team2: 'Japan', score2: null, venue: '蒙特雷·BBVA球場', status: 'scheduled' },
+    { date: '2026-06-21', time: '00:00 ET', group: 'F', team1: 'Tunisia', score1: 0, team2: 'Japan', score2: 4, venue: '蒙特雷·BBVA球場', status: 'completed',
+      goals: [
+        { min: 4, team: 2, scorer: 'Daichi Kamada', assist: 'Keito Nakamura', detail: 'Nakamura 左路低平球傳中，Kamada 禁區內輕鬆推射入網，世界盃第1000場比賽先馳得點' },
+        { min: 31, team: 2, scorer: 'Ayase Ueda', assist: 'Ko Itakura', detail: 'Itakura 精準傳球，Ueda 禁區外強力低射入遠角，2-0' },
+        { min: 69, team: 2, scorer: 'Junya Ito', assist: 'Ayase Ueda', detail: 'Ueda 過頂傳球，Ito 禁區內冷靜推射破門，3-0' },
+        { min: 82, team: 2, scorer: 'Ayase Ueda', assist: 'Kaishu Sano', detail: 'Sano 右路傳中，Ueda 禁區中央強力頭槌破網梅開二度，4-0' }
+      ],
+      cards: [
+      ],
+      stats: {
+        possession: [32, 68],
+        shots: [6, 22],
+        shotsOnTarget: [1, 8],
+        shotsOffTarget: [3, 10],
+        shotsInsideBox: [3, 14],
+        shotsOutsideBox: [3, 8],
+        passes: [280, 580],
+        passCompleted: [210, 510],
+        passAccuracy: [75.0, 87.9],
+        crosses: [8, 24],
+        crossesCompleted: [2, 8],
+        corners: [3, 9],
+        freeKicks: [12, 10],
+        fouls: [8, 6],
+        offsides: [1, 3],
+        yellowCards: [0, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [200, 240]
+      }
+    },
     { date: '2026-06-21', time: '12:00 ET', group: 'H', team1: 'Spain', score1: null, team2: 'Saudi Arabia', score2: null, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'scheduled' },
     { date: '2026-06-21', time: '15:00 ET', group: 'G', team1: 'Belgium', score1: null, team2: 'Iran', score2: null, venue: '洛杉磯·SoFi體育場', status: 'scheduled' },
     { date: '2026-06-21', time: '18:00 ET', group: 'H', team1: 'Uruguay', score1: null, team2: 'Cape Verde', score2: null, venue: '邁阿密·硬石體育場', status: 'scheduled' },
@@ -1609,8 +1639,8 @@ const WC_DATA = {
     'F': [
       { team: 'Netherlands', played: 2, won: 1, drawn: 1, lost: 0, gf: 7, ga: 3, gd: 4, pts: 4 },
       { team: 'Sweden', played: 2, won: 1, drawn: 0, lost: 1, gf: 6, ga: 6, gd: 0, pts: 3 },
-      { team: 'Japan', played: 1, won: 0, drawn: 1, lost: 0, gf: 2, ga: 2, gd: 0, pts: 1 },
-      { team: 'Tunisia', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 5, gd: -4, pts: 0 }
+      { team: 'Japan', played: 2, won: 1, drawn: 1, lost: 0, gf: 6, ga: 2, gd: 4, pts: 4 },
+      { team: 'Tunisia', played: 2, won: 0, drawn: 0, lost: 2, gf: 1, ga: 9, gd: -8, pts: 0 }
     ],
     'G': [
       { team: 'Belgium', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
