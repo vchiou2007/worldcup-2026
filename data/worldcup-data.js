@@ -1331,25 +1331,45 @@ const WC_DATA = {
     },
     { date: '2026-06-19', time: '18:00 ET', group: 'C', team1: 'Scotland', score1: 0, team2: 'Morocco', score2: 1, venue: '波士頓·吉列體育場', status: 'completed',
       goals: [
-        { min: 21, team: 2, scorer: 'Ismael Saibari', assist: 'Brahim Diaz', detail: 'Brahim Diaz 過頂傳球，Saibari 禁區內冷靜推射入網，本屆世界盃最快進球（70秒）' }
+        { min: 2, team: 2, scorer: 'Ismael Saibari', assist: 'Brahim Diaz', detail: 'Brahim Diaz 過頂傳球，Saibari 禁區內冷靜推射入網，本屆世界盃最快進球（70秒）' }
       ],
       cards: [
-        { min: 3, team: 2, player: 'Carlens Arcus', card: 'yellow', detail: '惡意犯規' },
-        { min: 89, team: 2, player: 'Samir El Mourabet', card: 'yellow', detail: '戰術犯規' },
-        { min: 89, team: 2, player: 'Azzedine Ounahi', card: 'yellow', detail: '戰術犯規' },
-        { min: 89, team: 1, player: 'Ross Stewart', card: 'yellow', detail: '犯規' },
+        { min: 23, team: 2, player: 'Issa Diop', card: 'yellow', detail: '犯規' },
+        { min: 65, team: 1, player: 'Andy Robertson', card: 'yellow', detail: '戰術犯規' }
+      ],
+      stats: {
+        possession: [46, 54],
+        shots: [8, 12],
+        shotsOnTarget: [2, 4],
+        shotsOffTarget: [4, 5],
+        shotsInsideBox: [4, 7],
+        shotsOutsideBox: [4, 5],
+        passes: [380, 460],
+        passCompleted: [310, 400],
+        passAccuracy: [81.6, 87.0],
+        crosses: [14, 18],
+        crossesCompleted: [3, 5],
+        corners: [3, 6],
+        freeKicks: [14, 12],
+        fouls: [14, 13],
+        offsides: [2, 3],
+        yellowCards: [1, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [26, 30],
         pressingApplied: [200, 240]
       }
     },
     { date: '2026-06-19', time: '21:00 ET', group: 'C', team1: 'Brazil', score1: 3, team2: 'Haiti', score2: 0, venue: '費城·林肯金融球場', status: 'completed',
       goals: [
-        { min: 23, team: 1, scorer: 'Matheus Cunha', assist: 'Vinícius Júnior', detail: 'Vinícius Júnior 射門被撲出，Cunha 跟進補射入網，1-0' },
-        { min: 36, team: 1, scorer: 'Matheus Cunha', assist: 'Vinícius Júnior', detail: 'Vinícius Júnior 快速反擊傳中，Cunha 左腳射入左上角，2-0' },
-        { min: 45+3, team: 1, scorer: 'Vinícius Júnior', assist: 'Lucas Paquetá', detail: 'Paquetá 直傳穿越防線，Vinícius Júnior 禁區內推射破門，3-0' }
+        { min: 23, team: 1, scorer: 'Matheus Cunha', assist: 'Vinícius Júnior', detail: 'Vinícius Júnior 射門被撲出，Cunha 跟進補射入網，個人世界盃首球' },
+        { min: 36, team: 1, scorer: 'Matheus Cunha', assist: 'Vinícius Júnior', detail: 'Vinícius Júnior 快速反擊傳中，Cunha 左腳射入左上角，梅開二度' },
+        { min: 45, team: 1, scorer: 'Vinícius Júnior', assist: 'Lucas Paquetá', detail: 'Paquetá 直傳穿越防線，Vinícius Júnior 禁區內推射破門，3-0' }
       ],
       cards: [
         { min: 4, team: 2, player: 'Carlens Arcus', card: 'yellow', detail: '惡意犯規' },
-        { min: 45+4, team: 2, player: 'Frantzdy Pierrot', card: 'yellow', detail: '犯規' }
+        { min: 45, team: 2, player: 'Frantzdy Pierrot', card: 'yellow', detail: '犯規' },
+        { min: 65, team: 1, player: 'Douglas Santos', card: 'yellow', detail: '犯規' },
+        { min: 72, team: 2, player: 'Danley Jean Jacques', card: 'yellow', detail: '犯規' }
       ],
       stats: {
         possession: [63, 37],
@@ -1367,48 +1387,10 @@ const WC_DATA = {
         freeKicks: [11, 14],
         fouls: [12, 13],
         offsides: [3, 0],
-        yellowCards: [0, 2],
+        yellowCards: [1, 3],
         redCards: [0, 0],
         forcedTurnovers: [30, 28],
         pressingApplied: [230, 220]
-      }
-    },
-        redCards: [0, 0],
-        forcedTurnovers: [28, 32],
-        pressingApplied: [200, 240]
-      }
-    },
-    { date: '2026-06-19', time: '21:00 ET', group: 'C', team1: 'Brazil', score1: 3, team2: 'Haiti', score2: 0, venue: '費城·林肯金融球場', status: 'completed',
-      goals: [
-        { min: 22, team: 1, scorer: 'Matheus Cunha', assist: 'Vinicius Junior', detail: 'Vinicius 射門被撲，Cunha 門前補射入網，個人世界盃首球' },
-        { min: 35, team: 1, scorer: 'Matheus Cunha', assist: 'Vinicius Junior', detail: 'Vinicius 直塞，Cunha 禁區內左腳勁射入左上角，梅開二度' },
-        { min: 45, team: 1, scorer: 'Vinicius Junior', assist: 'Lucas Paqueta', detail: 'Paqueta 過頂傳球，Vinicius 禁區內冷靜推射破門，半場結束前鎖定勝局' }
-      ],
-      cards: [
-        { min: 4, team: 2, player: 'Carlens Arcus', card: 'yellow', detail: '惡意犯規' },
-        { min: 63, team: 2, player: 'Frantzdy Pierrot', card: 'yellow', detail: '犯規' },
-        { min: 78, team: 1, player: 'Bruno Guimarães', card: 'yellow', detail: '戰術犯規' }
-      ],
-      stats: {
-        possession: [61, 39],
-        shots: [7, 5],
-        shotsOnTarget: [5, 1],
-        shotsOffTarget: [2, 2],
-        shotsInsideBox: [5, 3],
-        shotsOutsideBox: [2, 2],
-        passes: [580, 350],
-        passCompleted: [520, 290],
-        passAccuracy: [89.7, 82.9],
-        crosses: [18, 10],
-        crossesCompleted: [6, 2],
-        corners: [4, 2],
-        freeKicks: [12, 14],
-        fouls: [9, 7],
-        offsides: [7, 2],
-        yellowCards: [1, 2],
-        redCards: [0, 0],
-        forcedTurnovers: [28, 32],
-        pressingApplied: [210, 250]
       }
     },
 
@@ -1515,7 +1497,34 @@ const WC_DATA = {
         pressingApplied: [210, 250]
       }
     },
-    { date: '2026-06-20', time: '20:00 ET', group: 'E', team1: 'Ecuador', score1: null, team2: 'Curaçao', score2: null, venue: '堪薩斯城·箭頭體育場', status: 'scheduled' },
+    { date: '2026-06-20', time: '20:00 ET', group: 'E', team1: 'Ecuador', score1: 0, team2: 'Curaçao', score2: 0, venue: '堪薩斯城·箭頭體育場', status: 'completed',
+      goals: [],
+      cards: [
+        { min: 55, team: 1, player: 'Pervis Estupiñán', card: 'yellow', detail: '戰術犯規' },
+        { min: 72, team: 2, player: 'Juriën Gaari', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [68, 32],
+        shots: [22, 5],
+        shotsOnTarget: [5, 1],
+        shotsOffTarget: [11, 2],
+        shotsInsideBox: [14, 2],
+        shotsOutsideBox: [8, 3],
+        passes: [620, 280],
+        passCompleted: [550, 210],
+        passAccuracy: [88.7, 75.0],
+        crosses: [24, 8],
+        crossesCompleted: [7, 1],
+        corners: [10, 2],
+        freeKicks: [12, 14],
+        fouls: [13, 12],
+        offsides: [3, 1],
+        yellowCards: [1, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [240, 200]
+      }
+    },
 
     // === 6月21日 ===
     { date: '2026-06-21', time: '00:00 ET', group: 'F', team1: 'Tunisia', score1: null, team2: 'Japan', score2: null, venue: '蒙特雷·BBVA球場', status: 'scheduled' },
@@ -1594,8 +1603,8 @@ const WC_DATA = {
     'E': [
       { team: 'Germany', played: 2, won: 2, drawn: 0, lost: 0, gf: 9, ga: 2, gd: 7, pts: 6 },
       { team: 'Ivory Coast', played: 2, won: 1, drawn: 0, lost: 1, gf: 2, ga: 2, gd: 0, pts: 3 },
-      { team: 'Ecuador', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 1, gd: -1, pts: 0 },
-      { team: 'Curaçao', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 7, gd: -6, pts: 0 }
+      { team: 'Ecuador', played: 2, won: 0, drawn: 1, lost: 1, gf: 0, ga: 1, gd: -1, pts: 1 },
+      { team: 'Curaçao', played: 2, won: 0, drawn: 1, lost: 1, gf: 1, ga: 7, gd: -6, pts: 1 }
     ],
     'F': [
       { team: 'Netherlands', played: 2, won: 1, drawn: 1, lost: 0, gf: 7, ga: 3, gd: 4, pts: 4 },
