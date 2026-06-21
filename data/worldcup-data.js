@@ -1590,7 +1590,36 @@ const WC_DATA = {
         pressingApplied: [220, 260]
       }
     },
-    { date: '2026-06-21', time: '15:00 ET', group: 'G', team1: 'Belgium', score1: null, team2: 'Iran', score2: null, venue: '洛杉磯·SoFi體育場', status: 'scheduled' },
+    { date: '2026-06-21', time: '15:00 ET', group: 'G', team1: 'Belgium', score1: 0, team2: 'Iran', score2: 0, venue: '洛杉磯·SoFi體育場', status: 'completed',
+      goals: [
+      ],
+      cards: [
+        { min: 3, team: 1, player: 'Romelu Lukaku', card: 'yellow', detail: '惡意犯規' },
+        { min: 33, team: 2, player: 'Saeid Ezatolahi', card: 'yellow', detail: '惡意犯規' },
+        { min: 66, team: 1, player: 'Nathan Ngoy', card: 'red', detail: '破壞明顯得分機會，後腳跟踢球失誤後拉倒 Mehdi Taremi，直接紅牌' }
+      ],
+      stats: {
+        possession: [65, 35],
+        shots: [16, 8],
+        shotsOnTarget: [5, 3],
+        shotsOffTarget: [7, 3],
+        shotsInsideBox: [9, 5],
+        shotsOutsideBox: [7, 3],
+        passes: [560, 310],
+        passCompleted: [500, 240],
+        passAccuracy: [89.3, 77.4],
+        crosses: [22, 10],
+        crossesCompleted: [7, 2],
+        corners: [8, 3],
+        freeKicks: [14, 16],
+        fouls: [14, 13],
+        offsides: [2, 3],
+        yellowCards: [1, 1],
+        redCards: [1, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 250]
+      }
+    },
     { date: '2026-06-21', time: '18:00 ET', group: 'H', team1: 'Uruguay', score1: null, team2: 'Cape Verde', score2: null, venue: '邁阿密·硬石體育場', status: 'scheduled' },
     { date: '2026-06-21', time: '21:00 ET', group: 'G', team1: 'New Zealand', score1: null, team2: 'Egypt', score2: null, venue: '溫哥華·BC Place', status: 'scheduled' },
 
@@ -1674,9 +1703,9 @@ const WC_DATA = {
       { team: 'Tunisia', played: 2, won: 0, drawn: 0, lost: 2, gf: 1, ga: 9, gd: -8, pts: 0 }
     ],
     'G': [
-      { team: 'Belgium', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
+      { team: 'Belgium', played: 2, won: 0, drawn: 2, lost: 0, gf: 1, ga: 1, gd: 0, pts: 2 },
       { team: 'Egypt', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
-      { team: 'Iran', played: 1, won: 0, drawn: 1, lost: 0, gf: 2, ga: 2, gd: 0, pts: 1 },
+      { team: 'Iran', played: 2, won: 0, drawn: 2, lost: 0, gf: 2, ga: 2, gd: 0, pts: 2 },
       { team: 'New Zealand', played: 1, won: 0, drawn: 1, lost: 0, gf: 2, ga: 2, gd: 0, pts: 1 }
     ],
     'H': [
