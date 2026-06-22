@@ -111,30 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-22 更新：每日輪播—精選最新精彩賽事） =====
+// ===== 輪播牆圖片（2026-06-22 更新：每日輪播—埃及歷史首勝、西班牙大勝、維德角再創驚奇） =====
 const HERO_IMAGES = [
-  // 🇨🇻⚽ Kevin Pina 慶祝維德角世界盃歷史首球！21分鐘自由球直接破門，維德角 1-0 領先烏拉圭（AP Photo/Lynne Sladky）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/485cst8n/Pina.jpg',
-  // 🇨🇻⚽ Helio Varela 替補上場扳平比分！60分鐘抓住 Uruguay 後衛 Olivera 傳球失誤，Varela 斷球後禁區內冷靜推射入網，2-2 絕平烏拉圭，個人國際賽首球（AP Photo/Marta Lavandier）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/00a4o54d/AP26172796244243.jpg',
-  // 🇪🇸⚽ Lamine Yamal 回歸先發即進球！10分鐘 Oyarzabal 傳中，Yamal 滑行鏟射破門，西班牙 4-0 大勝沙烏地阿拉伯，重回 H 組榜首（AP Photo/Erik S.Lesser）
+  // 🇪🇬⚽ Mohamed Salah 慶祝進球！67分鐘 Ziko 一過二配合後 Salah 禁區內精準射門入網，埃及反超紐西蘭 2-1，最終 3-1 奪得隊史世界盃首勝（AP Photo/Darryl Dyck）
+  'https://cf-images.assettype.com/outlookindia/2026-06-22/9aek16dv/AP26173039463926.jpg',
+  // 🇳🇿⚽ Finn Surman 頭槌破門！15分鐘 Tim Payne 角球開出，Surman 禁區內飛身頭槌入網，紐西蘭 1-0 領先埃及（AP Photo/Abbie Parr）
+  'https://cf-images.assettype.com/outlookindia/2026-06-22/4jy4ltwt/AP26173016040932.jpg',
+  // 🇪🇸⚽ Lamine Yamal 慶祝世界盃首球！10分鐘 Oyarzabar 傳中，Yamal 滑行鏟射入網，18歲天才在首場先發中閃耀，西班牙 4-0 大勝沙烏地阿拉伯（AP Photo/Erik S.Lesser）
   'https://cf-images.assettype.com/outlookindia/2026-06-21/9xtmn6ce/AP26172550579958.jpg',
-  // 🇯🇵🎌 日本 4-0 大勝突尼西亞！賽後日本隊全體球員向球迷致謝，世界盃第 1,000 場比賽的歷史性勝利（AP Photo/Moises Castillo）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/7z5qf57k/Tunisia-Vs-Japan-FIFA-World-Cup-2026-Group-F-Japan-post-match-AP-Photo.jpg',
-  // 🎈🇯🇵🇹🇳 世界盃第 1,000 場比賽！日本 vs 突尼西亞賽前球迷手持紀念氣球，蒙特雷球場見證歷史一刻（AP Photo/Matias Delacroix）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/3wtdko5j/Tunisia-Vs-Japan-FIFA-World-Cup-2026-Group-F-1000th-match-AP-Photo.jpg',
-  // 🇺🇾⚽ Maxi Araujo 慶祝進球！40分鐘自由球造成禁區混亂，Valverde 射門被撲出後 Araujo 補射入網，烏拉圭扳平比分（AP Photo/Rebecca Blackwell）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/rtmomfzs/Maxi-Araujo.jpg',
+  // 🇪🇸⚽ Mikel Oyarzabal 慶祝進球！21分鐘和24分鐘連進兩球，加上助攻 Yamal，Oyarzabal 一人貢獻 1 助攻 2 進球，西班牙上半場即鎖定勝局（AP Photo/Mike Stewart）
+  'https://cf-images.assettype.com/outlookindia/2026-06-21/icnnf62u/AP26172583020159.jpg',
+  // 🇨🇻⚽ Kevin Pina 慶祝自由球破門！21分鐘禁區外25碼自由球越過人牆入網，維德角世界盃歷史首球，烏拉圭 2-2 維德角（AP Photo/Lynne Sladky）
+  'https://cf-images.assettype.com/outlookindia/2026-06-21/485cst8n/Pina.jpg',
+  // 🇨🇻⚽ Helio Varela 慶祝扳平進球！60分鐘抓住 Uruguay 後衛失誤斷球後禁區內冷靜推射入網，2-2 絕平烏拉圭，Varela 國際賽首球（AP Photo/Patricia De Melo Moreira）
+  'https://cf-images.assettype.com/outlookindia/2026-06-21/00a4o54d/AP26172796244243.jpg',
   // 🇺🇾⚽ Agustin Canobbio 慶祝反超進球！43分鐘 Valverde 禁區邊緣妙傳，Canobbio 轉身抽射入網，烏拉圭 2-1 反超維德角（AP Photo/Rebecca Blackwell）
   'https://cf-images.assettype.com/outlookindia/2026-06-21/lmqce5ne/Canobbio.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '⚽🇨🇻🇺🇾 烏拉圭 2-2 維德角 — Kevin Pina 第21分鐘自由球直接破門！維德角世界盃歷史首球！Pina 在禁區外25碼開出自由球越過人牆，40歲門將 Muslera 撲救不及。維德角球迷陷入瘋狂，這支只有52萬人口的島國在小組賽連續逼平西班牙和烏拉圭，震撼世界足壇（AP Photo/Lynne Sladky）',
-  '⚽🇨🇻🇺🇾 烏拉圭 2-2 維德角 — Helio Varela 第60分鐘扳平比分！替補上場的 Varela 抓住 Uruguay 後衛 Matías Olivera 的傳球失誤，斷球後禁區內冷靜推射入網，2-2！這是 Varela 個人國際賽首球，也是維德角本屆世界盃的第二個進球。Varela 跳上隊友肩膀慶祝，烏拉圭球員低垂頭顱難以置信（AP Photo/Marta Lavandier）',
-  '⚽🇪🇸🇸🇦 西班牙 4-0 沙烏地阿拉伯 — Lamine Yamal 第10分鐘滑行鏟射破門！18歲的巴薩天才接 Oyarzabal 右路精準傳中，禁區內滑行鏟射入網，為西班牙打開勝利之門。Oyarzabal 隨後梅開二度，西班牙上半場即 3-0 鎖定勝局，Altambakti 下半場烏龍球將比分定格在 4-0（AP Photo/Erik S.Lesser）',
-  '🎉🇯🇵⚽ 日本 4-0 突尼西亞 — 日本隊賽後全體球員向球迷致謝！Daichi Kamada 開賽4分鐘即破門，Ayase Ueda 梅開二度，日本在這場世界盃第 1,000 場比賽中完美演出，以 4-0 大勝突尼西亞。日本兩場小組賽1勝1和，以4分積分與荷蘭並列F組榜首（AP Photo/Moises Castillo）',
-  '🎈🇯🇵🇹🇳 世界盃第 1,000 場比賽紀念！日本 vs 突尼西亞開賽前，球迷在蒙特雷 BBVA 球場手持紀念氣球。自1930年烏拉圭首屆世界盃以來，歷經96年、22屆賽事，這場比賽成為世界足球史上第 1,000 場世界盃正賽。日本在這場極具歷史意義的比賽中以 4-0 大勝，Daichi Kamada 射入世界盃第 2,546 球（AP Photo/Matias Delacroix）',
-  '⚽🇺🇾🇨🇻 烏拉圭 2-2 維德角 — Maxi Araujo 第40分鐘扳平比分！Uruguay 自由球開入禁區造成混亂，Valverde 的射門被 Vozinha 奮力撲出，Araujo 門前補射入網。這位效力於葡萄牙體育的中場以關鍵進球穩定軍心，也開啟了烏拉圭短暫的逆轉攻勢（AP Photo/Rebecca Blackwell）',
+  '⚽🇪🇬🇳🇿 埃及 3-1 紐西蘭 — Mohamed Salah 第67分鐘反超進球！Ziko 與 Salah 一過二配合，Salah 禁區內精準射門入網。Salah 隨後在第82分鐘助攻 Trezeguet 頭槌破門，埃及最終以 3-1 擊敗紐西蘭，奪得隊史近百年世界盃參賽以來的首場勝利！Salah 下場時獲得全場起立鼓掌，埃及以4分積分躍居 G 組榜首（AP Photo/Darryl Dyck）',
+  '⚽🇳🇿🇪🇬 紐西蘭 1-3 埃及 — Finn Surman 第15分鐘頭槌破門！Tim Payne 角球精準開出，效力 MLS 波特蘭伐木者的 Surman 禁區內飛身頭槌入網，這是他個人第3顆國際賽進球。可惜紐西蘭下半場未能守住領先，埃及連進三球逆轉戰局。紐西蘭兩戰1和1負積1分，仍保有晉級機會（AP Photo/Abbie Parr）',
+  '⚽🇪🇸🇸🇦 西班牙 4-0 沙烏地阿拉伯 — Lamine Yamal 第10分鐘滑行鏟射破門！18歲的巴薩天才接 Oyarzabal 精準傳中，禁區內滑行鏟射入網，為西班牙打開勝利之門。這是 Yamal 世界盃首場先發、首個進球，西班牙上半場即 3-0 鎖定勝局。Cucurella 射門造成 Altambakti 烏龍球，最終 4-0 大勝（AP Photo/Erik S.Lesser）',
+  '⚽🇪🇸🇸🇦 西班牙 4-0 沙烏地阿拉伯 — Mikel Oyarzabal 梅開二度！在對維德角一戰前30分鐘零觸球飽受批評後，Oyarzabal 用表現回應質疑：先在第10分鐘助攻 Yamal，接著在第21分鐘和第24分鐘連進兩球。上半場還沒結束，Oyarzabal 就完成 1 助攻 2 進球的完美表現，de la Fuente 中場即放心將他和 Yamal 換下休息（AP Photo/Mike Stewart）',
+  '⚽🇨🇻🇺🇾 烏拉圭 2-2 維德角 — Kevin Pina 第21分鐘自由球直接破門！維德角世界盃歷史首球！Pina 在禁區外25碼開出自由球越過人牆，40歲門將 Muslera 撲救不及。維德角這支只有52萬人口的島國在小組賽連續逼平西班牙和烏拉圭，震撼世界足壇（AP Photo/Lynne Sladky）',
+  '⚽🇨🇻🇺🇾 烏拉圭 2-2 維德角 — Helio Varela 第60分鐘扳平比分！替補上場的 Varela 抓住 Uruguay 後衛 Olivera 的傳球失誤，斷球後禁區內冷靜推射入網，2-2！這是 Varela 個人國際賽首球，維德角本屆世界盃的第二個進球（AP Photo/Patricia De Melo Moreira）',
   '⚽🇺🇾🇨🇻 烏拉圭 2-2 維德角 — Agustin Canobbio 第43分鐘反超進球！Valverde 禁區邊緣妙傳，Canobbio 禁區內轉身抽射入網，烏拉圭在3分鐘內連進兩球反超比分。然而下半場 Helio Varela 的進球最終讓烏拉圭只能收下1分積分，兩戰皆和暫居 H 組第二（AP Photo/Rebecca Blackwell）'
 ];

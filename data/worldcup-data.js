@@ -1653,7 +1653,40 @@ const WC_DATA = {
         pressingApplied: [220, 250]
       }
     },
-    { date: '2026-06-21', time: '21:00 ET', group: 'G', team1: 'New Zealand', score1: null, team2: 'Egypt', score2: null, venue: '溫哥華·BC Place', status: 'scheduled' },
+    { date: '2026-06-21', time: '21:00 ET', group: 'G', team1: 'New Zealand', score1: 1, team2: 'Egypt', score2: 3, venue: '溫哥華·BC Place', status: 'completed',
+      goals: [
+        { min: 15, team: 1, scorer: 'Finn Surman', assist: 'Tim Payne', detail: 'Payne 角球開出，Surman 禁區內頭槌破門，個人第3顆國際賽進球' },
+        { min: 58, team: 2, scorer: 'Mostafa Ziko', assist: 'Mohamed Hany', detail: 'Hany 右路傳中，Ziko 頭槌入網，埃及扳平比分' },
+        { min: 67, team: 2, scorer: 'Mohamed Salah', assist: 'Mostafa Ziko', detail: 'Ziko 與 Salah 一過二配合，Salah 禁區內精準射門入網，埃及反超' },
+        { min: 82, team: 2, scorer: 'Mahmoud Trezeguet', assist: 'Mohamed Salah', detail: 'Salah 角球開出，Trezeguet 頭槌破門，埃及鎖定勝局' }
+      ],
+      cards: [
+        { min: 40, team: 1, player: 'Marko Stamenic', card: 'yellow', detail: '中場戰術犯規' },
+        { min: 55, team: 1, player: 'Joe Bell', card: 'yellow', detail: '阻止反擊犯規' },
+        { min: 70, team: 2, player: 'Marwan Attia', card: 'yellow', detail: '中場犯規' }
+      ],
+      stats: {
+        possession: [39, 61],
+        shots: [9, 16],
+        shotsOnTarget: [4, 5],
+        shotsOffTarget: [3, 7],
+        shotsInsideBox: [5, 10],
+        shotsOutsideBox: [4, 6],
+        passes: [330, 560],
+        passCompleted: [250, 490],
+        passAccuracy: [75.8, 87.5],
+        crosses: [12, 22],
+        crossesCompleted: [3, 7],
+        corners: [2, 3],
+        freeKicks: [14, 12],
+        fouls: [14, 8],
+        offsides: [2, 1],
+        yellowCards: [2, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [200, 250]
+      }
+    },
 
     // === 6月22日 ===
     { date: '2026-06-22', time: '13:00 ET', group: 'J', team1: 'Argentina', score1: null, team2: 'Austria', score2: null, venue: '達拉斯·AT&T體育場', status: 'scheduled' },
@@ -1735,10 +1768,10 @@ const WC_DATA = {
       { team: 'Tunisia', played: 2, won: 0, drawn: 0, lost: 2, gf: 1, ga: 9, gd: -8, pts: 0 }
     ],
     'G': [
+      { team: 'Egypt', played: 2, won: 1, drawn: 1, lost: 0, gf: 4, ga: 2, gd: 2, pts: 4 },
       { team: 'Belgium', played: 2, won: 0, drawn: 2, lost: 0, gf: 1, ga: 1, gd: 0, pts: 2 },
-      { team: 'Egypt', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
       { team: 'Iran', played: 2, won: 0, drawn: 2, lost: 0, gf: 2, ga: 2, gd: 0, pts: 2 },
-      { team: 'New Zealand', played: 1, won: 0, drawn: 1, lost: 0, gf: 2, ga: 2, gd: 0, pts: 1 }
+      { team: 'New Zealand', played: 2, won: 0, drawn: 1, lost: 1, gf: 3, ga: 5, gd: -2, pts: 1 }
     ],
     'H': [
       { team: 'Spain', played: 2, won: 1, drawn: 1, lost: 0, gf: 4, ga: 0, gd: 4, pts: 4 },
