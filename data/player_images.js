@@ -113,28 +113,28 @@ const PLAYER_IMAGES = {
 
 // ===== 輪播牆圖片（2026-06-22 更新：每日輪播—精選最新精彩賽事） =====
 const HERO_IMAGES = [
-  // 🇮🇷🧤 Alireza Beiranvand 神級撲救！伊朗門將單場7次撲救，擋下比利時所有攻勢，0-0逼平10人歐洲紅魔，為伊朗守住關鍵一分（AP Photo/Mark J. Terrill）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/z20szek5/AP26172689138587.jpg',
-  // 🇪🇸⚽ Lamine Yamal 慶祝首個世界盃進球！18歲天才在首次先發第10分鐘即破門，西班牙 4-0 橫掃沙烏地阿拉伯，重回H組榜首（AP Photo/Erik S.Lesser）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/2cpqjvzs/AP26172590819841.jpg',
-  // 🇩🇪⚽ Deniz Undav 絕殺進球！替補上場的 Undav 梅開二度，德國 2-1 逆轉象牙海岸，12年來首度晉級淘汰賽（AP Photo/Stephanie Scarbrough）
-  'https://cf-images.assettype.com/outlookindia/2026-06-20/fs92hbt2/AP26171794238681.jpg',
-  // 🇳🇱⚽ 荷蘭 5-1 瑞典！Brian Brobbey 慶祝進球，與 Gakpo 各進兩球，荷蘭強勢反彈登上F組榜首（AP Photo/Eric Gay, beIN Sports）
-  'https://cf-images.assettype.com/outlookindia/2026-06-20/hchml4e4/AP26171617855857.jpg',
-  // 🇯🇵🇹🇳 世界盃第1,000場比賽！日本 vs 突尼西亞賽前球迷手持紀念氣球，日本在這場里程碑比賽中 4-0 大勝（AP Photo/Matias Delacroix）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/dmsaq6bo/Tunisia-Vs-Japan-FIFA-World-Cup-2026-Group-F-Flags-AP-Photo.jpg',
-  // 🇧🇪🇮🇷 比利時後衛 Nathan Ngoy 紅牌離場！Ngoy 禁區邊緣拉倒 Mehdi Taremi，破壞明顯得分機會遭直接紅牌罰下，比利時10人應戰（AP Photo/Mark J. Terrill）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/2kpyvo00/AP26172741594123.jpg',
-  // 🇯🇵⚽ Daichi Kamada 慶祝進球！日本 4-0 大勝突尼西亞，世界盃第1,000場比賽的歷史性一刻（AP Photo/Moises Castillo）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/n3y1umwd/Tunisia-Vs-Japan-FIFA-World-Cup-2026-Group-F-Daichi-Kamada-Scores-2-AP-Photo.jpg'
+  // 🇨🇻⚽ Kevin Pina 慶祝維德角世界盃歷史首球！21分鐘自由球直接破門，維德角 1-0 領先烏拉圭（AP Photo/Lynne Sladky）
+  'https://cf-images.assettype.com/outlookindia/2026-06-21/485cst8n/Pina.jpg',
+  // 🇨🇻⚽ Helio Varela 替補上場扳平比分！60分鐘抓住 Uruguay 後衛 Olivera 傳球失誤，Varela 斷球後禁區內冷靜推射入網，2-2 絕平烏拉圭，個人國際賽首球（AP Photo/Marta Lavandier）
+  'https://cf-images.assettype.com/outlookindia/2026-06-21/00a4o54d/AP26172796244243.jpg',
+  // 🇪🇸⚽ Lamine Yamal 回歸先發即進球！10分鐘 Oyarzabal 傳中，Yamal 滑行鏟射破門，西班牙 4-0 大勝沙烏地阿拉伯，重回 H 組榜首（AP Photo/Erik S.Lesser）
+  'https://cf-images.assettype.com/outlookindia/2026-06-21/9xtmn6ce/AP26172550579958.jpg',
+  // 🇯🇵🎌 日本 4-0 大勝突尼西亞！賽後日本隊全體球員向球迷致謝，世界盃第 1,000 場比賽的歷史性勝利（AP Photo/Moises Castillo）
+  'https://cf-images.assettype.com/outlookindia/2026-06-21/7z5qf57k/Tunisia-Vs-Japan-FIFA-World-Cup-2026-Group-F-Japan-post-match-AP-Photo.jpg',
+  // 🎈🇯🇵🇹🇳 世界盃第 1,000 場比賽！日本 vs 突尼西亞賽前球迷手持紀念氣球，蒙特雷球場見證歷史一刻（AP Photo/Matias Delacroix）
+  'https://cf-images.assettype.com/outlookindia/2026-06-21/3wtdko5j/Tunisia-Vs-Japan-FIFA-World-Cup-2026-Group-F-1000th-match-AP-Photo.jpg',
+  // 🇺🇾⚽ Maxi Araujo 慶祝進球！40分鐘自由球造成禁區混亂，Valverde 射門被撲出後 Araujo 補射入網，烏拉圭扳平比分（AP Photo/Rebecca Blackwell）
+  'https://cf-images.assettype.com/outlookindia/2026-06-21/rtmomfzs/Maxi-Araujo.jpg',
+  // 🇺🇾⚽ Agustin Canobbio 慶祝反超進球！43分鐘 Valverde 禁區邊緣妙傳，Canobbio 轉身抽射入網，烏拉圭 2-1 反超維德角（AP Photo/Rebecca Blackwell）
+  'https://cf-images.assettype.com/outlookindia/2026-06-21/lmqce5ne/Canobbio.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🧤🇮🇷🇧🇪 伊朗 0-0 比利時 — Alireza Beiranvand 全場7次關鍵撲救！伊朗門將 Beiranvand 以超神表現擋下 Kevin De Bruyne、Romelu Lukaku 等人的所有射門，包括第86分鐘 Maxim De Cuyper 的近距離勁射。比利時後衛 Nathan Ngoy 第66分鐘因破壞 Mehdi Taremi 的明顯得分機會被直接紅牌罰下，10人應戰的比利時仍無法攻破 Beiranvand 的十指關。伊朗兩場皆和，以2分積分暫居G組第一（AP Photo/Mark J. Terrill）',
-  '⚽🇪🇸🇸🇦 西班牙 4-0 沙烏地阿拉伯 — Lamine Yamal 第10分鐘滑行鏟射破門！18歲343天的巴薩天才在首次世界盃先發即進球，成為世界盃史上第八年輕進球者。Yamal 跪地親吻草皮慶祝，西班牙上半場即3-0鎖定勝局，Oyarzabal 兩射一傳光芒四射（AP Photo/Erik S.Lesser）',
-  '⚽🇩🇪🇨🇮 德國 2-1 象牙海岸 — Deniz Undav 傷停補時第4分鐘絕殺！替補上場的 Undav 梅開二度，第68分鐘扳平、第90+4分鐘逆轉，率德國12年來首度晉級世界盃淘汰賽。象牙海岸雖然由 Franck Kessié 先馳得點，仍無法擋住德國的強勢反撲（AP Photo/Stephanie Scarbrough）',
-  '⚽🇳🇱🇸🇪 荷蘭 5-1 瑞典 — Brian Brobbey 慶祝進球！Brobbey 開賽5分鐘就破門，17分鐘內梅開二度，創世界盃史上第四快雙響炮紀錄。Cody Gakpo 下半場也進兩球，荷蘭強勢反彈登上F組榜首（AP Photo/Eric Gay）',
-  '🎈🇯🇵🇹🇳 世界盃第1,000場比賽紀念！日本 vs 突尼西亞開賽前，球迷在蒙特雷球場手持紀念氣球，慶祝這項世界足球史上的里程碑。日本在這場歷史性比賽中以4-0大勝突尼西亞，成為首支在世界盃單場攻入4球的亞洲球隊（AP Photo/Matias Delacroix）',
-  '🟥🇧🇪🇮🇷 比利時 vs 伊朗 — Nathan Ngoy 第66分鐘被直接紅牌罰下！比利時年輕後衛 Ngoy 在禁區邊緣失誤後，從後拉倒即將形成單刀的伊朗前鋒 Mehdi Taremi，裁判 Darío Herrera 毫不猶豫出示紅牌。這是本屆世界盃第7張紅牌，也是G組第2張（AP Photo/Mark J. Terrill）',
-  '🎉🇯🇵⚽ Daichi Kamada 開賽僅4分鐘即破門！Keito Nakamura 左路突破後低平球傳中，Kamada 禁區中央輕鬆推射入網，為世界盃第1,000場比賽寫下首個進球紀錄，也是日本世界盃史上最快進球。日本隨後再進三球，以4-0大勝突尼西亞（AP Photo/Moises Castillo）'
+  '⚽🇨🇻🇺🇾 烏拉圭 2-2 維德角 — Kevin Pina 第21分鐘自由球直接破門！維德角世界盃歷史首球！Pina 在禁區外25碼開出自由球越過人牆，40歲門將 Muslera 撲救不及。維德角球迷陷入瘋狂，這支只有52萬人口的島國在小組賽連續逼平西班牙和烏拉圭，震撼世界足壇（AP Photo/Lynne Sladky）',
+  '⚽🇨🇻🇺🇾 烏拉圭 2-2 維德角 — Helio Varela 第60分鐘扳平比分！替補上場的 Varela 抓住 Uruguay 後衛 Matías Olivera 的傳球失誤，斷球後禁區內冷靜推射入網，2-2！這是 Varela 個人國際賽首球，也是維德角本屆世界盃的第二個進球。Varela 跳上隊友肩膀慶祝，烏拉圭球員低垂頭顱難以置信（AP Photo/Marta Lavandier）',
+  '⚽🇪🇸🇸🇦 西班牙 4-0 沙烏地阿拉伯 — Lamine Yamal 第10分鐘滑行鏟射破門！18歲的巴薩天才接 Oyarzabal 右路精準傳中，禁區內滑行鏟射入網，為西班牙打開勝利之門。Oyarzabal 隨後梅開二度，西班牙上半場即 3-0 鎖定勝局，Altambakti 下半場烏龍球將比分定格在 4-0（AP Photo/Erik S.Lesser）',
+  '🎉🇯🇵⚽ 日本 4-0 突尼西亞 — 日本隊賽後全體球員向球迷致謝！Daichi Kamada 開賽4分鐘即破門，Ayase Ueda 梅開二度，日本在這場世界盃第 1,000 場比賽中完美演出，以 4-0 大勝突尼西亞。日本兩場小組賽1勝1和，以4分積分與荷蘭並列F組榜首（AP Photo/Moises Castillo）',
+  '🎈🇯🇵🇹🇳 世界盃第 1,000 場比賽紀念！日本 vs 突尼西亞開賽前，球迷在蒙特雷 BBVA 球場手持紀念氣球。自1930年烏拉圭首屆世界盃以來，歷經96年、22屆賽事，這場比賽成為世界足球史上第 1,000 場世界盃正賽。日本在這場極具歷史意義的比賽中以 4-0 大勝，Daichi Kamada 射入世界盃第 2,546 球（AP Photo/Matias Delacroix）',
+  '⚽🇺🇾🇨🇻 烏拉圭 2-2 維德角 — Maxi Araujo 第40分鐘扳平比分！Uruguay 自由球開入禁區造成混亂，Valverde 的射門被 Vozinha 奮力撲出，Araujo 門前補射入網。這位效力於葡萄牙體育的中場以關鍵進球穩定軍心，也開啟了烏拉圭短暫的逆轉攻勢（AP Photo/Rebecca Blackwell）',
+  '⚽🇺🇾🇨🇻 烏拉圭 2-2 維德角 — Agustin Canobbio 第43分鐘反超進球！Valverde 禁區邊緣妙傳，Canobbio 禁區內轉身抽射入網，烏拉圭在3分鐘內連進兩球反超比分。然而下半場 Helio Varela 的進球最終讓烏拉圭只能收下1分積分，兩戰皆和暫居 H 組第二（AP Photo/Rebecca Blackwell）'
 ];

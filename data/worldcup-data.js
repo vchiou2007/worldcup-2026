@@ -1620,7 +1620,39 @@ const WC_DATA = {
         pressingApplied: [220, 250]
       }
     },
-    { date: '2026-06-21', time: '18:00 ET', group: 'H', team1: 'Uruguay', score1: null, team2: 'Cape Verde', score2: null, venue: '邁阿密·硬石體育場', status: 'scheduled' },
+    { date: '2026-06-21', time: '18:00 ET', group: 'H', team1: 'Uruguay', score1: 2, team2: 'Cape Verde', score2: 2, venue: '邁阿密·硬石體育場', status: 'completed',
+      goals: [
+        { min: 21, team: 2, scorer: 'Kevin Pina', detail: '自由球直接破門，維德角世界盃歷史首球！Pina 在禁區外25碼開出自由球越過人牆，Muslera 撲救不及。Cape Verde 1-0 領先' },
+        { min: 40, team: 1, scorer: 'Maxi Araujo', assist: null, detail: 'Uruguay 自由球開入禁區，Vozinha 撲出 Valverde 射門，Araujo 門前補射入網扳平比分' },
+        { min: 43, team: 1, scorer: 'Agustín Canobbio', assist: 'Federico Valverde', detail: 'Valverde 禁區邊緣妙傳，Canobbio 轉身抽射入網，Uruguay 2-1 反超' },
+        { min: 60, team: 2, scorer: 'Helio Varela', assist: null, detail: 'Olivera 後場傳球失誤，Varela 斷球後在禁區內冷靜推射入網，2-2 扳平！Varela 個人國際賽首球' }
+      ],
+      cards: [
+        { min: 5, team: 2, player: 'Sidny Lopes Cabral', card: 'yellow', detail: '惡意犯規' },
+        { min: 20, team: 1, player: 'Rodrigo Bentancur', card: 'yellow', detail: '惡意犯規' }
+      ],
+      stats: {
+        possession: [64, 36],
+        shots: [16, 8],
+        shotsOnTarget: [5, 3],
+        shotsOffTarget: [7, 3],
+        shotsInsideBox: [10, 4],
+        shotsOutsideBox: [6, 4],
+        passes: [540, 310],
+        passCompleted: [480, 240],
+        passAccuracy: [88.9, 77.4],
+        crosses: [22, 10],
+        crossesCompleted: [7, 2],
+        corners: [8, 3],
+        freeKicks: [14, 16],
+        fouls: [14, 13],
+        offsides: [2, 3],
+        yellowCards: [1, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 250]
+      }
+    },
     { date: '2026-06-21', time: '21:00 ET', group: 'G', team1: 'New Zealand', score1: null, team2: 'Egypt', score2: null, venue: '溫哥華·BC Place', status: 'scheduled' },
 
     // === 6月22日 ===
@@ -1710,8 +1742,8 @@ const WC_DATA = {
     ],
     'H': [
       { team: 'Spain', played: 2, won: 1, drawn: 1, lost: 0, gf: 4, ga: 0, gd: 4, pts: 4 },
-      { team: 'Cape Verde', played: 1, won: 0, drawn: 1, lost: 0, gf: 0, ga: 0, gd: 0, pts: 1 },
-      { team: 'Uruguay', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
+      { team: 'Uruguay', played: 2, won: 0, drawn: 2, lost: 0, gf: 3, ga: 3, gd: 0, pts: 2 },
+      { team: 'Cape Verde', played: 2, won: 0, drawn: 2, lost: 0, gf: 2, ga: 2, gd: 0, pts: 2 },
       { team: 'Saudi Arabia', played: 2, won: 0, drawn: 1, lost: 1, gf: 1, ga: 5, gd: -4, pts: 1 }
     ],
     'I': [
