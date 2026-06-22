@@ -111,30 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-22 更新：每日輪播—埃及歷史首勝、西班牙大勝、維德角再創驚奇） =====
+// ===== 輪播牆圖片（2026-06-22 更新：每日輪播—Messi破世界盃進球紀錄，阿根廷2-0勝奧地利晉級32強） =====
 const HERO_IMAGES = [
-  // 🇪🇬⚽ Mohamed Salah 慶祝進球！67分鐘 Ziko 一過二配合後 Salah 禁區內精準射門入網，埃及反超紐西蘭 2-1，最終 3-1 奪得隊史世界盃首勝（AP Photo/Darryl Dyck）
-  'https://cf-images.assettype.com/outlookindia/2026-06-22/9aek16dv/AP26173039463926.jpg',
-  // 🇳🇿⚽ Finn Surman 頭槌破門！15分鐘 Tim Payne 角球開出，Surman 禁區內飛身頭槌入網，紐西蘭 1-0 領先埃及（AP Photo/Abbie Parr）
-  'https://cf-images.assettype.com/outlookindia/2026-06-22/4jy4ltwt/AP26173016040932.jpg',
-  // 🇪🇸⚽ Lamine Yamal 慶祝世界盃首球！10分鐘 Oyarzabar 傳中，Yamal 滑行鏟射入網，18歲天才在首場先發中閃耀，西班牙 4-0 大勝沙烏地阿拉伯（AP Photo/Erik S.Lesser）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/9xtmn6ce/AP26172550579958.jpg',
-  // 🇪🇸⚽ Mikel Oyarzabal 慶祝進球！21分鐘和24分鐘連進兩球，加上助攻 Yamal，Oyarzabal 一人貢獻 1 助攻 2 進球，西班牙上半場即鎖定勝局（AP Photo/Mike Stewart）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/icnnf62u/AP26172583020159.jpg',
-  // 🇨🇻⚽ Kevin Pina 慶祝自由球破門！21分鐘禁區外25碼自由球越過人牆入網，維德角世界盃歷史首球，烏拉圭 2-2 維德角（AP Photo/Lynne Sladky）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/485cst8n/Pina.jpg',
-  // 🇨🇻⚽ Helio Varela 慶祝扳平進球！60分鐘抓住 Uruguay 後衛失誤斷球後禁區內冷靜推射入網，2-2 絕平烏拉圭，Varela 國際賽首球（AP Photo/Patricia De Melo Moreira）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/00a4o54d/AP26172796244243.jpg',
-  // 🇺🇾⚽ Agustin Canobbio 慶祝反超進球！43分鐘 Valverde 禁區邊緣妙傳，Canobbio 轉身抽射入網，烏拉圭 2-1 反超維德角（AP Photo/Rebecca Blackwell）
-  'https://cf-images.assettype.com/outlookindia/2026-06-21/lmqce5ne/Canobbio.jpg'
+  // 🇦🇷⚽ Lionel Messi 第38分鐘破門！Medina 助攻，Messi 禁區內左腳弧線球射入遠角以第17顆世界盃進球超越 Klose 成為史上進球王（AP Photo/Julio Cortez）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646668007-messi-world-cup-goal-record-01-a.jpg',
+  // 🇦🇷⚽ Messi 慶祝成為世界盃歷史進球王！第38分鐘記錄進球後 Messi 被隊友團團圍住，阿根廷隊長以17球獨占世界盃進球榜榜首（AP Photo/Tony Gutierrez）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646669007-messi-world-cup-goal-record-09.jpg',
+  // 🇦🇷⚽ Messi 第9分鐘罰失12碼！Posch 禁區內犯規，Messi 主罰射偏，未能把握率先破紀錄的機會，但第38分鐘將功贖罪（AP Photo/Jessica Tobias）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646670007-messi-world-cup-goal-record-10.jpg',
+  // 🇦🇷⚽ Messi 第90+5分鐘梅開二度！傷停補時階段 Messi 禁區外遠射入網，個人第18顆世界盃進球，阿根廷2-0鎖定勝局（Getty Images/Francois Nel）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646671007-messi-world-cup-goal-record-02.jpg',
+  // 🇦🇷⚽ Lionel Messi 與 David Alaba 對抗！奧地利隊長 Alaba 嚴防 Messi，但阿根廷傳奇仍以兩球擊敗奧地利防線（AP Photo/Stefan Klein）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646672007-messi-world-cup-goal-record-12.jpg',
+  // 🇦🇷⚽ Messi 慶祝第二球！第90+5分鐘 Messi 遠射破網後展翅慶祝，阿根廷在 Dallas AT&T 體育場以2-0完勝奧地利，衛冕冠軍兩戰全勝晉級32強（AP Photo/LM Otero）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646673007-messi-world-cup-goal-record-08.jpg',
+  // 🇦🇷⚽ 阿根廷全隊慶祝晉級！阿根廷以2-0擊敗奧地利後兩戰全勝積6分，提前鎖定J組第一晉級32強，Messi 以18球獨占世界盃歷史進球王寶座（AP Photo/Eric Gay）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646674007-messi-world-cup-goal-record-04.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '⚽🇪🇬🇳🇿 埃及 3-1 紐西蘭 — Mohamed Salah 第67分鐘反超進球！Ziko 與 Salah 一過二配合，Salah 禁區內精準射門入網。Salah 隨後在第82分鐘助攻 Trezeguet 頭槌破門，埃及最終以 3-1 擊敗紐西蘭，奪得隊史近百年世界盃參賽以來的首場勝利！Salah 下場時獲得全場起立鼓掌，埃及以4分積分躍居 G 組榜首（AP Photo/Darryl Dyck）',
-  '⚽🇳🇿🇪🇬 紐西蘭 1-3 埃及 — Finn Surman 第15分鐘頭槌破門！Tim Payne 角球精準開出，效力 MLS 波特蘭伐木者的 Surman 禁區內飛身頭槌入網，這是他個人第3顆國際賽進球。可惜紐西蘭下半場未能守住領先，埃及連進三球逆轉戰局。紐西蘭兩戰1和1負積1分，仍保有晉級機會（AP Photo/Abbie Parr）',
-  '⚽🇪🇸🇸🇦 西班牙 4-0 沙烏地阿拉伯 — Lamine Yamal 第10分鐘滑行鏟射破門！18歲的巴薩天才接 Oyarzabal 精準傳中，禁區內滑行鏟射入網，為西班牙打開勝利之門。這是 Yamal 世界盃首場先發、首個進球，西班牙上半場即 3-0 鎖定勝局。Cucurella 射門造成 Altambakti 烏龍球，最終 4-0 大勝（AP Photo/Erik S.Lesser）',
-  '⚽🇪🇸🇸🇦 西班牙 4-0 沙烏地阿拉伯 — Mikel Oyarzabal 梅開二度！在對維德角一戰前30分鐘零觸球飽受批評後，Oyarzabal 用表現回應質疑：先在第10分鐘助攻 Yamal，接著在第21分鐘和第24分鐘連進兩球。上半場還沒結束，Oyarzabal 就完成 1 助攻 2 進球的完美表現，de la Fuente 中場即放心將他和 Yamal 換下休息（AP Photo/Mike Stewart）',
-  '⚽🇨🇻🇺🇾 烏拉圭 2-2 維德角 — Kevin Pina 第21分鐘自由球直接破門！維德角世界盃歷史首球！Pina 在禁區外25碼開出自由球越過人牆，40歲門將 Muslera 撲救不及。維德角這支只有52萬人口的島國在小組賽連續逼平西班牙和烏拉圭，震撼世界足壇（AP Photo/Lynne Sladky）',
-  '⚽🇨🇻🇺🇾 烏拉圭 2-2 維德角 — Helio Varela 第60分鐘扳平比分！替補上場的 Varela 抓住 Uruguay 後衛 Olivera 的傳球失誤，斷球後禁區內冷靜推射入網，2-2！這是 Varela 個人國際賽首球，維德角本屆世界盃的第二個進球（AP Photo/Patricia De Melo Moreira）',
-  '⚽🇺🇾🇨🇻 烏拉圭 2-2 維德角 — Agustin Canobbio 第43分鐘反超進球！Valverde 禁區邊緣妙傳，Canobbio 禁區內轉身抽射入網，烏拉圭在3分鐘內連進兩球反超比分。然而下半場 Helio Varela 的進球最終讓烏拉圭只能收下1分積分，兩戰皆和暫居 H 組第二（AP Photo/Rebecca Blackwell）'
+  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Lionel Messi 第38分鐘打破世界盃進球紀錄！Facundo Medina 禁區邊緣傳球，Messi 禁區內左腳弧線球精準射入遠角，以第17顆世界盃進球超越 Miroslav Klose 的16球紀錄，成為男子世界盃歷史進球王！Messi 在9分鐘時曾罰失12碼，但38分鐘將功贖罪，全場7次射門、4次關鍵傳球（AP Photo/Julio Cortez）',
+  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Messi 被隊友團團圍住慶祝紀錄進球！第38分鐘進球後，阿根廷全隊奔向 Messi 慶祝這位傳奇成為世界盃歷史進球王。38歲的 Messi 在第六屆世界盃中達成此成就，賽後他表示：「這是我為阿根廷踢球以來最特別的時刻之一」（AP Photo/Tony Gutierrez）',
+  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Messi 第9分鐘罰失12碼！Stefan Posch 在禁區內從背後放倒 Lautaro Martínez，VAR 確認後判罰12碼。然而 Messi 主罰的射門偏出右門柱，未能把握率先破紀錄的機會。這是 Messi 在世界盃連續第三屆賽事罰失12碼（AP Photo/Jessica Tobias）',
+  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Lionel Messi 第90+5分鐘梅開二度！傷停補時階段 Messi 在禁區外接到反彈球後冷靜遠射入網，個人世界盃進球數達到18球。Messi 成為首位在連續六場世界盃比賽中進球的球員，超越 Just Fontaine（1958）和 Jairzinho（1970）的五場紀錄（Getty Images/Francois Nel）',
+  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Messi 與 Alaba 的頂尖對決！奧地利隊長 David Alaba（皇家馬德里）嚴防 Messi，Alaba 全場貢獻4次攔截和2次解圍。但 Messi 仍以7次射門、2進球的表現征服了 Dallas AT&T 體育場的8萬名觀眾。奧地利雖敗猶榮，仍以3分積分位居J組第二（AP Photo/Stefan Klein）',
+  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Messi 遠射破網後展翅慶祝！第90+5分鐘 Messi 打進個人第18顆世界盃進球，將 Klose 的16球紀錄遠遠甩在身後。阿根廷以兩戰全勝積6分的成績提前鎖定J組第一，成為本屆世界盃首支晉級32強的球隊之一。衛冕冠軍展現強大實力（AP Photo/LM Otero）',
+  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — 阿根廷全隊賽後向球迷致謝！兩戰全勝進5球失0球，阿根廷以完美表現晉級32強。Messi 在兩場比賽中攻入5球（對阿爾及利亞帽子戲法、對奧地利梅開二度），以18球獨占世界盃歷史進球王寶座。阿根廷將在6月27日小組賽最後一戰對陣約旦（AP Photo/Eric Gay）'
 ];

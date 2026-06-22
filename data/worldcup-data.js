@@ -1689,7 +1689,39 @@ const WC_DATA = {
     },
 
     // === 6月22日 ===
-    { date: '2026-06-22', time: '13:00 ET', group: 'J', team1: 'Argentina', score1: null, team2: 'Austria', score2: null, venue: '達拉斯·AT&T體育場', status: 'scheduled' },
+    { date: '2026-06-22', time: '13:00 ET', group: 'J', team1: 'Argentina', score1: 2, team2: 'Austria', score2: 0, venue: '達拉斯·AT&T體育場', status: 'completed',
+      goals: [
+        { min: 38, team: 1, scorer: 'Lionel Messi', assist: 'Facundo Medina', detail: 'Medina 助攻，Messi 禁區內左腳弧線球射入遠角，以第17顆世界盃進球超越 Klose 成為史上進球王！' },
+        { min: 90, team: 1, scorer: 'Lionel Messi', detail: '傷停補時第5分鐘，Messi 禁區外射門入網，梅開二度，個人世界盃進球數達到18球，阿根廷2-0鎖定勝局並晉級32強！' }
+      ],
+      cards: [
+        { min: 40, team: 2, player: 'Stefan Posch', card: 'yellow', detail: '戰術犯規阻止反擊' },
+        { min: 76, team: 1, player: 'Facundo Medina', card: 'yellow', detail: '犯規' },
+        { min: 76, team: 2, player: 'Konrad Laimer', card: 'yellow', detail: '戰術犯規' },
+        { min: 90, team: 1, player: 'Leandro Paredes', card: 'yellow', detail: '拖延比賽時間' }
+      ],
+      stats: {
+        possession: [56, 44],
+        shots: [14, 7],
+        shotsOnTarget: [5, 1],
+        shotsOffTarget: [6, 4],
+        shotsInsideBox: [8, 4],
+        shotsOutsideBox: [6, 3],
+        passes: [480, 360],
+        passCompleted: [420, 290],
+        passAccuracy: [87.5, 80.6],
+        crosses: [18, 14],
+        crossesCompleted: [5, 3],
+        corners: [5, 4],
+        freeKicks: [14, 16],
+        fouls: [12, 14],
+        offsides: [3, 1],
+        yellowCards: [2, 2],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 250]
+      }
+    },
     { date: '2026-06-22', time: '17:00 ET', group: 'I', team1: 'France', score1: null, team2: 'Iraq', score2: null, venue: '費城·林肯金融球場', status: 'scheduled' },
     { date: '2026-06-22', time: '20:00 ET', group: 'I', team1: 'Norway', score1: null, team2: 'Senegal', score2: null, venue: '紐約/新澤西·大都會人壽體育場', status: 'scheduled' },
     { date: '2026-06-22', time: '23:00 ET', group: 'J', team1: 'Jordan', score1: null, team2: 'Algeria', score2: null, venue: '舊金山·李維斯體育場', status: 'scheduled' },
@@ -1786,8 +1818,8 @@ const WC_DATA = {
       { team: 'Senegal', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 3, gd: -2, pts: 0 }
     ],
     'J': [
-      { team: 'Argentina', played: 1, won: 1, drawn: 0, lost: 0, gf: 3, ga: 0, gd: 3, pts: 3 },
-      { team: 'Austria', played: 1, won: 1, drawn: 0, lost: 0, gf: 3, ga: 1, gd: 2, pts: 3 },
+      { team: 'Argentina', played: 2, won: 2, drawn: 0, lost: 0, gf: 5, ga: 0, gd: 5, pts: 6 },
+      { team: 'Austria', played: 2, won: 1, drawn: 0, lost: 1, gf: 3, ga: 3, gd: 0, pts: 3 },
       { team: 'Algeria', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 3, gd: -3, pts: 0 },
       { team: 'Jordan', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 3, gd: -2, pts: 0 }
     ],
