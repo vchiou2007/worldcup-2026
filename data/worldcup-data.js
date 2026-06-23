@@ -1819,7 +1819,70 @@ const WC_DATA = {
     },
 
     // === 6月23日 ===
-    { date: '2026-06-23', time: '13:00 ET', group: 'K', team1: 'Portugal', score1: null, team2: 'Uzbekistan', score2: null, venue: '休斯頓·NRG體育場', status: 'scheduled' },
+    { date: '2026-06-23', time: '13:00 ET', group: 'K', team1: 'Portugal', score1: 5, team2: 'Uzbekistan', score2: 0, venue: '休斯頓·NRG體育場', status: 'completed',
+      goals: [
+        { min: 6, team: 1, scorer: 'Cristiano Ronaldo', assist: 'João Cancelo', detail: 'Cancelo 右路低平球傳中，Ronaldo 禁區內第一時間射近角入網，成為首個在6屆世界盃進球的球員' },
+        { min: 17, team: 1, scorer: 'Nuno Mendes', assist: null, detail: '禁區外自由球低射穿過人牆入網，Ronaldo 擔任誘餌佯裝射門' },
+        { min: 39, team: 1, scorer: 'Cristiano Ronaldo', assist: 'Bruno Fernandes', detail: 'Fernandes 精準直塞，Ronaldo 禁區內冷靜射入遠角，梅開二度！世界盃第10球，超越 Eusébio 成為葡萄牙世界盃歷史射手王' },
+        { min: 60, team: 2, scorer: 'Abduvokhid Nematov (OG)', detail: '烏茲別克門將 Nematov 撲救時將球碰入自家大門' },
+        { min: 87, team: 1, scorer: 'Rafael Leão', assist: null, detail: '替補上場4分鐘後禁區內射門入網，葡萄牙5-0鎖定勝局' }
+      ],
+      cards: [
+        { min: 14, team: 2, player: 'Odildzhon Khamrobekov', card: 'yellow', detail: '犯規' },
+        { min: 68, team: 1, player: 'Renato Veiga', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [66, 34],
+        shots: [17, 7],
+        shotsOnTarget: [9, 2],
+        shotsOffTarget: [5, 2],
+        shotsInsideBox: [12, 4],
+        shotsOutsideBox: [5, 3],
+        passes: [616, 319],
+        passCompleted: [555, 257],
+        passAccuracy: [90.1, 80.6],
+        crosses: [18, 10],
+        crossesCompleted: [6, 2],
+        corners: [3, 2],
+        freeKicks: [14, 16],
+        fouls: [13, 15],
+        offsides: [1, 2],
+        yellowCards: [1, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [240, 200]
+      }
+    },
+    { date: '2026-06-23', time: '16:00 ET', group: 'L', team1: 'England', score1: 0, team2: 'Ghana', score2: 0, venue: '波士頓·吉列體育場', status: 'completed',
+      goals: [],
+      cards: [
+        { min: 42, team: 2, player: 'Alexander Djiku', card: 'yellow', detail: '犯規' },
+        { min: 63, team: 1, player: 'Marc Guéhi', card: 'yellow', detail: '戰術犯規' },
+        { min: 74, team: 2, player: 'Caleb Yirenkyi', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [62, 38],
+        shots: [12, 5],
+        shotsOnTarget: [3, 1],
+        shotsOffTarget: [6, 3],
+        shotsInsideBox: [7, 3],
+        shotsOutsideBox: [5, 2],
+        passes: [520, 310],
+        passCompleted: [465, 250],
+        passAccuracy: [89.4, 80.6],
+        crosses: [20, 10],
+        crossesCompleted: [5, 2],
+        corners: [7, 2],
+        freeKicks: [12, 14],
+        fouls: [10, 12],
+        offsides: [2, 1],
+        yellowCards: [1, 2],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 30],
+        pressingApplied: [210, 240]
+      }
+    },
+    { date: '2026-06-23', time: '19:00 ET', group: 'L', team1: 'Panama', score1: null, team2: 'Croatia', score2: null, venue: '多倫多·BMO球場', status: 'scheduled' },
     { date: '2026-06-23', time: '22:00 ET', group: 'K', team1: 'Colombia', score1: null, team2: 'DR Congo', score2: null, venue: '瓜達拉哈拉·阿克隆體育場', status: 'scheduled' },
 
     // === 6月24日 ===
@@ -1912,18 +1975,18 @@ const WC_DATA = {
     'J': [
       { team: 'Argentina', played: 2, won: 2, drawn: 0, lost: 0, gf: 5, ga: 0, gd: 5, pts: 6 },
       { team: 'Austria', played: 2, won: 1, drawn: 0, lost: 1, gf: 3, ga: 3, gd: 0, pts: 3 },
-      { team: 'Algeria', played: 2, won: 1, drawn: 1, lost: 0, gf: 2, ga: 4, gd: -2, pts: 4 },
-      { team: 'Jordan', played: 2, won: 0, drawn: 1, lost: 1, gf: 2, ga: 5, gd: -3, pts: 1 }
+      { team: 'Algeria', played: 2, won: 1, drawn: 0, lost: 1, gf: 2, ga: 4, gd: -2, pts: 3 },
+      { team: 'Jordan', played: 2, won: 0, drawn: 0, lost: 2, gf: 2, ga: 5, gd: -3, pts: 0 }
     ],
     'K': [
+      { team: 'Portugal', played: 2, won: 1, drawn: 1, lost: 0, gf: 6, ga: 1, gd: 5, pts: 4 },
       { team: 'Colombia', played: 1, won: 1, drawn: 0, lost: 0, gf: 3, ga: 1, gd: 2, pts: 3 },
-      { team: 'Portugal', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
       { team: 'DR Congo', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
-      { team: 'Uzbekistan', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 3, gd: -2, pts: 0 }
+      { team: 'Uzbekistan', played: 2, won: 0, drawn: 0, lost: 2, gf: 1, ga: 8, gd: -7, pts: 0 }
     ],
     'L': [
-      { team: 'England', played: 1, won: 1, drawn: 0, lost: 0, gf: 4, ga: 2, gd: 2, pts: 3 },
-      { team: 'Ghana', played: 1, won: 1, drawn: 0, lost: 0, gf: 1, ga: 0, gd: 1, pts: 3 },
+      { team: 'England', played: 2, won: 1, drawn: 1, lost: 0, gf: 4, ga: 2, gd: 2, pts: 4 },
+      { team: 'Ghana', played: 2, won: 1, drawn: 1, lost: 0, gf: 1, ga: 0, gd: 1, pts: 4 },
       { team: 'Croatia', played: 1, won: 0, drawn: 0, lost: 1, gf: 2, ga: 4, gd: -2, pts: 0 },
       { team: 'Panama', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 1, gd: -1, pts: 0 }
     ]
