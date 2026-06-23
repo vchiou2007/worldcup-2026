@@ -111,30 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-22 更新：每日輪播—Messi破世界盃進球紀錄，阿根廷2-0勝奧地利晉級32強） =====
+// ===== 輪播牆圖片（2026-06-23 更新：Messi 破世界盃進球紀錄，阿根廷2-0勝奧地利晉級；Mbappé 雙響砲，法國3-0伊拉克晉級32強） =====
 const HERO_IMAGES = [
-  // 🇦🇷⚽ Lionel Messi 第38分鐘破門！Medina 助攻，Messi 禁區內左腳弧線球射入遠角以第17顆世界盃進球超越 Klose 成為史上進球王（AP Photo/Julio Cortez）
+  // 🇦🇷⚽ Lionel Messi 第38分鐘破門！以第17顆世界盃進球超越 Klose 成為史上進球王（AP Photo/Julio Cortez）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646668007-messi-world-cup-goal-record-01-a.jpg',
-  // 🇦🇷⚽ Messi 慶祝成為世界盃歷史進球王！第38分鐘記錄進球後 Messi 被隊友團團圍住，阿根廷隊長以17球獨占世界盃進球榜榜首（AP Photo/Tony Gutierrez）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646669007-messi-world-cup-goal-record-09.jpg',
-  // 🇦🇷⚽ Messi 第9分鐘罰失12碼！Posch 禁區內犯規，Messi 主罰射偏，未能把握率先破紀錄的機會，但第38分鐘將功贖罪（AP Photo/Jessica Tobias）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646670007-messi-world-cup-goal-record-10.jpg',
-  // 🇦🇷⚽ Messi 第90+5分鐘梅開二度！傷停補時階段 Messi 禁區外遠射入網，個人第18顆世界盃進球，阿根廷2-0鎖定勝局（Getty Images/Francois Nel）
+  // 🇦🇷⚽ Messi 第90+5分鐘梅開二度！禁區外遠射入網，個人第18顆世界盃進球，阿根廷2-0鎖定勝局（AP Photo/Francois Nel）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646671007-messi-world-cup-goal-record-02.jpg',
-  // 🇦🇷⚽ Lionel Messi 與 David Alaba 對抗！奧地利隊長 Alaba 嚴防 Messi，但阿根廷傳奇仍以兩球擊敗奧地利防線（AP Photo/Stefan Klein）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646672007-messi-world-cup-goal-record-12.jpg',
-  // 🇦🇷⚽ Messi 慶祝第二球！第90+5分鐘 Messi 遠射破網後展翅慶祝，阿根廷在 Dallas AT&T 體育場以2-0完勝奧地利，衛冕冠軍兩戰全勝晉級32強（AP Photo/LM Otero）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646673007-messi-world-cup-goal-record-08.jpg',
-  // 🇦🇷⚽ 阿根廷全隊慶祝晉級！阿根廷以2-0擊敗奧地利後兩戰全勝積6分，提前鎖定J組第一晉級32強，Messi 以18球獨占世界盃歷史進球王寶座（AP Photo/Eric Gay）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646674007-messi-world-cup-goal-record-04.jpg'
+  // 🇦🇷⚽ Messi 第9分鐘罰失12碼後將功贖罪，第38分鐘以弧線球破紀錄（AP Photo/Jessica Tobias）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646670007-messi-world-cup-goal-record-10.jpg',
+  // 🇫🇷⚽ Kylian Mbappé 梅開二度！法國3-0擊敗伊拉克，Mbappé 以16球並列世界盃歷史進球榜第二（Reuters/Siphiwe Sibeko）
+  'https://s.france24.com/media/display/14725d9e-6e9e-11f1-abf2-005056a97e36/w:1280/p:16x9/2026-06-23T004858Z-778487556-UP1EM6N029LBQ-RTRMADP-3-SOCCER-WORLDCUP-FRA-IRQ.jpg',
+  // 🇦🇷⚽ 阿根廷全隊慶祝晉級！Messi 以18球獨占世界盃歷史進球王寶座（AP Photo/Eric Gay）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646674007-messi-world-cup-goal-record-04.jpg',
+  // 🇫🇷⚽ 法國 vs 伊拉克因暴風雨延賽2小時，成為2026世界盃首場因天氣延賽的比賽。Mbappé 上半場進球後雷電交加，球場疏散觀眾（Reuters/AFP）
+  'https://s.france24.com/media/display/14725d9e-6e9e-11f1-abf2-005056a97e36/w:1280/p:16x9/2026-06-23T004858Z-778487556-UP1EM6N029LBQ-RTRMADP-3-SOCCER-WORLDCUP-FRA-IRQ.jpg',
+  // 🇦🇷⚽ Lionel Messi 與 David Alaba 對抗！阿根廷傳奇以兩球擊敗奧地利防線，衛冕冠軍兩戰全勝晉級32強（AP Photo/Stefan Klein）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646672007-messi-world-cup-goal-record-12.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Lionel Messi 第38分鐘打破世界盃進球紀錄！Facundo Medina 禁區邊緣傳球，Messi 禁區內左腳弧線球精準射入遠角，以第17顆世界盃進球超越 Miroslav Klose 的16球紀錄，成為男子世界盃歷史進球王！Messi 在9分鐘時曾罰失12碼，但38分鐘將功贖罪，全場7次射門、4次關鍵傳球（AP Photo/Julio Cortez）',
-  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Messi 被隊友團團圍住慶祝紀錄進球！第38分鐘進球後，阿根廷全隊奔向 Messi 慶祝這位傳奇成為世界盃歷史進球王。38歲的 Messi 在第六屆世界盃中達成此成就，賽後他表示：「這是我為阿根廷踢球以來最特別的時刻之一」（AP Photo/Tony Gutierrez）',
-  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Messi 第9分鐘罰失12碼！Stefan Posch 在禁區內從背後放倒 Lautaro Martínez，VAR 確認後判罰12碼。然而 Messi 主罰的射門偏出右門柱，未能把握率先破紀錄的機會。這是 Messi 在世界盃連續第三屆賽事罰失12碼（AP Photo/Jessica Tobias）',
-  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Lionel Messi 第90+5分鐘梅開二度！傷停補時階段 Messi 在禁區外接到反彈球後冷靜遠射入網，個人世界盃進球數達到18球。Messi 成為首位在連續六場世界盃比賽中進球的球員，超越 Just Fontaine（1958）和 Jairzinho（1970）的五場紀錄（Getty Images/Francois Nel）',
-  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Messi 與 Alaba 的頂尖對決！奧地利隊長 David Alaba（皇家馬德里）嚴防 Messi，Alaba 全場貢獻4次攔截和2次解圍。但 Messi 仍以7次射門、2進球的表現征服了 Dallas AT&T 體育場的8萬名觀眾。奧地利雖敗猶榮，仍以3分積分位居J組第二（AP Photo/Stefan Klein）',
-  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Messi 遠射破網後展翅慶祝！第90+5分鐘 Messi 打進個人第18顆世界盃進球，將 Klose 的16球紀錄遠遠甩在身後。阿根廷以兩戰全勝積6分的成績提前鎖定J組第一，成為本屆世界盃首支晉級32強的球隊之一。衛冕冠軍展現強大實力（AP Photo/LM Otero）',
-  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — 阿根廷全隊賽後向球迷致謝！兩戰全勝進5球失0球，阿根廷以完美表現晉級32強。Messi 在兩場比賽中攻入5球（對阿爾及利亞帽子戲法、對奧地利梅開二度），以18球獨占世界盃歷史進球王寶座。阿根廷將在6月27日小組賽最後一戰對陣約旦（AP Photo/Eric Gay）'
+  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Lionel Messi 第38分鐘打破世界盃進球紀錄！Facundo Medina 禁區邊緣傳球，Messi 禁區內左腳弧線球精準射入遠角，以第17顆世界盃進球超越 Miroslav Klose 的16球紀錄，成為男子世界盃歷史進球王！Messi 在9分鐘時曾罰失12碼，但38分鐘將功贖罪（AP Photo/Julio Cortez）',
+  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Lionel Messi 第90+5分鐘梅開二度！傷停補時階段 Messi 在禁區外接到反彈球後冷靜遠射入網，個人世界盃進球數達到18球。Messi 成為首位在連續六場世界盃比賽中進球的球員，阿根廷2-0完勝奧地利，兩戰全勝積6分提前鎖定J組第一晉級32強（AP Photo/Francois Nel）',
+  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Messi 第9分鐘罰失12碼！Stefan Posch 禁區內犯規，VAR確認後判罰12碼，但 Messi 主罰射偏。這是 Messi 在世界盃連續第三屆賽事罰失12碼，但他第38分鐘將功贖罪以弧線球破紀錄（AP Photo/Jessica Tobias）',
+  '⚽🇫🇷🇮🇶 法國 3-0 伊拉克 — Kylian Mbappé 梅開二度！Mbappé 在第14分鐘和第54分鐘進球，Ousmane Dembélé 第66分鐘錦上添花。法國以兩戰全勝積6分晉級32強，Mbappé 以16球並列世界盃歷史進球榜第二。比賽因暴風雨延賽2小時，成為2026世界盃首場因天氣延賽的比賽（Reuters/Siphiwe Sibeko）',
+  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — 阿根廷全隊賽後向球迷致謝！兩戰全勝進5球失0球，阿根廷以完美表現晉級32強。Messi 在兩場比賽中攻入5球（對阿爾及利亞帽子戲法、對奧地利梅開二度），以18球獨占世界盃歷史進球王寶座（AP Photo/Eric Gay）',
+  '⚽🇫🇷🇮🇶 法國 3-0 伊拉克 — 費城林肯金融球場遭遇猛烈暴風雨，比賽在半場結束後被迫暫停2小時12分鐘。雷電交加之際球場疏散觀眾至走廊避難，成為2026世界盃首場因天氣因素延賽的賽事。法國在恢復比賽後接管戰局，Mbappé 和 Dembélé 下半場再進兩球鎖定勝局（Reuters/AFP）',
+  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Messi 與 Alaba 的頂尖對決！奧地利隊長 David Alaba（皇家馬德里）全場嚴防 Messi 貢獻4次攔截和2次解圍。但 Messi 仍以7次射門、2進球的表現征服了 Dallas AT&T 體育場的8萬名觀眾。38歲的 Messi 在第六屆世界盃中持續書寫傳奇（AP Photo/Stefan Klein）'
 ];

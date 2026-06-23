@@ -1722,7 +1722,37 @@ const WC_DATA = {
         pressingApplied: [220, 250]
       }
     },
-    { date: '2026-06-22', time: '17:00 ET', group: 'I', team1: 'France', score1: null, team2: 'Iraq', score2: null, venue: '費城·林肯金融球場', status: 'scheduled' },
+    { date: '2026-06-22', time: '17:00 ET', group: 'I', team1: 'France', score1: 3, team2: 'Iraq', score2: 0, venue: '費城·林肯金融球場', status: 'completed',
+      goals: [
+        { min: 14, team: 1, scorer: 'Kylian Mbappé', assist: 'Michael Olise', detail: 'Olise 精準直塞，Mbappé 禁區內冷靜推射破門，法國1-0領先' },
+        { min: 54, team: 1, scorer: 'Kylian Mbappé', assist: null, detail: 'Mbappé 禁區外遠射入網，梅開二度，個人世界盃第4球，法國2-0' },
+        { min: 66, team: 1, scorer: 'Ousmane Dembélé', assist: null, detail: 'Dembélé 禁區內接應射門入網，個人世界盃首球，法國3-0鎖定勝局' }
+      ],
+      cards: [
+        { min: 6, team: 2, player: 'Amir Al-Ammari', card: 'yellow', detail: '惡意犯規' }
+      ],
+      stats: {
+        possession: [63, 37],
+        shots: [16, 5],
+        shotsOnTarget: [7, 1],
+        shotsOffTarget: [6, 3],
+        shotsInsideBox: [10, 3],
+        shotsOutsideBox: [6, 2],
+        passes: [540, 310],
+        passCompleted: [485, 240],
+        passAccuracy: [89.8, 77.4],
+        crosses: [20, 10],
+        crossesCompleted: [6, 2],
+        corners: [8, 2],
+        freeKicks: [12, 14],
+        fouls: [12, 13],
+        offsides: [3, 1],
+        yellowCards: [0, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [220, 250]
+      }
+    },
     { date: '2026-06-22', time: '20:00 ET', group: 'I', team1: 'Norway', score1: null, team2: 'Senegal', score2: null, venue: '紐約/新澤西·大都會人壽體育場', status: 'scheduled' },
     { date: '2026-06-22', time: '23:00 ET', group: 'J', team1: 'Jordan', score1: null, team2: 'Algeria', score2: null, venue: '舊金山·李維斯體育場', status: 'scheduled' },
 
@@ -1813,8 +1843,8 @@ const WC_DATA = {
     ],
     'I': [
       { team: 'Norway', played: 1, won: 1, drawn: 0, lost: 0, gf: 4, ga: 1, gd: 3, pts: 3 },
-      { team: 'France', played: 1, won: 1, drawn: 0, lost: 0, gf: 3, ga: 1, gd: 2, pts: 3 },
-      { team: 'Iraq', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 4, gd: -3, pts: 0 },
+      { team: 'France', played: 2, won: 2, drawn: 0, lost: 0, gf: 6, ga: 1, gd: 5, pts: 6 },
+      { team: 'Iraq', played: 2, won: 0, drawn: 0, lost: 2, gf: 1, ga: 7, gd: -6, pts: 0 },
       { team: 'Senegal', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 3, gd: -2, pts: 0 }
     ],
     'J': [
