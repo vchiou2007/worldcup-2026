@@ -1753,8 +1753,63 @@ const WC_DATA = {
         pressingApplied: [220, 250]
       }
     },
-    { date: '2026-06-22', time: '20:00 ET', group: 'I', team1: 'Norway', score1: null, team2: 'Senegal', score2: null, venue: '紐約/新澤西·大都會人壽體育場', status: 'scheduled' },
-    { date: '2026-06-22', time: '23:00 ET', group: 'J', team1: 'Jordan', score1: null, team2: 'Algeria', score2: null, venue: '舊金山·李維斯體育場', status: 'scheduled' },
+    { date: '2026-06-22', time: '20:00 ET', group: 'I', team1: 'Norway', score1: 3, team2: 'Senegal', score2: 2, venue: '紐約/新澤西·大都會人壽體育場', status: 'completed',
+      goals: [
+        { min: 43, team: 1, scorer: 'Marcus Holmgren Pedersen', assist: null, detail: 'Koulibaly 清球失誤，Pedersen 禁區內勁射破門，替補上場後建功' },
+        { min: 48, team: 1, scorer: 'Erling Haaland', assist: 'Martin Ødegaard', detail: 'Ødegaard 精準直塞，Haaland 禁區內冷靜射入上角，世界盃第3球' },
+        { min: 53, team: 2, scorer: 'Ismaila Sarr', assist: 'Sadio Mané', detail: 'Mané 妙傳撕裂防線，Sarr 禁區內射門入網，塞內加爾追回一球' },
+        { min: 58, team: 1, scorer: 'Erling Haaland', assist: 'Patrick Berg', detail: 'Berg 助攻，Haaland 禁區內凌空抽射碰橫樑入網，梅開二度！世界盃第4球' },
+        { min: 90, team: 2, scorer: 'Ismaila Sarr', assist: null, detail: '傷停補時階段 Sarr 梅開二度，塞內加爾追成3-2，但挪威守住勝局晉級32強' }
+      ],
+      cards: [
+      ],
+      stats: {
+        possession: [48, 52],
+        shots: [9, 7],
+        shotsOnTarget: [5, 2],
+        shotsOffTarget: [3, 4],
+        shotsInsideBox: [6, 4],
+        shotsOutsideBox: [3, 3],
+        passes: [410, 450],
+        passCompleted: [350, 380],
+        passAccuracy: [85.4, 84.4],
+        crosses: [14, 16],
+        crossesCompleted: [4, 3],
+        corners: [4, 1],
+        freeKicks: [12, 14],
+        fouls: [7, 1],
+        offsides: [0, 3],
+        yellowCards: [0, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 260]
+      }
+    },
+    { date: '2026-06-22', time: '23:00 ET', group: 'J', team1: 'Jordan', score1: 0, team2: 'Algeria', score2: 0, venue: '舊金山·李維斯體育場', status: 'completed',
+      goals: [],
+      cards: [],
+      stats: {
+        possession: [24, 76],
+        shots: [3, 2],
+        shotsOnTarget: [2, 0],
+        shotsOffTarget: [1, 2],
+        shotsInsideBox: [1, 1],
+        shotsOutsideBox: [2, 1],
+        passes: [280, 580],
+        passCompleted: [210, 510],
+        passAccuracy: [75.0, 87.9],
+        crosses: [5, 12],
+        crossesCompleted: [1, 3],
+        corners: [0, 1],
+        freeKicks: [12, 10],
+        fouls: [1, 1],
+        offsides: [0, 0],
+        yellowCards: [0, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [24, 36],
+        pressingApplied: [180, 240]
+      }
+    },
 
     // === 6月23日 ===
     { date: '2026-06-23', time: '13:00 ET', group: 'K', team1: 'Portugal', score1: null, team2: 'Uzbekistan', score2: null, venue: '休斯頓·NRG體育場', status: 'scheduled' },
@@ -1842,16 +1897,16 @@ const WC_DATA = {
       { team: 'Saudi Arabia', played: 2, won: 0, drawn: 1, lost: 1, gf: 1, ga: 5, gd: -4, pts: 1 }
     ],
     'I': [
-      { team: 'Norway', played: 1, won: 1, drawn: 0, lost: 0, gf: 4, ga: 1, gd: 3, pts: 3 },
       { team: 'France', played: 2, won: 2, drawn: 0, lost: 0, gf: 6, ga: 1, gd: 5, pts: 6 },
-      { team: 'Iraq', played: 2, won: 0, drawn: 0, lost: 2, gf: 1, ga: 7, gd: -6, pts: 0 },
-      { team: 'Senegal', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 3, gd: -2, pts: 0 }
+      { team: 'Norway', played: 2, won: 2, drawn: 0, lost: 0, gf: 7, ga: 3, gd: 4, pts: 6 },
+      { team: 'Senegal', played: 2, won: 0, drawn: 0, lost: 2, gf: 3, ga: 6, gd: -3, pts: 0 },
+      { team: 'Iraq', played: 2, won: 0, drawn: 0, lost: 2, gf: 1, ga: 7, gd: -6, pts: 0 }
     ],
     'J': [
       { team: 'Argentina', played: 2, won: 2, drawn: 0, lost: 0, gf: 5, ga: 0, gd: 5, pts: 6 },
       { team: 'Austria', played: 2, won: 1, drawn: 0, lost: 1, gf: 3, ga: 3, gd: 0, pts: 3 },
-      { team: 'Algeria', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 3, gd: -3, pts: 0 },
-      { team: 'Jordan', played: 1, won: 0, drawn: 0, lost: 1, gf: 1, ga: 3, gd: -2, pts: 0 }
+      { team: 'Jordan', played: 2, won: 0, drawn: 1, lost: 1, gf: 1, ga: 3, gd: -2, pts: 1 },
+      { team: 'Algeria', played: 2, won: 0, drawn: 1, lost: 1, gf: 0, ga: 3, gd: -3, pts: 1 }
     ],
     'K': [
       { team: 'Colombia', played: 1, won: 1, drawn: 0, lost: 0, gf: 3, ga: 1, gd: 2, pts: 3 },

@@ -111,30 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-23 更新：Messi 破世界盃進球紀錄，阿根廷2-0勝奧地利晉級；Mbappé 雙響砲，法國3-0伊拉克晉級32強） =====
+// ===== 輪播牆圖片（2026-06-23 更新：Haaland 梅開二度，挪威 3-2 塞內加爾晉級32強；約旦 0-0 阿爾及利亞，雙方取得歷史首分） =====
 const HERO_IMAGES = [
-  // 🇦🇷⚽ Lionel Messi 第38分鐘破門！以第17顆世界盃進球超越 Klose 成為史上進球王（AP Photo/Julio Cortez）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646668007-messi-world-cup-goal-record-01-a.jpg',
-  // 🇦🇷⚽ Messi 第90+5分鐘梅開二度！禁區外遠射入網，個人第18顆世界盃進球，阿根廷2-0鎖定勝局（AP Photo/Francois Nel）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646671007-messi-world-cup-goal-record-02.jpg',
-  // 🇦🇷⚽ Messi 第9分鐘罰失12碼後將功贖罪，第38分鐘以弧線球破紀錄（AP Photo/Jessica Tobias）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646670007-messi-world-cup-goal-record-10.jpg',
-  // 🇫🇷⚽ Kylian Mbappé 梅開二度！法國3-0擊敗伊拉克，Mbappé 以16球並列世界盃歷史進球榜第二（Reuters/Siphiwe Sibeko）
-  'https://s.france24.com/media/display/14725d9e-6e9e-11f1-abf2-005056a97e36/w:1280/p:16x9/2026-06-23T004858Z-778487556-UP1EM6N029LBQ-RTRMADP-3-SOCCER-WORLDCUP-FRA-IRQ.jpg',
-  // 🇦🇷⚽ 阿根廷全隊慶祝晉級！Messi 以18球獨占世界盃歷史進球王寶座（AP Photo/Eric Gay）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646674007-messi-world-cup-goal-record-04.jpg',
-  // 🇫🇷⚽ 法國 vs 伊拉克因暴風雨延賽2小時，成為2026世界盃首場因天氣延賽的比賽。Mbappé 上半場進球後雷電交加，球場疏散觀眾（Reuters/AFP）
-  'https://s.france24.com/media/display/14725d9e-6e9e-11f1-abf2-005056a97e36/w:1280/p:16x9/2026-06-23T004858Z-778487556-UP1EM6N029LBQ-RTRMADP-3-SOCCER-WORLDCUP-FRA-IRQ.jpg',
-  // 🇦🇷⚽ Lionel Messi 與 David Alaba 對抗！阿根廷傳奇以兩球擊敗奧地利防線，衛冕冠軍兩戰全勝晉級32強（AP Photo/Stefan Klein）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90646672007-messi-world-cup-goal-record-12.jpg'
+  // 🇳🇴⚽ Erling Haaland 慶祝第48分鐘進球！挪威 3-2 塞內加爾，Haaland 世界盃第3球，挪威晉級32強（Getty Images / USA TODAY Sports）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/USAT/90652825007-gty-2282850273.jpg',
+  // 🇳🇴⚽ Haaland 第58分鐘凌空抽射梅開二度！世界盃第4球，挪威鎖定勝局（AP Photo/Seth Wenig）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/USAT/90652790007-gty-2282849885.jpg',
+  // 🇳🇴⚽ Marcus Holmgren Pedersen 第43分鐘打破僵局！Koulibaly 清球失誤，Pedersen 禁區內勁射破門（USA TODAY Sports）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/USAT/90652698007-16276.jpg',
+  // 🇳🇴🇸🇳 Ismaila Sarr 梅開二度！第53分鐘和傷停補時進球，但塞內加爾仍以2-3惜敗（AFP/Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/USAT/90652876007-afp-2282330803.jpg',
+  // 🇳🇴⚽ Haaland 慶祝進球！挪威球迷身穿維京頭盔佔領紐約，Haaland 兩場4球與 Messi、Mbappé 爭奪金靴（USA TODAY Sports）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/USAT/90652678007-gty-2282848871.jpg',
+  // 🇳🇴🏟️ MetLife 球場挪威球迷盛況！挪威自1998年後重返世界盃即晉級32強，Haaland 以59球續寫國家隊進球紀錄（NorthJersey / USA TODAY）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/PNJM/90653207007-062226-1282.jpg',
+  // 🇳🇴📸 挪威全隊賽後向球迷致謝！挪威與法國同積6分並列I組榜首，將在週五正面對決爭奪小組第一（NorthJersey / USA TODAY）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/PNJM/90653208007-062226-1671.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Lionel Messi 第38分鐘打破世界盃進球紀錄！Facundo Medina 禁區邊緣傳球，Messi 禁區內左腳弧線球精準射入遠角，以第17顆世界盃進球超越 Miroslav Klose 的16球紀錄，成為男子世界盃歷史進球王！Messi 在9分鐘時曾罰失12碼，但38分鐘將功贖罪（AP Photo/Julio Cortez）',
-  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Lionel Messi 第90+5分鐘梅開二度！傷停補時階段 Messi 在禁區外接到反彈球後冷靜遠射入網，個人世界盃進球數達到18球。Messi 成為首位在連續六場世界盃比賽中進球的球員，阿根廷2-0完勝奧地利，兩戰全勝積6分提前鎖定J組第一晉級32強（AP Photo/Francois Nel）',
-  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Messi 第9分鐘罰失12碼！Stefan Posch 禁區內犯規，VAR確認後判罰12碼，但 Messi 主罰射偏。這是 Messi 在世界盃連續第三屆賽事罰失12碼，但他第38分鐘將功贖罪以弧線球破紀錄（AP Photo/Jessica Tobias）',
-  '⚽🇫🇷🇮🇶 法國 3-0 伊拉克 — Kylian Mbappé 梅開二度！Mbappé 在第14分鐘和第54分鐘進球，Ousmane Dembélé 第66分鐘錦上添花。法國以兩戰全勝積6分晉級32強，Mbappé 以16球並列世界盃歷史進球榜第二。比賽因暴風雨延賽2小時，成為2026世界盃首場因天氣延賽的比賽（Reuters/Siphiwe Sibeko）',
-  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — 阿根廷全隊賽後向球迷致謝！兩戰全勝進5球失0球，阿根廷以完美表現晉級32強。Messi 在兩場比賽中攻入5球（對阿爾及利亞帽子戲法、對奧地利梅開二度），以18球獨占世界盃歷史進球王寶座（AP Photo/Eric Gay）',
-  '⚽🇫🇷🇮🇶 法國 3-0 伊拉克 — 費城林肯金融球場遭遇猛烈暴風雨，比賽在半場結束後被迫暫停2小時12分鐘。雷電交加之際球場疏散觀眾至走廊避難，成為2026世界盃首場因天氣因素延賽的賽事。法國在恢復比賽後接管戰局，Mbappé 和 Dembélé 下半場再進兩球鎖定勝局（Reuters/AFP）',
-  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Messi 與 Alaba 的頂尖對決！奧地利隊長 David Alaba（皇家馬德里）全場嚴防 Messi 貢獻4次攔截和2次解圍。但 Messi 仍以7次射門、2進球的表現征服了 Dallas AT&T 體育場的8萬名觀眾。38歲的 Messi 在第六屆世界盃中持續書寫傳奇（AP Photo/Stefan Klein）'
+  '⚽🇳🇴🇸🇳 挪威 3-2 塞內加爾 — Erling Haaland 第48分鐘進球！Martin Ødegaard 精準直塞，Haaland 禁區內冷靜射入上角，世界盃第3球。Haaland 連續12場國家隊正式比賽進球，挪威2-0領先。此役 Haaland 以4球與 Messi（18球）和 Mbappé（16球）並列本屆金靴競爭行列（Getty Images / USA TODAY Sports）',
+  '⚽🇳🇴🇸🇳 挪威 3-2 塞內加爾 — Haaland 第58分鐘凌空抽射梅開二度！Patrick Berg 助攻，Haaland 禁區內凌空抽射擊中橫樑入網，世界盃第4球。Norway 3-1 領先，Haaland 以59球續寫國家隊進球紀錄（52場59球）（AP Photo/Seth Wenig）',
+  '⚽🇳🇴🇸🇳 挪威 3-2 塞內加爾 — Marcus Holmgren Pedersen 第43分鐘替補建功！Kalidou Koulibaly 清球失誤，替補受傷 Ryerson 上場的 Pedersen 禁區內勁射破門，挪威1-0領先結束上半場。Pedersen 的世界盃首球為挪威打開勝利之門（USA TODAY Sports）',
+  '⚽🇳🇴🇸🇳 挪威 3-2 塞內加爾 — Ismaila Sarr 梅開二度！第53分鐘 Sadio Mané 妙傳，Sarr 禁區內射門入網追成1-2；傷停補時第93分鐘 Sarr 再進一球追成2-3，可惜塞內加爾無力回天。塞內加爾兩戰全敗瀕臨淘汰（AFP/Getty Images）',
+  '⚽🇳🇴🇸🇳 挪威 3-2 塞內加爾 — Haaland 慶祝進球！挪威球迷身穿維京頭盔佔領紐約大都會人壽體育場。Norway 自1998年後重返世界盃即晉級32強，與法國同積6分並列I組榜首，週五將對決法國爭奪小組第一（USA TODAY Sports）',
+  '⚽🇳🇴🏟️ MetLife 球場挪威球迷盛況！82500名觀眾中超過半數為挪威球迷，身著維京頭盔和紅白球衣營造主場氛圍。挪威門將 Ørjan Nyland 完成2次撲救，Kristoffer Ajer 和 Torbjørn Heggem 組成的防線成功擋住塞內加爾反撲（NorthJersey / USA TODAY）',
+  '⚽🇳🇴🇸🇳 挪威全隊賽後向球迷致謝！戰績2勝0敗、進7球失3球。I組排名：①法國（+5 GD, 6分）②挪威（+4 GD, 6分）③塞內加爾（0分）④伊拉克（0分）。挪威週五對法國爭小組第一（NorthJersey / USA TODAY）'
 ];
