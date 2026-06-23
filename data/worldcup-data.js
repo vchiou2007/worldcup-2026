@@ -1785,26 +1785,33 @@ const WC_DATA = {
         pressingApplied: [220, 260]
       }
     },
-    { date: '2026-06-22', time: '23:00 ET', group: 'J', team1: 'Jordan', score1: 0, team2: 'Algeria', score2: 0, venue: '舊金山·李維斯體育場', status: 'completed',
-      goals: [],
-      cards: [],
+    { date: '2026-06-22', time: '23:00 ET', group: 'J', team1: 'Jordan', score1: 1, team2: 'Algeria', score2: 2, venue: '舊金山·李維斯體育場', status: 'completed',
+      goals: [
+        { min: 36, team: 1, scorer: 'Nizar Al-Rashdan', assist: 'Mousa Al-Tamari', detail: '左路反擊傳中，Al-Rashdan 禁區內推射入網，約旦率先破門' },
+        { min: 69, team: 2, scorer: 'Nadhir Benbouali', assist: 'Fares Chaibi', detail: 'Chaibi 右路傳中，Benbouali 禁區中央頭槌破門扳平比分' },
+        { min: 82, team: 2, scorer: 'Amine Gouiri', assist: 'Anis Hadj Moussa', detail: '角球開出後禁區混戰，Gouiri 跟進射門入網，VAR 確認進球有效，阿爾及利亞反超' }
+      ],
+      cards: [
+        { min: 44, team: 1, player: 'Husam Abu Dahab', card: 'yellow', detail: '犯規' },
+        { min: 64, team: 2, player: 'Ibrahim Maza', card: 'yellow', detail: '惡意犯規' }
+      ],
       stats: {
-        possession: [24, 76],
-        shots: [3, 2],
-        shotsOnTarget: [2, 0],
-        shotsOffTarget: [1, 2],
-        shotsInsideBox: [1, 1],
-        shotsOutsideBox: [2, 1],
-        passes: [280, 580],
-        passCompleted: [210, 510],
-        passAccuracy: [75.0, 87.9],
-        crosses: [5, 12],
-        crossesCompleted: [1, 3],
-        corners: [0, 1],
-        freeKicks: [12, 10],
-        fouls: [1, 1],
-        offsides: [0, 0],
-        yellowCards: [0, 0],
+        possession: [27, 73],
+        shots: [8, 15],
+        shotsOnTarget: [4, 8],
+        shotsOffTarget: [3, 5],
+        shotsInsideBox: [4, 10],
+        shotsOutsideBox: [4, 5],
+        passes: [260, 540],
+        passCompleted: [190, 480],
+        passAccuracy: [73.1, 88.9],
+        crosses: [6, 18],
+        crossesCompleted: [1, 5],
+        corners: [1, 10],
+        freeKicks: [14, 10],
+        fouls: [11, 6],
+        offsides: [1, 0],
+        yellowCards: [1, 1],
         redCards: [0, 0],
         forcedTurnovers: [24, 36],
         pressingApplied: [180, 240]
@@ -1905,8 +1912,8 @@ const WC_DATA = {
     'J': [
       { team: 'Argentina', played: 2, won: 2, drawn: 0, lost: 0, gf: 5, ga: 0, gd: 5, pts: 6 },
       { team: 'Austria', played: 2, won: 1, drawn: 0, lost: 1, gf: 3, ga: 3, gd: 0, pts: 3 },
-      { team: 'Jordan', played: 2, won: 0, drawn: 1, lost: 1, gf: 1, ga: 3, gd: -2, pts: 1 },
-      { team: 'Algeria', played: 2, won: 0, drawn: 1, lost: 1, gf: 0, ga: 3, gd: -3, pts: 1 }
+      { team: 'Algeria', played: 2, won: 1, drawn: 1, lost: 0, gf: 2, ga: 4, gd: -2, pts: 4 },
+      { team: 'Jordan', played: 2, won: 0, drawn: 1, lost: 1, gf: 2, ga: 5, gd: -3, pts: 1 }
     ],
     'K': [
       { team: 'Colombia', played: 1, won: 1, drawn: 0, lost: 0, gf: 3, ga: 1, gd: 2, pts: 3 },
