@@ -1912,7 +1912,35 @@ const WC_DATA = {
         pressingApplied: [220, 260]
       }
     },
-    { date: '2026-06-23', time: '22:00 ET', group: 'K', team1: 'Colombia', score1: null, team2: 'DR Congo', score2: null, venue: '瓜達拉哈拉·阿克隆體育場', status: 'scheduled' },
+    { date: '2026-06-23', time: '22:00 ET', group: 'K', team1: 'Colombia', score1: 1, team2: 'DR Congo', score2: 0, venue: '瓜達拉哈拉·阿克隆體育場', status: 'completed',
+      goals: [
+        { min: 76, team: 1, scorer: 'Daniel Muñoz', assist: 'Luis Díaz', detail: 'Córdoba 禁區內做牆，Muñoz 右路插上禁區內勁射入網，哥倫比亞1-0打破僵局！哥倫比亞2連勝晉級32強' }
+      ],
+      cards: [
+        { min: 56, team: 1, player: 'Jhon Lucumi', card: 'yellow', detail: 'serious foul play' }
+      ],
+      stats: {
+        possession: [64, 36],
+        shots: [20, 8],
+        shotsOnTarget: [9, 1],
+        shotsOffTarget: [5, 5],
+        shotsInsideBox: [11, 4],
+        shotsOutsideBox: [9, 4],
+        passes: [540, 298],
+        passCompleted: [473, 224],
+        passAccuracy: [87.6, 75.2],
+        crosses: [18, 10],
+        crossesCompleted: [5, 2],
+        corners: [5, 4],
+        freeKicks: [14, 16],
+        fouls: [12, 16],
+        offsides: [7, 0],
+        yellowCards: [2, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 250]
+      }
+    },
 
     // === 6月24日 ===
     { date: '2026-06-24', time: '15:00 ET', group: 'B', team1: 'Switzerland', score1: null, team2: 'Canada', score2: null, venue: '溫哥華·BC Place', status: 'scheduled' },
@@ -2009,8 +2037,8 @@ const WC_DATA = {
     ],
     'K': [
       { team: 'Portugal', played: 2, won: 1, drawn: 1, lost: 0, gf: 6, ga: 1, gd: 5, pts: 4 },
-      { team: 'Colombia', played: 1, won: 1, drawn: 0, lost: 0, gf: 3, ga: 1, gd: 2, pts: 3 },
-      { team: 'DR Congo', played: 1, won: 0, drawn: 1, lost: 0, gf: 1, ga: 1, gd: 0, pts: 1 },
+      { team: 'Colombia', played: 2, won: 2, drawn: 0, lost: 0, gf: 4, ga: 1, gd: 3, pts: 6 },
+      { team: 'DR Congo', played: 2, won: 0, drawn: 1, lost: 1, gf: 1, ga: 2, gd: -1, pts: 1 },
       { team: 'Uzbekistan', played: 2, won: 0, drawn: 0, lost: 2, gf: 1, ga: 8, gd: -7, pts: 0 }
     ],
     'L': [
