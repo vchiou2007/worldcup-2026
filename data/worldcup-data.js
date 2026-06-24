@@ -1943,8 +1943,72 @@ const WC_DATA = {
     },
 
     // === 6月24日 ===
-    { date: '2026-06-24', time: '15:00 ET', group: 'B', team1: 'Switzerland', score1: null, team2: 'Canada', score2: null, venue: '溫哥華·BC Place', status: 'scheduled' },
-    { date: '2026-06-24', time: '15:00 ET', group: 'B', team1: 'Bosnia and Herzegovina', score1: null, team2: 'Qatar', score2: null, venue: '西雅圖·流明球場', status: 'scheduled' },
+    { date: '2026-06-24', time: '15:00 ET', group: 'B', team1: 'Switzerland', score1: 2, team2: 'Canada', score2: 1, venue: '溫哥華·BC Place', status: 'completed',
+      goals: [
+        { min: 46, team: 1, scorer: 'Ruben Vargas', assist: 'Johan Manzambi', detail: '下半場開場46秒，Vargas 禁區內接 Manzambi 妙傳推射入網，瑞士1-0領先' },
+        { min: 57, team: 1, scorer: 'Johan Manzambi', assist: 'Breel Embolo', detail: 'Embolo 左路突破傳中，Manzambi 禁區中央推射破門，瑞士2-0' },
+        { min: 76, team: 2, scorer: 'Promise David', assist: 'Nathan Saliba', detail: 'Saliba 右路傳中，David 禁區內搶點射門入網，加拿大追回一球' }
+      ],
+      cards: [
+        { min: 31, team: 1, player: 'Granit Xhaka', card: 'yellow', detail: 'unsporting behavior' },
+        { min: 31, team: 2, player: 'Cyle Larin', card: 'yellow', detail: 'unsporting behavior' },
+        { min: 87, team: 2, player: 'Liam Millar', card: 'yellow', detail: 'serious foul play' }
+      ],
+      stats: {
+        possession: [62, 38],
+        shots: [14, 10],
+        shotsOnTarget: [5, 4],
+        shotsOffTarget: [6, 4],
+        shotsInsideBox: [8, 6],
+        shotsOutsideBox: [6, 4],
+        passes: [510, 340],
+        passCompleted: [450, 270],
+        passAccuracy: [88.2, 79.4],
+        crosses: [18, 16],
+        crossesCompleted: [5, 4],
+        corners: [6, 5],
+        freeKicks: [14, 16],
+        fouls: [14, 15],
+        offsides: [2, 3],
+        yellowCards: [1, 2],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 260]
+      }
+    },
+    { date: '2026-06-24', time: '15:00 ET', group: 'B', team1: 'Bosnia and Herzegovina', score1: 3, team2: 'Qatar', score2: 1, venue: '西雅圖·流明球場', status: 'completed',
+      goals: [
+        { min: 29, team: 1, scorer: 'Kerim Alajbegovic', assist: 'Ivan Basic', detail: 'Basic 右路低平球傳中，Alajbegovic 禁區中央推射入網，波赫1-0' },
+        { min: 34, team: 1, scorer: 'Sultan Al Brake (OG)', detail: 'Basic 角球開出，Al Brake 頭球解圍不慎頂入自家大門，波赫2-0' },
+        { min: 42, team: 2, scorer: 'Hassan Al-Haydos', assist: 'Edmilson Junior', detail: 'Junior 斜傳禁區，Al-Haydos 禁區內射門入網，卡達追回一球' },
+        { min: 80, team: 1, scorer: 'Ermin Mahmić', assist: 'Dennis Hadžikadunić', detail: 'Hadžikadunić 助攻，Mahmić 禁區內射門入網，波赫3-1鎖定勝局' }
+      ],
+      cards: [
+        { min: 78, team: 2, player: 'Ahmed Fathy', card: 'yellow', detail: 'serious foul play' },
+        { min: 82, team: 1, player: 'Ermin Mahmić', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [55, 45],
+        shots: [14, 10],
+        shotsOnTarget: [5, 3],
+        shotsOffTarget: [6, 4],
+        shotsInsideBox: [8, 5],
+        shotsOutsideBox: [6, 5],
+        passes: [420, 360],
+        passCompleted: [350, 290],
+        passAccuracy: [83.3, 80.6],
+        crosses: [16, 14],
+        crossesCompleted: [4, 3],
+        corners: [7, 5],
+        freeKicks: [14, 16],
+        fouls: [14, 13],
+        offsides: [2, 3],
+        yellowCards: [1, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [230, 240]
+      }
+    },
     { date: '2026-06-24', time: '18:00 ET', group: 'C', team1: 'Scotland', score1: null, team2: 'Brazil', score2: null, venue: '邁阿密·硬石體育場', status: 'scheduled' },
     { date: '2026-06-24', time: '18:00 ET', group: 'C', team1: 'Morocco', score1: null, team2: 'Haiti', score2: null, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'scheduled' },
     { date: '2026-06-24', time: '21:00 ET', group: 'A', team1: 'Czechia', score1: null, team2: 'Mexico', score2: null, venue: '墨西哥城·阿茲特克體育場', status: 'scheduled' },
@@ -1982,10 +2046,10 @@ const WC_DATA = {
       { team: 'South Africa', played: 2, won: 0, drawn: 1, lost: 1, gf: 1, ga: 3, gd: -2, pts: 1 }
     ],
     'B': [
-      { team: 'Canada', played: 2, won: 1, drawn: 1, lost: 0, gf: 7, ga: 1, gd: 6, pts: 4 },
-      { team: 'Switzerland', played: 2, won: 1, drawn: 1, lost: 0, gf: 5, ga: 2, gd: 3, pts: 4 },
-      { team: 'Bosnia and Herzegovina', played: 2, won: 0, drawn: 1, lost: 1, gf: 2, ga: 5, gd: -3, pts: 1 },
-      { team: 'Qatar', played: 2, won: 0, drawn: 1, lost: 1, gf: 1, ga: 7, gd: -6, pts: 1 }
+      { team: 'Switzerland', played: 3, won: 2, drawn: 1, lost: 0, gf: 7, ga: 3, gd: 4, pts: 7 },
+      { team: 'Canada', played: 3, won: 1, drawn: 1, lost: 1, gf: 8, ga: 3, gd: 5, pts: 4 },
+      { team: 'Bosnia and Herzegovina', played: 3, won: 1, drawn: 1, lost: 1, gf: 5, ga: 6, gd: -1, pts: 4 },
+      { team: 'Qatar', played: 3, won: 0, drawn: 1, lost: 2, gf: 2, ga: 10, gd: -8, pts: 1 }
     ],
     'C': [
       { team: 'Morocco', played: 2, won: 1, drawn: 1, lost: 0, gf: 2, ga: 1, gd: 1, pts: 4 },
