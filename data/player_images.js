@@ -111,30 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-23 18:00 更新：Ronaldo 梅開二度創紀錄！史上首位在6屆世界盃進球的球員） =====
+// ===== 輪播牆圖片（2026-06-24 09:00 更新：Panama 0-1 Croatia + Ronaldo 紀錄之夜 + Messi 成歷史進球王） =====
 const HERO_IMAGES = [
+  // 🇭🇷🎉 Croatia 1-0 Panama — Ante Budimir 第54分鐘替補建功！Luka Modrić 200場國家隊里程碑（AP Photo/Stephanie Scarbrough / USA TODAY Sports）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/24/USAT/90669681007-croatia-world-cup.jpg',
   // 🇵🇹⚽ Cristiano Ronaldo 第6分鐘破門！成為史上首位在6屆世界盃進球的球員！葡萄牙 5-0 烏茲別克（AP Photo/Eric Gay / USA TODAY Sports）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/USAT/90661438007-2282965503.jpg',
-  // 🇵🇹🎉 Ronaldo 在 Houston NRG 體育場慶祝進球！41歲138天成為世界盃史上第二年長進球者，僅次於 Roger Milla（42歲）。世界盃第10球超越 Eusébio 成為葡萄牙世界盃歷史射手王（Getty Images / USA TODAY Sports）
+  // 🇵🇹🎉 Ronaldo 在 Houston NRG 體育場慶祝進球！世界盃第10球超越 Eusébio 成為葡萄牙世界盃歷史射手王（Getty Images / USA TODAY Sports）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/USAT/90666875007-usp-soccer-fifa-world-cup-2026-group-k-portug.jpg',
-  // 🇵🇹⚽ Ronaldo 第39分鐘梅開二度世界盃第10球！超越 Eusébio 成葡萄牙世界盃歷史射手王，Nuno Mendes 第17分鐘自由球破門，葡萄牙5-0大勝烏茲別克（USA TODAY Sports）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/SFTW/90662457007-usatsi-29253120.jpg',
-  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿🇬🇭 英格蘭 0-0 迦納 — 波士頓吉列體育場的悶平！Thomas Tuchel 的英格蘭隊未能突破迦納的密集防線，迦納門將 Lawrence Ati-Zigi 表現出色力保不失。兩隊各拿1分，同積4分並列 L 組榜首（AP Photo / USA TODAY Sports）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/USAT/90666950007-2282482745.jpg',
   // 🇦🇷⚽ Lionel Messi 第38分鐘破門！第17顆世界盃進球超越 Klose（16球），成為男子世界盃史上進球王！阿根廷 2-0 奧地利（Getty Images / USA TODAY Sports）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90648148007-gty-2282804037.jpg',
   // 🇫🇷⚽ Kylian Mbappé 梅開二度！法國 3-0 伊拉克，Mbappé 世界盃第15球，距離 Klose 紀錄僅差1球（Getty Images）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90650255007-gty-2282817617.jpg',
   // 🇳🇴⚽ Erling Haaland 梅開二度！挪威 3-2 塞內加爾，Haaland 世界盃第4球，挪威2連勝晉級32強（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90651853007-gty-2282834995.jpg'
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90651853007-gty-2282834995.jpg',
+  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿🇬🇭 英格蘭 0-0 迦納 — 英格蘭控球62%但無法突破迦納防線，兩隊各拿1分同積4分並列L組榜首（AP Photo / USA TODAY Sports）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/USAT/90666950007-2282482745.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '⚽🇵🇹🇺🇿 葡萄牙 5-0 烏茲別克 — Cristiano Ronaldo 第6分鐘接 João Cancelo 右路低平球傳中，禁區內第一時間射近角入網，成為史上首位在6屆世界盃（2006、2010、2014、2018、2022、2026）進球的球員！Ronaldo 以41歲138天成為世界盃史上第二年長進球者，僅次於喀麥隆傳奇 Roger Milla（42歲39天）。賽後 Ronaldo 對著鏡頭大喊「I\'m back！」回應外界批評（AP Photo/Eric Gay / USA TODAY Sports）',
-  '⚽🇵🇹🇺🇿 葡萄牙 5-0 烏茲別克 — Ronaldo 在 Houston NRG 體育場 68,777 名球迷面前慶祝進球！Ronaldo 在第39分鐘接 Bruno Fernandes 精準直塞禁區內冷靜射入遠角梅開二度，世界盃進球累積至10球，超越 Eusébio（9球）成為葡萄牙世界盃歷史射手王。Nuno Mendes 第17分鐘自由球破門也功不可沒（Getty Images / USA TODAY Sports）',
-  '⚽🇵🇹🇺🇿 葡萄牙 5-0 烏茲別克 — Rafael Leão 第87分鐘替補上場4分鐘後禁區內射門入網鎖定5-0勝局！葡萄牙2戰積4分（1勝1和）暫居K組榜首。烏茲別克門將 Abduvokhid Nematov 在第60分鐘不幸將球碰入自家大門。烏茲別克2戰全敗0分，晉級希望渺茫（USA TODAY Sports/Reuters）',
-  '⚽🏴󠁧󠁢󠁥󠁮󠁧󠁿🇬🇭 英格蘭 0-0 迦納 — 波士頓吉列體育場的沉悶平局！英格蘭控球率達62%但始終無法突破迦納的嚴密防線。Thomas Tuchel 先後換上 Bukayo Saka 和 Marcus Rashford 加強攻勢，但迦納門將 Lawrence Ati-Zigi 表現神勇力保不失。英格蘭和迦納各拿1分，同積4分並列L組榜首，晉級32強仍需在最後一輪定奪（AP Photo / USA TODAY Sports）',
-  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Lionel Messi 第38分鐘打破世界盃進球紀錄！以第17顆世界盃進球正式超越 Miroslav Klose（16球）成為男子世界盃歷史進球王！Messi 本屆世界盃已累積5球，6場連續進球追平 Just Fontaine 和 Jairzinho 紀錄。阿根廷2連勝晉級32強（Getty Images / USA TODAY Sports）',
-  '⚽🇫🇷🇮🇶 法國 3-0 伊拉克 — Kylian Mbappé 第14分鐘首開紀錄、第54分鐘梅開二度！Michael Olise 精準直塞助攻，Ousmane Dembélé 第66分鐘錦上添花個人世界盃首球。Mbappé 世界盃進球數達到第15球，距離 Klose 的16球紀錄僅差1球。法國2連勝晉級32強（Getty Images）',
-  '⚽🇳🇴🇸🇳 挪威 3-2 塞內加爾 — Erling Haaland 梅開二度！Marcus Holmgren Pedersen 替補上場後第43分鐘首開紀錄，Haaland 第48分鐘接 Ødegaard 直塞冷靜射入上角，第58分鐘禁區內凌空抽射碰橫樑入網。Ismaila Sarr 為塞內加爾梅開二度（53分鐘、90分鐘），但挪威守住勝局。Haaland 世界盃第4球，挪威2連勝晉級32強（Getty Images）'
+  '⚽🇭🇷🇵🇦 克羅埃西亞 1-0 巴拿馬 — Ante Budimir 第54分鐘接 Josip Stanišić 右路傳中禁區內推射入網，下半場替補上陣8分鐘即建功，以34歲之齡成爲克羅埃西亞世界盃史上最年長進球者！Luka Modrić 以200場國家隊出賽成爲史上第4位達此里程碑的球員（僅次於 Cristiano Ronaldo、Sergio Ramos、Ahmed Hassan）。克羅埃西亞拿下關鍵3分保住晉級希望，巴拿馬2戰全敗0分出局（AP Photo/Stephanie Scarbrough / USA TODAY Sports）',
+  '⚽🇵🇹🇺🇿 葡萄牙 5-0 烏茲別克 — Cristiano Ronaldo 第6分鐘接 João Cancelo 右路低平球傳中，禁區內第一時間射近角入網，成為史上首位在6屆世界盃（2006、2010、2014、2018、2022、2026）進球的球員！Ronaldo 以41歲138天成爲世界盃史上第二年長進球者，僅次於喀麥隆傳奇 Roger Milla（42歲39天）。賽後 Ronaldo 對著鏡頭大喊「I\'m back！」回應外界批評（AP Photo/Eric Gay / USA TODAY Sports）',
+  '⚽🇵🇹🇺🇿 葡萄牙 5-0 烏茲別克 — Ronaldo 在 Houston NRG 體育場 68,777 名球迷面前慶祝進球！Ronaldo 在第39分鐘接 Bruno Fernandes 精準直塞禁區內冷靜射入遠角梅開二度，世界盃進球累積至10球，超越 Eusébio（9球）成為葡萄牙世界盃歷史射手王。Nuno Mendes 第17分鐘自由球破門也功不可沒。葡萄牙2戰積4分（1勝1和）暫居K組榜首（Getty Images / USA TODAY Sports）',
+  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Lionel Messi 第38分鐘接 Facundo Medina 助攻禁區內左腳弧線球射入遠角，以第17顆世界盃進球正式超越 Miroslav Klose（16球）成為男子世界盃歷史進球王！傷停補時第5分鐘 Messi 禁區外射門入網梅開二度，世界盃進球數達到18球。Messi 本屆世界盃已累積5球，阿根廷2連勝晉級32強（Getty Images / USA TODAY Sports）',
+  '⚽🇫🇷🇮🇶 法國 3-0 伊拉克 — Kylian Mbappé 第14分鐘首開紀錄、第54分鐘梅開二度！Michael Olise 精準直塞助攻，Ousmane Dembélé 第66分鐘錦上添花個人世界盃首球。Mbappé 世界盃進球數達到第15球，距離 Klose 的16球紀錄僅差1球。法國2連勝晉級32強，Didier Deschamps 因母親辭世暫離球隊（Getty Images）',
+  '⚽🇳🇴🇸🇳 挪威 3-2 塞內加爾 — Erling Haaland 梅開二度！Marcus Holmgren Pedersen 第43分鐘替補建功首開紀錄，Haaland 第48分鐘接 Martin Ødegaard 直塞冷靜射入上角，第58分鐘禁區內凌空抽射碰橫樑入網梅開二度！Ismaila Sarr 爲塞內加爾梅開二度（53分鐘、90分鐘），但挪威守住勝局。Haaland 世界盃第4球，挪威2連勝晉級32強（Getty Images）',
+  '⚽🏴󠁧󠁢󠁥󠁮󠁧󠁿🇬🇭 英格蘭 0-0 迦納 — 波士頓吉列體育場的沉悶平局！英格蘭控球率高達62%但始終無法突破迦納的嚴密防線。Thomas Tuchel 先後換上 Bukayo Saka 和 Marcus Rashford 加強攻勢，迦納門將 Lawrence Ati-Zigi 表現神勇力保不失。英格蘭和迦納各拿1分，同積4分並列L組榜首，晉級32強仍需在最後一輪定奪（AP Photo / USA TODAY Sports）'
 ];

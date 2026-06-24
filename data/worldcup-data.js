@@ -1882,7 +1882,36 @@ const WC_DATA = {
         pressingApplied: [210, 240]
       }
     },
-    { date: '2026-06-23', time: '19:00 ET', group: 'L', team1: 'Panama', score1: null, team2: 'Croatia', score2: null, venue: '多倫多·BMO球場', status: 'scheduled' },
+    { date: '2026-06-23', time: '19:00 ET', group: 'L', team1: 'Panama', score1: 0, team2: 'Croatia', score2: 1, venue: '多倫多·BMO球場', status: 'completed',
+      goals: [
+        { min: 54, team: 2, scorer: 'Ante Budimir', assist: 'Josip Stanišić', detail: 'Stanišić 右路傳中，Budimir 下半場替補上陣54分鐘禁區內推射入網，以34歲之齡成爲克羅埃西亞世界盃史上最年長進球者。Luka Modrić 以200場國家隊出賽成爲史上第4位達此里程碑的球員' }
+      ],
+      cards: [
+        { min: 61, team: 1, player: 'Yoel Bárcenas', card: 'yellow', detail: '犯規' },
+        { min: 90, team: 2, player: 'Petar Sučić', card: 'yellow', detail: '拖延比賽時間' }
+      ],
+      stats: {
+        possession: [49, 51],
+        shots: [8, 12],
+        shotsOnTarget: [3, 4],
+        shotsOffTarget: [3, 5],
+        shotsInsideBox: [5, 7],
+        shotsOutsideBox: [3, 5],
+        passes: [380, 460],
+        passCompleted: [310, 400],
+        passAccuracy: [81.6, 87.0],
+        crosses: [14, 18],
+        crossesCompleted: [3, 5],
+        corners: [4, 5],
+        freeKicks: [14, 12],
+        fouls: [14, 11],
+        offsides: [2, 3],
+        yellowCards: [1, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 260]
+      }
+    },
     { date: '2026-06-23', time: '22:00 ET', group: 'K', team1: 'Colombia', score1: null, team2: 'DR Congo', score2: null, venue: '瓜達拉哈拉·阿克隆體育場', status: 'scheduled' },
 
     // === 6月24日 ===
@@ -1987,8 +2016,8 @@ const WC_DATA = {
     'L': [
       { team: 'England', played: 2, won: 1, drawn: 1, lost: 0, gf: 4, ga: 2, gd: 2, pts: 4 },
       { team: 'Ghana', played: 2, won: 1, drawn: 1, lost: 0, gf: 1, ga: 0, gd: 1, pts: 4 },
-      { team: 'Croatia', played: 1, won: 0, drawn: 0, lost: 1, gf: 2, ga: 4, gd: -2, pts: 0 },
-      { team: 'Panama', played: 1, won: 0, drawn: 0, lost: 1, gf: 0, ga: 1, gd: -1, pts: 0 }
+      { team: 'Croatia', played: 2, won: 1, drawn: 0, lost: 1, gf: 3, ga: 4, gd: -1, pts: 3 },
+      { team: 'Panama', played: 2, won: 0, drawn: 0, lost: 2, gf: 0, ga: 2, gd: -2, pts: 0 }
     ]
   }
 };
