@@ -111,30 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-25 更新：墨西哥 3-0 捷克 + 南非 1-0 南韓，A 組小組賽落幕） =====
+// ===== 輪播牆圖片（2026-06-25 更新：厄瓜多 2-1 德國 + 象牙海岸 2-0 庫拉索，E 組小組賽落幕） =====
 const HERO_IMAGES = [
-  // 🇲🇽🇨🇿⚽ Mateo Chávez 第55分鐘首開紀錄！墨西哥 3-0 完勝捷克，小組賽三戰全勝零失球創隊史紀錄（AP Photo/Silvia Izquierdo / USA TODAY Sports）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90687685007-2283203954.jpg?crop=5683,3197,x0,y294&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇲🇽🇨🇿🎉 Julián Quiñones 第61分鐘再下一城！墨西哥流暢配合打穿捷克防線，Quiñones 本屆世界盃累積2球（Getty Images / USA TODAY Sports）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90687687007-2283206153.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇲🇽🇨🇿🏆 40 歲傳奇門將 Guillermo Ochoa 第77分鐘替補登場！成為世界盃史上僅第三位出賽六屆的球員，全場 83,000 名球迷起立致敬（USA TODAY Sports）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90688000007-memo.jpg?crop=8255,4644,x0,y825&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇲🇽🇨🇿⚽ Mateo Chávez 第55分鐘首開紀錄後與隊友瘋狂慶祝！這位22歲的左後衛在世界盃首秀中攻入關鍵進球，幫助墨西哥最終以 3-0 完勝捷克，小組賽三戰全勝且零失球創隊史紀錄（AP Photo / Al Jazeera）
-  'https://www.aljazeera.com/wp-content/uploads/2026/06/ap_6a3c9e6a133e5-1782357610.jpg?resize=1920%2C1080',
-  // 🇿🇦🇰🇷⚽ Thapelo Maseko 第63分鐘禁區邊緣左腳勁射破網！南非 1-0 擊敗南韓，隊史首次晉級世界盃淘汰賽（Reuters / USA TODAY Sports）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90686543007-90686393007-gty-2283195042.jpg?crop=5495,3092,x0,y286&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇿🇦🇰🇷🎉 Samukelo Kabini and Aubrey Modiba celebrate South Africa's historic 1-0 victory over South Korea! Bafana Bafana 以 A 組第二名（4分）晉級32強，將在6月28日洛杉磯對陣加拿大（Yonhap / The Korea Times）
-  'https://newsimg.koreatimes.co.kr/2026/06/25/cee6ff69-2519-4ac2-a95e-283be29b9e7f.jpg?w=1600',
-  // 🇲🇽🇨🇿🏆 40歲傳奇門將 Guillermo Ochoa 被隊友高高舉起，全場83,000名球迷高喊「Memo！Memo！」這位征戰六屆世界盃的活傳奇，在小組賽最終戰留下了最動人的畫面（Getty Images / USA TODAY Sports）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90687691007-2283206248.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp'
+  // 🇪🇨🇩🇪⚽ Gonzalo Plata 第77分鐘跟進補射破門！厄瓜多 2-1 逆轉德國，角球 Kevin Rodriguez 頭槌被 Neuer 撲出後 Plata 機警補射入網（AP Photo/Seth Wenig）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/ecuador-plata-goal.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇪🇨🇩🇪🎉 Nilson Angulo 第9分鐘禁區外世界波扳平！Sunderland 邊鋒 Angulo 在禁區外右腳遠射越過 Neuer 頭頂入網，全場 50,000 名厄瓜多球迷陷入瘋狂（AP Photo / Reuters）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/ecuador-angulo-celebration.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇪🇨🇩🇪🎉 Gonzalo Plata 進球後與隊友忘情慶祝！厄瓜多以 2-1 擊敗四屆冠軍德國，以 4 分成為最佳小組第三名之一，隊史第三次晉級世界盃淘汰賽（AP Photo/Seth Wenig）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/ecuador-team-celebration.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇨🇮🇨🇼⚽ Nicolas Pépé 第7分鐘接 Yan Diomande 傳球禁區內推射入網！象牙海岸 1-0 領先庫拉索，Pépé 為大象軍團打開晉級之路（AP Photo/Matt Slocum）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/pepe-first-goal.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇨🇮🇨🇼⚽ Nicolas Pépé 第64分鐘接 Ibrahim Sangaré 助攻梅開二度！象牙海岸 2-0 擊敗庫拉索，隊史首次晉級世界盃淘汰賽（AP Photo/Matt Slocum）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/pepe-second-goal.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇪🇨🇩🇪🏆 全場最佳 Gonzalo Plata 賽後接受採訪！Plata 在第77分鐘的關鍵進球讓厄瓜多以 2-1 擊敗德國，成為 E 組最大驚奇（Reuters / USA TODAY Sports）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/ecuador-plata-motm.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇨🇮🇨🇼🎉 Nicolas Pépé 賽後與隊友圍圈慶祝象牙海岸歷史性晉級！大象軍團以小組第二（6分）晉級32強，將在6月28日對陣 L 組第二名（AP Photo/Petr David Josek）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/ivory-coast-celebration.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp'
 ];
 
 const HERO_CAPTIONS = [
-  '⚽🇲🇽🇨🇿 墨西哥 3-0 捷克 — Mateo Chávez 第55分鐘接 Luis Romo 傳球，左後衛位置切入右路禁區冷靜推射破門！這是 Chávez 在個人世界盃首秀中的首顆進球。墨西哥小組賽三戰全勝且零失球（6-0），創下隊史世界盃小組賽最佳戰績（AP Photo/Silvia Izquierdo / USA TODAY Sports）',
-  '⚽🇲🇽🇨🇿 墨西哥 3-0 捷克 — Julián Quiñones 第61分鐘接 Jorge Sánchez 傳球，禁區內流暢配合後射門入網，個人本屆世界盃累積2球！Quiñones 在開幕戰對南非攻入本屆世界盃首球，現在又以關鍵進球幫助墨西哥鎖定 A 組第一（Getty Images / USA TODAY Sports）',
-  '⚽🇲🇽🇨🇿 墨西哥 3-0 捷克 — 40歲傳奇門將 Guillermo Ochoa 第77分鐘替補 Raúl Rangel 登場，全場83,000名球迷起立歡呼致敬！Ochoa 成為繼 Lionel Messi 和 Cristiano Ronaldo 之後，世界盃史上第三位出賽六屆的球員。Edson Álvarez 親自為 Ochoa 戴上隊長臂章（USA TODAY Sports）',
-  '⚽🇲🇽🇨🇿 墨西哥 3-0 捷克 — Mateo Chávez 第55分鐘接到 Luis Romo 的傳球後，從左後衛位置切入禁區，冷靜推射遠角入網！這是 Chávez 在世界盃首秀中的首顆進球，進球後他興奮地與 Julián Quiñones 等隊友狂奔慶祝。墨西哥最終以3-0完封捷克，小組賽三戰全勝且零失球（6-0），創下隊史最佳戰績（AP Photo / Al Jazeera）',
-  '⚽🇿🇦🇰🇷 南非 1-0 南韓 — Thapelo Maseko 第63分鐘接替補上場的 Tshepang Moremi 左路傳中，禁區邊緣調整後左腳勁射入近柱！南非以 1-0 擊敗南韓，隊史首次晉級世界盃淘汰賽階段，22歲的 Maseko 成為南非世界盃史上第二年輕進球者（Reuters / USA TODAY Sports）',
-  '⚽🇿🇦🇰🇷 南非 1-0 南韓 — 南非後衛 Samukelo Kabini 與 Aubrey Modiba 賽後忘情慶祝！Bafana Bafana 以 A 組第二名（4分）驚險晉級32強，將於6月28日在洛杉磯對陣加拿大。這是南非自1998年後首次參加世界盃，也是隊史首度晉級淘汰賽（Yonhap / The Korea Times）',
-  '⚽🇲🇽🇨🇿 墨西哥 3-0 捷克 — 40歲傳奇門將 Guillermo Ochoa 被 Edson Álvarez 等隊友高高舉起！Ochoa 在第77分鐘替補登場，成為世界盃史上僅第三位出賽六屆的球員。賽後隊長 Álvarez 為 Ochoa 戴上隊長臂章，全場83,000名球迷高喊「Memo！Memo！」場面令人動容（Getty Images / USA TODAY Sports）'
+  '⚽🇪🇨🇩🇪 厄瓜多 2-1 德國 — Gonzalo Plata 第77分鐘在角球混戰中機警補射破門！Kevin Rodriguez 的頭槌被德國門將 Manuel Neuer 撲出，Plata 搶在所有人之前將球捅入網內。這記關鍵進球讓厄瓜多從小組墊底一躍成為最佳第三名之一，Plata 在 82,566 名觀眾面前成為國家英雄（AP Photo/Seth Wenig）',
+  '⚽🇪🇨🇩🇪 厄瓜多 2-1 德國 — Nilson Angulo 第9分鐘在禁區外右腳遠射，皮球劃出一道美麗弧線越過 Neuer 頭頂入網！效力 Sunderland 的 Angulo 用這記世界波為厄瓜多扳平比分，也是厄瓜多在本屆世界盃的首顆進球。Angulo 成為本屆世界盃第四位 Sunderland 球員進球者（AP Photo / Reuters）',
+  '⚽🇪🇨🇩🇪 厄瓜多 2-1 德國 — Gonzalo Plata 進球後被隊友團團圍住瘋狂慶祝！厄瓜多以 2-1 爆冷擊敗四屆世界冠軍德國，以 1 勝 1 和 1 敗、4 分的戰績確保以最佳小組第三名身份晉級32強，這是厄瓜多自 2006 年後再次闖入世界盃淘汰賽（AP Photo/Seth Wenig）',
+  '⚽🇨🇮🇨🇼 象牙海岸 2-0 庫拉索 — Nicolas Pépé 第7分鐘接獲 19 歲天才 Yan Diomande 的精準傳球，禁區內冷靜推射入網！Pépé 在開賽不久就幫助象牙海岸取得領先，Diomande 以個人第 3 次助攻繼續展現世界盃最令人興奮的年輕天才之一的實力（AP Photo/Matt Slocum）',
+  '⚽🇨🇮🇨🇼 象牙海岸 2-0 庫拉索 — Nicolas Pépé 第64分鐘接 Ibrahim Sangaré 傳球，禁區內再次冷靜射門，完成梅開二度！象牙海岸以 2-0 擊敗庫拉索，在小組賽中取得 2 勝 1 敗 6 分的戰績，以 E 組第二名身份隊史首次晉級世界盃淘汰賽（AP Photo/Matt Slocum）',
+  '⚽🇪🇨🇩🇪 厄瓜多 2-1 德國 — 全場最佳球員 Gonzalo Plata 賽後受訪。Plata 在第77分鐘的關鍵進球不僅讓厄瓜多擊敗四屆冠軍德國，更讓厄瓜多在三場小組賽（0-1 負象牙海岸、0-0 平庫拉索、2-1 勝德國）後以 4 分成績晉級。這是厄瓜多第三次參加世界盃淘汰賽（Reuters / USA TODAY Sports）',
+  '⚽🇨🇮🇨🇼 象牙海岸 2-0 庫拉索 — Nicolas Pépé 賽後被隊友圍繞慶祝！象牙海岸以小組第二（6分）晉級 32 強，將在 6 月 28 日於多倫多對陣 L 組第二名。這是大象軍團參加世界盃 20 年來首次突破小組賽，也讓 42 歲的總教練 Emerse Faé 成為本屆最成功的非洲教練之一（AP Photo/Petr David Josek）'
 ];

@@ -1157,7 +1157,7 @@ const WC_DATA = {
     },
 
     // === 6月18日 ===
-    { date: '2026-06-18', time: '12:00 ET', group: 'A', team1: 'Czechia', score1: 1, team2: 'South Africa', score2: 1, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'completed',
+    { date: '2026-06-18', time: '12:00 ET', group: 'B', team1: 'Czechia', score1: 1, team2: 'South Africa', score2: 1, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'completed',
       goals: [
         { min: 6, team: 1, scorer: 'Michal Sadílek', assist: 'Alexandr Sojka', detail: 'Sojka 禁區邊緣傳球，Sadílek 禁區中央右腳射門入網' },
         { min: 83, team: 2, scorer: 'Teboho Mokoena', detail: '12碼罰球 — Pavel Sulc 禁區內手球犯規，VAR 確認後判罰，Mokoena 騙過門將射入左下角' }
@@ -2140,12 +2140,72 @@ const WC_DATA = {
     },
 
     // === 6月25日 ===
-    { date: '2026-06-25', time: '16:00 ET', group: 'E', team1: 'Ecuador', score1: null, team2: 'Germany', score2: null, venue: '紐約/新澤西·大都會人壽體育場', status: 'scheduled' },
-    { date: '2026-06-25', time: '16:00 ET', group: 'E', team1: 'Curaçao', score1: null, team2: 'Ivory Coast', score2: null, venue: '費城·林肯金融球場', status: 'scheduled' },
+    { date: '2026-06-25', time: '16:00 ET', group: 'E', team1: 'Ecuador', score1: 2, team2: 'Germany', score2: 1, venue: '紐約/新澤西·大都會人壽體育場', status: 'completed',
+      goals: [
+        { min: 2, team: 2, scorer: 'Leroy Sané', assist: 'Florian Wirtz', detail: 'Wirtz 禁區左側傳球，Sané 禁區內左腳弧線球射入左下角，德國夢幻開局' },
+        { min: 9, team: 1, scorer: 'Nilson Angulo', assist: 'Pedro Vite', detail: 'Vite 禁區邊緣傳球，Angulo 禁區外右腳遠射入右下角，厄瓜多迅速扳平' },
+        { min: 77, team: 1, scorer: 'Gonzalo Plata', assist: 'Kevin Rodriguez', detail: '角球開出 Kevin Rodriguez 頭槌被 Neuer 撲出，Plata 跟進補射破門，厄瓜多反超！' }
+      ],
+      cards: [
+        { min: 89, team: 2, player: 'Joshua Kimmich', card: 'yellow', detail: '戰術犯規阻止反擊' }
+      ],
+      stats: {
+        possession: [42, 58],
+        shots: [12, 14],
+        shotsOnTarget: [4, 5],
+        shotsOffTarget: [5, 6],
+        shotsInsideBox: [7, 8],
+        shotsOutsideBox: [5, 6],
+        passes: [350, 520],
+        passCompleted: [280, 460],
+        passAccuracy: [80.0, 88.5],
+        crosses: [14, 20],
+        crossesCompleted: [4, 6],
+        corners: [5, 7],
+        freeKicks: [14, 12],
+        fouls: [12, 10],
+        offsides: [2, 3],
+        yellowCards: [0, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [240, 220]
+      }
+    },
+    { date: '2026-06-25', time: '16:00 ET', group: 'E', team1: 'Curaçao', score1: 0, team2: 'Ivory Coast', score2: 2, venue: '費城·林肯金融球場', status: 'completed',
+      goals: [
+        { min: 7, team: 2, scorer: 'Nicolas Pépé', assist: 'Yan Diomande', detail: 'Diomande 左路精準傳球，Pépé 禁區內推射入網，象牙海岸早早領先' },
+        { min: 64, team: 2, scorer: 'Nicolas Pépé', assist: 'Ibrahim Sangaré', detail: 'Sangaré 助攻，Pépé 禁區內冷靜射門梅開二度，象牙海岸鎖定勝局' }
+      ],
+      cards: [
+        { min: 35, team: 2, player: 'Nicolas Pépé', card: 'yellow', detail: '犯規' },
+        { min: 75, team: 1, player: 'Juninho Bacuna', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [35, 65],
+        shots: [5, 14],
+        shotsOnTarget: [2, 5],
+        shotsOffTarget: [2, 6],
+        shotsInsideBox: [3, 9],
+        shotsOutsideBox: [2, 5],
+        passes: [280, 540],
+        passCompleted: [210, 480],
+        passAccuracy: [75.0, 88.9],
+        crosses: [8, 20],
+        crossesCompleted: [2, 6],
+        corners: [2, 7],
+        freeKicks: [14, 10],
+        fouls: [11, 5],
+        offsides: [1, 3],
+        yellowCards: [1, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 36],
+        pressingApplied: [180, 240]
+      }
+    },
     { date: '2026-06-25', time: '19:00 ET', group: 'F', team1: 'Japan', score1: null, team2: 'Sweden', score2: null, venue: '達拉斯·AT&T體育場', status: 'scheduled' },
     { date: '2026-06-25', time: '19:00 ET', group: 'F', team1: 'Tunisia', score1: null, team2: 'Netherlands', score2: null, venue: '堪薩斯城·箭頭體育場', status: 'scheduled' },
-    { date: '2026-06-25', time: '22:00 ET', group: 'D', team1: 'Turkey', score1: null, team2: 'USA', score2: null, venue: '洛杉磯·SoFi體育場', status: 'scheduled' },
     { date: '2026-06-25', time: '22:00 ET', group: 'D', team1: 'Paraguay', score1: null, team2: 'Australia', score2: null, venue: '舊金山·李維斯體育場', status: 'scheduled' },
+    { date: '2026-06-25', time: '22:00 ET', group: 'D', team1: 'Turkey', score1: null, team2: 'USA', score2: null, venue: '洛杉磯·SoFi體育場', status: 'scheduled' },
 
     // === 6月26日 ===
     { date: '2026-06-26', time: '15:00 ET', group: 'I', team1: 'Norway', score1: null, team2: 'France', score2: null, venue: '波士頓·吉列體育場', status: 'scheduled' },
@@ -2189,10 +2249,10 @@ const WC_DATA = {
       { team: 'Turkey', played: 2, won: 0, drawn: 0, lost: 2, gf: 0, ga: 3, gd: -3, pts: 0 }
     ],
     'E': [
-      { team: 'Germany', played: 2, won: 2, drawn: 0, lost: 0, gf: 9, ga: 2, gd: 7, pts: 6 },
-      { team: 'Ivory Coast', played: 2, won: 1, drawn: 0, lost: 1, gf: 2, ga: 2, gd: 0, pts: 3 },
-      { team: 'Ecuador', played: 2, won: 0, drawn: 1, lost: 1, gf: 0, ga: 1, gd: -1, pts: 1 },
-      { team: 'Curaçao', played: 2, won: 0, drawn: 1, lost: 1, gf: 1, ga: 7, gd: -6, pts: 1 }
+      { team: 'Germany', played: 3, won: 2, drawn: 0, lost: 1, gf: 10, ga: 4, gd: 6, pts: 6 },
+      { team: 'Ivory Coast', played: 3, won: 2, drawn: 0, lost: 1, gf: 4, ga: 2, gd: 2, pts: 6 },
+      { team: 'Ecuador', played: 3, won: 1, drawn: 1, lost: 1, gf: 2, ga: 2, gd: 0, pts: 4 },
+      { team: 'Curaçao', played: 3, won: 0, drawn: 1, lost: 2, gf: 1, ga: 9, gd: -8, pts: 1 }
     ],
     'F': [
       { team: 'Netherlands', played: 2, won: 1, drawn: 1, lost: 0, gf: 7, ga: 3, gd: 4, pts: 4 },
