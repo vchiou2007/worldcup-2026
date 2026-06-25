@@ -119,8 +119,8 @@ const HERO_IMAGES = [
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90687687007-2283206153.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
   // 🇲🇽🇨🇿🏆 40 歲傳奇門將 Guillermo Ochoa 第77分鐘替補登場！成為世界盃史上僅第三位出賽六屆的球員，全場 83,000 名球迷起立致敬（USA TODAY Sports）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90688000007-memo.jpg?crop=8255,4644,x0,y825&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇲🇽🇨🇿🏟️ 墨西哥城阿茲特克體育場 83,000 名球迷齊聲高唱 Cielito Lindo，為墨西哥隊創造地獄級主場氣勢！墨西哥小組賽三戰全勝且零失球（6-0），創下隊史世界盃小組賽最佳戰績（USA TODAY Sports）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90687684007-2283204548.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇲🇽🇨🇿⚽ Mateo Chávez 第55分鐘首開紀錄後與隊友瘋狂慶祝！這位22歲的左後衛在世界盃首秀中攻入關鍵進球，幫助墨西哥最終以 3-0 完勝捷克，小組賽三戰全勝且零失球創隊史紀錄（AP Photo / Al Jazeera）
+  'https://www.aljazeera.com/wp-content/uploads/2026/06/ap_6a3c9e6a133e5-1782357610.jpg?resize=1920%2C1080',
   // 🇿🇦🇰🇷⚽ Thapelo Maseko 第63分鐘禁區邊緣左腳勁射破網！南非 1-0 擊敗南韓，隊史首次晉級世界盃淘汰賽（Reuters / USA TODAY Sports）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90686543007-90686393007-gty-2283195042.jpg?crop=5495,3092,x0,y286&width=1600&height=800&format=pjpg&auto=webp',
   // 🇿🇦🇰🇷🎉 Samukelo Kabini and Aubrey Modiba celebrate South Africa's historic 1-0 victory over South Korea! Bafana Bafana 以 A 組第二名（4分）晉級32強，將在6月28日洛杉磯對陣加拿大（Yonhap / The Korea Times）
@@ -133,7 +133,7 @@ const HERO_CAPTIONS = [
   '⚽🇲🇽🇨🇿 墨西哥 3-0 捷克 — Mateo Chávez 第55分鐘接 Luis Romo 傳球，左後衛位置切入右路禁區冷靜推射破門！這是 Chávez 在個人世界盃首秀中的首顆進球。墨西哥小組賽三戰全勝且零失球（6-0），創下隊史世界盃小組賽最佳戰績（AP Photo/Silvia Izquierdo / USA TODAY Sports）',
   '⚽🇲🇽🇨🇿 墨西哥 3-0 捷克 — Julián Quiñones 第61分鐘接 Jorge Sánchez 傳球，禁區內流暢配合後射門入網，個人本屆世界盃累積2球！Quiñones 在開幕戰對南非攻入本屆世界盃首球，現在又以關鍵進球幫助墨西哥鎖定 A 組第一（Getty Images / USA TODAY Sports）',
   '⚽🇲🇽🇨🇿 墨西哥 3-0 捷克 — 40歲傳奇門將 Guillermo Ochoa 第77分鐘替補 Raúl Rangel 登場，全場83,000名球迷起立歡呼致敬！Ochoa 成為繼 Lionel Messi 和 Cristiano Ronaldo 之後，世界盃史上第三位出賽六屆的球員。Edson Álvarez 親自為 Ochoa 戴上隊長臂章（USA TODAY Sports）',
-  '⚽🇲🇽🇨🇿 墨西哥 3-0 捷克 — 墨西哥城阿茲特克體育場83,000名球迷全場沸騰！從賽前的 Cielito Lindo 大合唱到賽後的瘋狂慶祝，墨西哥隊在小組賽創下三戰全勝、進6球失0球的隊史最佳戰績。這是墨西哥自1986年以來首次在小組賽拿下全勝，總教練 Javier Aguirre 表示「這批球員正在締造歷史」（USA TODAY Sports）',
+  '⚽🇲🇽🇨🇿 墨西哥 3-0 捷克 — Mateo Chávez 第55分鐘接到 Luis Romo 的傳球後，從左後衛位置切入禁區，冷靜推射遠角入網！這是 Chávez 在世界盃首秀中的首顆進球，進球後他興奮地與 Julián Quiñones 等隊友狂奔慶祝。墨西哥最終以3-0完封捷克，小組賽三戰全勝且零失球（6-0），創下隊史最佳戰績（AP Photo / Al Jazeera）',
   '⚽🇿🇦🇰🇷 南非 1-0 南韓 — Thapelo Maseko 第63分鐘接替補上場的 Tshepang Moremi 左路傳中，禁區邊緣調整後左腳勁射入近柱！南非以 1-0 擊敗南韓，隊史首次晉級世界盃淘汰賽階段，22歲的 Maseko 成為南非世界盃史上第二年輕進球者（Reuters / USA TODAY Sports）',
   '⚽🇿🇦🇰🇷 南非 1-0 南韓 — 南非後衛 Samukelo Kabini 與 Aubrey Modiba 賽後忘情慶祝！Bafana Bafana 以 A 組第二名（4分）驚險晉級32強，將於6月28日在洛杉磯對陣加拿大。這是南非自1998年後首次參加世界盃，也是隊史首度晉級淘汰賽（Yonhap / The Korea Times）',
   '⚽🇲🇽🇨🇿 墨西哥 3-0 捷克 — 40歲傳奇門將 Guillermo Ochoa 被 Edson Álvarez 等隊友高高舉起！Ochoa 在第77分鐘替補登場，成為世界盃史上僅第三位出賽六屆的球員。賽後隊長 Álvarez 為 Ochoa 戴上隊長臂章，全場83,000名球迷高喊「Memo！Memo！」場面令人動容（Getty Images / USA TODAY Sports）'
