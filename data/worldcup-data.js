@@ -2009,8 +2009,74 @@ const WC_DATA = {
         pressingApplied: [230, 240]
       }
     },
-    { date: '2026-06-24', time: '18:00 ET', group: 'C', team1: 'Scotland', score1: null, team2: 'Brazil', score2: null, venue: '邁阿密·硬石體育場', status: 'scheduled' },
-    { date: '2026-06-24', time: '18:00 ET', group: 'C', team1: 'Morocco', score1: null, team2: 'Haiti', score2: null, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'scheduled' },
+    { date: '2026-06-24', time: '18:00 ET', group: 'C', team1: 'Scotland', score1: 0, team2: 'Brazil', score2: 3, venue: '邁阿密·硬石體育場', status: 'completed',
+      goals: [
+        { min: 7, team: 2, scorer: 'Vinícius Júnior', assist: 'Rayan', detail: 'Rayan 攔截 McKenna 傳球，Vinicius 過掉門將 Gunn 後輕鬆推射空門入網' },
+        { min: 45, team: 2, scorer: 'Vinícius Júnior', assist: 'Bruno Guimarães', detail: 'Guimarães 右路傳中，Vinicius 禁區內頭槌破門梅開二度，成為24年來首位世界盃前三場皆有進球的巴西球員' },
+        { min: 60, team: 2, scorer: 'Matheus Cunha', assist: 'Bruno Guimarães', detail: 'Guimarães 禁區邊緣短傳，Cunha 第一時間射入右下角，個人本屆第3球' }
+      ],
+      cards: [
+        { min: 39, team: 1, player: 'Andy Robertson', card: 'yellow', detail: '拉倒 Vinícius 阻止反擊' },
+        { min: 55, team: 1, player: 'Scott McKenna', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [38, 62],
+        shots: [13, 20],
+        shotsOnTarget: [4, 7],
+        shotsOffTarget: [6, 9],
+        shotsInsideBox: [7, 13],
+        shotsOutsideBox: [6, 7],
+        passes: [320, 560],
+        passCompleted: [250, 500],
+        passAccuracy: [78.1, 89.3],
+        crosses: [12, 22],
+        crossesCompleted: [3, 7],
+        corners: [3, 8],
+        freeKicks: [14, 12],
+        fouls: [14, 10],
+        offsides: [1, 3],
+        yellowCards: [2, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 250]
+      }
+    },
+    { date: '2026-06-24', time: '18:00 ET', group: 'C', team1: 'Morocco', score1: 4, team2: 'Haiti', score2: 2, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'completed',
+      goals: [
+        { min: 10, team: 2, scorer: 'Yassine Bounou (OG)', detail: 'Bounou 烏龍球，Haiti 意外領先' },
+        { min: 39, team: 1, scorer: 'Achraf Hakimi', detail: '禁區內射門入網，摩洛哥扳平比分' },
+        { min: 43, team: 2, scorer: 'Wilson Isidor', assist: 'Jean Duverne', detail: 'Duverne 助攻，禁區內射門，Haiti 再度領先' },
+        { min: 45, team: 1, scorer: 'Ismael Saibari', assist: 'Achraf Hakimi', detail: 'Hakimi 助攻，Saibari 禁區內推射入網，上半場傷停補時扳平 2-2' },
+        { min: 78, team: 1, scorer: 'Soufiane Rahimi', assist: 'Chadi Riad', detail: 'Riad 助攻，Rahimi 禁區內射門入網，摩洛哥 3-2 反超' },
+        { min: 89, team: 1, scorer: 'Yassine G.', assist: 'Soufiane Rahimi', detail: 'Rahimi 助攻，Yassine 禁區內射門入網，摩洛哥 4-2 鎖定勝局' }
+      ],
+      cards: [
+        { min: 79, team: 2, player: 'Duckens Nazon', card: 'yellow', detail: '犯規' },
+        { min: 79, team: 2, player: 'Johny Placide', card: 'yellow', detail: '犯規' },
+        { min: 94, team: 2, player: 'J. Casimir', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [58, 42],
+        shots: [16, 9],
+        shotsOnTarget: [7, 4],
+        shotsOffTarget: [6, 3],
+        shotsInsideBox: [10, 5],
+        shotsOutsideBox: [6, 4],
+        passes: [480, 340],
+        passCompleted: [420, 270],
+        passAccuracy: [87.5, 79.4],
+        crosses: [20, 12],
+        crossesCompleted: [6, 3],
+        corners: [7, 3],
+        freeKicks: [14, 16],
+        fouls: [12, 16],
+        offsides: [2, 3],
+        yellowCards: [0, 3],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [230, 240]
+      }
+    },
     { date: '2026-06-24', time: '21:00 ET', group: 'A', team1: 'Czechia', score1: null, team2: 'Mexico', score2: null, venue: '墨西哥城·阿茲特克體育場', status: 'scheduled' },
     { date: '2026-06-24', time: '21:00 ET', group: 'A', team1: 'South Africa', score1: null, team2: 'South Korea', score2: null, venue: '蒙特雷·BBVA球場', status: 'scheduled' },
 
@@ -2052,10 +2118,10 @@ const WC_DATA = {
       { team: 'Qatar', played: 3, won: 0, drawn: 1, lost: 2, gf: 2, ga: 10, gd: -8, pts: 1 }
     ],
     'C': [
-      { team: 'Morocco', played: 2, won: 1, drawn: 1, lost: 0, gf: 2, ga: 1, gd: 1, pts: 4 },
-      { team: 'Brazil', played: 2, won: 1, drawn: 1, lost: 0, gf: 4, ga: 1, gd: 3, pts: 4 },
-      { team: 'Scotland', played: 2, won: 1, drawn: 0, lost: 1, gf: 1, ga: 1, gd: 0, pts: 3 },
-      { team: 'Haiti', played: 2, won: 0, drawn: 0, lost: 2, gf: 0, ga: 4, gd: -4, pts: 0 }
+      { team: 'Brazil', played: 3, won: 2, drawn: 1, lost: 0, gf: 7, ga: 1, gd: 6, pts: 7 },
+      { team: 'Morocco', played: 3, won: 2, drawn: 1, lost: 0, gf: 6, ga: 3, gd: 3, pts: 7 },
+      { team: 'Scotland', played: 3, won: 1, drawn: 0, lost: 2, gf: 1, ga: 4, gd: -3, pts: 3 },
+      { team: 'Haiti', played: 3, won: 0, drawn: 0, lost: 3, gf: 2, ga: 8, gd: -6, pts: 0 }
     ],
     'D': [
       { team: 'USA', played: 2, won: 2, drawn: 0, lost: 0, gf: 6, ga: 1, gd: 5, pts: 6 },
