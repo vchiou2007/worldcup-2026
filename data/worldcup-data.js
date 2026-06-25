@@ -2077,8 +2077,67 @@ const WC_DATA = {
         pressingApplied: [230, 240]
       }
     },
-    { date: '2026-06-24', time: '21:00 ET', group: 'A', team1: 'Czechia', score1: null, team2: 'Mexico', score2: null, venue: '墨西哥城·阿茲特克體育場', status: 'scheduled' },
-    { date: '2026-06-24', time: '21:00 ET', group: 'A', team1: 'South Africa', score1: null, team2: 'South Korea', score2: null, venue: '蒙特雷·BBVA球場', status: 'scheduled' },
+    { date: '2026-06-24', time: '21:00 ET', group: 'A', team1: 'Czechia', score1: 0, team2: 'Mexico', score2: 3, venue: '墨西哥城·阿茲特克體育場', status: 'completed',
+      goals: [
+        { min: 55, team: 2, scorer: 'Mateo Chávez', assist: 'Luis Romo', detail: '左後衛切入右路禁區推射破門' },
+        { min: 61, team: 2, scorer: 'Julián Quiñones', assist: 'Jorge Sánchez', detail: '流暢配合中禁區內射門，Quiñones 本屆第二球' },
+        { min: 90, team: 2, scorer: 'Álvaro Fidalgo', assist: 'Roberto Alvarado', detail: '禁區內補射入網，個人墨西哥國家隊首球' }
+      ],
+      cards: [
+        { min: 64, team: 2, player: 'Edson Álvarez', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [51, 49],
+        shots: [13, 11],
+        shotsOnTarget: [1, 5],
+        shotsOffTarget: [8, 4],
+        shotsInsideBox: [7, 6],
+        shotsOutsideBox: [6, 5],
+        passes: [637, 671],
+        passCompleted: [325, 329],
+        passAccuracy: [51.0, 49.0],
+        crosses: [14, 12],
+        crossesCompleted: [3, 4],
+        corners: [5, 1],
+        freeKicks: [12, 14],
+        fouls: [9, 13],
+        offsides: [1, 0],
+        yellowCards: [0, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [210, 240]
+      }
+    },
+    { date: '2026-06-24', time: '21:00 ET', group: 'A', team1: 'South Africa', score1: 1, team2: 'South Korea', score2: 0, venue: '蒙特雷·BBVA球場', status: 'completed',
+      goals: [
+        { min: 63, team: 1, scorer: 'Thapelo Maseko', assist: 'Tshepang Moremi', detail: 'Moremi 左路突破傳入禁區，Maseko 調整後左腳射入近柱，南非世界盃史上首次晉級淘汰賽' }
+      ],
+      cards: [
+        { min: 40, team: 2, player: 'Jens Castrop', card: 'yellow', detail: '犯規' },
+        { min: 78, team: 1, player: 'Ime Okon', card: 'yellow', detail: '戰術犯規阻止反擊' }
+      ],
+      stats: {
+        possession: [42, 58],
+        shots: [11, 13],
+        shotsOnTarget: [4, 3],
+        shotsOffTarget: [5, 7],
+        shotsInsideBox: [6, 7],
+        shotsOutsideBox: [5, 6],
+        passes: [320, 480],
+        passCompleted: [240, 400],
+        passAccuracy: [75.0, 83.3],
+        crosses: [12, 18],
+        crossesCompleted: [3, 5],
+        corners: [4, 6],
+        freeKicks: [14, 12],
+        fouls: [13, 11],
+        offsides: [2, 3],
+        yellowCards: [1, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [230, 200]
+      }
+    },
 
     // === 6月25日 ===
     { date: '2026-06-25', time: '16:00 ET', group: 'E', team1: 'Ecuador', score1: null, team2: 'Germany', score2: null, venue: '紐約/新澤西·大都會人壽體育場', status: 'scheduled' },
@@ -2106,10 +2165,10 @@ const WC_DATA = {
   // 分組積分（賽後更新）
   standings: {
     'A': [
-      { team: 'Mexico', played: 2, won: 2, drawn: 0, lost: 0, gf: 3, ga: 0, gd: 3, pts: 6 },
-      { team: 'South Korea', played: 2, won: 1, drawn: 0, lost: 1, gf: 2, ga: 2, gd: 0, pts: 3 },
-      { team: 'Czechia', played: 2, won: 0, drawn: 1, lost: 1, gf: 2, ga: 3, gd: -1, pts: 1 },
-      { team: 'South Africa', played: 2, won: 0, drawn: 1, lost: 1, gf: 1, ga: 3, gd: -2, pts: 1 }
+      { team: 'Mexico', played: 3, won: 3, drawn: 0, lost: 0, gf: 6, ga: 0, gd: 6, pts: 9 },
+      { team: 'South Africa', played: 3, won: 1, drawn: 1, lost: 1, gf: 2, ga: 3, gd: -1, pts: 4 },
+      { team: 'South Korea', played: 3, won: 1, drawn: 0, lost: 2, gf: 2, ga: 3, gd: -1, pts: 3 },
+      { team: 'Czechia', played: 3, won: 0, drawn: 1, lost: 2, gf: 2, ga: 6, gd: -4, pts: 1 }
     ],
     'B': [
       { team: 'Switzerland', played: 3, won: 2, drawn: 1, lost: 0, gf: 7, ga: 3, gd: 4, pts: 7 },

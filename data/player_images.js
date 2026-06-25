@@ -111,30 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-25 更新：巴西 3-0 蘇格蘭 + 摩洛哥 4-2 海地） =====
+// ===== 輪播牆圖片（2026-06-25 更新：墨西哥 3-0 捷克 + 南非 1-0 南韓，A 組小組賽落幕） =====
 const HERO_IMAGES = [
-  // 🇧🇷🇸🇨⚽ Vinicius Junior 梅開二度！巴西 3-0 蘇格蘭，Vinicius 成為巴西24年來首位小組賽三場皆進球的球員（AFP via USA TODAY Sports）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/24/USAT/90684611007-afp-2282632621.jpg?crop=2428,1365,x3,y175&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇧🇷🇸🇨🎉 Neymar 第76分鐘替補登場！時隔近三年重返巴西國家隊，全場球迷起立歡呼（Reuters via Al Jazeera）
-  'https://www.aljazeera.com/wp-content/uploads/2026/06/2026-06-24T225534Z_737805021_UP1EM6O1RKKSX_RTRMADP_3_SOCCER-WORLDCUP-SCO-BRA-1782345114.jpg',
-  // 🇲🇦🇭🇹⚽ Achraf Hakimi 進球+助攻，摩洛哥 4-2 逆轉海地！Saibari 連續三場世界盃進球，摩洛哥以 C 組第二晉級32強（USA TODAY Sports）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90685852007-usatsi-29263851.jpg?crop=2981,1677,x0,y23&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇨🇭🇨🇦⚽ Switzerland 2-1 Canada — Ruben Vargas 下半場開場建功！瑞士 B 組第一晉級，Promise David 為加拿大追回一球（Reuters/Chris Helgren / USA TODAY Sports）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/24/USAT/90678160007-20260624-t-162129-z-462749731-up-1-em-6-o-19-fqm-1-rtrmadp-3-soccerworldcupswicanfans.JPG?crop=5999,3375,x0,y312&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇵🇹🇺🇿⚽ Cristiano Ronaldo 梅開二度！成為史上首位在6屆世界盃進球的球員，世界盃第10球超越 Eusébio 成為葡萄牙歷史射手王（AP Photo/Eric Gay / USA TODAY Sports）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/23/USAT/90661438007-2282965503.jpg',
-  // 🇦🇷🇦🇹⚽ Lionel Messi 第38分鐘破門！以第17顆世界盃進球超越 Klose 成為男子世界盃歷史進球王！阿根廷 2-0 奧地利晉級32強（Getty Images / USA TODAY Sports）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90648148007-gty-2282804037.jpg',
-  // 🇫🇷🇮🇶⚽ Kylian Mbappé 梅開二度世界盃第15球！法國 3-0 伊拉克，距離 Klose 紀錄僅差1球，法國2連勝晉級32強（Getty Images / USA TODAY Sports）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/22/USAT/90650255007-gty-2282817617.jpg'
+  // 🇲🇽🇨🇿⚽ Mateo Chávez 第55分鐘首開紀錄！墨西哥 3-0 完勝捷克，小組賽三戰全勝零失球創隊史紀錄（AP Photo/Silvia Izquierdo / USA TODAY Sports）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90687685007-2283203954.jpg?crop=5683,3197,x0,y294&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇲🇽🇨🇿🎉 Julián Quiñones 第61分鐘再下一城！墨西哥流暢配合打穿捷克防線，Quiñones 本屆世界盃累積2球（Getty Images / USA TODAY Sports）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90687687007-2283206153.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇲🇽🇨🇿🏆 40 歲傳奇門將 Guillermo Ochoa 第77分鐘替補登場！成為世界盃史上僅第三位出賽六屆的球員，全場 83,000 名球迷起立致敬（USA TODAY Sports）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90688000007-memo.jpg?crop=8255,4644,x0,y825&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇲🇽🇨🇿⚽ Álvaro Fidalgo 傷停補時第4分鐘進球，個人墨西哥國家隊首球！墨西哥 3-0 完封捷克，小組賽三戰全勝排名 A 組第一晉級32強（AP Photo/Fernando Llano / USA TODAY Sports）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90687688007-2283206484.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇿🇦🇰🇷⚽ Thapelo Maseko 第63分鐘禁區邊緣左腳勁射破網！南非 1-0 擊敗南韓，隊史首次晉級世界盃淘汰賽（Reuters / USA TODAY Sports）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90686543007-90686393007-gty-2283195042.jpg?crop=5495,3092,x0,y286&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇿🇦🇰🇷🎉 South Africa players celebrate historic qualification! Tshepang Moremi 替補上場後左路突破助攻 Maseko，成為南非英雄。南非以 A 組第二（4分）晉級32強，將在洛杉磯對陣加拿大（Getty Images / USA TODAY Sports）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90687689007-2283202061.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇲🇽🇨🇿🔥 17歲新星 Gilberto Mora 成為墨西哥世界盃史上最年輕先發球員！22歲的 Mateo Chávez 也在個人世界盃首秀中進球，墨西哥新生代接班梯隊成形（AP Photo / USA TODAY Sports）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90687686007-2283201821.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp'
 ];
 
 const HERO_CAPTIONS = [
-  '⚽🇧🇷🇸🇨 巴西 3-0 蘇格蘭 — Vinicius Junior 第7分鐘利用 Scott McKenna 傳球失誤，過掉門將 Angus Gunn 推射空門首開紀錄！第45+1分鐘接 Bruno Guimarães 傳中頭槌破門梅開二度。Vinicius 成為巴西自 Ronaldo/Rivaldo（2002）以來首位世界盃前三場皆有進球的球員，本屆累積4球。Matheus Cunha 第60分鐘接 Guimarães 助攻射入個人本屆第3球。Neymar 第76分鐘替補登場，時隔近三年重返巴西國家隊（AFP via USA TODAY Sports）',
-  '⚽🇧🇷🇸🇨 巴西 3-0 蘇格蘭 — Neymar 第76分鐘替補 Matheus Cunha 登場，全場 64,478 名球迷起立歡呼！這是 Neymar 自2023年10月以來首次為巴西出賽（因右小腿傷勢錯過小組前兩場）。Neymar 以 79 球保持巴西歷史進球王紀錄。巴西以 C 組第一（7分）晉級32強，將在休士頓對陣 F 組第二（Reuters via Al Jazeera）',
-  '⚽🇲🇦🇭🇹 摩洛哥 4-2 海地 — Achraf Hakimi 第39分鐘進球扳平、第45+1分鐘助攻 Ismael Saibari 反超！Bounou 第10分鐘烏龍球讓海地意外領先，Wilson Isidor 第43分鐘讓海地再度領先。Saibari 連續三場世界盃進球，成為首位在世界盃前三場皆有進球的非洲球員。Soufiane Rahimi 第78分鐘射入反超球，Yassine G. 第89分鐘鎖定勝局。摩洛哥以 C 組第二（7分）晉級32強（USA TODAY Sports）',
-  '⚽🇨🇭🇨🇦 瑞士 2-1 加拿大 — BC Place Vancouver 全場爆滿！Ruben Vargas 第46分鐘接 Johan Manzambi 妙傳禁區內推射入網，瑞士下半場開場即破門！Manzambi 第57分鐘再接 Breel Embolo 傳中擴大比分。加拿大 Promise David 第76分鐘頭槌追回一球。瑞士2連勝積7分奪B組第一晉級32強，加拿大4分以分組第二晉級（Reuters/Chris Helgren / USA TODAY Sports）',
-  '⚽🇵🇹🇺🇿 葡萄牙 5-0 烏茲別克 — Cristiano Ronaldo 第6分鐘接 João Cancelo 右路傳中禁區內第一時間射近角入網，成為史上首位在6屆世界盃（2006-2026）進球的球員！第39分鐘接 Bruno Fernandes 直塞禁區內冷靜射入遠角梅開二度，世界盃進球累積至10球超越 Eusébio（9球）成為葡萄牙世界盃歷史射手王。41歲138天成為世界盃史上第二年長進球者（AP Photo/Eric Gay / USA TODAY Sports）',
-  '⚽🇦🇷🇦🇹 阿根廷 2-0 奧地利 — Lionel Messi 第38分鐘接 Facundo Medina 助攻禁區內左腳弧線球射入遠角，以第17顆世界盃進球正式超越 Miroslav Klose（16球）成為男子世界盃歷史進球王！傷停補時第5分鐘禁區外射門入網梅開二度，世界盃進球數達到18球。阿根廷2連勝（6分）晉級32強，Messi 本屆已累積5球領先金靴榜（Getty Images / USA TODAY Sports）',
-  '⚽🇫🇷🇮🇶 法國 3-0 伊拉克 — Kylian Mbappé 第14分鐘接 Michael Olise 精準直塞禁區內冷靜推射破門，第54分鐘禁區外遠射梅開二度，世界盃進球數達到第15球，距離 Klose 的16球紀錄僅差1球！Ousmane Dembélé 第66分鐘射入個人世界盃首球。法國2連勝（6分）晉級32強，Mbappé 本屆累積4球並列射手榜第二（Getty Images / USA TODAY Sports）'
+  '⚽🇲🇽🇨🇿 墨西哥 3-0 捷克 — Mateo Chávez 第55分鐘接 Luis Romo 傳球，左後衛位置切入右路禁區冷靜推射破門！這是 Chávez 在個人世界盃首秀中的首顆進球。墨西哥小組賽三戰全勝且零失球（6-0），創下隊史世界盃小組賽最佳戰績（AP Photo/Silvia Izquierdo / USA TODAY Sports）',
+  '⚽🇲🇽🇨🇿 墨西哥 3-0 捷克 — Julián Quiñones 第61分鐘接 Jorge Sánchez 傳球，禁區內流暢配合後射門入網，個人本屆世界盃累積2球！Quiñones 在開幕戰對南非攻入本屆世界盃首球，現在又以關鍵進球幫助墨西哥鎖定 A 組第一（Getty Images / USA TODAY Sports）',
+  '⚽🇲🇽🇨🇿 墨西哥 3-0 捷克 — 40歲傳奇門將 Guillermo Ochoa 第77分鐘替補 Raúl Rangel 登場，全場83,000名球迷起立歡呼致敬！Ochoa 成為繼 Lionel Messi 和 Cristiano Ronaldo 之後，世界盃史上第三位出賽六屆的球員。Edson Álvarez 親自為 Ochoa 戴上隊長臂章（USA TODAY Sports）',
+  '⚽🇲🇽🇨🇿 墨西哥 3-0 捷克 — Álvaro Fidalgo 傷停補時第4分鐘補射入網，攻入個人墨西哥國家隊首球！墨西哥以 A 組第一名（9分）晉級32強，將繼續在阿茲特克體育場迎戰淘汰賽對手，主場不敗神話延續（AP Photo/Fernando Llano / USA TODAY Sports）',
+  '⚽🇿🇦🇰🇷 南非 1-0 南韓 — Thapelo Maseko 第63分鐘接替補上場的 Tshepang Moremi 左路傳中，禁區邊緣調整後左腳勁射入近柱！南非以 1-0 擊敗南韓，隊史首次晉級世界盃淘汰賽階段，22歲的 Maseko 成為南非世界盃史上第二年輕進球者（Reuters / USA TODAY Sports）',
+  '⚽🇿🇦🇰🇷 南非 1-0 南韓 — 南非全隊賽後瘋狂慶祝歷史性一刻！Hugo Broos 率領的 Bafana Bafana 以 A 組第二名（4分）晉級32強，將於6月28日在洛杉磯對陣加拿大。南韓則需等待其他組第三名結果決定是否能以最佳小組第三晉級（Getty Images / USA TODAY Sports）',
+  '⚽🇲🇽🇨🇿 墨西哥 3-0 捷克 — 17歲新星 Gilberto Mora 成為墨西哥世界盃史上最年輕先發球員！22歲的 Mateo Chávez 也在個人世界盃首秀中進球，加上 Álvaro Fidalgo 的首球，墨西哥新生代全面接班。總教練 Javier Aguirre 表示「這批年輕球員令人興奮」（AP Photo / USA TODAY Sports）'
 ];
