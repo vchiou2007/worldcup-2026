@@ -2262,8 +2262,68 @@ const WC_DATA = {
         pressingApplied: [180, 240]
       }
     },
-    { date: '2026-06-25', time: '22:00 ET', group: 'D', team1: 'Paraguay', score1: null, team2: 'Australia', score2: null, venue: '舊金山·李維斯體育場', status: 'scheduled' },
-    { date: '2026-06-25', time: '22:00 ET', group: 'D', team1: 'Turkey', score1: null, team2: 'USA', score2: null, venue: '洛杉磯·SoFi體育場', status: 'scheduled' },
+    { date: '2026-06-25', time: '22:00 ET', group: 'D', team1: 'Paraguay', score1: 0, team2: 'Australia', score2: 0, venue: '舊金山·李維斯體育場', status: 'completed',
+      goals: [],
+      cards: [
+        { min: 38, team: 1, player: 'Júnior Alonso', card: 'yellow', detail: '戰術犯規' },
+        { min: 62, team: 2, player: 'Jordan Bos', card: 'yellow', detail: '犯規' },
+        { min: 78, team: 1, player: 'Diego Gómez', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [48, 52],
+        shots: [8, 10],
+        shotsOnTarget: [2, 3],
+        shotsOffTarget: [4, 5],
+        shotsInsideBox: [4, 6],
+        shotsOutsideBox: [4, 4],
+        passes: [360, 420],
+        passCompleted: [290, 350],
+        passAccuracy: [80.6, 83.3],
+        crosses: [12, 16],
+        crossesCompleted: [3, 4],
+        corners: [3, 5],
+        freeKicks: [14, 12],
+        fouls: [14, 12],
+        offsides: [2, 1],
+        yellowCards: [2, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [200, 240]
+      }
+    },
+    { date: '2026-06-25', time: '22:00 ET', group: 'D', team1: 'Turkey', score1: 3, team2: 'USA', score2: 2, venue: '洛杉磯·SoFi體育場', status: 'completed',
+      goals: [
+        { min: 3, team: 2, scorer: 'Auston Trusty', assist: 'Sebastian Berhalter', detail: '角球二點機會，Trusty 遠柱第一時間射門入網，個人國家隊首球' },
+        { min: 10, team: 1, scorer: 'Arda Güler', assist: 'Barış Yılmaz', detail: 'McKenzie 防守失誤被 Yılmaz 突破，Güler 14碼處射門入網，土耳其世界盃首球' },
+        { min: 31, team: 1, scorer: 'Orkun Kökçü', assist: 'Kenan Yıldız', detail: '禁區邊緣接 Yıldız 傳球後起腳射門入網，土耳其反超比分' },
+        { min: 49, team: 2, scorer: 'Sebastian Berhalter', assist: 'Gio Reyna', detail: '角球開出後禁區混戰，Berhalter 射門入網扳平比分' },
+        { min: 90, team: 1, scorer: 'Kaan Ayhan', assist: 'Can Uzun', detail: '傷停補時第8分鐘，Uzun 禁區邊緣傳球，Ayhan 門前推射入網絕殺！' }
+      ],
+      cards: [
+        { min: 19, team: 2, player: 'Sebastian Berhalter', card: 'yellow', detail: '對 Özcan 犯規' }
+      ],
+      stats: {
+        possession: [47, 53],
+        shots: [9, 18],
+        shotsOnTarget: [4, 7],
+        shotsOffTarget: [3, 8],
+        shotsInsideBox: [5, 11],
+        shotsOutsideBox: [4, 7],
+        passes: [433, 471],
+        passCompleted: [333, 400],
+        passAccuracy: [77.0, 85.0],
+        crosses: [10, 22],
+        crossesCompleted: [3, 7],
+        corners: [2, 9],
+        freeKicks: [12, 14],
+        fouls: [13, 13],
+        offsides: [2, 5],
+        yellowCards: [0, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [32, 28],
+        pressingApplied: [240, 200]
+      }
+    },
 
     // === 6月26日 ===
     { date: '2026-06-26', time: '15:00 ET', group: 'I', team1: 'Norway', score1: null, team2: 'France', score2: null, venue: '波士頓·吉列體育場', status: 'scheduled' },
@@ -2301,10 +2361,10 @@ const WC_DATA = {
       { team: 'Haiti', played: 3, won: 0, drawn: 0, lost: 3, gf: 2, ga: 8, gd: -6, pts: 0 }
     ],
     'D': [
-      { team: 'USA', played: 2, won: 2, drawn: 0, lost: 0, gf: 6, ga: 1, gd: 5, pts: 6 },
-      { team: 'Australia', played: 2, won: 1, drawn: 0, lost: 1, gf: 2, ga: 2, gd: 0, pts: 3 },
-      { team: 'Paraguay', played: 2, won: 1, drawn: 0, lost: 1, gf: 2, ga: 4, gd: -2, pts: 3 },
-      { team: 'Turkey', played: 2, won: 0, drawn: 0, lost: 2, gf: 0, ga: 3, gd: -3, pts: 0 }
+      { team: 'USA', played: 3, won: 2, drawn: 0, lost: 1, gf: 8, ga: 4, gd: 4, pts: 6 },
+      { team: 'Australia', played: 3, won: 1, drawn: 1, lost: 1, gf: 2, ga: 2, gd: 0, pts: 4 },
+      { team: 'Paraguay', played: 3, won: 1, drawn: 1, lost: 1, gf: 2, ga: 4, gd: -2, pts: 4 },
+      { team: 'Turkey', played: 3, won: 1, drawn: 0, lost: 2, gf: 3, ga: 5, gd: -2, pts: 3 }
     ],
     'E': [
       { team: 'Germany', played: 3, won: 2, drawn: 0, lost: 1, gf: 10, ga: 4, gd: 6, pts: 6 },

@@ -111,30 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-26 更新：日本 1-1 瑞典 + 突尼西亞 1-3 荷蘭，F 組小組賽落幕） =====
+// ===== 輪播牆圖片（2026-06-26 更新：土耳其 3-2 美國 + 巴拉圭 0-0 澳洲，D 組小組賽落幕） =====
 const HERO_IMAGES = [
-  // 🇯🇵🇸🇪⚽ Daizen Maeda 第56分鐘接 Ritsu Doan 精準直塞，禁區內勁射破門！日本 1-0 領先瑞典（Getty Images/AP）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90702045007-usatsi-29271753.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇯🇵🇸🇪⚽ Keito Nakamura 上半場多次突破瑞典防線，成為日本隊最危險的進攻武器（AP Photo/Jessica Tobias / Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90699473007-getty-images-2283319101.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇯🇵🇸🇪⚽ Anthony Elanga 第62分鐘接 Alexander Isak 妙傳，禁區內低射遠角入網！瑞典 1-1 扳平比分（AP Photo / Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90699491007-getty-images-2283319386.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇯🇵🇸🇪🎉 日本以 F 組第二名晉級 32 強，日本球迷在達拉斯 AT&T 體育場熱情應援（AP Photo / Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90699791007-getty-images-2283318907.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇹🇳🇳🇱⚽ Brian Brobbey 第7分鐘接 Cody Gakpo 傳球禁區內推射入網！荷蘭 2-0 領先，Brobbey 本屆第3球（AP Photo/Charlie Riedel / Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90699841007-getty-images-2282783124.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇹🇳🇳🇱⚽ Virgil van Dijk 率領荷蘭防線，荷蘭以 71% 控球率主宰比賽（AP Photo / Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90700841007-getty-images-2283162385.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇹🇳🇳🇱🎉 Netherlands 3-1 Tunisia — 荷蘭以 F 組第一（7分）晉級 32 強！（AP Photo / Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90700844007-getty-images-2283181843.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp'
+  // 🇹🇷🇺🇸⚽ Kaan Ayhan 第90+8分鐘絕殺！土耳其 3-2 美國，土耳其球迷在 SoFi 球場狂歡（USA Today/AP）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90703574007-2283352312.jpg?crop=1600,800,x0,y205&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇹🇷🇺🇸⚽ Arda Güler 第10分鐘為土耳其扳平比分，這是他個人世界盃首球，也是土耳其本屆賽事第一球（Getty Images/AP）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90703577007-2282820444.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇹🇷🇺🇸⚽ Orkun Kökçü 第31分鐘勁射破網，土耳其反超 2-1！效力 Benfica 的中場在 SoFi 球場 70,000 名觀眾前慶祝進球（AP Photo / Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90703583007-2282820278.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇹🇷🇺🇸⚽ Auston Trusty 第3分鐘角球二點機會破門！美國隊長 Weston McKennie 與隊友慶祝 Trusty 個人國家隊首球（AP Photo / Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90703573007-2282823090.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇹🇷🇺🇸⚽ Sebastian Berhalter 第49分鐘角球混戰中為美國扳平比分！Berhalter 賽後獲得全場最佳殊榮（AP Photo / Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90703580007-2282820258.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇹🇷🇺🇸🎉 土耳其球迷在 SoFi 體育場盡情歡呼！土耳其以 3-2 擊敗主辦國美國，雖遭淘汰但以勝利作結（AP Photo / Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90703575007-2282820298.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇹🇷🇺🇸🎉 Christian Pulisic 第57分鐘替補上場，美國雖然輸球但仍以 D 組第一晉級 32 強，將在 7 月 1 日 Levi's 球場出戰 32 強賽（AP Photo / Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90703579007-2282822984.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp'
 ];
 
 const HERO_CAPTIONS = [
-  '⚽🇯🇵🇸🇪 日本 1-1 瑞典 — Daizen Maeda 第56分鐘接 Ritsu Doan 的精彩直塞球，禁區內勁射破門！效力 Celtic 的 Maeda 在 80,000 名觀眾面前為日本首開紀錄，這是日本在 F 組的第 7 顆進球。瑞典門將 Jacob Widell Zetterstrom 雖觸到球仍無法阻止進球（Getty Images/AP）',
-  '⚽🇯🇵🇸🇪 日本 1-1 瑞典 — Keito Nakamura（Stade de Reims）上半場表現活躍，多次在左路突破瑞典防線。Nakamura 在本屆世界盃已貢獻 1 球 2 助攻，成為日本隊本屆賽事的關鍵球員之一（AP Photo/Jessica Tobias / Getty Images）',
-  '⚽🇯🇵🇸🇪 日本 1-1 瑞典 — Anthony Elanga 第62分鐘接 Alexander Isak 妙傳，禁區內左腳低射遠角入網！效力 Nottingham Forest 的 Elanga 連續兩場比賽進球，為瑞典扳平比分，讓瑞典以 4 分成為最佳第三名之一，有望晉級 32 強（AP Photo / Getty Images）',
-  '⚽🇯🇵🇸🇪 日本 1-1 瑞典 — 日本球迷在達拉斯 AT&T 體育場熱情為 Samurai Blue 加油！日本以小組第二名（1勝2和5分）晉級 32 強。16 強賽日本將在休士頓對陣 C 組第一巴西，重現 2022 年世界盃的經典對決（AP Photo / Getty Images）',
-  '⚽🇹🇳🇳🇱 突尼西亞 1-3 荷蘭 — Brian Brobbey（Ajax）第7分鐘接 Cody Gakpo 傳球禁區內推射入網！Brobbey 本屆世界盃已攻入 3 球，超越 Memphis Depay 成為荷蘭隊本屆進球王。上半場開賽僅 7 分鐘荷蘭就已 2-0 領先（Ellyes Skhiri 第3分鐘烏龍球）（AP Photo/Charlie Riedel / Getty Images）',
-  '⚽🇹🇳🇳🇱 突尼西亞 1-3 荷蘭 — Virgil van Dijk 率領荷蘭後防線全場僅讓突尼西亞射正 4 次。荷蘭以 71% 控球率、630 次傳球完全主宰比賽。Jan van Hecke 在第83分鐘頭槌破門，荷蘭 3-0 鎖定勝局。突尼西亞三戰全敗零分出局（AP Photo / Getty Images）',
-  '⚽🇹🇳🇳🇱 突尼西亞 1-3 荷蘭 — 荷蘭以 2 勝 1 和 7 分奪得 F 組第一晉級 32 強！Hazem Mastouri 在第89分鐘接 Hannibal Mejbri 妙傳禁區內轉身射門，為突尼西亞攻入本屆第 2 球。荷蘭將在 6 月 29 日的 32 強賽中對陣某組第三名（AP Photo / Getty Images）'
+  '⚽🇹🇷🇺🇸 土耳其 3-2 美國 — Kaan Ayhan 第90+8分鐘絕殺！Can Uzun 禁區邊緣傳球，Ayhan 門前推射入網，土耳其以 3-2 擊敗主辦國美國。Ayhan 替補上場僅 3 分鐘即攻入致勝球，這是土耳其本屆世界盃首勝，也讓美國無緣小組賽全勝紀錄（USA Today/AP）',
+  '⚽🇹🇷🇺🇸 土耳其 3-2 美國 — Arda Güler（Real Madrid）第10分鐘接 Barış Yılmaz 助攻，14碼處射門入網，攻入土耳其本屆世界盃首球。21 歲的 Güler 在 2026 年世界盃小組賽三場比賽中均有出色表現，展現了土耳其新生代天才的實力（AP Photo / Getty Images）',
+  '⚽🇹🇷🇺🇸 土耳其 3-2 美國 — Orkun Kökçü（Benfica）第31分鐘接 Kenan Yıldız 傳球後禁區邊緣勁射破網，土耳其 2-1 反超比分！效力葡萄牙聯賽的 Kökçü 在中場組織和插上得分方面表現活躍，本場比賽貢獻 1 球 1 助攻（AP Photo / Getty Images）',
+  '⚽🇹🇷🇺🇸 土耳其 3-2 美國 — Auston Trusty（Celtic）第3分鐘在角球二點機會中，遠柱第一時間射門入網，攻入個人美國國家隊首球！美國隊開局完美，Trusty 在後防線上也貢獻了多次關鍵解圍（AP Photo / Getty Images）',
+  '⚽🇹🇷🇺🇸 土耳其 3-2 美國 — Sebastian Berhalter（Columbus Crew）第49分鐘接 Gio Reyna 開出的角球，禁區混戰中射門入網，為美國隊扳平為 2-2！Berhalter 以 1 球 1 助攻的表現當選全場最佳球員（AP Photo / Getty Images）',
+  '⚽🇹🇷🇺🇸 土耳其 3-2 美國 — 土耳其球迷在 SoFi 體育場為球隊的精彩表現歡呼！土耳其雖以 1 勝 2 負的戰績結束世界盃旅程，但最後一戰擊敗主辦國美國的表現令人印象深刻。Vincenzo Montella 的球隊將放眼 2028 年歐洲盃（AP Photo / Getty Images）',
+  '⚽🇹🇷🇺🇸 土耳其 3-2 美國 — Christian Pulisic 在第57分鐘替補上場，他的回歸為美國隊的 32 強賽帶來希望。美國以 D 組第一（2 勝 1 負 6 分）晉級 32 強，將於 7 月 1 日在 Santa Clara 的 Levi\'s 球場迎戰某組第三名（AP Photo / Getty Images）'
 ];
