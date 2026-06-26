@@ -2326,8 +2326,71 @@ const WC_DATA = {
     },
 
     // === 6月26日 ===
-    { date: '2026-06-26', time: '15:00 ET', group: 'I', team1: 'Norway', score1: null, team2: 'France', score2: null, venue: '波士頓·吉列體育場', status: 'scheduled' },
-    { date: '2026-06-26', time: '15:00 ET', group: 'I', team1: 'Senegal', score1: null, team2: 'Iraq', score2: null, venue: '多倫多·BMO球場', status: 'scheduled' },
+    { date: '2026-06-26', time: '15:00 ET', group: 'I', team1: 'Norway', score1: 1, team2: 'France', score2: 4, venue: '波士頓·吉列體育場', status: 'completed',
+      goals: [
+        { min: 7, team: 2, scorer: 'Ousmane Dembélé', detail: '禁區內射門入網，法國夢幻開局' },
+        { min: 20, team: 2, scorer: 'Ousmane Dembélé', assist: 'Kylian Mbappé', detail: 'Mbappé 禁區邊緣傳球，Dembélé 禁區左側射門得分梅開二度' },
+        { min: 21, team: 1, scorer: 'Thelo Aasgaard', assist: 'Andreas Schjelderup', detail: 'Schjelderup 禁區邊緣傳球，Aasgaard 禁區內射入左下角，挪威迅速追回一球' },
+        { min: 32, team: 2, scorer: 'Ousmane Dembélé', assist: 'Aurélien Tchouaméni', detail: 'Tchouaméni 傳球，Dembélé 禁區內射門入網完成帽子戲法' },
+        { min: 90, team: 2, scorer: 'Désiré Doué', assist: 'Bradley Barcola', detail: 'Barcola 左路傳中，Doué 禁區內頭槌破門鎖定勝局' }
+      ],
+      cards: [
+      ],
+      stats: {
+        possession: [43, 57],
+        shots: [20, 28],
+        shotsOnTarget: [4, 9],
+        shotsOffTarget: [8, 12],
+        shotsInsideBox: [10, 14],
+        shotsOutsideBox: [10, 14],
+        passes: [419, 558],
+        passCompleted: [344, 480],
+        passAccuracy: [82.1, 86.0],
+        crosses: [12, 20],
+        crossesCompleted: [3, 7],
+        corners: [4, 8],
+        freeKicks: [12, 14],
+        fouls: [9, 11],
+        offsides: [2, 3],
+        yellowCards: [0, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 240]
+      }
+    },
+    { date: '2026-06-26', time: '15:00 ET', group: 'I', team1: 'Senegal', score1: 5, team2: 'Iraq', score2: 0, venue: '多倫多·BMO球場', status: 'completed',
+      goals: [
+        { min: 4, team: 1, scorer: 'Habib Diarra', assist: 'Abdoulaye Seck', detail: '角球開出，Seck 頭槌被擋，Diarra 門前補射入網' },
+        { min: 56, team: 1, scorer: 'Ismaila Sarr', detail: 'Zidane Iqbal 後場失誤，Sarr 斷球後輕鬆推射入網，個人本屆第3球' },
+        { min: 59, team: 1, scorer: 'Pape Gueye', detail: '替補上場僅89秒，禁區外遠射弧線球破網' },
+        { min: 71, team: 1, scorer: 'Pape Gueye', detail: '禁區內凌空半射門得分，Gueye 梅開二度' },
+        { min: 82, team: 1, scorer: 'Iliman Ndiaye', detail: '禁區外勁射入網，塞內加爾5-0鎖定勝局' }
+      ],
+      cards: [
+        { min: 13, team: 2, player: 'Rebin Sulaka', card: 'red', detail: '禁區內拉倒 Sadio Mané 破壞明顯得分機會，VAR 確認後直接紅牌' }
+      ],
+      stats: {
+        possession: [42, 58],
+        shots: [16, 5],
+        shotsOnTarget: [7, 0],
+        shotsOffTarget: [5, 2],
+        shotsInsideBox: [9, 2],
+        shotsOutsideBox: [7, 3],
+        passes: [350, 480],
+        passCompleted: [280, 410],
+        passAccuracy: [80.0, 85.4],
+        crosses: [14, 10],
+        crossesCompleted: [4, 2],
+        corners: [7, 2],
+        freeKicks: [12, 14],
+        fouls: [10, 14],
+        offsides: [2, 1],
+        yellowCards: [0, 0],
+        redCards: [0, 1],
+        forcedTurnovers: [32, 28],
+        pressingApplied: [240, 200]
+      }
+    },
     { date: '2026-06-26', time: '20:00 ET', group: 'H', team1: 'Cape Verde', score1: null, team2: 'Saudi Arabia', score2: null, venue: '休斯頓·NRG體育場', status: 'scheduled' },
     { date: '2026-06-26', time: '20:00 ET', group: 'H', team1: 'Uruguay', score1: null, team2: 'Spain', score2: null, venue: '瓜達拉哈拉·阿克隆體育場', status: 'scheduled' },
     { date: '2026-06-26', time: '23:00 ET', group: 'G', team1: 'Egypt', score1: null, team2: 'Iran', score2: null, venue: '西雅圖·流明球場', status: 'scheduled' },
@@ -2391,10 +2454,10 @@ const WC_DATA = {
       { team: 'Saudi Arabia', played: 2, won: 0, drawn: 1, lost: 1, gf: 1, ga: 5, gd: -4, pts: 1 }
     ],
     'I': [
-      { team: 'France', played: 2, won: 2, drawn: 0, lost: 0, gf: 6, ga: 1, gd: 5, pts: 6 },
-      { team: 'Norway', played: 2, won: 2, drawn: 0, lost: 0, gf: 7, ga: 3, gd: 4, pts: 6 },
-      { team: 'Senegal', played: 2, won: 0, drawn: 0, lost: 2, gf: 3, ga: 6, gd: -3, pts: 0 },
-      { team: 'Iraq', played: 2, won: 0, drawn: 0, lost: 2, gf: 1, ga: 7, gd: -6, pts: 0 }
+      { team: 'France', played: 3, won: 3, drawn: 0, lost: 0, gf: 10, ga: 2, gd: 8, pts: 9 },
+      { team: 'Norway', played: 3, won: 2, drawn: 0, lost: 1, gf: 8, ga: 7, gd: 1, pts: 6 },
+      { team: 'Senegal', played: 3, won: 1, drawn: 0, lost: 2, gf: 8, ga: 6, gd: 2, pts: 3 },
+      { team: 'Iraq', played: 3, won: 0, drawn: 0, lost: 3, gf: 1, ga: 12, gd: -11, pts: 0 }
     ],
     'J': [
       { team: 'Argentina', played: 2, won: 2, drawn: 0, lost: 0, gf: 5, ga: 0, gd: 5, pts: 6 },

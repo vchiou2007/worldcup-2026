@@ -111,30 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-26 更新：土耳其 3-2 美國 + 巴拉圭 0-0 澳洲，D 組小組賽落幕） =====
+// ===== 輪播牆圖片（2026-06-26 更新：挪威 1-4 法國 + 塞內加爾 5-0 伊拉克，I 組小組賽落幕） =====
 const HERO_IMAGES = [
-  // 🇹🇷🇺🇸⚽ Kaan Ayhan 第90+8分鐘絕殺！土耳其 3-2 美國，土耳其球迷在 SoFi 球場狂歡（USA Today/AP）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90703574007-2283352312.jpg?crop=1600,800,x0,y205&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇹🇷🇺🇸⚽ Arda Güler 第10分鐘為土耳其扳平比分，這是他個人世界盃首球，也是土耳其本屆賽事第一球（Getty Images/AP）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90703577007-2282820444.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇹🇷🇺🇸⚽ Orkun Kökçü 第31分鐘勁射破網，土耳其反超 2-1！效力 Benfica 的中場在 SoFi 球場 70,000 名觀眾前慶祝進球（AP Photo / Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90703583007-2282820278.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇹🇷🇺🇸⚽ Auston Trusty 第3分鐘角球二點機會破門！美國隊長 Weston McKennie 與隊友慶祝 Trusty 個人國家隊首球（AP Photo / Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90703573007-2282823090.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇹🇷🇺🇸⚽ Sebastian Berhalter 第49分鐘角球混戰中為美國扳平比分！Berhalter 賽後獲得全場最佳殊榮（AP Photo / Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90703580007-2282820258.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇹🇷🇺🇸🎉 土耳其球迷在 SoFi 體育場盡情歡呼！土耳其以 3-2 擊敗主辦國美國，雖遭淘汰但以勝利作結（AP Photo / Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90703575007-2282820298.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇹🇷🇺🇸🎉 Christian Pulisic 第57分鐘替補上場，美國雖然輸球但仍以 D 組第一晉級 32 強，將在 7 月 1 日 Levi's 球場出戰 32 強賽（AP Photo / Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90703579007-2282822984.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp'
+  // 🇫🇷🇳🇴⚽ Ousmane Dembélé 上半場帽子戲法！法國 4-1 擊敗挪威，小組賽全勝晉級 32 強（Getty Images/USA Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90715255007-getty-images-2282959215.jpg?crop=2653,1493,x156,y171&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇫🇷🇳🇴⚽ Dembélé 第20分鐘禁區內勁射破網梅開二度！Kylian Mbappé 禁區邊緣送出關鍵傳球（Getty Images/USA Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90715290007-getty-images-2282950151.jpeg?width=1600&height=800&fit=crop&format=pjpg&auto=webp',
+  // 🇫🇷🇳🇴⚽ Désiré Doué 第90+4分鐘頭槌破門！Bradley Barcola 左路精準傳中，Doué 禁區內頭球入網鎖定 4-1 勝局（Getty Images/USA Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90715272007-getty-images-2283469960.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp',
+  // 🇫🇷🇳🇴⚽ Norway's Thelo Aasgaard 第21分鐘為挪威追回一球！挪威雖以 1-4 落敗，但仍以 6 分小組第二晉級 32 強（Getty Images/USA Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90715263007-getty-images-2283482541.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp',
+  // 🇫🇷🇳🇴⚽ Kylian Mbappé 與挪威隊長在比賽中激烈交鋒。法國以 9 分全勝戰績取得 I 組第一，將在 32 強賽迎戰對手（Getty Images/USA Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90715270007-getty-images-2283481549.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp',
+  // 🇸🇳🇮🇶⚽ Senegal 5-0 Iraq — Pape Gueye 替補上場89秒即遠射破門！Gueye 梅開二度助塞內加爾創下非洲球隊世界盃單場進球紀錄（USA Today Sports Images/AP）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90715862007-usatsi-29278314.jpg?crop=1193,671,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇫🇷🇳🇴🎉 Ousmane Dembélé 成為 1994 年以來首位世界盃上半場帽子戲法的球員！法國以王者之姿進軍 32 強淘汰賽（AFP via Getty Images）
+  'https://www.aljazeera.com/wp-content/uploads/2026/06/afp_6a3eeb762a1b-1782508406_5c4516-1782509061.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '⚽🇹🇷🇺🇸 土耳其 3-2 美國 — Kaan Ayhan 第90+8分鐘絕殺！Can Uzun 禁區邊緣傳球，Ayhan 門前推射入網，土耳其以 3-2 擊敗主辦國美國。Ayhan 替補上場僅 3 分鐘即攻入致勝球，這是土耳其本屆世界盃首勝，也讓美國無緣小組賽全勝紀錄（USA Today/AP）',
-  '⚽🇹🇷🇺🇸 土耳其 3-2 美國 — Arda Güler（Real Madrid）第10分鐘接 Barış Yılmaz 助攻，14碼處射門入網，攻入土耳其本屆世界盃首球。21 歲的 Güler 在 2026 年世界盃小組賽三場比賽中均有出色表現，展現了土耳其新生代天才的實力（AP Photo / Getty Images）',
-  '⚽🇹🇷🇺🇸 土耳其 3-2 美國 — Orkun Kökçü（Benfica）第31分鐘接 Kenan Yıldız 傳球後禁區邊緣勁射破網，土耳其 2-1 反超比分！效力葡萄牙聯賽的 Kökçü 在中場組織和插上得分方面表現活躍，本場比賽貢獻 1 球 1 助攻（AP Photo / Getty Images）',
-  '⚽🇹🇷🇺🇸 土耳其 3-2 美國 — Auston Trusty（Celtic）第3分鐘在角球二點機會中，遠柱第一時間射門入網，攻入個人美國國家隊首球！美國隊開局完美，Trusty 在後防線上也貢獻了多次關鍵解圍（AP Photo / Getty Images）',
-  '⚽🇹🇷🇺🇸 土耳其 3-2 美國 — Sebastian Berhalter（Columbus Crew）第49分鐘接 Gio Reyna 開出的角球，禁區混戰中射門入網，為美國隊扳平為 2-2！Berhalter 以 1 球 1 助攻的表現當選全場最佳球員（AP Photo / Getty Images）',
-  '⚽🇹🇷🇺🇸 土耳其 3-2 美國 — 土耳其球迷在 SoFi 體育場為球隊的精彩表現歡呼！土耳其雖以 1 勝 2 負的戰績結束世界盃旅程，但最後一戰擊敗主辦國美國的表現令人印象深刻。Vincenzo Montella 的球隊將放眼 2028 年歐洲盃（AP Photo / Getty Images）',
-  '⚽🇹🇷🇺🇸 土耳其 3-2 美國 — Christian Pulisic 在第57分鐘替補上場，他的回歸為美國隊的 32 強賽帶來希望。美國以 D 組第一（2 勝 1 負 6 分）晉級 32 強，將於 7 月 1 日在 Santa Clara 的 Levi\'s 球場迎戰某組第三名（AP Photo / Getty Images）'
+  '⚽🇫🇷🇳🇴 法國 4-1 挪威 — Ousmane Dembélé（PSG）上半場完成帽子戲法（7分、20分、32分），成為 1994 年以來首位世界盃上半場戴帽的球員！Dembélé 以 5 球躍居法國隊本屆射手榜首位，法國 3 戰全勝 9 分強勢晉級 32 強（Getty Images/USA Today）',
+  '⚽🇫🇷🇳🇴 法國 4-1 挪威 — Ousmane Dembélé 第20分鐘接 Kylian Mbappé 禁區邊緣傳球，左腳勁射破網梅開二度。Dembélé 與 Mbappé 的連線成為法國進攻最致命的武器，兩人合力攻入 9 球領跑 I 組（Getty Images/USA Today）',
+  '⚽🇫🇷🇳🇴 法國 4-1 挪威 — Désiré Doué（PSG）第90+4分鐘接 Bradley Barcola 左路精準傳中，禁區內頭槌破門鎖定 4-1 勝局。法國在 Didier Deschamps 因喪母缺席的情況下仍展現驚人戰力，助教 Guy Stephan 帶隊 3 連勝（Getty Images/USA Today）',
+  '⚽🇫🇷🇳🇴 法國 4-1 挪威 — Thelo Aasgaard（Luton Town）第21分鐘為挪威追回一球，這是他個人世界盃首球。挪威雖大規模輪換 10 名主力（含 Haaland、Ødegaard），仍以小組第二（6 分）晉級 32 強，將於 7 月 1 日出戰 E 組第二（Getty Images/USA Today）',
+  '⚽🇫🇷🇳🇴 法國 4-1 挪威 — Kylian Mbappé 在比賽中展現領袖氣質，雖然未進球但其串聯和牽制為 Dembélé 創造大量空間。法國以 I 組第一姿態晉級，32 強賽將對戰某組第三名（Getty Images/USA Today）',
+  '⚽🇸🇳🇮🇶 塞內加爾 5-0 伊拉克 — Pape Gueye（Villarreal）替補上場 89 秒即遠射破門，隨後再入一球梅開二度！塞內加爾以 5-0 大勝成為史上首支世界盃單場進 5 球的非洲球隊，以 3 分 +2 淨勝球保有晉級 32 強的希望（USA Today Sports Images/AP）',
+  '⚽🇫🇷🇳🇴🎉 Ousmane Dembélé 的帽子戲法成為本屆世界盃最具話題性的個人表現之一。法國 3 戰全勝攻入 10 球僅失 2 球，展現冠軍相。挪威雖敗但仍創下 28 年來首度世界盃晉級淘汰賽的成就（AFP via Getty Images）'
 ];
