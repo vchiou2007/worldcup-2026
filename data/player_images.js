@@ -111,30 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-25 更新：厄瓜多 2-1 德國 + 象牙海岸 2-0 庫拉索，E 組小組賽落幕） =====
+// ===== 輪播牆圖片（2026-06-26 更新：日本 1-1 瑞典 + 突尼西亞 1-3 荷蘭，F 組小組賽落幕） =====
 const HERO_IMAGES = [
-  // 🇪🇨🇩🇪⚽ Gonzalo Plata 第77分鐘跟進補射破門！厄瓜多 2-1 逆轉德國，角球 Kevin Rodriguez 頭槌被 Neuer 撲出後 Plata 機警補射入網（AP Photo/Seth Wenig）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/ecuador-plata-goal.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇪🇨🇩🇪🎉 Nilson Angulo 第9分鐘禁區外世界波扳平！Sunderland 邊鋒 Angulo 在禁區外右腳遠射越過 Neuer 頭頂入網，全場 50,000 名厄瓜多球迷陷入瘋狂（AP Photo / Reuters）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/ecuador-angulo-celebration.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇪🇨🇩🇪🎉 Gonzalo Plata 進球後與隊友忘情慶祝！厄瓜多以 2-1 擊敗四屆冠軍德國，以 4 分成為最佳小組第三名之一，隊史第三次晉級世界盃淘汰賽（AP Photo/Seth Wenig）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/ecuador-team-celebration.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇨🇮🇨🇼⚽ Nicolas Pépé 第7分鐘接 Yan Diomande 傳球禁區內推射入網！象牙海岸 1-0 領先庫拉索，Pépé 為大象軍團打開晉級之路（AP Photo/Matt Slocum）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/pepe-first-goal.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇨🇮🇨🇼⚽ Nicolas Pépé 第64分鐘接 Ibrahim Sangaré 助攻梅開二度！象牙海岸 2-0 擊敗庫拉索，隊史首次晉級世界盃淘汰賽（AP Photo/Matt Slocum）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/pepe-second-goal.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇪🇨🇩🇪🏆 全場最佳 Gonzalo Plata 賽後接受採訪！Plata 在第77分鐘的關鍵進球讓厄瓜多以 2-1 擊敗德國，成為 E 組最大驚奇（Reuters / USA TODAY Sports）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/ecuador-plata-motm.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇨🇮🇨🇼🎉 Nicolas Pépé 賽後與隊友圍圈慶祝象牙海岸歷史性晉級！大象軍團以小組第二（6分）晉級32強，將在6月28日對陣 L 組第二名（AP Photo/Petr David Josek）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/ivory-coast-celebration.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp'
+  // 🇯🇵🇸🇪⚽ Daizen Maeda 第56分鐘接 Ritsu Doan 精準直塞，禁區內勁射破門！日本 1-0 領先瑞典（Getty Images/AP）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90702045007-usatsi-29271753.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇯🇵🇸🇪⚽ Keito Nakamura 上半場多次突破瑞典防線，成為日本隊最危險的進攻武器（AP Photo/Jessica Tobias / Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90699473007-getty-images-2283319101.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇯🇵🇸🇪⚽ Anthony Elanga 第62分鐘接 Alexander Isak 妙傳，禁區內低射遠角入網！瑞典 1-1 扳平比分（AP Photo / Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90699491007-getty-images-2283319386.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇯🇵🇸🇪🎉 日本以 F 組第二名晉級 32 強，日本球迷在達拉斯 AT&T 體育場熱情應援（AP Photo / Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90699791007-getty-images-2283318907.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇹🇳🇳🇱⚽ Brian Brobbey 第7分鐘接 Cody Gakpo 傳球禁區內推射入網！荷蘭 2-0 領先，Brobbey 本屆第3球（AP Photo/Charlie Riedel / Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90699841007-getty-images-2282783124.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇹🇳🇳🇱⚽ Virgil van Dijk 率領荷蘭防線，荷蘭以 71% 控球率主宰比賽（AP Photo / Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90700841007-getty-images-2283162385.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
+  // 🇹🇳🇳🇱🎉 Netherlands 3-1 Tunisia — 荷蘭以 F 組第一（7分）晉級 32 強！（AP Photo / Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/25/USAT/90700844007-getty-images-2283181843.jpg?crop=1600,800,x0,y0&width=1600&height=800&format=pjpg&auto=webp'
 ];
 
 const HERO_CAPTIONS = [
-  '⚽🇪🇨🇩🇪 厄瓜多 2-1 德國 — Gonzalo Plata 第77分鐘在角球混戰中機警補射破門！Kevin Rodriguez 的頭槌被德國門將 Manuel Neuer 撲出，Plata 搶在所有人之前將球捅入網內。這記關鍵進球讓厄瓜多從小組墊底一躍成為最佳第三名之一，Plata 在 82,566 名觀眾面前成為國家英雄（AP Photo/Seth Wenig）',
-  '⚽🇪🇨🇩🇪 厄瓜多 2-1 德國 — Nilson Angulo 第9分鐘在禁區外右腳遠射，皮球劃出一道美麗弧線越過 Neuer 頭頂入網！效力 Sunderland 的 Angulo 用這記世界波為厄瓜多扳平比分，也是厄瓜多在本屆世界盃的首顆進球。Angulo 成為本屆世界盃第四位 Sunderland 球員進球者（AP Photo / Reuters）',
-  '⚽🇪🇨🇩🇪 厄瓜多 2-1 德國 — Gonzalo Plata 進球後被隊友團團圍住瘋狂慶祝！厄瓜多以 2-1 爆冷擊敗四屆世界冠軍德國，以 1 勝 1 和 1 敗、4 分的戰績確保以最佳小組第三名身份晉級32強，這是厄瓜多自 2006 年後再次闖入世界盃淘汰賽（AP Photo/Seth Wenig）',
-  '⚽🇨🇮🇨🇼 象牙海岸 2-0 庫拉索 — Nicolas Pépé 第7分鐘接獲 19 歲天才 Yan Diomande 的精準傳球，禁區內冷靜推射入網！Pépé 在開賽不久就幫助象牙海岸取得領先，Diomande 以個人第 3 次助攻繼續展現世界盃最令人興奮的年輕天才之一的實力（AP Photo/Matt Slocum）',
-  '⚽🇨🇮🇨🇼 象牙海岸 2-0 庫拉索 — Nicolas Pépé 第64分鐘接 Ibrahim Sangaré 傳球，禁區內再次冷靜射門，完成梅開二度！象牙海岸以 2-0 擊敗庫拉索，在小組賽中取得 2 勝 1 敗 6 分的戰績，以 E 組第二名身份隊史首次晉級世界盃淘汰賽（AP Photo/Matt Slocum）',
-  '⚽🇪🇨🇩🇪 厄瓜多 2-1 德國 — 全場最佳球員 Gonzalo Plata 賽後受訪。Plata 在第77分鐘的關鍵進球不僅讓厄瓜多擊敗四屆冠軍德國，更讓厄瓜多在三場小組賽（0-1 負象牙海岸、0-0 平庫拉索、2-1 勝德國）後以 4 分成績晉級。這是厄瓜多第三次參加世界盃淘汰賽（Reuters / USA TODAY Sports）',
-  '⚽🇨🇮🇨🇼 象牙海岸 2-0 庫拉索 — Nicolas Pépé 賽後被隊友圍繞慶祝！象牙海岸以小組第二（6分）晉級 32 強，將在 6 月 28 日於多倫多對陣 L 組第二名。這是大象軍團參加世界盃 20 年來首次突破小組賽，也讓 42 歲的總教練 Emerse Faé 成為本屆最成功的非洲教練之一（AP Photo/Petr David Josek）'
+  '⚽🇯🇵🇸🇪 日本 1-1 瑞典 — Daizen Maeda 第56分鐘接 Ritsu Doan 的精彩直塞球，禁區內勁射破門！效力 Celtic 的 Maeda 在 80,000 名觀眾面前為日本首開紀錄，這是日本在 F 組的第 7 顆進球。瑞典門將 Jacob Widell Zetterstrom 雖觸到球仍無法阻止進球（Getty Images/AP）',
+  '⚽🇯🇵🇸🇪 日本 1-1 瑞典 — Keito Nakamura（Stade de Reims）上半場表現活躍，多次在左路突破瑞典防線。Nakamura 在本屆世界盃已貢獻 1 球 2 助攻，成為日本隊本屆賽事的關鍵球員之一（AP Photo/Jessica Tobias / Getty Images）',
+  '⚽🇯🇵🇸🇪 日本 1-1 瑞典 — Anthony Elanga 第62分鐘接 Alexander Isak 妙傳，禁區內左腳低射遠角入網！效力 Nottingham Forest 的 Elanga 連續兩場比賽進球，為瑞典扳平比分，讓瑞典以 4 分成為最佳第三名之一，有望晉級 32 強（AP Photo / Getty Images）',
+  '⚽🇯🇵🇸🇪 日本 1-1 瑞典 — 日本球迷在達拉斯 AT&T 體育場熱情為 Samurai Blue 加油！日本以小組第二名（1勝2和5分）晉級 32 強。16 強賽日本將在休士頓對陣 C 組第一巴西，重現 2022 年世界盃的經典對決（AP Photo / Getty Images）',
+  '⚽🇹🇳🇳🇱 突尼西亞 1-3 荷蘭 — Brian Brobbey（Ajax）第7分鐘接 Cody Gakpo 傳球禁區內推射入網！Brobbey 本屆世界盃已攻入 3 球，超越 Memphis Depay 成為荷蘭隊本屆進球王。上半場開賽僅 7 分鐘荷蘭就已 2-0 領先（Ellyes Skhiri 第3分鐘烏龍球）（AP Photo/Charlie Riedel / Getty Images）',
+  '⚽🇹🇳🇳🇱 突尼西亞 1-3 荷蘭 — Virgil van Dijk 率領荷蘭後防線全場僅讓突尼西亞射正 4 次。荷蘭以 71% 控球率、630 次傳球完全主宰比賽。Jan van Hecke 在第83分鐘頭槌破門，荷蘭 3-0 鎖定勝局。突尼西亞三戰全敗零分出局（AP Photo / Getty Images）',
+  '⚽🇹🇳🇳🇱 突尼西亞 1-3 荷蘭 — 荷蘭以 2 勝 1 和 7 分奪得 F 組第一晉級 32 強！Hazem Mastouri 在第89分鐘接 Hannibal Mejbri 妙傳禁區內轉身射門，為突尼西亞攻入本屆第 2 球。荷蘭將在 6 月 29 日的 32 強賽中對陣某組第三名（AP Photo / Getty Images）'
 ];

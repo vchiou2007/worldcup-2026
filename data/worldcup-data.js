@@ -2202,8 +2202,66 @@ const WC_DATA = {
         pressingApplied: [180, 240]
       }
     },
-    { date: '2026-06-25', time: '19:00 ET', group: 'F', team1: 'Japan', score1: null, team2: 'Sweden', score2: null, venue: '達拉斯·AT&T體育場', status: 'scheduled' },
-    { date: '2026-06-25', time: '19:00 ET', group: 'F', team1: 'Tunisia', score1: null, team2: 'Netherlands', score2: null, venue: '堪薩斯城·箭頭體育場', status: 'scheduled' },
+    { date: '2026-06-25', time: '19:00 ET', group: 'F', team1: 'Japan', score1: 1, team2: 'Sweden', score2: 1, venue: '達拉斯·AT&T體育場', status: 'completed',
+      goals: [
+        { min: 36, team: 1, scorer: 'Daizen Maeda', assist: 'Keito Nakamura', detail: 'Nakamura 左路突破傳中，Maeda 禁區內搶點推射入網，日本率先破門' },
+        { min: 72, team: 2, scorer: 'Anthony Elanga', assist: 'Alexander Isak', detail: 'Isak 禁區邊緣妙傳，Elanga 禁區內低射遠角入網，瑞典扳平比分' }
+      ],
+      cards: [
+      ],
+      stats: {
+        possession: [50, 50],
+        shots: [12, 10],
+        shotsOnTarget: [4, 3],
+        shotsOffTarget: [5, 4],
+        shotsInsideBox: [7, 6],
+        shotsOutsideBox: [5, 4],
+        passes: [420, 380],
+        passCompleted: [360, 310],
+        passAccuracy: [85.7, 81.6],
+        crosses: [14, 16],
+        crossesCompleted: [4, 3],
+        corners: [5, 6],
+        freeKicks: [14, 12],
+        fouls: [12, 10],
+        offsides: [2, 1],
+        yellowCards: [0, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 250]
+      }
+    },
+    { date: '2026-06-25', time: '19:00 ET', group: 'F', team1: 'Tunisia', score1: 1, team2: 'Netherlands', score2: 3, venue: '堪薩斯城·箭頭體育場', status: 'completed',
+      goals: [
+        { min: 3, team: 2, scorer: 'Ellyes Skhiri (OG)', detail: 'Ellyes Skhiri 左腳解圍不慎將球踢入自家大門，荷蘭早早領先' },
+        { min: 7, team: 2, scorer: 'Brian Brobbey', assist: 'Cody Gakpo', detail: 'Gakpo 禁區邊緣傳球，Brobbey 禁區中央推射入網，荷蘭2-0' },
+        { min: 83, team: 2, scorer: 'Jan van Hecke', assist: 'Denzel Dumfries', detail: 'Dumfries 角球開出，van Hecke 禁區內頭槌破門，荷蘭3-0鎖定勝局' },
+        { min: 89, team: 1, scorer: 'Hazem Mastouri', assist: 'Hannibal Mejbri', detail: 'Mejbri 妙傳，Mastouri 禁區內轉身射門入網，突尼西亞追回一球' }
+      ],
+      cards: [
+      ],
+      stats: {
+        possession: [29, 71],
+        shots: [10, 21],
+        shotsOnTarget: [4, 8],
+        shotsOffTarget: [3, 7],
+        shotsInsideBox: [6, 12],
+        shotsOutsideBox: [4, 9],
+        passes: [280, 630],
+        passCompleted: [210, 560],
+        passAccuracy: [75.0, 88.9],
+        crosses: [8, 22],
+        crossesCompleted: [2, 8],
+        corners: [4, 6],
+        freeKicks: [12, 10],
+        fouls: [11, 9],
+        offsides: [2, 1],
+        yellowCards: [0, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [24, 36],
+        pressingApplied: [180, 240]
+      }
+    },
     { date: '2026-06-25', time: '22:00 ET', group: 'D', team1: 'Paraguay', score1: null, team2: 'Australia', score2: null, venue: '舊金山·李維斯體育場', status: 'scheduled' },
     { date: '2026-06-25', time: '22:00 ET', group: 'D', team1: 'Turkey', score1: null, team2: 'USA', score2: null, venue: '洛杉磯·SoFi體育場', status: 'scheduled' },
 
@@ -2255,10 +2313,10 @@ const WC_DATA = {
       { team: 'Curaçao', played: 3, won: 0, drawn: 1, lost: 2, gf: 1, ga: 9, gd: -8, pts: 1 }
     ],
     'F': [
-      { team: 'Netherlands', played: 2, won: 1, drawn: 1, lost: 0, gf: 7, ga: 3, gd: 4, pts: 4 },
-      { team: 'Sweden', played: 2, won: 1, drawn: 0, lost: 1, gf: 6, ga: 6, gd: 0, pts: 3 },
-      { team: 'Japan', played: 2, won: 1, drawn: 1, lost: 0, gf: 6, ga: 2, gd: 4, pts: 4 },
-      { team: 'Tunisia', played: 2, won: 0, drawn: 0, lost: 2, gf: 1, ga: 9, gd: -8, pts: 0 }
+      { team: 'Netherlands', played: 3, won: 2, drawn: 1, lost: 0, gf: 10, ga: 4, gd: 6, pts: 7 },
+      { team: 'Japan', played: 3, won: 1, drawn: 2, lost: 0, gf: 7, ga: 3, gd: 4, pts: 5 },
+      { team: 'Sweden', played: 3, won: 1, drawn: 1, lost: 1, gf: 7, ga: 7, gd: 0, pts: 4 },
+      { team: 'Tunisia', played: 3, won: 0, drawn: 0, lost: 3, gf: 2, ga: 12, gd: -10, pts: 0 }
     ],
     'G': [
       { team: 'Egypt', played: 2, won: 1, drawn: 1, lost: 0, gf: 4, ga: 2, gd: 2, pts: 4 },
