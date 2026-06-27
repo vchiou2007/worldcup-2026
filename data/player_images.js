@@ -111,30 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-26 更新：挪威 1-4 法國 + 塞內加爾 5-0 伊拉克，I 組小組賽落幕） =====
+// ===== 輪播牆圖片（2026-06-27 更新：H 組小組賽落幕 — 西班牙 1-0 烏拉圭 + 維德角 0-0 沙烏地阿拉伯） =====
 const HERO_IMAGES = [
-  // 🇫🇷🇳🇴⚽ Ousmane Dembélé 上半場帽子戲法！法國 4-1 擊敗挪威，小組賽全勝晉級 32 強（Getty Images/USA Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90715255007-getty-images-2282959215.jpg?crop=2653,1493,x156,y171&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇫🇷🇳🇴⚽ Dembélé 第20分鐘禁區內勁射破網梅開二度！Kylian Mbappé 禁區邊緣送出關鍵傳球（Getty Images/USA Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90715290007-getty-images-2282950151.jpeg?width=1600&height=800&fit=crop&format=pjpg&auto=webp',
-  // 🇫🇷🇳🇴⚽ Désiré Doué 第90+4分鐘頭槌破門！Bradley Barcola 左路精準傳中，Doué 禁區內頭球入網鎖定 4-1 勝局（Getty Images/USA Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90715272007-getty-images-2283469960.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp',
-  // 🇫🇷🇳🇴⚽ Norway's Thelo Aasgaard 第21分鐘為挪威追回一球！挪威雖以 1-4 落敗，但仍以 6 分小組第二晉級 32 強（Getty Images/USA Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90715263007-getty-images-2283482541.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp',
-  // 🇫🇷🇳🇴⚽ Kylian Mbappé 與挪威隊長在比賽中激烈交鋒。法國以 9 分全勝戰績取得 I 組第一，將在 32 強賽迎戰對手（Getty Images/USA Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90715270007-getty-images-2283481549.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp',
-  // 🇸🇳🇮🇶⚽ Senegal 5-0 Iraq — Pape Gueye 替補上場89秒即遠射破門！Gueye 梅開二度助塞內加爾創下非洲球隊世界盃單場進球紀錄（USA Today Sports Images/AP）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90715862007-usatsi-29278314.jpg?crop=1193,671,x0,y0&width=1600&height=800&format=pjpg&auto=webp',
-  // 🇫🇷🇳🇴🎉 Ousmane Dembélé 成為 1994 年以來首位世界盃上半場帽子戲法的球員！法國以王者之姿進軍 32 強淘汰賽（AFP via Getty Images）
-  'https://www.aljazeera.com/wp-content/uploads/2026/06/afp_6a3eeb762a1b-1782508406_5c4516-1782509061.jpg'
+  // 🇪🇸🇺🇾⚽ Alex Baena 第42分鐘破門！Muslera 撲救失誤，西班牙 1-0 烏拉圭，小組第一晉級 32 強（AFP via Al Jazeera）
+  'https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260627__B8H28YU__v1__MidRes__FblWc2026Match66UruEsp-1782525382.jpg',
+  // 🇪🇸🇺🇾⚽ Álex Baena 進球後與 Rodri 慶祝，Baena 的進球淘汰兩屆冠軍烏拉圭（AP Photo）
+  'https://th-i.thgim.com/public/incoming/v7k56a/article71153288.ece/alternates/LANDSCAPE_1200/AFP__20260627__B8H28YW__v1__MidRes__FblWc2026Match66UruEsp-1782525145.jpg',
+  // 🇪🇸🇺🇾⚽ Fernando Muslera 半場被換下，Bielsa 做出罕見門將調度。烏拉圭三場不勝小組墊底出局（AP Photo/Natacha Pisarenko via USA Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90716883007-spain-vs-uruguay-baena-goal.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp',
+  // 🇨🇻🇸🇦⚽ Cape Verde 0-0 沙烏地阿拉伯！世界盃新軍三連平以小組第二歷史性晉級 32 強，將對決衛冕冠軍阿根廷（AP Photo/Ashley Landis via The Hindu）
+  'https://th-i.thgim.com/public/incoming/3st2pw/article71153289.ece/alternates/LANDSCAPE_1200/Saudi_Arabia_Cape_Verde_WCup_Soccer_66687.jpg',
+  // 🇨🇻🇸🇦⚽ Cape Verde 球員賽後慶祝！這個人口僅 50 萬的島國成為世界盃史上晉級淘汰賽的最小國家（AP Photo/Eric Gay）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90715064007-cape-verde-celebration.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp',
+  // 🇪🇸🇺🇾🎉 西班牙以 H 組第一（7 分）晉級，Cape Verde（3 分）第二同樣晉級，烏拉圭（2 分）和沙烏地阿拉伯（2 分）遭淘汰（AP Photo/Fernando Llano）
+  'https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260627__B8H2905__v1__MidRes__FblWc2026Match66UruEsp-1782525410.jpg',
+  // 🇨🇻🇦🇷 Cape Verde 將在 32 強賽對決 Lionel Messi 領軍的衛冕冠軍阿根廷！小蝦米對大鯨魚的史詩對決（AP Photo/David J. Phillip）
+  'https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260627__3P63HJ__v1__MidRes__FblWc2026Match65CpSau-1782525284.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '⚽🇫🇷🇳🇴 法國 4-1 挪威 — Ousmane Dembélé（PSG）上半場完成帽子戲法（7分、20分、32分），成為 1994 年以來首位世界盃上半場戴帽的球員！Dembélé 以 5 球躍居法國隊本屆射手榜首位，法國 3 戰全勝 9 分強勢晉級 32 強（Getty Images/USA Today）',
-  '⚽🇫🇷🇳🇴 法國 4-1 挪威 — Ousmane Dembélé 第20分鐘接 Kylian Mbappé 禁區邊緣傳球，左腳勁射破網梅開二度。Dembélé 與 Mbappé 的連線成為法國進攻最致命的武器，兩人合力攻入 9 球領跑 I 組（Getty Images/USA Today）',
-  '⚽🇫🇷🇳🇴 法國 4-1 挪威 — Désiré Doué（PSG）第90+4分鐘接 Bradley Barcola 左路精準傳中，禁區內頭槌破門鎖定 4-1 勝局。法國在 Didier Deschamps 因喪母缺席的情況下仍展現驚人戰力，助教 Guy Stephan 帶隊 3 連勝（Getty Images/USA Today）',
-  '⚽🇫🇷🇳🇴 法國 4-1 挪威 — Thelo Aasgaard（Luton Town）第21分鐘為挪威追回一球，這是他個人世界盃首球。挪威雖大規模輪換 10 名主力（含 Haaland、Ødegaard），仍以小組第二（6 分）晉級 32 強，將於 7 月 1 日出戰 E 組第二（Getty Images/USA Today）',
-  '⚽🇫🇷🇳🇴 法國 4-1 挪威 — Kylian Mbappé 在比賽中展現領袖氣質，雖然未進球但其串聯和牽制為 Dembélé 創造大量空間。法國以 I 組第一姿態晉級，32 強賽將對戰某組第三名（Getty Images/USA Today）',
-  '⚽🇸🇳🇮🇶 塞內加爾 5-0 伊拉克 — Pape Gueye（Villarreal）替補上場 89 秒即遠射破門，隨後再入一球梅開二度！塞內加爾以 5-0 大勝成為史上首支世界盃單場進 5 球的非洲球隊，以 3 分 +2 淨勝球保有晉級 32 強的希望（USA Today Sports Images/AP）',
-  '⚽🇫🇷🇳🇴🎉 Ousmane Dembélé 的帽子戲法成為本屆世界盃最具話題性的個人表現之一。法國 3 戰全勝攻入 10 球僅失 2 球，展現冠軍相。挪威雖敗但仍創下 28 年來首度世界盃晉級淘汰賽的成就（AFP via Getty Images）'
+  '⚽🇪🇸🇺🇾 西班牙 1-0 烏拉圭 — Álex Baena（Villarreal）第42分鐘接 Marcos Llorente 低平球傳中，禁區內射門造成 Muslera 撲救失誤，球滾入遠角。西班牙以 H 組第一（7 分）晉級 32 強，將對戰 J 組第二（AFP via Al Jazeera）',
+  '⚽🇪🇸🇺🇾 西班牙 1-0 烏拉圭 — Álex Baena 進球後與隊長 Rodri 慶祝。烏拉圭門將 Fernando Muslera 半場被 Sergio Rochet 取代，這是他本屆世界盃第三次失誤。烏拉圭 3 場 2 和 1 負被淘汰（AP Photo via The Hindu）',
+  '⚽🇪🇸🇺🇾 西班牙 1-0 烏拉圭 — 兩屆世界冠軍烏拉圭在小組賽結束後球員落淚。Marcelo Bielsa 的球隊三場不勝（0 勝 2 和 1 負），寫下烏拉圭自 2002 年以來最差的世界盃成績（AP Photo/Natacha Pisarenko via USA Today）',
+  '⚽🇨🇻🇸🇦 維德角 0-0 沙烏地阿拉伯 — 世界盃新軍 Cape Verde（維德角）0-0 逼平沙烏地阿拉伯，小組賽三連平（0-0 西班牙、2-2 烏拉圭、0-0 沙烏地阿拉伯）以 3 分成績歷史性晉級 32 強！人口僅 50 萬的島國成為世界盃史上晉級淘汰賽的最小國家（AP Photo/Ashley Landis via The Hindu）',
+  '⚽🇨🇻🇸🇦 維德角 0-0 沙烏地阿拉伯 — Cape Verde 球員在終場哨響後衝入場內慶祝！他們將在 32 強賽對決 Lionel Messi 率領的世界冠軍阿根廷，這將是世界盃史上最懸殊的對決之一（AP Photo/Eric Gay）',
+  '⚽🇪🇸🇺🇾🎉 H 組最終排名 — 西班牙（7 分）小組第一晉級，Cape Verde（3 分 三連平）創歷史第二晉級，烏拉圭（2 分）和沙烏地阿拉伯（2 分）雙雙淘汰。西班牙控球率達 67%，展現歐洲冠軍實力（AP Photo/Fernando Llano via Al Jazeera）',
+  '⚽🇨🇻🇦🇷 Cape Verde 將在 32 強賽對決衛冕冠軍阿根廷！門將 Vozinha（Instagram 粉絲暴增至 1600 萬）將對決球王 Messi。Cape Verde 教練 Bubista：「Everyone is entitled to dream. Nothing is impossible.」（AP Photo/David J. Phillip via Al Jazeera）'
 ];

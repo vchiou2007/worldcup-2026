@@ -2391,8 +2391,67 @@ const WC_DATA = {
         pressingApplied: [240, 200]
       }
     },
-    { date: '2026-06-26', time: '20:00 ET', group: 'H', team1: 'Cape Verde', score1: null, team2: 'Saudi Arabia', score2: null, venue: '休斯頓·NRG體育場', status: 'scheduled' },
-    { date: '2026-06-26', time: '20:00 ET', group: 'H', team1: 'Uruguay', score1: null, team2: 'Spain', score2: null, venue: '瓜達拉哈拉·阿克隆體育場', status: 'scheduled' },
+    { date: '2026-06-26', time: '20:00 ET', group: 'H', team1: 'Cape Verde', score1: 0, team2: 'Saudi Arabia', score2: 0, venue: '休斯頓·NRG體育場', status: 'completed',
+      goals: [],
+      cards: [
+        { min: 81, team: 2, player: 'Firas Al Buraikan', card: 'yellow', detail: '犯規' },
+        { min: 90, team: 2, player: 'Moteb Al Harbi', card: 'yellow', detail: '犯規' },
+        { min: 90, team: 2, player: 'Nawaf Bu Washl', card: 'yellow', detail: '犯規' },
+        { min: 90, team: 1, player: 'Steven Moreira', card: 'yellow', detail: '犯規' },
+        { min: 90, team: 1, player: 'Wagner Pina', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [51, 49],
+        shots: [15, 7],
+        shotsOnTarget: [2, 3],
+        shotsOffTarget: [8, 3],
+        shotsInsideBox: [8, 4],
+        shotsOutsideBox: [7, 3],
+        passes: [320, 310],
+        passCompleted: [250, 240],
+        passAccuracy: [78.1, 77.4],
+        crosses: [14, 10],
+        crossesCompleted: [3, 2],
+        corners: [4, 2],
+        freeKicks: [12, 16],
+        fouls: [10, 16],
+        offsides: [2, 0],
+        yellowCards: [2, 3],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [200, 240]
+      }
+    },
+    { date: '2026-06-26', time: '20:00 ET', group: 'H', team1: 'Uruguay', score1: 0, team2: 'Spain', score2: 1, venue: '瓜達拉哈拉·阿克隆體育場', status: 'completed',
+      goals: [
+        { min: 42, team: 2, scorer: 'Alex Baena', assist: 'Marcos Llorente', detail: 'Muslera 撲救失誤，球滾入遠角，西班牙打破僵局' }
+      ],
+      cards: [
+        { min: 90, team: 1, player: 'Nicolás De La Cruz', card: 'yellow', detail: '犯規' },
+        { min: 90, team: 1, player: 'Agustín Canobbio', card: 'red', detail: '惡意鏟球犯規，直接紅牌' }
+      ],
+      stats: {
+        possession: [33, 67],
+        shots: [5, 6],
+        shotsOnTarget: [1, 1],
+        shotsOffTarget: [3, 4],
+        shotsInsideBox: [3, 4],
+        shotsOutsideBox: [2, 2],
+        passes: [301, 623],
+        passCompleted: [228, 553],
+        passAccuracy: [75.7, 88.8],
+        crosses: [16, 12],
+        crossesCompleted: [1, 3],
+        corners: [1, 6],
+        freeKicks: [14, 14],
+        fouls: [14, 14],
+        offsides: [5, 2],
+        yellowCards: [3, 1],
+        redCards: [1, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 240]
+      }
+    },
     { date: '2026-06-26', time: '23:00 ET', group: 'G', team1: 'Egypt', score1: null, team2: 'Iran', score2: null, venue: '西雅圖·流明球場', status: 'scheduled' },
     { date: '2026-06-26', time: '23:00 ET', group: 'G', team1: 'New Zealand', score1: null, team2: 'Belgium', score2: null, venue: '溫哥華·BC Place', status: 'scheduled' },
 
@@ -2448,10 +2507,10 @@ const WC_DATA = {
       { team: 'New Zealand', played: 2, won: 0, drawn: 1, lost: 1, gf: 3, ga: 5, gd: -2, pts: 1 }
     ],
     'H': [
-      { team: 'Spain', played: 2, won: 1, drawn: 1, lost: 0, gf: 4, ga: 0, gd: 4, pts: 4 },
-      { team: 'Uruguay', played: 2, won: 0, drawn: 2, lost: 0, gf: 3, ga: 3, gd: 0, pts: 2 },
-      { team: 'Cape Verde', played: 2, won: 0, drawn: 2, lost: 0, gf: 2, ga: 2, gd: 0, pts: 2 },
-      { team: 'Saudi Arabia', played: 2, won: 0, drawn: 1, lost: 1, gf: 1, ga: 5, gd: -4, pts: 1 }
+      { team: 'Spain', played: 3, won: 2, drawn: 1, lost: 0, gf: 5, ga: 0, gd: 5, pts: 7 },
+      { team: 'Cape Verde', played: 3, won: 0, drawn: 3, lost: 0, gf: 2, ga: 2, gd: 0, pts: 3 },
+      { team: 'Uruguay', played: 3, won: 0, drawn: 2, lost: 1, gf: 3, ga: 4, gd: -1, pts: 2 },
+      { team: 'Saudi Arabia', played: 3, won: 0, drawn: 2, lost: 1, gf: 1, ga: 5, gd: -4, pts: 2 }
     ],
     'I': [
       { team: 'France', played: 3, won: 3, drawn: 0, lost: 0, gf: 10, ga: 2, gd: 8, pts: 9 },
