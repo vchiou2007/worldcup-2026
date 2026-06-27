@@ -2452,8 +2452,75 @@ const WC_DATA = {
         pressingApplied: [220, 240]
       }
     },
-    { date: '2026-06-26', time: '23:00 ET', group: 'G', team1: 'Egypt', score1: null, team2: 'Iran', score2: null, venue: '西雅圖·流明球場', status: 'scheduled' },
-    { date: '2026-06-26', time: '23:00 ET', group: 'G', team1: 'New Zealand', score1: null, team2: 'Belgium', score2: null, venue: '溫哥華·BC Place', status: 'scheduled' },
+    { date: '2026-06-26', time: '23:00 ET', group: 'G', team1: 'Egypt', score1: 1, team2: 'Iran', score2: 1, venue: '西雅圖·流明球場', status: 'completed',
+      goals: [
+        { min: 5, team: 1, scorer: 'Mahmoud Saber', assist: 'Mohamed Salah', detail: 'Salah 禁區內強勢表現，Saber 射門穿過 Beiranvand 雙腿入網，埃及早早領先「同志驕傲之戰」' },
+        { min: 14, team: 2, scorer: 'Ramin Rezaeian', assist: null, detail: '禁區內冷靜射門入網，伊朗迅速扳平比分' }
+      ],
+      cards: [
+        { min: 14, team: 1, player: 'Mohamed Abdelmonem', card: 'yellow', detail: '犯規' },
+        { min: 19, team: 2, player: 'Hossein Kanaani', card: 'yellow', detail: '犯規' },
+        { min: 42, team: 1, player: 'Yasser Ibrahim', card: 'yellow', detail: '犯規' },
+        { min: 43, team: 2, player: 'Ali Nemati', card: 'yellow', detail: '犯規' },
+        { min: 90, team: 2, player: 'Shoja Khalilzadeh', card: 'yellow', detail: 'VAR 確認越位後進球無效' }
+      ],
+      stats: {
+        possession: [45, 55],
+        shots: [8, 12],
+        shotsOnTarget: [3, 4],
+        shotsOffTarget: [3, 5],
+        shotsInsideBox: [5, 7],
+        shotsOutsideBox: [3, 5],
+        passes: [380, 460],
+        passCompleted: [310, 400],
+        passAccuracy: [81.6, 87.0],
+        crosses: [12, 18],
+        crossesCompleted: [3, 5],
+        corners: [4, 6],
+        freeKicks: [14, 12],
+        fouls: [12, 14],
+        offsides: [2, 3],
+        yellowCards: [2, 3],
+        redCards: [0, 0],
+        forcedTurnovers: [26, 30],
+        pressingApplied: [200, 240]
+      }
+    },
+    { date: '2026-06-26', time: '23:00 ET', group: 'G', team1: 'New Zealand', score1: 1, team2: 'Belgium', score2: 5, venue: '溫哥華·BC Place', status: 'completed',
+      goals: [
+        { min: 28, team: 2, scorer: 'Leandro Trossard', assist: 'Kevin De Bruyne', detail: 'De Bruyne 傳中，Trossard 門前近距離搶點破門，比利時世界盃近四年首個非烏龍進球' },
+        { min: 50, team: 2, scorer: 'Leandro Trossard', assist: 'Hans Vanaken', detail: '胸部停球後凌空抽射入網，Trossard 梅開二度' },
+        { min: 66, team: 2, scorer: 'Kevin De Bruyne', assist: 'Leandro Trossard', detail: '禁區邊緣低射入左下角，34歲成爲比利時世界盃史上最年長進球者' },
+        { min: 84, team: 1, scorer: 'Elijah Just', assist: null, detail: '角球混戰中門前射門入網，Just 本屆世界盃第3球' },
+        { min: 86, team: 2, scorer: 'Romelu Lukaku', assist: 'Nicolas Raskin', detail: 'Raskin 精準傳中，Lukaku 頭槌破門，以世界盃第6球成爲比利時世界盃歷史射手王' },
+        { min: 90, team: 2, scorer: 'Alexis Saelemaekers', assist: 'Romelu Lukaku', detail: '傷停補時低射入網，比利時5-1鎖定勝局' }
+      ],
+      cards: [
+        { min: 46, team: 1, player: 'Marko Stamenic', card: 'yellow', detail: '絆倒犯規' },
+        { min: 56, team: 1, player: 'Elijah Just', card: 'yellow', detail: '拉人犯規' }
+      ],
+      stats: {
+        possession: [28, 72],
+        shots: [6, 25],
+        shotsOnTarget: [2, 12],
+        shotsOffTarget: [3, 8],
+        shotsInsideBox: [3, 16],
+        shotsOutsideBox: [3, 9],
+        passes: [260, 680],
+        passCompleted: [190, 610],
+        passAccuracy: [73.1, 89.7],
+        crosses: [8, 28],
+        crossesCompleted: [2, 9],
+        corners: [2, 10],
+        freeKicks: [14, 12],
+        fouls: [14, 10],
+        offsides: [1, 3],
+        yellowCards: [2, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [200, 260]
+      }
+    },
 
     // === 6月27日 ===
     { date: '2026-06-27', time: '19:30 ET', group: 'K', team1: 'Colombia', score1: null, team2: 'Portugal', score2: null, venue: '邁阿密·硬石體育場', status: 'scheduled' },
@@ -2501,10 +2568,10 @@ const WC_DATA = {
       { team: 'Tunisia', played: 3, won: 0, drawn: 0, lost: 3, gf: 2, ga: 12, gd: -10, pts: 0 }
     ],
     'G': [
-      { team: 'Egypt', played: 2, won: 1, drawn: 1, lost: 0, gf: 4, ga: 2, gd: 2, pts: 4 },
-      { team: 'Belgium', played: 2, won: 0, drawn: 2, lost: 0, gf: 1, ga: 1, gd: 0, pts: 2 },
-      { team: 'Iran', played: 2, won: 0, drawn: 2, lost: 0, gf: 2, ga: 2, gd: 0, pts: 2 },
-      { team: 'New Zealand', played: 2, won: 0, drawn: 1, lost: 1, gf: 3, ga: 5, gd: -2, pts: 1 }
+      { team: 'Belgium', played: 3, won: 1, drawn: 2, lost: 0, gf: 6, ga: 2, gd: 4, pts: 5 },
+      { team: 'Egypt', played: 3, won: 1, drawn: 2, lost: 0, gf: 5, ga: 3, gd: 2, pts: 5 },
+      { team: 'Iran', played: 3, won: 0, drawn: 3, lost: 0, gf: 3, ga: 3, gd: 0, pts: 3 },
+      { team: 'New Zealand', played: 3, won: 0, drawn: 1, lost: 2, gf: 4, ga: 10, gd: -6, pts: 1 }
     ],
     'H': [
       { team: 'Spain', played: 3, won: 2, drawn: 1, lost: 0, gf: 5, ga: 0, gd: 5, pts: 7 },

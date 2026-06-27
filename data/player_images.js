@@ -111,30 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-27 更新：H 組小組賽落幕 — 西班牙 1-0 烏拉圭 + 維德角 0-0 沙烏地阿拉伯） =====
+// ===== 輪播牆圖片（2026-06-27 更新：G 組小組賽落幕 — 比利時 5-1 紐西蘭 + 埃及 1-1 伊朗「驕傲之戰」） =====
 const HERO_IMAGES = [
-  // 🇪🇸🇺🇾⚽ Alex Baena 第42分鐘破門！Muslera 撲救失誤，西班牙 1-0 烏拉圭，小組第一晉級 32 強（AFP via Al Jazeera）
-  'https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260627__B8H28YU__v1__MidRes__FblWc2026Match66UruEsp-1782525382.jpg',
-  // 🇪🇸🇺🇾⚽ Álex Baena 進球後與 Rodri 慶祝，Baena 的進球淘汰兩屆冠軍烏拉圭（AP Photo）
-  'https://th-i.thgim.com/public/incoming/v7k56a/article71153288.ece/alternates/LANDSCAPE_1200/AFP__20260627__B8H28YW__v1__MidRes__FblWc2026Match66UruEsp-1782525145.jpg',
-  // 🇪🇸🇺🇾⚽ Fernando Muslera 半場被換下，Bielsa 做出罕見門將調度。烏拉圭三場不勝小組墊底出局（AP Photo/Natacha Pisarenko via USA Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90716883007-spain-vs-uruguay-baena-goal.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp',
-  // 🇨🇻🇸🇦⚽ Cape Verde 0-0 沙烏地阿拉伯！世界盃新軍三連平以小組第二歷史性晉級 32 強，將對決衛冕冠軍阿根廷（AP Photo/Ashley Landis via The Hindu）
-  'https://th-i.thgim.com/public/incoming/3st2pw/article71153289.ece/alternates/LANDSCAPE_1200/Saudi_Arabia_Cape_Verde_WCup_Soccer_66687.jpg',
-  // 🇨🇻🇸🇦⚽ Cape Verde 球員賽後慶祝！這個人口僅 50 萬的島國成為世界盃史上晉級淘汰賽的最小國家（AP Photo/Eric Gay）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/26/USAT/90715064007-cape-verde-celebration.jpg?width=1600&height=800&fit=crop&format=pjpg&auto=webp',
-  // 🇪🇸🇺🇾🎉 西班牙以 H 組第一（7 分）晉級，Cape Verde（3 分）第二同樣晉級，烏拉圭（2 分）和沙烏地阿拉伯（2 分）遭淘汰（AP Photo/Fernando Llano）
-  'https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260627__B8H2905__v1__MidRes__FblWc2026Match66UruEsp-1782525410.jpg',
-  // 🇨🇻🇦🇷 Cape Verde 將在 32 強賽對決 Lionel Messi 領軍的衛冕冠軍阿根廷！小蝦米對大鯨魚的史詩對決（AP Photo/David J. Phillip）
-  'https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260627__3P63HJ__v1__MidRes__FblWc2026Match65CpSau-1782525284.jpg'
+  // 🇧🇪🇳🇿⚽ Leandro Trossard 梅開二度！比利時 5-1 大勝紐西蘭，以淨勝球優勢奪 G 組第一晉級 32 強（AFP via Al Jazeera）
+  'https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260627__2283515922__v1__HighRes__NewZealandVBelgiumGroupGFifaWorldCup2026-1782542020.jpg',
+  // 🇧🇪🇳🇿⚽ Kevin De Bruyne 第66分鐘禁區邊緣低射破門，用愛心手勢慶祝，比利時3-0鎖定勝局（AFP via Al Jazeera）
+  'https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260627__2283517056__v1__HighRes__NewZealandVBelgiumGroupGFifaWorldCup2026-1782542118.jpg',
+  // 🇧🇪🇳🇿⚽ Romelu Lukaku 替補上場僅64秒即頭槌破門，以世界盃第6球成爲比利時歷史射手王，紅魔鬼最終5-1勝出（Reuters via Al Jazeera）
+  'https://www.aljazeera.com/wp-content/uploads/2026/06/2026-06-27T042637Z_1655435390_UP1EM6R0CCB6Z_RTRMADP_3_SOCCER-WORLDCUP-EGY-IRN-1782540336.jpg',
+  // 🇪🇬🇮🇷⚽ 西雅圖「驕傲之戰」— Mahmoud Saber 第5分鐘破門！前利物浦巨星 Mohamed Salah 禁區內做球，埃及先馳得點（Reuters via Al Jazeera）
+  'https://www.aljazeera.com/wp-content/uploads/2026/06/reuters_6a3f5c36-1782537270.jpg',
+  // 🇪🇬🇮🇷⚽ Ramin Rezaeian 第14分鐘禁區內射門扳平！伊朗在爭議性的「驕傲之戰」中以1-1逼平埃及（Reuters via Al Jazeera）
+  'https://www.aljazeera.com/wp-content/uploads/2026/06/reuters_6a3f6172-1782538610.jpg',
+  // 🇪🇬🇮🇷⚽ Shoja Khalilzadeh 第93分鐘破門但 VAR 判定越位無效！伊朗錯失絕殺，最終需等待第三天隊晉級結果（Reuters via Al Jazeera）
+  'https://www.aljazeera.com/wp-content/uploads/2026/06/2026-06-27T023931Z_389827944_UP1EM6R07DTVL_RTRMADP_3_SOCCER-WORLDCUP-CPV-SAU-1782538538.jpg',
+  // 🏆🇧🇪🇪🇬 G 組最終排名 — 比利時（5 分 +4 GD）小組第一，埃及（5 分 +2 GD）第二雙雙晉級，伊朗（3 分）待第三天隊，紐西蘭（1 分）淘汰（AFP via Al Jazeera）
+  'https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260627__2283515922__v1__HighRes__NewZealandVBelgiumGroupGFifaWorldCup2026-1782542020.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '⚽🇪🇸🇺🇾 西班牙 1-0 烏拉圭 — Álex Baena（Villarreal）第42分鐘接 Marcos Llorente 低平球傳中，禁區內射門造成 Muslera 撲救失誤，球滾入遠角。西班牙以 H 組第一（7 分）晉級 32 強，將對戰 J 組第二（AFP via Al Jazeera）',
-  '⚽🇪🇸🇺🇾 西班牙 1-0 烏拉圭 — Álex Baena 進球後與隊長 Rodri 慶祝。烏拉圭門將 Fernando Muslera 半場被 Sergio Rochet 取代，這是他本屆世界盃第三次失誤。烏拉圭 3 場 2 和 1 負被淘汰（AP Photo via The Hindu）',
-  '⚽🇪🇸🇺🇾 西班牙 1-0 烏拉圭 — 兩屆世界冠軍烏拉圭在小組賽結束後球員落淚。Marcelo Bielsa 的球隊三場不勝（0 勝 2 和 1 負），寫下烏拉圭自 2002 年以來最差的世界盃成績（AP Photo/Natacha Pisarenko via USA Today）',
-  '⚽🇨🇻🇸🇦 維德角 0-0 沙烏地阿拉伯 — 世界盃新軍 Cape Verde（維德角）0-0 逼平沙烏地阿拉伯，小組賽三連平（0-0 西班牙、2-2 烏拉圭、0-0 沙烏地阿拉伯）以 3 分成績歷史性晉級 32 強！人口僅 50 萬的島國成為世界盃史上晉級淘汰賽的最小國家（AP Photo/Ashley Landis via The Hindu）',
-  '⚽🇨🇻🇸🇦 維德角 0-0 沙烏地阿拉伯 — Cape Verde 球員在終場哨響後衝入場內慶祝！他們將在 32 強賽對決 Lionel Messi 率領的世界冠軍阿根廷，這將是世界盃史上最懸殊的對決之一（AP Photo/Eric Gay）',
-  '⚽🇪🇸🇺🇾🎉 H 組最終排名 — 西班牙（7 分）小組第一晉級，Cape Verde（3 分 三連平）創歷史第二晉級，烏拉圭（2 分）和沙烏地阿拉伯（2 分）雙雙淘汰。西班牙控球率達 67%，展現歐洲冠軍實力（AP Photo/Fernando Llano via Al Jazeera）',
-  '⚽🇨🇻🇦🇷 Cape Verde 將在 32 強賽對決衛冕冠軍阿根廷！門將 Vozinha（Instagram 粉絲暴增至 1600 萬）將對決球王 Messi。Cape Verde 教練 Bubista：「Everyone is entitled to dream. Nothing is impossible.」（AP Photo/David J. Phillip via Al Jazeera）'
+  '⚽🇧🇪🇳🇿 比利時 5-1 紐西蘭 — Leandro Trossard（Arsenal）第28分鐘接 Kevin De Bruyne 傳中門前搶點破門，比利時世界盃近四年首個非烏龍進球。Trossard 下半場第50分鐘胸部停球後凌空抽射梅開二度。比利時以淨勝球優勢奪 G 組第一晉級 32 強（AFP via Al Jazeera）',
+  '⚽🇧🇪🇳🇿 比利時 5-1 紐西蘭 — Kevin De Bruyne（Man City）第66分鐘禁區邊緣低射入左下角，以34歲高齡成爲比利時世界盃史上最年長進球者。De Bruyne 用愛心手勢向溫哥華全場球迷致意，比利時3-0鎖定勝局（AFP via Al Jazeera）',
+  '⚽🇧🇪🇳🇿 比利時 5-1 紐西蘭 — Romelu Lukaku 第86分鐘替補上場僅64秒即頭槌破門，以世界盃第6球超越 Enzo Scifo 成爲比利時世界盃歷史射手王！Alexis Saelemaekers 傷停補時再進一球，比利時5-1大勝。Thibaut Courtois 第18場世界盃出賽創隊史紀錄（Reuters via Al Jazeera）',
+  '⚽🇪🇬🇮🇷🇱🇬🏳️‍🌈 西雅圖「驕傲之戰」— 埃及 1-1 伊朗 — Mahmoud Saber 第5分鐘接 Mohamed Salah 禁區內做球，射門穿過 Beiranvand 雙腿入網，埃及早早領先！這場被定調爲 LGBTQ+ 驕傲之戰的比賽在爭議中開踢（Reuters via Al Jazeera）',
+  '⚽🇪🇬🇮🇷🇱🇬🏳️‍🌈 西雅圖「驕傲之戰」— 埃及 1-1 伊朗 — Ramin Rezaeian 第14分鐘禁區內冷靜射門入網扳平比分。Shoja Khalilzadeh 第93分鐘破門但因越位被 VAR 取消，伊朗錯失絕殺。埃及隊史首次晉級世界盃淘汰賽（Reuters via Al Jazeera）',
+  '⚽🇪🇬🇮🇷🇱🇬🏳️‍🌈 西雅圖「驕傲之戰」— 埃及 1-1 伊朗 — 場外 LGBTQ+ 權利倡導者與警民互動。Seattle Pride 活動人士在球場外舉行抗議活動，呼籲關注伊朗和埃及的 LGBTQ+ 人權議題。這場球的門票收入部分捐給 Seattle Pride 組織（Reuters via Al Jazeera）',
+  '🏆🇧🇪🇪🇬🎉 G 組最終排名 — 比利時（5 分 +4 GD）小組第一晉級，將在週三於西雅圖出戰 32 強賽；埃及（5 分 +2 GD）史上首次晉級淘汰賽；伊朗（3 分 三連平）需等待第三天隊結果；紐西蘭（1 分）未能取得隊史世界盃首勝遭淘汰（AFP via Al Jazeera）'
 ];
