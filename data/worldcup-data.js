@@ -2714,6 +2714,68 @@ const WC_DATA = {
         pressingApplied: [200, 220]
       }
     },
+
+    // ===== 32強賽 (Round of 32) =====
+
+    // === 6月28日 ===
+    { date: '2026-06-28', time: '19:00 ET', group: 'R32', team1: 'South Africa', team2: 'Canada', venue: '洛杉磯·SoFi體育場', status: 'upcoming',
+      goals: [], cards: [], stats: {}
+    },
+
+    // === 6月29日 ===
+    { date: '2026-06-29', time: '16:00 ET', group: 'R32', team1: 'Germany', team2: 'Paraguay', venue: '波士頓·吉列體育場', status: 'upcoming',
+      goals: [], cards: [], stats: {}
+    },
+    { date: '2026-06-29', time: '19:00 ET', group: 'R32', team1: 'Netherlands', team2: 'Morocco', venue: '蒙特雷·BBVA球場', status: 'upcoming',
+      goals: [], cards: [], stats: {}
+    },
+    { date: '2026-06-29', time: '21:00 ET', group: 'R32', team1: 'Brazil', team2: 'Japan', venue: '休斯頓·NRG體育場', status: 'upcoming',
+      goals: [], cards: [], stats: {}
+    },
+
+    // === 6月30日 ===
+    { date: '2026-06-30', time: '17:00 ET', group: 'R32', team1: 'France', team2: 'Sweden', venue: '東盧瑟福·大都會人壽體育場', status: 'upcoming',
+      goals: [], cards: [], stats: {}
+    },
+    { date: '2026-06-30', time: '17:00 ET', group: 'R32', team1: 'Ivory Coast', team2: 'Norway', venue: '達拉斯·AT&T體育場', status: 'upcoming',
+      goals: [], cards: [], stats: {}
+    },
+    { date: '2026-06-30', time: '20:00 ET', group: 'R32', team1: 'Mexico', team2: 'Ecuador', venue: '墨西哥城·阿茲特克體育場', status: 'upcoming',
+      goals: [], cards: [], stats: {}
+    },
+
+    // === 7月1日 ===
+    { date: '2026-07-01', time: '17:00 ET', group: 'R32', team1: 'England', team2: 'DR Congo', venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'upcoming',
+      goals: [], cards: [], stats: {}
+    },
+    { date: '2026-07-01', time: '20:00 ET', group: 'R32', team1: 'USA', team2: 'Bosnia and Herzegovina', venue: '舊金山·李維斯體育場', status: 'upcoming',
+      goals: [], cards: [], stats: {}
+    },
+    { date: '2026-07-01', time: '20:00 ET', group: 'R32', team1: 'Belgium', team2: 'Senegal', venue: '西雅圖·流明球場', status: 'upcoming',
+      goals: [], cards: [], stats: {}
+    },
+
+    // === 7月2日 ===
+    { date: '2026-07-02', time: '17:00 ET', group: 'R32', team1: 'Portugal', team2: 'Croatia', venue: '多倫多·BMO球場', status: 'upcoming',
+      goals: [], cards: [], stats: {}
+    },
+    { date: '2026-07-02', time: '19:00 ET', group: 'R32', team1: 'Spain', team2: 'Austria', venue: '洛杉磯·SoFi體育場', status: 'upcoming',
+      goals: [], cards: [], stats: {}
+    },
+    { date: '2026-07-02', time: '20:00 ET', group: 'R32', team1: 'Switzerland', team2: 'Algeria', venue: '溫哥華·BC Place', status: 'upcoming',
+      goals: [], cards: [], stats: {}
+    },
+
+    // === 7月3日 ===
+    { date: '2026-07-03', time: '16:00 ET', group: 'R32', team1: 'Argentina', team2: 'Cape Verde', venue: '邁阿密·硬石體育場', status: 'upcoming',
+      goals: [], cards: [], stats: {}
+    },
+    { date: '2026-07-03', time: '19:00 ET', group: 'R32', team1: 'Colombia', team2: 'Ghana', venue: '堪薩斯城·箭頭體育場', status: 'upcoming',
+      goals: [], cards: [], stats: {}
+    },
+    { date: '2026-07-03', time: '19:00 ET', group: 'R32', team1: 'Australia', team2: 'Egypt', venue: '達拉斯·AT&T體育場', status: 'upcoming',
+      goals: [], cards: [], stats: {}
+    },
   ],
 
   // 分組積分（賽後更新）

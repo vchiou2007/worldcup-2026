@@ -112,30 +112,30 @@ const PLAYER_IMAGES = {
 
 
 
-// ===== 輪播牆圖片（2026-06-28 更新：小組賽落幕 — J、K 組最後四場比賽結果出爐！） =====
+// ===== 輪播牆圖片（2026-06-28 更新：32強淘汰賽開打！南非 vs 加拿大點燃淘汰賽戰火） =====
 const HERO_IMAGES = [
-  // 🇦🇷🇯🇴⚽ Lionel Messi 第79分鐘替補進球，以世界盃19球創下連續7場進球紀錄！阿根廷3-1擊敗約旦，小組賽三戰全勝晉級（AP Photo/David Ramos via NY Daily News）
+  // 🏆🇺🇸🇨🇦🇲🇽 2026世界盃32強淘汰賽正式開打！6月28日至7月3日，16場生死戰決定16強名額。歷史首次擴編48隊後的額外淘汰輪次，冠軍需連贏5場（AP Photo）
+  'https://www.nydailynews.com/wp-content/uploads/2026/06/WCup_Referees_Soccer_75826-1.jpg',
+  // 🇿🇦🇨🇦⚽ South Africa vs Canada — 兩國史上首次世界盃淘汰賽出賽，開啟32強序幕！SoFi Stadium, Los Angeles, 3PM ET（Getty Images via LA Daily News）
   'https://www.nydailynews.com/wp-content/uploads/2026/06/AP26178813996077.jpg',
-  // 🇦🇷🇯🇴⚽ Giovani Lo Celso 第19分鐘自由球直接破門，阿根廷1-0領先！Lo Celso 禁區外自由球射入遠柱上角，約旦門將站位失誤（AP Photo via Outlook India）
+  // 🇦🇷🇯🇴⚽ Lionel Messi 第79分鐘替補進球，以世界盃19球創下連續7場進球紀錄！阿根廷3-1擊敗約旦，小組賽三戰全勝晉級32強將對陣維德角（AP Photo/David Ramos）
   'https://cf-images.assettype.com/outlookindia/2026-06-28/vohtt6wq/AP26178825679657.jpg',
-  // 🇨🇩🇺🇿⚽ Yoane Wissa 梅開二度（68分罰球、90+1分遠射），DR Congo 3-1逆轉烏茲別克！52年來首場世界盃勝利，晉級32強將對陣英格蘭（AP Photo/Erik S. Lesser via Outlook India）
+  // 🇨🇩🇺🇿⚽ Yoane Wissa 梅開二度（68分罰球、90+1分遠射），DR Congo 3-1逆轉烏茲別克！52年來首場世界盃勝利，晉級32強將對陣英格蘭（AP Photo/Erik S. Lesser）
   'https://cf-images.assettype.com/outlookindia/2026-06-27/wgs5q4pf/AP26178708734630.jpg',
-  // 🇨🇩🇺🇿⚽ Fiston Mayele 第78分鐘替補建功！Chancel Mbemba 助攻，Mayele 禁區內捅射入網，DR Congo 2-1反超比分，32強對陣英格蘭（AP Photo via Outlook India）
-  'https://cf-images.assettype.com/outlookindia/2026-06-27/3h2pz5xy/AP26178709539642.jpg',
-  // 🇩🇿🇦🇹⚽ Riyad Mahrez 第60分鐘自由球直接射門入死角！阿爾及利亞2-2絕平奧地利，Mahrez 世界波拯救沙漠之狐，阿爾及利亞以小組第三晉級（AFP via Al Jazeera）
-  'https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260627__2283515922__v1__HighRes__NewZealandVBelgiumGroupGFifaWorldCup2026-1782542020.jpg',
-  // 🇨🇴🇵🇹⚽ Colombia vs Portugal 0-0 和局收場！哥倫比亞7分小組第一，葡萄牙5分第二，兩隊攜手晉級32強淘汰賽（AP Photo via NY Daily News）
+  // 🇵🇹🇨🇻⚽ Cristiano Ronaldo 梅開二度（6分、39分），葡萄牙5-0大勝烏茲別克！Ronaldo 成爲首位在6屆世界盃進球的球員，世界盃第10球超越Eusébio成爲葡萄牙歷史射手王（AP Photo via NY Daily News）
   'https://www.nydailynews.com/wp-content/uploads/2026/06/GettyImages-2283626376.jpg',
-  // 🏆 2026世界盃小組賽全部結束！48隊縮減至32強，6月29日起淘汰賽正式開打——英格蘭 vs DR Congo、阿根廷 vs 維德角等精彩對決即將上演（AP Photo via various sources）
-  'https://www.nydailynews.com/wp-content/uploads/2026/06/WCup_Referees_Soccer_75826-1.jpg'
+  // 🇧🇪🇳🇿⚽ Kevin De Bruyne 第66分鐘禁區邊緣低射破網，34歲成爲比利時世界盃史上最年長進球者！Belgium 5-1大勝紐西蘭，以小組第一晉級32強對陣塞內加爾（AFP via Al Jazeera）
+  'https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260627__2283515922__v1__HighRes__NewZealandVBelgiumGroupGFifaWorldCup2026-1782542020.jpg',
+  // 🇺🇸🇧🇦⚽ USA vs Bosnia and Herzegovina — 7月1日舊金山32強賽！美國隊小組賽2勝1負以D組第一晉級，Christian Pulisic 與 Folarin Balogun 領軍出擊（Getty Images via various sources）
+  'https://cf-images.assettype.com/outlookindia/2026-06-27/3h2pz5xy/AP26178709539642.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '⚽🇦🇷🇯🇴 阿根廷 3-1 約旦 — Lionel Messi（Inter Miami）第79分鐘替補上場後禁區內接球左腳弧線球射入遠角！Messi 成爲史上首位連續7場世界盃進球的球員，世界盃生涯第19球續寫紀錄。阿根廷小組賽三戰全勝晉級32強，將對陣維德角（AP Photo/David Ramos）',
-  '⚽🇦🇷🇯🇴 阿根廷 3-1 約旦 — Giovani Lo Celso（Real Betis）第19分鐘禁區外自由球直接射入遠柱上角，打破僵局爲阿根廷首開紀錄！Lautaro Martínez 第31分鐘12碼罰球擴大領先，這是他本屆世界盃首球。Mousa Tamari 第90+5分鐘爲約旦攻入歷史性進球（AP Photo via Outlook India）',
-  '⚽🇨🇩🇺🇿 DR Congo 3-1 烏茲別克 — Yoane Wissa（Newcastle United）第68分鐘罰球命中扳平比分！上半場 Eldor Shomurodov 第10分鐘爲烏茲別克先拔頭籌，Wissa 禁區內被 Khusanov 絆倒獲得罰球。DR Congo 52年來首場世界盃勝利，晉級32強將對陣英格蘭（AP Photo/Erik S. Lesser）',
-  '⚽🇨🇩🇺🇿 DR Congo 3-1 烏茲別克 — Fiston Mayele 第78分鐘替補建功！Chancel Mbemba 禁區內頭槌擺渡，Mayele 捅射入網反超比分。Wissa 第90+1分鐘禁區邊緣勁射遠角鎖定勝局，梅開二度。DR Congo 以4分小組第三晉級32強（AP Photo via Outlook India）',
-  '⚽🇩🇿🇦🇹 阿爾及利亞 2-2 奧地利 — Riyad Mahrez 第60分鐘禁區外自由球直接射門入死角！奧地利 Marko Arnautović 第28分鐘首開紀錄，Rafik Belghali 第45分鐘扳平，Marcel Sabitzer 第55分鐘頭槌再度領先，Mahrez 世界波二度扳平。阿爾及利亞以小組第三晉級32強（AFP via Al Jazeera）',
-  '⚽🇨🇴🇵🇹 哥倫比亞 0-0 葡萄牙 — 雙方激烈攻防戰和局收場！哥倫比亞24次射門6次射正，葡萄牙13次射門2次射正，但都未能攻破對方大門。哥倫比亞以7分奪K組第一，葡萄牙5分第二，兩隊攜手晉級32強。Cristiano Ronaldo 未能進球，葡萄牙將在32強對陣克羅埃西亞（AP Photo via NY Daily News）',
-  '🏆🇺🇸🇨🇦🇲🇽 2026世界盃小組賽全部落幕 — 48支球隊歷經18天激戰，32強名單正式出爐！6月29日起淘汰賽在美國16座城市全面開打：英格蘭 vs DR Congo（7/1）、阿根廷 vs 維德角（7/3）、巴西 vs 日本（6/29）、德國 vs 巴拉圭（6/29）等精彩對決即將登場。冠軍將於7月19日在紐約/新澤西大都會人壽體育場誕生（AP Photo via various sources）'
+  '🏆🇺🇸🇨🇦🇲🇽 2026世界盃32強淘汰賽正式開打！6月28日至7月3日，16場生死戰決定16強名額。這是世界盃史上首度的32強淘汰輪次，48隊縮編至32隊後展開單敗淘汰。冠軍需連贏5場，7月19日於紐約/新澤西大都會人壽體育場誕生。今天首戰：🇿🇦南非 vs 🇨🇦加拿大（AP Photo）',
+  '⚽🇿🇦🇨🇦 32強揭幕戰：南非 vs 加拿大 — 兩國史上首次晉級世界盃淘汰賽！南非在小組賽1-0擊敗南韓以A組第二出線；加拿大6-0狂勝卡達後以B組第二晉級。Jonathan David（3球）與Alphonso Davies領銜加拿大攻堅，勝者將在16強對陣荷蘭或摩洛哥（Getty Images via LA Daily News）',
+  '⚽🇦🇷🇯🇴 阿根廷 3-1 約旦 — Lionel Messi（Inter Miami）第79分鐘替補上場後禁區內接球左腳弧線球射入遠角！Messi 成爲史上首位連續7場世界盃進球的球員，世界盃生涯第19球續寫紀錄。阿根廷小組賽三戰全勝晉級32強，將於7月3日對陣維德角（AP Photo/David Ramos）',
+  '⚽🇨🇩🇺🇿 DR Congo 3-1 烏茲別克 — Yoane Wissa（Newcastle United）第68分鐘罰球命中、第90+1分鐘禁區邊緣勁射梅開二度！DR Congo 52年來首場世界盃勝利，以4分小組第三晉級32強，將於7月1日對陣英格蘭（AP Photo/Erik S. Lesser）',
+  '⚽🇵🇹🇺🇿 葡萄牙 5-0 烏茲別克 — Cristiano Ronaldo（Al Nassr）第6分鐘接Cancelo傳中射近角入網，成爲首位在6屆世界盃進球的球員！第39分鐘再入一球梅開二度，世界盃第10球超越Eusébio成爲葡萄牙歷史射手王。葡萄牙以小組第二晉級32強對陣克羅埃西亞（AP Photo via NY Daily News）',
+  '⚽🇧🇪🇳🇿 比利時 5-1 紐西蘭 — Kevin De Bruyne（Manchester City）第66分鐘禁區邊緣低射入左下角，34歲成爲比利時世界盃史上最年長進球者！Leandro Trossard 梅開二度，Romelu Lukaku 頭槌破門以世界盃第6球成爲比利時歷史射手王。比利時小組第一晉級32強對陣塞內加爾（AFP via Al Jazeera）',
+  '⚽🇺🇸🇧🇦 美國 vs 波士尼亞與赫塞哥維納 — 7月1日舊金山李維斯體育場32強賽！美國隊小組賽2勝1負（4-1勝巴拉圭、2-0勝澳洲、2-3負土耳其）以D組第一晉級，Christian Pulisic 與 Folarin Balogun 領軍出擊。波赫在小組賽1勝1和1負以B組第三晉級（AP Photo via various sources）'
 ];
