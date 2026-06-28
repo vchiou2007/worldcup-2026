@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: '小組賽'
+    currentPhase: '32強賽 (Round of 32)'
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -2588,10 +2588,132 @@ const WC_DATA = {
         pressingApplied: [220, 240]
       }
     },
-    { date: '2026-06-27', time: '19:30 ET', group: 'K', team1: 'Colombia', score1: null, team2: 'Portugal', score2: null, venue: '邁阿密·硬石體育場', status: 'scheduled' },
-    { date: '2026-06-27', time: '19:30 ET', group: 'K', team1: 'DR Congo', score1: null, team2: 'Uzbekistan', score2: null, venue: '休斯頓·NRG體育場', status: 'scheduled' },
-    { date: '2026-06-27', time: '22:00 ET', group: 'J', team1: 'Algeria', score1: null, team2: 'Austria', score2: null, venue: '堪薩斯城·箭頭體育場', status: 'scheduled' },
-    { date: '2026-06-27', time: '22:00 ET', group: 'J', team1: 'Jordan', score1: null, team2: 'Argentina', score2: null, venue: '達拉斯·AT&T體育場', status: 'scheduled' },
+    { date: '2026-06-27', time: '19:30 ET', group: 'K', team1: 'Colombia', score1: 0, team2: 'Portugal', score2: 0, venue: '邁阿密·硬石體育場', status: 'completed',
+      goals: [],
+      cards: [
+        { min: 54, team: 1, player: 'Daniel Muñoz', card: 'yellow', detail: '中場戰術犯規' },
+        { min: 72, team: 1, player: 'Santiago Arias', card: 'yellow', detail: '阻止反擊犯規' }
+      ],
+      stats: {
+        possession: [55, 45],
+        shots: [24, 13],
+        shotsOnTarget: [6, 2],
+        shotsOffTarget: [12, 7],
+        shotsInsideBox: [14, 7],
+        shotsOutsideBox: [10, 6],
+        passes: [480, 400],
+        passCompleted: [420, 340],
+        passAccuracy: [87.5, 85.0],
+        crosses: [22, 14],
+        crossesCompleted: [6, 4],
+        corners: [5, 2],
+        freeKicks: [14, 10],
+        fouls: [12, 6],
+        offsides: [3, 2],
+        yellowCards: [2, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [220, 240]
+      }
+    },
+    { date: '2026-06-27', time: '19:30 ET', group: 'K', team1: 'DR Congo', score1: 3, team2: 'Uzbekistan', score2: 1, venue: '休斯頓·NRG體育場', status: 'completed',
+      goals: [
+        { min: 10, team: 2, scorer: 'Eldor Shomurodov', detail: 'Uzbekistan 後場長傳，Shomurodov 挑射越過門將入網，DR Congo 後防失誤導致丟球' },
+        { min: 68, team: 1, scorer: 'Yoane Wissa', detail: '12碼罰球 — Abdukodir Khusanov 禁區內犯規絆倒 Wissa，Wissa 親自操刀射入左下角，門將撲錯方向' },
+        { min: 78, team: 1, scorer: 'Fiston Mayele', assist: 'Chancel Mbemba', detail: '禁區內混戰中 Mayele 捅射入網，DR Congo 反超比分' },
+        { min: 90, team: 1, scorer: 'Yoane Wissa', assist: 'Theo Bongonda', detail: '禁區邊緣勁射遠角入網，Wissa 梅開二度鎖定勝局' }
+      ],
+      cards: [
+        { min: 65, team: 2, player: 'Abdukodir Khusanov', card: 'yellow', detail: '禁區內絆倒 Wissa 犯規導致罰球' }
+      ],
+      stats: {
+        possession: [45, 55],
+        shots: [11, 9],
+        shotsOnTarget: [5, 3],
+        shotsOffTarget: [4, 4],
+        shotsInsideBox: [7, 5],
+        shotsOutsideBox: [4, 4],
+        passes: [380, 460],
+        passCompleted: [310, 390],
+        passAccuracy: [81.6, 84.8],
+        crosses: [14, 16],
+        crossesCompleted: [4, 5],
+        corners: [4, 5],
+        freeKicks: [14, 12],
+        fouls: [12, 14],
+        offsides: [2, 3],
+        yellowCards: [0, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [210, 250]
+      }
+    },
+    { date: '2026-06-27', time: '22:00 ET', group: 'J', team1: 'Algeria', score1: 2, team2: 'Austria', score2: 2, venue: '堪薩斯城·箭頭體育場', status: 'completed',
+      goals: [
+        { min: 28, team: 2, scorer: 'Marko Arnautović', detail: '禁區邊緣接到傳球後轉身抽射入網，奧地利率先破門' },
+        { min: 45, team: 1, scorer: 'Rafik Belghali', assist: 'Riyad Mahrez', detail: 'Belghali 禁區內接 Mahrez 傳球後勁射入網，阿爾及利亞扳平' },
+        { min: 55, team: 2, scorer: 'Marcel Sabitzer', assist: 'David Alaba', detail: 'Alaba 角球傳中，Sabitzer 頭槌破門，奧地利再度領先' },
+        { min: 60, team: 1, scorer: 'Riyad Mahrez', detail: '禁區外自由球直接射門入死角，阿爾及利亞再次扳平' }
+      ],
+      cards: [
+        { min: 17, team: 2, player: 'Konrad Laimer', card: 'yellow', detail: '中場戰術犯規' }
+      ],
+      stats: {
+        possession: [48, 52],
+        shots: [10, 12],
+        shotsOnTarget: [4, 5],
+        shotsOffTarget: [4, 4],
+        shotsInsideBox: [5, 7],
+        shotsOutsideBox: [5, 5],
+        passes: [420, 470],
+        passCompleted: [350, 400],
+        passAccuracy: [83.3, 85.1],
+        crosses: [14, 18],
+        crossesCompleted: [4, 5],
+        corners: [4, 6],
+        freeKicks: [14, 12],
+        fouls: [12, 14],
+        offsides: [1, 2],
+        yellowCards: [0, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 30],
+        pressingApplied: [200, 240]
+      }
+    },
+    { date: '2026-06-27', time: '22:00 ET', group: 'J', team1: 'Jordan', score1: 1, team2: 'Argentina', score2: 3, venue: '達拉斯·AT&T體育場', status: 'completed',
+      goals: [
+        { min: 19, team: 2, scorer: 'Giovani Lo Celso', detail: '禁區外自由球直接射入遠柱上角，Jordan 門將站位失誤' },
+        { min: 31, team: 2, scorer: 'Lautaro Martínez', detail: '12碼罰球 — VAR 確認後判罰，Martínez 冷靜射入左下角，世界盃首球' },
+        { min: 79, team: 2, scorer: 'Lionel Messi', detail: '禁區內接球後左腳弧線球射入遠角，Messi 成爲史上首位連續7場世界盃進球的球員！世界盃生涯第19球' },
+        { min: 90, team: 1, scorer: 'Mousa Tamari', assist: 'Mohammad Abu Zrayq', detail: 'Zrayq 左路傳中，Tamari 禁區內射門入網，Jordan 扳回一球' }
+      ],
+      cards: [
+        { min: 18, team: 1, player: 'Mohannad Abu Taha', card: 'yellow', detail: '中場犯規' },
+        { min: 44, team: 1, player: 'Ali Azaizeh', card: 'yellow', detail: '戰術犯規' },
+        { min: 67, team: 1, player: 'Nizar Al-Rashdan', card: 'yellow', detail: '阻止反擊犯規' }
+      ],
+      stats: {
+        possession: [27, 73],
+        shots: [5, 12],
+        shotsOnTarget: [1, 4],
+        shotsOffTarget: [3, 5],
+        shotsInsideBox: [3, 7],
+        shotsOutsideBox: [2, 5],
+        passes: [210, 580],
+        passCompleted: [150, 520],
+        passAccuracy: [71.4, 89.7],
+        crosses: [6, 18],
+        crossesCompleted: [1, 6],
+        corners: [2, 5],
+        freeKicks: [16, 10],
+        fouls: [13, 6],
+        offsides: [1, 3],
+        yellowCards: [3, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [200, 220]
+      }
+    },
   ],
 
   // 分組積分（賽後更新）
@@ -2651,16 +2773,16 @@ const WC_DATA = {
       { team: 'Iraq', played: 3, won: 0, drawn: 0, lost: 3, gf: 1, ga: 12, gd: -11, pts: 0 }
     ],
     'J': [
-      { team: 'Argentina', played: 2, won: 2, drawn: 0, lost: 0, gf: 5, ga: 0, gd: 5, pts: 6 },
-      { team: 'Austria', played: 2, won: 1, drawn: 0, lost: 1, gf: 3, ga: 3, gd: 0, pts: 3 },
-      { team: 'Algeria', played: 2, won: 1, drawn: 0, lost: 1, gf: 2, ga: 4, gd: -2, pts: 3 },
-      { team: 'Jordan', played: 2, won: 0, drawn: 0, lost: 2, gf: 2, ga: 5, gd: -3, pts: 0 }
+      { team: 'Argentina', played: 3, won: 3, drawn: 0, lost: 0, gf: 8, ga: 1, gd: 7, pts: 9 },
+      { team: 'Austria', played: 3, won: 1, drawn: 1, lost: 1, gf: 5, ga: 5, gd: 0, pts: 4 },
+      { team: 'Algeria', played: 3, won: 1, drawn: 1, lost: 1, gf: 4, ga: 6, gd: -2, pts: 4 },
+      { team: 'Jordan', played: 3, won: 0, drawn: 0, lost: 3, gf: 3, ga: 8, gd: -5, pts: 0 }
     ],
     'K': [
-      { team: 'Portugal', played: 2, won: 1, drawn: 1, lost: 0, gf: 6, ga: 1, gd: 5, pts: 4 },
-      { team: 'Colombia', played: 2, won: 2, drawn: 0, lost: 0, gf: 4, ga: 1, gd: 3, pts: 6 },
-      { team: 'DR Congo', played: 2, won: 0, drawn: 1, lost: 1, gf: 1, ga: 2, gd: -1, pts: 1 },
-      { team: 'Uzbekistan', played: 2, won: 0, drawn: 0, lost: 2, gf: 1, ga: 8, gd: -7, pts: 0 }
+      { team: 'Colombia', played: 3, won: 2, drawn: 1, lost: 0, gf: 4, ga: 1, gd: 3, pts: 7 },
+      { team: 'Portugal', played: 3, won: 1, drawn: 2, lost: 0, gf: 6, ga: 1, gd: 5, pts: 5 },
+      { team: 'DR Congo', played: 3, won: 1, drawn: 1, lost: 1, gf: 4, ga: 3, gd: 1, pts: 4 },
+      { team: 'Uzbekistan', played: 3, won: 0, drawn: 0, lost: 3, gf: 2, ga: 11, gd: -9, pts: 0 }
     ],
     'L': [
       { team: 'England', played: 3, won: 2, drawn: 1, lost: 0, gf: 6, ga: 2, gd: 4, pts: 7 },
