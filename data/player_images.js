@@ -111,30 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 
-// ===== 輪播牆圖片（2026-06-27 更新：G 組小組賽落幕 — 比利時 5-1 紐西蘭 + 埃及 1-1 伊朗「驕傲之戰」） =====
+// ===== 輪播牆圖片（2026-06-27 更新：L 組小組賽落幕 — 英格蘭 2-0 巴拿馬 + 克羅埃西亞 2-1 迦納） =====
 const HERO_IMAGES = [
+  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿🇵🇦⚽ Jude Bellingham 第62分鐘角球破門，英格蘭1-0領先！Bellingham 繞過防守球員近距離攻門，三獅軍團打破僵局（AP Photo/Steve Luciano via NY Daily News）
+  'https://www.nydailynews.com/wp-content/uploads/2026/06/AP26178813996077.jpg',
+  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿🇵🇦⚽ Harry Kane 第67分鐘頭槌破門，以11球超越 Gary Lineker 成爲英格蘭世界盃歷史射手王！Bellingham 左路切入傳中助攻，英格蘭2-0鎖定勝局（AP Photo/Yuki Iwamura via NY Daily News）
+  'https://www.nydailynews.com/wp-content/uploads/2026/06/GettyImages-2283626376.jpg',
+  // 🇭🇷🇬🇭⚽ Petar Sučić 第31分鐘禁區外30碼世界波破門！克羅埃西亞首開紀錄，Sučić 遠射直竄左下角（AP Photo via Outlook India）
+  'https://cf-images.assettype.com/outlookindia/2026-06-28/vohtt6wq/AP26178825679657.jpg',
+  // 🇭🇷🇬🇭⚽ Nikola Vlašić 第83分鐘頭槌破門！Luka Modrić 角球傳中，Vlašić 頭球頂入左側立柱內側，克羅埃西亞2-1再次領先（AP Photo/Petr Josek via Outlook India）
+  'https://cf-images.assettype.com/outlookindia/2026-06-27/wgs5q4pf/AP26178708734630.jpg',
+  // 🇭🇷🇬🇭⚽ Luka Modrić 以40歲291天成爲世界盃史上最年長助攻者！Modrić 第22場世界盃出賽超越馬拉度納，200場國家隊出賽里程碑（AP Photo/Matt Rourke via Outlook India）
+  'https://cf-images.assettype.com/outlookindia/2026-06-27/3h2pz5xy/AP26178709539642.jpg',
   // 🇧🇪🇳🇿⚽ Leandro Trossard 梅開二度！比利時 5-1 大勝紐西蘭，以淨勝球優勢奪 G 組第一晉級 32 強（AFP via Al Jazeera）
   'https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260627__2283515922__v1__HighRes__NewZealandVBelgiumGroupGFifaWorldCup2026-1782542020.jpg',
-  // 🇧🇪🇳🇿⚽ Kevin De Bruyne 第66分鐘禁區邊緣低射破門，用愛心手勢慶祝，比利時3-0鎖定勝局（AFP via Al Jazeera）
-  'https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260627__2283517056__v1__HighRes__NewZealandVBelgiumGroupGFifaWorldCup2026-1782542118.jpg',
-  // 🇧🇪🇳🇿⚽ Romelu Lukaku 替補上場僅64秒即頭槌破門，以世界盃第6球成爲比利時歷史射手王，紅魔鬼最終5-1勝出（Reuters via Al Jazeera）
-  'https://www.aljazeera.com/wp-content/uploads/2026/06/2026-06-27T042637Z_1655435390_UP1EM6R0CCB6Z_RTRMADP_3_SOCCER-WORLDCUP-EGY-IRN-1782540336.jpg',
-  // 🇪🇬🇮🇷⚽ 西雅圖「驕傲之戰」— Mahmoud Saber 第5分鐘破門！前利物浦巨星 Mohamed Salah 禁區內做球，埃及先馳得點（Reuters via Al Jazeera）
-  'https://www.aljazeera.com/wp-content/uploads/2026/06/reuters_6a3f5c36-1782537270.jpg',
-  // 🇪🇬🇮🇷⚽ Ramin Rezaeian 第14分鐘禁區內射門扳平！伊朗在爭議性的「驕傲之戰」中以1-1逼平埃及（Reuters via Al Jazeera）
-  'https://www.aljazeera.com/wp-content/uploads/2026/06/reuters_6a3f6172-1782538610.jpg',
-  // 🇪🇬🇮🇷⚽ Shoja Khalilzadeh 第93分鐘破門但 VAR 判定越位無效！伊朗錯失絕殺，最終需等待第三天隊晉級結果（Reuters via Al Jazeera）
-  'https://www.aljazeera.com/wp-content/uploads/2026/06/2026-06-27T023931Z_389827944_UP1EM6R07DTVL_RTRMADP_3_SOCCER-WORLDCUP-CPV-SAU-1782538538.jpg',
-  // 🏆🇧🇪🇪🇬 G 組最終排名 — 比利時（5 分 +4 GD）小組第一，埃及（5 分 +2 GD）第二雙雙晉級，伊朗（3 分）待第三天隊，紐西蘭（1 分）淘汰（AFP via Al Jazeera）
-  'https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260627__2283515922__v1__HighRes__NewZealandVBelgiumGroupGFifaWorldCup2026-1782542020.jpg'
+  // 🏆 L 組最終排名 — 英格蘭（7 分 +4 GD）小組第一晉級，將在 32 強賽出戰；克羅埃西亞（6 分）第二晉級；迦納（4 分）需等待第三天隊結果；巴拿馬（0 分）遭淘汰（AP Photo via various sources）
+  'https://www.nydailynews.com/wp-content/uploads/2026/06/WCup_Referees_Soccer_75826-1.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '⚽🇧🇪🇳🇿 比利時 5-1 紐西蘭 — Leandro Trossard（Arsenal）第28分鐘接 Kevin De Bruyne 傳中門前搶點破門，比利時世界盃近四年首個非烏龍進球。Trossard 下半場第50分鐘胸部停球後凌空抽射梅開二度。比利時以淨勝球優勢奪 G 組第一晉級 32 強（AFP via Al Jazeera）',
-  '⚽🇧🇪🇳🇿 比利時 5-1 紐西蘭 — Kevin De Bruyne（Man City）第66分鐘禁區邊緣低射入左下角，以34歲高齡成爲比利時世界盃史上最年長進球者。De Bruyne 用愛心手勢向溫哥華全場球迷致意，比利時3-0鎖定勝局（AFP via Al Jazeera）',
-  '⚽🇧🇪🇳🇿 比利時 5-1 紐西蘭 — Romelu Lukaku 第86分鐘替補上場僅64秒即頭槌破門，以世界盃第6球超越 Enzo Scifo 成爲比利時世界盃歷史射手王！Alexis Saelemaekers 傷停補時再進一球，比利時5-1大勝。Thibaut Courtois 第18場世界盃出賽創隊史紀錄（Reuters via Al Jazeera）',
-  '⚽🇪🇬🇮🇷🇱🇬🏳️‍🌈 西雅圖「驕傲之戰」— 埃及 1-1 伊朗 — Mahmoud Saber 第5分鐘接 Mohamed Salah 禁區內做球，射門穿過 Beiranvand 雙腿入網，埃及早早領先！這場被定調爲 LGBTQ+ 驕傲之戰的比賽在爭議中開踢（Reuters via Al Jazeera）',
-  '⚽🇪🇬🇮🇷🇱🇬🏳️‍🌈 西雅圖「驕傲之戰」— 埃及 1-1 伊朗 — Ramin Rezaeian 第14分鐘禁區內冷靜射門入網扳平比分。Shoja Khalilzadeh 第93分鐘破門但因越位被 VAR 取消，伊朗錯失絕殺。埃及隊史首次晉級世界盃淘汰賽（Reuters via Al Jazeera）',
-  '⚽🇪🇬🇮🇷🇱🇬🏳️‍🌈 西雅圖「驕傲之戰」— 埃及 1-1 伊朗 — 場外 LGBTQ+ 權利倡導者與警民互動。Seattle Pride 活動人士在球場外舉行抗議活動，呼籲關注伊朗和埃及的 LGBTQ+ 人權議題。這場球的門票收入部分捐給 Seattle Pride 組織（Reuters via Al Jazeera）',
-  '🏆🇧🇪🇪🇬🎉 G 組最終排名 — 比利時（5 分 +4 GD）小組第一晉級，將在週三於西雅圖出戰 32 強賽；埃及（5 分 +2 GD）史上首次晉級淘汰賽；伊朗（3 分 三連平）需等待第三天隊結果；紐西蘭（1 分）未能取得隊史世界盃首勝遭淘汰（AFP via Al Jazeera）'
+  '⚽🏴󠁧󠁢󠁥󠁮󠁧󠁿🇵🇦 英格蘭 2-0 巴拿馬 — Jude Bellingham（Real Madrid）第62分鐘接 Bukayo Saka 角球，繞過防守球員近距離破門，英格蘭1-0打破僵局。Bellingham 成爲全場最佳球員，本屆世界盃第2球（AP Photo/Steve Luciano）',
+  '⚽🏴󠁧󠁢󠁥󠁮󠁧󠁿🇵🇦 英格蘭 2-0 巴拿馬 — Harry Kane（Bayern Munich）第67分鐘接 Bellingham 左路傳中頭槌頂入左上角，以世界盃生涯11球超越 Gary Lineker 成爲英格蘭世界盃歷史射手王！Jordan Henderson 成爲首位出賽四屆世界盃的英格蘭球員（AP Photo/Yuki Iwamura）',
+  '⚽🇭🇷🇬🇭 克羅埃西亞 2-1 迦納 — Petar Sučić（Dinamo Zagreb）第31分鐘禁區外30碼遠射直竄左下角，世界波！Sučić 爲克羅埃西亞首開紀錄，這是他本屆世界盃首球（AP Photo/Petr Josek via Outlook India）',
+  '⚽🇭🇷🇬🇭 克羅埃西亞 2-1 迦納 — Nikola Vlašić（Torino）第83分鐘接 Luka Modrić 角球傳中頭槌破門，經 VAR 確認進球有效，克羅埃西亞2-1鎖定勝局以小组第二晉級 32 強（AP Photo/Petr Josek）',
+  '⚽🇭🇷🇬🇭 克羅埃西亞 2-1 迦納 — Luka Modrić（Real Madrid）以40歲291天成爲世界盃史上最年長助攻者，第22場世界盃出賽超越 Diego Maradona，200場國家隊出賽達成里程碑。Derrick Luckassen 第73分鐘凌空抽射一度扳平比分（AP Photo/Matt Rourke）',
+  '⚽🇧🇪🇳🇿 比利時 5-1 紐西蘭 — Leandro Trossard（Arsenal）梅開二度（28分、50分），Kevin De Bruyne 第66分鐘禁區邊緣低射入網，Romelu Lukaku 替補64秒即頭槌破門成爲比利時世界盃歷史射手王。比利時以淨勝球優勢奪 G 組第一晉級（AFP via Al Jazeera）',
+  '🏆🇬🇧🇭🇷🎉 L 組最終排名 — 英格蘭（7 分 +4 GD）小組第一晉級 32 強，Thomas Tuchel 領軍順利完成小組賽；克羅埃西亞（6 分）第二晉級；迦納（4 分）需等待第三天隊結果；巴拿馬（0 分 未進球）三戰全敗遭淘汰（AP Photo via various sources）'
 ];

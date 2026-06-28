@@ -2523,6 +2523,71 @@ const WC_DATA = {
     },
 
     // === 6月27日 ===
+    { date: '2026-06-27', time: '17:00 ET', group: 'L', team1: 'Panama', score1: 0, team2: 'England', score2: 2, venue: '東盧瑟福·大都會人壽體育場', status: 'completed',
+      goals: [
+        { min: 62, team: 2, scorer: 'Jude Bellingham', assist: 'Bukayo Saka', detail: 'Saka 開出角球，Bellingham 繞過防守球員近距離破門，英格蘭1-0打破僵局' },
+        { min: 67, team: 2, scorer: 'Harry Kane', assist: 'Jude Bellingham', detail: 'Bellingham 左路切入傳中，Kane 頭槌頂入左上角，以11球超越 Gary Lineker 成爲英格蘭世界盃歷史射手王' }
+      ],
+      cards: [
+        { min: 53, team: 1, player: 'José Fajardo', card: 'yellow', detail: 'unsporting behavior' },
+        { min: 60, team: 2, player: 'Jarell Quansah', card: 'yellow', detail: 'serious foul play' },
+        { min: 83, team: 1, player: 'Andrés Andrade', card: 'yellow', detail: 'unsporting behavior' },
+        { min: 84, team: 1, player: 'Andrés Andrade', card: 'red', detail: 'second yellow card — unsporting behavior' }
+      ],
+      stats: {
+        possession: [33, 67],
+        shots: [13, 17],
+        shotsOnTarget: [2, 6],
+        shotsOffTarget: [7, 7],
+        shotsInsideBox: [6, 10],
+        shotsOutsideBox: [7, 7],
+        passes: [280, 620],
+        passCompleted: [210, 540],
+        passAccuracy: [75.0, 87.1],
+        crosses: [10, 22],
+        crossesCompleted: [2, 7],
+        corners: [3, 7],
+        freeKicks: [16, 14],
+        fouls: [16, 13],
+        offsides: [2, 3],
+        yellowCards: [2, 1],
+        redCards: [1, 0],
+        forcedTurnovers: [26, 30],
+        pressingApplied: [200, 240]
+      }
+    },
+    { date: '2026-06-27', time: '17:00 ET', group: 'L', team1: 'Croatia', score1: 2, team2: 'Ghana', score2: 1, venue: '費城·林肯金融體育場', status: 'completed',
+      goals: [
+        { min: 31, team: 1, scorer: 'Petar Sučić', assist: null, detail: '禁區外遠射破門，世界波！Sučić 爲克羅埃西亞首開紀錄' },
+        { min: 73, team: 2, scorer: 'Derrick Luckassen', assist: 'Ernest Nuamah', detail: 'Nuamah 自由球開出，Luckassen 禁區內凌空抽射扳平比分，經 VAR 確認進球有效' },
+        { min: 83, team: 1, scorer: 'Nikola Vlašić', assist: 'Luka Modrić', detail: 'Modrić 精準傳中，Vlašić 頭槌破門，克羅埃西亞2-1再次領先！Modrić 以200場國家隊出賽成為史上最年長助攻者' }
+      ],
+      cards: [
+        { min: 60, team: 1, player: 'Marin Pongračić', card: 'yellow', detail: 'serious foul play' },
+        { min: 75, team: 2, player: 'Jonas Adjetey', card: 'yellow', detail: 'unsporting behavior' }
+      ],
+      stats: {
+        possession: [53, 47],
+        shots: [8, 6],
+        shotsOnTarget: [4, 1],
+        shotsOffTarget: [3, 4],
+        shotsInsideBox: [5, 3],
+        shotsOutsideBox: [3, 3],
+        passes: [420, 360],
+        passCompleted: [370, 290],
+        passAccuracy: [88.1, 80.6],
+        crosses: [12, 14],
+        crossesCompleted: [3, 3],
+        corners: [3, 2],
+        freeKicks: [12, 16],
+        fouls: [9, 13],
+        offsides: [1, 2],
+        yellowCards: [1, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 30],
+        pressingApplied: [220, 240]
+      }
+    },
     { date: '2026-06-27', time: '19:30 ET', group: 'K', team1: 'Colombia', score1: null, team2: 'Portugal', score2: null, venue: '邁阿密·硬石體育場', status: 'scheduled' },
     { date: '2026-06-27', time: '19:30 ET', group: 'K', team1: 'DR Congo', score1: null, team2: 'Uzbekistan', score2: null, venue: '休斯頓·NRG體育場', status: 'scheduled' },
     { date: '2026-06-27', time: '22:00 ET', group: 'J', team1: 'Algeria', score1: null, team2: 'Austria', score2: null, venue: '堪薩斯城·箭頭體育場', status: 'scheduled' },
@@ -2598,10 +2663,10 @@ const WC_DATA = {
       { team: 'Uzbekistan', played: 2, won: 0, drawn: 0, lost: 2, gf: 1, ga: 8, gd: -7, pts: 0 }
     ],
     'L': [
-      { team: 'England', played: 2, won: 1, drawn: 1, lost: 0, gf: 4, ga: 2, gd: 2, pts: 4 },
-      { team: 'Ghana', played: 2, won: 1, drawn: 1, lost: 0, gf: 1, ga: 0, gd: 1, pts: 4 },
-      { team: 'Croatia', played: 2, won: 1, drawn: 0, lost: 1, gf: 3, ga: 4, gd: -1, pts: 3 },
-      { team: 'Panama', played: 2, won: 0, drawn: 0, lost: 2, gf: 0, ga: 2, gd: -2, pts: 0 }
+      { team: 'England', played: 3, won: 2, drawn: 1, lost: 0, gf: 6, ga: 2, gd: 4, pts: 7 },
+      { team: 'Croatia', played: 3, won: 2, drawn: 0, lost: 1, gf: 5, ga: 5, gd: 0, pts: 6 },
+      { team: 'Ghana', played: 3, won: 1, drawn: 1, lost: 1, gf: 2, ga: 2, gd: 0, pts: 4 },
+      { team: 'Panama', played: 3, won: 0, drawn: 0, lost: 3, gf: 0, ga: 4, gd: -4, pts: 0 }
     ]
   }
 };
