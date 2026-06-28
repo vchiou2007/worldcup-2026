@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: '32強賽 (Round of 32)'
+    currentPhase: '32強賽 (Round of 32) — 已進行1場，15場待賽'
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -2718,8 +2718,33 @@ const WC_DATA = {
     // ===== 32強賽 (Round of 32) =====
 
     // === 6月28日 ===
-    { date: '2026-06-28', time: '19:00 ET', group: 'R32', team1: 'South Africa', team2: 'Canada', venue: '洛杉磯·SoFi體育場', status: 'upcoming',
-      goals: [], cards: [], stats: {}
+    { date: '2026-06-28', time: '19:00 ET', group: 'R32', team1: 'South Africa', score1: 0, team2: 'Canada', score2: 1, venue: '洛杉磯·SoFi體育場', status: 'completed',
+      goals: [
+        { min: 90, team: 2, scorer: 'Stephen Eustáquio', assist: null, detail: '90+2分鐘禁區外凌空抽射入網！效力於洛杉磯FC的 Eustáquio 在主場球迷面前完成絕殺，加拿大史上首次晉級世界盃16強' }
+      ],
+      cards: [
+      ],
+      stats: {
+        possession: [42, 58],
+        shots: [9, 16],
+        shotsOnTarget: [3, 5],
+        shotsOffTarget: [4, 7],
+        shotsInsideBox: [5, 9],
+        shotsOutsideBox: [4, 7],
+        passes: [310, 490],
+        passCompleted: [240, 430],
+        passAccuracy: [77.4, 87.8],
+        crosses: [12, 22],
+        crossesCompleted: [3, 6],
+        corners: [2, 7],
+        freeKicks: [16, 14],
+        fouls: [14, 12],
+        offsides: [2, 3],
+        yellowCards: [0, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [240, 220]
+      }
     },
 
     // === 6月29日 ===
