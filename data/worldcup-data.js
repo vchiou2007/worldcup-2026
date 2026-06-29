@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: '32強賽 (Round of 32) — 已進行1場，15場待賽 · 🇨🇦加拿大絕殺南非晉級16強！今日3場：🇩🇪德國vs🇵🇾巴拉圭、🇳🇱荷蘭vs🇲🇦摩洛哥、🇧🇷巴西vs🇯🇵日本'
+    currentPhase: '32強賽 (Round of 32) — 已進行2場，14場待賽 · 🇧🇷巴西2-1逆轉絕殺日本晉級16強！今日還有：🇩🇪德國vs🇵🇾巴拉圭（進行中）、🇳🇱荷蘭vs🇲🇦摩洛哥',
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -2748,13 +2748,45 @@ const WC_DATA = {
     },
 
     // === 6月29日 ===
-    { date: '2026-06-29', time: '16:00 ET', group: 'R32', team1: 'Germany', team2: 'Paraguay', venue: '波士頓·吉列體育場', status: 'upcoming',
+    { date: '2026-06-29', time: '13:00 ET', group: 'R32', team1: 'Brazil', score1: 2, team2: 'Japan', score2: 1, venue: '休斯頓·NRG體育場', status: 'completed',
+      goals: [
+        { min: 29, team: 2, scorer: 'Kaishu Sano', detail: '禁區邊緣射門入網，Danilo 傳球失誤被攔截，Casemiro 防守慢半拍，Sano 輕鬆破門' },
+        { min: 56, team: 1, scorer: 'Casemiro', assist: 'Gabriel Magalhães', detail: 'Gabriel 左路傳中，Casemiro 遠柱頭槌破門扳平比分' },
+        { min: 90, team: 1, scorer: 'Gabriel Martinelli', assist: 'Bruno Guimarães', detail: 'Bruno Guimarães 禁區邊緣傳球，Martinelli 門前推射入網絕殺，95分鐘致勝球' }
+      ],
+      cards: [
+        { min: 23, team: 2, player: 'Kaishu Sano', card: 'yellow', detail: '危險鏟球犯規' },
+        { min: 35, team: 1, player: 'Casemiro', card: 'yellow', detail: '戰術犯規阻止反擊' },
+        { min: 72, team: 2, player: 'Shogo Taniguchi', card: 'yellow', detail: '犯規' },
+        { min: 82, team: 1, player: 'Douglas Santos', card: 'yellow', detail: '拖延比賽時間' },
+        { min: 90, team: 2, player: 'Koki Ogawa', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [68, 32],
+        shots: [19, 5],
+        shotsOnTarget: [6, 2],
+        shotsOffTarget: [9, 2],
+        shotsInsideBox: [12, 3],
+        shotsOutsideBox: [7, 2],
+        passes: [580, 310],
+        passCompleted: [520, 240],
+        passAccuracy: [89.7, 77.4],
+        crosses: [22, 10],
+        crossesCompleted: [7, 2],
+        corners: [6, 2],
+        freeKicks: [12, 14],
+        fouls: [4, 13],
+        offsides: [1, 0],
+        yellowCards: [2, 3],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [220, 250]
+      }
+    },
+    { date: '2026-06-29', time: '16:00 ET', group: 'R32', team1: 'Germany', team2: 'Paraguay', venue: '波士頓·吉列體育場', status: 'live',
       goals: [], cards: [], stats: {}
     },
     { date: '2026-06-29', time: '19:00 ET', group: 'R32', team1: 'Netherlands', team2: 'Morocco', venue: '蒙特雷·BBVA球場', status: 'upcoming',
-      goals: [], cards: [], stats: {}
-    },
-    { date: '2026-06-29', time: '21:00 ET', group: 'R32', team1: 'Brazil', team2: 'Japan', venue: '休斯頓·NRG體育場', status: 'upcoming',
       goals: [], cards: [], stats: {}
     },
 
