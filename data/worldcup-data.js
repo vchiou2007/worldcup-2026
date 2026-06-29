@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: '32強賽 (Round of 32) — 已進行1場，15場待賽'
+    currentPhase: '32強賽 (Round of 32) — 已進行1場，15場待賽 · 🇨🇦加拿大絕殺南非晉級16強！今日3場：🇩🇪德國vs🇵🇾巴拉圭、🇳🇱荷蘭vs🇲🇦摩洛哥、🇧🇷巴西vs🇯🇵日本'
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
