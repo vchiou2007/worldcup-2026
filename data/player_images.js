@@ -110,7 +110,7 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-30 更新：🇨🇦加拿大絕殺晉級！🇧🇷巴西逆轉日本！🇵🇾巴拉圭PK爆冷淘汰🇩🇪德國！🇲🇦摩洛哥PK淘汰🇳🇱荷蘭！今日三場32強賽開踢） =====
+// ===== 輪播牆圖片（2026-06-30 更新：🇨🇦加拿大絕殺晉級！🇧🇷巴西逆轉日本！🇵🇾巴拉圭PK爆冷淘汰🇩🇪德國！🇲🇦摩洛哥PK淘汰🇳🇱荷蘭！🇳🇴挪威Haaland絕殺🇨🇮象牙海岸！今日兩場32強賽開踢） =====
 const HERO_IMAGES = [
   // 🇨🇦⚽ Canada 1-0 South Africa — Stephen Eustáquio第90+2分鐘禁區外凌空抽射絕殺！加拿大史上首次晉級世界盃16強，全隊在SoFi體育場狂奔慶祝
   'https://i.cbc.ca/ais/bfc8762d-517f-4166-80c4-22038a439245,1782735336290/full/max/0/default.jpg',
@@ -118,13 +118,13 @@ const HERO_IMAGES = [
   'https://cdnph.upi.com/pv/upi/2bc049e8db7ab31a1f603b9c4ee11f1d/2026-FIFA-WORLD-CUP.jpg',
   // 🇵🇾🎯 Paraguay 1-1 Germany (4-3 PK) — Julio Enciso第42分鐘頭槌破門慶祝！巴拉圭爆最大冷門PK大戰4-3淘汰四屆冠軍德國（AP Photo/Petr David Josek）
   'https://cloudfront-us-east-1.images.arcpublishing.com/gmg/A6LXU7WYYFDB5L2WC27I3RHYYM.jpg',
-  // 🇵🇾🏆 Paraguay PK英雄！Jose Canale踢進致勝12碼，Orlando Gill撲出德國兩記罰球。巴拉圭自2010年後再度晉級16強（AP Photo/Martin Meissner）
-  'https://cloudfront-us-east-1.images.arcpublishing.com/gmg/5YA5RB3LZVE4BJCSZUYKF4TN7I.jpg',
   // 🇲🇦⚽ Morocco 1-1 Netherlands (3-2 PK) — Ismael Saibari踢進致勝12碼後狂奔慶祝！Bounou撲出Summerville第五罰，摩洛哥3-2擊敗荷蘭（Carl Recine/Getty Images）
-  'https://www.freep.com/gcdn/authoring/authoring-images/2026/06/30/USAT/90748348007-2283950562.jpg?width=1200',
-  // 🇲🇦🎯 Issa Diop第91分鐘頭槌絕平荷蘭！Talbi右路傳中，Diop強力頭槌入網。Cody Gakpo進球後淚崩紀念未出世的孩子（AP Photo/Sofia Yaker）
-  'https://cloudfront-us-east-1.images.arcpublishing.com/gmg/MTCEZZ4RPBELRFGJXQIXELHZVU.jpg',
-  // 🏆⚽ 2026世界盃32強賽中段戰報：已確定晉級16強 — 🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥。今日賽程：🇫🇷法國vs🇸🇪瑞典、🇨🇮象牙海岸vs🇳🇴挪威、🇲🇽墨西哥vs🇪🇨厄瓜多。7月4日起16強賽開打！
+  'https://www.freep.com/gcdn/authoring/authoring-images/2026/06/30/USAT/90748348007-2283950562.jpg',
+  // 🇳🇴⚽ Norway 2-1 Ivory Coast — Erling Haaland第86分鐘門前推射絕殺！連續三場世界盃進球，挪威88年來首次世界盃淘汰賽勝利，將在7月5日對陣巴西（AP Photo/Tony Gutierrez）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/30/USAT/90758110007-usatsi-29300661.jpg',
+  // 🇳🇴🏆 Antonio Nusa第39分鐘禁區外弧線球破門先馳得點！Amad Diallo替補上場個人盤帶扳平。Haaland第5球追趕Messi金靴獎（Reuters/Cal Sport Media）
+  'https://www.gannett-cdn.com/authoring/authoring-images/2026/06/30/USAT/90753208007-screen-shot-1782835573404.jpg',
+  // 🏆⚽ 2026世界盃32強賽中段戰報：已確定晉級16強 — 🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威。今日賽程：🇫🇷法國vs🇸🇪瑞典（17:00 ET）、🇲🇽墨西哥vs🇪🇨厄瓜多（20:00 ET）。挪威將在7月5日16強賽對陣巴西！
   'https://cloudfront-us-east-1.images.arcpublishing.com/gmg/44KPZJBWVRHAHFK6WSTHTCKR7E.jpg'
 ];
 
@@ -132,8 +132,8 @@ const HERO_CAPTIONS = [
   "⚽🇨🇦🇿🇦 Canada 1-0 South Africa — Stephen Eustáquio第90+2分鐘禁區外凌空抽射絕殺！效力於洛杉磯FC的 Eustáquio在主場球迷面前完成歷史性進球。加拿大史上首次晉級世界盃16強，將在7月4日於休斯敦對陣🇲🇦摩洛哥（CBC / Getty Images）",
   "⚽🇧🇷🇯🇵 Brazil 2-1 Japan — Gabriel Martinelli第90+5分鐘門前推射絕殺！Casemiro第56分鐘頭槌扳平。日本Sano第29分鐘率先破門但無力阻擋巴西反撲。巴西將在7月4日費城對陣🇵🇾巴拉圭（The Guardian / Carl Recine）",
   "⚽🇵🇾🇩🇪 Paraguay 1-1 Germany (4-3 PK) — Julio Enciso第42分鐘頭槌破門先馳得點！Kai Havertz第54分鐘扳平。巴拉圭爆最大冷門PK大戰4-3淘汰四屆冠軍德國，德國連續三屆世界盃慘淡出局（AP Photo/Petr David Josek）",
-  "🏆🇵🇾 Paraguay PK英雄Jose Canale（首次先發）踢進致勝12碼！Orlando Gill在PK大戰中撲出兩記罰球。巴拉圭自2010年後再度晉級16強，FIFA排名34擊敗排名12的德國寫下最大驚奇。下一場：7月4日費城對陣🇧🇷巴西或🇯🇵日本（AP Photo/Martin Meissner）",
   "⚽🇲🇦🇳🇱 Morocco 1-1 Netherlands (3-2 PK) — Ismael Saibari踢進致勝12碼狂奔慶祝！PK大戰：Koopmeiners ✅ > El Aynaoui ❌（橫樑）> Kluivert ❌ > Rahimi ✅ > Weghorst ✅ > Talbi ✅ > Timber ❌ > Saibari ✅。摩洛哥連兩屆晉級淘汰賽第二輪（Carl Recine/Getty Images）",
-  "🇲🇦⚽ Issa Diop第91分鐘頭槌絕平！Talbi右路高質量傳中，Diop（效力Fulham）禁區中央強力頭槌入網，個人國際賽首球。Cody Gakpo第72分鐘進球後淚崩（紀念未出世的孩子），摩洛哥將在7月4日對陣🇨🇦加拿大（AP Photo/Sofia Yaker）",
-  "🏆⚽ 2026世界盃32強賽中段戰報：已確定晉級16強 — 🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥。今日（6/30）賽程：🇫🇷法國vs🇸🇪瑞典（東盧瑟福·大都會人壽體育場）、🇨🇮象牙海岸vs🇳🇴挪威（達拉斯·AT&T體育場）、🇲🇽墨西哥vs🇪🇨厄瓜多（墨西哥城·阿茲特克體育場）。7月4日起16強賽開打！（AP Photo/Dolores Ochoa）"
+  "⚽🇳🇴🇨🇮 Norway 2-1 Ivory Coast — Erling Haaland第86分鐘門前推射絕殺！Sander Berge右路傳中，Oscar Bobb斷球策動攻勢。Haaland連續三場世界盃進球（5球），成爲史上第三位世界盃前三場先發皆有進球的球員，60球創最快達標紀錄！挪威將在7月5日休斯敦對陣🇧🇷巴西（AP Photo/Tony Gutierrez）",
+  "🇳🇴⚽ Antonio Nusa第39分鐘禁區外弧線球射入左上角先馳得點！曼聯前鋒Amad Diallo替補上場個人盤帶突破數人勁射扳平。🇳🇴挪威首次世界盃淘汰賽勝利，Haaland賽後戴維京頭盔慶祝，將面對🇧🇷巴西的超級對決（Reuters/Cal Sport Media via AP Images）",
+  "🏆⚽ 2026世界盃32強賽中段戰報：已確定晉級16強 — 🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威。今日（6/30）賽程：🇫🇷法國vs🇸🇪瑞典（東盧瑟福·大都會人壽體育場·17:00 ET）、🇲🇽墨西哥vs🇪🇨厄瓜多（墨西哥城·阿茲特克體育場·20:00 ET）。🇳🇴挪威將在7月5日休斯敦16強賽對陣🇧🇷巴西！（AP Photo/Dolores Ochoa）"
 ];
