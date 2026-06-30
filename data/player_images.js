@@ -112,30 +112,30 @@ const PLAYER_IMAGES = {
 
 
 
-// ===== 輪播牆圖片（2026-06-29 更新：🇧🇷巴西絕殺日本晉級16強！三場32強賽進行中） =====
+// ===== 輪播牆圖片（2026-06-29 更新：🇵🇾巴拉圭PK爆冷淘汰🇩🇪德國！🇧🇷巴西絕殺日本晉級！🇳🇱荷蘭vs🇲🇦摩洛哥進行中） =====
 const HERO_IMAGES = [
-  // 🏆🇧🇷⚽ Brazil 2-1 Japan — Gabriel Martinelli 95分鐘絕殺！巴西驚險晉級16強
-  'https://www.nydailynews.com/wp-content/uploads/2026/06/GettyImages-2283626376.jpg',
-  // 🏆🇺🇸🇨🇦🇲🇽 2026世界盃32強淘汰賽：巴西2-1絕殺日本、加拿大1-0寫歷史、今晚荷蘭vs摩洛哥
-  'https://www.nydailynews.com/wp-content/uploads/2026/06/WCup_Referees_Soccer_75826-1.jpg',
-  // 🇧🇷🇯🇵⚽ Brazil 2-1 Japan — 下半場Casemiro頭槌扳平，Martinelli傷停補時絕殺！巴西將對陣象牙海岸/挪威勝者
-  'https://www.nydailynews.com/wp-content/uploads/2026/06/AP26178813996077.jpg',
-  // 🇩🇪🇵🇾⚽ 6月29日 16:00 ET — 德國 vs 巴拉圭（進行中）！Julio Enciso 42分鐘進球助巴拉圭領先。德國尋求扳平晉級16強
-  'https://cf-images.assettype.com/outlookindia/2026-06-28/vohtt6wq/AP26178825679657.jpg',
-  // 🇳🇱🇲🇦⚽ 6月29日 19:00 ET — 荷蘭 vs 摩洛哥！荷蘭小組賽F組第一火力全開，摩洛哥2022年四強後再戰歐洲豪門
-  'https://cf-images.assettype.com/outlookindia/2026-06-27/wgs5q4pf/AP26178708734630.jpg',
-  // 🇨🇦 加拿大 1-0 南非 — Eustáquio 92分鐘絕殺！加拿大史上首次晉級世界盃16強，將於7月4日出戰
-  'https://www.aljazeera.com/wp-content/uploads/2026/06/AFP__20260627__2283515922__v1__HighRes__NewZealandVBelgiumGroupGFifaWorldCup2026-1782542020.jpg',
-  // 🏆⚽ 2026世界盃16強展望：巴西今早已晉級！下午德國vs巴拉圭、今晚荷蘭vs摩洛哥。冠軍7月19日大都會人壽體育場誕生
-  'https://www.winnipegfreepress.com/wp-content/uploads/sites/2/2026/06/6a418c1097b58a6d58e83821jpeg.jpg?w=1000'
+  // 🏆🇧🇷⚽ Brazil 2-1 Japan — Gabriel Martinelli 95分鐘絕殺！巴西2-1逆轉日本晉級16強
+  'https://s.france24.com/media/display/bd46d492-73ec-11f1-a962-005056a97e36/w:1024/p:16x9/063-2283895982.jpg',
+  // 🏆🇵🇾🇩🇪 Paraguay 4-3 Germany (PK) — 32強賽最大冷門！Orlando Gill撲出兩粒12碼，巴拉圭PK大戰淘汰四屆冠軍德國
+  'https://www.bostonherald.com/wp-content/uploads/2026/06/AP26180790624973-1.jpg',
+  // 🇧🇷🇯🇵 Brazil 2-1 Japan — Casemiro 56分鐘頭槌扳平（左），Martinelli 95分鐘門前推射絕殺！巴西將對陣象牙海岸/挪威勝者
+  'https://s.france24.com/media/display/c1a74cbc-73ef-11f1-8886-005056a90284/w:980/2026-06-29T173430Z-1776244925-UP1EM6T1CTGGA-RTRMADP-3-SOCCER-WORLDCUP-BRA-JPN.jpg',
+  // 🇵🇾🏆 Julio Enciso 42分鐘頭槌破門！巴拉圭1-0領先德國，最終在PK大戰中4-3勝出，隊史第二次晉級16強
+  'https://www.bostonherald.com/wp-content/uploads/2026/06/AP26180755733704.jpg',
+  // 🇨🇦🇿🇦 Canada 1-0 South Africa — Stephen Eustáquio 92分鐘絕殺！加拿大史上首次晉級世界盃16強！Alphonso Davies替補登場
+  'https://olympic.ca/wp-content/uploads/2026/06/CP176544040-e1782745939543.jpg',
+  // 🇨🇦🇿🇦 Canada vs South Africa — 加拿大球員慶祝 Eustáquio 傷停補時絕殺！7月4日將在休斯敦迎戰荷蘭或摩洛哥
+  'https://olympic.ca/wp-content/uploads/2026/06/CP176544100.jpg',
+  // 🏆⚽ 2026世界盃32強賽中段戰報：已確定16強 — 🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭。今日剩餘賽程：🇳🇱荷蘭vs🇲🇦摩洛哥。7月4日起16強賽開打！
+  'https://www.bostonherald.com/wp-content/uploads/2026/06/AP26180790073585.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  '🏆🇺🇸🇨🇦🇲🇽 2026世界盃32強淘汰賽激烈進行中！6月29日：🇧🇷巴西2-1逆轉絕殺🇯🇵日本晉級16強！🇩🇪德國 vs 🇵🇾巴拉圭進行中，🇳🇱荷蘭 vs 🇲🇦摩洛哥今晚登場。冠軍需連贏5場，7月19日於大都會人壽體育場誕生（Getty Images）',
-  '⚽🇧🇷🇯🇵 Brazil 2-1 Japan — Gabriel Martinelli 第95分鐘絕殺！巴西0-1落後到2-1逆轉：Kaishu Sano（29\'）先為日本進球，Casemiro頭槌（56\'）扳平，Martinelli（90+5\'）門前推射絕殺。巴西將於7月5日對陣象牙海岸/挪威勝者。日本連續三屆世界盃淘汰賽領先後遭逆轉（AP Photo/Ashley Landis）',
-  '⚽🇧🇷🇯🇵 Brazil 2-1 Japan — 全場巴西控球68%勝出，19射門對5射門。Casemiro在56分鐘接Gabriel Magalhães助攻頭槌扳平，Bruno Guimarães第95分鐘禁區邊緣妙傳，Martinelli門前推射入網。Ancelotti：「這是冠軍的心臟！」（AP Photo via Daily Press）',
-  '⚽🇩🇪🇵🇾 6月29日 16:00 ET（進行中）— 德國 vs 巴拉圭：四屆冠軍德國小組賽E組第一，巴拉圭小組第三驚險晉級。Julio Enciso（42\'）為巴拉圭首開紀錄，德國全力反撲。勝者將於7月4日對陣法國或瑞典（Getty Images）',
-  '⚽🇳🇱🇲🇦 6月29日 19:00 ET（即將開賽）— 荷蘭 vs 摩洛哥：荷蘭小組賽不敗F組第一，Brian Brobbey 3球、Cody Gakpo 2球。摩洛哥小組賽零敗績以C組第二晉級，Ismael Saibari三場皆進球。多名摩洛哥球員出生於荷蘭，增添話題。勝者7月4日對陣加拿大（Getty Images）',
-  '⚽🇨🇦🇿🇦 Canada 1-0 South Africa — Stephen Eustáquio（LAFC）第92分鐘禁區外凌空抽射破網絕殺！加拿大史上首次晉級世界盃16強。Alphonso Davies第75分鐘替補登場。加拿大7月4日休斯敦迎戰荷蘭或摩洛哥勝者（AFP via Al Jazeera）',
-  '🏆⚽ 2026世界盃32強賽中段戰報：已確定晉級16強隊伍 — 🇨🇦加拿大、🇧🇷巴西。金靴之爭：Messi（🇦🇷）5球領跑，Vinícius Jr（🇧🇷）4球追趕。今日剩餘賽程：🇩🇪德國vs🇵🇾巴拉圭、🇳🇱荷蘭vs🇲🇦摩洛哥。7月4日起16強賽開打（AP Photo via Winnipeg Free Press）'
+  "🏆🇺🇸🇨🇦🇲🇽 2026世界盃32強淘汰賽激烈進行中！6月29日：🇧🇷巴西2-1逆轉絕殺🇯🇵日本晉級16強！🇵🇾巴拉圭爆最大冷門PK淘汰🇩🇪德國！🇳🇱荷蘭 vs 🇲🇦摩洛哥進行中。冠軍需連贏5場，7月19日於大都會人壽體育場誕生（Reuters / LARS BARON）",
+  "⚽🇵🇾🇩🇪 Paraguay 1-1 Germany (4-3 PK) — 32強賽最大爆冷！巴拉圭（FIFA排名34）PK大戰4-3淘汰四屆冠軍德國（FIFA排名12）。Orlando Gill撲出Havertz和Woltemade的點球，José Canale射入致勝PK，Julio Enciso（42&#39;）頭槌先馳得點，Kai Havertz（54&#39;）扳平。巴拉圭7月4日對陣法國/瑞典勝者（AP Photo/Petr David Josek）",
+  "⚽🇧🇷🇯🇵 Brazil 2-1 Japan — Gabriel Martinelli第95分鐘絕殺！巴西0-1落後到2-1逆轉：Kaishu Sano（29&#39;）先為日本進球，Casemiro頭槌（56&#39;）扳平，Martinelli（90+5&#39;）門前推射絕殺。巴西將於7月5日對陣象牙海岸/挪威勝者。日本連續三屆世界盃淘汰賽被逆轉（Reuters / EDGARD GARRIDO）",
+  "⚽🇵🇾🇩🇪 Paraguay 1-1 Germany — Julio Enciso（Brighton）第42分鐘接Matías Galarza傳中頭槌破門！巴拉圭全場頑強防守，門將Orlando Gill（6&#39;6&quot;）PK大戰立下奇功。巴拉圭自2010年後再次晉級16強，也是隊史第二次贏得世界盃淘汰賽（AP Photo/Petr David Josek）",
+  "⚽🇨🇦🇿🇦 Canada 1-0 South Africa — Stephen Eustáquio（LAFC）第92分鐘禁區外低射破網絕殺！加拿大史上首次晉級世界盃16強。Alphonso Davies第75分鐘替補登場亮相。加拿大7月4日休斯敦迎戰荷蘭或摩洛哥勝者（AP Photo/Gregory Bull）",
+  "⚽🇨🇦🇿🇦 加拿大球員慶祝歷史性一刻！Eustáquio絕殺後被隊友團團圍住。加拿大成為繼美國之後第二支晉級16強的主辦國球隊。Jesse Marsch：「這是加拿大足球最偉大的一夜」（AP Photo/Andre Penner）",
+  "🏆⚽ 2026世界盃32強賽中段戰報：已確定晉級16強 — 🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭。今日剩餘賽程：🇳🇱荷蘭 vs 🇲🇦摩洛哥（蒙特雷，進行中）。明日賽程：🇫🇷法國vs🇸🇪瑞典、🇨🇮象牙海岸vs🇳🇴挪威、🇲🇽墨西哥vs🇪🇨厄瓜多。金靴之爭：Messi 5球領跑。7月4日起16強賽開打（AP Photo/Petr David Josek）"
 ];

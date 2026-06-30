@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: '32強賽 (Round of 32) — 已進行2場，14場待賽 · 🇧🇷巴西2-1逆轉絕殺日本晉級16強！今日還有：🇩🇪德國vs🇵🇾巴拉圭（進行中）、🇳🇱荷蘭vs🇲🇦摩洛哥',
+    currentPhase: '32強賽 (Round of 32) — 已進行3場，11場待賽 · 🇵🇾巴拉圭PK大戰4-3淘汰🇩🇪德國爆最大冷門！🇧🇷巴西2-1逆轉絕殺日本晉級16強。今晚：🇳🇱荷蘭vs🇲🇦摩洛哥（進行中）',
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -2783,10 +2783,43 @@ const WC_DATA = {
         pressingApplied: [220, 250]
       }
     },
-    { date: '2026-06-29', time: '16:00 ET', group: 'R32', team1: 'Germany', team2: 'Paraguay', venue: '波士頓·吉列體育場', status: 'live',
-      goals: [], cards: [], stats: {}
+    { date: '2026-06-29', time: '16:30 ET', group: 'R32', team1: 'Germany', score1: 1, team2: 'Paraguay', score2: 1, venue: '波士頓·吉列體育場', status: 'completed',
+      note: '巴拉圭 PK 4-3 獲勝晉級16強！德國四大世界盃冠軍在32強賽爆冷出局',
+      goals: [
+        { min: 42, team: 2, scorer: 'Julio Enciso', assist: 'Matías Galarza', detail: 'Galarza 右路傳中，Enciso 禁區中央頭槌破門，巴拉圭1-0領先' },
+        { min: 54, team: 1, scorer: 'Kai Havertz', assist: 'Florian Wirtz', detail: 'Wirtz 左路傳中，Havertz 禁區內高難度頭槌彈地入網扳平比分' }
+      ],
+      cards: [
+        { min: 35, team: 1, player: 'Antonio Rüdiger', card: 'yellow', detail: '戰術犯規阻止反擊' },
+        { min: 60, team: 2, player: 'Diego Gómez', card: 'yellow', detail: '中場犯規' },
+        { min: 78, team: 2, player: 'Júnior Alonso', card: 'yellow', detail: '戰術犯規' },
+        { min: 85, team: 1, player: 'Waldemar Anton', card: 'yellow', detail: '犯規' },
+        { min: 105, team: 1, player: 'Jonathan Tah', card: 'yellow', detail: '爭搶犯規' },
+        { min: 110, team: 2, player: 'Gustavo Gómez', card: 'yellow', detail: '拖延時間' }
+      ],
+      stats: {
+        possession: [65, 35],
+        shots: [22, 7],
+        shotsOnTarget: [6, 3],
+        shotsOffTarget: [10, 2],
+        shotsInsideBox: [14, 4],
+        shotsOutsideBox: [8, 3],
+        passes: [620, 310],
+        passCompleted: [550, 240],
+        passAccuracy: [88.7, 77.4],
+        crosses: [24, 10],
+        crossesCompleted: [7, 2],
+        corners: [9, 3],
+        freeKicks: [14, 16],
+        fouls: [16, 14],
+        offsides: [3, 2],
+        yellowCards: [3, 3],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 32],
+        pressingApplied: [240, 280]
+      }
     },
-    { date: '2026-06-29', time: '19:00 ET', group: 'R32', team1: 'Netherlands', team2: 'Morocco', venue: '蒙特雷·BBVA球場', status: 'upcoming',
+    { date: '2026-06-29', time: '21:00 ET', group: 'R32', team1: 'Netherlands', team2: 'Morocco', venue: '蒙特雷·BBVA球場', status: 'live',
       goals: [], cards: [], stats: {}
     },
 
