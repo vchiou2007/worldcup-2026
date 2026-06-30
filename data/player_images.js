@@ -110,32 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-
-
-// ===== 輪播牆圖片（2026-06-30 更新：🇲🇦摩洛哥PK淘汰🇳🇱荷蘭晉級16強！今日三場32強賽開踢） =====
+// ===== 輪播牆圖片（2026-06-30 更新：🇨🇦加拿大絕殺晉級！🇧🇷巴西逆轉日本！🇵🇾巴拉圭PK爆冷淘汰🇩🇪德國！🇲🇦摩洛哥PK淘汰🇳🇱荷蘭！今日三場32強賽開踢） =====
 const HERO_IMAGES = [
-  // 🏆🇲🇦⚽ Morocco 1-1 Netherlands (Morocco win 3-2 PK) — Issa Diop第91分鐘頭槌絕平！PK大戰3-2淘汰荷蘭，Saibari踢進致勝12碼
-  'https://cloudfront-us-east-1.images.arcpublishing.com/gmg/UC2UYDHLA5BN5DFKO2ZJBMJTIQ.jpg',
-  // 🇲🇦🏆 Morocco PK英雄！Ismael Saibari踢進致勝12碼後狂奔慶祝，摩洛哥隊友追趕擁抱。摩洛哥將於7月4日對陣加拿大爭奪8強門票
-  'https://cloudfront-us-east-1.images.arcpublishing.com/gmg/44KPZJBWVRHAHFK6WSTHTCKR7E.jpg',
-  // 🇲🇦⚽ Ismael Saibari 12碼罰球破門瞬間！PK大戰第4輪低射左下角，Bart Verbruggen撲錯方向。摩洛哥連兩屆世界盃晉級淘汰賽第二輪
+  // 🇨🇦⚽ Canada 1-0 South Africa — Stephen Eustáquio第90+2分鐘禁區外凌空抽射絕殺！加拿大史上首次晉級世界盃16強，全隊在SoFi體育場狂奔慶祝
+  'https://i.cbc.ca/ais/bfc8762d-517f-4166-80c4-22038a439245,1782735336290/full/max/0/default.jpg',
+  // 🇧🇷⚽ Brazil 2-1 Japan — Gabriel Martinelli第90+5分鐘門前推射絕殺！Casemiro第56分鐘頭槌扳平，巴西逆轉晉級16強將對陣巴拉圭
+  'https://i.guim.co.uk/img/media/7a8e24a6e1f39f819f347ee292c8899413b772b3/693_0_3476_2780/master/3476.jpg?width=1200&quality=85&auto=format&fit=max&s=b6896def23e763b3d330931b87aa85e5',
+  // 🇵🇾🎯 Paraguay 1-1 Germany (4-3 PK) — Julio Enciso第42分鐘頭槌破門慶祝！巴拉圭爆最大冷門PK大戰4-3淘汰四屆冠軍德國（AP Photo/Petr David Josek）
+  'https://cloudfront-us-east-1.images.arcpublishing.com/gmg/A6LXU7WYYFDB5L2WC27I3RHYYM.jpg',
+  // 🇵🇾🏆 Paraguay PK英雄！Jose Canale踢進致勝12碼，Orlando Gill撲出德國兩記罰球。巴拉圭自2010年後再度晉級16強（AP Photo/Martin Meissner）
+  'https://cloudfront-us-east-1.images.arcpublishing.com/gmg/5YA5RB3LZVE4BJCSZUYKF4TN7I.jpg',
+  // 🇲🇦⚽ Morocco 1-1 Netherlands (3-2 PK) — Ismael Saibari踢進致勝12碼後狂奔慶祝！Bounou撲出Summerville第五罰，摩洛哥3-2擊敗荷蘭（Carl Recine/Getty Images）
+  'https://i.guim.co.uk/img/media/5b403e66cb9bf67e5a4780b664f128b8ffbebe2e/121_0_3840_3072/master/3840.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=90ae89e602ef99c693c4b416f7790c21',
+  // 🇲🇦🎯 Issa Diop第91分鐘頭槌絕平荷蘭！Talbi右路傳中，Diop強力頭槌入網。Cody Gakpo進球後淚崩紀念未出世的孩子（AP Photo/Sofia Yaker）
   'https://cloudfront-us-east-1.images.arcpublishing.com/gmg/MTCEZZ4RPBELRFGJXQIXELHZVU.jpg',
-  // 🇳🇱😢 Netherlands' Jan Paul van Hecke 賽後失落反應。荷蘭無緣追平連續12屆晉級16強的紀錄，Cody Gakpo的淚水與進球化為泡影
-  'https://cloudfront-us-east-1.images.arcpublishing.com/gmg/GOUQR35MVJBTVHL6TQRTHCREFI.jpg',
-  // 🇲🇦🏆 Morocco球員全體衝向Saibari慶祝勝利！PK大戰中Bounou撲出Summerville的第五罰，摩洛哥3-2擊敗世界排名第7的荷蘭
-  'https://cloudfront-us-east-1.images.arcpublishing.com/gmg/CVERZ2MHOJEWVM6XMOCNUEAW64.jpg',
-  // 🇲🇦🎯 Issa Diop第91分鐘頭槌絕平！Chemsdine Talbi右路傳中，Diop禁區中央強力頭槌入網，個人國際賽首球拯救摩洛哥
-  'https://nypost.com/wp-content/uploads/sites/2/2026/06/newspress-collage-53916vv91-1782753771580.jpg',
-  // 🏆⚽ 2026世界盃32強賽中段戰報：已確定16強 — 🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥。今日賽程：🇫🇷法國vs🇸🇪瑞典、🇨🇮象牙海岸vs🇳🇴挪威。7月4日起16強賽開打！
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/30/USAT/90747512007-90747390007-gty-2283934871.jpg'
+  // 🏆⚽ 2026世界盃32強賽中段戰報：已確定晉級16強 — 🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥。今日賽程：🇫🇷法國vs🇸🇪瑞典、🇨🇮象牙海岸vs🇳🇴挪威、🇲🇽墨西哥vs🇪🇨厄瓜多。7月4日起16強賽開打！
+  'https://cloudfront-us-east-1.images.arcpublishing.com/gmg/44KPZJBWVRHAHFK6WSTHTCKR7E.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  "🏆🇺🇸🇨🇦🇲🇽 2026世界盃32強淘汰賽激烈進行中！6月29日-30日：🇲🇦摩洛哥PK大戰3-2淘汰🇳🇱荷蘭！🇵🇾巴拉圭爆最大冷門PK淘汰🇩🇪德國！🇧🇷巴西2-1逆轉絕殺🇯🇵日本晉級16強。今日（6/30）：🇫🇷法國vs🇸🇪瑞典、🇨🇮象牙海岸vs🇳🇴挪威。7月1日：🇲🇽墨西哥vs🇪🇨厄瓜多（AP Photo）",
-  "⚽🇲🇦🇳🇱 Morocco 1-1 Netherlands (3-2 PK) — Ismael Saibari踢進致勝12碼狂奔慶祝！PK大戰：Koopmeiners ✅> El Aynaoui ❌（橫樑）> Kluivert ❌> Rahimi ✅> Weghorst ✅> Talbi ✅> Timber ❌> Saibari ✅。摩洛哥將在7月4日於休斯敦對戰🇨🇦加拿大（AP Photo/Dolores Ochoa）",
-  "⚽🇲🇦🇳🇱 Morocco 1-1 Netherlands — Saibari第4輪冷靜罰入左下角。Bounou撲出Summerville第五罰鎖定勝局。Cody Gakpo第72分鐘進球後淚崩（紀念未出世的孩子），但Issa Diop第91分鐘頭槌絕平。荷蘭史上首次32強賽出局（AP Photo/Ricardo Mazalan）",
-  "😢🇳🇱 Netherlands' Jan Paul van Hecke坐地失落——荷蘭隊史首次未能從世界盃第一輪淘汰賽晉級。隊長Van Dijk：「這是毀滅性的打擊。我們有機會但沒能把握。」（AP Photo/Ricardo Mazalan）",
-  "🏆🇲🇦 Morocco全隊衝向PK英雄Saibari！Yassine Bounou在PK大戰中撲出關鍵罰球。摩洛哥連續兩屆世界盃晉級（2022四強 → 2026至少16強），創非洲球隊最佳穩定表現（AP Photo/Sofia Yaker）",
-  "🇲🇦⚽ Issa Diop第91分鐘頭槌絕平！Chemsdine Talbi右路高質量傳中，Diop（效力Fulham）禁區中央強力頭槌入網，個人國際賽首球。24小時內第二場32強賽進入延長賽和PK大戰——足球的魅力（Reuters / LISI NIESNER）",
-  "🏆⚽ 2026世界盃32強賽中段戰報：已確定晉級16強 — 🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥。今日賽程：🇫🇷法國vs🇸🇪瑞典（東盧瑟福）、🇨🇮象牙海岸vs🇳🇴挪威（阿靈頓）。7月4日起16強賽開打。金靴之爭：Messi 5球、Mbappé 4球（Getty Images / Harry How）"
+  "⚽🇨🇦🇿🇦 Canada 1-0 South Africa — Stephen Eustáquio第90+2分鐘禁區外凌空抽射絕殺！效力於洛杉磯FC的 Eustáquio在主場球迷面前完成歷史性進球。加拿大史上首次晉級世界盃16強，將在7月4日於休斯敦對陣🇲🇦摩洛哥（CBC / Getty Images）",
+  "⚽🇧🇷🇯🇵 Brazil 2-1 Japan — Gabriel Martinelli第90+5分鐘門前推射絕殺！Casemiro第56分鐘頭槌扳平。日本Sano第29分鐘率先破門但無力阻擋巴西反撲。巴西將在7月4日費城對陣🇵🇾巴拉圭（The Guardian / Carl Recine）",
+  "⚽🇵🇾🇩🇪 Paraguay 1-1 Germany (4-3 PK) — Julio Enciso第42分鐘頭槌破門先馳得點！Kai Havertz第54分鐘扳平。巴拉圭爆最大冷門PK大戰4-3淘汰四屆冠軍德國，德國連續三屆世界盃慘淡出局（AP Photo/Petr David Josek）",
+  "🏆🇵🇾 Paraguay PK英雄Jose Canale（首次先發）踢進致勝12碼！Orlando Gill在PK大戰中撲出兩記罰球。巴拉圭自2010年後再度晉級16強，FIFA排名34擊敗排名12的德國寫下最大驚奇。下一場：7月4日費城對陣🇧🇷巴西或🇯🇵日本（AP Photo/Martin Meissner）",
+  "⚽🇲🇦🇳🇱 Morocco 1-1 Netherlands (3-2 PK) — Ismael Saibari踢進致勝12碼狂奔慶祝！PK大戰：Koopmeiners ✅ > El Aynaoui ❌（橫樑）> Kluivert ❌ > Rahimi ✅ > Weghorst ✅ > Talbi ✅ > Timber ❌ > Saibari ✅。摩洛哥連兩屆晉級淘汰賽第二輪（Carl Recine/Getty Images）",
+  "🇲🇦⚽ Issa Diop第91分鐘頭槌絕平！Talbi右路高質量傳中，Diop（效力Fulham）禁區中央強力頭槌入網，個人國際賽首球。Cody Gakpo第72分鐘進球後淚崩（紀念未出世的孩子），摩洛哥將在7月4日對陣🇨🇦加拿大（AP Photo/Sofia Yaker）",
+  "🏆⚽ 2026世界盃32強賽中段戰報：已確定晉級16強 — 🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥。今日（6/30）賽程：🇫🇷法國vs🇸🇪瑞典（東盧瑟福·大都會人壽體育場）、🇨🇮象牙海岸vs🇳🇴挪威（達拉斯·AT&T體育場）、🇲🇽墨西哥vs🇪🇨厄瓜多（墨西哥城·阿茲特克體育場）。7月4日起16強賽開打！（AP Photo/Dolores Ochoa）"
 ];
