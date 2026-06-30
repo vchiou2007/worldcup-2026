@@ -1013,6 +1013,50 @@ body {
   margin-top: 2px;
 }
 
+/* ---- Summary Bar (with flags) ---- */
+.ko-summary-bar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: linear-gradient(135deg, var(--teal-light), rgba(8,145,178,0.06));
+  border: 1px solid rgba(13,148,136,0.2);
+  border-radius: var(--radius-sm);
+  padding: 12px 18px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.ko-summary-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+.ko-summary-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+.ko-summary-progress {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.ko-summary-divider {
+  width: 1px;
+  height: 36px;
+  background: var(--card-border);
+}
+.ko-summary-flags {
+  display: flex;
+  gap: 4px;
+}
+.ko-summary-flags .fimg {
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
 /* ---- Current Round Section ---- */
 .ko-current-round {
   background: var(--card);
@@ -1202,17 +1246,17 @@ body {
   border-left: 3px solid var(--teal);
 }
 
-/* ---- Teams Chips (Advanced/Eliminated) ---- */
+/* ---- Teams Rows (Advanced/Eliminated) — 一行一列 ---- */
 .ko-teams-row {
   display: flex;
-  gap: 12px;
+  gap: 14px;
   margin: 14px 0;
   flex-wrap: wrap;
 }
 .ko-advanced-box, .ko-eliminated-box {
   flex: 1;
-  min-width: 200px;
-  padding: 12px;
+  min-width: 220px;
+  padding: 14px;
   border-radius: var(--radius-sm);
   border: 1px solid var(--card-border);
 }
@@ -1225,28 +1269,45 @@ body {
   border-color: rgba(220,38,38,0.2);
 }
 .ko-box-title {
-  font-size: 0.8rem;
+  font-size: 0.88rem;
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--card-border);
 }
-.ko-team-list {
+.ko-team-list-rows {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 6px;
 }
-.ko-team-chip {
-  display: inline-flex;
+.ko-team-row {
+  display: flex;
   align-items: center;
-  gap: 3px;
-  font-size: 0.75rem;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 0.88rem;
   font-weight: 600;
-  padding: 3px 8px;
-  border-radius: 14px;
-  border: 1px solid var(--card-border);
   background: var(--card);
+  border: 1px solid var(--card-border);
+  transition: var(--transition);
 }
-.ko-team-chip.advanced { color: var(--green); border-color: rgba(22,163,74,0.25); }
-.ko-team-chip.eliminated { color: var(--red); border-color: rgba(220,38,38,0.25); }
+.ko-team-row:hover {
+  transform: translateX(3px);
+}
+.ko-team-row.advanced {
+  color: var(--green);
+  border-color: rgba(22,163,74,0.2);
+  border-left: 3px solid var(--green);
+}
+.ko-team-row.eliminated {
+  color: var(--red);
+  border-color: rgba(220,38,38,0.15);
+  border-left: 3px solid var(--red);
+}
+.ko-row-name {
+  flex: 1;
+}
 
 /* ---- Next Round Preview ---- */
 .ko-next-round-grid {
@@ -1439,6 +1500,35 @@ body {
 }
 .hs-chip.advanced { color: var(--green); border-color: rgba(22,163,74,0.3); }
 .hs-chip.eliminated { color: var(--red); border-color: rgba(220,38,38,0.3); }
+
+/* ---- Home Summary Teams Rows — 一行一列 ---- */
+.hs-team-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.hs-team-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 8px;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  background: var(--bg);
+  border: 1px solid var(--card-border);
+  transition: var(--transition);
+}
+.hs-team-row.advanced {
+  color: var(--teal-dark);
+  border-left: 3px solid var(--green);
+  border-color: rgba(22,163,74,0.2);
+}
+.hs-team-row.eliminated {
+  color: var(--text);
+  border-left: 3px solid var(--red);
+  border-color: rgba(220,38,38,0.15);
+}
 
 /* ---- Next Match in Home Summary ---- */
 .hs-next {

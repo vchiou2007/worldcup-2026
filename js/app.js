@@ -320,10 +320,10 @@ function renderHomeKnockout(){
   const r32 = ko.rounds.R32;
   const r32matches = WC_DATA.matches.filter(m => m.group === 'R32' && m.status === 'completed');
   
-  // 晉級/淘汰列表
-  let advChips = '', eliChips = '';
-  if(r32.advanced) for(const t of r32.advanced) advChips += `<span class="hs-chip advanced">${fimgSm(t)} ${t}</span>`;
-  if(r32.eliminated) for(const t of r32.eliminated) eliChips += `<span class="hs-chip eliminated">${fimgSm(t)} ${t}</span>`;
+  // 晉級/淘汰列表（一行一列）
+  let advRows = '', eliRows = '';
+  if(r32.advanced) for(const t of r32.advanced) advRows += `<div class="hs-team-row advanced">${fimgMd(t)} <span>${t}</span></div>`;
+  if(r32.eliminated) for(const t of r32.eliminated) eliRows += `<div class="hs-team-row eliminated">${fimgMd(t)} <span>${t}</span></div>`;
   
   // 已完賽簡潔列表
   let matchSummary = '';
@@ -372,9 +372,9 @@ function renderHomeKnockout(){
       </div>
       <div class="home-knockout-teams">
         <div class="hs-section-label">✅ 晉級</div>
-        <div class="hs-chip-list">${advChips}</div>
+        <div class="hs-team-rows">${advRows}</div>
         <div class="hs-section-label" style="margin-top:10px;">❌ 淘汰</div>
-        <div class="hs-chip-list">${eliChips}</div>
+        <div class="hs-team-rows">${eliRows}</div>
       </div>
     </div>
     ${nextHtml}
@@ -601,7 +601,26 @@ function renderKnockout(){
   const progressPct = r32.totalMatches > 0 ? (r32.completedCount / r32.totalMatches * 100) : 0;
   let html = `
 <h2 class="section-title">🏆 淘汰賽階段</h2>
-<p class="section-subtitle">48強 → 32強（小組前2名+最佳8個第3名）→ 16強 → 8強 → 4強 → 🏆決賽 ｜ 目前：${ko.summary}</p>
+<p class="section-subtitle">48強 → 32強（小組前2名+最佳8個第3名）→ 16強 → 8強 → 4強 → 🏆決賽</p>
+
+<!-- 即時總結 — 國旗表示 -->
+<div class="ko-summary-bar">
+  <div class="ko-summary-section">
+    <div class="ko-summary-label">🔴 ${r32.name}</div>
+    <div class="ko-summary-progress">${r32.completedCount}/${r32.totalMatches} 場已賽</div>
+  </div>
+  <div class="ko-summary-divider"></div>
+  <div class="ko-summary-section">
+    <div class="ko-summary-label">✅ 已晉級</div>
+    <div class="ko-summary-flags">${r32.advanced.map(t => fimgMd(t)).join('')}</div>
+  </div>
+  <div class="ko-summary-divider"></div>
+  <div class="ko-summary-section">
+    <div class="ko-summary-label">❌ 淘汰</div>
+    <div class="ko-summary-flags">${r32.eliminated.map(t => fimgMd(t)).join('')}</div>
+  </div>
+</div>
+
 ${phaseNav}
 <div class="ko-current-round">
   <div class="ko-round-header">
@@ -618,21 +637,21 @@ ${phaseNav}
     html += `</div>`;
   }
 
-  // ===== 4. Advanced / Eliminated Teams =====
+  // ===== 4. Advanced / Eliminated Teams (一行一列) =====
   if(r32.advanced && r32.advanced.length){
     html += `<div class="ko-teams-row">
       <div class="ko-advanced-box">
         <div class="ko-box-title">✅ 已晉級 16 強</div>
-        <div class="ko-team-list">`;
+        <div class="ko-team-list-rows">`;
     for(const t of r32.advanced){
-      html += `<span class="ko-team-chip advanced">${fimgSm(t)} ${t}</span>`;
+      html += `<div class="ko-team-row advanced">${fimgMd(t)} <span class="ko-row-name">${t}</span></div>`;
     }
     html += `</div></div>
       <div class="ko-eliminated-box">
         <div class="ko-box-title">❌ 已淘汰</div>
-        <div class="ko-team-list">`;
+        <div class="ko-team-list-rows">`;
     for(const t of r32.eliminated){
-      html += `<span class="ko-team-chip eliminated">${fimgSm(t)} ${t}</span>`;
+      html += `<div class="ko-team-row eliminated">${fimgMd(t)} <span class="ko-row-name">${t}</span></div>`;
     }
     html += `</div></div></div>`;
   }
