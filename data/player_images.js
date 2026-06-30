@@ -115,13 +115,13 @@ const HERO_IMAGES = [
   // 🇨🇦⚽ Canada 1-0 South Africa — Stephen Eustáquio第90+2分鐘禁區外凌空抽射絕殺！加拿大史上首次晉級世界盃16強，全隊在SoFi體育場狂奔慶祝
   'https://i.cbc.ca/ais/bfc8762d-517f-4166-80c4-22038a439245,1782735336290/full/max/0/default.jpg',
   // 🇧🇷⚽ Brazil 2-1 Japan — Gabriel Martinelli第90+5分鐘門前推射絕殺！Casemiro第56分鐘頭槌扳平，巴西逆轉晉級16強將對陣巴拉圭
-  'https://i.guim.co.uk/img/media/7a8e24a6e1f39f819f347ee292c8899413b772b3/693_0_3476_2780/master/3476.jpg?width=1200&quality=85&auto=format&fit=max&s=b6896def23e763b3d330931b87aa85e5',
+  'https://cdnph.upi.com/pv/upi/2bc049e8db7ab31a1f603b9c4ee11f1d/2026-FIFA-WORLD-CUP.jpg',
   // 🇵🇾🎯 Paraguay 1-1 Germany (4-3 PK) — Julio Enciso第42分鐘頭槌破門慶祝！巴拉圭爆最大冷門PK大戰4-3淘汰四屆冠軍德國（AP Photo/Petr David Josek）
   'https://cloudfront-us-east-1.images.arcpublishing.com/gmg/A6LXU7WYYFDB5L2WC27I3RHYYM.jpg',
   // 🇵🇾🏆 Paraguay PK英雄！Jose Canale踢進致勝12碼，Orlando Gill撲出德國兩記罰球。巴拉圭自2010年後再度晉級16強（AP Photo/Martin Meissner）
   'https://cloudfront-us-east-1.images.arcpublishing.com/gmg/5YA5RB3LZVE4BJCSZUYKF4TN7I.jpg',
   // 🇲🇦⚽ Morocco 1-1 Netherlands (3-2 PK) — Ismael Saibari踢進致勝12碼後狂奔慶祝！Bounou撲出Summerville第五罰，摩洛哥3-2擊敗荷蘭（Carl Recine/Getty Images）
-  'https://i.guim.co.uk/img/media/5b403e66cb9bf67e5a4780b664f128b8ffbebe2e/121_0_3840_3072/master/3840.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=90ae89e602ef99c693c4b416f7790c21',
+  'https://www.freep.com/gcdn/authoring/authoring-images/2026/06/30/USAT/90748348007-2283950562.jpg?width=1200',
   // 🇲🇦🎯 Issa Diop第91分鐘頭槌絕平荷蘭！Talbi右路傳中，Diop強力頭槌入網。Cody Gakpo進球後淚崩紀念未出世的孩子（AP Photo/Sofia Yaker）
   'https://cloudfront-us-east-1.images.arcpublishing.com/gmg/MTCEZZ4RPBELRFGJXQIXELHZVU.jpg',
   // 🏆⚽ 2026世界盃32強賽中段戰報：已確定晉級16強 — 🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥。今日賽程：🇫🇷法國vs🇸🇪瑞典、🇨🇮象牙海岸vs🇳🇴挪威、🇲🇽墨西哥vs🇪🇨厄瓜多。7月4日起16強賽開打！
