@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: '32強賽 (Round of 32) — 已進行3場，11場待賽 · 🇵🇾巴拉圭PK大戰4-3淘汰🇩🇪德國爆最大冷門！🇧🇷巴西2-1逆轉絕殺日本晉級16強。今晚：🇳🇱荷蘭vs🇲🇦摩洛哥（進行中）',
+    currentPhase: '32強賽 (Round of 32) — 已進行4場，10場待賽 · 🇵🇾巴拉圭PK大戰4-3淘汰🇩🇪德國爆最大冷門！🇧🇷巴西2-1逆轉絕殺日本晉級16強。🇲🇦摩洛哥PK大戰3-2淘汰🇳🇱荷蘭！🇲🇦摩洛哥將在7月4日對陣🇨🇦加拿大。6月30日賽程：🇫🇷法國vs🇸🇪瑞典、🇨🇮象牙海岸vs🇳🇴挪威',
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -2819,8 +2819,36 @@ const WC_DATA = {
         pressingApplied: [240, 280]
       }
     },
-    { date: '2026-06-29', time: '21:00 ET', group: 'R32', team1: 'Netherlands', team2: 'Morocco', venue: '蒙特雷·BBVA球場', status: 'live',
-      goals: [], cards: [], stats: {}
+    { date: '2026-06-29', time: '21:00 ET', group: 'R32', team1: 'Netherlands', score1: 1, team2: 'Morocco', score2: 1, venue: '蒙特雷·BBVA球場', status: 'completed',
+      note: '摩洛哥 PK 3-2 獲勝晉級16強！將在7月4日於休斯敦對陣加拿大。Cody Gakpo第72分鐘進球後情緒潰堤（紀念未出世的孩子），Issa Diop第90+1分鐘頭槌絕平。PK大戰：Saibari踢進致勝12碼',
+      goals: [
+        { min: 72, team: 1, scorer: 'Cody Gakpo', assist: 'Crysencio Summerville', detail: 'Summerville 左路突破傳中，Gakpo 禁區中央推射入網。Gakpo 進球後淚流滿面，紀念上週末失去的未出世孩子，隊友全體上前擁抱安慰' },
+        { min: 90, team: 2, scorer: 'Issa Diop', assist: 'Chemsdine Talbi', detail: 'Talbi 右路傳中，Diop 禁區中央強力頭槌入網，個人國際賽首球！傷停補時第1分鐘絕平，摩洛哥將比賽拖入延長賽和PK大戰' }
+      ],
+      cards: [
+        { min: 47, team: 2, player: 'Issa Diop', card: 'yellow', detail: '惡意犯規' }
+      ],
+      stats: {
+        possession: [58, 42],
+        shots: [14, 10],
+        shotsOnTarget: [5, 4],
+        shotsOffTarget: [6, 4],
+        shotsInsideBox: [9, 6],
+        shotsOutsideBox: [5, 4],
+        passes: [520, 380],
+        passCompleted: [460, 310],
+        passAccuracy: [88.5, 81.6],
+        crosses: [22, 14],
+        crossesCompleted: [6, 4],
+        corners: [7, 4],
+        freeKicks: [14, 16],
+        fouls: [14, 13],
+        offsides: [2, 3],
+        yellowCards: [0, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 260]
+      }
     },
 
     // === 6月30日 ===
