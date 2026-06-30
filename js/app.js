@@ -310,6 +310,78 @@ function renderSlideshow(){
   setTimeout(initSlideshow, 100);
 }
 
+// ========== 首頁淘汰賽摘要 ==========
+function renderHomeKnockout(){
+  const el = document.getElementById('knockout-summary');
+  if(!el) return;
+  const ko = WC_DATA.knockout;
+  if(!ko) { el.style.display='none'; return; }
+  
+  const r32 = ko.rounds.R32;
+  const r32matches = WC_DATA.matches.filter(m => m.group === 'R32' && m.status === 'completed');
+  
+  // 晉級/淘汰列表
+  let advChips = '', eliChips = '';
+  if(r32.advanced) for(const t of r32.advanced) advChips += `<span class="hs-chip advanced">${fimgSm(t)} ${t}</span>`;
+  if(r32.eliminated) for(const t of r32.eliminated) eliChips += `<span class="hs-chip eliminated">${fimgSm(t)} ${t}</span>`;
+  
+  // 已完賽簡潔列表
+  let matchSummary = '';
+  for(const m of r32matches){
+    const adv = getAdvanceInfo(m);
+    const pk = getPK(m.team1, m.team2);
+    const scoreStr = pk ? `${m.score1}-${m.score2}（PK ${pk.score}）` : `${m.score1}-${m.score2}`;
+    matchSummary += `<div class="hs-match">
+      <span class="hs-winner">${fimgSm(adv.winner)} ${adv.winner}</span>
+      <span class="hs-score">${scoreStr}</span>
+      <span class="hs-loser">${fimgSm(adv.loser)} ${adv.loser}</span>
+    </div>`;
+  }
+  
+  // 下一場關鍵對決
+  let nextHtml = '';
+  const r16 = ko.rounds.R16;
+  if(r16.matchups && r16.matchups.length){
+    nextHtml = `<div class="hs-next">
+      <div class="hs-next-title">🔮 下一輪已知對決</div>`;
+    for(const mu of r16.matchups){
+      nextHtml += `<div class="hs-next-match">
+        <span>${fimgMd(mu.team1)} ${mu.team1}</span>
+        <span class="hs-vs">VS</span>
+        <span>${fimgMd(mu.team2)} ${mu.team2}</span>
+        <div class="hs-next-date">📅 ${fdFull(mu.date)}</div>
+      </div>`;
+    }
+    nextHtml += `</div>`;
+  }
+
+  el.innerHTML = `<div class="home-knockout-card">
+    <div class="home-knockout-header">
+      <div class="home-knockout-title">🏆 淘汰賽即時動態</div>
+      <a href="knockout.html" class="home-knockout-link">完整淘汰賽 →</a>
+    </div>
+    <p class="home-knockout-summary">${ko.summary}</p>
+    <div class="home-knockout-progress">
+      <div class="home-knockout-progress-label">${r32.name}：${r32.completedCount}/${r32.totalMatches} 場已賽</div>
+      <div class="ko-progress-bar"><div class="ko-progress-fill" style="width:${r32.totalMatches > 0 ? (r32.completedCount / r32.totalMatches * 100) : 0}%"></div></div>
+    </div>
+    <div class="home-knockout-body">
+      <div class="home-knockout-matches">
+        <div class="hs-section-label">✅ 已完賽</div>
+        ${matchSummary || '<div style="color:var(--text-muted);font-size:0.82rem;">尚無淘汰賽</div>'}
+      </div>
+      <div class="home-knockout-teams">
+        <div class="hs-section-label">✅ 晉級</div>
+        <div class="hs-chip-list">${advChips}</div>
+        <div class="hs-section-label" style="margin-top:10px;">❌ 淘汰</div>
+        <div class="hs-chip-list">${eliChips}</div>
+      </div>
+    </div>
+    ${nextHtml}
+  </div>`;
+  el.style.display = '';
+}
+
 // ========== 主頁 ==========
 function renderHome(){
   renderSlideshow();
@@ -335,6 +407,7 @@ function renderHome(){
     }
   }
   const el3=document.getElementById('groups-mini');
+  renderHomeKnockout();
   if(el3){
     let h=`<h2 class="section-title">🏆 分組積分一覽</h2><div class="gm-grid">`;
     for(const g of WC_DATA.groups){
@@ -417,32 +490,206 @@ function showMD(d){
   for(const m of ms)h+=mCard(m);h+=`</div>`;el.innerHTML=h;
 }
 
+// ========== 淘汰賽輔助函數 ==========
+
+// 取得 PK 結果（如有）
+function getPK(team1, team2){
+  const k = WC_DATA.knockout;
+  if(!k || !k.penalties) return null;
+  const key1 = team1+'-vs-'+team2, key2 = team2+'-vs-'+team1;
+  return k.penalties[key1] || k.penalties[key2] || null;
+}
+
+// 取得某場比賽的晉級 / 淘汰資訊
+function getAdvanceInfo(m){
+  if(m.status !== 'completed') return null;
+  const ko = WC_DATA.knockout;
+  if(!ko) return null;
+  const pk = getPK(m.team1, m.team2);
+  if(pk) return { winner: pk.winner, loser: pk.loser, pkScore: pk.score, isPK: true };
+  // No PK — winner is the team with more goals
+  const winner = m.score1 > m.score2 ? m.team1 : m.team2;
+  const loser = m.score1 > m.score2 ? m.team2 : m.team1;
+  return { winner, loser, isPK: false };
+}
+
+// 淘汰賽輪次狀態標籤
+function koStatusBadge(status){
+  const map = {
+    completed: '<span class="ko-status-badge completed">✅ 已完賽</span>',
+    in_progress: '<span class="ko-status-badge in-progress">🔴 進行中</span>',
+    upcoming: '<span class="ko-status-badge upcoming">⏳ 即將到來</span>'
+  };
+  return map[status] || '';
+}
+
+// Render 單場淘汰賽卡片（比 mCard 簡潔，重點在晉級/淘汰資訊）
+function koMatchCard(m){
+  const done = m.status === 'completed';
+  const live = m.status === 'live';
+  const score = done ? `${m.score1}-${m.score2}` : (live ? `${m.score1||0}-${m.score2||0}` : 'VS');
+  const pk = done ? getPK(m.team1, m.team2) : null;
+  const adv = done ? getAdvanceInfo(m) : null;
+
+  // 進球摘要（簡潔版）
+  let goalsStr = '';
+  if(m.goals && m.goals.length){
+    const gs = m.goals.map(g => {
+      const t = g.team === 1 ? m.team1 : m.team2;
+      return `${g.min}' ${fimgSm(t)} ${g.scorer}`;
+    }).join(' · ');
+    goalsStr = `<div class="ko-goals">⚽ ${gs}</div>`;
+  }
+
+  // 晉級/淘汰 徽章
+  let advHtml = '';
+  if(adv){
+    const pkLabel = pk ? `<span class="ko-pk-label">PK ${pk.score}</span>` : '';
+    advHtml = `<div class="ko-adv-row">
+      <div class="ko-advance">${fimgSm(adv.winner)} ${adv.winner} 晉級 ${pkLabel}</div>
+      <div class="ko-eliminate">❌ ${adv.loser} 淘汰</div>
+    </div>`;
+  }
+
+  return `<div class="ko-match-card">
+    <div class="ko-match-main">
+      <div class="ko-team ${adv && adv.winner === m.team1 ? 'ko-winner' : ''}">
+        ${fimgMd(m.team1)}<div class="ko-tn">${zh(m.team1)}</div>
+      </div>
+      <div class="ko-score-col">
+        <div class="ko-score ${done?'ko-done':live?'ko-live':'ko-upcoming'}">${score}</div>
+        <div class="ko-time">${fdFull(m.date)} ${m.time}</div>
+      </div>
+      <div class="ko-team right ${adv && adv.winner === m.team2 ? 'ko-winner' : ''}">
+        <div class="ko-tn">${zh(m.team2)}</div>${fimgMd(m.team2)}
+      </div>
+    </div>
+    ${goalsStr}
+    ${advHtml}
+    <div class="ko-venue">📍 ${m.venue}</div>
+    ${m.note ? `<div class="ko-note">⚡ ${m.note}</div>` : ''}
+  </div>`;
+}
+
 // ========== 淘汰賽頁 ==========
 function renderKnockout(){
   const el=document.getElementById('knockout-container');if(!el)return;
-  el.innerHTML=`
+  const ko = WC_DATA.knockout;
+  if(!ko) { el.innerHTML='<p style="padding:20px;color:var(--text-muted);">淘汰賽資料載入中...</p>'; return; }
+
+  const rounds = ko.rounds;
+  const r32matches = WC_DATA.matches.filter(m => m.group === 'R32');
+  const completed = r32matches.filter(m => m.status === 'completed');
+  const upcoming = r32matches.filter(m => m.status !== 'completed');
+
+  // ===== 1. Phase navigation =====
+  const roundKeys = ['R32','R16','QF','SF','Final'];
+  let phaseNav = '<div class="ko-phase-nav">';
+  for(const rk of roundKeys){
+    const r = rounds[rk];
+    const active = r.status === 'in_progress' ? ' active' : (r.status === 'completed' ? ' completed' : '');
+    phaseNav += `<div class="ko-phase-step${active}">
+      <div class="ko-phase-icon">${rk==='Final'?'🏆':rk}</div>
+      <div class="ko-phase-name">${r.name}</div>
+      <div class="ko-phase-status">${r.dateRange}</div>
+    </div>`;
+  }
+  phaseNav += '</div>';
+
+  // ===== 2. Current Phase Summary =====
+  const r32 = rounds.R32;
+  const progressPct = r32.totalMatches > 0 ? (r32.completedCount / r32.totalMatches * 100) : 0;
+  let html = `
 <h2 class="section-title">🏆 淘汰賽階段</h2>
-<p class="section-subtitle">48強 → 32強（小組前2名+最佳8個第3名）→ 16強 → 8強 → 4強 → 🏆決賽</p>
-<div style="background:var(--card);border:1px solid var(--card-border);border-radius:var(--radius);padding:40px 24px;text-align:center;box-shadow:var(--card-shadow);">
-  <div style="font-size:3.5rem;margin-bottom:14px;">🏆</div>
-  <h3 style="font-size:1.2rem;font-weight:700;color:var(--teal);margin-bottom:4px;">淘汰賽對戰組合將於小組賽結束後產生</h3>
-  <p style="color:var(--text-muted);font-size:0.85rem;">小組賽：6.11 — 6.27 ｜ 32強：6.28起 ｜ 決賽：7.19 @ 大都會人壽體育場</p>
-  <div class="knockout-grid">
-    <div class="knockout-step step-r32"><div class="kd">6/28</div><div class="kl">32強開賽</div></div>
-    <div class="knockout-step step-r16"><div class="kd">7/3</div><div class="kl">16強</div></div>
-    <div class="knockout-step step-qf"><div class="kd">7/10</div><div class="kl">8強</div></div>
-    <div class="knockout-step step-sf"><div class="kd">7/14</div><div class="kl">準決賽</div></div>
-    <div class="knockout-step step-final"><div class="kd">7/19</div><div class="kl">🏆決賽</div></div>
+<p class="section-subtitle">48強 → 32強（小組前2名+最佳8個第3名）→ 16強 → 8強 → 4強 → 🏆決賽 ｜ 目前：${ko.summary}</p>
+${phaseNav}
+<div class="ko-current-round">
+  <div class="ko-round-header">
+    <div class="ko-round-title">🔴 ${r32.name}（${r32.nameEn}）</div>
+    <div class="ko-round-stats">${koStatusBadge(r32.status)} 已賽 ${r32.completedCount}/${r32.totalMatches} 場</div>
   </div>
-</div>
-<div style="margin-top:20px;background:var(--card);border:1px solid var(--card-border);border-radius:var(--radius);padding:20px 24px;box-shadow:var(--card-shadow);">
-  <h3 style="font-size:0.95rem;font-weight:700;margin-bottom:10px;">🏟️ 主辦城市 16 座</h3>
-  <div class="city-grid">
-    <div>${fimgSm('USA')} 紐約/新澤西</div><div>${fimgSm('USA')} 洛杉磯</div><div>${fimgSm('USA')} 達拉斯</div><div>${fimgSm('USA')} 休斯頓</div>
-    <div>${fimgSm('USA')} 亞特蘭大</div><div>${fimgSm('USA')} 西雅圖</div><div>${fimgSm('USA')} 舊金山</div><div>${fimgSm('USA')} 費城</div>
-    <div>${fimgSm('USA')} 邁阿密</div><div>${fimgSm('USA')} 波士頓</div><div>${fimgSm('USA')} 堪薩斯城</div>
-    <div>${fimgSm('Mexico')} 墨西哥城</div><div>${fimgSm('Mexico')} 瓜達拉哈拉</div><div>${fimgSm('Mexico')} 蒙特雷</div>
-    <div>${fimgSm('Canada')} 多倫多</div><div>${fimgSm('Canada')} 溫哥華</div>
-  </div>
-</div>`;
+  <div class="ko-progress-bar"><div class="ko-progress-fill" style="width:${progressPct}%"></div></div>`;
+
+  // ===== 3. Completed matches =====
+  if(completed.length){
+    html += `<div class="ko-section-title">✅ 已完賽（${completed.length}場）</div>
+    <div class="ko-matches-list">`;
+    for(const m of completed) html += koMatchCard(m);
+    html += `</div>`;
+  }
+
+  // ===== 4. Advanced / Eliminated Teams =====
+  if(r32.advanced && r32.advanced.length){
+    html += `<div class="ko-teams-row">
+      <div class="ko-advanced-box">
+        <div class="ko-box-title">✅ 已晉級 16 強</div>
+        <div class="ko-team-list">`;
+    for(const t of r32.advanced){
+      html += `<span class="ko-team-chip advanced">${fimgSm(t)} ${t}</span>`;
+    }
+    html += `</div></div>
+      <div class="ko-eliminated-box">
+        <div class="ko-box-title">❌ 已淘汰</div>
+        <div class="ko-team-list">`;
+    for(const t of r32.eliminated){
+      html += `<span class="ko-team-chip eliminated">${fimgSm(t)} ${t}</span>`;
+    }
+    html += `</div></div></div>`;
+  }
+
+  // ===== 5. Upcoming matches =====
+  if(upcoming.length){
+    html += `<div class="ko-section-title">📅 剩餘賽程（${upcoming.length}場）</div>
+    <div class="ko-matches-list">`;
+    for(const m of upcoming) html += koMatchCard(m);
+    html += `</div>`;
+  }
+
+  // ===== 6. Next round preview =====
+  const r16 = rounds.R16;
+  if(r16.matchups && r16.matchups.length){
+    html += `<div class="ko-section-title">🔮 下一輪：${r16.name}（${r16.dateRange}）</div>
+    <div class="ko-next-round-grid">`;
+    for(const mu of r16.matchups){
+      html += `<div class="ko-next-match">
+        <div class="ko-next-teams">
+          <span>${fimgSm(mu.team1)} ${mu.team1}</span>
+          <span class="ko-vs">VS</span>
+          <span>${fimgSm(mu.team2)} ${mu.team2}</span>
+        </div>
+        <div class="ko-next-info">📅 ${fdFull(mu.date)} ${mu.time} ｜ 📍 ${mu.venue}</div>
+      </div>`;
+    }
+    html += `</div>`;
+  }
+
+  html += `</div>`;
+
+  // ===== 7. All rounds overview =====
+  html += `<div class="ko-all-rounds">
+    <div class="ko-section-title">📊 淘汰賽各輪次一覽</div>
+    <div class="ko-rounds-grid">`;
+  for(const rk of roundKeys){
+    const r = rounds[rk];
+    const dot = r.status === 'completed' ? '✅' : (r.status === 'in_progress' ? '🔴' : '⏳');
+    html += `<div class="ko-round-card ${r.status}">
+      <div class="ko-round-card-title">${dot} ${r.name}</div>
+      <div class="ko-round-card-meta">${r.dateRange} ｜ ${r.completedCount}/${r.totalMatches} 場</div>
+    </div>`;
+  }
+  html += `</div></div>`;
+
+  // ===== 8. Host cities =====
+  html += `<div class="ko-cities-section">
+    <div class="ko-section-title">🏟️ 主辦城市 16 座</div>
+    <div class="city-grid">
+      <div>${fimgSm('USA')} 紐約/新澤西</div><div>${fimgSm('USA')} 洛杉磯</div><div>${fimgSm('USA')} 達拉斯</div><div>${fimgSm('USA')} 休斯頓</div>
+      <div>${fimgSm('USA')} 亞特蘭大</div><div>${fimgSm('USA')} 西雅圖</div><div>${fimgSm('USA')} 舊金山</div><div>${fimgSm('USA')} 費城</div>
+      <div>${fimgSm('USA')} 邁阿密</div><div>${fimgSm('USA')} 波士頓</div><div>${fimgSm('USA')} 堪薩斯城</div>
+      <div>${fimgSm('Mexico')} 墨西哥城</div><div>${fimgSm('Mexico')} 瓜達拉哈拉</div><div>${fimgSm('Mexico')} 蒙特雷</div>
+      <div>${fimgSm('Canada')} 多倫多</div><div>${fimgSm('Canada')} 溫哥華</div>
+    </div>
+  </div>`;
+
+  el.innerHTML = html;
 }

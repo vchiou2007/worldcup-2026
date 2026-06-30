@@ -959,3 +959,538 @@ body {
   .fimg { width: 24px; height: 18px; }
   .fimg-lg { width: 28px; height: 21px; }
 }
+
+/* ============================================
+   淘汰賽階段 — KO Styles
+   ============================================ */
+
+/* ---- Phase Navigation ---- */
+.ko-phase-nav {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 22px;
+  overflow-x: auto;
+  padding: 4px 0;
+}
+.ko-phase-step {
+  flex: 1;
+  min-width: 80px;
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  padding: 10px 8px;
+  text-align: center;
+  transition: var(--transition);
+  opacity: 0.5;
+}
+.ko-phase-step.active {
+  border-color: var(--teal);
+  background: var(--teal-light);
+  opacity: 1;
+  box-shadow: 0 0 0 2px rgba(13,148,136,0.15);
+}
+.ko-phase-step.completed {
+  opacity: 0.7;
+  border-color: var(--green);
+}
+.ko-phase-icon {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--teal);
+  margin-bottom: 4px;
+}
+.ko-phase-step.completed .ko-phase-icon {
+  color: var(--green);
+}
+.ko-phase-name {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.ko-phase-status {
+  font-size: 0.6rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+/* ---- Current Round Section ---- */
+.ko-current-round {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  padding: 20px 22px;
+  margin-bottom: 18px;
+  box-shadow: var(--card-shadow);
+}
+.ko-round-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+.ko-round-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.ko-round-stats {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+
+/* ---- Progress Bar ---- */
+.ko-progress-bar {
+  height: 6px;
+  background: var(--bg-alt);
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 18px;
+}
+.ko-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--teal), var(--blue));
+  border-radius: 3px;
+  transition: width 0.5s ease;
+}
+
+/* ---- Status Badge ---- */
+.ko-status-badge {
+  font-size: 0.7rem;
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-weight: 600;
+  display: inline-block;
+}
+.ko-status-badge.completed { background: var(--green-bg); color: var(--green); }
+.ko-status-badge.in-progress { background: var(--red-bg); color: var(--red); }
+.ko-status-badge.upcoming { background: var(--gold-bg); color: var(--gold); }
+
+/* ---- Section Title ---- */
+.ko-section-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 20px 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--card-border);
+}
+
+/* ---- Match Cards for KO ---- */
+.ko-matches-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ko-match-card {
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  padding: 12px 14px;
+  background: var(--bg);
+  transition: var(--transition);
+}
+.ko-match-card:hover {
+  border-color: var(--teal);
+  box-shadow: var(--card-shadow);
+}
+.ko-match-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.ko-team {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+}
+.ko-team.right {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+.ko-team.ko-winner .ko-tn {
+  font-weight: 700;
+  color: var(--teal);
+}
+.ko-tn {
+  font-size: 0.82rem;
+  font-weight: 500;
+}
+.ko-score-col {
+  text-align: center;
+  min-width: 70px;
+}
+.ko-score {
+  font-size: 1.3rem;
+  font-weight: 800;
+  padding: 2px 10px;
+  border-radius: 8px;
+}
+.ko-score.ko-done {
+  color: var(--teal);
+  background: var(--teal-light);
+}
+.ko-score.ko-live {
+  color: var(--red);
+  background: var(--red-bg);
+  animation: pulse 1.5s ease-in-out infinite;
+}
+.ko-score.ko-upcoming {
+  color: var(--text-muted);
+  background: var(--bg-alt);
+  font-size: 0.9rem;
+}
+.ko-time {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+.ko-goals {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  margin: 8px 0 4px;
+  padding: 4px 8px;
+  background: rgba(234,179,8,0.06);
+  border-radius: 6px;
+  line-height: 1.5;
+}
+.ko-adv-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 0;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.ko-advance {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--green);
+}
+.ko-pk-label {
+  background: var(--gold-bg);
+  color: var(--gold);
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  margin-left: 4px;
+}
+.ko-eliminate {
+  font-size: 0.72rem;
+  color: var(--red);
+  font-weight: 500;
+}
+.ko-venue {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+.ko-note {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  margin-top: 6px;
+  padding: 6px 8px;
+  background: var(--teal-light);
+  border-radius: 6px;
+  line-height: 1.5;
+  border-left: 3px solid var(--teal);
+}
+
+/* ---- Teams Chips (Advanced/Eliminated) ---- */
+.ko-teams-row {
+  display: flex;
+  gap: 12px;
+  margin: 14px 0;
+  flex-wrap: wrap;
+}
+.ko-advanced-box, .ko-eliminated-box {
+  flex: 1;
+  min-width: 200px;
+  padding: 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--card-border);
+}
+.ko-advanced-box {
+  background: linear-gradient(135deg, rgba(22,163,74,0.04), rgba(22,163,74,0.08));
+  border-color: rgba(22,163,74,0.2);
+}
+.ko-eliminated-box {
+  background: linear-gradient(135deg, rgba(220,38,38,0.04), rgba(220,38,38,0.08));
+  border-color: rgba(220,38,38,0.2);
+}
+.ko-box-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.ko-team-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.ko-team-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 14px;
+  border: 1px solid var(--card-border);
+  background: var(--card);
+}
+.ko-team-chip.advanced { color: var(--green); border-color: rgba(22,163,74,0.25); }
+.ko-team-chip.eliminated { color: var(--red); border-color: rgba(220,38,38,0.25); }
+
+/* ---- Next Round Preview ---- */
+.ko-next-round-grid {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.ko-next-match {
+  flex: 1;
+  min-width: 200px;
+  padding: 14px;
+  background: linear-gradient(135deg, var(--teal-light), rgba(8,145,178,0.06));
+  border: 1px solid rgba(13,148,136,0.2);
+  border-radius: var(--radius-sm);
+  text-align: center;
+}
+.ko-next-teams {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+.ko-vs {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: var(--bg-alt);
+}
+.ko-next-info {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+}
+
+/* ---- All Rounds Overview ---- */
+.ko-all-rounds {
+  margin-top: 6px;
+}
+.ko-rounds-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 8px;
+}
+.ko-round-card {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius-sm);
+  padding: 12px;
+  text-align: center;
+  transition: var(--transition);
+}
+.ko-round-card.completed { border-color: rgba(22,163,74,0.25); }
+.ko-round-card.in_progress { border-color: var(--teal); background: var(--teal-light); }
+.ko-round-card-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.ko-round-card-meta {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+}
+
+/* ---- Cities Section ---- */
+.ko-cities-section {
+  margin-top: 20px;
+}
+
+/* ============================================
+   首頁 — 淘汰賽摘要
+   ============================================ */
+.home-knockout-card {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  padding: 20px 22px;
+  box-shadow: var(--card-shadow);
+  position: relative;
+  overflow: hidden;
+}
+.home-knockout-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--teal), var(--blue), var(--gold-light));
+}
+.home-knockout-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.home-knockout-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+.home-knockout-link {
+  font-size: 0.78rem;
+  color: var(--teal);
+  font-weight: 600;
+  text-decoration: none;
+}
+.home-knockout-link:hover {
+  text-decoration: underline;
+}
+.home-knockout-summary {
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+.home-knockout-progress {
+  margin-bottom: 14px;
+}
+.home-knockout-progress-label {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+.home-knockout-body {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.home-knockout-matches {
+  flex: 2;
+  min-width: 200px;
+}
+.home-knockout-teams {
+  flex: 1;
+  min-width: 160px;
+}
+.hs-section-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+}
+.hs-match {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 8px;
+  background: var(--bg);
+  border-radius: 6px;
+  margin-bottom: 4px;
+  font-size: 0.78rem;
+}
+.hs-winner {
+  color: var(--teal-dark);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.hs-score {
+  font-weight: 800;
+  color: var(--text);
+  font-size: 0.85rem;
+  min-width: 60px;
+  text-align: center;
+}
+.hs-loser {
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.hs-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.hs-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 12px;
+  border: 1px solid var(--card-border);
+  background: var(--bg);
+}
+.hs-chip.advanced { color: var(--green); border-color: rgba(22,163,74,0.3); }
+.hs-chip.eliminated { color: var(--red); border-color: rgba(220,38,38,0.3); }
+
+/* ---- Next Match in Home Summary ---- */
+.hs-next {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--card-border);
+}
+.hs-next-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 8px;
+}
+.hs-next-match {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px;
+  background: var(--teal-light);
+  border-radius: var(--radius-sm);
+  flex-wrap: wrap;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+.hs-vs {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  font-weight: 700;
+  background: var(--bg);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+.hs-next-date {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* ---- Responsive KO ---- */
+@media (max-width: 768px) {
+  .ko-phase-nav { gap: 4px; }
+  .ko-phase-step { min-width: 60px; padding: 8px 4px; }
+  .ko-phase-icon { font-size: 1rem; }
+  .ko-phase-name { font-size: 0.65rem; }
+  .ko-team.ko-winner .ko-tn { font-size: 0.75rem; }
+  .ko-teams-row { flex-direction: column; }
+  .home-knockout-body { flex-direction: column; }
+  .ko-match-main { gap: 6px; }
+  .ko-next-round-grid { flex-direction: column; }
+  .ko-rounds-grid { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); }
+}

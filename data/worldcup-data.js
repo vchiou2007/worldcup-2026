@@ -2970,5 +2970,66 @@ const WC_DATA = {
       { team: 'Ghana', played: 3, won: 1, drawn: 1, lost: 1, gf: 2, ga: 2, gd: 0, pts: 4 },
       { team: 'Panama', played: 3, won: 0, drawn: 0, lost: 3, gf: 0, ga: 4, gd: -4, pts: 0 }
     ]
+  },
+
+  // ===== 淘汰賽階段 =====
+  knockout: {
+    summary: '32強賽已進行4場 ✅  🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥率先晉級16強 ｜ ❌ 淘汰：🇩🇪德國、🇯🇵日本、🇿🇦南非、🇳🇱荷蘭',
+    
+    // PK 大戰結果
+    penalties: {
+      'Germany-vs-Paraguay': { winner: 'Paraguay', score: '4-3', loser: 'Germany' },
+      'Netherlands-vs-Morocco': { winner: 'Morocco', score: '3-2', loser: 'Netherlands' }
+    },
+
+    // 各輪次資訊
+    rounds: {
+      R32: {
+        order: 1,
+        name: '32強賽', nameEn: 'Round of 32',
+        status: 'in_progress',
+        totalMatches: 14,
+        completedCount: 4,
+        dateRange: '6月28日 — 7月3日',
+        eliminated: ['South Africa', 'Japan', 'Germany', 'Netherlands'],
+        advanced: ['Canada', 'Brazil', 'Paraguay', 'Morocco']
+      },
+      R16: {
+        order: 2,
+        name: '16強賽', nameEn: 'Round of 16',
+        status: 'upcoming',
+        totalMatches: 8,
+        completedCount: 0,
+        dateRange: '7月3日 — 7月6日',
+        matchups: [
+          { team1: 'Morocco', team2: 'Canada', date: '2026-07-04', venue: '休斯敦·NRG體育場', time: 'TBD' }
+        ]
+      },
+      QF: {
+        order: 3,
+        name: '8強賽', nameEn: 'Quarter-Finals',
+        status: 'upcoming',
+        totalMatches: 4,
+        completedCount: 0,
+        dateRange: '7月10日 — 7月11日'
+      },
+      SF: {
+        order: 4,
+        name: '準決賽', nameEn: 'Semi-Finals',
+        status: 'upcoming',
+        totalMatches: 2,
+        completedCount: 0,
+        dateRange: '7月14日 — 7月15日'
+      },
+      Final: {
+        order: 5,
+        name: '決賽', nameEn: 'Final',
+        status: 'upcoming',
+        totalMatches: 1,
+        completedCount: 0,
+        dateRange: '7月19日',
+        venue: '東盧瑟福·大都會人壽體育場'
+      }
+    }
   }
 };
