@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: '32強賽 (Round of 32) — 已進行7場，7場待賽 · 🇫🇷法國Mbappé梅開二度3-0淘汰🇸🇪瑞典晉級16強！🇨🇦加拿大Eustáquio第90+2分鐘絕殺🇿🇦南非！🇧🇷巴西Martinelli第90+5分鐘絕殺🇯🇵日本！🇵🇾巴拉圭PK大戰4-3淘汰🇩🇪德國爆最大冷門！🇲🇦摩洛哥PK大戰3-2淘汰🇳🇱荷蘭！🇳🇴挪威Haaland第86分鐘絕殺🇨🇮象牙海岸！今日（6/30）賽程：🇲🇽墨西哥vs🇪🇨厄瓜多（20:00 ET，延遲中）。法國將在7月4日16強賽對陣巴拉圭；加拿大vs摩洛哥同日上演；挪威vs巴西7月5日休斯敦大戰！',
+    currentPhase: '32強賽 (Round of 32) — 已進行8場，6場待賽 · 🇲🇽墨西哥Julián Quiñones和Raúl Jiménez進球2-0擊敗🇪🇨厄瓜多，主場球迷沸騰！Quiñones創紀錄連續三場世界盃進球！今日（7/1）賽程：🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭vs🇨🇩DR Congo（17:00 ET）、🇺🇸美國vs🇧🇦波赫（20:00 ET）、🇧🇪比利時vs🇸🇳塞內加爾（20:00 ET）。16強對陣出爐：🇫🇷法國vs🇵🇾巴拉圭（7/4費城）、🇨🇦加拿大vs🇲🇦摩洛哥（7/4休斯敦）、🇧🇷巴西vs🇳🇴挪威（7/5休斯敦）、🇲🇽墨西哥vs🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭/🇨🇩DR Congo勝方！',
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -2913,8 +2913,38 @@ const WC_DATA = {
         pressingApplied: [220, 250]
       }
     },
-    { date: '2026-06-30', time: '20:00 ET', group: 'R32', team1: 'Mexico', team2: 'Ecuador', venue: '墨西哥城·阿茲特克體育場', status: 'upcoming',
-      goals: [], cards: [], stats: {}
+    { date: '2026-06-30', time: '20:00 ET', group: 'R32', team1: 'Mexico', score1: 2, team2: 'Ecuador', score2: 0, venue: '墨西哥城·阿茲特克體育場', status: 'completed',
+      note: '因暴風雨延遲開賽約1小時。墨西哥40年來首次在世界盃淘汰賽獲勝！Quiñones連三場進球創紀錄，Jiménez錦上添花。墨西哥將在16強賽對陣英格蘭/DR Congo勝方',
+      goals: [
+        { min: 22, team: 1, scorer: 'Julián Quiñones', detail: '從中場帶球長驅直入，禁區內強力射門入網，個人連續三場世界盃進球創墨西哥紀錄' },
+        { min: 31, team: 1, scorer: 'Raúl Jiménez', assist: 'Julián Quiñones', detail: 'Quiñones 妙傳，Jiménez 禁區內果斷射門入網擴大領先，墨西哥世界盃淘汰賽40年來首勝' }
+      ],
+      cards: [
+        { min: 55, team: 2, player: 'Piero Hincapié', card: 'yellow', detail: '戰術犯規' },
+        { min: 78, team: 2, player: 'Gonzalo Plata', card: 'yellow', detail: '犯規' },
+        { min: 85, team: 2, player: 'Jackson Porozo', card: 'red', detail: '惡意犯規，直接紅牌' }
+      ],
+      stats: {
+        possession: [44, 56],
+        shots: [15, 8],
+        shotsOnTarget: [3, 1],
+        shotsOffTarget: [12, 7],
+        shotsInsideBox: [9, 4],
+        shotsOutsideBox: [6, 4],
+        passes: [420, 540],
+        passCompleted: [353, 459],
+        passAccuracy: [84, 85],
+        crosses: [12, 32],
+        crossesCompleted: [6, 2],
+        corners: [3, 8],
+        freeKicks: [10, 13],
+        fouls: [9, 12],
+        offsides: [0, 1],
+        yellowCards: [0, 2],
+        redCards: [0, 1],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 260]
+      }
     },
 
     // === 7月1日 ===
@@ -3029,7 +3059,7 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: '32強賽已進行7場 ✅  🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇫🇷法國率先晉級16強 ｜ ❌ 淘汰：🇩🇪德國、🇯🇵日本、🇿🇦南非、🇳🇱荷蘭、🇨🇮象牙海岸、🇸🇪瑞典',
+    summary: '32強賽已進行8場 ✅  🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇫🇷法國、🇲🇽墨西哥晉級16強 ｜ ❌ 淘汰：🇩🇪德國、🇯🇵日本、🇿🇦南非、🇳🇱荷蘭、🇨🇮象牙海岸、🇸🇪瑞典、🇪🇨厄瓜多',
     
     // PK 大戰結果
     penalties: {
@@ -3044,10 +3074,10 @@ const WC_DATA = {
         name: '32強賽', nameEn: 'Round of 32',
         status: 'in_progress',
         totalMatches: 14,
-        completedCount: 7,
+        completedCount: 8,
         dateRange: '6月28日 — 7月3日',
-        eliminated: ['South Africa', 'Japan', 'Germany', 'Netherlands', 'Ivory Coast', 'Sweden'],
-        advanced: ['Canada', 'Brazil', 'Paraguay', 'Morocco', 'Norway', 'France']
+        eliminated: ['South Africa', 'Japan', 'Germany', 'Netherlands', 'Ivory Coast', 'Sweden', 'Ecuador'],
+        advanced: ['Canada', 'Brazil', 'Paraguay', 'Morocco', 'Norway', 'France', 'Mexico']
       },
       R16: {
         order: 2,
@@ -3059,7 +3089,8 @@ const WC_DATA = {
         matchups: [
           { team1: 'Morocco', team2: 'Canada', date: '2026-07-04', venue: '休斯敦·NRG體育場', time: 'TBD' },
           { team1: 'Paraguay', team2: 'France', date: '2026-07-04', venue: '費城·林肯金融球場', time: 'TBD' },
-          { team1: 'Norway', team2: 'Brazil', date: '2026-07-05', venue: '休斯敦·NRG體育場', time: 'TBD' }
+          { team1: 'Norway', team2: 'Brazil', date: '2026-07-05', venue: '休斯敦·NRG體育場', time: 'TBD' },
+          { team1: 'Mexico', team2: 'England/DR Congo', date: '2026-07-05', venue: '墨西哥城·阿茲特克體育場', time: 'TBD' }
         ]
       },
       QF: {
