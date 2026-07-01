@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: '32強賽 (Round of 32) — 已進行8場，6場待賽 · 🇲🇽墨西哥Julián Quiñones和Raúl Jiménez進球2-0擊敗🇪🇨厄瓜多，主場球迷沸騰！Quiñones創紀錄連續三場世界盃進球！今日（7/1）賽程：🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭vs🇨🇩DR Congo（17:00 ET）、🇺🇸美國vs🇧🇦波赫（20:00 ET）、🇧🇪比利時vs🇸🇳塞內加爾（20:00 ET）。16強對陣出爐：🇫🇷法國vs🇵🇾巴拉圭（7/4費城）、🇨🇦加拿大vs🇲🇦摩洛哥（7/4休斯敦）、🇧🇷巴西vs🇳🇴挪威（7/5休斯敦）、🇲🇽墨西哥vs🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭/🇨🇩DR Congo勝方！',
+    currentPhase: '32強賽 (Round of 32) — 已進行7場，7場待賽 · 🇲🇽墨西哥Quiñones+Jiménez進球2-0擊敗🇪🇨厄瓜多，40年淘汰賽首勝！🇫🇷Mbappé梅開二度3-0大勝🇸🇪瑞典，18球超越Klose！🇳🇴Haaland第86分鐘絕殺🇨🇮象牙海岸！今日（7/1）賽程：🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭vs🇨🇩DR Congo（17:00 ET）、🇺🇸美國vs🇧🇦波赫（20:00 ET）、🇧🇪比利時vs🇸🇳塞內加爾（20:00 ET）。16強對陣出爐：🇫🇷法國vs🇵🇾巴拉圭（7/4費城）、🇨🇦加拿大vs🇲🇦摩洛哥（7/4休斯敦）、🇧🇷巴西vs🇳🇴挪威（7/5休斯敦）、🇲🇽墨西哥vs🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭/🇨🇩DR Congo勝方！',
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -3059,7 +3059,7 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: '32強賽已進行8場 ✅  🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇫🇷法國、🇲🇽墨西哥晉級16強 ｜ ❌ 淘汰：🇩🇪德國、🇯🇵日本、🇿🇦南非、🇳🇱荷蘭、🇨🇮象牙海岸、🇸🇪瑞典、🇪🇨厄瓜多',
+    summary: '32強賽已進行7場 ✅  🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇫🇷法國、🇲🇽墨西哥晉級16強 ｜ ❌ 淘汰：🇿🇦南非、🇯🇵日本、🇩🇪德國、🇳🇱荷蘭、🇨🇮象牙海岸、🇸🇪瑞典、🇪🇨厄瓜多 ｜ 今日（7/1）賽程：🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭vs🇨🇩DR Congo、🇺🇸美國vs🇧🇦波赫、🇧🇪比利時vs🇸🇳塞內加爾',
     
     // PK 大戰結果
     penalties: {
@@ -3074,7 +3074,7 @@ const WC_DATA = {
         name: '32強賽', nameEn: 'Round of 32',
         status: 'in_progress',
         totalMatches: 14,
-        completedCount: 8,
+        completedCount: 7,
         dateRange: '6月28日 — 7月3日',
         eliminated: ['South Africa', 'Japan', 'Germany', 'Netherlands', 'Ivory Coast', 'Sweden', 'Ecuador'],
         advanced: ['Canada', 'Brazil', 'Paraguay', 'Morocco', 'Norway', 'France', 'Mexico']

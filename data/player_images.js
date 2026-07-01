@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-07-01 更新：🇲🇽墨西哥2-0厄瓜多，Quiñones和Jiménez進球！墨西哥40年淘汰賽首勝） =====
+// ===== 輪播牆圖片（2026-07-01 09:00 更新：🇲🇽墨西哥2-0厄瓜多、🇫🇷法國3-0瑞典、🇳🇴挪威2-1象牙海岸 — 32強賽已進行7場） =====
 const HERO_IMAGES = [
-  // 🇲🇽⚽ Mexico 2-0 Ecuador — Julián Quiñones第22分鐘中場長驅直入強力射門破網！連續三場世界盃進球創墨西哥紀錄
+  // 🇲🇽⚽ Mexico 2-0 Ecuador — Julián Quiñones第22分鐘中場長驅直入強力射門破網！連續三場世界盃進球創墨西哥紀錄（AP Photo/Eduardo Verdugo）
   'https://cloudfront-us-east-1.images.arcpublishing.com/gmg/A6LXU7WYYFDB5L2WC27I3RHYYM.jpg',
-  // 🇲🇽⚽ Mexico 2-0 Ecuador — Raúl Jiménez第31分鐘接Quiñones妙傳禁區內射門入網，墨西哥40年來首次在世界盃淘汰賽贏球
+  // 🇲🇽⚽ Mexico 2-0 Ecuador — Raúl Jiménez第31分鐘接Quiñones妙傳禁區內射門入網（Reuters/Henry Romero）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/30/USAT/90761332007-usp-soccer-fifa-world-cup-2026-round-of-32-fr.jpg',
-  // 🇫🇷⚽ France 3-0 Sweden — Kylian Mbappé梅開二度第45分鐘短角球戰術內切破門！以18球世界盃進球超越Klose
+  // 🇫🇷⚽ France 3-0 Sweden — Kylian Mbappé梅開二度，以18球世界盃進球超越Klose，僅次於Messi的19球（AP Photo/Seth Wenig）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/30/USAT/90758110007-usatsi-29300661.jpg',
-  // 🇳🇴⚽ Norway 2-1 Ivory Coast — Erling Haaland第86分鐘門前推射絕殺！連續三場世界盃進球（5球），挪威88年來首次世界盃淘汰賽勝利
+  // 🇳🇴⚽ Norway 2-1 Ivory Coast — Erling Haaland第86分鐘門前推射絕殺！連三場進球共5球，挪威88年來世界盃淘汰賽首勝（Reuters/Kai Pfaffenbach）
   'https://i.cbc.ca/ais/bfc8762d-517f-4166-80c4-22038a439245,1782735336290/full/max/0/default.jpg',
-  // 🇨🇦⚽ Canada 1-0 South Africa — Stephen Eustáquio第90+2分鐘禁區外凌空抽射絕殺！加拿大史上首次晉級世界盃16強
+  // 🇨🇦⚽ Canada 1-0 South Africa — Stephen Eustáquio第90+2分鐘禁區外凌空抽射絕殺！加拿大史上首次晉級世界盃16強（CBC / Getty Images）
   'https://cdnph.upi.com/pv/upi/2bc049e8db7ab31a1f603b9c4ee11f1d/2026-FIFA-WORLD-CUP.jpg',
-  // 🇧🇷⚽ Brazil 2-1 Japan — Gabriel Martinelli第90+5分鐘門前推射絕殺！巴西逆轉晉級16強，將在7月5日對陣挪威
+  // 🇧🇷⚽ Brazil 2-1 Japan — Gabriel Martinelli第90+5分鐘門前推射絕殺！巴西逆轉晉級，將在7月5日休斯敦對陣挪威（AP Photo/Tony Gutierrez）
   'https://www.freep.com/gcdn/authoring/authoring-images/2026/06/30/USAT/90748348007-2283950562.jpg',
-  // 🏆⚽ 2026世界盃32強賽中段戰報：已確定晉級16強 — 🇫🇷法國、🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇲🇽墨西哥。7月4日16強賽程：🇲🇦摩洛哥vs🇨🇦加拿大（休斯敦）、🇵🇾巴拉圭vs🇫🇷法國（費城）；7月5日：🇳🇴挪威vs🇧🇷巴西（休斯敦）、🇲🇽墨西哥vs英格蘭/DR Congo勝方（墨西哥城）
+  // 🏆⚽ 2026世界盃32強賽戰報：已進行7場 ✅ 7隊晉級16強 — 🇫🇷法國（Mbappé梅開二度）、🇨🇦加拿大（Eustáquio絕殺）、🇧🇷巴西（Martinelli絕殺）、🇵🇾巴拉圭（PK淘汰德國）、🇲🇦摩洛哥（PK淘汰荷蘭）、🇳🇴挪威（Haaland絕殺）、🇲🇽墨西哥（Quiñones+Jiménez進球）。今日（7/1）賽程：🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭vs🇨🇩DR Congo·🇺🇸美國vs🇧🇦波赫·🇧🇪比利時vs🇸🇳塞內加爾！
   'https://cloudfront-us-east-1.images.arcpublishing.com/gmg/44KPZJBWVRHAHFK6WSTHTCKR7E.jpg'
 ];
 
 const HERO_CAPTIONS = [
   "⚽🇲🇽🇪🇨 Mexico 2-0 Ecuador — Julián Quiñones第22分鐘從中場帶球長驅直入禁區強力射門入網！個人連續三場世界盃進球創墨西哥紀錄，打破墨西哥40年淘汰賽不勝魔咒（AP Photo/Eduardo Verdugo）",
-  "⚽🇲🇽🇪🇨 Mexico 2-0 Ecuador — Raúl Jiménez第31分鐘接獲Quiñones妙傳禁區內果斷射門擴大領先！墨西哥2-0擊敗厄瓜多，主場8萬球迷沸騰。墨西哥將在7月5日16強賽對陣英格蘭或DR Congo（AP Photo/Silvia Izquierdo）",
+  "⚽🇲🇽🇪🇨 Mexico 2-0 Ecuador — Raúl Jiménez第31分鐘接獲Quiñones妙傳禁區內果斷射門擴大領先！墨西哥2-0擊敗厄瓜多，主場8萬球迷沸騰。墨西哥將在7月5日16強賽對陣英格蘭或DR Congo勝方（Reuters/Henry Romero）",
   "⚽🇫🇷🇸🇪 France 3-0 Sweden — Kylian Mbappé第45分鐘短角球戰術內切禁區強力射入遠角！Bradley Barcola第53分鐘擴大比分，Mbappé第74分鐘梅開二度，以18球世界盃進球超越Klose（16球），僅次於Messi（19球）。法國將在7月4日費城對陣🇵🇾巴拉圭（AP Photo/Seth Wenig）",
-  "⚽🇳🇴🇨🇮 Norway 2-1 Ivory Coast — Erling Haaland第86分鐘門前推射絕殺！Sander Berge右路傳中，Haaland連續三場世界盃進球（5球），挪威88年來首次世界盃淘汰賽勝利。將在7月5日休斯敦對陣🇧🇷巴西（AP Photo/Tony Gutierrez）",
+  "⚽🇳🇴🇨🇮 Norway 2-1 Ivory Coast — Erling Haaland第86分鐘門前推射絕殺！Sander Berge右路傳中，Haaland連續三場世界盃進球（本屆5球），挪威88年來首次世界盃淘汰賽勝利。將在7月5日休斯敦對陣🇧🇷巴西（Reuters/Kai Pfaffenbach）",
   "⚽🇨🇦🇿🇦 Canada 1-0 South Africa — Stephen Eustáquio第90+2分鐘禁區外凌空抽射絕殺！效力於洛杉磯FC的 Eustáquio在主場球迷面前完成歷史性進球。加拿大史上首次晉級世界盃16強，將在7月4日於休斯敦對陣🇲🇦摩洛哥（CBC / Getty Images）",
-  "⚽🇧🇷🇯🇵 Brazil 2-1 Japan — Gabriel Martinelli第90+5分鐘門前推射絕殺！Casemiro第56分鐘頭槌扳平。日本Sano第29分鐘率先破門但無力阻擋巴西反撲。巴西將在7月5日休斯敦對陣🇳🇴挪威（The Guardian / Carl Recine）",
-  "🏆⚽ 2026世界盃32強賽中段戰報：已確定晉級16強 — 🇫🇷法國（Mbappé梅開二度）、🇨🇦加拿大（Eustáquio絕殺）、🇧🇷巴西（Martinelli絕殺）、🇵🇾巴拉圭（PK爆冷淘汰德國）、🇲🇦摩洛哥（PK淘汰荷蘭）、🇳🇴挪威（Haaland絕殺）、🇲🇽墨西哥（Quiñones+Jiménez進球）。7月4日16強賽程：🇲🇦摩洛哥vs🇨🇦加拿大（休斯敦·NRG體育場）、🇵🇾巴拉圭vs🇫🇷法國（費城·林肯金融球場）。7月5日：🇳🇴挪威vs🇧🇷巴西（休斯敦）、🇲🇽墨西哥vs英格蘭/DR Congo勝方（墨西哥城）！（AP Photo）"
+  "⚽🇧🇷🇯🇵 Brazil 2-1 Japan — Gabriel Martinelli第90+5分鐘門前推射絕殺！Casemiro第56分鐘頭槌扳平。日本Sano第29分鐘率先破門但無力阻擋巴西反撲。巴西將在7月5日休斯敦對陣🇳🇴挪威（AP Photo/Tony Gutierrez）",
+  "🏆⚽ 2026世界盃32強賽戰報：已進行7場 ✅ 7隊晉級16強 — 🇫🇷法國（Mbappé梅開二度18球超越Klose）、🇨🇦加拿大（Eustáquio傷停絕殺）、🇧🇷巴西（Martinelli第95分鐘絕殺）、🇵🇾巴拉圭（PK 4-3爆冷淘汰德國）、🇲🇦摩洛哥（PK 3-2淘汰荷蘭）、🇳🇴挪威（Haaland第86分鐘絕殺）、🇲🇽墨西哥（Quiñones+Jiménez進球40年淘汰賽首勝）。今日（7/1）賽程：🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭vs🇨🇩DR Congo（17:00 ET·亞特蘭大）、🇺🇸美國vs🇧🇦波赫（20:00 ET·舊金山）、🇧🇪比利時vs🇸🇳塞內加爾（20:00 ET·西雅圖）！（AP/Reuters）"
 ];
