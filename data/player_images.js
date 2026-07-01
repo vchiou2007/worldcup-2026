@@ -110,8 +110,10 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-06-30 更新：🇨🇦加拿大絕殺晉級！🇧🇷巴西逆轉日本！🇵🇾巴拉圭PK爆冷淘汰🇩🇪德國！🇲🇦摩洛哥PK淘汰🇳🇱荷蘭！🇳🇴挪威Haaland絕殺🇨🇮象牙海岸！今日兩場32強賽開踢） =====
+// ===== 輪播牆圖片（2026-06-30 更新：🇫🇷法國3-0瑞典Mbappé梅開二度晉級！🇨🇦🇧🇷🇵🇾🇲🇦🇳🇴法國同日晉級16強） =====
 const HERO_IMAGES = [
+  // 🇫🇷⚽ France 3-0 Sweden — Kylian Mbappé第45分鐘短角球戰術內切破門！Olise兩次助攻，Mbappé以18球世界盃進球僅次於Messi的19球。法國將在7月4日費城對陣巴拉圭
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/30/USAT/90761332007-usp-soccer-fifa-world-cup-2026-round-of-32-fr.jpg',
   // 🇨🇦⚽ Canada 1-0 South Africa — Stephen Eustáquio第90+2分鐘禁區外凌空抽射絕殺！加拿大史上首次晉級世界盃16強，全隊在SoFi體育場狂奔慶祝
   'https://i.cbc.ca/ais/bfc8762d-517f-4166-80c4-22038a439245,1782735336290/full/max/0/default.jpg',
   // 🇧🇷⚽ Brazil 2-1 Japan — Gabriel Martinelli第90+5分鐘門前推射絕殺！Casemiro第56分鐘頭槌扳平，巴西逆轉晉級16強將對陣巴拉圭
@@ -122,18 +124,16 @@ const HERO_IMAGES = [
   'https://www.freep.com/gcdn/authoring/authoring-images/2026/06/30/USAT/90748348007-2283950562.jpg',
   // 🇳🇴⚽ Norway 2-1 Ivory Coast — Erling Haaland第86分鐘門前推射絕殺！連續三場世界盃進球，挪威88年來首次世界盃淘汰賽勝利，將在7月5日對陣巴西（AP Photo/Tony Gutierrez）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/06/30/USAT/90758110007-usatsi-29300661.jpg',
-  // 🇳🇴🏆 Antonio Nusa第39分鐘禁區外弧線球破門先馳得點！Amad Diallo替補上場個人盤帶扳平。Haaland第5球追趕Messi金靴獎（Reuters/Cal Sport Media）
-  'https://www.gannett-cdn.com/authoring/authoring-images/2026/06/30/USAT/90753208007-screen-shot-1782835573404.jpg',
-  // 🏆⚽ 2026世界盃32強賽中段戰報：已確定晉級16強 — 🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威。今日賽程：🇫🇷法國vs🇸🇪瑞典（17:00 ET）、🇲🇽墨西哥vs🇪🇨厄瓜多（20:00 ET）。挪威將在7月5日16強賽對陣巴西！
+  // 🏆⚽ 2026世界盃32強賽中段戰報：已確定晉級16強 — 🇫🇷法國、🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威。今日賽程：🇲🇽墨西哥vs🇪🇨厄瓜多（20:00 ET，延遲中）。法國將在7月4日16強賽對陣巴拉圭；加拿大vs摩洛哥同日上演；挪威vs巴西7月5日休斯敦大戰！
   'https://cloudfront-us-east-1.images.arcpublishing.com/gmg/44KPZJBWVRHAHFK6WSTHTCKR7E.jpg'
 ];
 
 const HERO_CAPTIONS = [
+  "⚽🇫🇷🇸🇪 France 3-0 Sweden — Kylian Mbappé第45分鐘短角球戰術內切禁區強力射入遠角！Bradley Barcola第53分鐘接替補Olise妙傳擴大比分，Mbappé第74分鐘再次接獲Olise助攻掃射入網梅開二度。Mbappé以18球世界盃進球超越Klose（16球），僅次於Messi（19球）。法國將在7月4日費城林肯金融球場對陣🇵🇾巴拉圭（AP Photo/Seth Wenig / Reuters/John Sibley）",
   "⚽🇨🇦🇿🇦 Canada 1-0 South Africa — Stephen Eustáquio第90+2分鐘禁區外凌空抽射絕殺！效力於洛杉磯FC的 Eustáquio在主場球迷面前完成歷史性進球。加拿大史上首次晉級世界盃16強，將在7月4日於休斯敦對陣🇲🇦摩洛哥（CBC / Getty Images）",
-  "⚽🇧🇷🇯🇵 Brazil 2-1 Japan — Gabriel Martinelli第90+5分鐘門前推射絕殺！Casemiro第56分鐘頭槌扳平。日本Sano第29分鐘率先破門但無力阻擋巴西反撲。巴西將在7月4日費城對陣🇵🇾巴拉圭（The Guardian / Carl Recine）",
+  "⚽🇧🇷🇯🇵 Brazil 2-1 Japan — Gabriel Martinelli第90+5分鐘門前推射絕殺！Casemiro第56分鐘頭槌扳平。日本Sano第29分鐘率先破門但無力阻擋巴西反撲。巴西將在7月5日休斯敦對陣🇳🇴挪威（The Guardian / Carl Recine）",
   "⚽🇵🇾🇩🇪 Paraguay 1-1 Germany (4-3 PK) — Julio Enciso第42分鐘頭槌破門先馳得點！Kai Havertz第54分鐘扳平。巴拉圭爆最大冷門PK大戰4-3淘汰四屆冠軍德國，德國連續三屆世界盃慘淡出局（AP Photo/Petr David Josek）",
   "⚽🇲🇦🇳🇱 Morocco 1-1 Netherlands (3-2 PK) — Ismael Saibari踢進致勝12碼狂奔慶祝！PK大戰：Koopmeiners ✅ > El Aynaoui ❌（橫樑）> Kluivert ❌ > Rahimi ✅ > Weghorst ✅ > Talbi ✅ > Timber ❌ > Saibari ✅。摩洛哥連兩屆晉級淘汰賽第二輪（Carl Recine/Getty Images）",
-  "⚽🇳🇴🇨🇮 Norway 2-1 Ivory Coast — Erling Haaland第86分鐘門前推射絕殺！Sander Berge右路傳中，Oscar Bobb斷球策動攻勢。Haaland連續三場世界盃進球（5球），成爲史上第三位世界盃前三場先發皆有進球的球員，60球創最快達標紀錄！挪威將在7月5日休斯敦對陣🇧🇷巴西（AP Photo/Tony Gutierrez）",
-  "🇳🇴⚽ Antonio Nusa第39分鐘禁區外弧線球射入左上角先馳得點！曼聯前鋒Amad Diallo替補上場個人盤帶突破數人勁射扳平。🇳🇴挪威首次世界盃淘汰賽勝利，Haaland賽後戴維京頭盔慶祝，將面對🇧🇷巴西的超級對決（Reuters/Cal Sport Media via AP Images）",
-  "🏆⚽ 2026世界盃32強賽中段戰報：已確定晉級16強 — 🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威。今日（6/30）賽程：🇫🇷法國vs🇸🇪瑞典（東盧瑟福·大都會人壽體育場·17:00 ET）、🇲🇽墨西哥vs🇪🇨厄瓜多（墨西哥城·阿茲特克體育場·20:00 ET）。🇳🇴挪威將在7月5日休斯敦16強賽對陣🇧🇷巴西！（AP Photo/Dolores Ochoa）"
+  "⚽🇳🇴🇨🇮 Norway 2-1 Ivory Coast — Erling Haaland第86分鐘門前推射絕殺！Sander Berge右路傳中，Oscar Bobb斷球策動攻勢。Haaland連續三場世界盃進球（5球），成爲史上第三位世界盃前三場先發皆有進球的球員。挪威將在7月5日休斯敦對陣🇧🇷巴西（AP Photo/Tony Gutierrez）",
+  "🏆⚽ 2026世界盃32強賽中段戰報：已確定晉級16強 — 🇫🇷法國（Mbappé梅開二度）、🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭（PK爆冷淘汰德國）、🇲🇦摩洛哥（PK淘汰荷蘭）、🇳🇴挪威（Haaland絕殺）。7月4日16強賽程：🇲🇦摩洛哥vs🇨🇦加拿大（休斯敦·NRG體育場）、🇵🇾巴拉圭vs🇫🇷法國（費城·林肯金融球場）。7月5日：🇳🇴挪威vs🇧🇷巴西（休斯敦）！（AP Photo）"
 ];

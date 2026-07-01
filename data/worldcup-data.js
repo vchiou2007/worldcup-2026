@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: '32強賽 (Round of 32) — 已進行5場，9場待賽 · 🇨🇦加拿大Eustáquio第90+2分鐘絕殺🇿🇦南非晉級16強！🇧🇷巴西Martinelli第90+5分鐘絕殺🇯🇵日本逆轉晉級！🇵🇾巴拉圭PK大戰4-3淘汰🇩🇪德國爆最大冷門！🇲🇦摩洛哥PK大戰3-2淘汰🇳🇱荷蘭！🇳🇴挪威Haaland第86分鐘絕殺🇨🇮象牙海岸晉級！今日（6/30）賽程：🇫🇷法國vs🇸🇪瑞典（17:00 ET）、🇲🇽墨西哥vs🇪🇨厄瓜多（20:00 ET）。挪威將在7月5日16強賽對陣巴西！',
+    currentPhase: '32強賽 (Round of 32) — 已進行7場，7場待賽 · 🇫🇷法國Mbappé梅開二度3-0淘汰🇸🇪瑞典晉級16強！🇨🇦加拿大Eustáquio第90+2分鐘絕殺🇿🇦南非！🇧🇷巴西Martinelli第90+5分鐘絕殺🇯🇵日本！🇵🇾巴拉圭PK大戰4-3淘汰🇩🇪德國爆最大冷門！🇲🇦摩洛哥PK大戰3-2淘汰🇳🇱荷蘭！🇳🇴挪威Haaland第86分鐘絕殺🇨🇮象牙海岸！今日（6/30）賽程：🇲🇽墨西哥vs🇪🇨厄瓜多（20:00 ET，延遲中）。法國將在7月4日16強賽對陣巴拉圭；加拿大vs摩洛哥同日上演；挪威vs巴西7月5日休斯敦大戰！',
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -2852,8 +2852,36 @@ const WC_DATA = {
     },
 
     // === 6月30日 ===
-    { date: '2026-06-30', time: '17:00 ET', group: 'R32', team1: 'France', team2: 'Sweden', venue: '東盧瑟福·大都會人壽體育場', status: 'upcoming',
-      goals: [], cards: [], stats: {}
+    { date: '2026-06-30', time: '17:00 ET', group: 'R32', team1: 'France', score1: 3, team2: 'Sweden', score2: 0, venue: '東盧瑟福·大都會人壽體育場', status: 'completed',
+      note: '法國晉級16強！Mbappe梅開二度以18球世界盃進球超越Klose，僅次於Messi的19球。將在7月4日費城對陣巴拉圭',
+      goals: [
+        { min: 45, team: 1, scorer: 'Kylian Mbappé', detail: '短角球戰術後左路內切禁區，強力射入遠角，法國1-0領先' },
+        { min: 53, team: 1, scorer: 'Bradley Barcola', assist: 'Michael Olise', detail: 'Olise 妙傳禁區，Barcola 強力射門入網，2-0' },
+        { min: 74, team: 1, scorer: 'Kylian Mbappé', assist: 'Michael Olise', detail: 'Olise 再次助攻，Mbappé 禁區內掃射入網梅開二度，世界盃第18球！' }
+      ],
+      cards: [
+      ],
+      stats: {
+        possession: [60, 40],
+        shots: [18, 6],
+        shotsOnTarget: [7, 1],
+        shotsOffTarget: [8, 3],
+        shotsInsideBox: [11, 4],
+        shotsOutsideBox: [7, 2],
+        passes: [530, 380],
+        passCompleted: [470, 310],
+        passAccuracy: [88.7, 81.6],
+        crosses: [18, 12],
+        crossesCompleted: [6, 3],
+        corners: [7, 2],
+        freeKicks: [12, 14],
+        fouls: [12, 10],
+        offsides: [2, 3],
+        yellowCards: [0, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [220, 250]
+      }
     },
     { date: '2026-06-30', time: '17:00 ET', group: 'R32', team1: 'Ivory Coast', score1: 1, team2: 'Norway', score2: 2, venue: '達拉斯·AT&T體育場', status: 'completed',
       note: '挪威晉級16強！Haaland第86分鐘絕殺，將在7月5日於休斯敦對陣巴西',
@@ -3001,7 +3029,7 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: '32強賽已進行5場 ✅  🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威率先晉級16強 ｜ ❌ 淘汰：🇩🇪德國、🇯🇵日本、🇿🇦南非、🇳🇱荷蘭、🇨🇮象牙海岸',
+    summary: '32強賽已進行7場 ✅  🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇫🇷法國率先晉級16強 ｜ ❌ 淘汰：🇩🇪德國、🇯🇵日本、🇿🇦南非、🇳🇱荷蘭、🇨🇮象牙海岸、🇸🇪瑞典',
     
     // PK 大戰結果
     penalties: {
@@ -3016,10 +3044,10 @@ const WC_DATA = {
         name: '32強賽', nameEn: 'Round of 32',
         status: 'in_progress',
         totalMatches: 14,
-        completedCount: 5,
+        completedCount: 7,
         dateRange: '6月28日 — 7月3日',
-        eliminated: ['South Africa', 'Japan', 'Germany', 'Netherlands', 'Ivory Coast'],
-        advanced: ['Canada', 'Brazil', 'Paraguay', 'Morocco', 'Norway']
+        eliminated: ['South Africa', 'Japan', 'Germany', 'Netherlands', 'Ivory Coast', 'Sweden'],
+        advanced: ['Canada', 'Brazil', 'Paraguay', 'Morocco', 'Norway', 'France']
       },
       R16: {
         order: 2,
@@ -3030,7 +3058,7 @@ const WC_DATA = {
         dateRange: '7月3日 — 7月6日',
         matchups: [
           { team1: 'Morocco', team2: 'Canada', date: '2026-07-04', venue: '休斯敦·NRG體育場', time: 'TBD' },
-          { team1: 'Paraguay', team2: 'Brazil', date: '2026-07-04', venue: '費城·林肯金融球場', time: 'TBD' },
+          { team1: 'Paraguay', team2: 'France', date: '2026-07-04', venue: '費城·林肯金融球場', time: 'TBD' },
           { team1: 'Norway', team2: 'Brazil', date: '2026-07-05', venue: '休斯敦·NRG體育場', time: 'TBD' }
         ]
       },
