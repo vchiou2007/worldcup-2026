@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: '32強賽 (Round of 32) — 已進行7場，7場待賽 · 🇲🇽墨西哥Quiñones+Jiménez進球2-0擊敗🇪🇨厄瓜多，40年淘汰賽首勝！🇫🇷Mbappé梅開二度3-0大勝🇸🇪瑞典，18球超越Klose！🇳🇴Haaland第86分鐘絕殺🇨🇮象牙海岸！今日（7/1）賽程：🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭vs🇨🇩DR Congo（17:00 ET）、🇺🇸美國vs🇧🇦波赫（20:00 ET）、🇧🇪比利時vs🇸🇳塞內加爾（20:00 ET）。16強對陣出爐：🇫🇷法國vs🇵🇾巴拉圭（7/4費城）、🇨🇦加拿大vs🇲🇦摩洛哥（7/4休斯敦）、🇧🇷巴西vs🇳🇴挪威（7/5休斯敦）、🇲🇽墨西哥vs🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭/🇨🇩DR Congo勝方！',
+    currentPhase: '32強賽 (Round of 32) — 已進行9場，7場待賽 · 🇧🇪比利時Tielemans梅開二度3-2絕殺逆轉🇸🇳塞內加爾（延長賽）！🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭Kane梅開二度2-1逆轉🇨🇩DR Congo，Kane世界盃13球超越Pelé！🇲🇽墨西哥將在7/6墨西哥城16強賽對陣英格蘭。今日（7/1）續賽：🇺🇸美國vs🇧🇦波赫（20:00 ET）。比利時將在16強賽對陣🇺🇸美國/🇧🇦波赫勝方。16強對陣：🇫🇷法國vs🇵🇾巴拉圭（7/4費城）、🇨🇦加拿大vs🇲🇦摩洛哥（7/4休斯敦）、🇧🇷巴西vs🇳🇴挪威（7/5休斯敦）、🇲🇽墨西哥vs🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭（7/5墨西哥城）！',
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -2948,14 +2948,75 @@ const WC_DATA = {
     },
 
     // === 7月1日 ===
-    { date: '2026-07-01', time: '17:00 ET', group: 'R32', team1: 'England', team2: 'DR Congo', venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'upcoming',
-      goals: [], cards: [], stats: {}
+    { date: '2026-07-01', time: '12:00 ET', group: 'R32', team1: 'England', score1: 2, team2: 'DR Congo', score2: 1, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'completed',
+      note: '英格蘭晉級16強！Harry Kane第75分鐘頭槌扳平、第86分鐘勁射梅開二度，以13球超越Pelé。Brian Cipenga第7分鐘為DR Congo首開紀錄。英格蘭將在7月6日於墨西哥城阿茲特克體育場對陣🇲🇽墨西哥',
+      goals: [
+        { min: 7, team: 2, scorer: 'Brian Cipenga', detail: 'Chancel Mbemba 頭球後蹭，Cipenga 禁區左側無人防守下低射破門，個人國際賽首球！DR Congo 世界盃淘汰賽歷史首球' },
+        { min: 75, team: 1, scorer: 'Harry Kane', assist: 'Anthony Gordon', detail: 'Gordon 左路傳中，Kane 禁區中央頭槌頂入左上角，英格蘭扳平比分！Kane 世界盃第12球' },
+        { min: 86, team: 1, scorer: 'Harry Kane', assist: 'Elliot Anderson', detail: 'Anderson 直塞，Kane 禁區右側右腳勁射入網！Kane 梅開二度，世界盃累計13球超越 Pelé（12球）' }
+      ],
+      cards: [
+      ],
+      stats: {
+        possession: [60, 40],
+        shots: [16, 7],
+        shotsOnTarget: [7, 2],
+        shotsOffTarget: [6, 3],
+        shotsInsideBox: [13, 2],
+        shotsOutsideBox: [3, 5],
+        passes: [517, 365],
+        passCompleted: [468, 299],
+        passAccuracy: [90.5, 81.9],
+        crosses: [43, 13],
+        crossesCompleted: [9, 2],
+        corners: [5, 3],
+        freeKicks: [16, 10],
+        fouls: [10, 12],
+        offsides: [0, 4],
+        yellowCards: [1, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [220, 240]
+      }
     },
     { date: '2026-07-01', time: '20:00 ET', group: 'R32', team1: 'USA', team2: 'Bosnia and Herzegovina', venue: '舊金山·李維斯體育場', status: 'upcoming',
       goals: [], cards: [], stats: {}
     },
-    { date: '2026-07-01', time: '20:00 ET', group: 'R32', team1: 'Belgium', team2: 'Senegal', venue: '西雅圖·流明球場', status: 'upcoming',
-      goals: [], cards: [], stats: {}
+    { date: '2026-07-01', time: '20:00 ET', group: 'R32', team1: 'Belgium', score1: 3, team2: 'Senegal', score2: 2, venue: '西雅圖·流明球場', status: 'completed',
+      note: '比利時晉級16強！Youri Tielemans在120+5分鐘罰進12碼完成驚天逆轉！Senegal第24分鐘Diarra、第51分鐘Sarr兩球領先，Lukaku第86分鐘追回一球，Tielemans第89分鐘頭槌扳平。比利時將在16強賽對陣🇺🇸美國或🇧🇦波赫勝方',
+      goals: [
+        { min: 24, team: 2, scorer: 'Habib Diarra', detail: '禁區內射門入網，Senegal率先破門' },
+        { min: 51, team: 2, scorer: 'Ismaila Sarr', assist: 'Sadio Mané', detail: 'Mané妙傳，Sarr禁區內冷靜推射入網，2-0' },
+        { min: 86, team: 1, scorer: 'Romelu Lukaku', assist: 'Leandro Trossard', detail: 'Trossard禁區邊緣傳球，Lukaku門前搶點破門追回一球' },
+        { min: 89, team: 1, scorer: 'Youri Tielemans', assist: 'Leandro Trossard', detail: 'Trossard開出角球，Tielemans禁區中央頭槌破網扳平比分！' },
+        { min: 120, team: 1, scorer: 'Youri Tielemans', detail: '12碼罰球 — Lamine Camara禁區內犯規，VAR確認後判罰，Tielemans冷靜射入左下角絕殺！' }
+      ],
+      cards: [
+        { min: 64, team: 1, player: 'Brandon Mechele', card: 'yellow', detail: '戰術犯規阻止反擊' },
+        { min: 109, team: 1, player: 'Leandro Trossard', card: 'yellow', detail: '犯規' },
+        { min: 120, team: 2, player: 'Lamine Camara', card: 'yellow', detail: '禁區內犯規導致罰球' }
+      ],
+      stats: {
+        possession: [52, 48],
+        shots: [19, 19],
+        shotsOnTarget: [5, 5],
+        shotsOffTarget: [14, 14],
+        shotsInsideBox: [12, 12],
+        shotsOutsideBox: [7, 7],
+        passes: [699, 639],
+        passCompleted: [602, 536],
+        passAccuracy: [86.1, 83.9],
+        crosses: [26, 22],
+        crossesCompleted: [7, 5],
+        corners: [4, 2],
+        freeKicks: [14, 12],
+        fouls: [22, 12],
+        offsides: [2, 2],
+        yellowCards: [2, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [230, 250]
+      }
     },
 
     // === 7月2日 ===
@@ -3059,7 +3120,7 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: '32強賽已進行7場 ✅  🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇫🇷法國、🇲🇽墨西哥晉級16強 ｜ ❌ 淘汰：🇿🇦南非、🇯🇵日本、🇩🇪德國、🇳🇱荷蘭、🇨🇮象牙海岸、🇸🇪瑞典、🇪🇨厄瓜多 ｜ 今日（7/1）賽程：🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭vs🇨🇩DR Congo、🇺🇸美國vs🇧🇦波赫、🇧🇪比利時vs🇸🇳塞內加爾',
+    summary: '32強賽已進行8場 ✅  🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇫🇷法國、🇲🇽墨西哥、🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭晉級16強 ｜ ❌ 淘汰：🇿🇦南非、🇯🇵日本、🇩🇪德國、🇳🇱荷蘭、🇨🇮象牙海岸、🇸🇪瑞典、🇪🇨厄瓜多、🇨🇩DR Congo ｜ 今日（7/1）續賽：🇺🇸美國vs🇧🇦波赫、🇧🇪比利時vs🇸🇳塞內加爾',
     
     // PK 大戰結果
     penalties: {
@@ -3074,10 +3135,10 @@ const WC_DATA = {
         name: '32強賽', nameEn: 'Round of 32',
         status: 'in_progress',
         totalMatches: 14,
-        completedCount: 7,
+        completedCount: 8,
         dateRange: '6月28日 — 7月3日',
-        eliminated: ['South Africa', 'Japan', 'Germany', 'Netherlands', 'Ivory Coast', 'Sweden', 'Ecuador'],
-        advanced: ['Canada', 'Brazil', 'Paraguay', 'Morocco', 'Norway', 'France', 'Mexico']
+        eliminated: ['South Africa', 'Japan', 'Germany', 'Netherlands', 'Ivory Coast', 'Sweden', 'Ecuador', 'DR Congo'],
+        advanced: ['Canada', 'Brazil', 'Paraguay', 'Morocco', 'Norway', 'France', 'Mexico', 'England']
       },
       R16: {
         order: 2,
@@ -3090,7 +3151,7 @@ const WC_DATA = {
           { team1: 'Morocco', team2: 'Canada', date: '2026-07-04', venue: '休斯敦·NRG體育場', time: 'TBD' },
           { team1: 'Paraguay', team2: 'France', date: '2026-07-04', venue: '費城·林肯金融球場', time: 'TBD' },
           { team1: 'Norway', team2: 'Brazil', date: '2026-07-05', venue: '休斯敦·NRG體育場', time: 'TBD' },
-          { team1: 'Mexico', team2: 'England/DR Congo', date: '2026-07-05', venue: '墨西哥城·阿茲特克體育場', time: 'TBD' }
+          { team1: 'Mexico', team2: 'England', date: '2026-07-05', venue: '墨西哥城·阿茲特克體育場', time: 'TBD' }
         ]
       },
       QF: {
