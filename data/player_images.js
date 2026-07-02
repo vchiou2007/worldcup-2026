@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-07-01 21:28 更新：🇧🇪比利時Tielemans罰球絕殺3-2逆轉🇸🇳塞內加爾！🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭Kane梅開二度2-1逆轉🇨🇩DR Congo — 32強賽已進行9場） =====
+// ===== 輪播牆圖片（2026-07-02 09:00 更新：🇺🇸美國Balogun進球+紅牌、Tillman自由球破門2-0擊敗🇧🇦波赫晉級16強！16強對陣出爐：🇺🇸美國vs🇧🇪比利時（7/6西雅圖）） =====
 const HERO_IMAGES = [
-  // 🇧🇪⚽ Belgium 3-2 Senegal (AET) — Youri Tielemans第125分鐘罰進12碼完成驚天逆轉！比利時從0-2落後到3-2絕殺（Getty Images/Usa Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/01/USAT/90776420007-gty-2284243508.jpg',
-  // 🇧🇪⚽ Belgium 3-2 Senegal — Youri Tielemans第89分鐘頭槌扳平比分！Trossard開出角球，Tielemans禁區中央頭槌破網（Getty Images/Usa Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/01/USAT/90776247007-gty-2284242948.jpg',
-  // 🇧🇪⚽ Belgium 3-2 Senegal — Romelu Lukaku第86分鐘門前搶點破門吹響反攻號角！Lukaku替補上場建功（AP Photo/Manu Fernandez via Usa Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/01/USAT/90776308007-usp-soccer-fifa-world-cup-2026-round-of-32-be.jpg',
-  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿⚽ England 2-1 DR Congo — Harry Kane第75分鐘頭槌扳平！Anthony Gordon傳中，Kane禁區中央頭槌頂入左上角，世界盃第12球（Reuters/Claudia Greco via Usa Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/01/USAT/90771510007-2283647973.jpg',
-  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿⚽ England 2-1 DR Congo — Harry Kane第86分鐘勁射梅開二度！以13球超越Pelé（12球），英格蘭逆轉晉級16強將在7/5墨西哥城對陣🇲🇽墨西哥（AP Photo/Butch Dill via Usa Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/01/USAT/90771043007-usatsi-29307271.jpg',
-  // 🏆⚽ 2026世界盃32強賽戰報：已進行9場 ✅ 9隊晉級16強 — 🇫🇷法國（Mbappé梅開二度）、🇨🇦加拿大（Eustáquio絕殺）、🇧🇷巴西（Martinelli第95分鐘絕殺）、🇵🇾巴拉圭（PK爆冷淘汰德國）、🇲🇦摩洛哥（PK淘汰荷蘭）、🇳🇴挪威（Haaland絕殺）、🇲🇽墨西哥（Quiñones+Jiménez進球）、🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭（Kane梅開二度超越Pelé）、🇧🇪比利時（Tielemans罰球絕殺逆轉）。今日（7/1）續賽：🇺🇸美國vs🇧🇦波赫（20:00 ET）！（AP/Reuters）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/01/USAT/90776326007-gty-2284243267.jpg',
-  // 🇧🇪⚽ Belgium 3-2 Senegal — Youri Tielemans罰進12碼後慶祝！比利時將在16強賽對陣🇺🇸美國或🇧🇦波赫勝方，Tielemans以8.8分獲選全場最佳（Getty Images/Emilee Chinn via Usa Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/01/USAT/90776248007-gty-2284242941.jpg'
+  // 🇺🇸⚽ USA 2-0 Bosnia — Malik Tillman第82分鐘自由球直接彎過人牆入網！10人美國守住勝局晉級16強（Getty Images/Usa Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/01/USAT/90776303007-getty-images-2284243192.jpg',
+  // 🇺🇸⚽ USA 2-0 Bosnia — Folarin Balogun第45分鐘穿檔破門後做出LeBron James Silencer慶祝動作！美國淘汰賽24年來首勝（Getty Images/Usa Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/01/USAT/90776256007-getty-images-2284240835.jpg',
+  // 🇺🇸⚽ USA 2-0 Bosnia — Folarin Balogun第64分鐘紅牌被罰下，VAR審查後判定惡意犯規，美國10人應戰29分鐘（Getty Images/Usa Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/01/USAT/90776497007-getty-images-2284244460.jpg',
+  // 🇺🇸⚽ USA 2-0 Bosnia — 美國隊慶祝晉級16強！Pochettino率領美國在自家主場寫下歷史，將在7/6西雅圖對陣🇧🇪比利時（USATSI/Usa Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/02/USAT/90778047007-usatsi-29311202.jpg',
+  // 🏆⚽ 2026世界盃32強賽戰報：已進行10場 ✅ 10隊晉級16強 — 🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇫🇷法國、🇲🇽墨西哥、🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭、🇧🇪比利時、🇺🇸美國。今日（7/2）續賽：🇵🇹葡萄牙vs🇭🇷克羅埃西亞、🇪🇸西班牙vs🇦🇹奧地利、🇨🇭瑞士vs🇩🇿阿爾及利亞（Getty Images/Usa Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/01/USAT/90776731007-getty-images-2284246394.jpg',
+  // 🇧🇪⚽ Belgium 3-2 Senegal (AET) — Youri Tielemans罰進12碼後慶祝！比利時從0-2落後到3-2絕殺，將在16強賽對陣🇺🇸美國（Getty Images/Usa Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/02/USAT/90777117007-getty-images-2284249871.jpg',
+  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿⚽ England 2-1 DR Congo — Harry Kane第86分鐘勁射梅開二度！以13球超越Pelé（12球），英格蘭逆轉晉級16強將在7/5墨西哥城對陣🇲🇽墨西哥（Getty Images/Usa Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/02/USAT/90777752007-getty-images-2284258746.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  "⚽🇧🇪🇸🇳 Belgium 3-2 Senegal (AET) — Youri Tielemans第125分鐘罰進12碼完成驚天逆轉！Lamine Camara禁區內犯規，VAR確認後判罰，Tielemans冷靜射入左下角絕殺。比利時從0-2落後到3-2逆轉，重現2018年對日本經典逆轉（Getty Images/Usa Today）",
-  "⚽🇧🇪🇸🇳 Belgium 3-2 Senegal — Youri Tielemans第89分鐘角球頭槌扳平比分！Leandro Trossard開出角球，塞內加爾門將Mory Diaw判斷失誤，Tielemans禁區中央頭槌破網。從第86分鐘Lukaku進球到第89分鐘Tielemans扳平，比利時160秒內連進兩球強行拖入延長賽（Getty Images/Usa Today）",
-  "⚽🇧🇪🇸🇳 Belgium 3-2 Senegal — Romelu Lukaku第86分鐘門前搶點破門吹響反攻號角！Thomas Meunier右路傳中，Lukaku禁區內強力射門入網。Lukaku替補上場僅11分鐘即建功，個人世界盃第7球（AP Photo/Manu Fernandez via Usa Today）",
-  "⚽🏴󠁧󠁢󠁥󠁮󠁧󠁿🇨🇩 England 2-1 DR Congo — Harry Kane第75分鐘頭槌扳平！Anthony Gordon左路精準傳中，Kane禁區中央頭槌頂入左上角，世界盃第12球追平英格蘭紀錄。英格蘭從第7分鐘落後到第75分鐘終於扳平（Reuters/Claudia Greco via Usa Today）",
-  "⚽🏴󠁧󠁢󠁥󠁮󠁧󠁿🇨🇩 England 2-1 DR Congo — Harry Kane第86分鐘右腳勁射梅開二度！Elliot Anderson直塞，Kane禁區右側勁射入網，以世界盃13球超越巴西傳奇Pelé（12球）。英格蘭逆轉晉級16強，將在7月5日墨西哥城阿茲特克體育場對陣🇲🇽墨西哥（AP Photo/Butch Dill via Usa Today）",
-  "🏆⚽ 2026世界盃32強賽戰報：已進行9場 ✅ 9隊晉級16強 — 🇫🇷法國（Mbappé梅開二度18球超越Klose）、🇨🇦加拿大（Eustáquio傷停絕殺）、🇧🇷巴西（Martinelli第95分鐘絕殺）、🇵🇾巴拉圭（PK 4-3爆冷淘汰德國）、🇲🇦摩洛哥（PK 3-2淘汰荷蘭）、🇳🇴挪威（Haaland第86分鐘絕殺）、🇲🇽墨西哥（Quiñones+Jiménez進球40年淘汰賽首勝）、🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭（Kane梅開二度13球超越Pelé）、🇧🇪比利時（Tielemans罰球絕殺0-2逆轉）。今日（7/1）續賽：🇺🇸美國vs🇧🇦波赫（20:00 ET·舊金山）！（AP/Reuters）",
-  "⚽🇧🇪🇸🇳 Belgium 3-2 Senegal (AET) — Youri Tielemans以兩球（89'頭槌扳平+120+5'罰球絕殺）獲選全場最佳（8.8分）！比利時將在16強賽對陣🇺🇸美國或🇧🇦波赫勝方。Kevin De Bruyne與Jeremy Doku第56分鐘被換下，比利時逆境中完成不可思議的大逆轉（Getty Images/Emilee Chinn via Usa Today）"
+  "⚽🇺🇸🇧🇦 USA 2-0 Bosnia and Herzegovina — Malik Tillman第82分鐘自由球直接彎過人牆入網！Vasilj碰到球仍無法阻止進球。Tillman的Bayer Leverkusen隊友、美國10人應戰時挺身而出，以完美弧線自由球鎖定2-0勝局。美國取得2002年以來世界盃淘汰賽首勝，將在7月6日於西雅圖對陣🇧🇪比利時（Getty Images/Usa Today）",
+  "⚽🇺🇸🇧🇦 USA 2-0 Bosnia — Folarin Balogun第45分鐘接Tillman直塞，禁區內左腳冷靜穿過Vasilj雙腿破門，做出LeBron James Silence慶祝動作！Balogun本屆世界盃第3球，離Bert Patenaude（4球）的美國單屆紀錄只差1球。LeBron本人也在場邊為此慶祝鼓掌（Getty Images/Usa Today）",
+  "⚽🇺🇸🇧🇦 USA 2-0 Bosnia — Folarin Balogun第64分鐘在爭搶中落地時踩到Tarik Muharemovic，VAR審查後主裁判Raphael Claus出示直接紅牌。美國10人應戰29分鐘但守住勝局，Balogun將因紅牌缺席16強賽對陣🇧🇪比利時（Getty Images/Usa Today）",
+  "⚽🇺🇸🇧🇦 USA 2-0 Bosnia — 終場哨響後美國隊全體在Levi's Stadium慶祝！10人作戰守住2-0勝局，美國終結對歐洲球隊13場不勝的紀錄（自2002年擊敗葡萄牙以來首次）。Matt Freese多次關鍵撲救，Tyler Adams率領防線頂住波赫反撲。下一站：🇧🇪比利時！（USATSI/Usa Today）",
+  "🏆⚽ 2026世界盃32強賽戰報：已進行10場 ✅ 10隊晉級16強 — 🇫🇷法國（Mbappé梅開二度18球超越Klose）、🇨🇦加拿大（Eustáquio傷停絕殺）、🇧🇷巴西（Martinelli第95分鐘絕殺）、🇵🇾巴拉圭（PK 4-3爆冷淘汰德國）、🇲🇦摩洛哥（PK 3-2淘汰荷蘭）、🇳🇴挪威（Haaland絕殺）、🇲🇽墨西哥（Quiñones+Jiménez進球40年淘汰賽首勝）、🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭（Kane梅開二度13球超越Pelé）、🇧🇪比利時（Tielemans罰球絕殺0-2逆轉）、🇺🇸美國（Balogun進球+紅牌、Tillman自由球絕殺）。今日（7/2）續賽：🇵🇹葡萄牙vs🇭🇷克羅埃西亞（17:00 ET·多倫多）、🇪🇸西班牙vs🇦🇹奧地利（19:00 ET·洛杉磯）、🇨🇭瑞士vs🇩🇿阿爾及利亞（20:00 ET·溫哥華）！（Getty Images/Usa Today）",
+  "⚽🇧🇪🇸🇳 Belgium 3-2 Senegal (AET) — Youri Tielemans以兩球（89'頭槌扳平+120+5'罰球絕殺）獲選全場最佳！比利時從0-2落後到3-2完成不可思議的大逆轉，將在16強賽對陣🇺🇸美國。7月6日西雅圖流明球場，🇺🇸美國vs🇧🇪比利時——2014世界盃16強賽重演！（Getty Images/Usa Today）",
+  "⚽🏴󠁧󠁢󠁥󠁮󠁧󠁿🇨🇩 England 2-1 DR Congo — Harry Kane第86分鐘右腳勁射梅開二度！Elliot Anderson直塞，Kane禁區右側勁射入網，以世界盃13球超越巴西傳奇Pelé（12球）。英格蘭逆轉晉級16強，將在7月5日墨西哥城阿茲特克體育場對陣🇲🇽墨西哥。這場16強賽堪稱火星撞地球！（Getty Images/Usa Today）"
 ];
