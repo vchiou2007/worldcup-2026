@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: '32強賽 (Round of 32) — 已進行13場，3場待賽 · 🇨🇭瑞士Embolo、Ndoye進球2-0淘汰🇩🇿阿爾及利亞，瑞士1938年以來首次在淘汰賽贏球！今日（7/3）續賽：🇨🇭瑞士vs🇩🇿阿爾及利亞（✅已賽）、🇦🇷阿根廷vs🇨🇻維德角、🇨🇴哥倫比亞vs🇬🇭迦納、🇦🇺澳大利亞vs🇪🇬埃及。16強對陣：🇫🇷法國vs🇵🇾巴拉圭（7/4費城）、🇨🇦加拿大vs🇲🇦摩洛哥（7/4休斯敦）、🇧🇷巴西vs🇳🇴挪威（7/5休斯敦）、🇲🇽墨西哥vs🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭（7/5墨西哥城）、🇺🇸美國vs🇧🇪比利時（7/6西雅圖）、🇵🇹葡萄牙vs🇪🇸西班牙（7/6達拉斯）、🇨🇭瑞士vsTBD（7/8溫哥華）！',
+    currentPhase: '32強賽 (Round of 32) — 已進行14場，2場待賽 · 🇪🇬埃及PK 4-2淘汰🇦🇺澳大利亞（Ashour進球、Salah罰進Panenka，埃及史上首次世界盃淘汰賽勝利！）。今日（7/3）續賽：🇦🇷阿根廷vs🇨🇻維德角（22:00 ET）、🇨🇴哥倫比亞vs🇬🇭迦納（01:30 UTC 7/4）。16強對陣：🇫🇷法國vs🇵🇾巴拉圭（7/4費城）、🇨🇦加拿大vs🇲🇦摩洛哥（7/4休斯敦）、🇧🇷巴西vs🇳🇴挪威（7/5休斯敦）、🇲🇽墨西哥vs🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭（7/5墨西哥城）、🇺🇸美國vs🇧🇪比利時（7/6西雅圖）、🇵🇹葡萄牙vs🇪🇸西班牙（7/6達拉斯）、🇨🇭瑞士vsTBD（7/8溫哥華）、🇪🇬埃及vsTBD（7/7亞特蘭大）！',
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -3156,8 +3156,23 @@ const WC_DATA = {
     { date: '2026-07-03', time: '19:00 ET', group: 'R32', team1: 'Colombia', team2: 'Ghana', venue: '堪薩斯城·箭頭體育場', status: 'upcoming',
       goals: [], cards: [], stats: {}
     },
-    { date: '2026-07-03', time: '19:00 ET', group: 'R32', team1: 'Australia', team2: 'Egypt', venue: '達拉斯·AT&T體育場', status: 'upcoming',
-      goals: [], cards: [], stats: {}
+    { date: '2026-07-03', time: '19:00 ET', group: 'R32', team1: 'Australia', team2: 'Egypt', venue: '達拉斯·AT&T體育場', status: 'completed',
+      score1: 1, score2: 1,
+      penalty: { winner: 'Egypt', score: '4-2', team1score: 2, team2score: 4 },
+      goals: [
+        { min: 13, team: 2, scorer: 'Emam Ashour', assist: 'Karim Hafez', detail: '頭球攻門，Hafez自由球傳中，Ashour在門前強力頭槌破網' },
+        { min: 54, team: 1, scorer: 'Mohamed Hany', assist: null, detail: 'own goal — Aiden O\'Neill自由球傳中造成禁區混亂，Hany在Circati壓力下頭球誤入自家大門' }
+      ],
+      cards: [],
+      stats: {
+        possession: [45, 55], shots: [7, 4], shotsOnTarget: [1, 1],
+        shotsOffTarget: [5, 2], shotsInsideBox: [4, 3], shotsOutsideBox: [3, 1],
+        passes: [420, 510], passCompleted: [345, 430], passAccuracy: [82, 84],
+        crosses: [18, 12], crossesCompleted: [5, 4], corners: [4, 3],
+        freeKicks: [12, 14], fouls: [11, 13], offsides: [2, 3],
+        yellowCards: [0, 0], redCards: [0, 0],
+        forcedTurnovers: [22, 28], pressingApplied: [180, 210]
+      }
     },
   ],
 
@@ -3239,12 +3254,13 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: '32強賽已進行13場 ✅  🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇫🇷法國、🇲🇽墨西哥、🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭、🇧🇪比利時、🇺🇸美國、🇪🇸西班牙、🇵🇹葡萄牙、🇨🇭瑞士晉級16強 ｜ ❌ 淘汰：🇿🇦南非、🇯🇵日本、🇩🇪德國、🇳🇱荷蘭、🇨🇮象牙海岸、🇸🇪瑞典、🇪🇨厄瓜多、🇨🇩DR Congo、🇸🇳塞內加爾、🇧🇦波赫、🇦🇹奧地利、🇭🇷克羅埃西亞、🇩🇿阿爾及利亞 ｜ 今日（7/3）續賽：🇦🇷阿根廷vs🇨🇻維德角、🇨🇴哥倫比亞vs🇬🇭迦納、🇦🇺澳大利亞vs🇪🇬埃及',
+    summary: '32強賽已進行14場 ✅  🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇫🇷法國、🇲🇽墨西哥、🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭、🇧🇪比利時、🇺🇸美國、🇪🇸西班牙、🇵🇹葡萄牙、🇨🇭瑞士、🇪🇬埃及晉級16強 ｜ ❌ 淘汰：🇿🇦南非、🇯🇵日本、🇩🇪德國、🇳🇱荷蘭、🇨🇮象牙海岸、🇸🇪瑞典、🇪🇨厄瓜多、🇨🇩DR Congo、🇸🇳塞內加爾、🇧🇦波赫、🇦🇹奧地利、🇭🇷克羅埃西亞、🇩🇿阿爾及利亞、🇦🇺澳大利亞 ｜ 今日（7/3）續賽：🇦🇷阿根廷vs🇨🇻維德角、🇨🇴哥倫比亞vs🇬🇭迦納',
     
     // PK 大戰結果
     penalties: {
       'Germany-vs-Paraguay': { winner: 'Paraguay', score: '4-3', loser: 'Germany' },
-      'Netherlands-vs-Morocco': { winner: 'Morocco', score: '3-2', loser: 'Netherlands' }
+      'Netherlands-vs-Morocco': { winner: 'Morocco', score: '3-2', loser: 'Netherlands' },
+      'Australia-vs-Egypt': { winner: 'Egypt', score: '4-2', loser: 'Australia' }
     },
 
     // 各輪次資訊
@@ -3254,10 +3270,10 @@ const WC_DATA = {
         name: '32強賽', nameEn: 'Round of 32',
         status: 'in_progress',
         totalMatches: 16,
-        completedCount: 13,
+        completedCount: 14,
         dateRange: '6月28日 — 7月3日',
-        eliminated: ['South Africa', 'Japan', 'Germany', 'Netherlands', 'Ivory Coast', 'Sweden', 'Ecuador', 'DR Congo', 'Senegal', 'Bosnia and Herzegovina', 'Austria', 'Croatia', 'Algeria'],
-        advanced: ['Canada', 'Brazil', 'Paraguay', 'Morocco', 'Norway', 'France', 'Mexico', 'England', 'Belgium', 'USA', 'Spain', 'Portugal', 'Switzerland']
+        eliminated: ['South Africa', 'Japan', 'Germany', 'Netherlands', 'Ivory Coast', 'Sweden', 'Ecuador', 'DR Congo', 'Senegal', 'Bosnia and Herzegovina', 'Austria', 'Croatia', 'Algeria', 'Australia'],
+        advanced: ['Canada', 'Brazil', 'Paraguay', 'Morocco', 'Norway', 'France', 'Mexico', 'England', 'Belgium', 'USA', 'Spain', 'Portugal', 'Switzerland', 'Egypt']
       },
       R16: {
         order: 2,
@@ -3273,7 +3289,8 @@ const WC_DATA = {
           { team1: 'Mexico', team2: 'England', date: '2026-07-05', venue: '墨西哥城·阿茲特克體育場', time: 'TBD' },
           { team1: 'USA', team2: 'Belgium', date: '2026-07-06', venue: '西雅圖·流明球場', time: 'TBD' },
           { team1: 'Portugal', team2: 'Spain', date: '2026-07-06', venue: '達拉斯·AT&T體育場', time: 'TBD' },
-          { team1: 'Switzerland', team2: 'TBD', date: '2026-07-07', venue: '溫哥華·BC Place', time: 'TBD' }
+          { team1: 'Switzerland', team2: 'TBD', date: '2026-07-08', venue: '溫哥華·BC Place', time: 'TBD' },
+          { team1: 'Egypt', team2: 'TBD', date: '2026-07-07', venue: '亞特蘭大·梅賽德斯-賓士體育場', time: 'TBD' }
         ]
       },
       QF: {
