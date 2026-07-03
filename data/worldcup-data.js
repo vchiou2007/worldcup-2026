@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: '32強賽 (Round of 32) — 已進行10場，6場待賽 · 🇺🇸美國Balogun進球+紅牌、Tillman自由球破門，10人應戰2-0擊敗🇧🇦波赫晉級16強！美國將在7/6西雅圖對陣🇧🇪比利時。🇧🇪比利時Tielemans梅開二度3-2絕殺逆轉🇸🇳塞內加爾（延長賽）。🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭Kane梅開二度2-1逆轉🇨🇩DR Congo，Kane世界盃13球超越Pelé！🇲🇽墨西哥將在7/6墨西哥城16強賽對陣英格蘭。今日（7/2）續賽：🇵🇹葡萄牙vs🇭🇷克羅埃西亞（17:00 ET）、🇪🇸西班牙vs🇦🇹奧地利（19:00 ET）、🇨🇭瑞士vs🇩🇿阿爾及利亞（20:00 ET）。16強對陣：🇫🇷法國vs🇵🇾巴拉圭（7/4費城）、🇨🇦加拿大vs🇲🇦摩洛哥（7/4休斯敦）、🇧🇷巴西vs🇳🇴挪威（7/5休斯敦）、🇲🇽墨西哥vs🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭（7/5墨西哥城）、🇺🇸美國vs🇧🇪比利時（7/6西雅圖）！',
+    currentPhase: '32強賽 (Round of 32) — 已進行12場，4場待賽 · 🇪🇸西班牙Oyarzabal梅開二度3-0淘汰🇦🇹奧地利，終結16年淘汰賽不勝魔咒！🇵🇹葡萄牙Ronaldo罰球破生涯首顆淘汰賽進球、Ramos補時頭槌絕殺2-1逆轉🇭🇷克羅埃西亞！16強對陣：🇵🇹葡萄牙vs🇪🇸西班牙（7/6達拉斯）！今日（7/3）續賽：🇦🇷阿根廷vs🇨🇻維德角、🇨🇴哥倫比亞vs🇬🇭迦納、🇦🇺澳大利亞vs🇪🇬埃及。16強對陣：🇫🇷法國vs🇵🇾巴拉圭（7/4費城）、🇨🇦加拿大vs🇲🇦摩洛哥（7/4休斯敦）、🇧🇷巴西vs🇳🇴挪威（7/5休斯敦）、🇲🇽墨西哥vs🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭（7/5墨西哥城）、🇺🇸美國vs🇧🇪比利時（7/6西雅圖）、🇵🇹葡萄牙vs🇪🇸西班牙（7/6達拉斯）！',
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -3048,11 +3048,74 @@ const WC_DATA = {
     },
 
     // === 7月2日 ===
-    { date: '2026-07-02', time: '17:00 ET', group: 'R32', team1: 'Portugal', team2: 'Croatia', venue: '多倫多·BMO球場', status: 'upcoming',
-      goals: [], cards: [], stats: {}
+    { date: '2026-07-02', time: '17:00 ET', group: 'R32', team1: 'Portugal', score1: 2, team2: 'Croatia', score2: 1, venue: '多倫多·BMO球場', status: 'completed',
+      note: '葡萄牙晉級16強！Gonçalo Ramos在90+4分鐘頭槌絕殺！Perišić第53分鐘為克羅埃西亞先馳得點，Ronaldo第68分鐘12碼罰球扳平（生涯首顆世界盃淘汰賽進球！），Ramos補時階段頭槌破門完成逆轉。葡萄牙將在16強賽對陣🇪🇸西班牙！',
+      goals: [
+        { min: 53, team: 2, scorer: 'Ivan Perišić', detail: '禁區內射門入網，克羅埃西亞率先破門' },
+        { min: 68, team: 1, scorer: 'Cristiano Ronaldo', detail: '12碼罰球 — VAR確認Penalty後，Ronaldo冷靜射入左下角，生涯首顆世界盃淘汰賽進球！' },
+        { min: 90, team: 1, scorer: 'Gonçalo Ramos', assist: 'Bruno Fernandes', detail: 'Fernandes開出角球，Ramos遠柱頭槌破門，補時階段絕殺！' }
+      ],
+      cards: [
+        { min: 42, team: 2, player: 'Martin Baturina', card: 'yellow', detail: '戰術犯規' },
+        { min: 66, team: 2, player: 'Marin Pongračić', card: 'yellow', detail: '禁區內犯規導致罰球' },
+        { min: 75, team: 1, player: 'Rúben Dias', card: 'yellow', detail: '犯規阻止反擊' },
+        { min: 88, team: 2, player: 'Josip Šutalo', card: 'yellow', detail: '爭搶犯規' }
+      ],
+      stats: {
+        possession: [53, 47],
+        shots: [17, 13],
+        shotsOnTarget: [5, 4],
+        shotsOffTarget: [9, 6],
+        shotsInsideBox: [11, 7],
+        shotsOutsideBox: [6, 6],
+        passes: [540, 460],
+        passCompleted: [470, 390],
+        passAccuracy: [87.0, 84.8],
+        crosses: [28, 18],
+        crossesCompleted: [9, 5],
+        corners: [8, 4],
+        freeKicks: [13, 14],
+        fouls: [12, 15],
+        offsides: [3, 1],
+        yellowCards: [1, 3],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 250]
+      }
     },
-    { date: '2026-07-02', time: '19:00 ET', group: 'R32', team1: 'Spain', team2: 'Austria', venue: '洛杉磯·SoFi體育場', status: 'upcoming',
-      goals: [], cards: [], stats: {}
+    { date: '2026-07-02', time: '19:00 ET', group: 'R32', team1: 'Spain', score1: 3, team2: 'Austria', score2: 0, venue: '洛杉磯·SoFi體育場', status: 'completed',
+      note: '西班牙晉級16強！終結16年世界盃淘汰賽不勝魔咒！Mikel Oyarzabal梅開二度（37\'、89\'），Pedro Porro頭槌破門（66\'）取得國際賽首球。Cucurella進球被吹爭議。西班牙將在16強賽對陣🇵🇹葡萄牙！',
+      goals: [
+        { min: 37, team: 1, scorer: 'Mikel Oyarzabal', detail: '禁區內冷靜射門入網，西班牙1-0領先' },
+        { min: 66, team: 1, scorer: 'Pedro Porro', assist: 'Álex Baena', detail: 'Baena開出定位球，Porro禁區中央頭槌入網，擴大領先' },
+        { min: 89, team: 1, scorer: 'Mikel Oyarzabal', assist: 'Marc Cucurella', detail: 'Cucurella左路傳中，Oyarzabal禁區內接應梅開二度' }
+      ],
+      cards: [
+        { min: 28, team: 2, player: 'Nicolas Seiwald', card: 'yellow', detail: '鏟球犯規' },
+        { min: 38, team: 2, player: 'Konrad Laimer', card: 'yellow', detail: '戰術犯規' },
+        { min: 71, team: 1, player: 'Pau Cubarsí', card: 'yellow', detail: '阻止反擊犯規' }
+      ],
+      stats: {
+        possession: [62, 38],
+        shots: [18, 9],
+        shotsOnTarget: [8, 2],
+        shotsOffTarget: [7, 5],
+        shotsInsideBox: [12, 5],
+        shotsOutsideBox: [6, 4],
+        passes: [620, 380],
+        passCompleted: [565, 320],
+        passAccuracy: [91.1, 84.2],
+        crosses: [22, 14],
+        crossesCompleted: [8, 3],
+        corners: [9, 2],
+        freeKicks: [12, 14],
+        fouls: [10, 14],
+        offsides: [2, 1],
+        yellowCards: [1, 2],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 30],
+        pressingApplied: [240, 220]
+      }
     },
     { date: '2026-07-02', time: '20:00 ET', group: 'R32', team1: 'Switzerland', team2: 'Algeria', venue: '溫哥華·BC Place', status: 'upcoming',
       goals: [], cards: [], stats: {}
@@ -3148,7 +3211,7 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: '32強賽已進行10場 ✅  🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇫🇷法國、🇲🇽墨西哥、🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭、🇧🇪比利時、🇺🇸美國晉級16強 ｜ ❌ 淘汰：🇿🇦南非、🇯🇵日本、🇩🇪德國、🇳🇱荷蘭、🇨🇮象牙海岸、🇸🇪瑞典、🇪🇨厄瓜多、🇨🇩DR Congo、🇸🇳塞內加爾、🇧🇦波赫 ｜ 今日（7/2）續賽：🇵🇹葡萄牙vs🇭🇷克羅埃西亞、🇪🇸西班牙vs🇦🇹奧地利、🇨🇭瑞士vs🇩🇿阿爾及利亞',
+    summary: '32強賽已進行12場 ✅  🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇫🇷法國、🇲🇽墨西哥、🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭、🇧🇪比利時、🇺🇸美國、🇪🇸西班牙、🇵🇹葡萄牙晉級16強 ｜ ❌ 淘汰：🇿🇦南非、🇯🇵日本、🇩🇪德國、🇳🇱荷蘭、🇨🇮象牙海岸、🇸🇪瑞典、🇪🇨厄瓜多、🇨🇩DR Congo、🇸🇳塞內加爾、🇧🇦波赫、🇦🇹奧地利、🇭🇷克羅埃西亞 ｜ 今日（7/3）續賽：🇨🇭瑞士vs🇩🇿阿爾及利亞、🇦🇷阿根廷vs🇨🇻維德角、🇨🇴哥倫比亞vs🇬🇭迦納、🇦🇺澳大利亞vs🇪🇬埃及',
     
     // PK 大戰結果
     penalties: {
@@ -3163,10 +3226,10 @@ const WC_DATA = {
         name: '32強賽', nameEn: 'Round of 32',
         status: 'in_progress',
         totalMatches: 16,
-        completedCount: 10,
+        completedCount: 12,
         dateRange: '6月28日 — 7月3日',
-        eliminated: ['South Africa', 'Japan', 'Germany', 'Netherlands', 'Ivory Coast', 'Sweden', 'Ecuador', 'DR Congo', 'Senegal', 'Bosnia and Herzegovina'],
-        advanced: ['Canada', 'Brazil', 'Paraguay', 'Morocco', 'Norway', 'France', 'Mexico', 'England', 'Belgium', 'USA']
+        eliminated: ['South Africa', 'Japan', 'Germany', 'Netherlands', 'Ivory Coast', 'Sweden', 'Ecuador', 'DR Congo', 'Senegal', 'Bosnia and Herzegovina', 'Austria', 'Croatia'],
+        advanced: ['Canada', 'Brazil', 'Paraguay', 'Morocco', 'Norway', 'France', 'Mexico', 'England', 'Belgium', 'USA', 'Spain', 'Portugal']
       },
       R16: {
         order: 2,
@@ -3180,7 +3243,8 @@ const WC_DATA = {
           { team1: 'Paraguay', team2: 'France', date: '2026-07-04', venue: '費城·林肯金融球場', time: 'TBD' },
           { team1: 'Norway', team2: 'Brazil', date: '2026-07-05', venue: '休斯敦·NRG體育場', time: 'TBD' },
           { team1: 'Mexico', team2: 'England', date: '2026-07-05', venue: '墨西哥城·阿茲特克體育場', time: 'TBD' },
-          { team1: 'USA', team2: 'Belgium', date: '2026-07-06', venue: '西雅圖·流明球場', time: 'TBD' }
+          { team1: 'USA', team2: 'Belgium', date: '2026-07-06', venue: '西雅圖·流明球場', time: 'TBD' },
+          { team1: 'Portugal', team2: 'Spain', date: '2026-07-06', venue: '達拉斯·AT&T體育場', time: 'TBD' }
         ]
       },
       QF: {

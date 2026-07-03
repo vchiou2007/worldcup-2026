@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-07-02 09:00 更新：🇺🇸美國Balogun進球+紅牌、Tillman自由球破門2-0擊敗🇧🇦波赫晉級16強！16強對陣出爐：🇺🇸美國vs🇧🇪比利時（7/6西雅圖）） =====
+// ===== 輪播牆圖片（2026-07-02 09:00 → 20:00 更新：🇪🇸西班牙Oyarzabal梅開二度3-0擊敗🇦🇹奧地利晉級16強！🇵🇹葡萄牙Ronaldo罰球+Ramos頭槌絕殺2-1逆轉🇭🇷克羅埃西亞！16強將上演伊比利德比！） =====
 const HERO_IMAGES = [
-  // 🇺🇸⚽ USA 2-0 Bosnia — Malik Tillman第82分鐘自由球直接彎過人牆入網！10人美國守住勝局晉級16強（Getty Images/Usa Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/01/USAT/90776303007-getty-images-2284243192.jpg',
-  // 🇺🇸⚽ USA 2-0 Bosnia — Folarin Balogun第45分鐘穿檔破門後做出LeBron James Silencer慶祝動作！美國淘汰賽24年來首勝（Getty Images/Usa Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/01/USAT/90776256007-getty-images-2284240835.jpg',
-  // 🇺🇸⚽ USA 2-0 Bosnia — Folarin Balogun第64分鐘紅牌被罰下，VAR審查後判定惡意犯規，美國10人應戰29分鐘（Getty Images/Usa Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/01/USAT/90776497007-getty-images-2284244460.jpg',
-  // 🇺🇸⚽ USA 2-0 Bosnia — 美國隊慶祝晉級16強！Pochettino率領美國在自家主場寫下歷史，將在7/6西雅圖對陣🇧🇪比利時（USATSI/Usa Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/02/USAT/90778047007-usatsi-29311202.jpg',
-  // 🏆⚽ 2026世界盃32強賽戰報：已進行10場 ✅ 10隊晉級16強 — 🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇫🇷法國、🇲🇽墨西哥、🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭、🇧🇪比利時、🇺🇸美國。今日（7/2）續賽：🇵🇹葡萄牙vs🇭🇷克羅埃西亞、🇪🇸西班牙vs🇦🇹奧地利、🇨🇭瑞士vs🇩🇿阿爾及利亞（Getty Images/Usa Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/01/USAT/90776731007-getty-images-2284246394.jpg',
-  // 🇧🇪⚽ Belgium 3-2 Senegal (AET) — Youri Tielemans罰進12碼後慶祝！比利時從0-2落後到3-2絕殺，將在16強賽對陣🇺🇸美國（Getty Images/Usa Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/02/USAT/90777117007-getty-images-2284249871.jpg',
-  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿⚽ England 2-1 DR Congo — Harry Kane第86分鐘勁射梅開二度！以13球超越Pelé（12球），英格蘭逆轉晉級16強將在7/5墨西哥城對陣🇲🇽墨西哥（Getty Images/Usa Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/02/USAT/90777752007-getty-images-2284258746.jpg'
+  // 🇪🇸⚽ Spain 3-0 Austria — Mikel Oyarzabal第36分鐘接Cucurella傳中，禁區內冷靜推射破門，西班牙1-0領先！（Harry How/Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/02/USAT/90788265007-2284374531.jpg',
+  // 🇪🇸⚽ Spain 3-0 Austria — Pedro Porro第66分鐘接Baena定位球，禁區中央頭槌破網取得國際賽首球！西班牙2-0鎖定勝局（USATSI/Usa Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/02/USAT/90788272007-usatsi-29315527.jpg',
+  // 🇪🇸⚽ Spain 3-0 Austria — Oyarzabal第89分鐘接Cucurella傳中梅開二度！西班牙終結16年世界盃淘汰賽不勝魔咒，全勝零失球晉級（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/02/USAT/90788268007-2283782575.jpg',
+  // 🇵🇹⚽ Portugal 2-1 Croatia — Cristiano Ronaldo第68分鐘12碼罰球破門！41歲傳奇生涯首顆世界盃淘汰賽進球，助葡萄牙扳平比分（Getty Images/AFP via Getty）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90791118007-getty-images-2284403410.jpg',
+  // 🇵🇹⚽ Portugal 2-1 Croatia — Gonçalo Ramos第90+4分鐘頭槌絕殺！Bruno Fernandes開出角球，Ramos遠柱躍起破門，葡萄牙補時逆轉！（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90791376007-getty-images-2283812906.jpg',
+  // 🇵🇹⚽ Portugal 2-1 Croatia — 葡萄牙全隊慶祝晉級16強！C羅賽後激動落淚，葡萄牙將在7/6達拉斯對陣🇪🇸西班牙上演伊比利德比！（Getty Images/Usa Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90791198007-getty-images-2284403515.jpg',
+  // 🏆⚽ 2026世界盃32強賽戰報：已進行12場 ✅ 12隊晉級16強 — 最新晉級：🇪🇸西班牙（Oyarzabal梅開二度，零失球統治級表現）、🇵🇹葡萄牙（Ronaldo罰球歷史進球+Ramos絕殺）。今日（7/3）續賽：🇨🇭瑞士vs🇩🇿阿爾及利亞、🇦🇷阿根廷vs🇨🇻維德角、🇨🇴哥倫比亞vs🇬🇭迦納、🇦🇺澳大利亞vs🇪🇬埃及（Getty Images/Usa Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90791375007-getty-images-2284405800.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  "⚽🇺🇸🇧🇦 USA 2-0 Bosnia and Herzegovina — Malik Tillman第82分鐘自由球直接彎過人牆入網！Vasilj碰到球仍無法阻止進球。Tillman的Bayer Leverkusen隊友、美國10人應戰時挺身而出，以完美弧線自由球鎖定2-0勝局。美國取得2002年以來世界盃淘汰賽首勝，將在7月6日於西雅圖對陣🇧🇪比利時（Getty Images/Usa Today）",
-  "⚽🇺🇸🇧🇦 USA 2-0 Bosnia — Folarin Balogun第45分鐘接Tillman直塞，禁區內左腳冷靜穿過Vasilj雙腿破門，做出LeBron James Silence慶祝動作！Balogun本屆世界盃第3球，離Bert Patenaude（4球）的美國單屆紀錄只差1球。LeBron本人也在場邊為此慶祝鼓掌（Getty Images/Usa Today）",
-  "⚽🇺🇸🇧🇦 USA 2-0 Bosnia — Folarin Balogun第64分鐘在爭搶中落地時踩到Tarik Muharemovic，VAR審查後主裁判Raphael Claus出示直接紅牌。美國10人應戰29分鐘但守住勝局，Balogun將因紅牌缺席16強賽對陣🇧🇪比利時（Getty Images/Usa Today）",
-  "⚽🇺🇸🇧🇦 USA 2-0 Bosnia — 終場哨響後美國隊全體在Levi's Stadium慶祝！10人作戰守住2-0勝局，美國終結對歐洲球隊13場不勝的紀錄（自2002年擊敗葡萄牙以來首次）。Matt Freese多次關鍵撲救，Tyler Adams率領防線頂住波赫反撲。下一站：🇧🇪比利時！（USATSI/Usa Today）",
-  "🏆⚽ 2026世界盃32強賽戰報：已進行10場 ✅ 10隊晉級16強 — 🇫🇷法國（Mbappé梅開二度18球超越Klose）、🇨🇦加拿大（Eustáquio傷停絕殺）、🇧🇷巴西（Martinelli第95分鐘絕殺）、🇵🇾巴拉圭（PK 4-3爆冷淘汰德國）、🇲🇦摩洛哥（PK 3-2淘汰荷蘭）、🇳🇴挪威（Haaland絕殺）、🇲🇽墨西哥（Quiñones+Jiménez進球40年淘汰賽首勝）、🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭（Kane梅開二度13球超越Pelé）、🇧🇪比利時（Tielemans罰球絕殺0-2逆轉）、🇺🇸美國（Balogun進球+紅牌、Tillman自由球絕殺）。今日（7/2）續賽：🇵🇹葡萄牙vs🇭🇷克羅埃西亞（17:00 ET·多倫多）、🇪🇸西班牙vs🇦🇹奧地利（19:00 ET·洛杉磯）、🇨🇭瑞士vs🇩🇿阿爾及利亞（20:00 ET·溫哥華）！（Getty Images/Usa Today）",
-  "⚽🇧🇪🇸🇳 Belgium 3-2 Senegal (AET) — Youri Tielemans以兩球（89'頭槌扳平+120+5'罰球絕殺）獲選全場最佳！比利時從0-2落後到3-2完成不可思議的大逆轉，將在16強賽對陣🇺🇸美國。7月6日西雅圖流明球場，🇺🇸美國vs🇧🇪比利時——2014世界盃16強賽重演！（Getty Images/Usa Today）",
-  "⚽🏴󠁧󠁢󠁥󠁮󠁧󠁿🇨🇩 England 2-1 DR Congo — Harry Kane第86分鐘右腳勁射梅開二度！Elliot Anderson直塞，Kane禁區右側勁射入網，以世界盃13球超越巴西傳奇Pelé（12球）。英格蘭逆轉晉級16強，將在7月5日墨西哥城阿茲特克體育場對陣🇲🇽墨西哥。這場16強賽堪稱火星撞地球！（Getty Images/Usa Today）"
+  "⚽🇪🇸🇦🇹 Spain 3-0 Austria — Mikel Oyarzabal第36分鐘接Marc Cucurella左路傳中，禁區內右腳冷靜推射入左下角！Pedri中場調度找到Cucurella，Cucurella不停球直接橫傳，Oyarzabal順勢掃射，Alexander Schlager鞭長莫及。這是西班牙本屆第6球，Oyarzabal個人在世界盃的第3球。Oyarzabal慶祝時被Álex Baena和Cucurella團團圍住，場邊西班牙球迷歡聲雷動（Harry How/Getty Images）",
+  "⚽🇪🇸🇦🇹 Spain 3-0 Austria — Pedro Porro第66分鐘接Álex Baena左路定位球，禁區中央躍起頭槌破網！這是Porro在西班牙國家隊的首顆國際賽進球！此前Cucurella的自由球被吹掉、Oyarzabal屢次錯失梅開二度機會，但Porro的頭槌為西班牙鎖定勝局。Austria替補上場的Sasa Kalajdzic曾有一次頭槌機會但高出橫梁。Porro在Tottenham的出色狀態延續到國家隊（USATSI/Usa Today）",
+  "⚽🇪🇸🇦🇹 Spain 3-0 Austria — Mikel Oyarzabal第89分鐘接Cucurella精準傳中，禁區內接應梅開二度！西班牙3-0完勝終結16年世界盃淘汰賽不勝魔咒（自2010年決賽擊敗荷蘭以來首次）。更驚人的是西班牙本屆4場比賽全部零失球！Unai Simón已連續保持390分鐘不失球創世界盃紀錄。Lamine Yamal與Pau Cubarsí成為1958年Pelé和Altafini以來首對在世界盃淘汰賽先發的U20雙人組（Getty Images）",
+  "⚽🇵🇹🇭🇷 Portugal 2-1 Croatia — Cristiano Ronaldo第68分鐘12碼罰球破門扳平比分！這是Ronaldo在世界盃淘汰賽階段23年來（8場比賽）的首顆進球！Marin Pongračić在禁區內拉倒João Cancelo，VAR審查後主裁判Slavko Vinčić判罰12碼。Ronaldo深吸一口氣後冷靜射入左下角，Livaković撲錯方向。41歲的Ronaldo成為世界盃淘汰賽最年長進球者之一。進球後Ronaldo雙手指天紀念逝世一週年的前隊友Diogo Jota（Getty Images/AFP via Getty）",
+  "⚽🇵🇹🇭🇷 Portugal 2-1 Croatia — Gonçalo Ramos第90+4分鐘頭槌絕殺！Bruno Fernandes開出右側角球，Ramos在遠柱高人躍起，力壓Josip Šutalo和Marin Pongračić將球頂入網內！這是Ramos本屆世界盃替補上場後的第2球。有趣的是Ronaldo在第87分鐘被換下時面露不悅，但Ramos的絕殺證明Roberto Martínez的調度是神來之筆。Croatia的Josko Gvardiol原本在補時階段有一球入網但被VAR判定越位在先，讓Croatia從天堂掉到地獄（Getty Images）",
+  "⚽🇵🇹🇭🇷 Portugal 2-1 Croatia — 終場哨響後葡萄牙全隊在BMO Field瘋狂慶祝！C羅賽後眼眶泛紅，這可能是他最後一屆世界盃，而葡萄牙成功晉級16強。這是葡萄牙自2006年以來首次在世界盃淘汰賽中逆轉獲勝。BMO Field現場湧入超過4萬名球迷，多倫多龐大的葡萄牙裔社區和高克羅埃西亞裔社區創造了世界盃史上最熱鬧的氛圍之一。葡萄牙將在7月6日於達拉斯AT&T體育場對陣🇪🇸西班牙——伊比利半島德比！（Getty Images/Usa Today）",
+  "🏆⚽ 2026世界盃32強賽戰報：已進行12場 ✅ 12隊晉級16強 — 🇫🇷法國（Mbappé梅開二度18球超越Klose）、🇨🇦加拿大（Eustáquio傷停絕殺）、🇧🇷巴西（Martinelli第95分鐘絕殺）、🇵🇾巴拉圭（PK 4-3爆冷淘汰德國）、🇲🇦摩洛哥（PK 3-2淘汰荷蘭）、🇳🇴挪威（Haaland絕殺）、🇲🇽墨西哥（Quiñones+Jiménez進球40年淘汰賽首勝）、🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭（Kane梅開二度13球超越Pelé）、🇧🇪比利時（Tielemans罰球絕殺0-2逆轉）、🇺🇸美國（Balogun進球+紅牌、Tillman自由球絕殺）、🇪🇸西班牙（Oyarzabal梅開二度零失球統治級表現）、🇵🇹葡萄牙（Ronaldo罰球歷史進球+Ramos絕殺）。今日（7/3）續賽：🇨🇭瑞士vs🇩🇿阿爾及利亞（凌晨）、🇦🇷阿根廷vs🇨🇻維德角、🇨🇴哥倫比亞vs🇬🇭迦納、🇦🇺澳大利亞vs🇪🇬埃及！（Getty Images/Usa Today）"
 ];
