@@ -110,31 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-07-03 上午更新：🇪🇸西班牙3-0零封奧地利晉級、🇵🇹葡萄牙C羅罰球+Ramos頭槌絕殺克羅埃西亞、🇨🇭瑞士Embolo破門88年來首勝淘汰賽！今日待賽：🇦🇷阿根廷vs🇨🇻維德角、🇨🇴哥倫比亞vs🇬🇭迦納） =====
-// ===== 輪播牆圖片（2026-07-04 上午更新：🇦🇷阿根廷延長賽3-2力克🇨🇻維德角晉級、🇨🇴哥倫比亞1-0零封迦納挺進16強對🇨🇭瑞士！今日（7/4）16強賽開打：🇨🇦加拿大vs🇲🇦摩洛哥、🇵🇾巴拉圭vs🇫🇷法國） =====
+// ===== 輪播牆圖片（2026-07-04 上午更新：32強賽全部結束！🇦🇷阿根廷延長賽3-2力克🇨🇻維德角、🇨🇴哥倫比亞1-0零封🇬🇭迦納、🇪🇬埃及PK 4-2淘汰🇦🇺澳大利亞創歷史！今日（7/4）16強賽開打：🇨🇦加拿大vs🇲🇦摩洛哥（17:00 ET·休斯敦）、🇵🇾巴拉圭vs🇫🇷法國（21:00 ET·費城）） =====
 const HERO_IMAGES = [
-  // 🐐⚽ Argentina 1-0 Cape Verde — Lionel Messi第29分鐘接Lisandro Martinez長傳，胸部停球後禁區內抽射入網！連續第8場世界盃進球，Messi以7顆進球持續領先金靴榜（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90797519007-getty-images-2283912144.jpg',
-  // 🇦🇷⚽ Argentina 2-1 Cape Verde — Lisandro Martinez第92分鐘接Rodrigo De Paul角球，禁區中央強力頭槌破門！阿根廷延長賽開局即取得領先，Martinez進球後與Enzo Fernandez激情慶祝（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90797520007-getty-images-2284535446.jpg',
-  // 🇨🇻⚽ Cape Verde 2-2 Argentina — Sidny Lopes Cabral第99分鐘禁區外左路世界波弧線射門入遠角！本屆賽事最佳進球之一，Cape Verde奇蹟般二度追平衛冕冠軍（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90797521007-getty-images-2284535217.jpg',
-  // 🇦🇷🏆 Argentina 3-2 Cape Verde — Diney Borges第111分鐘自擺烏龍，Messi開出角球造成禁區混亂，Borges頭球誤入自家大門。阿根廷驚險晉級，Cape Verde雖敗猶榮（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90797522007-getty-images-2284535456.jpg',
-  // 🇨🇻😢 Cape Verde的童話結束 — Cape Verde球員在延長賽惜敗後向球迷致謝。非洲小島國首次世界盃即闖入32強，小組賽逼平西班牙和烏拉圭，淘汰賽與阿根廷戰至最後一刻，感動全球球迷（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90797774007-getty-images-2283915036.jpg',
-  // ⚽🇦🇷🇨🇻 Argentina 3-2 Cape Verde — Messi在比賽中展現球王風采，率領阿根廷在Miami Hard Rock Stadium的延長賽激戰中以3-2力克Cape Verde，阿根廷16強將對陣埃及（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90798016007-getty-images-2284541907.jpg',
-  // 🇨🇴⚽ Colombia 1-0 Ghana — Jhon Arias第14分鐘接Luis Suarez右路傳中，門前搶點推射入網！全場唯一進球，哥倫比亞零封對手晉級16強，將在7/8溫哥華BC Place對陣瑞士（USA Today Sports）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90799299007-jhon-arias-colombia-world-cup.jpg'
+  // 🐐🇦🇷⚽ Argentina 3-2 Cape Verde — Lionel Messi第29分鐘接Lisandro Martinez長傳胸部停球後抽射入網，連續第8場世界盃進球！Messi以7球領先金靴榜，阿根廷延長賽驚險晉級16強將對陣埃及（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90798978007-getty-images-2284556266.jpg',
+  // 🔥🇦🇷 Argentina 3-2 Cape Verde — Cristian Romero與隊友慶祝致勝進球！Messi開出角球造成Diney Borges第111分鐘自擺烏龍，阿根廷3-2險勝。Cape Verde兩度追平展現鋼鐵意志，雖敗猶榮（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90798979007-getty-images-2284556001.jpg',
+  // 🇨🇴⚽ Colombia 1-0 Ghana — Jhon Arias第14分鐘接Luis Suarez右路傳中，門前搶點推射入網！全場唯一進球，哥倫比亞零封對手晉級16強，將在7/8溫哥華BC Place對陣瑞士（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90799849007-getty-images-2284569504.jpg',
+  // 🇨🇴🎉 Colombia 1-0 Ghana — Gustavo Puerta與隊友在終場哨響後慶祝勝利！哥倫比亞延續不敗紀錄，Davinson Sanchez領銜防線連續3場淘汰賽零封對手，劍指8強門票（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90799484007-getty-images-2284563598.jpg',
+  // 🇪🇬🏆 Egypt PK 4-2 Australia — 埃及球員在PK大戰獲勝後瘋狂慶祝！Hossam Abdelmaguid罰進致勝12碼，埃及史上首次在世界盃淘汰賽贏球，將在7/7亞特蘭大對陣阿根廷（Reuters/USA Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90796472007-20260703-t-185710-z-1974655246-up-1-em-731-gn-96-g-rtrmadp-3-soccerworldcupausegy.JPG',
+  // 🇪🇬👑⚽ Egypt 1-1 Australia (4-2 PSO) — Mohamed Salah在PK大戰中罰進Panenka！埃及隊長冷靜挑射中路，率領法老軍團寫下歷史新頁。Salah：「我必須這樣做，我要給年輕隊友信心」（Reuters/USA Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90796467007-20260703-t-185503-z-299541596-up-1-em-731-gjp-63-rtrmadp-3-soccerworldcupausegy.JPG',
+  // 🏆 16強賽今日開打！🇨🇦加拿大vs🇲🇦摩洛哥（17:00 ET·休斯敦）🇵🇾巴拉圭vs🇫🇷法國（21:00 ET·費城）32強賽全落幕：16強對陣出爐，阿根廷vs埃及、巴西vs挪威、葡萄牙vs西班牙等焦點對決即將上演（USA Today Sports）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90799806007-getty-images-2284568874.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  "🐐⚽🇦🇷🇨🇻 Argentina 1-0 Cape Verde — Lionel Messi第29分鐘接Lisandro Martinez中場長傳，禁區內胸部停球後右腳抽射入網！這是Messi連續第8場世界盃比賽進球，累計12顆世界盃進球。本屆賽事Messi已進7球，持續領先金靴榜。Cape Verde門將Vozinha雖奮力撲救仍無力阻擋球王的精準射門（Getty Images）",
-  "⚽🇦🇷🇨🇻 Argentina 2-1 Cape Verde — Lisandro Martinez第92分鐘接Rodrigo De Paul開出的角球，禁區中央強力頭槌入網！阿根廷延長賽開局僅2分鐘即取得領先，Martinez進球後與Enzo Fernandez激情擁抱慶祝。這顆進球展現了阿根廷在定位球戰術上的精妙設計（Getty Images）",
-  "⚽🇨🇻🇦🇷 Cape Verde 2-2 Argentina — Sidny Lopes Cabral第99分鐘禁區外左路世界波！Lopes Cabral在左側禁區邊緣掄起左腳劃出一道絕美弧線，皮球直掛遠角入網。這是本屆賽事最佳進球之一，Cape Verde展現鋼鐵意志二度逼平衛冕冠軍（Getty Images）",
-  "⚽🏆🇦🇷🇨🇻 Argentina 3-2 Cape Verde — Diney Borges第111分鐘頭球自擺烏龍！Lionel Messi開出角球，Borges在Lisandro Martinez的壓迫下將球頂入自家大門。Cape Verde球員跪地懊悔，阿根廷驚險取得致勝球。這是世界盃史上最戲劇性的結局之一（Getty Images）",
-  "😢🇨🇻 Cape Verde的童話故事畫下句點 — Cape Verde球員在延長賽3-2惜敗後向Miami球迷致謝。這支非洲小島國首次世界盃即闖入32強，小組賽0-0逼平歐洲冠軍西班牙、2-2戰平烏拉圭，淘汰賽與衛冕冠軍阿根廷戰至延長賽最後一刻。他們的表現贏得了全世界的尊敬（Getty Images）",
-  "🐐🏆🇦🇷🇨🇻 Argentina 3-2 Cape Verde (AET) — Lionel Messi率領阿根廷在Miami Hard Rock Stadium的延長賽激戰中以3-2力克Cape Verde。Messi全場貢獻一進球一助攻（角球造成烏龍），阿根廷16強將於7月7日亞特蘭大對陣埃及。Cape Verde雖敗猶榮，創造了本屆世界盃最動人的故事（Getty Images）",
-  "⚽🇨🇴🇬🇭 Colombia 1-0 Ghana — Jhon Arias第14分鐘接Luis Suarez右路精準傳中，門前搶點推射入網！這是Arias個人世界盃首顆進球，哥倫比亞將1-0領先優勢保持到終場。Davinson Sanchez領銜的防線連續3場世界盃零封對手。哥倫比亞將在7月8日溫哥華BC Place對陣瑞士（USA Today Sports）"
+  "🐐⚽🇦🇷🇨🇻 Argentina 3-2 Cape Verde (AET) — Lionel Messi第29分鐘接Lisandro Martinez中場長傳，禁區內胸部停球後右腳抽射入網！這是Messi連續第8場世界盃進球，累計20顆世界盃進球（史上第一）。本屆賽事Messi已進7球領先金靴榜。阿根廷在Miami Hard Rock Stadium延長賽驚險晉級，將在7月7日亞特蘭大對陣埃及（Getty Images）",
+  "🔥🏆🇦🇷🇨🇻 Argentina 3-2 Cape Verde (AET) — Cristian Romero與隊友狂慶致勝進球！Messi第111分鐘開出角球，Cape Verde後衛Diney Borges在Lisandro Martinez壓迫下頭球誤入自家大門。Cape Verde兩度追平卻仍惜敗，非洲小島國的童話故事在延長賽畫下感人句點（Getty Images）",
+  "⚽🇨🇴🇬🇭 Colombia 1-0 Ghana — Jhon Arias第14分鐘接Luis Suarez右路精準傳中，門前搶點推射入網！這是Arias個人世界盃首顆進球。哥倫比亞將1-0領先優勢保持到終場，Davinson Sanchez領銜防線連續3場世界盃零封對手。哥倫比亞將在7月8日溫哥華BC Place對陣瑞士（Getty Images）",
+  "🎉🇨🇴 Colombia 1-0 Ghana — Gustavo Puerta與隊友在Kansas City Arrowhead Stadium終場哨響後慶祝勝利！哥倫比亞延續不敗紀錄，以1-0零封迦納闖入16強。這是哥倫比亞近3屆世界盃第3次晉級淘汰賽，將挑戰瑞士爭奪8強門票（Getty Images）",
+  "🇪🇬🏆🤩 Egypt PK 4-2 Australia — 埃及球員在PK大戰獲勝後激情慶祝！Emam Ashour第13分鐘頭槌先馳得點，Australia靠Mohamed Hany烏龍球扳平。延長賽後PK大戰中Hossam Abdelmaguid罰進致勝12碼，埃及史上首次在世界盃淘汰賽贏球！將在7月7日亞特蘭大對陣阿根廷（Reuters/USA Today）",
+  "👑🇪🇬⚽ Egypt 1-1 Australia (4-2 PSO) — Mohamed Salah在PK大戰中罰進經典Panenka！埃及隊長面對澳洲門將Mat Ryan，冷靜挑射中路得分。Salah賽後說：「如果要有人這樣做，那應該是我。我比其他人更有經驗，我要給他們信心。」埃及成為史上第5支闖入世界盃淘汰賽第二輪的非洲球隊（Reuters/USA Today）",
+  "🏆⚽ 2026世界盃16強賽今日火熱開打！🇨🇦加拿大vs🇲🇦摩洛哥（7/4 17:00 ET·休斯敦NRG體育場）加拿大Stephen Eustáquio絕殺南非創造歷史，摩洛哥PK淘汰荷蘭士氣正旺。🇵🇾巴拉圭vs🇫🇷法國（7/4 21:00 ET·費城林肯金融球場）巴拉圭PK爆冷淘汰德國，法國Mbappé領銜最強火力。32強賽全落幕，16強對戰組合全數出爐！（USA Today Sports）"
 ];

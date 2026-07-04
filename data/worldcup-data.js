@@ -3309,7 +3309,7 @@ const WC_DATA = {
       R32: {
         order: 1,
         name: '32強賽', nameEn: 'Round of 32',
-        status: 'in_progress',
+        status: 'completed',
         totalMatches: 16,
         completedCount: 16,
         dateRange: '6月28日 — 7月3日',
@@ -3324,14 +3324,14 @@ const WC_DATA = {
         completedCount: 0,
         dateRange: '7月4日 — 7月8日',
         matchups: [
-          { team1: 'Morocco', team2: 'Canada', date: '2026-07-04', venue: '休斯敦·NRG體育場', time: 'TBD' },
-          { team1: 'Paraguay', team2: 'France', date: '2026-07-04', venue: '費城·林肯金融球場', time: 'TBD' },
-          { team1: 'Norway', team2: 'Brazil', date: '2026-07-05', venue: '休斯敦·NRG體育場', time: 'TBD' },
-          { team1: 'Mexico', team2: 'England', date: '2026-07-05', venue: '墨西哥城·阿茲特克體育場', time: 'TBD' },
-          { team1: 'USA', team2: 'Belgium', date: '2026-07-06', venue: '西雅圖·流明球場', time: 'TBD' },
-          { team1: 'Portugal', team2: 'Spain', date: '2026-07-06', venue: '達拉斯·AT&T體育場', time: 'TBD' },
-          { team1: 'Switzerland', team2: 'Colombia', date: '2026-07-08', venue: '溫哥華·BC Place', time: 'TBD' },
-          { team1: 'Egypt', team2: 'Argentina', date: '2026-07-07', venue: '亞特蘭大·梅賽德斯-賓士體育場', time: 'TBD' }
+          { team1: 'Morocco', team2: 'Canada', date: '2026-07-04', venue: '休斯敦·NRG體育場', time: '17:00 ET' },
+          { team1: 'Paraguay', team2: 'France', date: '2026-07-04', venue: '費城·林肯金融球場', time: '21:00 ET' },
+          { team1: 'Norway', team2: 'Brazil', date: '2026-07-05', venue: '休斯敦·NRG體育場', time: '17:00 ET' },
+          { team1: 'Mexico', team2: 'England', date: '2026-07-05', venue: '墨西哥城·阿茲特克體育場', time: '21:00 ET' },
+          { team1: 'USA', team2: 'Belgium', date: '2026-07-06', venue: '西雅圖·流明球場', time: '17:00 ET' },
+          { team1: 'Portugal', team2: 'Spain', date: '2026-07-06', venue: '達拉斯·AT&T體育場', time: '21:00 ET' },
+          { team1: 'Switzerland', team2: 'Colombia', date: '2026-07-08', venue: '溫哥華·BC Place', time: '20:00 ET' },
+          { team1: 'Egypt', team2: 'Argentina', date: '2026-07-07', venue: '亞特蘭大·梅賽德斯-賓士體育場', time: '20:00 ET' }
         ]
       },
       QF: {
