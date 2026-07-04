@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: '32強賽 (Round of 32) — 已進行14場，2場待賽 · 🇪🇬埃及PK 4-2淘汰🇦🇺澳大利亞（Ashour進球、Salah罰進Panenka，埃及史上首次世界盃淘汰賽勝利！）。今日（7/3）續賽：🇦🇷阿根廷vs🇨🇻維德角（22:00 ET）、🇨🇴哥倫比亞vs🇬🇭迦納（01:30 UTC 7/4）。16強對陣：🇫🇷法國vs🇵🇾巴拉圭（7/4費城）、🇨🇦加拿大vs🇲🇦摩洛哥（7/4休斯敦）、🇧🇷巴西vs🇳🇴挪威（7/5休斯敦）、🇲🇽墨西哥vs🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭（7/5墨西哥城）、🇺🇸美國vs🇧🇪比利時（7/6西雅圖）、🇵🇹葡萄牙vs🇪🇸西班牙（7/6達拉斯）、🇨🇭瑞士vsTBD（7/8溫哥華）、🇪🇬埃及vsTBD（7/7亞特蘭大）！',
+    currentPhase: '32強賽 (Round of 32) — 全部16場完成！16強賽即將開打（7月4日：🇨🇦加拿大vs🇲🇦摩洛哥·休斯敦、🇵🇾巴拉圭vs🇫🇷法國·費城；7月5日：🇧🇷巴西vs🇳🇴挪威·休斯敦、🇲🇽墨西哥vs🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭·墨西哥城；7月6日：🇺🇸美國vs🇧🇪比利時·西雅圖、🇵🇹葡萄牙vs🇪🇸西班牙·達拉斯；7月7日：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大；7月8日：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華)' · 🇪🇬埃及PK 4-2淘汰🇦🇺澳大利亞（Ashour進球、Salah罰進Panenka，埃及史上首次世界盃淘汰賽勝利！）。今日（7/3）續賽：🇦🇷阿根廷vs🇨🇻維德角（22:00 ET）、🇨🇴哥倫比亞vs🇬🇭迦納（01:30 UTC 7/4）。16強對陣：🇫🇷法國vs🇵🇾巴拉圭（7/4費城）、🇨🇦加拿大vs🇲🇦摩洛哥（7/4休斯敦）、🇧🇷巴西vs🇳🇴挪威（7/5休斯敦）、🇲🇽墨西哥vs🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭（7/5墨西哥城）、🇺🇸美國vs🇧🇪比利時（7/6西雅圖）、🇵🇹葡萄牙vs🇪🇸西班牙（7/6達拉斯）、🇨🇭瑞士vsTBD（7/8溫哥華）、🇪🇬埃及vsTBD（7/7亞特蘭大）！',
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -3150,11 +3150,52 @@ const WC_DATA = {
     },
 
     // === 7月3日 ===
-    { date: '2026-07-03', time: '16:00 ET', group: 'R32', team1: 'Argentina', team2: 'Cape Verde', venue: '邁阿密·硬石體育場', status: 'upcoming',
-      goals: [], cards: [], stats: {}
+    { date: '2026-07-03', time: '16:00 ET', group: 'R32', team1: 'Argentina', score1: 3, team2: 'Cape Verde', score2: 2, venue: '邁阿密·硬石體育場', status: 'completed',
+      note: '阿根廷延長賽驚險晉級16強！Lionel Messi第29分鐘先馳得點，Cape Verde憑Deroy Duarte（59\'）和Sidny Lopes Cabral第99分鐘世界波兩度追平，Lisandro Martinez第92分鐘頭槌建功，Diney Borges第111分鐘自擺烏龍致勝。阿根廷將在16強賽對陣埃及！',
+      goals: [
+        { min: 29, team: 1, scorer: 'Lionel Messi', assist: 'Lisandro Martinez', detail: 'Lisandro Martinez長傳禁區，Messi胸部停球後抽射入網，連續第8場世界盃進球！' },
+        { min: 59, team: 2, scorer: 'Deroy Duarte', assist: 'Ryan Mendes', detail: 'Mendes傳球，Duarte禁區內低射從Lisandro Martinez雙腿間穿過入網，1-1' },
+        { min: 92, team: 1, scorer: 'Lisandro Martinez', assist: 'Rodrigo De Paul', detail: 'De Paul開出角球，Martinez禁區中央頭槌破門，阿根廷2-1再度領先' },
+        { min: 99, team: 2, scorer: 'Sidny Lopes Cabral', detail: 'Lopes Cabral左路禁區外世界波弧線射門入遠角，本屆賽事最佳進球之一！2-2' },
+        { min: 111, team: 1, scorer: 'Diney Borges', detail: 'own goal — Messi開出角球，Borges在壓力下頭球誤入自家大門，阿根廷3-2絕殺！' }
+      ],
+      cards: [
+        { min: 35, team: 2, player: 'Kevin Pina', card: 'yellow', detail: '犯規阻止反擊' },
+        { min: 68, team: 1, player: 'Rodrigo De Paul', card: 'yellow', detail: '戰術犯規' },
+        { min: 78, team: 2, player: 'Diney Borges', card: 'yellow', detail: '爭搶犯規' },
+        { min: 102, team: 1, player: 'Cristian Romero', card: 'yellow', detail: '延遲比賽' },
+        { min: 115, team: 2, player: 'Jamiro Monteiro', card: 'yellow', detail: '抗議判決' }
+      ],
+      stats: {
+        possession: [58, 42], shots: [22, 10], shotsOnTarget: [8, 4],
+        shotsOffTarget: [10, 5], shotsInsideBox: [15, 5], shotsOutsideBox: [7, 5],
+        passes: [620, 420], passCompleted: [545, 350], passAccuracy: [87.9, 83.3],
+        crosses: [28, 14], crossesCompleted: [8, 4], corners: [10, 3],
+        freeKicks: [14, 16], fouls: [14, 16], offsides: [3, 2],
+        yellowCards: [2, 3], redCards: [0, 0],
+        forcedTurnovers: [28, 32], pressingApplied: [240, 220]
+      }
     },
-    { date: '2026-07-03', time: '19:00 ET', group: 'R32', team1: 'Colombia', team2: 'Ghana', venue: '堪薩斯城·箭頭體育場', status: 'upcoming',
-      goals: [], cards: [], stats: {}
+    { date: '2026-07-03', time: '19:00 ET', group: 'R32', team1: 'Colombia', score1: 1, team2: 'Ghana', score2: 0, venue: '堪薩斯城·箭頭體育場', status: 'completed',
+      note: '哥倫比亞1-0擊敗迦納晉級16強！Jhon Arias第14分鐘接Luis Suarez右路傳中門前推射破網，全場唯一進球。哥倫比亞零封對手延續不敗紀錄，將在7/8溫哥華BC Place對陣瑞士！',
+      goals: [
+        { min: 14, team: 1, scorer: 'Jhon Arias', assist: 'Luis Suarez', detail: 'Suarez右路傳中，Arias門前搶點推射入網，個人世界盃首球！' }
+      ],
+      cards: [
+        { min: 27, team: 2, player: 'Alidu Seidu', card: 'yellow', detail: '戰術犯規' },
+        { min: 45, team: 1, player: 'Jefferson Lerma', card: 'yellow', detail: '鏟球犯規' },
+        { min: 62, team: 2, player: 'Thomas Partey', card: 'yellow', detail: '犯規阻止反擊' },
+        { min: 78, team: 1, player: 'Davinson Sanchez', card: 'yellow', detail: '爭搶犯規' }
+      ],
+      stats: {
+        possession: [61, 39], shots: [16, 7], shotsOnTarget: [5, 2],
+        shotsOffTarget: [8, 4], shotsInsideBox: [10, 3], shotsOutsideBox: [6, 4],
+        passes: [540, 360], passCompleted: [475, 295], passAccuracy: [88.0, 81.9],
+        crosses: [24, 12], crossesCompleted: [7, 3], corners: [7, 3],
+        freeKicks: [12, 14], fouls: [11, 14], offsides: [2, 1],
+        yellowCards: [2, 2], redCards: [0, 0],
+        forcedTurnovers: [25, 30], pressingApplied: [210, 230]
+      }
     },
     { date: '2026-07-03', time: '19:00 ET', group: 'R32', team1: 'Australia', team2: 'Egypt', venue: '達拉斯·AT&T體育場', status: 'completed',
       score1: 1, score2: 1,
@@ -3254,7 +3295,7 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: '32強賽已進行14場 ✅  🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇫🇷法國、🇲🇽墨西哥、🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭、🇧🇪比利時、🇺🇸美國、🇪🇸西班牙、🇵🇹葡萄牙、🇨🇭瑞士、🇪🇬埃及晉級16強 ｜ ❌ 淘汰：🇿🇦南非、🇯🇵日本、🇩🇪德國、🇳🇱荷蘭、🇨🇮象牙海岸、🇸🇪瑞典、🇪🇨厄瓜多、🇨🇩DR Congo、🇸🇳塞內加爾、🇧🇦波赫、🇦🇹奧地利、🇭🇷克羅埃西亞、🇩🇿阿爾及利亞、🇦🇺澳大利亞 ｜ 今日（7/3）續賽：🇦🇷阿根廷vs🇨🇻維德角、🇨🇴哥倫比亞vs🇬🇭迦納',
+    summary: '32強賽全部16場完成 ✅  🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇫🇷法國、🇲🇽墨西哥、🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭、🇧🇪比利時、🇺🇸美國、🇪🇸西班牙、🇵🇹葡萄牙、🇨🇭瑞士、🇪🇬埃及、🇦🇷阿根廷、🇨🇴哥倫比亞晉級16強 ｜ ❌ 淘汰：🇿🇦南非、🇯🇵日本、🇩🇪德國、🇳🇱荷蘭、🇨🇮象牙海岸、🇸🇪瑞典、🇪🇨厄瓜多、🇨🇩DR Congo、🇸🇳塞內加爾、🇧🇦波赫、🇦🇹奧地利、🇭🇷克羅埃西亞、🇩🇿阿爾及利亞、🇦🇺澳大利亞、🇨🇻維德角、🇬🇭迦納 ｜ 今日（7/4）16強賽開打：🇨🇦加拿大vs🇲🇦摩洛哥、🇵🇾巴拉圭vs🇫🇷法國' ✅  🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇫🇷法國、🇲🇽墨西哥、🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭、🇧🇪比利時、🇺🇸美國、🇪🇸西班牙、🇵🇹葡萄牙、🇨🇭瑞士、🇪🇬埃及晉級16強 ｜ ❌ 淘汰：🇿🇦南非、🇯🇵日本、🇩🇪德國、🇳🇱荷蘭、🇨🇮象牙海岸、🇸🇪瑞典、🇪🇨厄瓜多、🇨🇩DR Congo、🇸🇳塞內加爾、🇧🇦波赫、🇦🇹奧地利、🇭🇷克羅埃西亞、🇩🇿阿爾及利亞、🇦🇺澳大利亞 ｜ 今日（7/3）續賽：🇦🇷阿根廷vs🇨🇻維德角、🇨🇴哥倫比亞vs🇬🇭迦納',
     
     // PK 大戰結果
     penalties: {
@@ -3270,18 +3311,18 @@ const WC_DATA = {
         name: '32強賽', nameEn: 'Round of 32',
         status: 'in_progress',
         totalMatches: 16,
-        completedCount: 14,
+        completedCount: 16,
         dateRange: '6月28日 — 7月3日',
-        eliminated: ['South Africa', 'Japan', 'Germany', 'Netherlands', 'Ivory Coast', 'Sweden', 'Ecuador', 'DR Congo', 'Senegal', 'Bosnia and Herzegovina', 'Austria', 'Croatia', 'Algeria', 'Australia'],
-        advanced: ['Canada', 'Brazil', 'Paraguay', 'Morocco', 'Norway', 'France', 'Mexico', 'England', 'Belgium', 'USA', 'Spain', 'Portugal', 'Switzerland', 'Egypt']
+        eliminated: ['South Africa', 'Japan', 'Germany', 'Netherlands', 'Ivory Coast', 'Sweden', 'Ecuador', 'DR Congo', 'Senegal', 'Bosnia and Herzegovina', 'Austria', 'Croatia', 'Algeria', 'Australia', 'Cape Verde', 'Ghana'],
+        advanced: ['Canada', 'Brazil', 'Paraguay', 'Morocco', 'Norway', 'France', 'Mexico', 'England', 'Belgium', 'USA', 'Spain', 'Portugal', 'Switzerland', 'Egypt', 'Argentina', 'Colombia']
       },
       R16: {
         order: 2,
         name: '16強賽', nameEn: 'Round of 16',
-        status: 'upcoming',
+        status: 'in_progress',
         totalMatches: 8,
         completedCount: 0,
-        dateRange: '7月3日 — 7月6日',
+        dateRange: '7月4日 — 7月8日',
         matchups: [
           { team1: 'Morocco', team2: 'Canada', date: '2026-07-04', venue: '休斯敦·NRG體育場', time: 'TBD' },
           { team1: 'Paraguay', team2: 'France', date: '2026-07-04', venue: '費城·林肯金融球場', time: 'TBD' },
@@ -3289,8 +3330,8 @@ const WC_DATA = {
           { team1: 'Mexico', team2: 'England', date: '2026-07-05', venue: '墨西哥城·阿茲特克體育場', time: 'TBD' },
           { team1: 'USA', team2: 'Belgium', date: '2026-07-06', venue: '西雅圖·流明球場', time: 'TBD' },
           { team1: 'Portugal', team2: 'Spain', date: '2026-07-06', venue: '達拉斯·AT&T體育場', time: 'TBD' },
-          { team1: 'Switzerland', team2: 'TBD', date: '2026-07-08', venue: '溫哥華·BC Place', time: 'TBD' },
-          { team1: 'Egypt', team2: 'TBD', date: '2026-07-07', venue: '亞特蘭大·梅賽德斯-賓士體育場', time: 'TBD' }
+          { team1: 'Switzerland', team2: 'Colombia', date: '2026-07-08', venue: '溫哥華·BC Place', time: 'TBD' },
+          { team1: 'Egypt', team2: 'Argentina', date: '2026-07-07', venue: '亞特蘭大·梅賽德斯-賓士體育場', time: 'TBD' }
         ]
       },
       QF: {

@@ -111,29 +111,30 @@ const PLAYER_IMAGES = {
 };
 
 // ===== 輪播牆圖片（2026-07-03 上午更新：🇪🇸西班牙3-0零封奧地利晉級、🇵🇹葡萄牙C羅罰球+Ramos頭槌絕殺克羅埃西亞、🇨🇭瑞士Embolo破門88年來首勝淘汰賽！今日待賽：🇦🇷阿根廷vs🇨🇻維德角、🇨🇴哥倫比亞vs🇬🇭迦納） =====
+// ===== 輪播牆圖片（2026-07-04 上午更新：🇦🇷阿根廷延長賽3-2力克🇨🇻維德角晉級、🇨🇴哥倫比亞1-0零封迦納挺進16強對🇨🇭瑞士！今日（7/4）16強賽開打：🇨🇦加拿大vs🇲🇦摩洛哥、🇵🇾巴拉圭vs🇫🇷法國） =====
 const HERO_IMAGES = [
-  // 🇪🇸⚽ Spain 1-0 Austria — Mikel Oyarzabal第36分鐘接Marc Cucurella傳中，禁區內冷靜推射先馳得點！西班牙終結16年世界盃淘汰賽不勝魔咒（Harry How/Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/02/USAT/90788265007-2284374531.jpg',
-  // 🇪🇸⚽ Spain 3-0 Austria — Pedro Porro第66分鐘接Álex Baena定位球，禁區中央強力頭槌破網！這是Porro國際賽首顆進球，西班牙擴大領先至2-0（Harry How/Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/02/USAT/90788272007-usatsi-29315527.jpg',
-  // 🇪🇸⚽ Spain 3-0 Austria — Oyarzabal第89分鐘接Cucurella傳中梅開二度！西班牙全勝零失球晉級，Oyarzabal本屆世界盃已進4球，狀態火熱（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/02/USAT/90788268007-2283782575.jpg',
-  // 🇵🇹⚽ Portugal 1-1 Croatia — Cristiano Ronaldo第68分鐘12碼罰球破門！VAR確認Pongračić禁區內犯規後，CR7冷靜射入左下角，生涯首顆世界盃淘汰賽進球（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90791118007-getty-images-2284403410.jpg',
-  // 🇵🇹⚽ Portugal 2-1 Croatia — Gonçalo Ramos第90+4分鐘接Bruno Fernandes角球，遠柱頭槌絕殺！葡萄牙完成逆轉，16強將對陣🇪🇸西班牙上演伊比利半島內戰（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90791199007-getty-images-2284403875.jpg',
-  // 🇨🇭⚽ Switzerland 1-0 Algeria — Breel Embolo第10分鐘接Johan Manzambi右路突破傳中，門前推射破網！瑞士取得夢幻開局，Embolo本屆第5顆進球（AP Photo/Lindsey Wasson）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/02/USAT/90788767007-20260702-t-203019-z-399516777-up-1-em-721-kyi-9-t-rtrmadp-3-soccerworldcupespaut.jpg',
-  // 🏆⚽ 2026世界盃32強賽戰報：14隊已晉級16強 ✅ — 🇪🇸西班牙（Oyarzabal梅開二度零失球統治級表現）、🇵🇹葡萄牙（Ronaldo罰球歷史進球+Ramos絕殺）、🇨🇭瑞士（Embolo+Ndoye進球，1938年以來首場淘汰賽勝利！）。今日（7/3）續賽：🇦🇷阿根廷vs🇨🇻維德角（16:00 ET）、🇨🇴哥倫比亞vs🇬🇭迦納（19:00 ET）。16強對陣全數確認中！🔥（Getty Images/Usa Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/02/USAT/90789762007-usp-soccer-fifa-world-cup-2026-round-of-32-sp.jpg'
+  // 🐐⚽ Argentina 1-0 Cape Verde — Lionel Messi第29分鐘接Lisandro Martinez長傳，胸部停球後禁區內抽射入網！連續第8場世界盃進球，Messi以7顆進球持續領先金靴榜（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90797519007-getty-images-2283912144.jpg',
+  // 🇦🇷⚽ Argentina 2-1 Cape Verde — Lisandro Martinez第92分鐘接Rodrigo De Paul角球，禁區中央強力頭槌破門！阿根廷延長賽開局即取得領先，Martinez進球後與Enzo Fernandez激情慶祝（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90797520007-getty-images-2284535446.jpg',
+  // 🇨🇻⚽ Cape Verde 2-2 Argentina — Sidny Lopes Cabral第99分鐘禁區外左路世界波弧線射門入遠角！本屆賽事最佳進球之一，Cape Verde奇蹟般二度追平衛冕冠軍（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90797521007-getty-images-2284535217.jpg',
+  // 🇦🇷🏆 Argentina 3-2 Cape Verde — Diney Borges第111分鐘自擺烏龍，Messi開出角球造成禁區混亂，Borges頭球誤入自家大門。阿根廷驚險晉級，Cape Verde雖敗猶榮（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90797522007-getty-images-2284535456.jpg',
+  // 🇨🇻😢 Cape Verde的童話結束 — Cape Verde球員在延長賽惜敗後向球迷致謝。非洲小島國首次世界盃即闖入32強，小組賽逼平西班牙和烏拉圭，淘汰賽與阿根廷戰至最後一刻，感動全球球迷（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90797774007-getty-images-2283915036.jpg',
+  // ⚽🇦🇷🇨🇻 Argentina 3-2 Cape Verde — Messi在比賽中展現球王風采，率領阿根廷在Miami Hard Rock Stadium的延長賽激戰中以3-2力克Cape Verde，阿根廷16強將對陣埃及（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90798016007-getty-images-2284541907.jpg',
+  // 🇨🇴⚽ Colombia 1-0 Ghana — Jhon Arias第14分鐘接Luis Suarez右路傳中，門前搶點推射入網！全場唯一進球，哥倫比亞零封對手晉級16強，將在7/8溫哥華BC Place對陣瑞士（USA Today Sports）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90799299007-jhon-arias-colombia-world-cup.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  "⚽🇪🇸🇦🇹 Spain 1-0 Austria — Mikel Oyarzabal第36分鐘接Marc Cucurella左路傳中，禁區內右腳冷靜推射入左下角！Pedri中場精準調度找到Cucurella，Cucurella不停球直接橫傳，Oyarzabal順勢掃射，Alexander Schlager鞭長莫及。西班牙終結16年世界盃淘汰賽不勝魔咒，展現驚人統治力（Harry How/Getty Images）",
-  "⚽🇪🇸🇦🇹 Spain 3-0 Austria — Pedro Porro第66分鐘接Álex Baena開出的定位球，禁區中央強力頭槌入網！這是Porro國際賽首顆進球，來自西班牙精妙的定位球戰術設計。Austria後防對此毫無辦法，西班牙取得2-0領先後徹底掌控比賽節奏（Harry How/Getty Images）",
-  "⚽🇪🇸🇦🇹 Spain 3-0 Austria — Mikel Oyarzabal第89分鐘接Marc Cucurella左路傳中，禁區內順勢掃射梅開二度！Oyarzabal本屆世界盃累計4球，與Cucurella建立絕佳默契。西班牙零失球晉級16強，追平隊史單場淨勝球紀錄。Unai Simón持續保持世界盃最長不失球紀錄（Getty Images）",
-  "⚽🇵🇹🇭🇷 Portugal 1-1 Croatia — Cristiano Ronaldo第68分鐘12碼罰球破門！VAR確認Marin Pongračić禁區內拉倒Rúben Dias後判罰12碼，CR7冷靜射入左下角，生涯首顆世界盃淘汰賽進球。進球後Ronaldo怒吼慶祝，葡萄牙全隊士氣大振。Croatia此前由Perišić第53分鐘先馳得點（Getty Images）",
-  "⚽🇵🇹🇭🇷 Portugal 2-1 Croatia — Gonçalo Ramos第90+4分鐘接Bruno Fernandes開出的角球，遠柱頭槌絕殺！20歲的Ramos替補上場後展現驚人空中優勢，助葡萄牙完成2-1逆轉。葡萄牙將在7月6日達拉斯AT&T體育場對陣🇪🇸西班牙，上演伊比利半島內戰！C羅vs西班牙再次上演經典對決（Getty Images）",
-  "⚽🇨🇭🇩🇿 Switzerland 1-0 Algeria — Breel Embolo第10分鐘接Johan Manzambi右路突破傳中，門前推射破網！瑞士取得夢幻開局，Embolo本屆世界盃第5顆進球。Dan Ndoye第46分鐘禁區外勁射鎖定勝局，瑞士2-0擊敗Algeria，1938年以來首次在世界盃淘汰賽贏球（AP Photo/Lindsey Wasson）",
-  "🏆⚽ 2026世界盃32強賽戰報：已進行14場 ✅ 14隊晉級16強 — 🇪🇸西班牙（Oyarzabal梅開二度，零失球統治級表現）、🇵🇹葡萄牙（Ronaldo罰球+Ramos絕殺，16強對西班牙）、🇨🇭瑞士（Embolo+Ndoye進球，88年來首場淘汰賽勝利！）、🇫🇷法國（Mbappé梅開二度超越Klose）、🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇲🇽墨西哥、🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭、🇧🇪比利時、🇺🇸美國、🇪🇬埃及。今日（7/3）決定最後2席：🇦🇷阿根廷vs🇨🇻維德角（16:00 ET, Miami）、🇨🇴哥倫比亞vs🇬🇭迦納（19:00 ET, Kansas City）（Getty Images/Usa Today）"
+  "🐐⚽🇦🇷🇨🇻 Argentina 1-0 Cape Verde — Lionel Messi第29分鐘接Lisandro Martinez中場長傳，禁區內胸部停球後右腳抽射入網！這是Messi連續第8場世界盃比賽進球，累計12顆世界盃進球。本屆賽事Messi已進7球，持續領先金靴榜。Cape Verde門將Vozinha雖奮力撲救仍無力阻擋球王的精準射門（Getty Images）",
+  "⚽🇦🇷🇨🇻 Argentina 2-1 Cape Verde — Lisandro Martinez第92分鐘接Rodrigo De Paul開出的角球，禁區中央強力頭槌入網！阿根廷延長賽開局僅2分鐘即取得領先，Martinez進球後與Enzo Fernandez激情擁抱慶祝。這顆進球展現了阿根廷在定位球戰術上的精妙設計（Getty Images）",
+  "⚽🇨🇻🇦🇷 Cape Verde 2-2 Argentina — Sidny Lopes Cabral第99分鐘禁區外左路世界波！Lopes Cabral在左側禁區邊緣掄起左腳劃出一道絕美弧線，皮球直掛遠角入網。這是本屆賽事最佳進球之一，Cape Verde展現鋼鐵意志二度逼平衛冕冠軍（Getty Images）",
+  "⚽🏆🇦🇷🇨🇻 Argentina 3-2 Cape Verde — Diney Borges第111分鐘頭球自擺烏龍！Lionel Messi開出角球，Borges在Lisandro Martinez的壓迫下將球頂入自家大門。Cape Verde球員跪地懊悔，阿根廷驚險取得致勝球。這是世界盃史上最戲劇性的結局之一（Getty Images）",
+  "😢🇨🇻 Cape Verde的童話故事畫下句點 — Cape Verde球員在延長賽3-2惜敗後向Miami球迷致謝。這支非洲小島國首次世界盃即闖入32強，小組賽0-0逼平歐洲冠軍西班牙、2-2戰平烏拉圭，淘汰賽與衛冕冠軍阿根廷戰至延長賽最後一刻。他們的表現贏得了全世界的尊敬（Getty Images）",
+  "🐐🏆🇦🇷🇨🇻 Argentina 3-2 Cape Verde (AET) — Lionel Messi率領阿根廷在Miami Hard Rock Stadium的延長賽激戰中以3-2力克Cape Verde。Messi全場貢獻一進球一助攻（角球造成烏龍），阿根廷16強將於7月7日亞特蘭大對陣埃及。Cape Verde雖敗猶榮，創造了本屆世界盃最動人的故事（Getty Images）",
+  "⚽🇨🇴🇬🇭 Colombia 1-0 Ghana — Jhon Arias第14分鐘接Luis Suarez右路精準傳中，門前搶點推射入網！這是Arias個人世界盃首顆進球，哥倫比亞將1-0領先優勢保持到終場。Davinson Sanchez領銜的防線連續3場世界盃零封對手。哥倫比亞將在7月8日溫哥華BC Place對陣瑞士（USA Today Sports）"
 ];
