@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: '⚽ 16強賽 (Round of 16) 火熱開打！7月4日：🇨🇦加拿大vs🇲🇦摩洛哥·休斯敦（17:00 ET）、🇵🇾巴拉圭vs🇫🇷法國·費城（21:00 ET）；7月5日：🇧🇷巴西vs🇳🇴挪威·休斯敦、🇲🇽墨西哥vs🇬🇧英格蘭·墨西哥城；7月6日：🇺🇸美國vs🇧🇪比利時·西雅圖、🇵🇹葡萄牙vs🇪🇸西班牙·達拉斯；7月7日：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大；7月8日：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華 ｜ 32強賽回顧：🇦🇷阿根廷延長賽3-2力克🇨🇻維德角（Messi進球+角球造成烏龍）、🇨🇴哥倫比亞1-0零封🇬🇭迦納挺進16強（Jhon Arias進球）、🇪🇬埃及PK 4-2淘汰🇦🇺澳大利亞（Salah罰進Panenka，埃及史上首次世界盃淘汰賽勝利！） ｜ 16強對陣全確定：🇫🇷法國vs🇵🇾巴拉圭（7/4費城）、🇨🇦加拿大vs🇲🇦摩洛哥（7/4休斯敦）、🇧🇷巴西vs🇳🇴挪威（7/5休斯敦）、🇲🇽墨西哥vs🇬🇧英格蘭（7/5墨西哥城）、🇺🇸美國vs🇧🇪比利時（7/6西雅圖）、🇵🇹葡萄牙vs🇪🇸西班牙（7/6達拉斯）、🇨🇭瑞士vs🇨🇴哥倫比亞（7/8溫哥華）、🇪🇬埃及vs🇦🇷阿根廷（7/7亞特蘭大）！',
+    currentPhase: "⚽ 16強賽 (Round of 16) 火熱開打！7月4日：🇲🇦摩洛哥3-0🇨🇦加拿大（Ounahi梅開二度·休斯敦）、🇵🇾巴拉圭vs🇫🇷法國（21:00 ET·費城，上半場0-0）；7月5日：🇧🇷巴西vs🇳🇴挪威·休斯敦、🇲🇽墨西哥vs🇬🇧英格蘭·墨西哥城；7月6日：🇺🇸美國vs🇧🇪比利時·西雅圖、🇵🇹葡萄牙vs🇪🇸西班牙·達拉斯；7月7日：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大；7月8日：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華 ｜ 🇲🇦摩洛哥3-0力克🇨🇦加拿大晉級8強：Azzedine Ounahi梅開二度（50'、82'），Soufiane Rahimi補時破門，摩洛哥將在7/9新英格蘭對陣巴拉圭vs法國勝方 ｜ 🇵🇾巴拉圭vs🇫🇷法國上半場0-0：法國控球80%全面壓制，但巴拉圭防守頑強力保不失，下半場即將開踢",
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -3210,9 +3210,49 @@ const WC_DATA = {
         shotsOffTarget: [5, 2], shotsInsideBox: [4, 3], shotsOutsideBox: [3, 1],
         passes: [420, 510], passCompleted: [345, 430], passAccuracy: [82, 84],
         crosses: [18, 12], crossesCompleted: [5, 4], corners: [4, 3],
-        freeKicks: [12, 14], fouls: [11, 13], offsides: [2, 3],
-        yellowCards: [0, 0], redCards: [0, 0],
-        forcedTurnovers: [22, 28], pressingApplied: [180, 210]
+      freeKicks: [12, 14], fouls: [11, 13], offsides: [2, 3],
+      yellowCards: [0, 0], redCards: [0, 0],
+      forcedTurnovers: [22, 28], pressingApplied: [180, 210]
+      }
+    },
+
+    // === 7月4日 — 16強賽 ===
+    { date: '2026-07-04', time: '13:00 ET', group: 'R16', team1: 'Canada', score1: 0, team2: 'Morocco', score2: 3, venue: '休斯敦·NRG體育場', status: 'completed',
+      note: "摩洛哥3-0輕取加拿大晉級8強！Azzedine Ounahi梅開二度（50'、82'），Soufiane Rahimi傷停補時錦上添花。摩洛哥將在7月9日新英格蘭對陣巴拉圭或法國的勝方。加拿大主場球迷失望離場，地主隊止步16強。",
+      goals: [
+        { min: 50, team: 2, scorer: 'Azzedine Ounahi', assist: 'Achraf Hakimi', detail: 'Hakimi自由球低傳，Ounahi轉身抽射穿過人群入網，摩洛哥1-0領先' },
+        { min: 82, team: 2, scorer: 'Azzedine Ounahi', assist: 'Brahim Diaz', detail: '快速反擊，Diaz傳球輕微折射後Ounahi勁射破門梅開二度，2-0' },
+        { min: 90, team: 2, scorer: 'Soufiane Rahimi', assist: 'Brahim Diaz', detail: '3打1反擊，Diaz助攻Rahimi推射入網，3-0鎖定勝局' }
+      ],
+      cards: [
+        { min: 19, team: 1, player: 'Richie Laryea', card: 'yellow', detail: '與Hakimi衝突後雙方各領黃牌' },
+        { min: 19, team: 2, player: 'Achraf Hakimi', card: 'yellow', detail: '與Laryea衝突' },
+        { min: 35, team: 2, player: 'Kossi Diop', card: 'yellow', detail: '戰術犯規' },
+        { min: 42, team: 2, player: 'Bilal El Khannouss', card: 'yellow', detail: '鏟球犯規' },
+        { min: 45, team: 1, player: 'Moïse Bombito', card: 'yellow', detail: '犯規' },
+        { min: 58, team: 2, player: 'Noussair Mazraoui', card: 'yellow', detail: '拖延時間' },
+        { min: 67, team: 1, player: 'Stephen Eustáquio', card: 'yellow', detail: '戰術犯規' }
+      ],
+      stats: {
+        possession: [58, 42],
+        shots: [8, 12],
+        shotsOnTarget: [1, 5],
+        shotsOffTarget: [4, 4],
+        shotsInsideBox: [5, 7],
+        shotsOutsideBox: [3, 5],
+        passes: [490, 360],
+        passCompleted: [420, 300],
+        passAccuracy: [85.7, 83.3],
+        crosses: [22, 12],
+        crossesCompleted: [5, 3],
+        corners: [6, 4],
+        freeKicks: [14, 16],
+        fouls: [14, 15],
+        offsides: [1, 3],
+        yellowCards: [3, 4],
+        redCards: [0, 0],
+        forcedTurnovers: [26, 30],
+        pressingApplied: [200, 240]
       }
     },
   ],
@@ -3295,7 +3335,7 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: '32強賽全部16場完成 ✅ ｜ 🏆 晉級16強：🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇫🇷法國、🇲🇽墨西哥、🇬🇧英格蘭、🇧🇪比利時、🇺🇸美國、🇪🇸西班牙、🇵🇹葡萄牙、🇨🇭瑞士、🇪🇬埃及、🇦🇷阿根廷、🇨🇴哥倫比亞 ｜ ❌ 淘汰：🇿🇦南非、🇯🇵日本、🇩🇪德國、🇳🇱荷蘭、🇨🇮象牙海岸、🇸🇪瑞典、🇪🇨厄瓜多、🇨🇩DR Congo、🇸🇳塞內加爾、🇧🇦波赫、🇦🇹奧地利、🇭🇷克羅埃西亞、🇩🇿阿爾及利亞、🇦🇺澳大利亞、🇨🇻維德角、🇬🇭迦納 ｜ 📅 今日（7/4）16強賽開打：🇨🇦加拿大vs🇲🇦摩洛哥（17:00 ET·休斯敦）、🇵🇾巴拉圭vs🇫🇷法國（21:00 ET·費城） ｜ 🏅 32強賽焦點：🇦🇷阿根廷延長賽3-2🇨🇻維德角（Messi 1G1A）、🇨🇴哥倫比亞1-0🇬🇭迦納（Arias進球）、🇪🇬埃及PK 4-2🇦🇺澳大利亞（Salah Panenka）、🇵🇹葡萄牙2-1🇭🇷克羅埃西亞（Ronaldo罰球+Ramos絕殺）、🇧🇪比利時延長賽3-2🇸🇳塞內加爾（Tielemans 120+5分罰球絕殺）',
+    summary: "32強賽全部16場完成 ✅ ｜ 🏆 晉級8強：🇲🇦摩洛哥 ｜ 📅 7/4 16強賽戰報：🇲🇦摩洛哥3-0🇨🇦加拿大（Ounahi梅開二度，摩洛哥挺進8強將戰Paraguay/France勝方） ｜ ⏳ 進行中：🇵🇾巴拉圭vs🇫🇷法國（上半場0-0，21:00 ET·費城） ｜ ⏭️ 待賽：🇧🇷巴西vs🇳🇴挪威（7/5）、🇲🇽墨西哥vs🇬🇧英格蘭（7/5）、🇺🇸美國vs🇧🇪比利時（7/6）、🇵🇹葡萄牙vs🇪🇸西班牙（7/6）、🇪🇬埃及vs🇦🇷阿根廷（7/7）、🇨🇭瑞士vs🇨🇴哥倫比亞（7/8） ｜ ❌ 淘汰：🇨🇦加拿大 ｜ 🏅 32強賽回顧：🇦🇷阿根廷延長賽3-2🇨🇻維德角（Messi 1G1A）、🇨🇴哥倫比亞1-0🇬🇭迦納（Arias進球）、🇪🇬埃及PK 4-2🇦🇺澳大利亞（Salah Panenka）、🇵🇹葡萄牙2-1🇭🇷克羅埃西亞（Ronaldo罰球+Ramos絕殺）、🇧🇪比利時延長賽3-2🇸🇳塞內加爾（Tielemans 120+5分罰球絕殺）",
     
     // PK 大戰結果
     penalties: {
@@ -3321,11 +3361,13 @@ const WC_DATA = {
         name: '16強賽', nameEn: 'Round of 16',
         status: 'in_progress',
         totalMatches: 8,
-        completedCount: 0,
+        completedCount: 1,
         dateRange: '7月4日 — 7月8日',
+        eliminated: ['Canada'],
+        advanced: ['Morocco'],
         matchups: [
-          { team1: 'Morocco', team2: 'Canada', date: '2026-07-04', venue: '休斯敦·NRG體育場', time: '17:00 ET' },
-          { team1: 'Paraguay', team2: 'France', date: '2026-07-04', venue: '費城·林肯金融球場', time: '21:00 ET' },
+          { team1: 'Morocco', score1: 3, team2: 'Canada', score2: 0, date: '2026-07-04', venue: '休斯敦·NRG體育場', time: '13:00 ET', status: 'completed', winner: 'Morocco' },
+          { team1: 'Paraguay', team2: 'France', date: '2026-07-04', venue: '費城·林肯金融球場', time: '17:00 ET' },
           { team1: 'Norway', team2: 'Brazil', date: '2026-07-05', venue: '休斯敦·NRG體育場', time: '17:00 ET' },
           { team1: 'Mexico', team2: 'England', date: '2026-07-05', venue: '墨西哥城·阿茲特克體育場', time: '21:00 ET' },
           { team1: 'USA', team2: 'Belgium', date: '2026-07-06', venue: '西雅圖·流明球場', time: '17:00 ET' },

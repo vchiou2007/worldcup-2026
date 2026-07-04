@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-07-04 上午更新：32強賽全部結束！🇦🇷阿根廷延長賽3-2力克🇨🇻維德角、🇨🇴哥倫比亞1-0零封🇬🇭迦納、🇪🇬埃及PK 4-2淘汰🇦🇺澳大利亞創歷史！今日（7/4）16強賽開打：🇨🇦加拿大vs🇲🇦摩洛哥（17:00 ET·休斯敦）、🇵🇾巴拉圭vs🇫🇷法國（21:00 ET·費城）） =====
+// ===== 輪播牆圖片（2026-07-04 傍晚更新：🇲🇦摩洛哥3-0🇨🇦加拿大晉級8強！Ounahi梅開二度+Saibari傷退、🇵🇾巴拉圭vs🇫🇷法國下半場進行中） =====
 const HERO_IMAGES = [
-  // 🐐🇦🇷⚽ Argentina 3-2 Cape Verde — Lionel Messi第29分鐘接Lisandro Martinez長傳胸部停球後抽射入網，連續第8場世界盃進球！Messi以7球領先金靴榜，阿根廷延長賽驚險晉級16強將對陣埃及（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90798978007-getty-images-2284556266.jpg',
-  // 🔥🇦🇷 Argentina 3-2 Cape Verde — Cristian Romero與隊友慶祝致勝進球！Messi開出角球造成Diney Borges第111分鐘自擺烏龍，阿根廷3-2險勝。Cape Verde兩度追平展現鋼鐵意志，雖敗猶榮（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90798979007-getty-images-2284556001.jpg',
-  // 🇨🇴⚽ Colombia 1-0 Ghana — Jhon Arias第14分鐘接Luis Suarez右路傳中，門前搶點推射入網！全場唯一進球，哥倫比亞零封對手晉級16強，將在7/8溫哥華BC Place對陣瑞士（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90799849007-getty-images-2284569504.jpg',
-  // 🇨🇴🎉 Colombia 1-0 Ghana — Gustavo Puerta與隊友在終場哨響後慶祝勝利！哥倫比亞延續不敗紀錄，Davinson Sanchez領銜防線連續3場淘汰賽零封對手，劍指8強門票（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90799484007-getty-images-2284563598.jpg',
-  // 🇪🇬🏆 Egypt PK 4-2 Australia — 埃及球員在PK大戰獲勝後瘋狂慶祝！Hossam Abdelmaguid罰進致勝12碼，埃及史上首次在世界盃淘汰賽贏球，將在7/7亞特蘭大對陣阿根廷（Reuters/USA Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90796472007-20260703-t-185710-z-1974655246-up-1-em-731-gn-96-g-rtrmadp-3-soccerworldcupausegy.JPG',
-  // 🇪🇬👑⚽ Egypt 1-1 Australia (4-2 PSO) — Mohamed Salah在PK大戰中罰進Panenka！埃及隊長冷靜挑射中路，率領法老軍團寫下歷史新頁。Salah：「我必須這樣做，我要給年輕隊友信心」（Reuters/USA Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90796467007-20260703-t-185503-z-299541596-up-1-em-731-gjp-63-rtrmadp-3-soccerworldcupausegy.JPG',
-  // 🏆 16強賽今日開打！🇨🇦加拿大vs🇲🇦摩洛哥（17:00 ET·休斯敦）🇵🇾巴拉圭vs🇫🇷法國（21:00 ET·費城）32強賽全落幕：16強對陣出爐，阿根廷vs埃及、巴西vs挪威、葡萄牙vs西班牙等焦點對決即將上演（USA Today Sports）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90799806007-getty-images-2284568874.jpg'
+  // ⚽🇲🇦 Morocco 3-0 Canada — Azzedine Ounahi第50分鐘接Achraf Hakimi自由球低傳，轉身抽射穿過人叢入網，摩洛哥1-0領先！這是Ounahi個人世界盃第3球，摩洛哥持續非洲勁旅強勢（Getty Images/Kevin C. Cox）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90805160007-2284075599.jpg',
+  // 🔥🇲🇦 Morocco 3-0 Canada — Azzedine Ounahi第82分鐘梅開二度！Brahim Diaz快速反擊傳球，Ounahi勁射破網，2-0奠定勝局。Ounahi當選全場最佳，摩洛哥連續兩屆世界盃闖入8強（Getty Images/Kevin C. Cox）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90805297007-2284655221.jpg',
+  // 🎉🇲🇦 Morocco 3-0 Canada — Soufiane Rahimi第90+8分鐘錦上添花！Brahim Diaz助攻3打1反擊，Rahimi推射入網鎖定3-0勝局。摩洛哥將在7月9日新英格蘭對陣Paraguay/France勝方爭奪4強門票（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90805159007-2284653677.jpg',
+  // 🟡🇲🇦🇨🇦 Morocco 3-0 Canada — Achraf Hakimi與Richie Laryea在第19分鐘爆發激烈衝突！雙方互相推擠各領一張黃牌，裁判Michael Oliver迅速分開兩人。比賽火藥味十足，全場合計7張黃牌（USA Today Sports/Reuters）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90804364007-usatsi-29325577.jpg',
+  // 😢🇨🇦 Canada 0-3 Morocco — 加拿大球迷在休斯敦NRG體育場失望離場。地主隊成為本屆世界盃首支被淘汰的東道主，Jesse Marsch的球隊雖有8次射門但僅1次射正，0.79 xG未能轉化為進球（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90804856007-2284649954.jpg',
+  // 🚑🇲🇦 Morocco 3-0 Canada — 摩洛哥前鋒Ismael Saibari上半場因傷退場，新任拜仁慕尼黑球星被擔架抬出，摩洛哥將在8強賽面臨人手考驗。Soufiane Rahimi替補上場並貢獻進球（Reuters/USA Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90804857007-2284650100.jpg',
+  // 🏆⚽ 2026世界盃16強賽持續火熱！🇲🇦摩洛哥3-0擊敗🇨🇦加拿大率先挺進8強。今晚（7/4）：🇵🇾巴拉圭vs🇫🇷法國在費城林肯金融球場（5pm ET）上半場0-0，法國控球80%狂攻未果。明日（7/5）：🇧🇷巴西vs🇳🇴挪威（休斯敦）、🇲🇽墨西哥vs🇬🇧英格蘭（墨西哥城）！（USA Today Sports）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90804070007-2284643188.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  "🐐⚽🇦🇷🇨🇻 Argentina 3-2 Cape Verde (AET) — Lionel Messi第29分鐘接Lisandro Martinez中場長傳，禁區內胸部停球後右腳抽射入網！這是Messi連續第8場世界盃進球，累計20顆世界盃進球（史上第一）。本屆賽事Messi已進7球領先金靴榜。阿根廷在Miami Hard Rock Stadium延長賽驚險晉級，將在7月7日亞特蘭大對陣埃及（Getty Images）",
-  "🔥🏆🇦🇷🇨🇻 Argentina 3-2 Cape Verde (AET) — Cristian Romero與隊友狂慶致勝進球！Messi第111分鐘開出角球，Cape Verde後衛Diney Borges在Lisandro Martinez壓迫下頭球誤入自家大門。Cape Verde兩度追平卻仍惜敗，非洲小島國的童話故事在延長賽畫下感人句點（Getty Images）",
-  "⚽🇨🇴🇬🇭 Colombia 1-0 Ghana — Jhon Arias第14分鐘接Luis Suarez右路精準傳中，門前搶點推射入網！這是Arias個人世界盃首顆進球。哥倫比亞將1-0領先優勢保持到終場，Davinson Sanchez領銜防線連續3場世界盃零封對手。哥倫比亞將在7月8日溫哥華BC Place對陣瑞士（Getty Images）",
-  "🎉🇨🇴 Colombia 1-0 Ghana — Gustavo Puerta與隊友在Kansas City Arrowhead Stadium終場哨響後慶祝勝利！哥倫比亞延續不敗紀錄，以1-0零封迦納闖入16強。這是哥倫比亞近3屆世界盃第3次晉級淘汰賽，將挑戰瑞士爭奪8強門票（Getty Images）",
-  "🇪🇬🏆🤩 Egypt PK 4-2 Australia — 埃及球員在PK大戰獲勝後激情慶祝！Emam Ashour第13分鐘頭槌先馳得點，Australia靠Mohamed Hany烏龍球扳平。延長賽後PK大戰中Hossam Abdelmaguid罰進致勝12碼，埃及史上首次在世界盃淘汰賽贏球！將在7月7日亞特蘭大對陣阿根廷（Reuters/USA Today）",
-  "👑🇪🇬⚽ Egypt 1-1 Australia (4-2 PSO) — Mohamed Salah在PK大戰中罰進經典Panenka！埃及隊長面對澳洲門將Mat Ryan，冷靜挑射中路得分。Salah賽後說：「如果要有人這樣做，那應該是我。我比其他人更有經驗，我要給他們信心。」埃及成為史上第5支闖入世界盃淘汰賽第二輪的非洲球隊（Reuters/USA Today）",
-  "🏆⚽ 2026世界盃16強賽今日火熱開打！🇨🇦加拿大vs🇲🇦摩洛哥（7/4 17:00 ET·休斯敦NRG體育場）加拿大Stephen Eustáquio絕殺南非創造歷史，摩洛哥PK淘汰荷蘭士氣正旺。🇵🇾巴拉圭vs🇫🇷法國（7/4 21:00 ET·費城林肯金融球場）巴拉圭PK爆冷淘汰德國，法國Mbappé領銜最強火力。32強賽全落幕，16強對戰組合全數出爐！（USA Today Sports）"
+  "⚽🇲🇦 Morocco 3-0 Canada — Azzedine Ounahi第50分鐘接Achraf Hakimi自由球低傳，在禁區內轉身抽射穿過人群入網！這是他本屆世界盃第3球。摩洛哥在Houston NRG Stadium取得1-0領先，上半場沉悶的比賽在第50分鐘被Ounahi打破僵局（Getty Images/Kevin C. Cox）",
+  "🔥🇲🇦 Morocco 3-0 Canada — Azzedine Ounahi第82分鐘梅開二度！Brahim Diaz快速反擊傳球輕微折射，Ounahi禁區邊緣勁射破門，摩洛哥2-0領先奠定勝局。Ounahi當選全場最佳球員，摩洛哥連續兩屆世界盃闖入8強，將在7月9日新英格蘭對陣Paraguay或France（Getty Images/Kevin C. Cox）",
+  "🇲🇦⚽ Morocco 3-0 Canada — Soufiane Rahimi第90+8分鐘錦上添花！Brahim Diaz精準直塞創造3打1反擊機會，Rahimi冷靜推射入網鎖定3-0勝局。摩洛哥成為首支晉級8強的隊伍，朝著重現2022年4強歷史邁進；加拿大則成為首支被淘汰的東道主（Getty Images）",
+  "🟡😠🇲🇦🇨🇦 Morocco 3-0 Canada — Achraf Hakimi（摩洛哥）與Richie Laryea（加拿大）第19分鐘爆發激烈肢體衝突！Hakimi從背後將Laryea撞倒，後者起身理論，雙方互相推擠。裁判Michael Oliver迅速介入，各罰一張黃牌平息事態。全場比賽火藥味十足，合計出現7張黃牌（USA Today Sports/Reuters）",
+  "😢🇨🇦 Canada 0-3 Morocco — 休斯敦NRG體育場的加拿大球迷在終場哨響後難掩失落。加拿大雖有地主優勢，全場8次射門但僅1次射正、0.79 xG未能轉化為進球。Maxime Crepeau奮力撲救仍難阻Ounahi兩度破門。加拿大成為世界盃史上第4支在16強止步的東道主（Getty Images）",
+  "🚑🇲🇦 Morocco 3-0 Canada — 摩洛哥遭遇重大打擊！新任拜仁慕尼黑中場Ismael Saibari上半場因傷無法繼續比賽，被擔架抬出場。Saibari本屆世界盃已進3球，是摩洛哥進攻核心。替補上場的Soufiane Rahimi把握機會，補時階段進球證明深度。摩洛哥8強賽將面臨Saibari缺陣的考驗（Reuters/USA Today）",
+  "🏆⚽ 2026世界盃16強賽持續火熱！🇲🇦摩洛哥3-0完勝🇨🇦加拿大，Azzedine Ounahi梅開二度率隊率先挺進8強。今晚（7/4 5pm ET·費城）：🇵🇾巴拉圭vs🇫🇷法國——Paraguay上半場頑強防守0-0逼和法國，Enciso多次反擊造成威脅。明日（7/5 4pm ET·休斯敦）：🇧🇷巴西vs🇳🇴挪威（Haaland vs Vinicius！）；（8pm ET·墨西哥城）：🇲🇽墨西哥vs🇬🇧英格蘭（阿茲特克球場熱戰）！（USA Today Sports）"
 ];
