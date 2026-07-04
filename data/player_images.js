@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-07-03 更新：🇪🇬埃及PK 4-2擊敗🇦🇺澳大利亞，史上首次世界盃淘汰賽勝利！Salah罰進Panenka，16強將對陣阿根廷/維德角勝方） =====
+// ===== 輪播牆圖片（2026-07-03 上午更新：🇪🇸西班牙3-0零封奧地利晉級、🇵🇹葡萄牙C羅罰球+Ramos頭槌絕殺克羅埃西亞、🇨🇭瑞士Embolo破門88年來首勝淘汰賽！今日待賽：🇦🇷阿根廷vs🇨🇻維德角、🇨🇴哥倫比亞vs🇬🇭迦納） =====
 const HERO_IMAGES = [
-  // 🇪🇬⚽ Egypt 1-0 Australia — Emam Ashour第13分鐘接Karim Hafez自由球傳中，強力頭槌破網！Ashour本屆世界盃第2顆進球，埃及取得夢幻開局（USA TODAY Sports/Reuters）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90796464007-20260703-t-184618-z-1972968288-up-1-em-731-g-545-g-rtrmadp-3-soccerworldcupausegy.JPG',
-  // 🇪🇬⚽ Egypt 1-1 Australia — Mohamed Hany第54分鐘不慎將Aiden O'Neill的自由球頂入自家大門，澳洲扳平比數。Hany成為本屆首位兩次烏龍球的球員（USA TODAY Sports/USATSI）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90796281007-usatsi-29319786.jpg',
-  // 🇪🇬⚽ Egypt 4-2 Australia (PK) — Mohamed Salah在PK大戰中用Panenka吊射破門！Salah帶傷踢滿120分鐘，冷靜罰進關鍵12碼（USA TODAY Sports/Reuters）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90796467007-20260703-t-185503-z-299541596-up-1-em-731-gjp-63-rtrmadp-3-soccerworldcupausegy.JPG',
-  // 🇪🇬⚽ Egypt 4-2 Australia (PK) — Hossam Abdelmaguid踢進致勝12碼！埃及全隊瘋狂慶祝，這是埃及史上首場世界盃淘汰賽勝利（USA TODAY Sports/Reuters）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90796468007-20260703-t-183852-z-176160121-up-1-em-731-fsr-50-rtrmadp-3-soccerworldcupausegy.JPG',
-  // 🇪🇬⚽ Egypt 4-2 Australia (PK) — 埃及球員在PK獲勝後奔向場邊與球迷同歡，Hossam Hassan教練激動落淚（Getty Images/USA TODAY）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90796472007-20260703-t-185710-z-1974655246-up-1-em-731-gn-96-g-rtrmadp-3-soccerworldcupausegy.JPG',
-  // 🇪🇸⚽ Spain 3-0 Austria — Mikel Oyarzabal第36分鐘接Cucurella傳中，禁區內冷靜推射破門，西班牙全勝零失球晉級！（Harry How/Getty Images）
+  // 🇪🇸⚽ Spain 1-0 Austria — Mikel Oyarzabal第36分鐘接Marc Cucurella傳中，禁區內冷靜推射先馳得點！西班牙終結16年世界盃淘汰賽不勝魔咒（Harry How/Getty Images）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/02/USAT/90788265007-2284374531.jpg',
-  // 🏆⚽ 2026世界盃32強賽戰報：已進行14場 ✅ 14隊晉級16強 — 最新晉級：🇪🇬埃及（Ashour進球、Salah Panenka，PK 4-2淘汰澳洲，史上首次淘汰賽勝利！）今日（7/3）續賽：🇦🇷阿根廷vs🇨🇻維德角、🇨🇴哥倫比亞vs🇬🇭迦納（Getty Images/Usa Today）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90795816007-2284512928.jpg'
+  // 🇪🇸⚽ Spain 3-0 Austria — Pedro Porro第66分鐘接Álex Baena定位球，禁區中央強力頭槌破網！這是Porro國際賽首顆進球，西班牙擴大領先至2-0（Harry How/Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/02/USAT/90788272007-usatsi-29315527.jpg',
+  // 🇪🇸⚽ Spain 3-0 Austria — Oyarzabal第89分鐘接Cucurella傳中梅開二度！西班牙全勝零失球晉級，Oyarzabal本屆世界盃已進4球，狀態火熱（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/02/USAT/90788268007-2283782575.jpg',
+  // 🇵🇹⚽ Portugal 1-1 Croatia — Cristiano Ronaldo第68分鐘12碼罰球破門！VAR確認Pongračić禁區內犯規後，CR7冷靜射入左下角，生涯首顆世界盃淘汰賽進球（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90791118007-getty-images-2284403410.jpg',
+  // 🇵🇹⚽ Portugal 2-1 Croatia — Gonçalo Ramos第90+4分鐘接Bruno Fernandes角球，遠柱頭槌絕殺！葡萄牙完成逆轉，16強將對陣🇪🇸西班牙上演伊比利半島內戰（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/03/USAT/90791199007-getty-images-2284403875.jpg',
+  // 🇨🇭⚽ Switzerland 1-0 Algeria — Breel Embolo第10分鐘接Johan Manzambi右路突破傳中，門前推射破網！瑞士取得夢幻開局，Embolo本屆第5顆進球（AP Photo/Lindsey Wasson）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/02/USAT/90788767007-20260702-t-203019-z-399516777-up-1-em-721-kyi-9-t-rtrmadp-3-soccerworldcupespaut.jpg',
+  // 🏆⚽ 2026世界盃32強賽戰報：14隊已晉級16強 ✅ — 🇪🇸西班牙（Oyarzabal梅開二度零失球統治級表現）、🇵🇹葡萄牙（Ronaldo罰球歷史進球+Ramos絕殺）、🇨🇭瑞士（Embolo+Ndoye進球，1938年以來首場淘汰賽勝利！）。今日（7/3）續賽：🇦🇷阿根廷vs🇨🇻維德角（16:00 ET）、🇨🇴哥倫比亞vs🇬🇭迦納（19:00 ET）。16強對陣全數確認中！🔥（Getty Images/Usa Today）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/02/USAT/90789762007-usp-soccer-fifa-world-cup-2026-round-of-32-sp.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  "⚽🇪🇬🇦🇺 Egypt 1-0 Australia — Emam Ashour第13分鐘接Karim Hafez自由球傳中，強力頭槌破網！Ashour本屆世界盃第2顆進球，埃及取得夢幻開局。Karim Hafez在世界盃初登場即送出助攻。埃及上半場控球佔優，澳洲門將Patrick Beach雖然表現穩健，但面對這記近距離頭槌也無能為力（USA TODAY Sports/Reuters）",
-  "⚽🇪🇬🇦🇺 Egypt 1-1 Australia — Mohamed Hany第54分鐘不慎將Aiden O'Neill的自由球頂入自家大門，澳洲扳平比數。Hany成為本屆世界盃首位兩次烏龍球的球員（此前對比利時也曾烏龍）。Alessandro Circati在Hany身後施壓導致這次失誤。澳洲士氣大振，接下來20分鐘壓著埃及進攻（USA TODAY Sports/USATSI）",
-  "⚽🇪🇬🇦🇺 Egypt 4-2 Australia (PK) — Mohamed Salah在PK大戰中用Panenka吊射破門！Salah帶傷踢滿120分鐘，冷靜罰進關鍵12碼。埃及四罰全中：Mahmoud Saber ✓、Ramy Rabia ✓、Mohamed Salah ✓、Hossam Abdelmaguid ✓。澳洲Harry Souttar射飛、Lucas Herrington中柱，兩罰不中斷送晉級希望（USA TODAY Sports/Reuters）",
-  "⚽🇪🇬🇦🇺 Egypt 4-2 Australia (PK) — Hossam Abdelmaguid踢進致勝12碼後被隊友團團圍住！埃及全隊瘋狂慶祝。這是埃及史上首場世界盃淘汰賽勝利，也是非洲球隊在本屆的首場淘汰賽勝利。Hossam Hassan教練賽後激動落淚，埃及球迷在達拉斯AT&T體育場陷入狂歡（USA TODAY Sports/Reuters）",
-  "⚽🇪🇬🇦🇺 Egypt 4-2 Australia (PK) — 埃及球員在PK獲勝後奔向場邊與球迷同歡。埃及將在7/7（週二）亞特蘭大梅賽德斯-賓士體育場對陣阿根廷vs維德角的勝方。Mohamed Salah賽後表示：「這是為所有埃及球迷而戰，我們還沒結束！」（Getty Images/USA TODAY）",
-  "⚽🇪🇸🇦🇹 Spain 3-0 Austria — Mikel Oyarzabal第36分鐘接Marc Cucurella左路傳中，禁區內右腳冷靜推射入左下角！Pedri中場調度找到Cucurella，Cucurella不停球直接橫傳，Oyarzabal順勢掃射，Alexander Schlager鞭長莫及。西班牙全勝零失球晉級，展現驚人的統治力（Harry How/Getty Images）",
-  "🏆⚽ 2026世界盃32強賽戰報：已進行14場 ✅ 14隊晉級16強 — 🇫🇷法國（Mbappé梅開二度）、🇨🇦加拿大（Eustáquio傷停絕殺）、🇧🇷巴西（Martinelli第95分鐘絕殺）、🇵🇾巴拉圭（PK 4-3爆冷淘汰德國）、🇲🇦摩洛哥（PK 3-2淘汰荷蘭）、🇳🇴挪威（Haaland絕殺）、🇲🇽墨西哥（Quiñones+Jiménez進球40年淘汰賽首勝）、🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭（Kane梅開二度13球超Pelé）、🇧🇪比利時（Tielemans罰球絕殺0-2逆轉）、🇺🇸美國（Balogun進球+紅牌、Tillman自由球絕殺）、🇪🇸西班牙（Oyarzabal梅開二度零失球統治級表現）、🇵🇹葡萄牙（Ronaldo罰球歷史進球+Ramos絕殺）、🇨🇭瑞士（Embolo+Ndoye進球，1938年以來首場淘汰賽勝利！）、🇪🇬埃及（Ashour進球、Salah Panenka，PK 4-2淘汰澳洲，史上首次淘汰賽勝利！）。今日（7/3）續賽：🇦🇷阿根廷vs🇨🇻維德角、🇨🇴哥倫比亞vs🇬🇭迦納（Getty Images/Usa Today）"
+  "⚽🇪🇸🇦🇹 Spain 1-0 Austria — Mikel Oyarzabal第36分鐘接Marc Cucurella左路傳中，禁區內右腳冷靜推射入左下角！Pedri中場精準調度找到Cucurella，Cucurella不停球直接橫傳，Oyarzabal順勢掃射，Alexander Schlager鞭長莫及。西班牙終結16年世界盃淘汰賽不勝魔咒，展現驚人統治力（Harry How/Getty Images）",
+  "⚽🇪🇸🇦🇹 Spain 3-0 Austria — Pedro Porro第66分鐘接Álex Baena開出的定位球，禁區中央強力頭槌入網！這是Porro國際賽首顆進球，來自西班牙精妙的定位球戰術設計。Austria後防對此毫無辦法，西班牙取得2-0領先後徹底掌控比賽節奏（Harry How/Getty Images）",
+  "⚽🇪🇸🇦🇹 Spain 3-0 Austria — Mikel Oyarzabal第89分鐘接Marc Cucurella左路傳中，禁區內順勢掃射梅開二度！Oyarzabal本屆世界盃累計4球，與Cucurella建立絕佳默契。西班牙零失球晉級16強，追平隊史單場淨勝球紀錄。Unai Simón持續保持世界盃最長不失球紀錄（Getty Images）",
+  "⚽🇵🇹🇭🇷 Portugal 1-1 Croatia — Cristiano Ronaldo第68分鐘12碼罰球破門！VAR確認Marin Pongračić禁區內拉倒Rúben Dias後判罰12碼，CR7冷靜射入左下角，生涯首顆世界盃淘汰賽進球。進球後Ronaldo怒吼慶祝，葡萄牙全隊士氣大振。Croatia此前由Perišić第53分鐘先馳得點（Getty Images）",
+  "⚽🇵🇹🇭🇷 Portugal 2-1 Croatia — Gonçalo Ramos第90+4分鐘接Bruno Fernandes開出的角球，遠柱頭槌絕殺！20歲的Ramos替補上場後展現驚人空中優勢，助葡萄牙完成2-1逆轉。葡萄牙將在7月6日達拉斯AT&T體育場對陣🇪🇸西班牙，上演伊比利半島內戰！C羅vs西班牙再次上演經典對決（Getty Images）",
+  "⚽🇨🇭🇩🇿 Switzerland 1-0 Algeria — Breel Embolo第10分鐘接Johan Manzambi右路突破傳中，門前推射破網！瑞士取得夢幻開局，Embolo本屆世界盃第5顆進球。Dan Ndoye第46分鐘禁區外勁射鎖定勝局，瑞士2-0擊敗Algeria，1938年以來首次在世界盃淘汰賽贏球（AP Photo/Lindsey Wasson）",
+  "🏆⚽ 2026世界盃32強賽戰報：已進行14場 ✅ 14隊晉級16強 — 🇪🇸西班牙（Oyarzabal梅開二度，零失球統治級表現）、🇵🇹葡萄牙（Ronaldo罰球+Ramos絕殺，16強對西班牙）、🇨🇭瑞士（Embolo+Ndoye進球，88年來首場淘汰賽勝利！）、🇫🇷法國（Mbappé梅開二度超越Klose）、🇨🇦加拿大、🇧🇷巴西、🇵🇾巴拉圭、🇲🇦摩洛哥、🇳🇴挪威、🇲🇽墨西哥、🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭、🇧🇪比利時、🇺🇸美國、🇪🇬埃及。今日（7/3）決定最後2席：🇦🇷阿根廷vs🇨🇻維德角（16:00 ET, Miami）、🇨🇴哥倫比亞vs🇬🇭迦納（19:00 ET, Kansas City）（Getty Images/Usa Today）"
 ];
