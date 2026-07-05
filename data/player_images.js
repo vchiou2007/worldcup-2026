@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-07-04 傍晚更新：🇲🇦摩洛哥3-0🇨🇦加拿大晉級8強！Ounahi梅開二度+Saibari傷退、🇵🇾巴拉圭vs🇫🇷法國下半場進行中） =====
+// ===== 輪播牆圖片（2026-07-05 凌晨更新：🇫🇷法國1-0🇵🇾巴拉圭晉級8強！Mbappé第70分鐘罰球定勝局，7/9對決🇲🇦摩洛哥） =====
 const HERO_IMAGES = [
-  // ⚽🇲🇦 Morocco 3-0 Canada — Azzedine Ounahi第50分鐘接Achraf Hakimi自由球低傳，轉身抽射穿過人叢入網，摩洛哥1-0領先！這是Ounahi個人世界盃第3球，摩洛哥持續非洲勁旅強勢（Getty Images/Kevin C. Cox）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90805160007-2284075599.jpg',
-  // 🔥🇲🇦 Morocco 3-0 Canada — Azzedine Ounahi第82分鐘梅開二度！Brahim Diaz快速反擊傳球，Ounahi勁射破網，2-0奠定勝局。Ounahi當選全場最佳，摩洛哥連續兩屆世界盃闖入8強（Getty Images/Kevin C. Cox）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90805297007-2284655221.jpg',
-  // 🎉🇲🇦 Morocco 3-0 Canada — Soufiane Rahimi第90+8分鐘錦上添花！Brahim Diaz助攻3打1反擊，Rahimi推射入網鎖定3-0勝局。摩洛哥將在7月9日新英格蘭對陣Paraguay/France勝方爭奪4強門票（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90805159007-2284653677.jpg',
-  // 🟡🇲🇦🇨🇦 Morocco 3-0 Canada — Achraf Hakimi與Richie Laryea在第19分鐘爆發激烈衝突！雙方互相推擠各領一張黃牌，裁判Michael Oliver迅速分開兩人。比賽火藥味十足，全場合計7張黃牌（USA Today Sports/Reuters）
+  // ⚽🇫🇷 France 1-0 Paraguay — Kylian Mbappé第70分鐘罰球破門！Désiré Doue禁區內被Diego Gomez絆倒，VAR確認後Ilgiz Tantashev判罰十二碼。Mbappé冷靜射向球門左下角騙過Orlando Gill，個人世界盃第7球追平Messi（Getty Images/Bill Streicher）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90804364007-usatsi-29325577.jpg',
-  // 😢🇨🇦 Canada 0-3 Morocco — 加拿大球迷在休斯敦NRG體育場失望離場。地主隊成為本屆世界盃首支被淘汰的東道主，Jesse Marsch的球隊雖有8次射門但僅1次射正，0.79 xG未能轉化為進球（Getty Images）
+  // 🔥🇫🇷 France 1-0 Paraguay — Mbappé罰球命中後奔向場邊慶祝！法國隊長本屆7球與Messi並列射手榜首，累計19顆世界盃進球僅次於Messi的20球。法國第150顆世界盃進球，Philadelphia Stadium 68,324名球迷歡聲雷動（Getty Images/Dylan Martinez）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90804856007-2284649954.jpg',
-  // 🚑🇲🇦 Morocco 3-0 Canada — 摩洛哥前鋒Ismael Saibari上半場因傷退場，新任拜仁慕尼黑球星被擔架抬出，摩洛哥將在8強賽面臨人手考驗。Soufiane Rahimi替補上場並貢獻進球（Reuters/USA Today）
+  // 🇫🇷🇵🇾 France 1-0 Paraguay — Ousmane Dembélé保護罰球點，與巴拉圭球員在禁區內爆發肢體衝突。這場比賽火藥味十足，全場合計4張黃牌，Mbappé多次被巴拉圭防守球員粗暴對待（Reuters/Jeenah Moon）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90804857007-2284650100.jpg',
-  // 🏆⚽ 2026世界盃16強賽持續火熱！🇲🇦摩洛哥3-0擊敗🇨🇦加拿大率先挺進8強。今晚（7/4）：🇵🇾巴拉圭vs🇫🇷法國在費城林肯金融球場（5pm ET）上半場0-0，法國控球80%狂攻未果。明日（7/5）：🇧🇷巴西vs🇳🇴挪威（休斯敦）、🇲🇽墨西哥vs🇬🇧英格蘭（墨西哥城）！（USA Today Sports）
+  // 🎉🇫🇷 France 1-0 Paraguay — 法國球員賽後聚集慶祝！Mbappé率領Les Bleus連續三屆世界盃晉級8強。Didier Deschamps的球隊將在7月9日於福克斯堡吉列體育場對陣摩洛哥，爭奪4強門票（Getty Images/Kyle Ross）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90805159007-2284653677.jpg',
+  // 🎵🇺🇸 美國獨立250週年！Idina Menzel在Philadelphia Stadium賽前演唱美國國歌，紀念1776年《獨立宣言》簽署250週年。費城作為美國建國之城，在7月4日這天舉辦盛大慶典，The Roots樂團也現場演出（Getty Images/Buda Mendes）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90805160007-2284075599.jpg',
+  // 🇲🇦⚽ Morocco 3-0 Canada — Azzedine Ounahi第82分鐘梅開二度的經典瞬間！Brahim Diaz快速反擊傳球，Ounahi禁區邊緣勁射破網。Ounahi當選全場最佳，摩洛哥連續兩屆世界盃闖入8強（Getty Images/Kevin C. Cox）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90805297007-2284655221.jpg',
+  // 🏆⚽ 2026世界盃16強賽持續火熱！🇲🇦摩洛哥3-0🇨🇦加拿大（Ounahi梅開二度）、🇫🇷法國1-0🇵🇾巴拉圭（Mbappé罰球絕殺）— 兩隊將在7/9新英格蘭8強重逢！明日（7/5）：🇧🇷巴西vs🇳🇴挪威（休斯敦·Haaland戰Vinicius）、🇲🇽墨西哥vs🇬🇧英格蘭（墨西哥城·阿茲特克球場）！（Getty Images）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90804070007-2284643188.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  "⚽🇲🇦 Morocco 3-0 Canada — Azzedine Ounahi第50分鐘接Achraf Hakimi自由球低傳，在禁區內轉身抽射穿過人群入網！這是他本屆世界盃第3球。摩洛哥在Houston NRG Stadium取得1-0領先，上半場沉悶的比賽在第50分鐘被Ounahi打破僵局（Getty Images/Kevin C. Cox）",
-  "🔥🇲🇦 Morocco 3-0 Canada — Azzedine Ounahi第82分鐘梅開二度！Brahim Diaz快速反擊傳球輕微折射，Ounahi禁區邊緣勁射破門，摩洛哥2-0領先奠定勝局。Ounahi當選全場最佳球員，摩洛哥連續兩屆世界盃闖入8強，將在7月9日新英格蘭對陣Paraguay或France（Getty Images/Kevin C. Cox）",
-  "🇲🇦⚽ Morocco 3-0 Canada — Soufiane Rahimi第90+8分鐘錦上添花！Brahim Diaz精準直塞創造3打1反擊機會，Rahimi冷靜推射入網鎖定3-0勝局。摩洛哥成為首支晉級8強的隊伍，朝著重現2022年4強歷史邁進；加拿大則成為首支被淘汰的東道主（Getty Images）",
-  "🟡😠🇲🇦🇨🇦 Morocco 3-0 Canada — Achraf Hakimi（摩洛哥）與Richie Laryea（加拿大）第19分鐘爆發激烈肢體衝突！Hakimi從背後將Laryea撞倒，後者起身理論，雙方互相推擠。裁判Michael Oliver迅速介入，各罰一張黃牌平息事態。全場比賽火藥味十足，合計出現7張黃牌（USA Today Sports/Reuters）",
-  "😢🇨🇦 Canada 0-3 Morocco — 休斯敦NRG體育場的加拿大球迷在終場哨響後難掩失落。加拿大雖有地主優勢，全場8次射門但僅1次射正、0.79 xG未能轉化為進球。Maxime Crepeau奮力撲救仍難阻Ounahi兩度破門。加拿大成為世界盃史上第4支在16強止步的東道主（Getty Images）",
-  "🚑🇲🇦 Morocco 3-0 Canada — 摩洛哥遭遇重大打擊！新任拜仁慕尼黑中場Ismael Saibari上半場因傷無法繼續比賽，被擔架抬出場。Saibari本屆世界盃已進3球，是摩洛哥進攻核心。替補上場的Soufiane Rahimi把握機會，補時階段進球證明深度。摩洛哥8強賽將面臨Saibari缺陣的考驗（Reuters/USA Today）",
-  "🏆⚽ 2026世界盃16強賽持續火熱！🇲🇦摩洛哥3-0完勝🇨🇦加拿大，Azzedine Ounahi梅開二度率隊率先挺進8強。今晚（7/4 5pm ET·費城）：🇵🇾巴拉圭vs🇫🇷法國——Paraguay上半場頑強防守0-0逼和法國，Enciso多次反擊造成威脅。明日（7/5 4pm ET·休斯敦）：🇧🇷巴西vs🇳🇴挪威（Haaland vs Vinicius！）；（8pm ET·墨西哥城）：🇲🇽墨西哥vs🇬🇧英格蘭（阿茲特克球場熱戰）！（USA Today Sports）"
+  "⚽🇫🇷 France 1-0 Paraguay — Kylian Mbappé第70分鐘罰球破門！替補上場的Désiré Doue在禁區內被Diego Gomez絆倒，烏茲別克裁判Ilgiz Tantashev經VAR確認後判罰十二碼。Mbappé冷靜射向球門左下角，Orlando Gill判斷錯誤方向，法國1-0領先！這是Mbappé本屆世界盃第7球，追平Lionel Messi並列射手榜首（Getty Images/Bill Streicher）",
+  "🔥🇫🇷 France 1-0 Paraguay — Kylian Mbappé罰球命中後激情慶祝！法國隊長以19顆世界盃進球（19場比賽）繼續追趕Messi的20球紀錄。這同時是法國國家隊在World Cup歷史上的第150顆進球。Mbappé本屆7球與Messi並列金靴榜首，法國將在7月9日對陣摩洛哥，重現2022年4強經典對決（Getty Images/Dylan Martinez）",
+  "😠🇫🇷🇵🇾 France 1-0 Paraguay — 比賽火藥味十足！Ousmane Dembélé與巴拉圭球員在禁區內激烈推擠，保護罰球點不被破壞。Matías Galarza在比賽中多次踢倒Mbappé，Juan José Caceres更在進球後攻擊Mbappé。全場合計4張黃牌，巴拉圭以粗暴防守試圖打亂法國節奏，但在第70分鐘還是被Mbappé罰球擊破（Reuters/Jeenah Moon）",
+  "🎉🇫🇷 France 1-0 Paraguay — 終場哨響！法國球員在Philadelphia Stadium慶祝連續三屆世界盃晉級8強。Didier Deschamps的球隊雖未如小組賽般火力全開，但以79%控球率全面壓制巴拉圭，展現強隊在逆境中贏球的能力。7月9日將在福克斯堡吉列體育場對陣🇲🇦摩洛哥，爭奪4強門票（Getty Images/Kyle Ross）",
+  "🎵🇺🇸 美國獨立250週年！比賽開始前，Philadelphia Stadium舉行盛大慶典紀念美國建國250周年。Idina Menzel（《冰雪奇緣》主題曲主唱）演唱美國國歌，費城傳奇嘻哈樂團The Roots現場演出，美國空軍進行飛越表演。費城是1776年《獨立宣言》簽署地，7月4日這天別具意義（Getty Images/Buda Mendes）",
+  "😤🇫🇷🇵🇾 France 1-0 Paraguay — Kylian Mbappé與Andrés Cubas在場上激烈爭執！巴拉圭中場Cubas多次採用挑釁戰術，試圖激怒法國隊長。上半場結束前兩人互相推擠，裁判各罰一張黃牌平息事態。高溫38°C（100°F）的費城熱浪下，比賽節奏更加急躁（Reuters/Charly Triballeau）",
+  "🏆⚽ 2026世界盃16強賽持續火熱！7月4日兩場大戰結束：🇲🇦摩洛哥3-0完勝🇨🇦加拿大（Azzedine Ounahi梅開二度，休斯敦NRG體育場）、🇫🇷法國1-0力克🇵🇾巴拉圭（Kylian Mbappé第70分鐘罰球絕殺，費城林肯金融球場）。兩隊將在7月9日新英格蘭吉列體育場8強對決，這也是2022年4強經典戰役的重現！明日（7/5 4pm ET·休斯敦）：🇧🇷巴西vs🇳🇴挪威（Erling Haaland vs Vinícius Júnior）；（8pm ET·墨西哥城）：🇲🇽墨西哥vs🇬🇧英格蘭（阿茲特克球場熱戰）！（Getty Images）"
 ];

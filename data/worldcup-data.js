@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: "⚽ 16強賽 (Round of 16) 火熱開打！7月4日：🇲🇦摩洛哥3-0🇨🇦加拿大（Ounahi梅開二度·休斯敦）、🇵🇾巴拉圭vs🇫🇷法國（21:00 ET·費城，上半場0-0）；7月5日：🇧🇷巴西vs🇳🇴挪威·休斯敦、🇲🇽墨西哥vs🇬🇧英格蘭·墨西哥城；7月6日：🇺🇸美國vs🇧🇪比利時·西雅圖、🇵🇹葡萄牙vs🇪🇸西班牙·達拉斯；7月7日：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大；7月8日：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華 ｜ 🇲🇦摩洛哥3-0力克🇨🇦加拿大晉級8強：Azzedine Ounahi梅開二度（50'、82'），Soufiane Rahimi補時破門，摩洛哥將在7/9新英格蘭對陣巴拉圭vs法國勝方 ｜ 🇵🇾巴拉圭vs🇫🇷法國上半場0-0：法國控球80%全面壓制，但巴拉圭防守頑強力保不失，下半場即將開踢",
+    currentPhase: "⚽ 16強賽 (Round of 16) 進行中！已賽2場：🇲🇦摩洛哥3-0🇨🇦加拿大（Ounahi梅開二度·休斯敦）、🇫🇷法國1-0🇵🇾巴拉圭（Mbappé70'罰球·費城）｜ 🇲🇦摩洛哥vs🇫🇷法國將在7/9新英格蘭8強對決！7月5日：🇧🇷巴西vs🇳🇴挪威·休斯敦、🇲🇽墨西哥vs🇬🇧英格蘭·墨西哥城；7月6日：🇺🇸美國vs🇧🇪比利時·西雅圖、🇵🇹葡萄牙vs🇪🇸西班牙·達拉斯；7月7日：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大；7月8日：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華 ｜ 🇫🇷法國1-0力克巴拉圭：Mbappé第70分鐘罰球破門，個人世界盃第7球追平Messi，法國第150顆世界盃進球！法國控球79%全面壓制，將在7/9對陣🇲🇦摩洛哥重現2022年4強經典對決",
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -3255,6 +3255,39 @@ const WC_DATA = {
         pressingApplied: [200, 240]
       }
     },
+    { date: '2026-07-04', time: '17:00 ET', group: 'R16', team1: 'Paraguay', score1: 0, team2: 'France', score2: 1, venue: '費城·林肯金融球場', status: 'completed',
+      note: "法國1-0力克巴拉圭晉級8強！Mbappé第70分鐘罰球破門——Désiré Doue禁區內被Diego Gomez絆倒，VAR確認後Ilgiz Tantashev判罰十二碼。Mbappé冷靜射向球門左下角騙過Orlando Gill，個人世界盃第7球追平Messi。全場68,324名球迷在Philadelphia Stadium見證法國第150顆世界盃進球。法國將在7月9日新英格蘭對陣摩洛哥，重現2022年4強對決。",
+      goals: [
+        { min: 70, team: 2, scorer: 'Kylian Mbappé', detail: '12碼罰球 — Désiré Doue替補上場後在禁區內被Diego Gomez絆倒，VAR確認後判罰，Mbappé冷靜射入左下角' }
+      ],
+      cards: [
+        { min: 18, team: 2, player: 'Bradley Barcola', card: 'yellow', detail: '戰術犯規' },
+        { min: 45, team: 1, player: 'Andrés Cubas', card: 'yellow', detail: '與Mbappé衝突' },
+        { min: 62, team: 1, player: 'Matías Galarza', card: 'yellow', detail: '踢倒Mbappé' },
+        { min: 75, team: 2, player: 'Manu Koné', card: 'yellow', detail: '戰術犯規' }
+      ],
+      stats: {
+        possession: [21, 79],
+        shots: [2, 15],
+        shotsOnTarget: [1, 4],
+        shotsOffTarget: [1, 7],
+        shotsInsideBox: [1, 8],
+        shotsOutsideBox: [1, 7],
+        passes: [176, 697],
+        passCompleted: [93, 637],
+        passAccuracy: [52.8, 91.4],
+        crosses: [2, 20],
+        crossesCompleted: [0, 7],
+        corners: [0, 7],
+        freeKicks: [6, 4],
+        fouls: [14, 6],
+        offsides: [1, 3],
+        yellowCards: [2, 2],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 250]
+      }
+    },
   ],
 
   // 分組積分（賽後更新）
@@ -3335,7 +3368,7 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: "32強賽全部16場完成 ✅ ｜ 🏆 晉級8強：🇲🇦摩洛哥 ｜ 📅 7/4 16強賽戰報：🇲🇦摩洛哥3-0🇨🇦加拿大（Ounahi梅開二度，摩洛哥挺進8強將戰Paraguay/France勝方） ｜ ⏳ 進行中：🇵🇾巴拉圭vs🇫🇷法國（上半場0-0，21:00 ET·費城） ｜ ⏭️ 待賽：🇧🇷巴西vs🇳🇴挪威（7/5）、🇲🇽墨西哥vs🇬🇧英格蘭（7/5）、🇺🇸美國vs🇧🇪比利時（7/6）、🇵🇹葡萄牙vs🇪🇸西班牙（7/6）、🇪🇬埃及vs🇦🇷阿根廷（7/7）、🇨🇭瑞士vs🇨🇴哥倫比亞（7/8） ｜ ❌ 淘汰：🇨🇦加拿大 ｜ 🏅 32強賽回顧：🇦🇷阿根廷延長賽3-2🇨🇻維德角（Messi 1G1A）、🇨🇴哥倫比亞1-0🇬🇭迦納（Arias進球）、🇪🇬埃及PK 4-2🇦🇺澳大利亞（Salah Panenka）、🇵🇹葡萄牙2-1🇭🇷克羅埃西亞（Ronaldo罰球+Ramos絕殺）、🇧🇪比利時延長賽3-2🇸🇳塞內加爾（Tielemans 120+5分罰球絕殺）",
+    summary: "32強賽全部16場完成 ✅ ｜ 🏆 晉級8強：🇲🇦摩洛哥、🇫🇷法國 ｜ 📅 7/4 16強賽戰報：🇲🇦摩洛哥3-0🇨🇦加拿大（Ounahi梅開二度）、🇫🇷法國1-0🇵🇾巴拉圭（Mbappé第70分鐘罰球，法國第150顆世界盃進球） ｜ ⏭️ 待賽：🇧🇷巴西vs🇳🇴挪威（7/5）、🇲🇽墨西哥vs🇬🇧英格蘭（7/5）、🇺🇸美國vs🇧🇪比利時（7/6）、🇵🇹葡萄牙vs🇪🇸西班牙（7/6）、🇪🇬埃及vs🇦🇷阿根廷（7/7）、🇨🇭瑞士vs🇨🇴哥倫比亞（7/8） ｜ 🏆 8強對陣出爐第一組：🇲🇦摩洛哥 vs 🇫🇷法國（7/9·新英格蘭·吉列體育場）— 2022年4強經典重現！ ｜ ❌ 淘汰：🇨🇦加拿大、🇵🇾巴拉圭 ｜ 🥇 Mbappé以7球並列射手榜第一，並以19顆世界盃進球僅次於Messi的20球",
     
     // PK 大戰結果
     penalties: {
@@ -3361,19 +3394,19 @@ const WC_DATA = {
         name: '16強賽', nameEn: 'Round of 16',
         status: 'in_progress',
         totalMatches: 8,
-        completedCount: 1,
+        completedCount: 2,
         dateRange: '7月4日 — 7月8日',
-        eliminated: ['Canada'],
-        advanced: ['Morocco'],
+        eliminated: ['Canada', 'Paraguay'],
+        advanced: ['Morocco', 'France'],
         matchups: [
           { team1: 'Morocco', score1: 3, team2: 'Canada', score2: 0, date: '2026-07-04', venue: '休斯敦·NRG體育場', time: '13:00 ET', status: 'completed', winner: 'Morocco' },
-          { team1: 'Paraguay', team2: 'France', date: '2026-07-04', venue: '費城·林肯金融球場', time: '17:00 ET' },
+          { team1: 'Paraguay', score1: 0, team2: 'France', score2: 1, date: '2026-07-04', venue: '費城·林肯金融球場', time: '17:00 ET', status: 'completed', winner: 'France' },
           { team1: 'Norway', team2: 'Brazil', date: '2026-07-05', venue: '休斯敦·NRG體育場', time: '17:00 ET' },
           { team1: 'Mexico', team2: 'England', date: '2026-07-05', venue: '墨西哥城·阿茲特克體育場', time: '21:00 ET' },
           { team1: 'USA', team2: 'Belgium', date: '2026-07-06', venue: '西雅圖·流明球場', time: '17:00 ET' },
           { team1: 'Portugal', team2: 'Spain', date: '2026-07-06', venue: '達拉斯·AT&T體育場', time: '21:00 ET' },
-          { team1: 'Switzerland', team2: 'Colombia', date: '2026-07-08', venue: '溫哥華·BC Place', time: '20:00 ET' },
-          { team1: 'Egypt', team2: 'Argentina', date: '2026-07-07', venue: '亞特蘭大·梅賽德斯-賓士體育場', time: '20:00 ET' }
+          { team1: 'Egypt', team2: 'Argentina', date: '2026-07-07', venue: '亞特蘭大·梅賽德斯-賓士體育場', time: '20:00 ET' },
+          { team1: 'Switzerland', team2: 'Colombia', date: '2026-07-08', venue: '溫哥華·BC Place', time: '20:00 ET' }
         ]
       },
       QF: {
@@ -3382,7 +3415,10 @@ const WC_DATA = {
         status: 'upcoming',
         totalMatches: 4,
         completedCount: 0,
-        dateRange: '7月10日 — 7月11日'
+        dateRange: '7月9日 — 7月11日',
+        matchups: [
+          { team1: 'Morocco', team2: 'France', date: '2026-07-09', venue: '福克斯堡·吉列體育場', time: '20:00 ET', note: '8強賽第1場 — 2022年4強經典重現！' }
+        ]
       },
       SF: {
         order: 4,
