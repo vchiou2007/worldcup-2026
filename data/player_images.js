@@ -128,3 +128,13 @@ const HERO_IMAGES = [
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90814804007-getty-images-2284210938.jpg'
 ];
 
+const HERO_CAPTIONS = [
+  "⚽🇳🇴 Erling Haaland第79分鐘頭槌破門！Andreas Schjelderup左路突破傳中，Haaland力壓Gabriel Magalhães頭槌入網，挪威1-0領先巴西！（Getty Images）",
+  "🔥🇳🇴 Haaland第90分鐘禁區外低射梅開二度！世界盃累計7球並列射手榜首，挪威隊史首闖8強！（Getty Images/Jewel Samad）",
+  "😤🇳🇴 Ørjan Nyland撲出Bruno Guimarães第14分鐘12碼！挪威門將飛身撲救成為比賽轉捩點（Getty Images）",
+  "🏴󠁧󠁢󠁥󠁮󠁧󠁿⚽ Jude Bellingham第36分鐘頭槌破門！Saka右路傳中，Bellingham力壓防守強力頭槌砸入網窩，英格蘭1-0領先（Getty Images/Michael Steele）",
+  "🔥🏴󠁧󠁢󠁥󠁮󠁧󠁿 Bellingham第38分鐘梅開二度——98秒兩球！Kane禁區邊緣傳球助攻，英格蘭2-0震懾阿茲特克（Getty Images/Julian Finney）",
+  "🟥🏴󠁧󠁢󠁥󠁮󠁧󠁿 Jarell Quansah第54分鐘直紅！危險鏟球踩中Gallardo脛骨，英格蘭10人應戰守住3-2勝局（Getty Images）",
+  "🏆 7月5日：🇳🇴挪威2-1🇧🇷巴西（Haaland梅開二度）🇬🇧英格蘭3-2🇲🇽墨西哥（Bellingham梅開二度）｜8強：🇲🇦摩洛哥vs🇫🇷法國（7/9）🇳🇴挪威vs🇬🇧英格蘭（7/11）｜今日：🇺🇸美國vs🇧🇪比利時·西雅圖、🇵🇹葡萄牙vs🇪🇸西班牙·達拉斯（Getty Images）"
+];
+
