@@ -110,30 +110,21 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-07-05 凌晨更新：🇫🇷法國1-0🇵🇾巴拉圭晉級8強！Mbappé第70分鐘罰球定勝局，7/9對決🇲🇦摩洛哥） =====
+// ===== 輪播牆圖片（2026-07-05 更新：🇧🇷巴西1-2🇳🇴挪威！Haaland梅開二度淘汰巴西，挪威隊史首闖8強） =====
 const HERO_IMAGES = [
-  // ⚽🇫🇷 France 1-0 Paraguay — Kylian Mbappé第70分鐘罰球破門！Désiré Doue禁區內被Diego Gomez絆倒，VAR確認後Ilgiz Tantashev判罰十二碼。Mbappé冷靜射向球門左下角騙過Orlando Gill，個人世界盃第7球追平Messi（Getty Images/Bill Streicher）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90804364007-usatsi-29325577.jpg',
-  // 🔥🇫🇷 France 1-0 Paraguay — Mbappé罰球命中後奔向場邊慶祝！法國隊長本屆7球與Messi並列射手榜首，累計19顆世界盃進球僅次於Messi的20球。法國第150顆世界盃進球，Philadelphia Stadium 68,324名球迷歡聲雷動（Getty Images/Dylan Martinez）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90804856007-2284649954.jpg',
-  // 🇫🇷🇵🇾 France 1-0 Paraguay — Ousmane Dembélé保護罰球點，與巴拉圭球員在禁區內爆發肢體衝突。這場比賽火藥味十足，全場合計4張黃牌，Mbappé多次被巴拉圭防守球員粗暴對待（Reuters/Jeenah Moon）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90804857007-2284650100.jpg',
-  // 🎉🇫🇷 France 1-0 Paraguay — 法國球員賽後聚集慶祝！Mbappé率領Les Bleus連續三屆世界盃晉級8強。Didier Deschamps的球隊將在7月9日於福克斯堡吉列體育場對陣摩洛哥，爭奪4強門票（Getty Images/Kyle Ross）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90805159007-2284653677.jpg',
-  // 🎵🇺🇸 美國獨立250週年！Idina Menzel在Philadelphia Stadium賽前演唱美國國歌，紀念1776年《獨立宣言》簽署250週年。費城作為美國建國之城，在7月4日這天舉辦盛大慶典，The Roots樂團也現場演出（Getty Images/Buda Mendes）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90805160007-2284075599.jpg',
-  // 🇲🇦⚽ Morocco 3-0 Canada — Azzedine Ounahi第82分鐘梅開二度的經典瞬間！Brahim Diaz快速反擊傳球，Ounahi禁區邊緣勁射破網。Ounahi當選全場最佳，摩洛哥連續兩屆世界盃闖入8強（Getty Images/Kevin C. Cox）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90805297007-2284655221.jpg',
-  // 🏆⚽ 2026世界盃16強賽持續火熱！🇲🇦摩洛哥3-0🇨🇦加拿大（Ounahi梅開二度）、🇫🇷法國1-0🇵🇾巴拉圭（Mbappé罰球絕殺）— 兩隊將在7/9新英格蘭8強重逢！明日（7/5）：🇧🇷巴西vs🇳🇴挪威（休斯敦·Haaland戰Vinicius）、🇲🇽墨西哥vs🇬🇧英格蘭（墨西哥城·阿茲特克球場）！（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/04/USAT/90804070007-2284643188.jpg'
+  // ⚽🇳🇴 Norway 2-1 Brazil — Erling Haaland第79分鐘頭槌破門！！Andreas Schjelderup左路突破傳出完美傳中，Haaland力壓俱樂部隊友Gabriel Magalhães，強力頭槌砸入網窩！挪威1-0領先巴西，全場挪威球迷沸騰（Getty Images/Jewel Samad）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815300007-getty-images-2284795399.jpg',
+  // 🦁🇳🇴 Norway 2-1 Brazil — Erling Haaland第90分鐘禁區外低射梅開二度！球穿越Danilo雙腿入網，Haaland以7球與Messi/Mbappé並列射手榜首。挪威2-0鎖定勝局，連續14場國際賽進球創紀錄（Getty Images/Sarah Stier）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815322007-getty-images-2284796052.jpg',
+  // 😤🇧🇷 Brazil 1-2 Norway — Neymar第100分鐘罰球破門追回一球！巴西在傷停補時獲得爭議性十二碼，Neymar冷靜射入球門左下角。可惜為時已晚，巴西以1990年以來最早世界盃出局作收（Getty Images/Elsa）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815321007-getty-images-2284224008.jpg',
+  // 🙌🇳🇴 Norway 2-1 Brazil — Haaland進球後奔向角旗區激情慶祝！挪威前鋒在MetLife Stadium的68,000名球迷面前展現世界級射手本色。Bruno Guimarães第14分鐘12碼被Ørjan Nyland神勇撲出，成為比賽轉折點（Getty Images/Adam Hunger）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815302007-getty-images-2284223769.jpg',
+  // 🛡️🇳🇴 Norway 2-1 Brazil — Ørjan Nyland精彩撲救！35歲挪威門將全場多次神撲，包括第14分鐘撲出Bruno Guimarães的12碼罰球。Nyland曾為手球選手出身，以出色腳下功夫和反應速度成為挪威晉級功臣（Getty Images/Mike Stobe）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815301007-getty-images-2284223822.jpg',
+  // 🇧🇷😢 Brazil 1-2 Norway — Vinícius Júnior賽後失落離場！巴西五屆世界盃冠軍在16強賽爆冷出局，Carlo Ancelotti的球隊全場浪費多次機會。挪威則寫下隊史新頁，首次闖入世界盃8強（Getty Images/Megan Briggs）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815305007-getty-images-2284221138.jpg',
+  // 🏆⚽ 2026世界盃16強賽持續火熱！7月5日結果：🇳🇴挪威2-1🇧🇷巴西（Haaland梅開二度，東盧瑟福大都會人壽體育場）。挪威隊史首闖8強，將在7月11日邁阿密硬石體育場對陣墨西哥/英格蘭勝方！稍晚（8pm ET·墨西哥城）：🇲🇽墨西哥vs🇬🇧英格蘭（因雷雨延遲）。7月6日：🇺🇸美國vs🇧🇪比利時、🇵🇹葡萄牙vs🇪🇸西班牙（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815199007-getty-images-2284790501.jpg'
 ];
 
-const HERO_CAPTIONS = [
-  "⚽🇫🇷 France 1-0 Paraguay — Kylian Mbappé第70分鐘罰球破門！替補上場的Désiré Doue在禁區內被Diego Gomez絆倒，烏茲別克裁判Ilgiz Tantashev經VAR確認後判罰十二碼。Mbappé冷靜射向球門左下角，Orlando Gill判斷錯誤方向，法國1-0領先！這是Mbappé本屆世界盃第7球，追平Lionel Messi並列射手榜首（Getty Images/Bill Streicher）",
-  "🔥🇫🇷 France 1-0 Paraguay — Kylian Mbappé罰球命中後激情慶祝！法國隊長以19顆世界盃進球（19場比賽）繼續追趕Messi的20球紀錄。這同時是法國國家隊在World Cup歷史上的第150顆進球。Mbappé本屆7球與Messi並列金靴榜首，法國將在7月9日對陣摩洛哥，重現2022年4強經典對決（Getty Images/Dylan Martinez）",
-  "😠🇫🇷🇵🇾 France 1-0 Paraguay — 比賽火藥味十足！Ousmane Dembélé與巴拉圭球員在禁區內激烈推擠，保護罰球點不被破壞。Matías Galarza在比賽中多次踢倒Mbappé，Juan José Caceres更在進球後攻擊Mbappé。全場合計4張黃牌，巴拉圭以粗暴防守試圖打亂法國節奏，但在第70分鐘還是被Mbappé罰球擊破（Reuters/Jeenah Moon）",
-  "🎉🇫🇷 France 1-0 Paraguay — 終場哨響！法國球員在Philadelphia Stadium慶祝連續三屆世界盃晉級8強。Didier Deschamps的球隊雖未如小組賽般火力全開，但以79%控球率全面壓制巴拉圭，展現強隊在逆境中贏球的能力。7月9日將在福克斯堡吉列體育場對陣🇲🇦摩洛哥，爭奪4強門票（Getty Images/Kyle Ross）",
-  "🎵🇺🇸 美國獨立250週年！比賽開始前，Philadelphia Stadium舉行盛大慶典紀念美國建國250周年。Idina Menzel（《冰雪奇緣》主題曲主唱）演唱美國國歌，費城傳奇嘻哈樂團The Roots現場演出，美國空軍進行飛越表演。費城是1776年《獨立宣言》簽署地，7月4日這天別具意義（Getty Images/Buda Mendes）",
-  "😤🇫🇷🇵🇾 France 1-0 Paraguay — Kylian Mbappé與Andrés Cubas在場上激烈爭執！巴拉圭中場Cubas多次採用挑釁戰術，試圖激怒法國隊長。上半場結束前兩人互相推擠，裁判各罰一張黃牌平息事態。高溫38°C（100°F）的費城熱浪下，比賽節奏更加急躁（Reuters/Charly Triballeau）",
-  "🏆⚽ 2026世界盃16強賽持續火熱！7月4日兩場大戰結束：🇲🇦摩洛哥3-0完勝🇨🇦加拿大（Azzedine Ounahi梅開二度，休斯敦NRG體育場）、🇫🇷法國1-0力克🇵🇾巴拉圭（Kylian Mbappé第70分鐘罰球絕殺，費城林肯金融球場）。兩隊將在7月9日新英格蘭吉列體育場8強對決，這也是2022年4強經典戰役的重現！明日（7/5 4pm ET·休斯敦）：🇧🇷巴西vs🇳🇴挪威（Erling Haaland vs Vinícius Júnior）；（8pm ET·墨西哥城）：🇲🇽墨西哥vs🇬🇧英格蘭（阿茲特克球場熱戰）！（Getty Images）"
-];

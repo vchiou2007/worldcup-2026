@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: "⚽ 16強賽 (Round of 16) 進行中！已賽2場：🇲🇦摩洛哥3-0🇨🇦加拿大（Ounahi梅開二度·休斯敦）、🇫🇷法國1-0🇵🇾巴拉圭（Mbappé70'罰球·費城）｜ 🇲🇦摩洛哥vs🇫🇷法國將在7/9新英格蘭8強對決！7月5日：🇧🇷巴西vs🇳🇴挪威·休斯敦、🇲🇽墨西哥vs🇬🇧英格蘭·墨西哥城；7月6日：🇺🇸美國vs🇧🇪比利時·西雅圖、🇵🇹葡萄牙vs🇪🇸西班牙·達拉斯；7月7日：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大；7月8日：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華 ｜ 🇫🇷法國1-0力克巴拉圭：Mbappé第70分鐘罰球破門，個人世界盃第7球追平Messi，法國第150顆世界盃進球！法國控球79%全面壓制，將在7/9對陣🇲🇦摩洛哥重現2022年4強經典對決",
+    currentPhase: "⚽ 16強賽 (Round of 16) 進行中！已賽3場：🇲🇦摩洛哥3-0🇨🇦加拿大（Ounahi梅開二度·休斯敦）、🇫🇷法國1-0🇵🇾巴拉圭（Mbappé70'罰球·費城）、🇳🇴挪威2-1🇧🇷巴西（Haaland梅開二度·大都會人壽）｜ 🇲🇦摩洛哥vs🇫🇷法國將在7/9新英格蘭8強對決！🇳🇴挪威晉級8強7/11邁阿密對陣墨西哥/英格蘭勝方 ｜ 7月5日：🇲🇽墨西哥vs🇬🇧英格蘭·墨西哥城（因雷雨延遲）；7月6日：🇺🇸美國vs🇧🇪比利時·西雅圖、🇵🇹葡萄牙vs🇪🇸西班牙·達拉斯；7月7日：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大；7月8日：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華 ｜ 🇳🇴挪威2-1爆冷淘汰巴西：Haaland第79分鐘頭槌、第90分鐘遠射梅開二度，世界盃7球與Messi/Mbappé並列金靴榜首！挪威隊史首闖世界盃8強，巴西1990年以來最早出局｜ 🇫🇷法國控球79%全面壓制巴拉圭，Mbappé第70分鐘罰球破門，法國第150顆世界盃進球，7/9對陣🇲🇦摩洛哥重現2022年4強經典對決",
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -3288,6 +3288,39 @@ const WC_DATA = {
         pressingApplied: [220, 250]
       }
     },
+    // === 7月5日 — 16強賽 ===
+    { date: '2026-07-05', time: '17:00 ET', group: 'R16', team1: 'Brazil', score1: 1, team2: 'Norway', score2: 2, venue: '東盧瑟福·大都會人壽體育場', status: 'completed',
+      note: "挪威2-1力克巴西晉級8強！Erling Haaland第79分鐘頭槌、第90分鐘遠射梅開二度，Neymar第100分鐘罰球追回一球。Bruno Guimarães第14分鐘12碼被Ørjan Nyland撲出。挪威隊史首次闖入世界盃8強，將在7月11日邁阿密對陣墨西哥或英格蘭的勝方。巴西以1990年以來最早世界盃出局作收。",
+      goals: [
+        { min: 79, team: 2, scorer: 'Erling Haaland', assist: 'Andreas Schjelderup', detail: 'Schjelderup左路突破傳中，Haaland力壓Gabriel頭槌破門，挪威1-0領先' },
+        { min: 90, team: 2, scorer: 'Erling Haaland', assist: null, detail: '禁區外低射穿越Danilo雙腿入網，Haaland梅開二度，世界盃第7球！' },
+        { min: 100, team: 1, scorer: 'Neymar', detail: '12碼罰球 — 巴西獲得爭議性罰球，Neymar冷靜射入，追回一球但為時已晚' }
+      ],
+      cards: [
+        { min: 45, team: 1, player: 'Gabriel Magalhães', card: 'yellow', detail: '戰術犯規' }
+      ],
+      stats: {
+        possession: [32, 60],
+        shots: [14, 9],
+        shotsOnTarget: [4, 5],
+        shotsOffTarget: [3, 4],
+        shotsInsideBox: [9, 7],
+        shotsOutsideBox: [5, 2],
+        passes: [347, 683],
+        passCompleted: [298, 627],
+        passAccuracy: [85.9, 91.8],
+        crosses: [16, 17],
+        crossesCompleted: [0, 3],
+        corners: [5, 5],
+        freeKicks: [5, 8],
+        fouls: [7, 6],
+        offsides: [1, 1],
+        yellowCards: [1, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [38, 28],
+        pressingApplied: [401, 185]
+      }
+    },
   ],
 
   // 分組積分（賽後更新）
@@ -3368,7 +3401,7 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: "32強賽全部16場完成 ✅ ｜ 🏆 晉級8強：🇲🇦摩洛哥、🇫🇷法國 ｜ 📅 7/4 16強賽戰報：🇲🇦摩洛哥3-0🇨🇦加拿大（Ounahi梅開二度）、🇫🇷法國1-0🇵🇾巴拉圭（Mbappé第70分鐘罰球，法國第150顆世界盃進球） ｜ ⏭️ 待賽：🇧🇷巴西vs🇳🇴挪威（7/5）、🇲🇽墨西哥vs🇬🇧英格蘭（7/5）、🇺🇸美國vs🇧🇪比利時（7/6）、🇵🇹葡萄牙vs🇪🇸西班牙（7/6）、🇪🇬埃及vs🇦🇷阿根廷（7/7）、🇨🇭瑞士vs🇨🇴哥倫比亞（7/8） ｜ 🏆 8強對陣出爐第一組：🇲🇦摩洛哥 vs 🇫🇷法國（7/9·新英格蘭·吉列體育場）— 2022年4強經典重現！ ｜ ❌ 淘汰：🇨🇦加拿大、🇵🇾巴拉圭 ｜ 🥇 Mbappé以7球並列射手榜第一，並以19顆世界盃進球僅次於Messi的20球",
+    summary: "32強賽全部16場完成 ✅ ｜ 🏆 晉級8強：🇲🇦摩洛哥、🇫🇷法國、🇳🇴挪威 ｜ 📅 7/5 16強賽戰報：🇳🇴挪威2-1🇧🇷巴西（Haaland第79分鐘頭槌、第90分鐘遠射梅開二度，Bruno Guimaraes第14分鐘12碼被Nyland撲出，Neymar第100分鐘罰球追回一球。挪威隊史首闖8強！） ｜ ⏭️ 待賽：🇲🇽墨西哥vs🇬🇧英格蘭（7/5）、🇺🇸美國vs🇧🇪比利時（7/6）、🇵🇹葡萄牙vs🇪🇸西班牙（7/6）、🇪🇬埃及vs🇦🇷阿根廷（7/7）、🇨🇭瑞士vs🇨🇴哥倫比亞（7/8） ｜ 🏆 8強對陣：🇲🇦摩洛哥 vs 🇫🇷法國（7/9）、🇳🇴挪威 vs TBD（7/11） ｜ ❌ 淘汰：🇨🇦加拿大、🇵🇾巴拉圭、🇧🇷巴西 ｜ 🥇 Haaland、Mbappé、Messi各以7球並列射手榜第一",
     
     // PK 大戰結果
     penalties: {
@@ -3394,14 +3427,14 @@ const WC_DATA = {
         name: '16強賽', nameEn: 'Round of 16',
         status: 'in_progress',
         totalMatches: 8,
-        completedCount: 2,
+        completedCount: 3,
         dateRange: '7月4日 — 7月8日',
-        eliminated: ['Canada', 'Paraguay'],
-        advanced: ['Morocco', 'France'],
+        eliminated: ['Canada', 'Paraguay', 'Brazil'],
+        advanced: ['Morocco', 'France', 'Norway'],
         matchups: [
           { team1: 'Morocco', score1: 3, team2: 'Canada', score2: 0, date: '2026-07-04', venue: '休斯敦·NRG體育場', time: '13:00 ET', status: 'completed', winner: 'Morocco' },
           { team1: 'Paraguay', score1: 0, team2: 'France', score2: 1, date: '2026-07-04', venue: '費城·林肯金融球場', time: '17:00 ET', status: 'completed', winner: 'France' },
-          { team1: 'Norway', team2: 'Brazil', date: '2026-07-05', venue: '休斯敦·NRG體育場', time: '17:00 ET' },
+          { team1: 'Brazil', score1: 1, team2: 'Norway', score2: 2, date: '2026-07-05', venue: '東盧瑟福·大都會人壽體育場', time: '17:00 ET', status: 'completed', winner: 'Norway' },
           { team1: 'Mexico', team2: 'England', date: '2026-07-05', venue: '墨西哥城·阿茲特克體育場', time: '21:00 ET' },
           { team1: 'USA', team2: 'Belgium', date: '2026-07-06', venue: '西雅圖·流明球場', time: '17:00 ET' },
           { team1: 'Portugal', team2: 'Spain', date: '2026-07-06', venue: '達拉斯·AT&T體育場', time: '21:00 ET' },
@@ -3417,7 +3450,8 @@ const WC_DATA = {
         completedCount: 0,
         dateRange: '7月9日 — 7月11日',
         matchups: [
-          { team1: 'Morocco', team2: 'France', date: '2026-07-09', venue: '福克斯堡·吉列體育場', time: '20:00 ET', note: '8強賽第1場 — 2022年4強經典重現！' }
+          { team1: 'Morocco', team2: 'France', date: '2026-07-09', venue: '福克斯堡·吉列體育場', time: '20:00 ET', note: '8強賽第1場 — 2022年4強經典重現！' },
+          { team1: 'Norway', team2: 'TBD (Mexico/England)', date: '2026-07-11', venue: '邁阿密·硬石體育場', time: '17:00 ET', note: '挪威隊史首闖8強！Haaland世界盃7球與Messi/Mbappé並列射手榜首' }
         ]
       },
       SF: {
