@@ -110,21 +110,21 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-07-06 更新：🇬🇧英格蘭3-2🇲🇽墨西哥！Bellingham梅開二度，10人三獅軍團守住勝局晉級8強） =====
+// ===== 輪播牆圖片（2026-07-06 更新：🇳🇴挪威2-1🇧🇷巴西驚天冷門！Haaland梅開二度·挪威首闖8強｜🇬🇧英格蘭3-2🇲🇽墨西哥·10人三獅軍團守住勝局） =====
 const HERO_IMAGES = [
-  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 3-2 Mexico — Jude Bellingham第36分鐘頭槌破門！！Bukayo Saka右路快攻傳出完美弧線傳中至遠柱，Bellingham力壓防守球員強力頭槌砸入網窩！英格蘭1-0領先，現場80,824名球迷中僅英格蘭遠征軍歡呼（Getty Images/Michael Steele）
+  // 🇳🇴⚡ Norway 2-1 Brazil — Erling Haaland第79分鐘頭槌破門！！Andreas Schjelderup左路突破傳中，Haaland力壓Gabriel頭槌入網！挪威1-0領先，全場挪威球迷沸騰（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815300007-getty-images-2284795399.jpg',
+  // 🇳🇴🔥 Norway 2-1 Brazil — Erling Haaland第90分鐘遠射梅開二度！禁區外低射穿越Danilo雙腿入網，Haaland以世界盃7球與Messi/Mbappé並列射手榜首，挪威隊史首闖8強（Getty Images/Jewel Samad）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815303007-getty-images-2284223617.jpg',
+  // 🇳🇴😤 Norway 2-1 Brazil — Bruno Guimaraes第14分鐘12碼被Ørjan Nyland撲出！挪威門將飛身撲救，成為比賽轉捩點，巴西從未在世界盃罰失12碼的紀錄告終（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815322007-getty-images-2284796052.jpg',
+  // 🇬🇧🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 3-2 Mexico — Jude Bellingham第36分鐘頭槌破門！Bukayo Saka右路快攻傳出完美弧線傳中，Bellingham力壓防守強力頭槌砸入網窩，英格蘭1-0領先阿茲特克（Getty Images/Michael Steele）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815473007-getty-images-2284793699.jpg',
-  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿🔥 England 3-2 Mexico — Jude Bellingham第38分鐘梅開二度！98秒兩球！Harry Kane禁區邊緣傳球，Bellingham禁區內射門入網，以2-0在阿茲特克球場震懾全場墨西哥球迷（Getty Images/Julian Finney）
+  // 🇬🇧🔥 England 3-2 Mexico — Jude Bellingham第38分鐘梅開二度！98秒兩球！Kane禁區邊緣傳球，Bellingham禁區內射門入網，2-0在阿茲特克球場震懾全場墨西哥球迷（Getty Images/Julian Finney）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815474007-getty-images-2284797843.jpg',
-  // 🇲🇽😤 Mexico 2-3 England — Julián Quiñones第42分鐘凌空抽射追回一球！Roberto Alvarado自由球傳入禁區，Ezri Konsa解圍失誤，Quiñones禁區內凌空抽射破門，墨西哥球迷重燃希望（Getty Images/Alfredo Estrella）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815475007-getty-images-2284223880.jpg',
-  // 🟥🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 3-2 Mexico — Jarell Quansah第54分鐘直紅被罰下！Bayer Leverkusen後衛危險鏟球踩中Jesús Gallardo脛骨，VAR審查後裁判Alireza Faghani出示紅牌，英格蘭10人應戰（Getty Images/Jam Media）
+  // 🟥🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 3-2 Mexico — Jarell Quansah第54分鐘直紅被罰下！Bayer Leverkusen後衛危險鏟球踩中Jesús Gallardo脛骨，VAR審查後裁判出示紅牌，英格蘭10人應戰守住勝局（Getty Images）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815476007-getty-images-2284226367.jpg',
-  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿⚽ England 3-2 Mexico — Harry Kane第60分鐘罰球破門！Anthony Gordon被門將Raúl Rangel絆倒，Kane冷靜罰入左下角，英格蘭3-1穩住軍心。Kane世界盃第14球，超越Just Fontaine（Getty Images/Mike Stobe）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815477007-getty-images-2284793739.jpg',
-  // 🇲🇽😢 Mexico 2-3 England — Raúl Jiménez第69分鐘罰球追至2-3！Harry Kane踢中Brian Gutiérrez，VAR確認後Jiménez冷靜罰入右下角，全場墨西哥球迷沸騰但最終仍無力回天（Getty Images/Hector Vivas）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815478007-getty-images-2284226368.jpg',
-  // 🏆⚽ 2026世界盃16強賽火熱進行中！7月5日結果：🇳🇴挪威2-1🇧🇷巴西（Haaland梅開二度，大都會人壽體育場）、🇬🇧英格蘭3-2🇲🇽墨西哥（Bellingham梅開二度，阿茲特克體育場）。8強出爐：🇲🇦摩洛哥vs🇫🇷法國（7/9）、🇳🇴挪威vs🇬🇧英格蘭（7/11）。今日賽程：🇺🇸美國vs🇧🇪比利時·西雅圖、🇵🇹葡萄牙vs🇪🇸西班牙·達拉斯（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815479007-getty-images-2284797850.jpg'
+  // 🏆⚽ 2026世界盃16強賽火熱進行中！7月5日結果：🇳🇴挪威2-1🇧🇷巴西（Haaland梅開二度）｜🇬🇧英格蘭3-2🇲🇽墨西哥（Bellingham梅開二度，10人三獅軍團守住勝局）｜8強已定：🇲🇦摩洛哥vs🇫🇷法國（7/9）、🇳🇴挪威vs🇬🇧英格蘭（7/11）｜今日賽程：🇺🇸美國vs🇧🇪比利時·西雅圖、🇵🇹葡萄牙vs🇪🇸西班牙·達拉斯（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90814804007-getty-images-2284210938.jpg'
 ];
 
