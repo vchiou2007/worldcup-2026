@@ -110,21 +110,21 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-07-05 更新：🇧🇷巴西1-2🇳🇴挪威！Haaland梅開二度淘汰巴西，挪威隊史首闖8強） =====
+// ===== 輪播牆圖片（2026-07-06 更新：🇬🇧英格蘭3-2🇲🇽墨西哥！Bellingham梅開二度，10人三獅軍團守住勝局晉級8強） =====
 const HERO_IMAGES = [
-  // ⚽🇳🇴 Norway 2-1 Brazil — Erling Haaland第79分鐘頭槌破門！！Andreas Schjelderup左路突破傳出完美傳中，Haaland力壓俱樂部隊友Gabriel Magalhães，強力頭槌砸入網窩！挪威1-0領先巴西，全場挪威球迷沸騰（Getty Images/Jewel Samad）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815300007-getty-images-2284795399.jpg',
-  // 🦁🇳🇴 Norway 2-1 Brazil — Erling Haaland第90分鐘禁區外低射梅開二度！球穿越Danilo雙腿入網，Haaland以7球與Messi/Mbappé並列射手榜首。挪威2-0鎖定勝局，連續14場國際賽進球創紀錄（Getty Images/Sarah Stier）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815322007-getty-images-2284796052.jpg',
-  // 😤🇧🇷 Brazil 1-2 Norway — Neymar第100分鐘罰球破門追回一球！巴西在傷停補時獲得爭議性十二碼，Neymar冷靜射入球門左下角。可惜為時已晚，巴西以1990年以來最早世界盃出局作收（Getty Images/Elsa）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815321007-getty-images-2284224008.jpg',
-  // 🙌🇳🇴 Norway 2-1 Brazil — Haaland進球後奔向角旗區激情慶祝！挪威前鋒在MetLife Stadium的68,000名球迷面前展現世界級射手本色。Bruno Guimarães第14分鐘12碼被Ørjan Nyland神勇撲出，成為比賽轉折點（Getty Images/Adam Hunger）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815302007-getty-images-2284223769.jpg',
-  // 🛡️🇳🇴 Norway 2-1 Brazil — Ørjan Nyland精彩撲救！35歲挪威門將全場多次神撲，包括第14分鐘撲出Bruno Guimarães的12碼罰球。Nyland曾為手球選手出身，以出色腳下功夫和反應速度成為挪威晉級功臣（Getty Images/Mike Stobe）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815301007-getty-images-2284223822.jpg',
-  // 🇧🇷😢 Brazil 1-2 Norway — Vinícius Júnior賽後失落離場！巴西五屆世界盃冠軍在16強賽爆冷出局，Carlo Ancelotti的球隊全場浪費多次機會。挪威則寫下隊史新頁，首次闖入世界盃8強（Getty Images/Megan Briggs）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815305007-getty-images-2284221138.jpg',
-  // 🏆⚽ 2026世界盃16強賽持續火熱！7月5日結果：🇳🇴挪威2-1🇧🇷巴西（Haaland梅開二度，東盧瑟福大都會人壽體育場）。挪威隊史首闖8強，將在7月11日邁阿密硬石體育場對陣墨西哥/英格蘭勝方！稍晚（8pm ET·墨西哥城）：🇲🇽墨西哥vs🇬🇧英格蘭（因雷雨延遲）。7月6日：🇺🇸美國vs🇧🇪比利時、🇵🇹葡萄牙vs🇪🇸西班牙（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815199007-getty-images-2284790501.jpg'
+  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 3-2 Mexico — Jude Bellingham第36分鐘頭槌破門！！Bukayo Saka右路快攻傳出完美弧線傳中至遠柱，Bellingham力壓防守球員強力頭槌砸入網窩！英格蘭1-0領先，現場80,824名球迷中僅英格蘭遠征軍歡呼（Getty Images/Michael Steele）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815473007-getty-images-2284793699.jpg',
+  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿🔥 England 3-2 Mexico — Jude Bellingham第38分鐘梅開二度！98秒兩球！Harry Kane禁區邊緣傳球，Bellingham禁區內射門入網，以2-0在阿茲特克球場震懾全場墨西哥球迷（Getty Images/Julian Finney）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815474007-getty-images-2284797843.jpg',
+  // 🇲🇽😤 Mexico 2-3 England — Julián Quiñones第42分鐘凌空抽射追回一球！Roberto Alvarado自由球傳入禁區，Ezri Konsa解圍失誤，Quiñones禁區內凌空抽射破門，墨西哥球迷重燃希望（Getty Images/Alfredo Estrella）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815475007-getty-images-2284223880.jpg',
+  // 🟥🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 3-2 Mexico — Jarell Quansah第54分鐘直紅被罰下！Bayer Leverkusen後衛危險鏟球踩中Jesús Gallardo脛骨，VAR審查後裁判Alireza Faghani出示紅牌，英格蘭10人應戰（Getty Images/Jam Media）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815476007-getty-images-2284226367.jpg',
+  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿⚽ England 3-2 Mexico — Harry Kane第60分鐘罰球破門！Anthony Gordon被門將Raúl Rangel絆倒，Kane冷靜罰入左下角，英格蘭3-1穩住軍心。Kane世界盃第14球，超越Just Fontaine（Getty Images/Mike Stobe）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815477007-getty-images-2284793739.jpg',
+  // 🇲🇽😢 Mexico 2-3 England — Raúl Jiménez第69分鐘罰球追至2-3！Harry Kane踢中Brian Gutiérrez，VAR確認後Jiménez冷靜罰入右下角，全場墨西哥球迷沸騰但最終仍無力回天（Getty Images/Hector Vivas）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815478007-getty-images-2284226368.jpg',
+  // 🏆⚽ 2026世界盃16強賽火熱進行中！7月5日結果：🇳🇴挪威2-1🇧🇷巴西（Haaland梅開二度，大都會人壽體育場）、🇬🇧英格蘭3-2🇲🇽墨西哥（Bellingham梅開二度，阿茲特克體育場）。8強出爐：🇲🇦摩洛哥vs🇫🇷法國（7/9）、🇳🇴挪威vs🇬🇧英格蘭（7/11）。今日賽程：🇺🇸美國vs🇧🇪比利時·西雅圖、🇵🇹葡萄牙vs🇪🇸西班牙·達拉斯（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815479007-getty-images-2284797850.jpg'
 ];
 

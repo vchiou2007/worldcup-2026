@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: "⚽ 16強賽 (Round of 16) 進行中！已賽3場：🇲🇦摩洛哥3-0🇨🇦加拿大（Ounahi梅開二度·休斯敦）、🇫🇷法國1-0🇵🇾巴拉圭（Mbappé70'罰球·費城）、🇳🇴挪威2-1🇧🇷巴西（Haaland梅開二度·大都會人壽）｜ 🇲🇦摩洛哥vs🇫🇷法國將在7/9新英格蘭8強對決！🇳🇴挪威晉級8強7/11邁阿密對陣墨西哥/英格蘭勝方 ｜ 7月5日：🇲🇽墨西哥vs🇬🇧英格蘭·墨西哥城（因雷雨延遲）；7月6日：🇺🇸美國vs🇧🇪比利時·西雅圖、🇵🇹葡萄牙vs🇪🇸西班牙·達拉斯；7月7日：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大；7月8日：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華 ｜ 🇳🇴挪威2-1爆冷淘汰巴西：Haaland第79分鐘頭槌、第90分鐘遠射梅開二度，世界盃7球與Messi/Mbappé並列金靴榜首！挪威隊史首闖世界盃8強，巴西1990年以來最早出局｜ 🇫🇷法國控球79%全面壓制巴拉圭，Mbappé第70分鐘罰球破門，法國第150顆世界盃進球，7/9對陣🇲🇦摩洛哥重現2022年4強經典對決",
+    currentPhase: "⚽ 16強賽 (Round of 16) 進行中！已賽4場：🇲🇦摩洛哥3-0🇨🇦加拿大、🇫🇷法國1-0🇵🇾巴拉圭、🇳🇴挪威2-1🇧🇷巴西、🇬🇧英格蘭3-2🇲🇽墨西哥（Bellingham梅開二度·阿茲特克）｜ 🇳🇴挪威vs🇬🇧英格蘭7/11邁阿密8強對決確定！🇲🇦摩洛哥vs🇫🇷法國7/9新英格蘭 ｜ 7月6日：🇺🇸美國vs🇧🇪比利時·西雅圖、🇵🇹葡萄牙vs🇪🇸西班牙·達拉斯；7月7日：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大；7月8日：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華 ｜ 🇬🇧英格蘭3-2驚險勝出：Bellingham第36'、38'梅開二度（98秒兩球），Kane第60'罰球破門，Quansah第54'直紅10人應戰，英格蘭守住勝局晉級8強對挪威！｜ 🇳🇴挪威2-1爆冷淘汰巴西：Haaland第79分鐘頭槌、第90分鐘遠射梅開二度，世界盃7球與Messi/Mbappé並列金靴榜首！｜ 🇫🇷法國控球79%全面壓制巴拉圭，Mbappé第70分鐘罰球破門，法國第150顆世界盃進球，7/9對陣🇲🇦摩洛哥",
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -3321,6 +3321,43 @@ const WC_DATA = {
         pressingApplied: [401, 185]
       }
     },
+    // === 7月5日 — 16強賽（雷雨延遲至約22:00 ET開球） ===
+    { date: '2026-07-05', time: '22:00 ET', group: 'R16', team1: 'Mexico', score1: 2, team2: 'England', score2: 3, venue: '墨西哥城·阿茲特克體育場', status: 'completed',
+      note: "英格蘭3-2力克墨西哥晉級8強！Jude Bellingham第36分鐘頭槌、第38分鐘禁區內射門梅開二度（98秒兩球），Harry Kane第60分鐘罰球破門。Julián Quiñones第42分鐘凌空抽射追回一球，Raúl Jiménez第69分鐘罰球追至2-3。Jarell Quansah第54分鐘直紅被罰下，英格蘭10人應戰守住勝局。墨西哥自1986年以來再次於主場止步16強，英格蘭將在7月11日邁阿密對陣挪威。",
+      goals: [
+        { min: 36, team: 2, scorer: 'Jude Bellingham', assist: 'Bukayo Saka', detail: 'Saka右路快攻傳中至遠柱，Bellingham頭槌破門，英格蘭1-0領先！' },
+        { min: 38, team: 2, scorer: 'Jude Bellingham', assist: 'Harry Kane', detail: 'Kane禁區邊緣傳球，Bellingham禁區內射門入網，98秒兩球！2-0' },
+        { min: 42, team: 1, scorer: 'Julián Quiñones', assist: 'Roberto Alvarado', detail: 'Alvarado自由球，Konsa解圍失誤，Quiñones禁區內凌空抽射破門，墨西哥追回一球' },
+        { min: 60, team: 2, scorer: 'Harry Kane', detail: '12碼罰球 — Anthony Gordon被門將Raúl Rangel絆倒，Kane冷靜罰入左下角，英格蘭3-1' },
+        { min: 69, team: 1, scorer: 'Raúl Jiménez', detail: '12碼罰球 — Kane踢到Brian Gutiérrez，VAR確認後判罰，Jiménez罰入右下角，2-3' }
+      ],
+      cards: [
+        { min: 34, team: 2, player: 'Declan Rice', card: 'yellow', detail: '戰術犯規阻止反擊' },
+        { min: 54, team: 2, player: 'Jarell Quansah', card: 'red', detail: 'VAR審查後判定serious foul play — 危險鏟球犯規踩到Jesús Gallardo脛骨，直紅罰下' },
+        { min: 78, team: 2, player: 'Ezri Konsa', card: 'yellow', detail: '拖延時間' }
+      ],
+      stats: {
+        possession: [60, 40],
+        shots: [10, 5],
+        shotsOnTarget: [4, 4],
+        shotsOffTarget: [3, 1],
+        shotsInsideBox: [6, 4],
+        shotsOutsideBox: [4, 1],
+        passes: [305, 206],
+        passCompleted: [277, 174],
+        passAccuracy: [90.8, 84.5],
+        crosses: [17, 4],
+        crossesCompleted: [5, 1],
+        corners: [5, 2],
+        freeKicks: [14, 15],
+        fouls: [12, 6],
+        offsides: [2, 1],
+        yellowCards: [0, 2],
+        redCards: [0, 1],
+        forcedTurnovers: [25, 32],
+        pressingApplied: [190, 220]
+      }
+    },
   ],
 
   // 分組積分（賽後更新）
@@ -3401,7 +3438,7 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: "32強賽全部16場完成 ✅ ｜ 🏆 晉級8強：🇲🇦摩洛哥、🇫🇷法國、🇳🇴挪威 ｜ 📅 7/5 16強賽戰報：🇳🇴挪威2-1🇧🇷巴西（Haaland第79分鐘頭槌、第90分鐘遠射梅開二度，Bruno Guimaraes第14分鐘12碼被Nyland撲出，Neymar第100分鐘罰球追回一球。挪威隊史首闖8強！） ｜ ⏭️ 待賽：🇲🇽墨西哥vs🇬🇧英格蘭（7/5）、🇺🇸美國vs🇧🇪比利時（7/6）、🇵🇹葡萄牙vs🇪🇸西班牙（7/6）、🇪🇬埃及vs🇦🇷阿根廷（7/7）、🇨🇭瑞士vs🇨🇴哥倫比亞（7/8） ｜ 🏆 8強對陣：🇲🇦摩洛哥 vs 🇫🇷法國（7/9）、🇳🇴挪威 vs TBD（7/11） ｜ ❌ 淘汰：🇨🇦加拿大、🇵🇾巴拉圭、🇧🇷巴西 ｜ 🥇 Haaland、Mbappé、Messi各以7球並列射手榜第一",
+    summary: "32強賽全部16場完成 ✅ ｜ 🏆 晉級8強：🇲🇦摩洛哥、🇫🇷法國、🇳🇴挪威、🇬🇧英格蘭 ｜ 📅 7/5 16強賽戰報：🇳🇴挪威2-1🇧🇷巴西（Haaland第79分鐘頭槌、第90分鐘遠射梅開二度，Bruno Guimaraes第14分鐘12碼被Nyland撲出，Neymar第100分鐘罰球追回一球。挪威隊史首闖8強！）｜ 🇬🇧英格蘭3-2🇲🇽墨西哥（Bellingham第36'、38'梅開二度，Kane第60'罰球破門，Quansah第54'紅牌。英格蘭10人應戰守住勝局！）｜ ⏭️ 待賽：🇺🇸美國vs🇧🇪比利時（7/6）、🇵🇹葡萄牙vs🇪🇸西班牙（7/6）、🇪🇬埃及vs🇦🇷阿根廷（7/7）、🇨🇭瑞士vs🇨🇴哥倫比亞（7/8）｜ 🏆 8強對陣：🇲🇦摩洛哥 vs 🇫🇷法國（7/9）、🇳🇴挪威 vs 🇬🇧英格蘭（7/11）｜ ❌ 淘汰：🇨🇦加拿大、🇵🇾巴拉圭、🇧🇷巴西、🇲🇽墨西哥 ｜ 🥇 Haaland、Mbappé、Messi各以7球並列射手榜第一",
     
     // PK 大戰結果
     penalties: {
@@ -3427,15 +3464,15 @@ const WC_DATA = {
         name: '16強賽', nameEn: 'Round of 16',
         status: 'in_progress',
         totalMatches: 8,
-        completedCount: 3,
+        completedCount: 4,
         dateRange: '7月4日 — 7月8日',
-        eliminated: ['Canada', 'Paraguay', 'Brazil'],
-        advanced: ['Morocco', 'France', 'Norway'],
+        eliminated: ['Canada', 'Paraguay', 'Brazil', 'Mexico'],
+        advanced: ['Morocco', 'France', 'Norway', 'England'],
         matchups: [
           { team1: 'Morocco', score1: 3, team2: 'Canada', score2: 0, date: '2026-07-04', venue: '休斯敦·NRG體育場', time: '13:00 ET', status: 'completed', winner: 'Morocco' },
           { team1: 'Paraguay', score1: 0, team2: 'France', score2: 1, date: '2026-07-04', venue: '費城·林肯金融球場', time: '17:00 ET', status: 'completed', winner: 'France' },
           { team1: 'Brazil', score1: 1, team2: 'Norway', score2: 2, date: '2026-07-05', venue: '東盧瑟福·大都會人壽體育場', time: '17:00 ET', status: 'completed', winner: 'Norway' },
-          { team1: 'Mexico', team2: 'England', date: '2026-07-05', venue: '墨西哥城·阿茲特克體育場', time: '21:00 ET' },
+          { team1: 'Mexico', score1: 2, team2: 'England', score2: 3, date: '2026-07-05', venue: '墨西哥城·阿茲特克體育場', time: '22:00 ET', status: 'completed', winner: 'England', note: 'kickoff delayed ~1hr due to thunderstorms' },
           { team1: 'USA', team2: 'Belgium', date: '2026-07-06', venue: '西雅圖·流明球場', time: '17:00 ET' },
           { team1: 'Portugal', team2: 'Spain', date: '2026-07-06', venue: '達拉斯·AT&T體育場', time: '21:00 ET' },
           { team1: 'Egypt', team2: 'Argentina', date: '2026-07-07', venue: '亞特蘭大·梅賽德斯-賓士體育場', time: '20:00 ET' },
@@ -3451,7 +3488,7 @@ const WC_DATA = {
         dateRange: '7月9日 — 7月11日',
         matchups: [
           { team1: 'Morocco', team2: 'France', date: '2026-07-09', venue: '福克斯堡·吉列體育場', time: '20:00 ET', note: '8強賽第1場 — 2022年4強經典重現！' },
-          { team1: 'Norway', team2: 'TBD (Mexico/England)', date: '2026-07-11', venue: '邁阿密·硬石體育場', time: '17:00 ET', note: '挪威隊史首闖8強！Haaland世界盃7球與Messi/Mbappé並列射手榜首' }
+          { team1: 'Norway', team2: 'England', date: '2026-07-11', venue: '邁阿密·硬石體育場', time: '17:00 ET', note: '挪威vs英格蘭 — 兩隊首度在世界盃交手！Haaland世界盃7球與Messi/Mbappé並列射手榜首' }
         ]
       },
       SF: {
