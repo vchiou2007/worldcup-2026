@@ -1,5 +1,5 @@
 // 2026 世界盃 PWA Service Worker
-const CACHE = 'worldcup-2026-v5';
+const CACHE = 'worldcup-2026-v6';
 const URLS = [
   '/worldcup-2026/',
   '/worldcup-2026/index.html',

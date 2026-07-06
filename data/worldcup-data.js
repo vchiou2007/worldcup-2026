@@ -3358,6 +3358,13 @@ const WC_DATA = {
         pressingApplied: [190, 220]
       }
     },
+    // === 7月6日 — 16強賽（今日） ===
+    { date: '2026-07-06', time: '17:00 ET', group: 'R16', team1: 'USA', team2: 'Belgium', venue: '西雅圖·流明球場', status: 'scheduled' },
+    { date: '2026-07-06', time: '21:00 ET', group: 'R16', team1: 'Portugal', team2: 'Spain', venue: '達拉斯·AT&T體育場', status: 'scheduled' },
+    // === 7月7日 ===
+    { date: '2026-07-07', time: '20:00 ET', group: 'R16', team1: 'Egypt', team2: 'Argentina', venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'scheduled' },
+    // === 7月8日 ===
+    { date: '2026-07-08', time: '20:00 ET', group: 'R16', team1: 'Switzerland', team2: 'Colombia', venue: '溫哥華·BC Place', status: 'scheduled' },
   ],
 
   // 分組積分（賽後更新）
