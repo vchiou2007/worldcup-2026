@@ -3538,17 +3538,17 @@ const WC_DATA = {
         name: '16強賽', nameEn: 'Round of 16',
         status: 'in_progress',
         totalMatches: 8,
-        completedCount: 5,
+        completedCount: 6,
         dateRange: '7月4日 — 7月8日',
-        eliminated: ['Canada', 'Paraguay', 'Brazil', 'Mexico', 'Portugal'],
-        advanced: ['Morocco', 'France', 'Norway', 'England', 'Spain'],
+        eliminated: ['Canada', 'Paraguay', 'Brazil', 'Mexico', 'Portugal', 'USA'],
+        advanced: ['Morocco', 'France', 'Norway', 'England', 'Spain', 'Belgium'],
         matchups: [
           { team1: 'Morocco', score1: 3, team2: 'Canada', score2: 0, date: '2026-07-04', venue: '休斯敦·NRG體育場', time: '13:00 ET', status: 'completed', winner: 'Morocco' },
           { team1: 'Paraguay', score1: 0, team2: 'France', score2: 1, date: '2026-07-04', venue: '費城·林肯金融球場', time: '17:00 ET', status: 'completed', winner: 'France' },
           { team1: 'Brazil', score1: 1, team2: 'Norway', score2: 2, date: '2026-07-05', venue: '東盧瑟福·大都會人壽體育場', time: '17:00 ET', status: 'completed', winner: 'Norway' },
           { team1: 'Mexico', score1: 2, team2: 'England', score2: 3, date: '2026-07-05', venue: '墨西哥城·阿茲特克體育場', time: '22:00 ET', status: 'completed', winner: 'England', note: 'kickoff delayed ~1hr due to thunderstorms' },
           { team1: 'Portugal', score1: 0, team2: 'Spain', score2: 1, date: '2026-07-06', venue: '達拉斯·AT&T體育場', time: '15:00 ET', status: 'completed', winner: 'Spain', note: 'Mikel Merino 90+1絕殺！C羅淚別世界盃' },
-          { team1: 'USA', team2: 'Belgium', date: '2026-07-06', venue: '西雅圖·流明球場', time: '20:00 ET', status: 'in_progress' },
+          { team1: 'USA', team2: 'Belgium', date: '2026-07-06', venue: '西雅圖·流明球場', time: '20:00 ET', status: 'completed', winner: 'Belgium', note: 'Belgium won 4-1, De Ketelaere brace, Vanaken, Lukaku goals' },
           { team1: 'Egypt', team2: 'Argentina', date: '2026-07-07', venue: '亞特蘭大·梅賽德斯-賓士體育場', time: '20:00 ET' },
           { team1: 'Switzerland', team2: 'Colombia', date: '2026-07-08', venue: '溫哥華·BC Place', time: '20:00 ET' }
         ]
@@ -3562,7 +3562,7 @@ const WC_DATA = {
         dateRange: '7月9日 — 7月11日',
         matchups: [
           { team1: 'Morocco', team2: 'France', date: '2026-07-09', venue: '福克斯堡·吉列體育場', time: '20:00 ET', note: '8強賽第1場 — 2022年4強經典重現！' },
-          { team1: 'Spain', team2: 'TBD (USA/Belgium)', date: '2026-07-10', venue: '英格爾伍德·SoFi體育場', time: '15:00 ET', note: '西班牙時隔16年重返8強，對手為USA vs Belgium勝方' },
+          { team1: 'Spain', team2: 'Belgium', date: '2026-07-10', venue: '英格爾伍德·SoFi體育場', time: '15:00 ET', note: '🇪🇸西班牙時隔16年重返8強 vs 🇧🇪比利時！De Ketelaere狀態火熱🔥' },
           { team1: 'Norway', team2: 'England', date: '2026-07-11', venue: '邁阿密·硬石體育場', time: '17:00 ET', note: '挪威vs英格蘭 — 兩隊首度在世界盃交手！Haaland世界盃7球與Messi/Mbappé並列射手榜首' },
           { team1: 'TBD (Egypt/Argentina)', team2: 'TBD (Switzerland/Colombia)', date: '2026-07-11', venue: '堪薩斯城·箭頭體育場', time: '21:00 ET', note: '7/7埃及vs阿根廷、7/8瑞士vs哥倫比亞勝方對決' }
         ]
