@@ -3548,7 +3548,7 @@ const WC_DATA = {
           { team1: 'Brazil', score1: 1, team2: 'Norway', score2: 2, date: '2026-07-05', venue: '東盧瑟福·大都會人壽體育場', time: '17:00 ET', status: 'completed', winner: 'Norway' },
           { team1: 'Mexico', score1: 2, team2: 'England', score2: 3, date: '2026-07-05', venue: '墨西哥城·阿茲特克體育場', time: '22:00 ET', status: 'completed', winner: 'England', note: 'kickoff delayed ~1hr due to thunderstorms' },
           { team1: 'Portugal', score1: 0, team2: 'Spain', score2: 1, date: '2026-07-06', venue: '達拉斯·AT&T體育場', time: '15:00 ET', status: 'completed', winner: 'Spain', note: 'Mikel Merino 90+1絕殺！C羅淚別世界盃' },
-          { team1: 'USA', team2: 'Belgium', date: '2026-07-06', venue: '西雅圖·流明球場', time: '20:00 ET', status: 'completed', winner: 'Belgium', note: 'Belgium won 4-1, De Ketelaere brace, Vanaken, Lukaku goals' },
+          { team1: 'USA', score1: 1, team2: 'Belgium', score2: 4, date: '2026-07-06', venue: '西雅圖·流明球場', time: '20:00 ET', status: 'completed', winner: 'Belgium', note: 'Belgium won 4-1, De Ketelaere brace, Vanaken, Lukaku goals' },
           { team1: 'Egypt', team2: 'Argentina', date: '2026-07-07', venue: '亞特蘭大·梅賽德斯-賓士體育場', time: '20:00 ET' },
           { team1: 'Switzerland', team2: 'Colombia', date: '2026-07-08', venue: '溫哥華·BC Place', time: '20:00 ET' }
         ]
