@@ -110,31 +110,31 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-07-06 晚間更新：🇪🇸西班牙1-0🇵🇹葡萄牙 Merino絕殺 C羅淚別｜🇧🇪比利時vs🇺🇸美國進行中 3-1) =====
+// ===== 輪播牆圖片（2026-07-07 上午更新：🇧🇪比利時4-1🇺🇸美國·Lukaku補時進球·8強全數出爐） =====
 const HERO_IMAGES = [
-  // 🇪🇸⚡ Spain 1-0 Portugal — Mikel Merino第90+1分鐘絕殺頭槌！Ferran Torres助攻，Merino禁區內冷靜推射入網，西班牙1-0絕殺葡萄牙，時隔16年重返世界盃8強（AP/Julio Cortez）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90817564007-getty-images-2284795399.jpg',
-  // 🇪🇸😢 Spain 1-0 Portugal — Cristiano Ronaldo含淚告別世界盃！41歲傳奇第六屆世界盃落幕，全場3次射門19次觸球，葡萄牙0-1飲恨（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90817565007-getty-images-2284223617.jpg',
-  // 🇪🇸🧤 Spain 1-0 Portugal — Unai Simón精彩撲救化解Ronaldo第37分鐘巧妙挑射，延續世界盃609分鐘不失球紀錄，全場僅2次射正（Reuters/Kai Pfaffenbach）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90817566007-getty-images-2284796052.jpg',
-  // 🇧🇪🔥 Belgium 3-1 USA — Charles De Ketelaere第33分鐘梅開二度！Trossard橫傳禁區，De Ketelaere第一時間推射遠角入網，比利時2-1再度超前（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90815473007-getty-images-2284793699.jpg',
-  // 🇺🇸⚽ USA 1-1 Belgium — Malik Tillman第31分鐘自由球世界波！禁區弧頂操刀自由球打穿人牆右上死角，美國1-1扳平全場沸騰（Getty Images/Michael Steele）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90815474007-getty-images-2284797843.jpg',
-  // 🇧🇪🥅 Belgium 3-1 USA — Hans Vanaken第57分鐘把握Freese出擊失誤打空門得手，比利時3-1領先全面壓制美國（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90815476007-getty-images-2284226367.jpg',
-  // 🏆⚽ 2026世界盃16強賽火熱進行中！7月6日結果：🇪🇸西班牙1-0🇵🇹葡萄牙（Merino 90+1絕殺，C羅淚別）｜進行中：🇧🇪比利時3-1🇺🇸美國（De Ketelaere梅開二度）｜8強已定3場：🇲🇦摩洛哥vs🇫🇷法國（7/9）、🇪🇸西班牙vs比利時/美國（7/10）、🇳🇴挪威vs🇬🇧英格蘭（7/11）｜明日：🇪🇬埃及vs🇦🇷阿根廷（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90814804007-getty-images-2284210938.jpg'
+  // 🇧🇪🔥 Belgium 4-1 USA — Charles De Ketelaere第33分鐘梅開二度！Leandro Trossard左路橫傳禁區，De Ketelaere第一時間推射遠角入網，全場2進球1助攻獲選最佳球員，比利時強勢晉級8強（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90828804007-gty-2284962126.jpg',
+  // 🇧🇪🥅 Belgium 4-1 USA — Romelu Lukaku第90+2分鐘錦上添花！Hans Vanaken助攻，Lukaku禁區內低射入網，比利時4-1鎖定勝局，將在7/10洛杉磯對陣🇪🇸西班牙（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90829010007-gty-2284964253.jpg',
+  // 🇧🇪🎉 Belgium 4-1 USA — Hans Vanaken第57分鐘把握Freese出擊失誤打空門得手，全場球迷見證比利時全面壓制美國，De Ketelaere斷球助攻Vanaken（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90829008007-gty-2284964275.jpg',
+  // ⚡🇺🇸 USA 1-4 Belgium — Malik Tillman第31分鐘自由球世界波！禁區弧頂操刀自由球打穿人牆右上死角，美國1-1扳平全場沸騰。可惜後防連環失誤最終1-4落敗（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90828885007-gty-2284962958.jpg',
+  // 🇧🇪🇺🇸 Belgium 4-1 USA — Nicolas Raskin禁區邊緣傳中，Charles De Ketelaere胸停後順勢掃射入網，比利時第9分鐘先馳得點。全場球迷在西雅圖流明球場見證精彩對決（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/07/USAT/90829073007-gty-2284964835.jpg',
+  // 🔥 8強對陣出爐！🇲🇦摩洛哥vs🇫🇷法國（7/9）、🇪🇸西班牙vs🇧🇪比利時（7/10）、🇳🇴挪威vs🇬🇧英格蘭（7/11邁阿密）、7/11堪薩斯城待定。16強賽已賽6場，精彩不斷（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/07/USAT/90829111007-gty-2284965896.jpg',
+  // 🏆 2026世界盃16強賽即將落幕！7/7：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大（Messi vs Salah夢幻對決🔥）｜7/8：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華｜8強全數出爐，冠軍之路愈發激烈（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/07/USAT/90829081007-gty-2284965119.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  "⚽🇪🇸 Mikel Merino第90+1分鐘絕殺！Ferran Torres妙傳助攻，Merino禁區內冷靜推射入網，西班牙1-0絕殺葡萄牙，時隔16年重返世界盃8強！（AP/Julio Cortez）",
-  "😢🇵🇹 Cristiano Ronaldo含淚告別世界盃！41歲傳奇第六屆世界盃落幕，27場出賽8進球，史上首位在六屆世界盃進球的球員（Getty Images）",
-  "🧤🇪🇸 Unai Simón精彩撲救化解Ronaldo第37分鐘巧妙挑射！延續世界盃609分鐘不失球，西班牙門將全場零封葡萄牙（Reuters/Kai Pfaffenbach）",
-  "🔥🇧🇪 Charles De Ketelaere第33分鐘梅開二度！Trossard橫傳禁區，De Ketelaere第一時間推射遠角，比利時2-1再度超前美國（Getty Images）",
-  "⚡🇺🇸 Malik Tillman第31分鐘自由球世界波！禁區弧頂操刀自由球打穿人牆右上死角，美國1-1扳平，全場沸騰！（Getty Images/Michael Steele）",
-  "🥅🇧🇪 Hans Vanaken第57分鐘把握Freese出擊失誤打空門得手，比利時3-1領先全面壓制美國（Getty Images）",
-  "🏆 7月6日：🇪🇸西班牙1-0🇵🇹葡萄牙（Merino絕殺·C羅淚別）｜進行中：🇧🇪比利時3-1🇺🇸美國｜8強已定3場：🇲🇦摩洛哥vs🇫🇷法國（7/9）🇪🇸西班牙vs勝方（7/10）🇳🇴挪威vs🇬🇧英格蘭（7/11）｜明日：🇪🇬埃及vs🇦🇷阿根廷（Getty Images）"
+  "🔥🇧🇪 Charles De Ketelaere第33分鐘梅開二度！Trossard左路橫傳禁區，De Ketelaere第一時間推射遠角入網，全場2進球1助攻獲選最佳球員，比利時4-1強勢晉級8強！（Getty Images）",
+  "🥅🇧🇪 Romelu Lukaku第90+2分鐘錦上添花！Vanaken助攻，Lukaku禁區內低射入網，比利時4-1鎖定勝局，將在7/10洛杉磯對陣🇪🇸西班牙（Getty Images）",
+  "🎉🇧🇪 Hans Vanaken第57分鐘把握Freese出擊失誤打空門得手，De Ketelaere斷球助攻，比利時全面壓制美國4-1大勝（Getty Images）",
+  "⚡🇺🇸 Malik Tillman第31分鐘自由球世界波！禁區弧頂操刀自由球打穿人牆右上死角，美國1-1扳平全場沸騰。可惜後防連環失誤最終1-4惜敗（Getty Images）",
+  "🇧🇪⚽ Charles De Ketelaere第9分鐘先馳得點！Raskin禁區邊緣傳中，De Ketelaere胸停後順勢掃射入網。比利時從開局就掌握主動權（Getty Images）",
+  "🔥 8強對陣全數出爐！🇲🇦摩洛哥vs🇫🇷法國（7/9·福克斯堡）、🇪🇸西班牙vs🇧🇪比利時（7/10·洛杉磯SoFi）、🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密），7/11堪薩斯城待定。🏆 冠軍之路愈發激烈！（Getty Images）",
+  "🏆 7/7：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大（Messi vs Salah🔥）｜7/8：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華｜16強賽收官戰即將登場，8強全數出爐後將迎來更精彩的四強爭奪戰！（Getty Images）"
 ];
 

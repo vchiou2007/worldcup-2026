@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: "⚽ 16強賽 (Round of 16) 進行中·已賽5場 ✅ ｜ 🇲🇦摩洛哥3-0🇨🇦加拿大、🇫🇷法國1-0🇵🇾巴拉圭、🇳🇴挪威2-1🇧🇷巴西、🇬🇧英格蘭3-2🇲🇽墨西哥、🇪🇸西班牙1-0🇵🇹葡萄牙（Merino 90+1'絕殺！C羅淚別世界盃）｜ 🏆 8強已定3場：🇲🇦摩洛哥vs🇫🇷法國（7/9·福克斯堡）、🇪🇸西班牙vs🇧🇪比利時/🇺🇸美國勝方（7/10·洛杉磯）、🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）｜ 📍 進行中：🇺🇸美國vs🇧🇪比利時·20:00 ET·西雅圖（比利時3-1領先·De Ketelaere梅開二度·Vanaken破門）｜ 📅 7/7：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大｜7/8：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華 ｜ 🇪🇸西班牙1-0力克葡萄牙：Mikel Merino第90+1分鐘頭槌絕殺！41歲C羅最後一舞含淚告別，全場僅2次射正，Unai Simon精彩撲救力保不失。西班牙時隔16年重返8強🔥 ｜ 🇬🇧英格蘭3-2驚險勝出：Bellingham第36'、38'梅開二度（98秒兩球⚡），Kane第60'罰球破門（生涯世界盃14球並列史上第5🏅），Quansah第54'直紅10人應戰守住勝局 ｜ 🇳🇴挪威2-1爆冷淘汰巴西創隊史：Haaland第79分鐘頭槌、第90分鐘遠射梅開二度，世界盃7球與Messi/Mbappé並列金靴榜首，Bruno Guimarães第14分鐘12碼被Nyland撲出｜ 🇫🇷法國控球79%全面壓制巴拉圭，Mbappé第70分鐘罰球破門（世界盃第7球），法國第150顆世界盃進球達成",
+    currentPhase: "⚽ 16強賽 (Round of 16) 已賽6場 ✅ ｜ 🇲🇦摩洛哥3-0🇨🇦加拿大、🇫🇷法國1-0🇵🇾巴拉圭、🇳🇴挪威2-1🇧🇷巴西、🇬🇧英格蘭3-2🇲🇽墨西哥、🇪🇸西班牙1-0🇵🇹葡萄牙、🇧🇪比利時4-1🇺🇸美國 ｜ 🏆 8強全數出爐！🇲🇦摩洛哥vs🇫🇷法國（7/9·福克斯堡）、🇪🇸西班牙vs🇧🇪比利時（7/10·洛杉磯SoFi）、🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）、7/11堪薩斯城待定 ｜ 📅 7/7：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大 20:00 ET｜7/8：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華 20:00 ET ｜ 🇧🇪比利時4-1淘汰美國：De Ketelaere第9'先馳得點、第33'梅開二度並助攻Vanaken第57'破門，Tillman第31'自由球世界波一度扳平，Lukaku第90+2'錦上添花。比利時將在7/10洛杉磯對陣西班牙🔥 ｜ 🇪🇸西班牙1-0力克葡萄牙：Mikel Merino第90+1分鐘頭槌絕殺！41歲C羅最後一舞含淚告別，全場僅2次射正，Unai Simon精彩撲救力保不失。西班牙時隔16年重返8強🔥 ｜ 🇬🇧英格蘭3-2驚險勝出：Bellingham第36'、38'梅開二度（98秒兩球⚡），Kane第60'罰球破門（生涯世界盃14球並列史上第5🏅），Quansah第54'直紅10人應戰守住勝局 ｜ 🇳🇴挪威2-1爆冷淘汰巴西創隊史：Haaland第79分鐘頭槌、第90分鐘遠射梅開二度，世界盃7球與Messi/Mbappé並列金靴榜首，Bruno Guimarães第14分鐘12碼被Nyland撲出｜ 🇫🇷法國控球79%全面壓制巴拉圭，Mbappé第70分鐘罰球破門（世界盃第7球），法國第150顆世界盃進球達成",
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -3359,22 +3359,44 @@ const WC_DATA = {
       }
     },
     // === 7月6日 — 16強賽 ===
-    { date: '2026-07-06', time: '20:00 ET', group: 'R16', team1: 'USA', team2: 'Belgium', venue: '西雅圖·流明球場', status: 'in_progress',
-      note: '比賽進行中——比利時3-1領先！Charles De Ketelaere第9分鐘先馳得點、第33分鐘搆射梅開二度，Malik Tillman第31分鐘自由球世界波扳平，Hans Vanaken第57分鐘把握Freese出擊失誤打空門鎖定3-1。比利時全面壓制美國，勝方將在7/10洛杉磯SoFi球場對陣西班牙。',
+    { date: '2026-07-06', time: '20:00 ET', group: 'R16', team1: 'USA', score1: 1, team2: 'Belgium', score2: 4, venue: '西雅圖·流明球場', status: 'completed',
+      note: '比利時4-1淘汰美國晉級8強！Charles De Ketelaere第9分鐘先馳得點、第33分鐘梅開二度，Malik Tillman第31分鐘自由球世界波扳平，Hans Vanaken第57分鐘把握Freese出擊失誤打空門，Romelu Lukaku第90+2分鐘錦上添花。比利時將在7/10洛杉磯SoFi球場對陣西班牙。De Ketelaere全場2進球1助攻獲選最佳球員。Pulisic第59分鐘因傷退場，美國連續兩屆止步16強。',
       goals: [
         { min: 9, team: 2, scorer: 'Charles De Ketelaere', assist: 'Nicolas Raskin', detail: 'Raskin禁區邊緣傳中，De Ketelaere胸停後順勢掃射入網，比利時1-0領先' },
         { min: 31, team: 1, scorer: 'Malik Tillman', detail: '自由球直接破門！Tillman禁區弧頂操刀自由球打穿人牆右上死角，美國1-1扳平，全場沸騰！' },
         { min: 33, team: 2, scorer: 'Charles De Ketelaere', assist: 'Leandro Trossard', detail: 'Trossard左路橫傳禁區，De Ketelaere第一時間推射遠角梅開二度，比利時2-1再度超前' },
-        { min: 57, team: 2, scorer: 'Hans Vanaken', detail: 'Freese出擊解圍失誤被De Ketelaere斷球，Vanaken輕鬆打空門得手，比利時3-1擴大領先' }
+        { min: 57, team: 2, scorer: 'Hans Vanaken', assist: 'Charles De Ketelaere', detail: 'Freese出擊解圍失誤被De Ketelaere斷球，Vanaken輕鬆打空門得手，比利時3-1擴大領先' },
+        { min: 90, team: 2, scorer: 'Romelu Lukaku', assist: 'Hans Vanaken', detail: 'Vanaken助攻，Lukaku禁區內低射入網，比利時4-1鎖定勝局' }
       ],
       cards: [
         { min: 28, team: 1, player: 'Weston McKennie', card: 'yellow', detail: '戰術犯規' },
-        { min: 45, team: 2, player: 'Brandon Mechele', card: 'yellow', detail: '犯規' },
+        { min: 35, team: 2, player: 'Brandon Mechele', card: 'yellow', detail: '犯規' },
         { min: 60, team: 1, player: 'Antonee Robinson', card: 'yellow', detail: '犯規' }
-      ]
+      ],
+      stats: {
+        possession: [46, 54],
+        shots: [10, 16],
+        shotsOnTarget: [3, 7],
+        shotsOffTarget: [4, 6],
+        shotsInsideBox: [5, 10],
+        shotsOutsideBox: [5, 6],
+        passes: [430, 510],
+        passCompleted: [360, 440],
+        passAccuracy: [83.7, 86.3],
+        crosses: [14, 20],
+        crossesCompleted: [4, 7],
+        corners: [4, 6],
+        freeKicks: [14, 12],
+        fouls: [14, 10],
+        offsides: [2, 3],
+        yellowCards: [2, 1],
+        redCards: [0, 0],
+        forcedTurnovers: [26, 30],
+        pressingApplied: [200, 240]
+      }
     },
     { date: '2026-07-06', time: '15:00 ET', group: 'R16', team1: 'Portugal', score1: 0, team2: 'Spain', score2: 1, venue: '達拉斯·AT&T體育場', status: 'completed',
-      note: "西班牙1-0力克葡萄牙晉級8強！Mikel Merino第90+1分鐘絕殺進球，Cristiano Ronaldo世界盃生涯正式結束（41歲，第六屆世界盃）。全場葡萄牙僅2次射正，Ronaldo 3次射門19次觸球表現平淡，Unai Simón精彩撲出Ronaldo的巧妙挑射。西班牙時隔16年重返世界盃8強，將在7/10洛杉磯SoFi球場對陣美國vs比利時的勝方。",
+      note: "西班牙1-0力克葡萄牙晉級8強！Mikel Merino第90+1分鐘絕殺進球，Cristiano Ronaldo世界盃生涯正式結束（41歲，第六屆世界盃）。全場葡萄牙僅2次射正，Ronaldo 3次射門19次觸球表現平淡，Unai Simón精彩撲出Ronaldo的巧妙挑射。西班牙時隔16年重返世界盃8強，將在7/10洛杉磯SoFi球場對陣🇧🇪比利時。",
       goals: [
         { min: 90, team: 2, scorer: 'Mikel Merino', assist: 'Dani Olmo', detail: '傷停補時第1分鐘——Olmo右路自由球傳中，Merino禁區內甩頭攻門，球彈地後越過Diogo Costa入網，西班牙1-0絕殺！' }
       ],
@@ -3490,7 +3512,7 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: "32強賽全部16場完成 ✅ ｜ 🏆 晉級8強（已確定5隊）：🇲🇦摩洛哥、🇫🇷法國、🇳🇴挪威、🇬🇧英格蘭、🇪🇸西班牙 ｜ 📅 7/6 16強賽戰報：🇪🇸西班牙1-0🇵🇹葡萄牙（Mikel Merino第90+1分鐘頭槌絕殺，Cristiano Ronaldo世界盃生涯淚別！全場葡萄牙僅2次射正，Unai Simon精彩撲救。西班牙時隔16年重返8強🔥）｜ 🇧🇪比利時vs🇺🇸美國進行中（比利時3-1領先·De Ketelaere梅開二度·Vanaken破門）｜ 📅 7/7：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大｜7/8：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華 ｜ 🏆 8強對陣：🇲🇦摩洛哥 vs 🇫🇷法國（7/9·福克斯堡）、🇪🇸西班牙 vs 比利時/美國勝方（7/10·洛杉磯SoFi）、🇳🇴挪威 vs 🇬🇧英格蘭（7/11·邁阿密）、剩下1場7/11堪薩斯城 ｜ ❌ 已淘汰：🇨🇦加拿大、🇵🇾巴拉圭、🇧🇷巴西、🇲🇽墨西哥、🇵🇹葡萄牙 ｜ 🥇 Haaland、Mbappé、Messi各以7球並列射手榜第一｜ 🇬🇧Kane 14球、🇫🇷Mbappé 18球生涯世界盃進球｜C羅淚別——41歲葡萄牙傳奇第六屆世界盃落幕，生涯世界盃8球
+    summary: "32強賽全部16場完成 ✅ ｜ 🏆 晉級8強（已確定6隊）：🇲🇦摩洛哥、🇫🇷法國、🇳🇴挪威、🇬🇧英格蘭、🇪🇸西班牙、🇧🇪比利時 ｜ 📅 7/6 16強賽戰報：🇪🇸西班牙1-0🇵🇹葡萄牙（Mikel Merino第90+1分鐘頭槌絕殺，Cristiano Ronaldo世界盃生涯淚別）｜ 🇧🇪比利時4-1🇺🇸美國（De Ketelaere梅開二度、Vanaken破門、Lukaku補時錦上添花。Tillman自由球世界波一度扳平。比利時將在7/10洛杉磯對陣🇪🇸西班牙）｜ 📅 7/7：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大 20:00 ET｜7/8：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華 20:00 ET ｜ 🏆 8強對陣：🇲🇦摩洛哥 vs 🇫🇷法國（7/9·福克斯堡）、🇪🇸西班牙 vs 🇧🇪比利時（7/10·洛杉磯SoFi）、🇳🇴挪威 vs 🇬🇧英格蘭（7/11·邁阿密）、7/11堪薩斯城待定 ｜ ❌ 已淘汰：🇨🇦加拿大、🇵🇾巴拉圭、🇧🇷巴西、🇲🇽墨西哥、🇵🇹葡萄牙、🇺🇸美國 ｜ 🥇 Haaland、Mbappé、Messi各以7球並列射手榜第一｜ 🇬🇧Kane 14球、🇫🇷Mbappé 18球生涯世界盃進球｜C羅淚別——41歲葡萄牙傳奇第六屆世界盃落幕，生涯世界盃8球\n    
     
     // PK 大戰結果
     penalties: {
