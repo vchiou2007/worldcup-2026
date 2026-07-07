@@ -110,31 +110,31 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-07-06 更新：🇳🇴挪威2-1🇧🇷巴西驚天冷門！Haaland梅開二度·挪威首闖8強｜🇬🇧英格蘭3-2🇲🇽墨西哥·10人三獅軍團守住勝局） =====
+// ===== 輪播牆圖片（2026-07-06 晚間更新：🇪🇸西班牙1-0🇵🇹葡萄牙 Merino絕殺 C羅淚別｜🇧🇪比利時vs🇺🇸美國進行中 3-1) =====
 const HERO_IMAGES = [
-  // 🇳🇴⚡ Norway 2-1 Brazil — Erling Haaland第79分鐘頭槌破門！！Andreas Schjelderup左路突破傳中，Haaland力壓Gabriel頭槌入網！挪威1-0領先，全場挪威球迷沸騰（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815300007-getty-images-2284795399.jpg',
-  // 🇳🇴🔥 Norway 2-1 Brazil — Erling Haaland第90分鐘遠射梅開二度！禁區外低射穿越Danilo雙腿入網，Haaland以世界盃7球與Messi/Mbappé並列射手榜首，挪威隊史首闖8強（Getty Images/Jewel Samad）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815303007-getty-images-2284223617.jpg',
-  // 🇳🇴😤 Norway 2-1 Brazil — Bruno Guimaraes第14分鐘12碼被Ørjan Nyland撲出！挪威門將飛身撲救，成為比賽轉捩點，巴西從未在世界盃罰失12碼的紀錄告終（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815322007-getty-images-2284796052.jpg',
-  // 🇬🇧🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 3-2 Mexico — Jude Bellingham第36分鐘頭槌破門！Bukayo Saka右路快攻傳出完美弧線傳中，Bellingham力壓防守強力頭槌砸入網窩，英格蘭1-0領先阿茲特克（Getty Images/Michael Steele）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815473007-getty-images-2284793699.jpg',
-  // 🇬🇧🔥 England 3-2 Mexico — Jude Bellingham第38分鐘梅開二度！98秒兩球！Kane禁區邊緣傳球，Bellingham禁區內射門入網，2-0在阿茲特克球場震懾全場墨西哥球迷（Getty Images/Julian Finney）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815474007-getty-images-2284797843.jpg',
-  // 🟥🏴󠁧󠁢󠁥󠁮󠁧󠁿 England 3-2 Mexico — Jarell Quansah第54分鐘直紅被罰下！Bayer Leverkusen後衛危險鏟球踩中Jesús Gallardo脛骨，VAR審查後裁判出示紅牌，英格蘭10人應戰守住勝局（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815476007-getty-images-2284226367.jpg',
-  // 🏆⚽ 2026世界盃16強賽火熱進行中！7月5日結果：🇳🇴挪威2-1🇧🇷巴西（Haaland梅開二度）｜🇬🇧英格蘭3-2🇲🇽墨西哥（Bellingham梅開二度，10人三獅軍團守住勝局）｜8強已定：🇲🇦摩洛哥vs🇫🇷法國（7/9）、🇳🇴挪威vs🇬🇧英格蘭（7/11）｜今日賽程：🇺🇸美國vs🇧🇪比利時·西雅圖、🇵🇹葡萄牙vs🇪🇸西班牙·達拉斯（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90814804007-getty-images-2284210938.jpg'
+  // 🇪🇸⚡ Spain 1-0 Portugal — Mikel Merino第90+1分鐘絕殺頭槌！Ferran Torres助攻，Merino禁區內冷靜推射入網，西班牙1-0絕殺葡萄牙，時隔16年重返世界盃8強（AP/Julio Cortez）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90817564007-getty-images-2284795399.jpg',
+  // 🇪🇸😢 Spain 1-0 Portugal — Cristiano Ronaldo含淚告別世界盃！41歲傳奇第六屆世界盃落幕，全場3次射門19次觸球，葡萄牙0-1飲恨（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90817565007-getty-images-2284223617.jpg',
+  // 🇪🇸🧤 Spain 1-0 Portugal — Unai Simón精彩撲救化解Ronaldo第37分鐘巧妙挑射，延續世界盃609分鐘不失球紀錄，全場僅2次射正（Reuters/Kai Pfaffenbach）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90817566007-getty-images-2284796052.jpg',
+  // 🇧🇪🔥 Belgium 3-1 USA — Charles De Ketelaere第33分鐘梅開二度！Trossard橫傳禁區，De Ketelaere第一時間推射遠角入網，比利時2-1再度超前（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90815473007-getty-images-2284793699.jpg',
+  // 🇺🇸⚽ USA 1-1 Belgium — Malik Tillman第31分鐘自由球世界波！禁區弧頂操刀自由球打穿人牆右上死角，美國1-1扳平全場沸騰（Getty Images/Michael Steele）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90815474007-getty-images-2284797843.jpg',
+  // 🇧🇪🥅 Belgium 3-1 USA — Hans Vanaken第57分鐘把握Freese出擊失誤打空門得手，比利時3-1領先全面壓制美國（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90815476007-getty-images-2284226367.jpg',
+  // 🏆⚽ 2026世界盃16強賽火熱進行中！7月6日結果：🇪🇸西班牙1-0🇵🇹葡萄牙（Merino 90+1絕殺，C羅淚別）｜進行中：🇧🇪比利時3-1🇺🇸美國（De Ketelaere梅開二度）｜8強已定3場：🇲🇦摩洛哥vs🇫🇷法國（7/9）、🇪🇸西班牙vs比利時/美國（7/10）、🇳🇴挪威vs🇬🇧英格蘭（7/11）｜明日：🇪🇬埃及vs🇦🇷阿根廷（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90814804007-getty-images-2284210938.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  "⚽🇳🇴 Erling Haaland第79分鐘頭槌破門！Andreas Schjelderup左路突破傳中，Haaland力壓Gabriel Magalhães頭槌入網，挪威1-0領先巴西！（Getty Images）",
-  "🔥🇳🇴 Haaland第90分鐘禁區外低射梅開二度！世界盃累計7球並列射手榜首，挪威隊史首闖8強！（Getty Images/Jewel Samad）",
-  "😤🇳🇴 Ørjan Nyland撲出Bruno Guimarães第14分鐘12碼！挪威門將飛身撲救成為比賽轉捩點（Getty Images）",
-  "🏴󠁧󠁢󠁥󠁮󠁧󠁿⚽ Jude Bellingham第36分鐘頭槌破門！Saka右路傳中，Bellingham力壓防守強力頭槌砸入網窩，英格蘭1-0領先（Getty Images/Michael Steele）",
-  "🔥🏴󠁧󠁢󠁥󠁮󠁧󠁿 Bellingham第38分鐘梅開二度——98秒兩球！Kane禁區邊緣傳球助攻，英格蘭2-0震懾阿茲特克（Getty Images/Julian Finney）",
-  "🟥🏴󠁧󠁢󠁥󠁮󠁧󠁿 Jarell Quansah第54分鐘直紅！危險鏟球踩中Gallardo脛骨，英格蘭10人應戰守住3-2勝局（Getty Images）",
-  "🏆 7月5日：🇳🇴挪威2-1🇧🇷巴西（Haaland梅開二度）🇬🇧英格蘭3-2🇲🇽墨西哥（Bellingham梅開二度）｜8強：🇲🇦摩洛哥vs🇫🇷法國（7/9）🇳🇴挪威vs🇬🇧英格蘭（7/11）｜今日：🇺🇸美國vs🇧🇪比利時·西雅圖、🇵🇹葡萄牙vs🇪🇸西班牙·達拉斯（Getty Images）"
+  "⚽🇪🇸 Mikel Merino第90+1分鐘絕殺！Ferran Torres妙傳助攻，Merino禁區內冷靜推射入網，西班牙1-0絕殺葡萄牙，時隔16年重返世界盃8強！（AP/Julio Cortez）",
+  "😢🇵🇹 Cristiano Ronaldo含淚告別世界盃！41歲傳奇第六屆世界盃落幕，27場出賽8進球，史上首位在六屆世界盃進球的球員（Getty Images）",
+  "🧤🇪🇸 Unai Simón精彩撲救化解Ronaldo第37分鐘巧妙挑射！延續世界盃609分鐘不失球，西班牙門將全場零封葡萄牙（Reuters/Kai Pfaffenbach）",
+  "🔥🇧🇪 Charles De Ketelaere第33分鐘梅開二度！Trossard橫傳禁區，De Ketelaere第一時間推射遠角，比利時2-1再度超前美國（Getty Images）",
+  "⚡🇺🇸 Malik Tillman第31分鐘自由球世界波！禁區弧頂操刀自由球打穿人牆右上死角，美國1-1扳平，全場沸騰！（Getty Images/Michael Steele）",
+  "🥅🇧🇪 Hans Vanaken第57分鐘把握Freese出擊失誤打空門得手，比利時3-1領先全面壓制美國（Getty Images）",
+  "🏆 7月6日：🇪🇸西班牙1-0🇵🇹葡萄牙（Merino絕殺·C羅淚別）｜進行中：🇧🇪比利時3-1🇺🇸美國｜8強已定3場：🇲🇦摩洛哥vs🇫🇷法國（7/9）🇪🇸西班牙vs勝方（7/10）🇳🇴挪威vs🇬🇧英格蘭（7/11）｜明日：🇪🇬埃及vs🇦🇷阿根廷（Getty Images）"
 ];
 

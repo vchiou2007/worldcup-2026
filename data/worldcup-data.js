@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: "⚽ 16強賽 (Round of 16) 進行中·已賽4場 ✅ ｜ 🇲🇦摩洛哥3-0🇨🇦加拿大、🇫🇷法國1-0🇵🇾巴拉圭、🇳🇴挪威2-1🇧🇷巴西、🇬🇧英格蘭3-2🇲🇽墨西哥 ｜ 🏆 8強已定2場：🇲🇦摩洛哥vs🇫🇷法國（7/9·福克斯堡）、🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）｜ 📅 7月6日·今日大戰：🇺🇸美國vs🇧🇪比利時·20:00 ET西雅圖｜🇵🇹葡萄牙vs🇪🇸西班牙·20:00 ET達拉斯（伊比利德比！）｜ 📅 7/7：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大｜7/8：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華 ｜ 🇬🇧英格蘭3-2驚險勝出：Bellingham第36'、38'梅開二度（98秒兩球⚡），Kane第60'罰球破門（生涯世界盃14球並列史上第5🏅），Quansah第54'直紅10人應戰守住勝局，隊長Kane史上首位在同一場比賽既進球又送罰球的球員🇬🇧🔥 ｜ 🇳🇴挪威2-1爆冷淘汰巴西創隊史：Haaland第79分鐘頭槌、第90分鐘遠射梅開二度，世界盃7球與Messi/Mbappé並列金靴榜首，Bruno Guimarães第14分鐘12碼被Nyland撲出，Neymar第100分鐘罰球追回一球⚡ ｜ 🇫🇷法國控球79%全面壓制巴拉圭，Mbappé第70分鐘罰球破門（世界盃第7球），法國第150顆世界盃進球達成，7/9對陣🇲🇦摩洛哥重演2022年4強經典",
+    currentPhase: "⚽ 16強賽 (Round of 16) 進行中·已賽5場 ✅ ｜ 🇲🇦摩洛哥3-0🇨🇦加拿大、🇫🇷法國1-0🇵🇾巴拉圭、🇳🇴挪威2-1🇧🇷巴西、🇬🇧英格蘭3-2🇲🇽墨西哥、🇪🇸西班牙1-0🇵🇹葡萄牙（Merino 90+1'絕殺！C羅淚別世界盃）｜ 🏆 8強已定3場：🇲🇦摩洛哥vs🇫🇷法國（7/9·福克斯堡）、🇪🇸西班牙vs🇧🇪比利時/🇺🇸美國勝方（7/10·洛杉磯）、🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）｜ 📍 進行中：🇺🇸美國vs🇧🇪比利時·20:00 ET·西雅圖（比利時3-1領先·De Ketelaere梅開二度·Vanaken破門）｜ 📅 7/7：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大｜7/8：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華 ｜ 🇪🇸西班牙1-0力克葡萄牙：Mikel Merino第90+1分鐘頭槌絕殺！41歲C羅最後一舞含淚告別，全場僅2次射正，Unai Simon精彩撲救力保不失。西班牙時隔16年重返8強🔥 ｜ 🇬🇧英格蘭3-2驚險勝出：Bellingham第36'、38'梅開二度（98秒兩球⚡），Kane第60'罰球破門（生涯世界盃14球並列史上第5🏅），Quansah第54'直紅10人應戰守住勝局 ｜ 🇳🇴挪威2-1爆冷淘汰巴西創隊史：Haaland第79分鐘頭槌、第90分鐘遠射梅開二度，世界盃7球與Messi/Mbappé並列金靴榜首，Bruno Guimarães第14分鐘12碼被Nyland撲出｜ 🇫🇷法國控球79%全面壓制巴拉圭，Mbappé第70分鐘罰球破門（世界盃第7球），法國第150顆世界盃進球達成",
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -3358,9 +3358,54 @@ const WC_DATA = {
         pressingApplied: [190, 220]
       }
     },
-    // === 7月6日 — 16強賽（今日） ===
-    { date: '2026-07-06', time: '17:00 ET', group: 'R16', team1: 'USA', team2: 'Belgium', venue: '西雅圖·流明球場', status: 'scheduled' },
-    { date: '2026-07-06', time: '21:00 ET', group: 'R16', team1: 'Portugal', team2: 'Spain', venue: '達拉斯·AT&T體育場', status: 'scheduled' },
+    // === 7月6日 — 16強賽 ===
+    { date: '2026-07-06', time: '20:00 ET', group: 'R16', team1: 'USA', team2: 'Belgium', venue: '西雅圖·流明球場', status: 'in_progress',
+      note: '比賽進行中——比利時3-1領先！Charles De Ketelaere第9分鐘先馳得點、第33分鐘搆射梅開二度，Malik Tillman第31分鐘自由球世界波扳平，Hans Vanaken第57分鐘把握Freese出擊失誤打空門鎖定3-1。比利時全面壓制美國，勝方將在7/10洛杉磯SoFi球場對陣西班牙。',
+      goals: [
+        { min: 9, team: 2, scorer: 'Charles De Ketelaere', assist: 'Nicolas Raskin', detail: 'Raskin禁區邊緣傳中，De Ketelaere胸停後順勢掃射入網，比利時1-0領先' },
+        { min: 31, team: 1, scorer: 'Malik Tillman', detail: '自由球直接破門！Tillman禁區弧頂操刀自由球打穿人牆右上死角，美國1-1扳平，全場沸騰！' },
+        { min: 33, team: 2, scorer: 'Charles De Ketelaere', assist: 'Leandro Trossard', detail: 'Trossard左路橫傳禁區，De Ketelaere第一時間推射遠角梅開二度，比利時2-1再度超前' },
+        { min: 57, team: 2, scorer: 'Hans Vanaken', detail: 'Freese出擊解圍失誤被De Ketelaere斷球，Vanaken輕鬆打空門得手，比利時3-1擴大領先' }
+      ],
+      cards: [
+        { min: 28, team: 1, player: 'Weston McKennie', card: 'yellow', detail: '戰術犯規' },
+        { min: 45, team: 2, player: 'Brandon Mechele', card: 'yellow', detail: '犯規' },
+        { min: 60, team: 1, player: 'Antonee Robinson', card: 'yellow', detail: '犯規' }
+      ]
+    },
+    { date: '2026-07-06', time: '15:00 ET', group: 'R16', team1: 'Portugal', score1: 0, team2: 'Spain', score2: 1, venue: '達拉斯·AT&T體育場', status: 'completed',
+      note: "西班牙1-0力克葡萄牙晉級8強！Mikel Merino第90+1分鐘絕殺進球，Cristiano Ronaldo世界盃生涯正式結束（41歲，第六屆世界盃）。全場葡萄牙僅2次射正，Ronaldo 3次射門19次觸球表現平淡，Unai Simón精彩撲出Ronaldo的巧妙挑射。西班牙時隔16年重返世界盃8強，將在7/10洛杉磯SoFi球場對陣美國vs比利時的勝方。",
+      goals: [
+        { min: 90, team: 2, scorer: 'Mikel Merino', assist: 'Dani Olmo', detail: '傷停補時第1分鐘——Olmo右路自由球傳中，Merino禁區內甩頭攻門，球彈地後越過Diogo Costa入網，西班牙1-0絕殺！' }
+      ],
+      cards: [
+        { min: 35, team: 1, player: 'João Neves', card: 'yellow', detail: '犯規' },
+        { min: 62, team: 2, player: 'Rodri', card: 'yellow', detail: '戰術犯規' },
+        { min: 78, team: 2, player: 'Mikel Oyarzabal', card: 'yellow', detail: '延遲比賽' },
+        { min: 85, team: 1, player: 'Rúben Dias', card: 'yellow', detail: '抗議判決' }
+      ],
+      stats: {
+        possession: [43, 57],
+        shots: [7, 15],
+        shotsOnTarget: [2, 5],
+        shotsOffTarget: [3, 7],
+        shotsInsideBox: [3, 9],
+        shotsOutsideBox: [4, 6],
+        passes: [380, 520],
+        passCompleted: [310, 450],
+        passAccuracy: [81.6, 86.5],
+        crosses: [14, 22],
+        crossesCompleted: [3, 6],
+        corners: [2, 7],
+        freeKicks: [14, 12],
+        fouls: [14, 12],
+        offsides: [2, 3],
+        yellowCards: [2, 2],
+        redCards: [0, 0],
+        forcedTurnovers: [26, 30],
+        pressingApplied: [200, 230]
+      }
+    },
     // === 7月7日 ===
     { date: '2026-07-07', time: '20:00 ET', group: 'R16', team1: 'Egypt', team2: 'Argentina', venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'scheduled' },
     // === 7月8日 ===
@@ -3445,7 +3490,7 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: "32強賽全部16場完成 ✅ ｜ 🏆 晉級8強（已確定4隊）：🇲🇦摩洛哥、🇫🇷法國、🇳🇴挪威、🇬🇧英格蘭 ｜ 📅 7/5 16強賽戰報：🇳🇴挪威2-1🇧🇷巴西（Haaland第79分鐘頭槌、第90分鐘遠射梅開二度，Bruno Guimarães第14分鐘12碼被Nyland撲出，Neymar第100分鐘罰球追回一球。挪威隊史首闖8強！Haaland世界盃7球並列金靴榜首🔥）｜ 🇬🇧英格蘭3-2🇲🇽墨西哥（Bellingham第36'、38'梅開二度98秒兩球⚡，Kane第60'罰球破門，Quansah第54'直紅。英格蘭10人應戰守住勝局！Kane生涯世界盃14球並列史上第5🏅）｜ 📅 今天7/6：🇺🇸美國vs🇧🇪比利時·20:00 ET·西雅圖｜🇵🇹葡萄牙vs🇪🇸西班牙·20:00 ET·達拉斯（伊比利德比🔥）｜ 📅 7/7：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大｜7/8：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華 ｜ 🏆 8強已定對陣：🇲🇦摩洛哥 vs 🇫🇷法國（7/9·福克斯堡）、🇳🇴挪威 vs 🇬🇧英格蘭（7/11·邁阿密） ｜ ❌ 淘汰：🇨🇦加拿大、🇵🇾巴拉圭、🇧🇷巴西、🇲🇽墨西哥 ｜ 🥇 Haaland、Mbappé、Messi各以7球並列射手榜第一｜ 🇬🇧Kane 14球、🇫🇷Mbappé 18球生涯世界盃進球超越Klose僅次Messi",
+    summary: "32強賽全部16場完成 ✅ ｜ 🏆 晉級8強（已確定5隊）：🇲🇦摩洛哥、🇫🇷法國、🇳🇴挪威、🇬🇧英格蘭、🇪🇸西班牙 ｜ 📅 7/6 16強賽戰報：🇪🇸西班牙1-0🇵🇹葡萄牙（Mikel Merino第90+1分鐘頭槌絕殺，Cristiano Ronaldo世界盃生涯淚別！全場葡萄牙僅2次射正，Unai Simon精彩撲救。西班牙時隔16年重返8強🔥）｜ 🇧🇪比利時vs🇺🇸美國進行中（比利時3-1領先·De Ketelaere梅開二度·Vanaken破門）｜ 📅 7/7：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大｜7/8：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華 ｜ 🏆 8強對陣：🇲🇦摩洛哥 vs 🇫🇷法國（7/9·福克斯堡）、🇪🇸西班牙 vs 比利時/美國勝方（7/10·洛杉磯SoFi）、🇳🇴挪威 vs 🇬🇧英格蘭（7/11·邁阿密）、剩下1場7/11堪薩斯城 ｜ ❌ 已淘汰：🇨🇦加拿大、🇵🇾巴拉圭、🇧🇷巴西、🇲🇽墨西哥、🇵🇹葡萄牙 ｜ 🥇 Haaland、Mbappé、Messi各以7球並列射手榜第一｜ 🇬🇧Kane 14球、🇫🇷Mbappé 18球生涯世界盃進球｜C羅淚別——41歲葡萄牙傳奇第六屆世界盃落幕，生涯世界盃8球
     
     // PK 大戰結果
     penalties: {
@@ -3471,17 +3516,17 @@ const WC_DATA = {
         name: '16強賽', nameEn: 'Round of 16',
         status: 'in_progress',
         totalMatches: 8,
-        completedCount: 4,
+        completedCount: 5,
         dateRange: '7月4日 — 7月8日',
-        eliminated: ['Canada', 'Paraguay', 'Brazil', 'Mexico'],
-        advanced: ['Morocco', 'France', 'Norway', 'England'],
+        eliminated: ['Canada', 'Paraguay', 'Brazil', 'Mexico', 'Portugal'],
+        advanced: ['Morocco', 'France', 'Norway', 'England', 'Spain'],
         matchups: [
           { team1: 'Morocco', score1: 3, team2: 'Canada', score2: 0, date: '2026-07-04', venue: '休斯敦·NRG體育場', time: '13:00 ET', status: 'completed', winner: 'Morocco' },
           { team1: 'Paraguay', score1: 0, team2: 'France', score2: 1, date: '2026-07-04', venue: '費城·林肯金融球場', time: '17:00 ET', status: 'completed', winner: 'France' },
           { team1: 'Brazil', score1: 1, team2: 'Norway', score2: 2, date: '2026-07-05', venue: '東盧瑟福·大都會人壽體育場', time: '17:00 ET', status: 'completed', winner: 'Norway' },
           { team1: 'Mexico', score1: 2, team2: 'England', score2: 3, date: '2026-07-05', venue: '墨西哥城·阿茲特克體育場', time: '22:00 ET', status: 'completed', winner: 'England', note: 'kickoff delayed ~1hr due to thunderstorms' },
-          { team1: 'USA', team2: 'Belgium', date: '2026-07-06', venue: '西雅圖·流明球場', time: '17:00 ET' },
-          { team1: 'Portugal', team2: 'Spain', date: '2026-07-06', venue: '達拉斯·AT&T體育場', time: '21:00 ET' },
+          { team1: 'Portugal', score1: 0, team2: 'Spain', score2: 1, date: '2026-07-06', venue: '達拉斯·AT&T體育場', time: '15:00 ET', status: 'completed', winner: 'Spain', note: 'Mikel Merino 90+1絕殺！C羅淚別世界盃' },
+          { team1: 'USA', team2: 'Belgium', date: '2026-07-06', venue: '西雅圖·流明球場', time: '20:00 ET', status: 'in_progress' },
           { team1: 'Egypt', team2: 'Argentina', date: '2026-07-07', venue: '亞特蘭大·梅賽德斯-賓士體育場', time: '20:00 ET' },
           { team1: 'Switzerland', team2: 'Colombia', date: '2026-07-08', venue: '溫哥華·BC Place', time: '20:00 ET' }
         ]
@@ -3495,7 +3540,9 @@ const WC_DATA = {
         dateRange: '7月9日 — 7月11日',
         matchups: [
           { team1: 'Morocco', team2: 'France', date: '2026-07-09', venue: '福克斯堡·吉列體育場', time: '20:00 ET', note: '8強賽第1場 — 2022年4強經典重現！' },
-          { team1: 'Norway', team2: 'England', date: '2026-07-11', venue: '邁阿密·硬石體育場', time: '17:00 ET', note: '挪威vs英格蘭 — 兩隊首度在世界盃交手！Haaland世界盃7球與Messi/Mbappé並列射手榜首' }
+          { team1: 'Spain', team2: 'TBD (USA/Belgium)', date: '2026-07-10', venue: '英格爾伍德·SoFi體育場', time: '15:00 ET', note: '西班牙時隔16年重返8強，對手為USA vs Belgium勝方' },
+          { team1: 'Norway', team2: 'England', date: '2026-07-11', venue: '邁阿密·硬石體育場', time: '17:00 ET', note: '挪威vs英格蘭 — 兩隊首度在世界盃交手！Haaland世界盃7球與Messi/Mbappé並列射手榜首' },
+          { team1: 'TBD (Egypt/Argentina)', team2: 'TBD (Switzerland/Colombia)', date: '2026-07-11', venue: '堪薩斯城·箭頭體育場', time: '21:00 ET', note: '7/7埃及vs阿根廷、7/8瑞士vs哥倫比亞勝方對決' }
         ]
       },
       SF: {
