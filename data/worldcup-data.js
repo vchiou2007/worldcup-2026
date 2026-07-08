@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: "⚽ 16強賽 (Round of 16) 已賽6場 ✅ ｜ 🇲🇦摩洛哥3-0🇨🇦加拿大、🇫🇷法國1-0🇵🇾巴拉圭、🇳🇴挪威2-1🇧🇷巴西、🇬🇧英格蘭3-2🇲🇽墨西哥、🇪🇸西班牙1-0🇵🇹葡萄牙、🇧🇪比利時4-1🇺🇸美國 ｜ 🏆 8強全數出爐！🇲🇦摩洛哥vs🇫🇷法國（7/9·福克斯堡）、🇪🇸西班牙vs🇧🇪比利時（7/10·洛杉磯SoFi）、🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）、7/11堪薩斯城待定 ｜ 📅 7/7：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大 20:00 ET｜7/8：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華 20:00 ET ｜ 🇧🇪比利時4-1淘汰美國：De Ketelaere第9'先馳得點、第33'梅開二度並助攻Vanaken第57'破門，Tillman第31'自由球世界波一度扳平，Lukaku第90+2'錦上添花。比利時將在7/10洛杉磯對陣西班牙🔥 ｜ 🇪🇸西班牙1-0力克葡萄牙：Mikel Merino第90+1分鐘頭槌絕殺！41歲C羅最後一舞含淚告別，全場僅2次射正，Unai Simon精彩撲救力保不失。西班牙時隔16年重返8強🔥 ｜ 🇬🇧英格蘭3-2驚險勝出：Bellingham第36'、38'梅開二度（98秒兩球⚡），Kane第60'罰球破門（生涯世界盃14球並列史上第5🏅），Quansah第54'直紅10人應戰守住勝局 ｜ 🇳🇴挪威2-1爆冷淘汰巴西創隊史：Haaland第79分鐘頭槌、第90分鐘遠射梅開二度，世界盃7球與Messi/Mbappé並列金靴榜首，Bruno Guimarães第14分鐘12碼被Nyland撲出｜ 🇫🇷法國控球79%全面壓制巴拉圭，Mbappé第70分鐘罰球破門（世界盃第7球），法國第150顆世界盃進球達成",
+    currentPhase: "⚽ 16強賽 (Round of 16) 全數完成 ✅ ｜ 🏆 8強全數出爐！🇲🇦摩洛哥vs🇫🇷法國（7/9·福克斯堡）、🇪🇸西班牙vs🇧🇪比利時（7/10·洛杉磯SoFi）、🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）、🇦🇷阿根廷vs🇨🇭瑞士（7/11·堪薩斯城） ｜ 📅 7/7戰報：🇦🇷阿根廷3-2🇪🇬埃及 — 0-2落後驚天逆轉！Messi第83分鐘扳平、Enzo Fernandez第90+2分鐘絕殺（世界盃第3000球）🔥 ｜ 7/8戰報：🇨🇭瑞士0-0🇨🇴哥倫比亞（PK 4-3） — Rubén Vargas致勝罰球，瑞士自1954年以來首闖8強！ ｜ 🇦🇷阿根廷vs🇨🇭瑞士·堪薩斯城 21:00 ET ｜ 🏆 Haaland、Mbappé、Messi各以7球並列金靴榜首｜ 🏅 Messi世界盃第21球創歷史新高｜🇬🇧Kane 14球",
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -3429,9 +3429,80 @@ const WC_DATA = {
       }
     },
     // === 7月7日 ===
-    { date: '2026-07-07', time: '20:00 ET', group: 'R16', team1: 'Egypt', team2: 'Argentina', venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'scheduled' },
+    { date: '2026-07-07', time: '20:00 ET', group: 'R16', team1: 'Egypt', score1: 2, team2: 'Argentina', score2: 3, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'completed',
+      note: '阿根廷上演驚天逆轉！開局0-2落後到3-2絕殺晉級8強！Messi第21分鐘罰球被Shoubir撲出，第83分鐘扳平，Enzo Fernandez第90+2分鐘頭槌絕殺（世界盃第3000球）。Messi世界盃第21球創歷史，連續第8場世界盃進球！阿根廷將在7/11堪薩斯城對陣瑞士。',
+      goals: [
+        { min: 15, team: 1, scorer: 'Yasser Ibrahim', assist: 'Marwan Ateya', detail: '角球頭槌破門，埃及1-0領先' },
+        { min: 67, team: 1, scorer: 'Mostafa Ziko', assist: 'Haissem Hassan', detail: '反擊中Hassan右路傳中，Ziko禁區內推射入網，埃及2-0' },
+        { min: 79, team: 2, scorer: 'Cristian Romero', assist: 'Lionel Messi', detail: 'Messi自由球傳中，Romero禁區內頭槌破門，阿根廷追回一球' },
+        { min: 83, team: 2, scorer: 'Lionel Messi', detail: '禁區內接球後左腳弧線球射入遠角，扳平比分！Messi連續第8場世界盃進球' },
+        { min: 90, team: 2, scorer: 'Enzo Fernandez', detail: '角球頭槌破門，世界盃第3000球！阿根廷3-2絕殺逆轉' }
+      ],
+      cards: [
+        { min: 21, team: 2, player: 'Lionel Messi', card: 'yellow', detail: 'Messi罰球被撲後與裁判爭論' },
+        { min: 45, team: 1, player: 'Mohamed Hany', card: 'yellow', detail: '犯規' },
+        { min: 67, team: 1, player: 'Ramy Rabia', card: 'yellow', detail: '拖延比賽時間' },
+        { min: 79, team: 1, player: 'Karim Hafez', card: 'yellow', detail: '抗議判決' },
+        { min: 88, team: 1, player: 'Hamdi Fathi', card: 'yellow', detail: '戰術犯規阻止反擊' }
+      ],
+      stats: {
+        possession: [42, 58],
+        shots: [4, 17],
+        shotsOnTarget: [2, 7],
+        shotsOffTarget: [1, 7],
+        shotsInsideBox: [2, 11],
+        shotsOutsideBox: [2, 6],
+        passes: [350, 580],
+        passCompleted: [294, 528],
+        passAccuracy: [84, 91],
+        crosses: [8, 30],
+        crossesCompleted: [3, 8],
+        corners: [1, 6],
+        freeKicks: [14, 12],
+        fouls: [10, 13],
+        offsides: [0, 3],
+        yellowCards: [4, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [32, 28],
+        pressingApplied: [220, 250]
+      }
+    },
     // === 7月8日 ===
-    { date: '2026-07-08', time: '20:00 ET', group: 'R16', team1: 'Switzerland', team2: 'Colombia', venue: '溫哥華·BC Place', status: 'scheduled' },
+    { date: '2026-07-08', time: '20:00 ET', group: 'R16', team1: 'Switzerland', score1: 0, team2: 'Colombia', score2: 0, venue: '溫哥華·BC Place', status: 'completed',
+      note: '正規時間與延長賽0-0，瑞士PK大戰4-3獲勝晉級8強！Rubén Vargas踢進致勝罰球，Colombia的Davinson Sánchez射中橫樑、Cucho Hernández被Kobel撲出。瑞士自1954年以來首次闖入世界盃8強，將在7/11堪薩斯城對陣阿根廷！',
+      penalty: { winner: 'Switzerland', score: '4-3', team1score: 4, team2score: 3 },
+      goals: [],
+      cards: [
+        { min: 45, team: 2, player: 'Gustavo Puerta', card: 'yellow', detail: '中場犯規' },
+        { min: 67, team: 1, player: 'Denis Zakaria', card: 'yellow', detail: '戰術犯規' },
+        { min: 78, team: 2, player: 'Daniel Muñoz', card: 'yellow', detail: '阻止反擊' },
+        { min: 85, team: 2, player: 'Jhon Lucumí', card: 'yellow', detail: '爭搶犯規' },
+        { min: 97, team: 1, player: 'Silvan Widmer', card: 'yellow', detail: '拖延時間' },
+        { min: 105, team: 1, player: 'Granit Xhaka', card: 'yellow', detail: '抗議判決' },
+        { min: 110, team: 2, player: 'Jefferson Lerma', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [56, 44],
+        shots: [13, 13],
+        shotsOnTarget: [2, 2],
+        shotsOffTarget: [7, 7],
+        shotsInsideBox: [6, 7],
+        shotsOutsideBox: [7, 6],
+        passes: [470, 410],
+        passCompleted: [408, 362],
+        passAccuracy: [87, 82],
+        crosses: [22, 18],
+        crossesCompleted: [6, 5],
+        corners: [7, 5],
+        freeKicks: [16, 14],
+        fouls: [12, 15],
+        offsides: [3, 2],
+        yellowCards: [3, 4],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [240, 220]
+      }
+    },
   ],
 
   // 分組積分（賽後更新）
@@ -3512,13 +3583,14 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: "32強賽全部16場完成 ✅ ｜ 🏆 晉級8強（已確定6隊）：🇲🇦摩洛哥、🇫🇷法國、🇳🇴挪威、🇬🇧英格蘭、🇪🇸西班牙、🇧🇪比利時 ｜ 📅 7/6 16強賽戰報：🇪🇸西班牙1-0🇵🇹葡萄牙（Mikel Merino第90+1分鐘頭槌絕殺，Cristiano Ronaldo世界盃生涯淚別）｜ 🇧🇪比利時4-1🇺🇸美國（De Ketelaere梅開二度、Vanaken破門、Lukaku補時錦上添花。Tillman自由球世界波一度扳平。比利時將在7/10洛杉磯對陣🇪🇸西班牙）｜ 📅 7/7：🇪🇬埃及vs🇦🇷阿根廷·亞特蘭大 20:00 ET｜7/8：🇨🇭瑞士vs🇨🇴哥倫比亞·溫哥華 20:00 ET ｜ 🏆 8強對陣：🇲🇦摩洛哥 vs 🇫🇷法國（7/9·福克斯堡）、🇪🇸西班牙 vs 🇧🇪比利時（7/10·洛杉磯SoFi）、🇳🇴挪威 vs 🇬🇧英格蘭（7/11·邁阿密）、7/11堪薩斯城待定 ｜ ❌ 已淘汰：🇨🇦加拿大、🇵🇾巴拉圭、🇧🇷巴西、🇲🇽墨西哥、🇵🇹葡萄牙、🇺🇸美國 ｜ 🥇 Haaland、Mbappé、Messi各以7球並列射手榜第一｜ 🇬🇧Kane 14球、🇫🇷Mbappé 18球生涯世界盃進球｜C羅淚別——41歲葡萄牙傳奇第六屆世界盃落幕，生涯世界盃8球\n",
+    summary: "16強賽全部8場完成 ✅ ｜ 🏆 8強全數出爐：🇲🇦摩洛哥 vs 🇫🇷法國（7/9·福克斯堡）、🇪🇸西班牙 vs 🇧🇪比利時（7/10·洛杉磯SoFi）、🇳🇴挪威 vs 🇬🇧英格蘭（7/11·邁阿密）、🇦🇷阿根廷 vs 🇨🇭瑞士（7/11·堪薩斯城） ｜ 📅 7/7戰報：🇦🇷阿根廷3-2🇪🇬埃及 — 0-2落後驚天逆轉！Messi第83分鐘扳平、Enzo Fernandez第90+2分鐘頭槌絕殺（世界盃第3000球）🔥 ｜ 📅 7/8戰報：🇨🇭瑞士0-0🇨🇴哥倫比亞（PK 4-3） — Rubén Vargas致勝罰球，瑞士自1954年以來首闖8強！Davinson Sánchez射中橫樑，Cucho Hernández被Kobel撲出 ｜ ❌ 已淘汰：🇨🇦加拿大、🇵🇾巴拉圭、🇧🇷巴西、🇲🇽墨西哥、🇵🇹葡萄牙、🇺🇸美國、🇪🇬埃及、🇨🇴哥倫比亞 ｜ 🥇 Haaland、Mbappé、Messi各以7球並列射手榜第一｜ 🇦🇷Messi世界盃第21球創歷史新高｜🇪🇳Enzo Fernandez打入世界盃第3000球\\n",
     
     // PK 大戰結果
     penalties: {
       'Germany-vs-Paraguay': { winner: 'Paraguay', score: '4-3', loser: 'Germany' },
       'Netherlands-vs-Morocco': { winner: 'Morocco', score: '3-2', loser: 'Netherlands' },
-      'Australia-vs-Egypt': { winner: 'Egypt', score: '4-2', loser: 'Australia' }
+      'Australia-vs-Egypt': { winner: 'Egypt', score: '4-2', loser: 'Australia' },
+      'Switzerland-vs-Colombia': { winner: 'Switzerland', score: '4-3', loser: 'Colombia' }
     },
 
     // 各輪次資訊
@@ -3536,12 +3608,12 @@ const WC_DATA = {
       R16: {
         order: 2,
         name: '16強賽', nameEn: 'Round of 16',
-        status: 'in_progress',
+        status: 'completed',
         totalMatches: 8,
-        completedCount: 6,
+        completedCount: 8,
         dateRange: '7月4日 — 7月8日',
-        eliminated: ['Canada', 'Paraguay', 'Brazil', 'Mexico', 'Portugal', 'USA'],
-        advanced: ['Morocco', 'France', 'Norway', 'England', 'Spain', 'Belgium'],
+        eliminated: ['Canada', 'Paraguay', 'Brazil', 'Mexico', 'Portugal', 'USA', 'Egypt', 'Colombia'],
+        advanced: ['Morocco', 'France', 'Norway', 'England', 'Spain', 'Belgium', 'Argentina', 'Switzerland'],
         matchups: [
           { team1: 'Morocco', score1: 3, team2: 'Canada', score2: 0, date: '2026-07-04', venue: '休斯敦·NRG體育場', time: '13:00 ET', status: 'completed', winner: 'Morocco' },
           { team1: 'Paraguay', score1: 0, team2: 'France', score2: 1, date: '2026-07-04', venue: '費城·林肯金融球場', time: '17:00 ET', status: 'completed', winner: 'France' },
@@ -3549,8 +3621,8 @@ const WC_DATA = {
           { team1: 'Mexico', score1: 2, team2: 'England', score2: 3, date: '2026-07-05', venue: '墨西哥城·阿茲特克體育場', time: '22:00 ET', status: 'completed', winner: 'England', note: 'kickoff delayed ~1hr due to thunderstorms' },
           { team1: 'Portugal', score1: 0, team2: 'Spain', score2: 1, date: '2026-07-06', venue: '達拉斯·AT&T體育場', time: '15:00 ET', status: 'completed', winner: 'Spain', note: 'Mikel Merino 90+1絕殺！C羅淚別世界盃' },
           { team1: 'USA', score1: 1, team2: 'Belgium', score2: 4, date: '2026-07-06', venue: '西雅圖·流明球場', time: '20:00 ET', status: 'completed', winner: 'Belgium', note: 'Belgium won 4-1, De Ketelaere brace, Vanaken, Lukaku goals' },
-          { team1: 'Egypt', team2: 'Argentina', date: '2026-07-07', venue: '亞特蘭大·梅賽德斯-賓士體育場', time: '20:00 ET' },
-          { team1: 'Switzerland', team2: 'Colombia', date: '2026-07-08', venue: '溫哥華·BC Place', time: '20:00 ET' }
+          { team1: 'Egypt', score1: 2, team2: 'Argentina', score2: 3, date: '2026-07-07', venue: '亞特蘭大·梅賽德斯-賓士體育場', time: '20:00 ET', status: 'completed', winner: 'Argentina', note: 'Argentina 3-2 comeback! Messi 83 min, Enzo 90+2 3000th WC goal' },
+          { team1: 'Switzerland', score1: 0, team2: 'Colombia', score2: 0, date: '2026-07-08', venue: '溫哥華·BC Place', time: '20:00 ET', status: 'completed', winner: 'Switzerland', note: 'Switzerland won 4-3 on penalties' }
         ]
       },
       QF: {
@@ -3564,7 +3636,7 @@ const WC_DATA = {
           { team1: 'Morocco', team2: 'France', date: '2026-07-09', venue: '福克斯堡·吉列體育場', time: '20:00 ET', note: '8強賽第1場 — 2022年4強經典重現！' },
           { team1: 'Spain', team2: 'Belgium', date: '2026-07-10', venue: '英格爾伍德·SoFi體育場', time: '15:00 ET', note: '🇪🇸西班牙時隔16年重返8強 vs 🇧🇪比利時！De Ketelaere狀態火熱🔥' },
           { team1: 'Norway', team2: 'England', date: '2026-07-11', venue: '邁阿密·硬石體育場', time: '17:00 ET', note: '挪威vs英格蘭 — 兩隊首度在世界盃交手！Haaland世界盃7球與Messi/Mbappé並列射手榜首' },
-          { team1: 'TBD (Egypt/Argentina)', team2: 'TBD (Switzerland/Colombia)', date: '2026-07-11', venue: '堪薩斯城·箭頭體育場', time: '21:00 ET', note: '7/7埃及vs阿根廷、7/8瑞士vs哥倫比亞勝方對決' }
+          { team1: 'Argentina', team2: 'Switzerland', date: '2026-07-11', venue: '堪薩斯城·箭頭體育場', time: '21:00 ET', note: '🇦🇷阿根廷 vs 🇨🇭瑞士 — Messi vs Xhaka！阿根廷驚天逆轉埃及晉級，瑞士PK大戰力克哥倫比亞自1954年首闖8強' }
         ]
       },
       SF: {

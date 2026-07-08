@@ -110,31 +110,31 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-07-07 上午更新：🇪🇸西班牙絕殺葡萄牙·C羅淚別·比利時4-1美國·8強出爐🔥） =====
+// ===== 輪播牆圖片（2026-07-08 上午更新：🇦🇷阿根廷3-2驚天逆轉埃及·🇨🇭瑞士PK勝哥倫比亞·8強全數出爐🔥） =====
 const HERO_IMAGES = [
-  // 🇪🇸🔥 Spain 1-0 Portugal — Mikel Merino第90+1分鐘頭槌絕殺！Dani Olmo自由球傳中，Merino禁區內甩頭攻門彈地入網。41歲C羅含淚告別世界盃，西班牙時隔16年重返8強（AFP via USA TODAY）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90825113007-afp-2284366107.jpg',
-  // 🇪🇸🥅 Spain 1-0 Portugal — Spain's Mikel Merino scores winning goal, Cristiano Ronaldo reacts dejected. Unai Simon精彩撲救力保不失，葡萄牙全場僅2次射正（Getty Images via USA TODAY）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90825669007-gty-2284933571.jpg',
-  // 🇧🇪🔥 Belgium 4-1 USA — Charles De Ketelaere第33分鐘梅開二度！Leandro Trossard左路橫傳禁區，De Ketelaere第一時間推射遠角入網，全場2進球1助攻獲選最佳球員（Getty Images via USA TODAY）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/07/USAT/90829073007-gty-2284964835.jpg',
-  // 🇧🇪⚡ Belgium 4-1 USA — Romelu Lukaku第90+2分鐘錦上添花！Hans Vanaken助攻，Lukaku禁區內低射入網。比利時4-1鎖定勝局將在7/10對陣🇪🇸西班牙（Getty Images via USA TODAY）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/07/USAT/90829010007-gty-2284964253.jpg',
-  // 🇳🇴🔥 Norway 2-1 Brazil — Erling Haaland第79分鐘頭槌、第90分鐘遠射梅開二度！世界盃7球並列金靴榜首，挪威隊史首度晉級8強，Haaland帶領全隊Viking划船慶祝（Getty Images via USA TODAY）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90814590007-getty-images-2284778553.jpg',
-  // 🇬🇧🎉 England 3-2 Mexico — Jude Bellingham第36'、38'梅開二度（98秒兩球⚡），Harry Kane第60'罰球破門（生涯世界盃14球）。10人應戰守住勝局，英格蘭晉級8強！（Getty Images via USA TODAY）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90825108007-usp-soccer-fifa-world-cup-2026-round-of-16-po-1.jpg',
-  // 🏆 8強對陣全數出爐！🇲🇦摩洛哥vs🇫🇷法國（7/9·福克斯堡）、🇪🇸西班牙vs🇧🇪比利時（7/10·洛杉磯SoFi）、🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）、7/11堪薩斯城待定。今晚🇪🇬埃及vs🇦🇷阿根廷！（Getty Images via USA TODAY）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90825112007-gty-2284926972.jpg'
+  // 🇦🇷🔥 Argentina 3-2 Egypt — Lionel Messi第83分鐘扳平比分！0-2落後到驚天逆轉，Messi連續第8場世界盃進球，世界盃生涯第21球創歷史新高（Reuters via USA TODAY）
+  'https://cdnph.upi.com/collection/fp/upi/16702/4453a7a4b8bc6a6ebef6ea54e3397521/FIFA-World-Cup-Argentina-defeats-Egypt_1_1.jpg',
+  // 🇦🇷⚡ Argentina 3-2 Egypt — Enzo Fernandez第90+2分鐘頭槌絕殺！世界盃第3000球，阿根廷完成史詩級逆轉晉級8強（Reuters via USA TODAY）
+  'https://cdnph.upi.com/collection/fp/upi/16702/6a0e1cd2ece3a109a7fd9d4c64204e99/FIFA-World-Cup-Argentina-defeats-Egypt_3_1.jpg',
+  // 🇦🇷😭 Argentina 3-2 Egypt — Lionel Messi賽後淚流滿面。Messi罰球被撲出後，第83分鐘扳平比分，率隊完成不可思議的逆轉，阿根廷將在7/11堪薩斯城對陣瑞士🔥（Reuters via USA TODAY）
+  'https://cdnph.upi.com/collection/fp/upi/16702/35da82b70aeee577ffcf54dbabfd33cf/FIFA-World-Cup-Argentina-defeats-Egypt_4_1.jpg',
+  // 🇨🇭🔥 Switzerland 0-0 Colombia (PK 4-3) — Rubén Vargas踢進致勝罰球！瑞士自1954年以來首度晉級世界盃8強，將在7/11對陣🇦🇷阿根廷（Reuters via Star Advertiser）
+  'https://www.staradvertiser.com/wp-content/uploads/2026/07/2026-07-07T232200Z_1810523814_UP1EM771SWMPH_RTRMADP_3_SOCCER-WORLDCUP-SWI-COL.jpg',
+  // 🇨🇭🥅 Switzerland 0-0 Colombia — Gregor Kobel神勇撲救！瑞士門將在PK大戰撲出Cucho Hernández的罰球，成為晉級功臣。Davinson Sánchez射中橫樑（Reuters via Star Advertiser）
+  'https://www.staradvertiser.com/wp-content/uploads/2026/07/2026-07-07T231601Z_554661149_UP1EM771SHIPD_RTRMADP_3_SOCCER-WORLDCUP-SWI-COL.jpg',
+  // 🇨🇴😢 Colombia 0-0 Switzerland (PK 3-4) — 哥倫比亞球員賽後淚灑球場。Luis Díaz全隊最佳表現仍無法改寫命運，瑞士成為最後一支8強隊伍（Reuters via Star Advertiser）
+  'https://www.staradvertiser.com/wp-content/uploads/2026/07/2026-07-07T230925Z_1724962838_UP1EM771SBOOY_RTRMADP_3_SOCCER-WORLDCUP-SWI-COL.jpg',
+  // 🏆 8強對陣全數出爐！🇲🇦摩洛哥vs🇫🇷法國（7/9·福克斯堡）、🇪🇸西班牙vs🇧🇪比利時（7/10·洛杉磯SoFi）、🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）、🇦🇷阿根廷vs🇨🇭瑞士（7/11·堪薩斯城）🔥 8強賽周四開打！（Reuters via Star Advertiser）
+  'https://www.staradvertiser.com/wp-content/uploads/2026/07/2026-07-07T230627Z_1020217525_UP1EM771S6QOS_RTRMADP_3_SOCCER-WORLDCUP-SWI-COL.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  "🔥🇪🇸 Mikel Merino第90+1分鐘頭槌絕殺葡萄牙！Dani Olmo自由球傳中，Merino禁區內甩頭攻門彈地入網。41歲C羅世界盃生涯淚別，西班牙時隔16年重返8強🔥（AFP via USA TODAY）",
-  "🥅🇪🇸 Spain 1-0 Portugal — Mikel Merino絕殺進球，Cristiano Ronaldo含淚告別。Unai Simon精彩撲救力保不失，葡萄牙全場僅2次射正。西班牙將在7/10洛杉磯對陣🇧🇪比利時（Getty Images via USA TODAY）",
-  "🔥🇧🇪 Charles De Ketelaere第33分鐘梅開二度！Trossard左路橫傳禁區，De Ketelaere推射遠角入網，全場2進球1助攻獲選最佳球員，比利時4-1強勢晉級8強！（Getty Images via USA TODAY）",
-  "⚡🇧🇪 Romelu Lukaku第90+2分鐘錦上添花！Vanaken助攻，Lukaku禁區內低射入網。比利時4-1鎖定勝局，將在7/10洛杉磯對陣🇪🇸西班牙 — 歐洲內戰一觸即發🔥（Getty Images via USA TODAY）",
-  "🇳🇴🔥 Erling Haaland第79分鐘頭槌、第90分鐘遠射梅開二度爆冷淘汰巴西！挪威隊史首度晉級世界盃8強，Haaland世界盃7球並列金靴榜首。Haaland帶領全隊Viking划船慶祝創歷史！（Getty Images via USA TODAY）",
-  "🎉🇬🇧 Jude Bellingham第36'、38'梅開二度（98秒兩球⚡），Harry Kane第60'罰球破門（世界盃生涯14球並列史上第5🏅）。Quansah第54'直紅，英格蘭10人應戰守住3-2勝局晉級8強！（Getty Images via USA TODAY）",
-  "🏆 8強對陣全數出爐！🇲🇦摩洛哥vs🇫🇷法國（7/9·福克斯堡）、🇪🇸西班牙vs🇧🇪比利時（7/10·洛杉磯SoFi）、🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）、7/11堪薩斯城待定｜今晚🇪🇬埃及vs🇦🇷阿根廷（Messi vs Salah🔥）！（Getty Images via USA TODAY）"
+  "🔥🇦🇷 Lionel Messi第83分鐘扳平比分！阿根廷0-2落後到3-2驚天逆轉埃及！Messi連續第8場世界盃進球，世界盃生涯第21球創歷史新高。即使第21分鐘罰球被撲出，Messi仍率隊完成史詩級逆轉🔥（Reuters via USA TODAY）",
+  "⚡🇦🇷 Enzo Fernandez第90+2分鐘頭槌絕殺！世界盃第3000球歷史時刻！Messi助攻Cristian Romero第79分鐘追回一球，第83分鐘親自扳平，Fernandez補時絕殺。阿根廷3-2逆轉埃及晉級8強🔥（Reuters via USA TODAY）",
+  "😭🇦🇷 Messi賽後淚流滿面！阿根廷從0-2絕境到3-2絕殺，Messi罰球被撲後永不放棄，第83分鐘扳平比分創造傳奇。阿根廷將在7/11堪薩斯城對陣🇨🇭瑞士 — Messi vs Xhaka🔥（Reuters via USA TODAY）",
+  "🇨🇭🔥 Rubén Vargas踢進致勝罰球！瑞士0-0(4-3)力克哥倫比亞，自1954年以來首度晉級世界盃8強！Gregor Kobel神勇撲救，Davinson Sánchez射中橫樑，瑞士72年等待終圓夢🔥（Reuters via Star Advertiser）",
+  "🇨🇭🥅 Gregor Kobel — 瑞士晉級英雄！Borussia Dortmund門將在PK大戰撲出Cucho Hernández的罰球，全場多次關鍵撲救力保不失。瑞士將在7/11堪薩斯城對陣🇦🇷阿根廷爭奪4強席位！（Reuters via Star Advertiser）",
+  "🇨🇴😢 哥倫比亞遺憾止步16強。Luis Díaz率隊打出精彩世界盃，小組賽不敗、32強1-0勝迦納，但最終倒在PK大戰。瑞士成為最後一支8強隊伍，南美勁旅含淚告別2026世界盃（Reuters via Star Advertiser）",
+  "🏆 8強對陣全數出爐！🇲🇦摩洛哥vs🇫🇷法國（7/9·福克斯堡）— 2022年4強經典重現！🇪🇸西班牙vs🇧🇪比利時（7/10·洛杉磯SoFi）— 歐洲內戰！🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）— Haaland vs Kane！🇦🇷阿根廷vs🇨🇭瑞士（7/11·堪薩斯城）— Messi最後一舞🔥 8強賽周四開打！（Reuters via Star Advertiser）"
 ];
 
