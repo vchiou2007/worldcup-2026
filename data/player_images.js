@@ -110,31 +110,31 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-07-08 cron更新：🇦🇷阿根廷3-2逆轉埃及·🇨🇭瑞士PK勝哥倫比亞·8強全數出爐·明日起8強賽開打🔥） =====
+// ===== 輪播牆圖片（2026-07-08 cron更新更新：🇦🇷🇨🇭16強全數完成🔥 8強賽明起開打｜法國vs摩洛哥7/9·西班牙vs比利時7/10·挪威vs英格蘭7/11·阿根廷vs瑞士7/11） =====
 const HERO_IMAGES = [
-  // 🇦🇷🔥 Argentina 3-2 Egypt — Lionel Messi第83分鐘扳平比分！0-2落後到驚天逆轉，Messi連續第8場世界盃進球，世界盃生涯第21球創歷史新高（Reuters via USA TODAY）
-  'https://cdnph.upi.com/collection/fp/upi/16702/4453a7a4b8bc6a6ebef6ea54e3397521/FIFA-World-Cup-Argentina-defeats-Egypt_1_1.jpg',
-  // 🇦🇷⚡ Argentina 3-2 Egypt — Enzo Fernandez第90+2分鐘頭槌絕殺！世界盃第3000球，阿根廷完成史詩級逆轉晉級8強（Reuters via USA TODAY）
+  // 🇦🇷🔥 Argentina 3-2 Egypt — Lionel Messi第83分鐘扳平！Messi世界盃第21球創歷史新高，阿根廷0-2落後到3-2史詩逆轉（AP via Hindustan Times）
+  'https://www.hindustantimes.com/ht-img/img/2026/07/07/550x309/AP07-07-2026-000667A-0_1783462497947_1783463013422_a4dec646-a64d-4be2-9e9e-f0ecfd951bc5.jpg',
+  // 🇦🇷😭 Argentina 3-2 Egypt — Messi賽後激動落淚！第83分鐘扳平比分後情緒崩潰，阿根廷從死亡邊緣走回8強（AP via Hindustan Times）
+  'https://www.hindustantimes.com/ht-img/img/2026/07/07/550x309/APTOPIX-Egypt-Argentina-WCup-Soccer-12_1783462498017_1783463018182_cfc75c81-2923-4c5e-b365-5e9f2cbc0c2d.jpg',
+  // 🇦🇷⚡ Argentina 3-2 Egypt — Enzo Fernandez第90+2分鐘頭槌絕殺！世界盃第3000球歷史時刻，阿根廷完成史詩級逆轉晉級（Reuters via USA TODAY）
   'https://cdnph.upi.com/collection/fp/upi/16702/6a0e1cd2ece3a109a7fd9d4c64204e99/FIFA-World-Cup-Argentina-defeats-Egypt_3_1.jpg',
-  // 🇦🇷😭 Argentina 3-2 Egypt — Lionel Messi賽後淚流滿面。Messi罰球被撲出後，第83分鐘扳平比分，率隊完成不可思議的逆轉，阿根廷將在7/11堪薩斯城對陣瑞士🔥（Reuters via USA TODAY）
-  'https://cdnph.upi.com/collection/fp/upi/16702/35da82b70aeee577ffcf54dbabfd33cf/FIFA-World-Cup-Argentina-defeats-Egypt_4_1.jpg',
-  // 🇨🇭🔥 Switzerland 0-0 Colombia (PK 4-3) — Rubén Vargas踢進致勝罰球！瑞士自1954年以來首度晉級世界盃8強，將在7/11對陣🇦🇷阿根廷（Reuters via Star Advertiser）
+  // 🇨🇭🔥 Switzerland 0-0(4-3) Colombia — Rubén Vargas踢進致勝罰球！瑞士自1954年以來首度晉級世界盃8強，將在7/11對陣🇦🇷阿根廷（Reuters via Star Advertiser）
   'https://www.staradvertiser.com/wp-content/uploads/2026/07/2026-07-07T232200Z_1810523814_UP1EM771SWMPH_RTRMADP_3_SOCCER-WORLDCUP-SWI-COL.jpg',
-  // 🇨🇭🥅 Switzerland 0-0 Colombia — Gregor Kobel神勇撲救！瑞士門將在PK大戰撲出Cucho Hernández的罰球，成為晉級功臣。Davinson Sánchez射中橫樑（Reuters via Star Advertiser）
+  // 🇨🇭🥅 Switzerland 0-0 Colombia — Gregor Kobel神勇撲救PK大戰英雄！瑞士門將撲出Cucho Hernández罰球，率隊72年來首闖8強（Reuters via Star Advertiser）
   'https://www.staradvertiser.com/wp-content/uploads/2026/07/2026-07-07T231601Z_554661149_UP1EM771SHIPD_RTRMADP_3_SOCCER-WORLDCUP-SWI-COL.jpg',
-  // 🇨🇴😢 Colombia 0-0 Switzerland (PK 3-4) — 哥倫比亞球員賽後淚灑球場。Luis Díaz全隊最佳表現仍無法改寫命運，瑞士成為最後一支8強隊伍（Reuters via Star Advertiser）
+  // 🇨🇴😢 Colombia vs Switzerland — 哥倫比亞淚灑球場止步16強。Luis Díaz全隊最佳仍無法改寫命運，瑞士晉級8強對決阿根廷（Reuters via Star Advertiser）
   'https://www.staradvertiser.com/wp-content/uploads/2026/07/2026-07-07T230925Z_1724962838_UP1EM771SBOOY_RTRMADP_3_SOCCER-WORLDCUP-SWI-COL.jpg',
-  // 🏆 8強對陣全數出爐！🇲🇦摩洛哥vs🇫🇷法國（7/9·福克斯堡）、🇪🇸西班牙vs🇧🇪比利時（7/10·洛杉磯SoFi）、🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）、🇦🇷阿根廷vs🇨🇭瑞士（7/11·堪薩斯城）🔥 8強賽周四開打！（Reuters via Star Advertiser）
+  // 🏆 8強賽明起開打🔥 🇫🇷法國vs🇲🇦摩洛哥（7/9·福克斯堡）· 🇪🇸西班牙vs🇧🇪比利時（7/10·洛杉磯SoFi）· 🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）· 🇦🇷阿根廷vs🇨🇭瑞士（7/11·堪薩斯城）🥇 Haaland/Mbappé/Messi各7球並列金靴榜首（Reuters via Star Advertiser）
   'https://www.staradvertiser.com/wp-content/uploads/2026/07/2026-07-07T230627Z_1020217525_UP1EM771S6QOS_RTRMADP_3_SOCCER-WORLDCUP-SWI-COL.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  "🔥🇦🇷 2-0落後到3-2絕殺！Lionel Messi第83分鐘扳平比分，阿根廷驚天逆轉埃及！Messi連續第8場世界盃進球，世界盃生涯第21球創歷史新高。即使第21分鐘罰球被撲出，Messi仍率隊完成史詩級逆轉🔥 8強賽將戰🇨🇭瑞士（Reuters via USA TODAY）",
-  "⚡🇦🇷 Enzo Fernandez第90+2分鐘頭槌絕殺！世界盃第3000球歷史時刻！Messi助攻Cristian Romero第79分鐘追回一球，第83分鐘親自扳平，Fernandez補時絕殺。阿根廷3-2逆轉埃及晉級8強🔥（Reuters via USA TODAY）",
-  "😭🇦🇷 Messi賽後淚流滿面！阿根廷從0-2絕境到3-2絕殺，Messi罰球被撲後永不放棄，第83分鐘扳平比分創造傳奇。阿根廷7/11堪薩斯城對陣🇨🇭瑞士爭奪4強席位🔥（Reuters via USA TODAY）",
-  "🇨🇭🔥 Rubén Vargas踢進致勝罰球！瑞士0-0(4-3)力克哥倫比亞，自1954年以來首度晉級世界盃8強！Gregor Kobel神勇撲救PK，Davinson Sánchez射中橫樑，瑞士72年等待終圓夢🔥 7/11對陣🇦🇷阿根廷（Reuters via Star Advertiser）",
-  "🇨🇭🥅 Gregor Kobel — 瑞士晉級英雄！Borussia Dortmund門將在PK大戰撲出Cucho Hernández的罰球，全場多次關鍵撲救力保不失。自1954年以來瑞士首度闖入8強，將在7/11堪薩斯城對陣🇦🇷阿根廷！（Reuters via Star Advertiser）",
+  "🔥🇦🇷 2-0落後到3-2絕殺！Lionel Messi第83分鐘扳平比分，阿根廷驚天逆轉埃及🔥 Messi第21分鐘罰球被撲出仍永不放棄，第83分鐘禁區內左腳弧線球破門扳平。Messi連續第8場世界盃進球，世界盃生涯第21球創歷史新高！阿根廷7/11堪薩斯城對陣🇨🇭瑞士爭奪4強席位（AP via Hindustan Times）",
+  "😭🇦🇷 Messi賽後淚流滿面！從0-2絕境到3-2絕殺，Messi率隊完成世界盃史上最不可思議的逆轉之一。Cristian Romero第79分鐘追回一球、Messi第83分鐘扳平、Enzo Fernandez第90+2分鐘頭槌絕殺（世界盃第3000球）🔥 8強賽將戰🇨🇭瑞士（AP via Hindustan Times）",
+  "⚡🇦🇷 Enzo Fernandez第90+2分鐘頭槌絕殺！世界盃第3000球歷史時刻！Messi自由球助攻Cristian Romero第79分鐘追回一球，第83分鐘親自扳平，Fernandez角球頭槌補時絕殺。阿根廷3-2逆轉埃及，成為史上首支在淘汰賽落後2球逆轉的衛冕冠軍🔥（Reuters via USA TODAY）",
+  "🇨🇭🔥 Rubén Vargas踢進致勝罰球！瑞士0-0(4-3)力克哥倫比亞，自1954年以來首度晉級世界盃8強！正規時間與延長賽0-0後，PK大戰4-3勝出。Davinson Sánchez射中橫樑、Cucho Hernández被Kobel撲出，瑞士72年等待終圓夢🔥 7/11對陣🇦🇷阿根廷（Reuters via Star Advertiser）",
+  "🇨🇭🥅 Gregor Kobel — 瑞士晉級英雄！Borussia Dortmund門將在PK大戰撲出Cucho Hernández的罰球，全場多次關鍵撲救力保不失。Switzerland自1954年以來首度闖入8強，將在7/11堪薩斯城對陣🇦🇷阿根廷！Kobel本屆世界盃已撲出2罰球🔥（Reuters via Star Advertiser）",
   "🇨🇴😢 哥倫比亞遺憾止步16強。Luis Díaz全隊最佳表現仍無法改寫命運。哥倫比亞小組賽不敗、32強1-0勝迦納，但最終倒在PK大戰。瑞士成為最後一支8強隊伍，南美勁旅含淚告別2026世界盃（Reuters via Star Advertiser）",
-  "🏆 8強對陣全數出爐！明日起開打🔥 🇫🇷法國vs🇲🇦摩洛哥（7/9·福克斯堡）— 2022年4強經典重現！🇪🇸西班牙vs🇧🇪比利時（7/10·洛杉磯SoFi）— 歐洲內戰！🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）— Haaland vs Kane！🇦🇷阿根廷vs🇨🇭瑞士（7/11·堪薩斯城）— Messi最後一舞🔥（Reuters via Star Advertiser）"
+  "🏆 8強賽明日起開打🔥 🇫🇷法國vs🇲🇦摩洛哥（7/9 20:00 ET·福克斯堡）— 2022年4強經典重現！🇪🇸西班牙vs🇧🇪比利時（7/10 15:00 ET·洛杉磯SoFi）— De Bruyne vs Yamal！🇳🇴挪威vs🇬🇧英格蘭（7/11 17:00 ET·邁阿密）— Haaland vs Kane金靴對決！🇦🇷阿根廷vs🇨🇭瑞士（7/11 21:00 ET·堪薩斯城）— Messi最後一舞🔥 🥇 Haaland·Mbappé·Messi各7球並列金靴榜首（Reuters via Star Advertiser）"
 ];
 
