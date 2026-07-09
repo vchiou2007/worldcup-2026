@@ -110,31 +110,31 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-07-08 9:00AM cron自動更新🔥 8強賽今晚開打｜🇫🇷法國vs🇲🇦摩洛哥7/9·🇪🇸西班牙vs🇧🇪比利時7/10·🇳🇴挪威vs🇬🇧英格蘭7/11·🇦🇷阿根廷vs🇨🇭瑞士7/11） =====
+// ===== 輪播牆圖片（2026-07-09 9:00AM cron自動更新🔥 8強賽今晚開戰！🇫🇷法國vs🇲🇦摩洛哥·🇪🇸西班牙vs🇧🇪比利時·🇳🇴挪威vs🇬🇧英格蘭·🇦🇷阿根廷vs🇨🇭瑞士） =====
 const HERO_IMAGES = [
-  // 🇦🇷🔥 Argentina 3-2 Egypt — Lionel Messi慶祝歷史性的逆轉勝！從0-2落後到3-2絕殺，阿根廷7/11堪薩斯城對陣🇨🇭瑞士（USA Today Sports/Reuters）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/07/USAT/90837444007-usatsi-29345955.jpg',
-  // 🇦🇷⚡ Argentina 3-2 Egypt — Enzo Fernandez第90+2分鐘頭槌絕殺！世界盃第3000球歷史時刻，Messi自由球助攻Cristian Romero第79分鐘追回一球（USA Today Sports/Reuters）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/07/USAT/90837441007-usatsi-29345968.jpg',
-  // 🇦🇷😭 Argentina 3-2 Egypt — Messi賽後情緒激動！從被撲出罰球到第83分鐘扳平，Messi世界盃第21球創歷史新高（USA Today Sports/Reuters）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/07/USAT/90837446007-usatsi-29345946.jpg',
-  // 🇨🇭🔥 Switzerland 0-0(4-3) Colombia — Rubén Vargas踢進致勝罰球！瑞士自1954年以來首度晉級世界盃8強，將在7/11對陣🇦🇷阿根廷（USA Today Sports/Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/07/USAT/90841763007-gty-2285123378.jpg',
-  // 🇨🇭🥅 Switzerland 0-0 Colombia — Gregor Kobel神勇撲救PK大戰英雄！瑞士門將撲出Cucho Hernández罰球，率隊72年來首闖8強（USA Today Sports/Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/07/USAT/90841764007-gty-2285123389.jpg',
-  // 🇨🇭🎉 Switzerland 0-0(4-3) Colombia — 瑞士全隊慶祝晉級！自1954年以來首次闖入8強，7/11對決衛冕冠軍🇦🇷阿根廷（USA Today Sports/Getty Images）
+  // 🇦🇷🔥 Argentina 3-2 Egypt — Lionel Messi在0-2落後到3-2絕殺後慶祝！Messi世界盃第21球創歷史新高，Enzo Fernandez世界盃第3000球絕殺（Reuters）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/08/USAT/90842853007-gty-2285095439.jpg',
+  // 🇦🇷⚡ Argentina 3-2 Egypt — Enzo Fernandez被阿根廷隊友擁抱！第90+2分鐘頭槌破門改寫歷史，Messi第83分鐘扳平後全隊沸騰（Getty Images/Reuters）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/07/USAT/90837975007-2285095513.jpg',
+  // 🇨🇭🎉 Switzerland 0-0(4-3) Colombia — Rubén Vargas踢進致勝罰球後瑞士全隊狂奔慶祝！自1954年以來首度闖入世界盃8強🔥 7/11對陣🇦🇷阿根廷（Getty Images）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/07/USAT/90841787007-gty-2285123410.jpg',
-  // 🏆 8強賽今明開打🔥 🇫🇷法國vs🇲🇦摩洛哥（7/9·福克斯堡）· 🇪🇸西班牙vs🇧🇪比利時（7/10·洛杉磯SoFi）· 🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）· 🇦🇷阿根廷vs🇨🇭瑞士（7/11·堪薩斯城）｜ 🥇 Haaland·Mbappé·Messi各7球並列金靴榜首｜ Harry Kane 14球世界盃生涯追平Klose（Sun-Sentinel）
-  'https://www.sun-sentinel.com/wp-content/uploads/2026/07/TFL-L-STP-Z-KANE-0707-01_264492294.jpg'
+  // 🇳🇴🔥 Norway 2-1 Brazil — Erling Haaland梅開二度後慶祝！79分鐘頭槌+90分鐘遠射，挪威隊史首度闖入世界盃8強🔥 Haaland以7球並列金靴榜首（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815455007-getty-images-2284221269.jpeg',
+  // 🇳🇴⚽ Norway 2-1 Brazil — Erling Haaland第79分鐘頭槌破門！力壓巴西後衛Gabriel Magalhães頂入，挪威歷史性擊敗五星巴西晉級8強（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815309007-getty-images-2284220956.jpeg',
+  // 🏴󠁧󠁢󠁥󠁮󠁧󠁿🔥 England 3-2 Mexico — Harry Kane罰進12碼後與Jude Bellingham慶祝！10人英格蘭力克墨西哥，Bellingham梅開二度，Kane世界盃第14球（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90816731007-getty-images-2284816527.jpg',
+  // 🇪🇸🏆 Spain 1-0 Portugal — Mikel Merino第90+1分鐘絕殺！西班牙時隔16年重返世界盃8強🔥 C羅世界盃生涯正式落幕（41歲·第六屆）🇪🇸西班牙7/10對陣🇧🇪比利時（USA Today/Getty）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90828639007-2280200274.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  "🔥🇦🇷 2-0落後到3-2絕殺！Lionel Messi慶祝阿根廷驚天逆轉埃及🔥 Messi第21分鐘罰球被撲出仍永不放棄，第83分鐘禁區內左腳弧線球破門扳平。Messi連續第8場世界盃進球，世界盃生涯第21球創歷史新高！Cristian Romero第79分鐘頭槌追回一球、Enzo Fernandez第90+2分鐘頭槌絕殺（世界盃第3000球）阿根廷7/11堪薩斯城對陣🇨🇭瑞士爭奪4強席位（USA Today Sports/Reuters）",
-  "⚡🇦🇷 Enzo Fernandez第90+2分鐘頭槌絕殺！世界盃第3000球歷史時刻！Messi自由球助攻Cristian Romero第79分鐘追回一球，第83分鐘親自扳平，Fernandez角球頭槌補時絕殺。阿根廷3-2逆轉埃及，成為史上首支在淘汰賽落後2球逆轉的衛冕冠軍🔥 8強賽將戰🇨🇭瑞士（USA Today Sports/Reuters）",
-  "😭🇦🇷 Messi賽後情緒激動！從0-2絕境到3-2絕殺，Messi率隊完成世界盃史上最不可思議的逆轉之一。Messi第21分鐘罰球被埃及門將Mostafa Shoubir撲出，仍不屈不撓帶領阿根廷從死亡邊緣走回8強🔥 M24第83分鐘扳平比分後振臂怒吼，8強賽將戰🇨🇭瑞士（USA Today Sports/Reuters）",
-  "🇨🇭🔥 Rubén Vargas踢進致勝罰球！瑞士0-0(4-3)力克哥倫比亞，自1954年以來首度晉級世界盃8強！正規時間與延長賽0-0後，PK大戰4-3勝出。Davinson Sánchez射中橫樑、Cucho Hernández被Kobel撲出，瑞士72年等待終圓夢🔥 7/11對陣🇦🇷阿根廷爭奪4強（USA Today Sports/Getty Images）",
-  "🇨🇭🥅 Gregor Kobel — 瑞士晉級英雄！Borussia Dortmund門將在PK大戰撲出Cucho Hernández的罰球，全場多次關鍵撲救力保不失。Switzerland自1954年以來首度闖入8強，將在7/11堪薩斯城對陣🇦🇷阿根廷！Kobel本屆世界盃已撲出2罰球，成為瑞士民族英雄🔥（USA Today Sports/Getty Images）",
-  "🇨🇭🎉 瑞士全隊瘋狂慶祝晉級8強！從1954年主辦世界盃以來漫長的72年等待，Murat Yakin率領瑞士終於重返世界盃8強殿堂。Breel Embolo、Granit Xhaka、Manuel Akanji與全隊在BC Place Vancouver球場共享歷史時刻🔥 7/11對陣🇦🇷衛冕冠軍阿根廷（USA Today Sports/Getty Images）",
-  "🏆 8強賽開戰在即🔥 🇫🇷法國vs🇲🇦摩洛哥（7/9 20:00 ET·福克斯堡）— 2022年4強經典重現！Mbappé vs Hakimi隊友對決！🇪🇸西班牙vs🇧🇪比利時（7/10 15:00 ET·洛杉磯SoFi）— De Bruyne vs Yamal！🇳🇴挪威vs🇬🇧英格蘭（7/11 17:00 ET·邁阿密）— Haaland vs Kane金靴前鋒頂上對決🔥 🇦🇷阿根廷vs🇨🇭瑞士（7/11 21:00 ET·堪薩斯城）— Messi最後衝刺！🥇 Haaland·Mbappé·Messi各7球並列金靴榜首｜🇬🇧Kane世界盃14球追平Klose（Sun-Sentinel/AP）"
+  "🔥🇦🇷 從0-2落後到3-2絕殺！Lionel Messi率阿根廷完成世界盃史上最不可思議的逆轉之一🔥 Messi第21分鐘罰球被撲出仍永不放棄，第83分鐘禁區內左腳弧線球破門扳平——Messi連續第8場世界盃進球，世界盃生涯第21球創歷史新高！Cristian Romero第79分鐘頭槌追回一球、Enzo Fernandez第90+2分鐘頭槌絕殺（世界盃第3000球）🔥 阿根廷將在7/11堪薩斯城8強賽對陣🇨🇭瑞士（Reuters）",
+  "⚡🇦🇷 Enzo Fernandez第90+2分鐘頭槌絕殺！世界盃第3000球歷史時刻！Messi自由球助攻Cristian Romero第79分鐘追回一球，第83分鐘親自扳平比分。Fernandez在角球戰術中頭槌破網，阿根廷成為史上首支在淘汰賽落後2球逆轉的衛冕冠軍🔥 8強賽7/11對陣🇨🇭瑞士（Getty Images/Reuters）",
+  "🇨🇭🎉 瑞士全隊瘋狂慶祝晉級8強！Rubén Vargas踢進致勝罰球後，瑞士從1954年主辦世界盃以來漫長的72年等待終於畫下句點。Murat Yakin率領瑞士重返世界盃8強殿堂，BC Place Vancouver球場見證歷史時刻🔥 7/11對陣🇦🇷衛冕冠軍阿根廷爭奪4強（Getty Images）",
+  "🇳🇴🔥 Erling Haaland梅開二度率挪威2-1擊敗巴西！隊史首度闖入世界盃8強🔥 79分鐘頭槌破門、90分鐘禁區外低射——Haaland憑本屆第7球與Messi、Mbappé並列金靴榜首。挪威將在7/11邁阿密8強賽對陣🇬🇧英格蘭——Haaland vs Kane金靴之爭🔥（Getty Images）",
+  "🇳🇴⚽ Erling Haaland第79分鐘頭槌破門！Andreas Schjelderup左路突破傳中，Haaland力壓巴西中衛Gabriel Magalhães強力頭槌入網，為挪威打開勝利之門🔥 隨後90分鐘禁區外低射梅開二度鎖定勝局，挪威淘汰五星巴西創歷史！7/11對陣🇬🇧英格蘭（Getty Images）",
+  "🏴󠁧󠁢󠁥󠁮󠁧󠁿🔥 10人英格蘭力克墨西哥3-2！Jude Bellingham第36、38分鐘梅開二度（98秒兩球），Harry Kane第60分鐘罰球破門。Jarell Quansah第54分鐘直紅被罰下，英格蘭10人守住勝局🔥 Kane世界盃第14球，英格蘭7/11邁阿密8強賽對陣🇳🇴挪威——Bellingham vs Haaland！（Getty Images）",
+  "🇪🇸🏆 Mikel Merino第90+1分鐘頭槌絕殺葡萄牙！西班牙時隔16年重返世界盃8強🔥 Dani Olmo自由球精準傳中，Merino甩頭破門送入遠角。Cristiano Ronaldo第六屆世界盃生涯正式落幕（41歲），全場僅2次射正表現平淡。🇪🇸西班牙將在7/10洛杉磯SoFi球場8強賽對陣🇧🇪比利時——De Bruyne vs Yamal🔥（USA Today/Getty）"
 ];
 
