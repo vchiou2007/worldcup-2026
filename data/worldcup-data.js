@@ -3688,7 +3688,11 @@ const WC_DATA = {
         status: 'upcoming',
         totalMatches: 2,
         completedCount: 0,
-        dateRange: '7月14日 — 7月15日'
+        dateRange: '7月14日 — 7月15日',
+        matchups: [
+          { team1: 'France', team2: 'Spain', date: '2026-07-14', venue: '達拉斯·AT&T體育場', time: '20:00 ET', note: '🇫🇷法國 vs 🇪🇸西班牙 — 兩支歐洲最強防守球隊的對決！Mbappé vs Yamal🔥' },
+          { team1: 'TBD', team2: 'TBD', date: '2026-07-15', venue: '亞特蘭大·梅賽德斯-賓士體育場', time: '20:00 ET', note: '🇳🇴挪威/🇬🇧英格蘭 vs 🇦🇷阿根廷/🇨🇭瑞士' }
+        ]
       },
       Final: {
         order: 5,
