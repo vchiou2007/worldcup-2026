@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: "⚽ 8強賽 (Quarter-Finals) 今晚開戰🔥 ｜ 🏆 賽程：🇫🇷法國vs🇲🇦摩洛哥（7/9 20:00 ET·福克斯堡）— 2022年4強經典重現！🇪🇸西班牙vs🇧🇪比利時（7/10 15:00 ET·洛杉磯SoFi）— De Bruyne vs Yamal！🇳🇴挪威vs🇬🇧英格蘭（7/11 17:00 ET·邁阿密）— Haaland vs Kane金靴頂上對決！🇦🇷阿根廷vs🇨🇭瑞士（7/11 21:00 ET·堪薩斯城）— Messi最後衝刺🔥 ｜ 📅 7/9 9:00AM更新：16強賽全部結束✅ 8強賽今晚正式開打🔥 ｜ 🥇 Haaland·Mbappé·Messi各以7球並列金靴榜首｜ 🏅 Messi世界盃第21球創歷史新高｜🇬🇧Kane 14球｜ 🇦🇷阿根廷3-2🇪🇬埃及驚天逆轉 — Messi第83分鐘扳平·Enzo第90+2絕殺🔥 ｜ 🇨🇭瑞士0-0(4-3)哥倫比亞 — 自1954年以來首闖8強！Gregor Kobel PK英雄｜ 🇳🇴挪威2-1🇧🇷巴西 — Haaland梅開二度·挪威隊史首度晉級8強🔥 ｜ 🇪🇸西班牙1-0🇵🇹葡萄牙 — Merino第90+1分鐘絕殺·C羅世界盃生涯落幕 ｜ 🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭3-2🇲🇽墨西哥 — Bellingham梅開二度·10人應戰守住勝局 ｜ ❌ 已淘汰：🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴",
+    currentPhase: "⚽ 8強賽 (Quarter-Finals) 第一場戰果🔥 ｜ 🏆 🇫🇷法國2-0🇲🇦摩洛哥晉級4強！Mbappé 60'進球+66'助攻Dembélé🔥 ｜ 📅 7/9 晚間更新：法國率先殺入準決賽！Mbappé第20顆世界盃進球｜ 🥇 Mbappé·Messi各以8球並列金靴榜首｜ ⏳ 下一場：🇪🇸西班牙vs🇧🇪比利時（7/10 15:00 ET·洛杉磯SoFi）— De Bruyne vs Yamal！🇳🇴挪威vs🇬🇧英格蘭（7/11 17:00 ET·邁阿密）— Haaland vs Kane金靴頂上對決！🇦🇷阿根廷vs🇨🇭瑞士（7/11 21:00 ET·堪薩斯城）— Messi最後衝刺🔥 ｜ 🥇 Mbappé世界盃第20球｜ 🇫🇷法國連三屆闖進4強🔥 ｜ ❌ 已淘汰：🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦",
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -3503,6 +3503,49 @@ const WC_DATA = {
         pressingApplied: [240, 220]
       }
     },
+
+    // ===== 8強賽 (Quarter-Finals) =====
+
+    // === 7月9日：8強賽第1場 ===
+    { date: '2026-07-09', time: '20:00 ET', group: 'QF', team1: 'France', score1: 2, team2: 'Morocco', score2: 0, venue: '福克斯堡·吉列體育場', status: 'completed',
+      note: '法國2-0擊敗摩洛哥，連三屆闖入世界盃4強！Mbappé第60分鐘禁區外弧線球破門（世界盃第20球），第66分鐘助攻Dembélé低射入網（世界盃第8球，與Messi並列金靴榜首）。Mbappé上半場第24分鐘12碼罰球被Bounou撲出為本屆首次罰失。Issa Diop第63分鐘對Mbappé犯規領黃牌。法國將在7/14達拉斯AT&T體育場準決賽對陣西班牙或比利時勝方。',
+      goals: [
+        { min: 60, team: 1, scorer: 'Kylian Mbappé', assist: null, detail: '禁區外弧線球射入遠角，世界盃第20球！Mbappé本屆第8球追平Messi並列金靴榜首' },
+        { min: 66, team: 1, scorer: 'Ousmane Dembélé', assist: 'Kylian Mbappé', detail: 'Mbappé禁區邊緣妙傳，Dembélé禁區內低射穿過Bounou十指關入網，個人本屆第5球' }
+      ],
+      cards: [
+        { min: 24, team: 1, player: 'Kylian Mbappé', card: 'yellow', detail: '罰球被撲後與裁判爭論' },
+        { min: 63, team: 2, player: 'Issa Diop', card: 'yellow', detail: '鏟倒Mbappé犯規' }
+      ],
+      stats: {
+        possession: [48, 52],
+        shots: [22, 5],
+        shotsOnTarget: [8, 1],
+        shotsOffTarget: [10, 3],
+        shotsInsideBox: [14, 3],
+        shotsOutsideBox: [8, 2],
+        passes: [420, 480],
+        passCompleted: [360, 410],
+        passAccuracy: [85.7, 85.4],
+        corners: [5, 5],
+        fouls: [10, 13],
+        yellowCards: [1, 1],
+        redCards: [0, 0]
+      }
+    },
+
+    // 7月10日：8強賽第2場 — 未進行
+    { date: '2026-07-10', time: '15:00 ET', group: 'QF', team1: 'Spain', team2: 'Belgium', venue: '英格爾伍德·SoFi體育場', status: 'scheduled',
+      note: '西班牙時隔16年重返8強 vs 比利時！De Ketelaere狀態火熱 De Bruyne vs Yamal大戰！'
+    },
+    // 7月11日：8強賽第3場 — 未進行
+    { date: '2026-07-11', time: '17:00 ET', group: 'QF', team1: 'Norway', team2: 'England', venue: '邁阿密·硬石體育場', status: 'scheduled',
+      note: '挪威vs英格蘭 — Haaland vs Kane金靴之爭！Haaland世界盃7球與Messi/Mbappé並列射手榜首'
+    },
+    // 7月11日：8強賽第4場 — 未進行
+    { date: '2026-07-11', time: '21:00 ET', group: 'QF', team1: 'Argentina', team2: 'Switzerland', venue: '堪薩斯城·箭頭體育場', status: 'scheduled',
+      note: '阿根廷 vs 瑞士 — Messi vs Xhaka！阿根廷驚天逆轉埃及晉級，瑞士PK大戰力克哥倫比亞自1954年首闖8強'
+    },
   ],
 
   // 分組積分（賽後更新）
@@ -3583,7 +3626,7 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: "16強賽全部8場完成 ✅ ｜ 🏆 8強今晚開戰🔥 🇫🇷法國vs🇲🇦摩洛哥（7/9·福克斯堡）· 🇪🇸西班牙vs🇧🇪比利時（7/10·洛杉磯SoFi）· 🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）· 🇦🇷阿根廷vs🇨🇭瑞士（7/11·堪薩斯城） ｜ 📅 7/9 9:00AM更新：一切就緒🔥 8強賽今晚20:00 ET正式開打！🇫🇷法國vs🇲🇦摩洛哥率先登場 ｜ 🏆 7/10：🇪🇸西班牙vs🇧🇪比利時 — De Bruyne vs Yamal！7/11：🇳🇴挪威vs🇬🇧英格蘭 — Haaland vs Kane金靴對決！🇦🇷阿根廷vs🇨🇭瑞士 — Messi最後衝刺 ｜ ❌ 已淘汰：🇨🇦加拿大、🇵🇾巴拉圭、🇧🇷巴西、🇲🇽墨西哥、🇵🇹葡萄牙、🇺🇸美國、🇪🇬埃及、🇨🇴哥倫比亞 ｜ 🥇 Haaland·Mbappé·Messi各以7球並列射手榜首｜ 🏅 Messi世界盃第21球創歷史新高｜🇪🇳Enzo Fernandez打入世界盃第3000球 ｜ 🔥 輪播照片已換新！包含🇦🇷阿根廷逆轉🇪🇬、🇳🇴挪威爆冷🇧🇷巴西、🏴󠁧󠁢󠁥󠁮󠁧󠁿英格蘭力克🇲🇽墨西哥、🇪🇸西班牙絕殺🇵🇹葡萄牙🔥",
+    summary: "8強賽第一場戰果🔥 ｜ 🏆 🇫🇷法國2-0🇲🇦摩洛哥率先晉級4強！Mbappé 60'進球+66'助攻Dembélé🔥 ｜ 其餘8強賽程：🇪🇸西班牙vs🇧🇪比利時（7/10·洛杉磯SoFi）· 🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）· 🇦🇷阿根廷vs🇨🇭瑞士（7/11·堪薩斯城） ｜ 📅 7/9 晚間更新：法國連三屆殺入4強🔥 Mbappé世界盃第20球｜ 下一場準決賽：🇫🇷法國 vs 🇪🇸西班牙/🇧🇪比利時勝方（7/14·達拉斯）｜ 🥇 Mbappé·Messi各以8球並列金靴榜首｜ ❌ 已淘汰：🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦｜ 🏆 輪播照片已換新🔥",
     
     // PK 大戰結果
     penalties: {
@@ -3628,15 +3671,15 @@ const WC_DATA = {
       QF: {
         order: 3,
         name: '8強賽', nameEn: 'Quarter-Finals',
-        status: 'upcoming',
+        status: 'in_progress',
         totalMatches: 4,
-        completedCount: 0,
+        completedCount: 1,
         dateRange: '7月9日 — 7月11日',
         matchups: [
-          { team1: 'Morocco', team2: 'France', date: '2026-07-09', venue: '福克斯堡·吉列體育場', time: '20:00 ET', note: '8強賽第1場 — 2022年4強經典重現！' },
-          { team1: 'Spain', team2: 'Belgium', date: '2026-07-10', venue: '英格爾伍德·SoFi體育場', time: '15:00 ET', note: '🇪🇸西班牙時隔16年重返8強 vs 🇧🇪比利時！De Ketelaere狀態火熱🔥' },
+          { team1: 'France', score1: 2, team2: 'Morocco', score2: 0, date: '2026-07-09', venue: '福克斯堡·吉列體育場', time: '20:00 ET', status: 'completed', winner: 'France', note: 'France 2-0 Morocco - Mbappe 60 goal, Dembele 66 goal. France reach 3rd consecutive SF!' },
+          { team1: 'Spain', team2: 'Belgium', date: '2026-07-10', venue: '英格爾伍德·SoFi體育場', time: '15:00 ET', note: '西班牙時隔16年重返8強 vs 比利時！De Ketelaere狀態火熱' },
           { team1: 'Norway', team2: 'England', date: '2026-07-11', venue: '邁阿密·硬石體育場', time: '17:00 ET', note: '挪威vs英格蘭 — 兩隊首度在世界盃交手！Haaland世界盃7球與Messi/Mbappé並列射手榜首' },
-          { team1: 'Argentina', team2: 'Switzerland', date: '2026-07-11', venue: '堪薩斯城·箭頭體育場', time: '21:00 ET', note: '🇦🇷阿根廷 vs 🇨🇭瑞士 — Messi vs Xhaka！阿根廷驚天逆轉埃及晉級，瑞士PK大戰力克哥倫比亞自1954年首闖8強' }
+          { team1: 'Argentina', team2: 'Switzerland', date: '2026-07-11', venue: '堪薩斯城·箭頭體育場', time: '21:00 ET', note: '阿根廷 vs 瑞士 — Messi vs Xhaka！阿根廷驚天逆轉埃及晉級，瑞士PK大戰力克哥倫比亞自1954年首闖8強' }
         ]
       },
       SF: {
