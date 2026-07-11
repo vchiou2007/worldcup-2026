@@ -1586,129 +1586,263 @@ body {
 }
 
 /* =========================================================
-   淘汰賽樹狀圖 (Bracket / Tournament Tree)
-   靈感：經典 NCAA March Madness 風格
-   四欄水平布局：R16 → QF → SF → 🏆
+   淘汰賽樹狀圖 — 經典版 (Classic Bracket Tree)
+   靈感：World Cup 經典 bracket 布局
+   風格：Nordic Modern — 白底、青碧色 #0d9488、天藍 #0891b2、琥珀金 #f59e0b
    ========================================================= */
-.bracket-container {
-  background: var(--card-bg, #fff);
-  border-radius: 16px;
-  padding: 24px 16px;
-  border: 1px solid var(--border, #e2e8f0);
-  overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
+
+.bracket-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 16px 40px;
 }
-.bracket-title {
-  font-size: 1.15rem;
+.bracket-page h1 {
+  font-size: 1.6rem;
   font-weight: 700;
-  color: var(--text, #1e293b);
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  color: #1e293b;
+  text-align: center;
+  margin-bottom: 4px;
 }
-.bracket-grid {
+.bracket-page .bracket-sub {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  text-align: center;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+}
+
+/* === 主 container === */
+.bracket-tree {
   display: flex;
-  gap: 16px;
-  min-width: 820px;
   justify-content: center;
+  align-items: stretch;
+  gap: 0;
+  min-width: 900px;
+  padding: 20px 0;
+  position: relative;
 }
+
+/* === 每欄 === */
 .bracket-col {
-  flex: 1;
-  min-width: 160px;
-  max-width: 200px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  flex: 1;
+  min-width: 110px;
+  max-width: 150px;
+  padding: 0 4px;
 }
 .bracket-col-header {
-  font-size: 0.7rem;
-  font-weight: 700;
-  color: var(--text-muted, #94a3b8);
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  padding: 6px 10px;
-  margin-bottom: 4px;
-  border-bottom: 2px solid var(--border, #e2e8f0);
   text-align: center;
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #94a3b8;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 4px 0 8px;
+  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 8px;
 }
-.bracket-match {
+
+/* === 每個比賽 slot === */
+.bracket-slot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
-  margin: 3px 0;
-  flex-shrink: 0;
+  flex: 1;
+  min-height: 0;
 }
-.bracket-team {
+.bracket-slot.double { flex: 2; }
+.bracket-slot.quad  { flex: 4; }
+
+/* === 隊伍卡片 === */
+.b-team {
   display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 6px 8px;
+  gap: 5px;
+  padding: 5px 8px;
   border-radius: 6px;
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   font-weight: 600;
-  color: var(--text, #1e293b);
-  background: var(--bg, #f8fafc);
-  border: 1px solid var(--border, #e2e8f0);
+  color: #1e293b;
+  background: #f8fafc;
+  border: 1px solid #e2e8f0;
   transition: all 0.15s;
-  min-height: 32px;
+  min-height: 28px;
+  position: relative;
+  z-index: 2;
 }
-.bracket-team.winner {
+.b-team img.fimg { width: 18px; height: auto; border-radius: 2px; }
+.b-team .b-score {
+  margin-left: auto;
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: #0d9488;
+  background: rgba(13,148,136,0.08);
+  padding: 1px 5px;
+  border-radius: 4px;
+  min-width: 18px;
+  text-align: center;
+}
+.b-team .b-vs {
+  margin-left: auto;
+  font-size: 0.55rem;
+  color: #94a3b8;
+}
+.b-team.winner {
   background: linear-gradient(135deg, #dff6f0, #e8faf5);
-  border-color: var(--teal, #0d9488);
+  border-color: #0d9488;
+  box-shadow: 0 1px 4px rgba(13,148,136,0.12);
 }
-.bracket-team.eliminated {
-  opacity: 0.55;
-}
-.bracket-team.loser {
-  opacity: 0.55;
+.b-team.loser {
+  opacity: 0.5;
   font-weight: 400;
 }
-.bracket-team.tbd {
-  opacity: 0.4;
+.b-team.tbd {
+  opacity: 0.35;
   font-style: italic;
 }
-.bracket-team .b-score {
-  margin-left: auto;
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: var(--teal, #0d9488);
-  background: rgba(13,148,136,0.1);
-  padding: 1px 6px;
-  border-radius: 4px;
-  min-width: 22px;
-  text-align: center;
+
+/* === 上半區 / 下半區分隔線 === */
+.bracket-divider {
+  width: 2px;
+  background: linear-gradient(to bottom, transparent 5%, #0d9488 20%, #0d9488 80%, transparent 95%);
+  margin: 0 8px;
+  align-self: stretch;
+  flex-shrink: 0;
+  opacity: 0.2;
 }
-.bracket-team .b-vs {
-  margin-left: auto;
-  font-size: 0.6rem;
-  color: var(--text-muted, #94a3b8);
-  font-weight: 400;
-}
-.bracket-final {
-  background: linear-gradient(135deg, #fbbf24, #f59e0b);
-  border-color: #d97706;
-  text-align: center;
+
+/* === 決賽 + 冠軍 === */
+.bracket-final-col {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-weight: 800;
+  align-items: center;
+  flex: 1.2;
+  min-width: 130px;
+  max-width: 180px;
+  padding: 0 8px;
+  position: relative;
+}
+.bracket-final-team {
+  text-align: center;
+  padding: 8px 12px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 0.82rem;
+  min-width: 90px;
+  margin: 6px 0;
+}
+.bracket-final-team.finalist {
+  background: #fef9e7;
+  border: 2px solid #fbbf24;
   color: #78350f;
-  padding: 12px 8px;
-  border-radius: 10px;
-  font-size: 0.85rem;
-  min-height: 48px;
 }
-.bracket-final.empty {
-  background: var(--bg, #f8fafc);
-  border: 2px dashed var(--border, #e2e8f0);
-  color: var(--text-muted, #94a3b8);
-  font-weight: 500;
+.bracket-final-team.tbd-finalist {
+  background: #f8fafc;
+  border: 2px dashed #d1d5db;
+  color: #94a3b8;
 }
-.bracket-spacer {
-  flex: 1;
-  min-height: 8px;
+.bracket-final-team.champion {
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+  border: 2px solid #d97706;
+  color: #78350f;
+  font-size: 1rem;
+  padding: 14px 20px;
+  margin-top: 10px;
+  box-shadow: 0 4px 16px rgba(245,158,11,0.25);
+}
+.bracket-final-team .trophy-icon {
+  font-size: 1.8rem;
+  display: block;
+  margin-bottom: 4px;
+}
+.bracket-vs-line {
+  font-size: 0.6rem;
+  color: #94a3b8;
+  letter-spacing: 2px;
+  margin: 2px 0;
+}
+
+/* === 連接線 (Connector Lines) === */
+.bracket-col::before {
+  content: '';
+  position: absolute;
+  top: 0; bottom: 0;
+  width: 2px;
+  background: #cbd5e1;
+  z-index: 1;
+  opacity: 0.4;
+}
+/* 左邊欄：線在右側 */
+.bracket-col.left-half::before { right: -2px; }
+/* 右邊欄：線在左側 */
+.bracket-col.right-half::before { left: -2px; }
+
+/* 每個 slot 的連接線 — 水平分支 */
+.bracket-slot::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 10px;
+  height: 2px;
+  background: #cbd5e1;
+  z-index: 1;
+  opacity: 0.4;
+}
+.bracket-col.left-half .bracket-slot::after { right: -8px; }
+.bracket-col.right-half .bracket-slot::after { left: -8px; }
+
+/* 垂直分支 — QF/R16 之間 */
+.bracket-slot.connector-top::before,
+.bracket-slot.connector-bottom::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background: #cbd5e1;
+  z-index: 1;
+  opacity: 0.4;
+}
+.bracket-col.left-half .bracket-slot.connector-top::before {
+  right: -8px;
+  top: 0; bottom: 50%;
+  height: 50%;
+}
+.bracket-col.left-half .bracket-slot.connector-bottom::before {
+  right: -8px;
+  top: 50%; bottom: 0;
+  height: 50%;
+}
+
+/* 所有圖片 */
+.b-team img[src*="flagcdn"] {
+  width: 18px;
+  height: auto;
+  border-radius: 2px;
+  vertical-align: middle;
 }
 
 /* 響應式 */
-@media (max-width: 900px) {
-  .bracket-container { padding: 16px 8px; }
-  .bracket-grid { gap: 10px; min-width: 700px; }
-  .bracket-col { min-width: 140px; max-width: 170px; }
-  .bracket-team { font-size: 0.7rem; padding: 4px 6px; min-height: 28px; }
+@media (max-width: 1000px) {
+  .bracket-tree { min-width: 700px; }
+  .bracket-col { min-width: 90px; max-width: 120px; }
+  .b-team { font-size: 0.65rem; padding: 4px 6px; min-height: 24px; }
+  .b-team img.fimg, .b-team img[src*="flagcdn"] { width: 14px; }
+  .bracket-final-col { min-width: 100px; }
+  .bracket-page { padding: 12px 8px; }
+  .bracket-tree { overflow-x: auto; }
+}
+
+@media (max-width: 600px) {
+  .bracket-tree { min-width: 600px; }
+  .bracket-col { min-width: 75px; max-width: 95px; padding: 0 2px; }
+  .b-team { font-size: 0.55rem; padding: 3px 4px; min-height: 20px; gap: 3px; }
+  .b-team .b-score { font-size: 0.55rem; min-width: 14px; padding: 0 3px; }
+  .bracket-col-header { font-size: 0.5rem; }
+  .bracket-final-col { min-width: 80px; }
+  .bracket-final-team { font-size: 0.65rem; padding: 4px 6px; }
+  .bracket-final-team .trophy-icon { font-size: 1.2rem; }
 }

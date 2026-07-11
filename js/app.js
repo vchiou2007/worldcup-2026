@@ -382,7 +382,148 @@ function renderHomeKnockout(){
   el.style.display = '';
 }
 
-// ========== 🏆 淘汰賽樹狀圖 (Bracket) — 左到右 R16→QF→SF→Final ==========
+// ========== 🏆 淘汰賽經典樹狀圖 (Classic Bracket Tree) ==========
+// 獨立頁面 bracket.html 專用渲染器
+// 經典 7 欄布局：R16_L → QF_L → SF_L || Final || SF_R → QF_R → R16_R
+function renderBracketTree(){
+  const el = document.getElementById('bracket-tree');
+  if(!el) return;
+  const ko = WC_DATA.knockout;
+  const r16m = ko.rounds.R16.matchups;
+  const qfm = ko.rounds.QF.matchups;
+  const sfm = ko.rounds.SF.matchups;
+  const pen = ko.penalties || {};
+
+  // 輔助：建構隊伍卡片 HTML
+  function tm(t, score, isWinner, cls){
+    const c = isWinner ? 'winner' : (cls||'loser');
+    const s = (score!==undefined && score!==null) ? `<span class="b-score">${score}</span>` : `<span class="b-vs">VS</span>`;
+    return `<div class="b-team ${c}">${fimgSm(t)} ${t}${s}</div>`;
+  }
+  function tbd(){ return `<div class="b-team tbd">🤷 待定</div>`; }
+  function pkStr(t1,t2){
+    const k=t1+'-vs-'+t2;
+    return pen[k] ? `（PK ${pen[k].score}）` : '';
+  }
+
+  // 建立單一回合欄的隊伍卡
+  // matches: 比賽陣列, multi: 是否要多層間距
+  function buildCol(matches, half){
+    let h = '';
+    for(const m of matches){
+      const done = m.status === 'completed';
+      const t1 = m.team1, t2 = m.team2;
+      if(t1 === 'TBD' || t2 === 'TBD'){
+        h += `<div class="bracket-slot">${tbd()}${tbd()}</div>`;
+      } else {
+        const w = done ? m.winner : null;
+        h += `<div class="bracket-slot">${tm(t1, m.score1, done && w === t1)}${tm(t2, m.score2, done && w===t2)}</div>`;
+      }
+    }
+    return h;
+  }
+
+  // R16 左半：上半區 4 場 (indices 0,1 — QF0) + (indices 4,5 — QF1)
+  // R16 右半：下半區 4 場 (indices 2,3 — QF2) + (indices 6,7 — QF3)
+  const r16L = [r16m[0], r16m[1], r16m[4], r16m[5]];
+  const r16R = [r16m[2], r16m[3], r16m[6], r16m[7]];
+  const qfL = [qfm[0], qfm[1]];
+  const qfR = [qfm[2], qfm[3]];
+  const sfL = [sfm[0]];
+
+  // ⚠️ 下半區 SF 要看 sfm[1] 是否存在
+  // 因 WC_DATA.knockout.rounds.SF.matchups 只有 2 個 match 或 1 個
+  const sfR_has2 = sfm.length > 1 && sfm[1];
+  const sfR = sfR_has2 ? [sfm[1]] : [];
+
+  // 決賽資訊
+  const fin = ko.rounds.Final;
+  const finVenue = fin.venue || '東盧瑟福';
+
+  // 上半區 SF 對手 (SF finalists)
+  const sf1t1 = sfL[0].team1;
+  const sf1t2 = sfL[0].team2;
+  const sf2t1 = sfR_has2 ? sfR[0].team1 : 'TBD';
+  const sf2t2 = sfR_has2 ? sfR[0].team2 : 'TBD';
+
+  const sf1done = sfL[0].status === 'completed';
+  const sf1w = sf1done ? sfL[0].winner : null;
+  const sf2done = sfR_has2 && sfR[0].status === 'completed';
+  const sf2w = sf2done ? sfR[0].winner : null;
+
+  const champion1 = sf1done ? sfL[0].winner : null;
+  const champion2 = sfR_has2 && sf2done ? sfR[0].winner : null;
+  const champion = (sf1done && sf2done) ? '🏆 冠軍尚未決定' :
+    (sf1done ? sfL[0].winner : (sf2done ? sfR[0].winner : null));
+
+  el.innerHTML = `
+    <div class="bracket-tree">
+      <!-- ===== 左半：16強 ===== -->
+      <div class="bracket-col left-half">
+        <div class="bracket-col-header">16 強賽</div>
+        ${buildCol(r16L)}
+      </div>
+      <!-- ===== 左半：8強 ===== -->
+      <div class="bracket-col left-half">
+        <div class="bracket-col-header">8 強賽</div>
+        ${buildCol(qfL)}
+      </div>
+      <!-- ===== 左半：準決賽 ===== -->
+      <div class="bracket-col left-half">
+        <div class="bracket-col-header">準決賽</div>
+        <div class="bracket-slot quad">
+          ${sf1t1 !== 'TBD' ? tm(sf1t1, sfL[0].score1, sf1done && sf1w === sf1t1) : tbd()}
+          ${sf1t2 !== 'TBD' ? tm(sf1t2, sfL[0].score2, sf1done && sf1w === sf1t2) : tbd()}
+        </div>
+      </div>
+
+      <!-- ===== 分隔線 ===== -->
+      <div class="bracket-divider"></div>
+
+      <!-- ===== 決賽 + 冠軍 ===== -->
+      <div class="bracket-final-col">
+        <div class="bracket-col-header">決賽</div>
+        <div class="bracket-final-team ${sf1t1 !== 'TBD' && sf1w ? 'finalist' : 'tbd-finalist'}">
+          ${sf1t1 !== 'TBD' && sf1w ? '🏆 ' + sf1w : '🤷 待定'}
+        </div>
+        <div class="bracket-vs-line">VS</div>
+        <div class="bracket-final-team ${sf2t1 !== 'TBD' && sf2w ? 'finalist' : 'tbd-finalist'}">
+          ${sf2t1 !== 'TBD' && sf2w ? '🏆 ' + sf2w : '🤷 待定'}
+        </div>
+        <div class="bracket-vs-line" style="margin-top:8px;">—</div>
+        <div class="bracket-final-team champion">
+          <span class="trophy-icon">🏆</span>
+          ${champion || '冠軍尚未產生'}
+          <div style="font-size:0.6rem;font-weight:400;margin-top:2px;opacity:0.7;">${finVenue}</div>
+        </div>
+      </div>
+
+      <!-- ===== 分隔線 ===== -->
+      <div class="bracket-divider"></div>
+
+      <!-- ===== 右半：準決賽 ===== -->
+      <div class="bracket-col right-half">
+        <div class="bracket-col-header">準決賽</div>
+        <div class="bracket-slot quad">
+          ${sf2t1 !== 'TBD' ? tm(sf2t1, sfR_has2 ? sfR[0].score1 : null, sf2done && sf2w === sf2t1) : tbd()}
+          ${sf2t2 !== 'TBD' ? tm(sf2t2, sfR_has2 ? sfR[0].score2 : null, sf2done && sf2w === sf2t2) : tbd()}
+        </div>
+      </div>
+      <!-- ===== 右半：8強 ===== -->
+      <div class="bracket-col right-half">
+        <div class="bracket-col-header">8 強賽</div>
+        ${buildCol(qfR)}
+      </div>
+      <!-- ===== 右半：16強 ===== -->
+      <div class="bracket-col right-half">
+        <div class="bracket-col-header">16 強賽</div>
+        ${buildCol(r16R)}
+      </div>
+    </div>
+  `;
+}
+
+// ========== 🏆 淘汰賽樹狀圖 (Bracket) — 首頁精簡版 ==========
 function renderBracket(){
   const el = document.getElementById('bracket-section');
   if(!el) return;
@@ -542,7 +683,6 @@ function renderHome(){
   }
   const el3=document.getElementById('groups-mini');
   renderHomeKnockout();
-  renderBracket();
   if(el3){
     let h=`<h2 class="section-title">🏆 分組積分一覽</h2><div class="gm-grid">`;
     for(const g of WC_DATA.groups){
