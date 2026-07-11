@@ -1,14 +1,17 @@
 // 2026 世界盃 PWA Service Worker
-const CACHE = 'worldcup-2026-v6';
+const CACHE = 'worldcup-2026-v7';
 const URLS = [
   '/worldcup-2026/',
   '/worldcup-2026/index.html',
+  '/worldcup-2026/bracket.html',
   '/worldcup-2026/groups.html',
   '/worldcup-2026/teams.html',
   '/worldcup-2026/matches.html',
   '/worldcup-2026/knockout.html',
   '/worldcup-2026/css/style.css',
   '/worldcup-2026/js/app.js',
+  '/worldcup-2026/data/worldcup-data.js',
+  '/worldcup-2026/data/player_images.js',
   '/worldcup-2026/manifest.json',
   '/worldcup-2026/icons/icon.svg'
 ];

@@ -53,6 +53,7 @@
       const u = document.getElementById('update-time');
       if(u) u.textContent = new Date().toLocaleString('zh-TW', {timeZone:'America/Toronto'});
     });
+    if('serviceWorker' in navigator){ navigator.serviceWorker.register('sw.js?v=7'); }
   </script>
 </body>
 </html>
