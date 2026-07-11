@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: "⚽ 8強賽 (Quarter-Finals) 第二場戰果🔥 ｜ 🏆 🇪🇸西班牙2-1🇧🇪比利時晉級4強！Merino 88'替補絕殺🔥 ｜ 📅 7/10 晚間更新：西班牙36場不敗追平阿根廷紀錄🇪🇸🔥｜ 🇪🇸西班牙vs🇫🇷法國（7/14·達拉斯）— Merino連兩場絕殺！｜ ⏳ 明日8強：🇳🇴挪威vs🇬🇧英格蘭（7/11 17:00 ET·邁阿密）— Haaland vs Kane金靴頂上對決！🇦🇷阿根廷vs🇨🇭瑞士（7/11 21:00 ET·堪薩斯城）— Messi最後衝刺🔥 ｜ 🥇 Mbappé·Messi各以8球並列金靴榜首｜ 🇫🇷法國連三屆闖進4強🔥｜ ❌ 已淘汰：🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦🇧🇪｜ 🏆 準決賽：🇫🇷法國vs🇪🇸西班牙（7/14·達拉斯）🔥",
+    currentPhase: "⚽ 8強賽 (Quarter-Finals) 第二場戰果🔥 ｜ 🏆 🇪🇸西班牙2-1🇧🇪比利時晉級4強！Merino 88'替補絕殺🔥 ｜ 📅 7/11 上午更新：今日8強賽—🇳🇴挪威vs🇬🇧英格蘭（17:00 ET·邁阿密）· 🇦🇷阿根廷vs🇨🇭瑞士（21:00 ET·堪薩斯城）🔥 ｜ 🥇 Mbappé·Messi各以8球並列金靴榜首｜ 🇫🇷法國vs🇪🇸西班牙（7/14·達拉斯）— 準決賽頂上對決！ ｜ ❌ 已淘汰：🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦🇧🇪｜ 🏆 準決賽：🇫🇷法國vs🇪🇸西班牙（7/14·達拉斯）🔥",
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -3570,39 +3570,6 @@ const WC_DATA = {
       }
     },
     // 7月11日：8強賽第3場 — 未進行
-        { min: 41, team: 2, scorer: 'Charles De Ketelaere', assist: 'Timothy Castagne', detail: 'De Bruyne妙傳Castagne右路傳中，De Ketelaere頭槌破門，終結Unai Simón世界盃650分鐘不失球紀錄' },
-        { min: 88, team: 1, scorer: 'Mikel Merino', assist: 'Pau Cubarsí', detail: 'Cubarsí禁區外遠射，替補門將Lammens撲球脫手，Merino跟進補射破門絕殺！繼16強賽vs葡萄牙後再次替補絕殺' }
-      ],
-      cards: [
-        { min: 71, team: 2, player: 'Thibaut Courtois', card: 'yellow', detail: '受傷退場時延誤時間' },
-        { min: 85, team: 2, player: 'Kevin De Bruyne', card: 'yellow', detail: '戰術犯規阻止Ferran Torres反擊' },
-        { min: 90, team: 1, player: 'Pau Cubarsí', card: 'yellow', detail: '戰術犯規' },
-        { min: 90, team: 1, player: 'Aymeric Laporte', card: 'yellow', detail: '拉倒Doku阻止反擊' },
-        { min: 67, team: 2, player: 'Maxim De Cuyper', card: 'yellow', detail: '犯規' }
-      ],
-      stats: {
-        possession: [68, 32],
-        shots: [12, 3],
-        shotsOnTarget: [5, 1],
-        shotsOffTarget: [5, 1],
-        shotsInsideBox: [8, 2],
-        shotsOutsideBox: [4, 1],
-        passes: [620, 310],
-        passCompleted: [560, 250],
-        passAccuracy: [90.3, 80.6],
-        crosses: [22, 10],
-        crossesCompleted: [7, 2],
-        corners: [7, 2],
-        freeKicks: [12, 14],
-        fouls: [13, 18],
-        offsides: [3, 1],
-        yellowCards: [2, 2],
-        redCards: [0, 0],
-        forcedTurnovers: [49, 39],
-        pressingApplied: [240, 220]
-      }
-    },
-    // 7月11日：8強賽第3場 — 未進行
     { date: '2026-07-11', time: '17:00 ET', group: 'QF', team1: 'Norway', team2: 'England', venue: '邁阿密·硬石體育場', status: 'scheduled',
       note: '🇳🇴挪威vs🇬🇧英格蘭 — Haaland vs Kane金靴之爭！Haaland世界盃7球與Messi/Mbappé並列射手榜首'
     },
@@ -3617,7 +3584,7 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: "8強賽第二場戰果🔥 ｜ 🏆 🇪🇸西班牙2-1🇧🇪比利時晉級4強！Merino 88'替補絕殺🔥 ｜ 其餘8強賽程：🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）· 🇦🇷阿根廷vs🇨🇭瑞士（7/11·堪薩斯城） ｜ 📅 7/10 晚間更新：西班牙連兩場淘汰賽絕殺🔥 Merino成爲英雄｜ 準決賽對陣：🇫🇷法國 vs 🇪🇸西班牙（7/14·達拉斯）🔥｜ 🥇 Mbappé·Messi各以8球並列金靴榜首｜ ❌ 已淘汰：🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦🇧🇪｜ 🏆 輪播照片已換新🔥",
+    summary: "8強賽第二場戰果🔥 ｜ 🏆 🇪🇸西班牙2-1🇧🇪比利時晉級4強！Merino 88'替補絕殺🔥 ｜ 今日8強賽程：🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）· 🇦🇷阿根廷vs🇨🇭瑞士（7/11·堪薩斯城） ｜ 📅 7/11 上午更新：西班牙連兩場淘汰賽絕殺🔥 Merino成爲英雄｜ 準決賽對陣：🇫🇷法國 vs 🇪🇸西班牙（7/14·達拉斯）🔥｜ 🥇 Mbappé·Messi各以8球並列金靴榜首｜ ❌ 已淘汰：🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦🇧🇪｜ 🏆 輪播照片已換新🔥",
     
     // PK 大戰結果
     penalties: {
