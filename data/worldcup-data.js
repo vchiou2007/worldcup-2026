@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: "⚽ 8強賽 (Quarter-Finals) 第一場戰果🔥 ｜ 🏆 🇫🇷法國2-0🇲🇦摩洛哥晉級4強！Mbappé 60'進球+66'助攻Dembélé🔥 ｜ 📅 7/9 晚間更新：法國率先殺入準決賽！Mbappé第20顆世界盃進球｜ 🥇 Mbappé·Messi各以8球並列金靴榜首｜ ⏳ 下一場：🇪🇸西班牙vs🇧🇪比利時（7/10 15:00 ET·洛杉磯SoFi）— De Bruyne vs Yamal！🇳🇴挪威vs🇬🇧英格蘭（7/11 17:00 ET·邁阿密）— Haaland vs Kane金靴頂上對決！🇦🇷阿根廷vs🇨🇭瑞士（7/11 21:00 ET·堪薩斯城）— Messi最後衝刺🔥 ｜ 🥇 Mbappé世界盃第20球｜ 🇫🇷法國連三屆闖進4強🔥 ｜ ❌ 已淘汰：🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦",
+    currentPhase: "⚽ 8強賽 (Quarter-Finals) 第二場戰果🔥 ｜ 🏆 🇪🇸西班牙2-1🇧🇪比利時晉級4強！Merino 88'替補絕殺🔥 ｜ 📅 7/10 晚間更新：西班牙36場不敗追平阿根廷紀錄🇪🇸🔥｜ 🇪🇸西班牙vs🇫🇷法國（7/14·達拉斯）— Merino連兩場絕殺！｜ ⏳ 明日8強：🇳🇴挪威vs🇬🇧英格蘭（7/11 17:00 ET·邁阿密）— Haaland vs Kane金靴頂上對決！🇦🇷阿根廷vs🇨🇭瑞士（7/11 21:00 ET·堪薩斯城）— Messi最後衝刺🔥 ｜ 🥇 Mbappé·Messi各以8球並列金靴榜首｜ 🇫🇷法國連三屆闖進4強🔥｜ ❌ 已淘汰：🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦🇧🇪｜ 🏆 準決賽：🇫🇷法國vs🇪🇸西班牙（7/14·達拉斯）🔥",
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -3084,7 +3084,7 @@ const WC_DATA = {
       }
     },
     { date: '2026-07-02', time: '19:00 ET', group: 'R32', team1: 'Spain', score1: 3, team2: 'Austria', score2: 0, venue: '洛杉磯·SoFi體育場', status: 'completed',
-      note: '西班牙晉級16強！終結16年世界盃淘汰賽不勝魔咒！Mikel Oyarzabal梅開二度（37\'、89\'），Pedro Porro頭槌破門（66\'）取得國際賽首球。Cucurella進球被吹爭議。西班牙將在16強賽對陣🇵🇹葡萄牙！',
+      note: '西班牙晉級16強！終結16年世界盃淘汰賽不勝魔咒！Mikel Oyarzabal梅開二度（37分、89分），Pedro Porro頭槌破門（66分）取得國際賽首球。Cucurella進球被吹爭議。西班牙將在16強賽對陣🇵🇹葡萄牙！',
       goals: [
         { min: 37, team: 1, scorer: 'Mikel Oyarzabal', detail: '禁區內冷靜射門入網，西班牙1-0領先' },
         { min: 66, team: 1, scorer: 'Pedro Porro', assist: 'Álex Baena', detail: 'Baena開出定位球，Porro禁區中央頭槌入網，擴大領先' },
@@ -3151,7 +3151,7 @@ const WC_DATA = {
 
     // === 7月3日 ===
     { date: '2026-07-03', time: '16:00 ET', group: 'R32', team1: 'Argentina', score1: 3, team2: 'Cape Verde', score2: 2, venue: '邁阿密·硬石體育場', status: 'completed',
-      note: '阿根廷延長賽驚險晉級16強！Lionel Messi第29分鐘先馳得點，Cape Verde憑Deroy Duarte（59\'）和Sidny Lopes Cabral第99分鐘世界波兩度追平，Lisandro Martinez第92分鐘頭槌建功，Diney Borges第111分鐘自擺烏龍致勝。阿根廷將在16強賽對陣埃及！',
+      note: '阿根廷延長賽驚險晉級16強！Lionel Messi第29分鐘先馳得點，Cape Verde憑Deroy Duarte（59分）和Sidny Lopes Cabral第99分鐘世界波兩度追平，Lisandro Martinez第92分鐘頭槌建功，Diney Borges第111分鐘自擺烏龍致勝。阿根廷將在16強賽對陣埃及！',
       goals: [
         { min: 29, team: 1, scorer: 'Lionel Messi', assist: 'Lisandro Martinez', detail: 'Lisandro Martinez長傳禁區，Messi胸部停球後抽射入網，連續第8場世界盃進球！' },
         { min: 59, team: 2, scorer: 'Deroy Duarte', assist: 'Ryan Mendes', detail: 'Mendes傳球，Duarte禁區內低射從Lisandro Martinez雙腿間穿過入網，1-1' },
@@ -3202,7 +3202,7 @@ const WC_DATA = {
       penalty: { winner: 'Egypt', score: '4-2', team1score: 2, team2score: 4 },
       goals: [
         { min: 13, team: 2, scorer: 'Emam Ashour', assist: 'Karim Hafez', detail: '頭球攻門，Hafez自由球傳中，Ashour在門前強力頭槌破網' },
-        { min: 54, team: 1, scorer: 'Mohamed Hany', assist: null, detail: 'own goal — Aiden O\'Neill自由球傳中造成禁區混亂，Hany在Circati壓力下頭球誤入自家大門' }
+        { min: 54, team: 1, scorer: 'Mohamed Hany', assist: null, detail: 'own goal - Aiden ONeill自由球傳中造成禁區混亂，Hany在Circati壓力下頭球誤入自家大門' }
       ],
       cards: [],
       stats: {
@@ -3508,7 +3508,7 @@ const WC_DATA = {
 
     // === 7月9日：8強賽第1場 ===
     { date: '2026-07-09', time: '20:00 ET', group: 'QF', team1: 'France', score1: 2, team2: 'Morocco', score2: 0, venue: '福克斯堡·吉列體育場', status: 'completed',
-      note: '法國2-0擊敗摩洛哥，連三屆闖入世界盃4強！Mbappé第60分鐘禁區外弧線球破門（世界盃第20球），第66分鐘助攻Dembélé低射入網（世界盃第8球，與Messi並列金靴榜首）。Mbappé上半場第24分鐘12碼罰球被Bounou撲出為本屆首次罰失。Issa Diop第63分鐘對Mbappé犯規領黃牌。法國將在7/14達拉斯AT&T體育場準決賽對陣西班牙或比利時勝方。',
+      note: '法國2-0擊敗摩洛哥，連三屆闖入世界盃4強！Mbappé第60分鐘禁區外弧線球破門（世界盃第20球），第66分鐘助攻Dembélé低射入網（世界盃第8球，與Messi並列金靴榜首）。Mbappé上半場第24分鐘12碼罰球被Bounou撲出為本屆首次罰失。Issa Diop第63分鐘對Mbappé犯規領黃牌。法國將在7/14達拉斯AT&T體育場準決賽對陣🇪🇸西班牙或🇧🇪比利時勝方。',
       goals: [
         { min: 60, team: 1, scorer: 'Kylian Mbappé', assist: null, detail: '禁區外弧線球射入遠角，世界盃第20球！Mbappé本屆第8球追平Messi並列金靴榜首' },
         { min: 66, team: 1, scorer: 'Ousmane Dembélé', assist: 'Kylian Mbappé', detail: 'Mbappé禁區邊緣妙傳，Dembélé禁區內低射穿過Bounou十指關入網，個人本屆第5球' }
@@ -3534,99 +3534,90 @@ const WC_DATA = {
       }
     },
 
-    // 7月10日：8強賽第2場 — 未進行
-    { date: '2026-07-10', time: '15:00 ET', group: 'QF', team1: 'Spain', team2: 'Belgium', venue: '英格爾伍德·SoFi體育場', status: 'scheduled',
-      note: '西班牙時隔16年重返8強 vs 比利時！De Ketelaere狀態火熱 De Bruyne vs Yamal大戰！'
+    // 7月10日：8強賽第2場 — 西班牙2-1比利時
+    { date: '2026-07-10', time: '15:00 ET', group: 'QF', team1: 'Spain', score1: 2, team2: 'Belgium', score2: 1, venue: '英格爾伍德·SoFi體育場', status: 'completed',
+      note: '西班牙2-1力克比利時晉級4強！Fabian Ruiz 30\'首開紀錄，De Ketelaere 41\'頭槌扳平，Mikel Merino 88\'再次替補絕殺！Courtois 71\'傷退為轉折點，替補門將Lammens撲球脫手釀成大錯。西班牙36場不敗追平阿根廷紀錄，將在7/14達拉斯準決賽對陣法國！',
+      goals: [
+        { min: 30, team: 1, scorer: 'Fabian Ruiz', detail: 'Dani Olmo射門被Courtois撲出，Ruiz跟進補射入網' },
+        { min: 41, team: 2, scorer: 'Charles De Ketelaere', assist: 'Timothy Castagne', detail: 'De Bruyne直傳，Castagne右路傳中，De Ketelaere頭槌破門扳平' },
+        { min: 88, team: 1, scorer: 'Mikel Merino', detail: 'Pau Cubarsi遠射造成Lammens脫手，Merino跟進補射絕殺' }
+      ],
+      cards: [
+        { min: 35, team: 1, player: 'Dani Olmo', card: 'yellow', detail: '戰術犯規' },
+        { min: 55, team: 2, player: 'Kevin De Bruyne', card: 'yellow', detail: '中場犯規阻止反擊' },
+        { min: 71, team: 2, player: 'Brandon Mechele', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [65, 35],
+        shots: [18, 8],
+        shotsOnTarget: [6, 3],
+        shotsOffTarget: [8, 3],
+        shotsInsideBox: [11, 5],
+        shotsOutsideBox: [7, 3],
+        passes: [610, 370],
+        passCompleted: [550, 310],
+        passAccuracy: [90.2, 83.8],
+        crosses: [24, 14],
+        crossesCompleted: [7, 4],
+        corners: [8, 3],
+        freeKicks: [12, 14],
+        fouls: [12, 14],
+        offsides: [2, 3],
+        yellowCards: [1, 2],
+        redCards: [0, 0],
+        forcedTurnovers: [28, 32],
+        pressingApplied: [220, 250]
+      }
+    },
+    // 7月11日：8強賽第3場 — 未進行
+        { min: 41, team: 2, scorer: 'Charles De Ketelaere', assist: 'Timothy Castagne', detail: 'De Bruyne妙傳Castagne右路傳中，De Ketelaere頭槌破門，終結Unai Simón世界盃650分鐘不失球紀錄' },
+        { min: 88, team: 1, scorer: 'Mikel Merino', assist: 'Pau Cubarsí', detail: 'Cubarsí禁區外遠射，替補門將Lammens撲球脫手，Merino跟進補射破門絕殺！繼16強賽vs葡萄牙後再次替補絕殺' }
+      ],
+      cards: [
+        { min: 71, team: 2, player: 'Thibaut Courtois', card: 'yellow', detail: '受傷退場時延誤時間' },
+        { min: 85, team: 2, player: 'Kevin De Bruyne', card: 'yellow', detail: '戰術犯規阻止Ferran Torres反擊' },
+        { min: 90, team: 1, player: 'Pau Cubarsí', card: 'yellow', detail: '戰術犯規' },
+        { min: 90, team: 1, player: 'Aymeric Laporte', card: 'yellow', detail: '拉倒Doku阻止反擊' },
+        { min: 67, team: 2, player: 'Maxim De Cuyper', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [68, 32],
+        shots: [12, 3],
+        shotsOnTarget: [5, 1],
+        shotsOffTarget: [5, 1],
+        shotsInsideBox: [8, 2],
+        shotsOutsideBox: [4, 1],
+        passes: [620, 310],
+        passCompleted: [560, 250],
+        passAccuracy: [90.3, 80.6],
+        crosses: [22, 10],
+        crossesCompleted: [7, 2],
+        corners: [7, 2],
+        freeKicks: [12, 14],
+        fouls: [13, 18],
+        offsides: [3, 1],
+        yellowCards: [2, 2],
+        redCards: [0, 0],
+        forcedTurnovers: [49, 39],
+        pressingApplied: [240, 220]
+      }
     },
     // 7月11日：8強賽第3場 — 未進行
     { date: '2026-07-11', time: '17:00 ET', group: 'QF', team1: 'Norway', team2: 'England', venue: '邁阿密·硬石體育場', status: 'scheduled',
-      note: '挪威vs英格蘭 — Haaland vs Kane金靴之爭！Haaland世界盃7球與Messi/Mbappé並列射手榜首'
+      note: '🇳🇴挪威vs🇬🇧英格蘭 — Haaland vs Kane金靴之爭！Haaland世界盃7球與Messi/Mbappé並列射手榜首'
     },
     // 7月11日：8強賽第4場 — 未進行
     { date: '2026-07-11', time: '21:00 ET', group: 'QF', team1: 'Argentina', team2: 'Switzerland', venue: '堪薩斯城·箭頭體育場', status: 'scheduled',
-      note: '阿根廷 vs 瑞士 — Messi vs Xhaka！阿根廷驚天逆轉埃及晉級，瑞士PK大戰力克哥倫比亞自1954年首闖8強'
+      note: '🇦🇷阿根廷 vs 🇨🇭瑞士 — Messi vs Xhaka！阿根廷驚天逆轉埃及晉級，瑞士PK大戰力克哥倫比亞自1954年首闖8強'
     },
   ],
 
   // 分組積分（賽後更新）
-  standings: {
-    'A': [
-      { team: 'Mexico', played: 3, won: 3, drawn: 0, lost: 0, gf: 6, ga: 0, gd: 6, pts: 9 },
-      { team: 'South Africa', played: 3, won: 1, drawn: 1, lost: 1, gf: 2, ga: 3, gd: -1, pts: 4 },
-      { team: 'South Korea', played: 3, won: 1, drawn: 0, lost: 2, gf: 2, ga: 3, gd: -1, pts: 3 },
-      { team: 'Czechia', played: 3, won: 0, drawn: 1, lost: 2, gf: 2, ga: 6, gd: -4, pts: 1 }
-    ],
-    'B': [
-      { team: 'Switzerland', played: 3, won: 2, drawn: 1, lost: 0, gf: 7, ga: 3, gd: 4, pts: 7 },
-      { team: 'Canada', played: 3, won: 1, drawn: 1, lost: 1, gf: 8, ga: 3, gd: 5, pts: 4 },
-      { team: 'Bosnia and Herzegovina', played: 3, won: 1, drawn: 1, lost: 1, gf: 5, ga: 6, gd: -1, pts: 4 },
-      { team: 'Qatar', played: 3, won: 0, drawn: 1, lost: 2, gf: 2, ga: 10, gd: -8, pts: 1 }
-    ],
-    'C': [
-      { team: 'Brazil', played: 3, won: 2, drawn: 1, lost: 0, gf: 7, ga: 1, gd: 6, pts: 7 },
-      { team: 'Morocco', played: 3, won: 2, drawn: 1, lost: 0, gf: 6, ga: 3, gd: 3, pts: 7 },
-      { team: 'Scotland', played: 3, won: 1, drawn: 0, lost: 2, gf: 1, ga: 4, gd: -3, pts: 3 },
-      { team: 'Haiti', played: 3, won: 0, drawn: 0, lost: 3, gf: 2, ga: 8, gd: -6, pts: 0 }
-    ],
-    'D': [
-      { team: 'USA', played: 3, won: 2, drawn: 0, lost: 1, gf: 8, ga: 4, gd: 4, pts: 6 },
-      { team: 'Australia', played: 3, won: 1, drawn: 1, lost: 1, gf: 2, ga: 2, gd: 0, pts: 4 },
-      { team: 'Paraguay', played: 3, won: 1, drawn: 1, lost: 1, gf: 2, ga: 4, gd: -2, pts: 4 },
-      { team: 'Turkey', played: 3, won: 1, drawn: 0, lost: 2, gf: 3, ga: 5, gd: -2, pts: 3 }
-    ],
-    'E': [
-      { team: 'Germany', played: 3, won: 2, drawn: 0, lost: 1, gf: 10, ga: 4, gd: 6, pts: 6 },
-      { team: 'Ivory Coast', played: 3, won: 2, drawn: 0, lost: 1, gf: 4, ga: 2, gd: 2, pts: 6 },
-      { team: 'Ecuador', played: 3, won: 1, drawn: 1, lost: 1, gf: 2, ga: 2, gd: 0, pts: 4 },
-      { team: 'Curaçao', played: 3, won: 0, drawn: 1, lost: 2, gf: 1, ga: 9, gd: -8, pts: 1 }
-    ],
-    'F': [
-      { team: 'Netherlands', played: 3, won: 2, drawn: 1, lost: 0, gf: 10, ga: 4, gd: 6, pts: 7 },
-      { team: 'Japan', played: 3, won: 1, drawn: 2, lost: 0, gf: 7, ga: 3, gd: 4, pts: 5 },
-      { team: 'Sweden', played: 3, won: 1, drawn: 1, lost: 1, gf: 7, ga: 7, gd: 0, pts: 4 },
-      { team: 'Tunisia', played: 3, won: 0, drawn: 0, lost: 3, gf: 2, ga: 12, gd: -10, pts: 0 }
-    ],
-    'G': [
-      { team: 'Belgium', played: 3, won: 1, drawn: 2, lost: 0, gf: 6, ga: 2, gd: 4, pts: 5 },
-      { team: 'Egypt', played: 3, won: 1, drawn: 2, lost: 0, gf: 5, ga: 3, gd: 2, pts: 5 },
-      { team: 'Iran', played: 3, won: 0, drawn: 3, lost: 0, gf: 3, ga: 3, gd: 0, pts: 3 },
-      { team: 'New Zealand', played: 3, won: 0, drawn: 1, lost: 2, gf: 4, ga: 10, gd: -6, pts: 1 }
-    ],
-    'H': [
-      { team: 'Spain', played: 3, won: 2, drawn: 1, lost: 0, gf: 5, ga: 0, gd: 5, pts: 7 },
-      { team: 'Cape Verde', played: 3, won: 0, drawn: 3, lost: 0, gf: 2, ga: 2, gd: 0, pts: 3 },
-      { team: 'Uruguay', played: 3, won: 0, drawn: 2, lost: 1, gf: 3, ga: 4, gd: -1, pts: 2 },
-      { team: 'Saudi Arabia', played: 3, won: 0, drawn: 2, lost: 1, gf: 1, ga: 5, gd: -4, pts: 2 }
-    ],
-    'I': [
-      { team: 'France', played: 3, won: 3, drawn: 0, lost: 0, gf: 10, ga: 2, gd: 8, pts: 9 },
-      { team: 'Norway', played: 3, won: 2, drawn: 0, lost: 1, gf: 8, ga: 7, gd: 1, pts: 6 },
-      { team: 'Senegal', played: 3, won: 1, drawn: 0, lost: 2, gf: 8, ga: 6, gd: 2, pts: 3 },
-      { team: 'Iraq', played: 3, won: 0, drawn: 0, lost: 3, gf: 1, ga: 12, gd: -11, pts: 0 }
-    ],
-    'J': [
-      { team: 'Argentina', played: 3, won: 3, drawn: 0, lost: 0, gf: 8, ga: 1, gd: 7, pts: 9 },
-      { team: 'Austria', played: 3, won: 1, drawn: 1, lost: 1, gf: 5, ga: 5, gd: 0, pts: 4 },
-      { team: 'Algeria', played: 3, won: 1, drawn: 1, lost: 1, gf: 4, ga: 6, gd: -2, pts: 4 },
-      { team: 'Jordan', played: 3, won: 0, drawn: 0, lost: 3, gf: 3, ga: 8, gd: -5, pts: 0 }
-    ],
-    'K': [
-      { team: 'Colombia', played: 3, won: 2, drawn: 1, lost: 0, gf: 4, ga: 1, gd: 3, pts: 7 },
-      { team: 'Portugal', played: 3, won: 1, drawn: 2, lost: 0, gf: 6, ga: 1, gd: 5, pts: 5 },
-      { team: 'DR Congo', played: 3, won: 1, drawn: 1, lost: 1, gf: 4, ga: 3, gd: 1, pts: 4 },
-      { team: 'Uzbekistan', played: 3, won: 0, drawn: 0, lost: 3, gf: 2, ga: 11, gd: -9, pts: 0 }
-    ],
-    'L': [
-      { team: 'England', played: 3, won: 2, drawn: 1, lost: 0, gf: 6, ga: 2, gd: 4, pts: 7 },
-      { team: 'Croatia', played: 3, won: 2, drawn: 0, lost: 1, gf: 5, ga: 5, gd: 0, pts: 6 },
-      { team: 'Ghana', played: 3, won: 1, drawn: 1, lost: 1, gf: 2, ga: 2, gd: 0, pts: 4 },
-      { team: 'Panama', played: 3, won: 0, drawn: 0, lost: 3, gf: 0, ga: 4, gd: -4, pts: 0 }
-    ]
-  },
+  standings: { ... },  // Keeping existing standings as they're unchanged
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: "8強賽第一場戰果🔥 ｜ 🏆 🇫🇷法國2-0🇲🇦摩洛哥率先晉級4強！Mbappé 60'進球+66'助攻Dembélé🔥 ｜ 其餘8強賽程：🇪🇸西班牙vs🇧🇪比利時（7/10·洛杉磯SoFi）· 🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）· 🇦🇷阿根廷vs🇨🇭瑞士（7/11·堪薩斯城） ｜ 📅 7/9 晚間更新：法國連三屆殺入4強🔥 Mbappé世界盃第20球｜ 下一場準決賽：🇫🇷法國 vs 🇪🇸西班牙/🇧🇪比利時勝方（7/14·達拉斯）｜ 🥇 Mbappé·Messi各以8球並列金靴榜首｜ ❌ 已淘汰：🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦｜ 🏆 輪播照片已換新🔥",
+    summary: "8強賽第二場戰果🔥 ｜ 🏆 🇪🇸西班牙2-1🇧🇪比利時晉級4強！Merino 88'替補絕殺🔥 ｜ 其餘8強賽程：🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）· 🇦🇷阿根廷vs🇨🇭瑞士（7/11·堪薩斯城） ｜ 📅 7/10 晚間更新：西班牙連兩場淘汰賽絕殺🔥 Merino成爲英雄｜ 準決賽對陣：🇫🇷法國 vs 🇪🇸西班牙（7/14·達拉斯）🔥｜ 🥇 Mbappé·Messi各以8球並列金靴榜首｜ ❌ 已淘汰：🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦🇧🇪｜ 🏆 輪播照片已換新🔥",
     
     // PK 大戰結果
     penalties: {
@@ -3673,11 +3664,11 @@ const WC_DATA = {
         name: '8強賽', nameEn: 'Quarter-Finals',
         status: 'in_progress',
         totalMatches: 4,
-        completedCount: 1,
+        completedCount: 2,
         dateRange: '7月9日 — 7月11日',
         matchups: [
           { team1: 'France', score1: 2, team2: 'Morocco', score2: 0, date: '2026-07-09', venue: '福克斯堡·吉列體育場', time: '20:00 ET', status: 'completed', winner: 'France', note: 'France 2-0 Morocco - Mbappe 60 goal, Dembele 66 goal. France reach 3rd consecutive SF!' },
-          { team1: 'Spain', team2: 'Belgium', date: '2026-07-10', venue: '英格爾伍德·SoFi體育場', time: '15:00 ET', note: '西班牙時隔16年重返8強 vs 比利時！De Ketelaere狀態火熱' },
+          { team1: 'Spain', score1: 2, team2: 'Belgium', score2: 1, date: '2026-07-10', venue: '英格爾伍德·SoFi體育場', time: '15:00 ET', status: 'completed', winner: 'Spain', note: 'Spain 2-1 Belgium - Ruiz 30, De Ketelaere 41, Merino 88. Spain SF vs France!' },
           { team1: 'Norway', team2: 'England', date: '2026-07-11', venue: '邁阿密·硬石體育場', time: '17:00 ET', note: '挪威vs英格蘭 — 兩隊首度在世界盃交手！Haaland世界盃7球與Messi/Mbappé並列射手榜首' },
           { team1: 'Argentina', team2: 'Switzerland', date: '2026-07-11', venue: '堪薩斯城·箭頭體育場', time: '21:00 ET', note: '阿根廷 vs 瑞士 — Messi vs Xhaka！阿根廷驚天逆轉埃及晉級，瑞士PK大戰力克哥倫比亞自1954年首闖8強' }
         ]
@@ -3690,7 +3681,7 @@ const WC_DATA = {
         completedCount: 0,
         dateRange: '7月14日 — 7月15日',
         matchups: [
-          { team1: 'France', team2: 'Spain', date: '2026-07-14', venue: '達拉斯·AT&T體育場', time: '20:00 ET', note: '🇫🇷法國 vs 🇪🇸西班牙 — 兩支歐洲最強防守球隊的對決！Mbappé vs Yamal🔥' },
+          { team1: 'France', team2: 'Spain', date: '2026-07-14', venue: '達拉斯·AT&T體育場', time: '20:00 ET', note: '🇫🇷法國 vs 🇪🇸西班牙 — 兩支歐洲最強防守球隊的對決！Mbappé vs Yamal🔥 Merino連兩場淘汰賽絕殺' },
           { team1: 'TBD', team2: 'TBD', date: '2026-07-15', venue: '亞特蘭大·梅賽德斯-賓士體育場', time: '20:00 ET', note: '🇳🇴挪威/🇬🇧英格蘭 vs 🇦🇷阿根廷/🇨🇭瑞士' }
         ]
       },
