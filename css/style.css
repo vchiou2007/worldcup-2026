@@ -1584,3 +1584,131 @@ body {
   .ko-next-round-grid { flex-direction: column; }
   .ko-rounds-grid { grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); }
 }
+
+/* =========================================================
+   淘汰賽樹狀圖 (Bracket / Tournament Tree)
+   靈感：經典 NCAA March Madness 風格
+   四欄水平布局：R16 → QF → SF → 🏆
+   ========================================================= */
+.bracket-container {
+  background: var(--card-bg, #fff);
+  border-radius: 16px;
+  padding: 24px 16px;
+  border: 1px solid var(--border, #e2e8f0);
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.bracket-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text, #1e293b);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.bracket-grid {
+  display: flex;
+  gap: 16px;
+  min-width: 820px;
+  justify-content: center;
+}
+.bracket-col {
+  flex: 1;
+  min-width: 160px;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+.bracket-col-header {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--text-muted, #94a3b8);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  padding: 6px 10px;
+  margin-bottom: 4px;
+  border-bottom: 2px solid var(--border, #e2e8f0);
+  text-align: center;
+}
+.bracket-match {
+  position: relative;
+  margin: 3px 0;
+  flex-shrink: 0;
+}
+.bracket-team {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text, #1e293b);
+  background: var(--bg, #f8fafc);
+  border: 1px solid var(--border, #e2e8f0);
+  transition: all 0.15s;
+  min-height: 32px;
+}
+.bracket-team.winner {
+  background: linear-gradient(135deg, #dff6f0, #e8faf5);
+  border-color: var(--teal, #0d9488);
+}
+.bracket-team.eliminated {
+  opacity: 0.55;
+}
+.bracket-team.loser {
+  opacity: 0.55;
+  font-weight: 400;
+}
+.bracket-team.tbd {
+  opacity: 0.4;
+  font-style: italic;
+}
+.bracket-team .b-score {
+  margin-left: auto;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--teal, #0d9488);
+  background: rgba(13,148,136,0.1);
+  padding: 1px 6px;
+  border-radius: 4px;
+  min-width: 22px;
+  text-align: center;
+}
+.bracket-team .b-vs {
+  margin-left: auto;
+  font-size: 0.6rem;
+  color: var(--text-muted, #94a3b8);
+  font-weight: 400;
+}
+.bracket-final {
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+  border-color: #d97706;
+  text-align: center;
+  justify-content: center;
+  font-weight: 800;
+  color: #78350f;
+  padding: 12px 8px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  min-height: 48px;
+}
+.bracket-final.empty {
+  background: var(--bg, #f8fafc);
+  border: 2px dashed var(--border, #e2e8f0);
+  color: var(--text-muted, #94a3b8);
+  font-weight: 500;
+}
+.bracket-spacer {
+  flex: 1;
+  min-height: 8px;
+}
+
+/* 響應式 */
+@media (max-width: 900px) {
+  .bracket-container { padding: 16px 8px; }
+  .bracket-grid { gap: 10px; min-width: 700px; }
+  .bracket-col { min-width: 140px; max-width: 170px; }
+  .bracket-team { font-size: 0.7rem; padding: 4px 6px; min-height: 28px; }
+}

@@ -382,6 +382,140 @@ function renderHomeKnockout(){
   el.style.display = '';
 }
 
+// ========== 🏆 淘汰賽樹狀圖 (Bracket) — 左到右 R16→QF→SF→Final ==========
+function renderBracket(){
+  const el = document.getElementById('bracket-section');
+  if(!el) return;
+  const ko = WC_DATA.knockout;
+  const r16 = ko.rounds.R16;
+  const qf = ko.rounds.QF;
+  const sf = ko.rounds.SF;
+  const fin = ko.rounds.Final;
+  const pen = ko.penalties || {};
+
+  // 輔助：取得 PK 比分字串
+  function pkStr(t1, t2){
+    const key = t1+'-vs-'+t2;
+    const r = pen[key];
+    return r ? `（PK ${r.score}）` : '';
+  }
+  // 輔助：渲染單一隊伍列
+  function teamRow(t, score, isWinner, isTbd){
+    if(isTbd) return `<div class="bracket-team tbd">🤷 待定</div>`;
+    const fs = isWinner ? 'winner' : 'loser';
+    const sc = score !== undefined && score !== null ? `<span class="b-score">${score}</span>` : `<span class="b-vs">VS</span>`;
+    return `<div class="bracket-team ${fs}">${fimgSm(t)} ${t}${sc}</div>`;
+  }
+
+  // ---- R16 配對（按 QF 分組排列）----
+  // QF1: France vs Morocco  ← R16(2)Paraguay/France, R16(1)Morocco/Canada
+  // QF2: Spain vs Belgium    ← R16(5)Portugal/Spain, R16(6)USA/Belgium
+  // QF3: Norway vs England   ← R16(3)Brazil/Norway, R16(4)Mexico/England
+  // QF4: Argentina/Switzerland ← R16(7)Egypt/Argentina, R16(8)Switzerland/Colombia
+  const r16m = r16.matchups;
+  const r16Pairs = [
+    [r16m[1], r16m[0]], // QF1 feed
+    [r16m[4], r16m[5]], // QF2 feed
+    [r16m[2], r16m[3]], // QF3 feed
+    [r16m[6], r16m[7]], // QF4 feed
+  ];
+
+  // ---- QF matchups ----
+  const qfm = qf.matchups;
+
+  // ---- SF matchups ----
+  const sfm = sf.matchups;
+
+  // ---- 建構各欄 ----
+  function r16Col(){
+    let h = '';
+    for(const pair of r16Pairs){
+      for(const m of pair){
+        const done = m.status === 'completed';
+        const t1 = m.team1, t2 = m.team2;
+        const w = done ? m.winner : null;
+        h += teamRow(t1, m.score1, done && w === t1);
+        h += teamRow(t2, m.score2, done && w === t2);
+      }
+      h += `<div class="bracket-spacer"></div>`;
+    }
+    return h;
+  }
+
+  function qfCol(){
+    let h = '';
+    for(const m of qfm){
+      const done = m.status === 'completed';
+      const t1 = m.team1, t2 = m.team2;
+      const w = done ? m.winner : null;
+      const pk = pkStr(t1, t2);
+      h += teamRow(t1, m.score1, done && w === t1);
+      h += teamRow(t2, m.score2, done && w === t2);
+      h += `<div class="bracket-spacer" style="min-height:28px;"></div>`;
+    }
+    return h;
+  }
+
+  function sfCol(){
+    let h = '';
+    for(const m of sfm){
+      const done = m.status === 'completed';
+      const t1 = m.team1, t2 = m.team2;
+      if(t1 === 'TBD'){
+        h += `<div class="bracket-team tbd">🤷 待定</div>`;
+        h += `<div class="bracket-team tbd">🤷 待定</div>`;
+      } else {
+        const w = done ? m.winner : null;
+        h += teamRow(t1, m.score1, done && w === t1);
+        h += teamRow(t2, m.score2, done && w === t2);
+      }
+      h += `<div class="bracket-spacer" style="min-height:76px;"></div>`;
+    }
+    return h;
+  }
+
+  function finalCol(){
+    const hasFinal = fin.venue && fin.venue !== '';
+    return `<div class="bracket-match">
+      <div class="bracket-team bracket-final ${sfm[0].team1 === 'TBD' ? 'empty' : ''}">
+        ${sfm[0].team1 !== 'TBD' ? '🏆 ' + sfm[0].team1 : '🏆 尚未產生'}
+      </div>
+      <div class="bracket-spacer" style="min-height:8px;"></div>
+      <div class="bracket-team bracket-final ${sfm[1].team1 === 'TBD' ? 'empty' : ''}">
+        ${sfm[1].team1 !== 'TBD' ? '🏆 ' + sfm[1].team1 : '🏆 尚未產生'}
+      </div>
+      <div class="bracket-spacer" style="min-height:8px;"></div>
+      <div class="bracket-match" style="margin-top:12px;">
+        <div class="bracket-team bracket-final" style="background:linear-gradient(135deg,#fbbf24,#f59e0b);">
+          🏆 冠軍<br><span style="font-size:0.65rem;font-weight:400;">7/19 東盧瑟福</span>
+        </div>
+      </div>
+    </div>`;
+  }
+
+  el.innerHTML = `<div class="bracket-container">
+    <div class="bracket-title">🏆 淘汰賽樹狀圖</div>
+    <div class="bracket-grid">
+      <div class="bracket-col">
+        <div class="bracket-col-header">16 強賽</div>
+        ${r16Col()}
+      </div>
+      <div class="bracket-col">
+        <div class="bracket-col-header">8 強賽</div>
+        ${qfCol()}
+      </div>
+      <div class="bracket-col">
+        <div class="bracket-col-header">準決賽</div>
+        ${sfCol()}
+      </div>
+      <div class="bracket-col">
+        <div class="bracket-col-header">決賽</div>
+        ${finalCol()}
+      </div>
+    </div>
+  </div>`;
+}
+
 // ========== 主頁 ==========
 function renderHome(){
   renderSlideshow();
@@ -408,6 +542,7 @@ function renderHome(){
   }
   const el3=document.getElementById('groups-mini');
   renderHomeKnockout();
+  renderBracket();
   if(el3){
     let h=`<h2 class="section-title">🏆 分組積分一覽</h2><div class="gm-grid">`;
     for(const g of WC_DATA.groups){
