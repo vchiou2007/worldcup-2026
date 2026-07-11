@@ -3580,7 +3580,80 @@ const WC_DATA = {
   ],
 
   // 分組積分（賽後更新）
-  standings: { ... },  // Keeping existing standings as they're unchanged
+  standings: {
+    'A': [
+      { team: 'Mexico', played: 3, won: 3, drawn: 0, lost: 0, gf: 6, ga: 0, gd: 6, pts: 9 },
+      { team: 'South Africa', played: 3, won: 1, drawn: 1, lost: 1, gf: 2, ga: 3, gd: -1, pts: 4 },
+      { team: 'South Korea', played: 3, won: 1, drawn: 0, lost: 2, gf: 2, ga: 3, gd: -1, pts: 3 },
+      { team: 'Czechia', played: 3, won: 0, drawn: 1, lost: 2, gf: 2, ga: 6, gd: -4, pts: 1 }
+    ],
+    'B': [
+      { team: 'Switzerland', played: 3, won: 2, drawn: 1, lost: 0, gf: 7, ga: 3, gd: 4, pts: 7 },
+      { team: 'Canada', played: 3, won: 1, drawn: 1, lost: 1, gf: 8, ga: 3, gd: 5, pts: 4 },
+      { team: 'Bosnia and Herzegovina', played: 3, won: 1, drawn: 1, lost: 1, gf: 5, ga: 6, gd: -1, pts: 4 },
+      { team: 'Qatar', played: 3, won: 0, drawn: 1, lost: 2, gf: 2, ga: 10, gd: -8, pts: 1 }
+    ],
+    'C': [
+      { team: 'Brazil', played: 3, won: 2, drawn: 1, lost: 0, gf: 7, ga: 1, gd: 6, pts: 7 },
+      { team: 'Morocco', played: 3, won: 2, drawn: 1, lost: 0, gf: 6, ga: 3, gd: 3, pts: 7 },
+      { team: 'Scotland', played: 3, won: 1, drawn: 0, lost: 2, gf: 1, ga: 4, gd: -3, pts: 3 },
+      { team: 'Haiti', played: 3, won: 0, drawn: 0, lost: 3, gf: 2, ga: 8, gd: -6, pts: 0 }
+    ],
+    'D': [
+      { team: 'USA', played: 3, won: 2, drawn: 0, lost: 1, gf: 8, ga: 4, gd: 4, pts: 6 },
+      { team: 'Australia', played: 3, won: 1, drawn: 1, lost: 1, gf: 2, ga: 2, gd: 0, pts: 4 },
+      { team: 'Paraguay', played: 3, won: 1, drawn: 1, lost: 1, gf: 2, ga: 4, gd: -2, pts: 4 },
+      { team: 'Turkey', played: 3, won: 1, drawn: 0, lost: 2, gf: 3, ga: 5, gd: -2, pts: 3 }
+    ],
+    'E': [
+      { team: 'Germany', played: 3, won: 2, drawn: 0, lost: 1, gf: 10, ga: 4, gd: 6, pts: 6 },
+      { team: 'Ivory Coast', played: 3, won: 2, drawn: 0, lost: 1, gf: 4, ga: 2, gd: 2, pts: 6 },
+      { team: 'Ecuador', played: 3, won: 1, drawn: 1, lost: 1, gf: 2, ga: 2, gd: 0, pts: 4 },
+      { team: 'Curaçao', played: 3, won: 0, drawn: 1, lost: 2, gf: 1, ga: 9, gd: -8, pts: 1 }
+    ],
+    'F': [
+      { team: 'Netherlands', played: 3, won: 2, drawn: 1, lost: 0, gf: 10, ga: 4, gd: 6, pts: 7 },
+      { team: 'Japan', played: 3, won: 1, drawn: 2, lost: 0, gf: 7, ga: 3, gd: 4, pts: 5 },
+      { team: 'Sweden', played: 3, won: 1, drawn: 1, lost: 1, gf: 7, ga: 7, gd: 0, pts: 4 },
+      { team: 'Tunisia', played: 3, won: 0, drawn: 0, lost: 3, gf: 2, ga: 12, gd: -10, pts: 0 }
+    ],
+    'G': [
+      { team: 'Belgium', played: 3, won: 1, drawn: 2, lost: 0, gf: 6, ga: 2, gd: 4, pts: 5 },
+      { team: 'Egypt', played: 3, won: 1, drawn: 2, lost: 0, gf: 5, ga: 3, gd: 2, pts: 5 },
+      { team: 'Iran', played: 3, won: 0, drawn: 3, lost: 0, gf: 3, ga: 3, gd: 0, pts: 3 },
+      { team: 'New Zealand', played: 3, won: 0, drawn: 1, lost: 2, gf: 4, ga: 10, gd: -6, pts: 1 }
+    ],
+    'H': [
+      { team: 'Spain', played: 3, won: 2, drawn: 1, lost: 0, gf: 5, ga: 0, gd: 5, pts: 7 },
+      { team: 'Cape Verde', played: 3, won: 0, drawn: 3, lost: 0, gf: 2, ga: 2, gd: 0, pts: 3 },
+      { team: 'Uruguay', played: 3, won: 0, drawn: 2, lost: 1, gf: 3, ga: 4, gd: -1, pts: 2 },
+      { team: 'Saudi Arabia', played: 3, won: 0, drawn: 2, lost: 1, gf: 1, ga: 5, gd: -4, pts: 2 }
+    ],
+    'I': [
+      { team: 'France', played: 3, won: 3, drawn: 0, lost: 0, gf: 10, ga: 2, gd: 8, pts: 9 },
+      { team: 'Norway', played: 3, won: 2, drawn: 0, lost: 1, gf: 8, ga: 7, gd: 1, pts: 6 },
+      { team: 'Senegal', played: 3, won: 1, drawn: 0, lost: 2, gf: 8, ga: 6, gd: 2, pts: 3 },
+      { team: 'Iraq', played: 3, won: 0, drawn: 0, lost: 3, gf: 1, ga: 12, gd: -11, pts: 0 }
+    ],
+    'J': [
+      { team: 'Argentina', played: 3, won: 3, drawn: 0, lost: 0, gf: 8, ga: 1, gd: 7, pts: 9 },
+      { team: 'Austria', played: 3, won: 1, drawn: 1, lost: 1, gf: 5, ga: 5, gd: 0, pts: 4 },
+      { team: 'Algeria', played: 3, won: 1, drawn: 1, lost: 1, gf: 4, ga: 6, gd: -2, pts: 4 },
+      { team: 'Jordan', played: 3, won: 0, drawn: 0, lost: 3, gf: 3, ga: 8, gd: -5, pts: 0 }
+    ],
+    'K': [
+      { team: 'Colombia', played: 3, won: 2, drawn: 1, lost: 0, gf: 4, ga: 1, gd: 3, pts: 7 },
+      { team: 'Portugal', played: 3, won: 1, drawn: 2, lost: 0, gf: 6, ga: 1, gd: 5, pts: 5 },
+      { team: 'DR Congo', played: 3, won: 1, drawn: 1, lost: 1, gf: 4, ga: 3, gd: 1, pts: 4 },
+      { team: 'Uzbekistan', played: 3, won: 0, drawn: 0, lost: 3, gf: 2, ga: 11, gd: -9, pts: 0 }
+    ],
+    'L': [
+      { team: 'England', played: 3, won: 2, drawn: 1, lost: 0, gf: 6, ga: 2, gd: 4, pts: 7 },
+      { team: 'Croatia', played: 3, won: 2, drawn: 0, lost: 1, gf: 5, ga: 5, gd: 0, pts: 6 },
+      { team: 'Ghana', played: 3, won: 1, drawn: 1, lost: 1, gf: 2, ga: 2, gd: 0, pts: 4 },
+      { team: 'Panama', played: 3, won: 0, drawn: 0, lost: 3, gf: 0, ga: 4, gd: -4, pts: 0 }
+    ]
+  },
 
   // ===== 淘汰賽階段 =====
   knockout: {
