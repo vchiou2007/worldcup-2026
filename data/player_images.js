@@ -110,30 +110,30 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-07-12 cron自動更新🔥 8強賽全數結束！🇦🇷阿根廷延長賽3-1🇨🇭瑞士晉級！） =====
+// ===== 輪播牆圖片（2026-07-12 09:00 cron更新🔥 4場8強賽全數結束！準決賽對陣出爐🔥） =====
 const HERO_IMAGES = [
-  // 🇦🇷🔥 Argentina 3-1 Switzerland — Julián Alvarez第112分鐘禁區外弧線球世界波絕殺瑞士！精采破門當選全場最佳球員🔥（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/12/USAT/90890395007-getty-images-2285699508.jpg',
-  // 🇦🇷🎉 Argentina 3-1 Switzerland — Lionel Messi賽後向球迷鼓掌致意！阿根廷延長賽3-1擊敗瑞士，連續兩屆世界盃晉級4強🔥（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/12/USAT/90890397007-getty-images-2285123154.jpg',
-  // 🇦🇷🔥 Argentina 3-1 Switzerland — Alexis Mac Allister第10分鐘接Messi角球頭槌破門！阿根廷1-0領先（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/12/USAT/90890568007-getty-images-2285125619.jpg',
-  // 🇨🇭😢 Switzerland 1-3 Argentina — Dan Ndoye第67分鐘扳平比數！Breel Embolo助攻，Ndoye禁區內射入右下角（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/12/USAT/90890571007-getty-images-2285702832.jpg',
-  // 🇨🇭❌ Switzerland — Breel Embolo第72分鐘第二張黃牌→紅牌！因假摔被罰下場，瑞士10人應戰近50分鐘（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/12/USAT/90890569007-getty-images-2285125773.jpg',
-  // 🇦🇷🏆 Argentina 3-1 Switzerland — Lautaro Martínez第120+1分鐘鎖定勝局！接Almada傳球禁區內射門入網（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/12/USAT/90890572007-getty-images-2285125918.jpg',
-  // 🏆 8強賽全數結束！🇫🇷法國vs🇪🇸西班牙（7/14·達拉斯）🔥 · 🇬🇧英格蘭vs🇦🇷阿根廷（7/15·亞特蘭大）🔥 史上首次世界排名前4球隊同時晉級4強！
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/12/USAT/90890603007-getty-images-2285702998.jpg'
+  // 🇫🇷🔥 France 2-0 Morocco — Kylian Mbappé第60分鐘禁區外弧線球破門！世界盃第20球，本屆第8球追平Messi並列金靴榜首🔥（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/09/USAT/90869525007-gty-2285416745.jpg',
+  // 🇫🇷⚡ France 2-0 Morocco — Mbappé第24分鐘12碼罰球被Bounou撲出！本屆首次罰失，但下半場以世界波彌補🔥（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/09/USAT/90869212007-gty-2285414124.jpg',
+  // 🇪🇸🔥 Spain 2-1 Belgium — Mikel Merino第88分鐘補射絕殺！Courtois傷退，替補門將Lammens撲球脫手，Merino跟進破門🔥 Spain 36場不敗！（AP Photo）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/10/USAT/90879482007-2284907853.jpg',
+  // 🇪🇸🎉 Spain 2-1 Belgium — Merino再次扮演超級替補！連續兩場淘汰賽替補絕殺⚡ 西班牙時隔16年重返世界盃4強🔥（AP Photo）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/10/USAT/90879912007-2285551218.jpg',
+  // 🇬🇧🔥 England 2-1 Norway — Jude Bellingham梅開二度！第45+2分鐘扳平、第93分鐘延長賽絕殺⚡ 英格蘭4強門票到手🔥（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/11/USAT/90889742007-getty-images-2285682007.jpg',
+  // 🇬🇧🎉 England 2-1 Norway — Harry Kane賽後擁抱Bellingham！英格蘭自2018年以來重返世界盃4強🔥 挪威Haaland全場啞火被換下（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/12/USAT/90890010007-getty-images-2285693630.jpg',
+  // 🏆 4強全數出爐！🇫🇷法國vs🇪🇸西班牙（7/14·達拉斯）🔥 · 🇬🇧英格蘭vs🇦🇷阿根廷（7/15·亞特蘭大）🔥 史上首次世界排名前4強隊會師4強！Messi vs Bellingham之戰🔥
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/10/USAT/90880046007-2284911318.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  "🔥🇦🇷 Julián Alvarez在第112分鐘禁區外弧線球世界波絕殺瑞士！接到Nico Tagliafico傳球後轉身起腳，球劃出完美弧線直掛右上角⚽ 這球被譽為本屆世界盃最佳進球之一🔥 Argentina 3-1 Switzerland（Getty Images）",
-  "🎉🇦🇷 Lionel Messi賽後向堪薩斯城球迷鼓掌致意——阿根廷延長賽3-1擊敗瑞士，連續兩屆世界盃晉級4強！Messi雖未進球但送出角球助攻Mac Allister頭槌破門，全場創造5次機會⚡ 世界盃累計8球並列金靴榜首🔥（Getty Images）",
-  "⚡🇦🇷 Alexis Mac Allister第10分鐘接Messi角球頭槌破門！身高僅1.76米的Mac Allister在多名瑞士高大後衛包夾中搶點成功頭球入網——這是他本屆世界盃第2球，也是阿根廷在本屆賽事最早進球（Getty Images）",
-  "🇨🇭🔥 Dan Ndoye第67分鐘扳平比數！Breel Embolo禁區內護球後回做，Ndoye禁區內射入右下角，瑞士一度追平1-1。Ndoye全場最具威脅的進攻球員，3次射門2次射正1進球（Getty Images）",
-  "❌🇨🇭 Breel Embolo在第72分鐘因假摔收到第二張黃牌被罰下場！第43分鐘已因犯規吃牌，VAR確認Embolo在Paredes接觸前已開始倒地。瑞士10人應戰近50分鐘，最終在延長賽體力不支連丟兩球（Getty Images）",
-  "🏆🇦🇷 Lautaro Martínez在第120+1分鐘鎖定勝局！接替補Thiago Almada傳球，禁區內冷靜推射入網⚽ 阿根廷3-1擊敗瑞士晉級4強！Lautaro世界盃累計4球，本屆作為替補奇兵發揮關鍵作用（Getty Images）",
-  "🏆 8強賽全數結束！史上首次世界排名前4球隊（🇫🇷法國#2、🇪🇸西班牙#3、🇬🇧英格蘭#4、🇦🇷阿根廷#1）同時晉級世界盃4強🔥 準決賽對陣：🇫🇷法國vs🇪🇸西班牙（7/14·達拉斯AT&T體育場）🔥 · 🇬🇧英格蘭vs🇦🇷阿根廷（7/15·亞特蘭大梅賽德斯-賓士體育場）🔥 Messi vs Bellingham！史上最強4強陣容！（Getty Images）"
+  "🔥🇫🇷 Kylian Mbappé第60分鐘禁區外弧線球破門！世界盃累計第20球，本屆第8球追平Messi並列金靴榜首⚽ 法國2-0擊敗摩洛哥，連三屆闖入世界盃4強！Mbappé全場5次射門3次射正，雖然第24分鐘罰球被Bounou撲出，仍以進球+助攻統治比賽🔥（Getty Images）",
+  "⚡🇫🇷 Kylian Mbappé第24分鐘12碼罰球被Yassine Bounou撲出——本屆世界盃首次罰失！但下半場第60分鐘禁區外弧線球世界波破門、第66分鐘助攻Dembélé低射入網，法國2-0鎖定勝局。Ousmane Dembélé本屆第5球，Mbappé第3次助攻（Getty Images）",
+  "🔥🇪🇸 Mikel Merino第88分鐘替補絕殺！Pau Cubarsí遠射造成比利時替補門將Senne Lammens撲球脫手，Merino跟進補射破門⚽ Spain 2-1 Belgium！Fabian Ruiz第30分鐘首開紀錄，Charles De Ketelaere第41分鐘頭槌扳平。Thibaut Courtois第71分鐘傷退成為轉折點（AP Photo）",
+  "🎉🇪🇸 Mikel Merino連續兩場淘汰賽替補絕殺！16強賽對葡萄牙第90+1分鐘絕殺、8強賽對比利時第88分鐘絕殺⚡ 西班牙36場不敗追平阿根廷紀錄！時隔16年重返世界盃4強🔥 將在7/14達拉斯AT&T體育場對陣🇫🇷法國（AP Photo）",
+  "🔥🇬🇧 Jude Bellingham梅開二度率英格蘭2-1力克挪威晉級4強！第45+2分鐘接Gordon傳中搶點扳平、第93分鐘延長賽補射絕殺⚡ 本屆世界盃累計6球，Bellingham成為英格蘭史上在世界盃淘汰賽進球最多的中場球員🔥 Erling Haaland全場3次射門0射正，第106分鐘被換下（Getty Images）",
+  "🎉🇬🇧 Harry Kane賽後擁抱Jude Bellingham！英格蘭自2018年以來重返世界盃4強🔥 Andreas Schjelderup第36分鐘世界波為挪威先馳得點，但Bellingham以個人能力扭轉戰局。Kane本屆累計5球，英格蘭將在7/15亞特蘭大對陣🇦🇷阿根廷！Bellingham vs Messi之戰全球矚目🔥（Getty Images）",
+  "🏆 2026世界盃4強全數出爐！史上首次世界排名前4球隊（🇫🇷法國#2、🇪🇸西班牙#3、🇬🇧英格蘭#4、🇦🇷阿根廷#1）同時晉級世界盃4強🔥 準決賽對陣：🇫🇷法國 vs 🇪🇸西班牙（7/14·達拉斯AT&T體育場·20:00 ET）🔥 · 🇬🇧英格蘭 vs 🇦🇷阿根廷（7/15·亞特蘭大梅賽德斯-賓士體育場·20:00 ET）🔥 兩場史詩級對決！金靴之爭：Messi 8球·Mbappé 8球·Bellingham 6球·Kane 5球（AP Photo）"
 ];
