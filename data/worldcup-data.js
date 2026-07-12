@@ -3802,3 +3802,18 @@ const WC_DATA = {
     }
   }
 };
+
+// ===== 首頁輪播牆照片 =====
+const HERO_IMAGES = [
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/FIFA_World_Cup_Trophy_2018_%28cropped%29.jpg/1200px-FIFA_World_Cup_Trophy_2018_%28cropped%29.jpg',
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Estadio_Azteca_2024_aerial.jpg/1200px-Estadio_Azteca_2024_aerial.jpg',
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Soccer_ball.svg/1200px-Soccer_ball.svg.png',
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/2026_FIFA_World_Cup_Logo.svg/1200px-2026_FIFA_World_Cup_Logo.svg.png'
+];
+
+const HERO_CAPTIONS = [
+  '🏆 世界盃冠軍獎盃 — 最終榮耀的象徵',
+  '🏟️ 墨西哥城·阿茲特克體育場 — 世界盃史上首座舉辦三屆開幕戰的球場',
+  '⚽ 2026 世界盃 — 美國·加拿大·墨西哥 三國共同主辦',
+  '🇺🇸🇨🇦🇲🇽 48 隊爭奪冠軍 — 史上規模最大的世界盃'
+];
