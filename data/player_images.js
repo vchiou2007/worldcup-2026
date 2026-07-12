@@ -110,31 +110,31 @@ const PLAYER_IMAGES = {
   'Winston Reid': 'https://r2.thesportsdb.com/images/media/player/thumb/18pfc51509107514.jpg'
 };
 
-// ===== 輪播牆圖片（2026-07-10 cron自動更新🔥 8強賽第二場：🇪🇸西班牙2-1🇧🇪比利時晉級4強！） =====
+// ===== 輪播牆圖片（2026-07-11 cron自動更新🔥 8強賽第三場：🇬🇧英格蘭2-1🇳🇴挪威延長賽晉級4強！） =====
 const HERO_IMAGES = [
-  // 🇪🇸🔥 Spain 2-1 Belgium — Mikel Merino第88分鐘替補絕殺！Cubarsí遠射被Lammens撲出，Merino跟進補射破網！西班牙連兩場淘汰賽絕殺（AFP/Getty）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/10/USAT/90881860007-2285562692.jpg',
-  // 🇪🇸⚡ Spain 2-1 Belgium — Mikel Merino與西班牙隊友瘋狂慶祝！Merino繼16強賽vs葡萄牙90+1絕殺後，8強賽88分鐘再次替補絕殺🔥（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/10/USAT/90881861007-2285562778.jpg',
-  // 🇪🇸🎉 Spain 2-1 Belgium — 西班牙全隊賽後向球迷致意！Luis de la Fuente率隊36場不敗追平阿根廷紀錄，時隔16年重返世界盃4強🔥（AFP/Getty）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/10/USAT/90881859007-2284927943.jpg',
-  // 🇫🇷🔥 France 2-0 Morocco — Kylian Mbappé慶祝進球！第60分鐘禁區外弧線球破門，世界盃第20球🔥 第66分鐘助攻Dembélé鎖定勝局，法國連三屆闖入世界盃4強！（AFP/Getty）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/09/USAT/90869526007-afp-2284794779.jpg',
-  // 🇫🇷⚡ France 2-0 Morocco — Kylian Mbappé與Ousmane Dembélé慶祝！Mbappé第66分鐘妙傳助攻，Dembélé禁區內低射入網（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/09/USAT/90869525007-gty-2285416745.jpg',
-  // 🇳🇴🔥 Norway 2-1 Brazil — Erling Haaland梅開二度後慶祝！79分鐘頭槌+90分鐘遠射，挪威隊史首度闖入世界盃8強🔥 Haaland以7球並列金靴榜首（Getty Images）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/05/USAT/90815455007-getty-images-2284221269.jpeg',
-  // 🇪🇸🏆 Spain 1-0 Portugal — Mikel Merino第90+1分鐘絕殺！西班牙時隔16年重返世界盃8強🔥 C羅世界盃生涯正式落幕（USA Today/Getty）
-  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/06/USAT/90828639007-2280200274.jpg'
+  // 🇬🇧🔥 England 2-1 Norway — Jude Bellingham延長賽第3分鐘絕殺後瘋狂慶祝！梅開二度率英格蘭晉級4強🔥（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/11/USAT/90888216007-getty-images-2285674879.jpg',
+  // 🇬🇧⚡ England 2-1 Norway — Jude Bellingham上半場傷停補時扳平比數！Anthony Gordon左路傳中，Bellingham禁區中央搶點推射入網🔥（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/11/USAT/90888128007-getty-images-2285079026.jpg',
+  // 🇬🇧🎉 England 2-1 Norway — Harry Kane與Jude Bellingham慶祝絕殺！英格蘭延長賽2-1力克挪威，時隔8年重返世界盃4強🔥（Getty/AP）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/11/USAT/90888217007-getty-images-2285080901.jpg',
+  // 🇳🇴😢 Norway 1-2 England — Erling Haaland黯然離場！第106分鐘被換下，全場啞火無緣4強，挪威童話世界盃之旅落幕（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/11/USAT/90888160007-getty-images-2285672439.jpg',
+  // 🇬🇧🔥 England 2-1 Norway — Andreas Schjelderup第36分鐘先馳得點！Martin Ødegaard精準傳球，Schjelderup禁區外射入左下角（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/11/USAT/90888159007-getty-images-2285079235.jpg',
+  // 🇪🇸🏆 Spain 2-1 Belgium — Mikel Merino第88分鐘替補絕殺！西班牙連兩場淘汰賽絕殺，時隔16年重返世界盃4強🔥（AFP/Getty）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/10/USAT/90881860007-2285562778.jpg',
+  // 🇫🇷🔥 France 2-0 Morocco — Kylian Mbappé禁區外弧線球破門！世界盃第20球🔥 第66分鐘助攻Dembélé鎖定勝局，法國連三屆闖入4強！（Getty Images）
+  'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/09/USAT/90869526007-afp-2284794779.jpg'
 ];
 
 const HERO_CAPTIONS = [
-  "🔥🇪🇸 Mikel Merino第88分鐘替補絕殺！Pau Cubarsí禁區外遠射造成Lammens撲球脫手，Merino跟進補射破門——繼16強賽vs葡萄牙90+1絕殺後，Merino再次替補建功🔥 西班牙連兩場淘汰賽絕殺，2-1擊敗比利時晉級4強！Fabian Ruiz 30'首開紀錄，De Ketelaere 41'頭槌扳平，Courtois 71'傷退為轉折點。西班牙36場不敗追平阿根廷紀錄，Lamine Yamal獲選全場最佳（Getty Images）",
-  "⚡🇪🇸 Mikel Merino被西班牙隊友團團包圍！這位皇家社會中場在88分鐘替補上場後僅2分鐘即破門，延續對葡萄牙絕殺的神奇表現。西班牙將在7/14達拉斯AT&T體育場準決賽對陣🇫🇷法國——兩支歐洲最強防守球隊的對決🔥（Getty Images/Reuters）",
-  "🎉🇪🇸 西班牙全隊賽後向洛杉磯SoFi體育場球迷致意！Luis de la Fuente率隊36場不敗（26勝9和）追平阿根廷國家隊紀錄，時隔16年重返世界盃4強。西班牙本屆世界盃僅失1球為所有球隊最少🔥 準決賽7/14達拉斯對陣🇫🇷法國（AFP/Getty）",
-  "🔥🇫🇷 Kylian Mbappé禁區外弧線球破門！世界盃第20球🔥 第60分鐘，Mbappé在禁區外轉身起腳弧線球射入遠角，本屆第8球追平Messi並列金靴榜首！隨後第66分鐘助攻Dembélé低射入網，法國2-0擊敗摩洛哥連三屆闖入世界盃4強🔥 7/14達拉斯準決賽對陣🇪🇸西班牙（Getty Images）",
-  "⚡🇫🇷 Ousmane Dembélé低射破門！第66分鐘，Mbappé禁區邊緣妙傳，Dembélé禁區內低射穿過Bounou十指關入網，個人本屆第5球！Dembélé近兩屆世界盃合計攻入10球，Ballon d'Or得主實至名歸🔥 法國2-0鎖定勝局晉級4強（Reuters）",
-  "🇳🇴🔥 Erling Haaland梅開二度率挪威2-1擊敗巴西！隊史首度闖入世界盃8強🔥 79分鐘頭槌破門、90分鐘禁區外低射——Haaland憑本屆第7球與Messi、Mbappé並列金靴榜首。挪威將在7/11邁阿密8強賽對陣🇬🇧英格蘭——Haaland vs Kane金靴之爭🔥（Getty Images）",
-  "🇪🇸🏆 Mikel Merino第90+1分鐘頭槌絕殺葡萄牙！西班牙時隔16年重返世界盃8強🔥 Dani Olmo自由球精準傳中，Merino甩頭破門送入遠角。Cristiano Ronaldo第六屆世界盃生涯正式落幕（41歲），全場僅2次射正表現平淡。🇪🇸西班牙將在7/10洛杉磯SoFi球場8強賽對陣🇧🇪比利時——De Bruyne vs Yamal🔥（USA Today/Getty）"
+  "🔥🇬🇧 Jude Bellingham在延長賽第3分鐘絕殺後握拳怒吼——梅開二度率英格蘭2-1力克挪威晉級4強！第45+2分鐘接Anthony Gordon傳中推射扳平，第93分鐘禁區內射門入網絕殺。英格蘭時隔8年重返世界盃4強，將在7/15亞特蘭大準決賽對陣🇦🇷阿根廷/🇨🇭瑞士勝方。Bellingham全場2進球當選最佳球員🔥（Getty Images）",
+  "⚡🇬🇧 Jude Bellingham上半場傷停補時扳平比數！第45+2分鐘，Anthony Gordon左路傳中，Bellingham禁區中央搶點推射入網，個人世界盃第5球！這球點燃英格蘭反攻氣勢，全場68,000名球迷沸騰🔥（Getty Images）",
+  "🎉🇬🇧 Harry Kane與Jude Bellingham慶祝晉級4強！英格蘭延長賽2-1力克挪威，Kane雖未進球但串聯全隊進攻。Thomas Tuchel率隊連續三屆世界盃闖入4強（2018四強、2022八強、2026四強）🔥 下一戰7/15亞特蘭大對陣🇦🇷阿根廷/🇨🇭瑞士（Getty/AP）",
+  "😢🇳🇴 Erling Haaland在第106分鐘被換下，挪威童話世界盃之旅正式落幕。Haaland本屆世界盃攻入7球，與Mbappé、Messi並列金靴榜首。挪威時隔28年重返世界盃即闖入8強，雖然未能更進一步但已創下隊史最佳成績🔥（Getty Images）",
+  "🇳🇴🔥 Andreas Schjelderup第36分鐘先馳得點！Martin Ødegaard精準傳球，Schjelderup禁區外射門擊中右門柱內側入網，個人在世界盃第二場先發即進球。挪威1-0領先讓全場陷入瘋狂——這是他們隊史首次在8強賽領先（Getty Images）",
+  "🇪🇸🏆 Mikel Merino第88分鐘替補絕殺比利時！Pau Cubarsí遠射造成Lammens脫手，Merino跟進補射破門——繼16強賽vs葡萄牙90+1絕殺後再次替補建功🔥 西班牙2-1擊敗比利時晉級4強，36場不敗追平阿根廷紀錄，7/14達拉斯準決賽對陣🇫🇷法國（AFP/Getty）",
+  "🔥🇫🇷 Kylian Mbappé禁區外弧線球破門！世界盃第20球🔥 第60分鐘，Mbappé禁區外轉身起腳弧線球射入遠角，本屆第8球追平Messi並列金靴榜首！隨後第66分鐘助攻Dembélé低射入網，法國2-0擊敗摩洛哥連三屆闖入世界盃4強🔥 7/14達拉斯準決賽對陣🇪🇸西班牙（Getty Images）"
 ];
 

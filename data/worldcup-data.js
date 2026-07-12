@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: "⚽ 8強賽 (Quarter-Finals) 第二場戰果🔥 ｜ 🏆 🇪🇸西班牙2-1🇧🇪比利時晉級4強！Merino 88'替補絕殺🔥 ｜ 📅 7/11 上午更新：今日8強賽—🇳🇴挪威vs🇬🇧英格蘭（17:00 ET·邁阿密）· 🇦🇷阿根廷vs🇨🇭瑞士（21:00 ET·堪薩斯城）🔥 ｜ 🥇 Mbappé·Messi各以8球並列金靴榜首｜ 🇫🇷法國vs🇪🇸西班牙（7/14·達拉斯）— 準決賽頂上對決！ ｜ ❌ 已淘汰：🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦🇧🇪｜ 🏆 準決賽：🇫🇷法國vs🇪🇸西班牙（7/14·達拉斯）🔥",
+    currentPhase: "⚽ 8強賽第三場戰果🔥 ｜ 🏆 🇬🇧英格蘭延長賽2-1🇳🇴挪威晉級4強！Bellingham梅開二度絕殺🔥 ｜ 📅 7/11 晚間更新：今日最後8強賽—🇦🇷阿根廷vs🇨🇭瑞士（21:00 ET·堪薩斯城）🔥 ｜ 🥇 Mbappé·Messi各以8球並列金靴榜首｜ 🇫🇷法國vs🇪🇸西班牙（7/14·達拉斯）· 🇬🇧英格蘭vsTBD（7/15·亞特蘭大）｜ ❌ 已淘汰：🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦🇧🇪🇳🇴｜ 🏆 準決賽：🇫🇷法國vs🇪🇸西班牙（7/14·達拉斯）🔥 · 🇬🇧英格蘭vsTBD（7/15·亞特蘭大）🔥",
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -3569,9 +3569,38 @@ const WC_DATA = {
         pressingApplied: [220, 250]
       }
     },
-    // 7月11日：8強賽第3場 — 未進行
-    { date: '2026-07-11', time: '17:00 ET', group: 'QF', team1: 'Norway', team2: 'England', venue: '邁阿密·硬石體育場', status: 'scheduled',
-      note: '🇳🇴挪威vs🇬🇧英格蘭 — Haaland vs Kane金靴之爭！Haaland世界盃7球與Messi/Mbappé並列射手榜首'
+    // 7月11日：8強賽第3場 — 英格蘭2-1延長賽力克挪威
+    { date: '2026-07-11', time: '17:00 ET', group: 'QF', team1: 'Norway', score1: 1, team2: 'England', score2: 2, venue: '邁阿密·硬石體育場', status: 'completed',
+      note: "🇬🇧英格蘭延長賽2-1力克挪威晉級4強！Jude Bellingham梅開二度（45+2'、93'）絕殺！Schjelderup 36'先馳得點，Heggem 55'進球被VAR取消。英格蘭將在7/15亞特蘭大準決賽對陣🇦🇷阿根廷/🇨🇭瑞士勝方。Bellingham當選全場最佳！Haaland 106'被換下全場啞火",
+      goals: [
+        { min: 36, team: 1, scorer: 'Andreas Schjelderup', assist: 'Martin Ødegaard', detail: 'Ødegaard精準傳球，Schjelderup禁區外射入左下角，挪威1-0領先' },
+        { min: 45, team: 2, scorer: 'Jude Bellingham', assist: 'Anthony Gordon', detail: 'Gordon左路傳中，Bellingham禁區中央搶點推射入網，上半場傷停補時扳平！' },
+        { min: 93, team: 2, scorer: 'Jude Bellingham', detail: '延長賽第3分鐘，禁區內接應射門入網梅開二度，英格蘭2-1絕殺晉級4強！' }
+      ],
+      cards: [
+        { min: 55, team: 1, player: 'Torbjørn Heggem', card: 'yellow', detail: 'VAR取消進球後抗議判決' }
+      ],
+      stats: {
+        possession: [47, 53],
+        shots: [13, 14],
+        shotsOnTarget: [4, 8],
+        shotsOffTarget: [6, 6],
+        shotsInsideBox: [10, 8],
+        shotsOutsideBox: [3, 6],
+        passes: [563, 621],
+        passCompleted: [483, 563],
+        passAccuracy: [85.8, 90.7],
+        crosses: [16, 18],
+        crossesCompleted: [4, 6],
+        corners: [7, 4],
+        freeKicks: [12, 10],
+        fouls: [10, 8],
+        offsides: [1, 5],
+        yellowCards: [1, 0],
+        redCards: [0, 0],
+        forcedTurnovers: [30, 28],
+        pressingApplied: [240, 220]
+      }
     },
     // 7月11日：8強賽第4場 — 未進行
     { date: '2026-07-11', time: '21:00 ET', group: 'QF', team1: 'Argentina', team2: 'Switzerland', venue: '堪薩斯城·箭頭體育場', status: 'scheduled',
@@ -3657,7 +3686,7 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: "8強賽第二場戰果🔥 ｜ 🏆 🇪🇸西班牙2-1🇧🇪比利時晉級4強！Merino 88'替補絕殺🔥 ｜ 今日8強賽程：🇳🇴挪威vs🇬🇧英格蘭（7/11·邁阿密）· 🇦🇷阿根廷vs🇨🇭瑞士（7/11·堪薩斯城） ｜ 📅 7/11 上午更新：西班牙連兩場淘汰賽絕殺🔥 Merino成爲英雄｜ 準決賽對陣：🇫🇷法國 vs 🇪🇸西班牙（7/14·達拉斯）🔥｜ 🥇 Mbappé·Messi各以8球並列金靴榜首｜ ❌ 已淘汰：🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦🇧🇪｜ 🏆 輪播照片已換新🔥",
+    summary: "8強賽第三場戰果🔥 ｜ 🏆 🇬🇧英格蘭延長賽2-1🇳🇴挪威晉級4強！Bellingham梅開二度絕殺🔥 ｜ 最後8強賽：🇦🇷阿根廷vs🇨🇭瑞士（7/11·堪薩斯城） ｜ 📅 7/11 晚間更新：英格蘭延長賽晉級！Bellingham 93分鐘絕殺🔥｜ 準決賽對陣：🇫🇷法國 vs 🇪🇸西班牙（7/14·達拉斯）🔥 · 🇬🇧英格蘭 vs TBD（7/15·亞特蘭大）｜ 🥇 Mbappé·Messi各以8球並列金靴榜首｜ ❌ 已淘汰：🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦🇧🇪🇳🇴｜ 🏆 輪播照片已換新🔥",
     
     // PK 大戰結果
     penalties: {
@@ -3704,12 +3733,14 @@ const WC_DATA = {
         name: '8強賽', nameEn: 'Quarter-Finals',
         status: 'in_progress',
         totalMatches: 4,
-        completedCount: 2,
+        completedCount: 3,
         dateRange: '7月9日 — 7月11日',
+        eliminated: ['Morocco', 'Belgium', 'Norway'],
+        advanced: ['France', 'Spain', 'England'],
         matchups: [
           { team1: 'France', score1: 2, team2: 'Morocco', score2: 0, date: '2026-07-09', venue: '福克斯堡·吉列體育場', time: '20:00 ET', status: 'completed', winner: 'France', note: 'France 2-0 Morocco - Mbappe 60 goal, Dembele 66 goal. France reach 3rd consecutive SF!' },
           { team1: 'Spain', score1: 2, team2: 'Belgium', score2: 1, date: '2026-07-10', venue: '英格爾伍德·SoFi體育場', time: '15:00 ET', status: 'completed', winner: 'Spain', note: 'Spain 2-1 Belgium - Ruiz 30, De Ketelaere 41, Merino 88. Spain SF vs France!' },
-          { team1: 'Norway', team2: 'England', date: '2026-07-11', venue: '邁阿密·硬石體育場', time: '17:00 ET', note: '挪威vs英格蘭 — 兩隊首度在世界盃交手！Haaland世界盃7球與Messi/Mbappé並列射手榜首' },
+          { team1: 'Norway', score1: 1, team2: 'England', score2: 2, date: '2026-07-11', venue: '邁阿密·硬石體育場', time: '17:00 ET', status: 'completed', winner: 'England', note: 'England 2-1 Norway AET - Bellingham brace (45+2, 93)! England reach SF!' },
           { team1: 'Argentina', team2: 'Switzerland', date: '2026-07-11', venue: '堪薩斯城·箭頭體育場', time: '21:00 ET', note: '阿根廷 vs 瑞士 — Messi vs Xhaka！阿根廷驚天逆轉埃及晉級，瑞士PK大戰力克哥倫比亞自1954年首闖8強' }
         ]
       },
@@ -3722,7 +3753,7 @@ const WC_DATA = {
         dateRange: '7月14日 — 7月15日',
         matchups: [
           { team1: 'France', team2: 'Spain', date: '2026-07-14', venue: '達拉斯·AT&T體育場', time: '20:00 ET', note: '🇫🇷法國 vs 🇪🇸西班牙 — 兩支歐洲最強防守球隊的對決！Mbappé vs Yamal🔥 Merino連兩場淘汰賽絕殺' },
-          { team1: 'TBD', team2: 'TBD', date: '2026-07-15', venue: '亞特蘭大·梅賽德斯-賓士體育場', time: '20:00 ET', note: '🇳🇴挪威/🇬🇧英格蘭 vs 🇦🇷阿根廷/🇨🇭瑞士' }
+          { team1: 'TBD', team2: 'TBD', date: '2026-07-15', venue: '亞特蘭大·梅賽德斯-賓士體育場', time: '20:00 ET', note: '🇬🇧英格蘭 vs 🇦🇷阿根廷/🇨🇭瑞士 — 英格蘭延長賽2-1力克挪威晉級！Bellingham梅開二度🔥' }
         ]
       },
       Final: {
