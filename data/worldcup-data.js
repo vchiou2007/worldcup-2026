@@ -3805,10 +3805,10 @@ const WC_DATA = {
 
 // ===== 首頁輪播牆照片 =====
 const HERO_IMAGES = [
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/FIFA_World_Cup_Trophy_2018_%28cropped%29.jpg/1200px-FIFA_World_Cup_Trophy_2018_%28cropped%29.jpg',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Estadio_Azteca_2024_aerial.jpg/1200px-Estadio_Azteca_2024_aerial.jpg',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Soccer_ball.svg/1200px-Soccer_ball.svg.png',
-  'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/2026_FIFA_World_Cup_Logo.svg/1200px-2026_FIFA_World_Cup_Logo.svg.png'
+  'https://upload.wikimedia.org/wikipedia/commons/a/ae/FIFA_World_Cup_Trophy_at_National_Football_Museum%2C_Manchester_02.jpg',
+  'https://upload.wikimedia.org/wikipedia/commons/0/07/Vista_a%C3%A9rea_del_Estadio_Azteca_-_2026_-_02.jpg',
+  'https://upload.wikimedia.org/wikipedia/commons/e/ec/Soccer_ball.svg',
+  'https://upload.wikimedia.org/wikipedia/commons/4/4b/FIFA_WorldCup_logo.svg'
 ];
 
 const HERO_CAPTIONS = [
