@@ -315,6 +315,20 @@ body {
 .match-status-badge.completed { background: var(--green-bg); color: var(--green); }
 .match-status-badge.live { background: var(--red-bg); color: var(--red); }
 .match-status-badge.scheduled { background: var(--bg-alt); color: var(--text-muted); }
+.match-status-badge.upcoming { background: var(--bg-alt); color: var(--text-muted); }
+
+.match-stage-badge {
+  font-size: 0.55rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 12px;
+  background: var(--accent-bg);
+  color: var(--accent);
+  margin-left: 6px;
+}
+
+.match-team.ko-winner { font-weight: 700; color: var(--accent); }
+.match-team.ko-winner span { font-weight: 700; }
 
 .match-body {
   display: flex;

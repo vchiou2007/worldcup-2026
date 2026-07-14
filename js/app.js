@@ -658,26 +658,62 @@ function renderBracket(){
 }
 
 // ========== 主頁 ==========
+// 收集指定日期的淘汰賽比賽（從 bracket rounds）
+function koMatchesForDate(dateStr){
+  if(!WC_DATA.knockout) return [];
+  const out=[];
+  for(const key of Object.keys(WC_DATA.knockout.rounds)){
+    const rd=WC_DATA.knockout.rounds[key];
+    if(rd.matchups) for(const mu of rd.matchups){
+      if(mu.date===dateStr) out.push(mu);
+    }
+  }
+  return out;
+}
+// 淘汰賽比賽 → 簡化卡片 HTML（不依賴 goals/cards 等欄位）
+function koCard(mu){
+  const done=mu.status==='completed';
+  const live=mu.status==='live';
+  const sc=done?`${mu.score1||0}-${mu.score2||0}`:live?`${mu.score1||0}-${mu.score2||0}`:'VS';
+  const scCls=done?'final':live?'live':'upcoming';
+  const stLbl=done?'已完賽':live?'●LIVE':'未開賽';
+  const t1Cls=done&&mu.winner===mu.team1?'ko-winner':'';
+  const t2Cls=done&&mu.winner===mu.team2?'ko-winner':'';
+  return `<div class="match-card">
+    <div class="match-status"><span class="match-status-badge ${scCls}">${stLbl}</span><span class="match-stage-badge">🏆 ${mu.round||'淘汰賽'}</span></div>
+    <div class="match-teams"><div class="match-team ${t1Cls}">${fimgMd(mu.team1)}<span>${mu.team1}</span></div><div class="match-score ${scCls}">${sc}</div><div class="match-team ${t2Cls}">${fimgMd(mu.team2)}<span>${mu.team2}</span></div></div>
+    <div class="match-meta"><span>${mu.venue||''}</span><span>${mu.time||''}</span></div>
+  </div>`;
+}
 function renderHome(){
   renderSlideshow();
   initLiveClock();
   const t=td();
   const el1=document.getElementById('today-matches');
   if(el1){
-    const ms=WC_DATA.matches.filter(m=>m.date===t);
+    let ms=WC_DATA.matches.filter(m=>m.date===t);
+    const ko=koMatchesForDate(t);
+    // 為淘汰賽比賽附加 round 資訊
+    for(const mu of ko) mu.round=WC_DATA.knockout.rounds[Object.keys(WC_DATA.knockout.rounds).find(k=>WC_DATA.knockout.rounds[k].matchups&&WC_DATA.knockout.rounds[k].matchups.includes(mu))]?.name||'';
     let h=`<h2 class="section-title">📅 今日比賽 — ${fdFull(t)}</h2>`;
-    if(!ms.length)h+=`<p style="color:var(--text-muted);padding:12px;">今日無賽事</p>`;
-    else{h+=`<div class="matches-grid two-cols">`;for(const m of ms)h+=mCard(m);h+=`</div>`;}
+    if(!ms.length&&!ko.length)h+=`<p style="color:var(--text-muted);padding:12px;">今日無賽事</p>`;
+    else{
+      if(ms.length){h+=`<div class="matches-grid two-cols">`;for(const m of ms)h+=mCard(m);h+=`</div>`;}
+      if(ko.length){h+=`<div class="matches-grid two-cols">`;for(const m of ko)h+=koCard(m);h+=`</div>`;}
+    }
     el1.innerHTML=h;
   }
   const y=yd();
   const el2=document.getElementById('yesterday-matches');
   if(el2){
-    const ms=WC_DATA.matches.filter(m=>m.date===y);
-    if(!ms.length)el2.style.display='none';
+    let ms=WC_DATA.matches.filter(m=>m.date===y);
+    const ko=koMatchesForDate(y);
+    for(const mu of ko) mu.round=WC_DATA.knockout.rounds[Object.keys(WC_DATA.knockout.rounds).find(k=>WC_DATA.knockout.rounds[k].matchups&&WC_DATA.knockout.rounds[k].matchups.includes(mu))]?.name||'';
+    if(!ms.length&&!ko.length)el2.style.display='none';
     else{
-      let h=`<h2 class="section-title">📋 昨日賽果 — ${fdFull(y)}</h2><div class="matches-grid two-cols">`;
-      for(const m of ms)h+=mCard(m);h+=`</div>`;
+      let h=`<h2 class="section-title">📋 昨日賽果 — ${fdFull(y)}</h2>`;
+      if(ms.length){h+=`<div class="matches-grid two-cols">`;for(const m of ms)h+=mCard(m);h+=`</div>`;}
+      if(ko.length){h+=`<div class="matches-grid two-cols">`;for(const m of ko)h+=koCard(m);h+=`</div>`;}
       el2.innerHTML=h;
     }
   }
