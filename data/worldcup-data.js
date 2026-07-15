@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: "🔥 準決賽戰果🔥 ｜ 🇪🇸西班牙2-0🇫🇷法國晉級決賽！時隔16年重返榮耀🔥 ｜ 📅 7/14 更新：📍 第二場準決賽：🇬🇧英格蘭vs🇦🇷阿根廷（7/15·亞特蘭大）🔥 ｜ 🥇 Messi 8球 · Mbappé 8球 · Haaland 7球 ｜ ❌ 已淘汰：🇫🇷🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦🇧🇪🇳🇴🇨🇭｜ 🏆 西班牙完美防守零封法國！Mbappé全場零射正⚡",
+    currentPhase: "🔥 準決賽戰果🔥 ｜ 🇪🇸西班牙2-0🇫🇷法國晉級決賽！時隔16年重返榮耀🔥 ｜ 📅 7/15 更新：📍 第二場準決賽：🇬🇧英格蘭vs🇦🇷阿根廷（今晚20:00·亞特蘭大）🔥 ｜ 🥇 Messi 8球 · Mbappé 8球 · Haaland 7球 ｜ ❌ 已淘汰：🇫🇷🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦🇧🇪🇳🇴🇨🇭｜ 🏆 西班牙完美防守零封法國！Mbappé全場零射正⚡",
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -3640,6 +3640,46 @@ const WC_DATA = {
         pressingApplied: [186, 312]
       }
     },
+
+    // ===== 準決賽 (Semi-Finals) =====
+
+    // 7月14日：準決賽第1場 — 🇪🇸西班牙 2-0 🇫🇷法國
+    { date: '2026-07-14', time: '20:00 ET', group: 'SF', team1: 'France', score1: 0, team2: 'Spain', score2: 2, venue: '達拉斯·AT&T體育場', status: 'completed',
+      note: '🇪🇸西班牙 2-0 🇫🇷法國！時隔16年重返世界盃決賽！Oyarzabal 22分鐘點球破門，Pedro Porro 58分鐘擴大領先。西班牙完美防守限制Mbappé全場零射正，法國連三屆世界盃首次在淘汰賽被零封！',
+      goals: [
+        { min: 22, team: 2, scorer: 'Mikel Oyarzabal', detail: '12碼罰球 — Nico Williams禁區內被Jules Koundé絆倒，VAR確認後判罰，Oyarzabal冷靜射入左下角' },
+        { min: 58, team: 2, scorer: 'Pedro Porro', assist: 'Dani Olmo', detail: 'Olmo右路自由球開出，Porro禁區內甩頭攻門遠柱入網，西班牙2-0鎖定勝局' }
+      ],
+      cards: [
+        { min: 22, team: 1, player: 'Jules Koundé', card: 'yellow', detail: '禁區內絆倒Nico Williams，犯規+點球' },
+        { min: 45, team: 2, player: 'Rodri', card: 'yellow', detail: '戰術犯規' },
+        { min: 73, team: 1, player: 'Adrien Rabiot', card: 'yellow', detail: '犯規' }
+      ],
+      stats: {
+        possession: [53, 47], shots: [6, 16], shotsOnTarget: [0, 7],
+        shotsOffTarget: [4, 6], shotsInsideBox: [2, 10], shotsOutsideBox: [4, 6],
+        passes: [460, 430], passCompleted: [400, 380], passAccuracy: [86.9, 88.4],
+        crosses: [12, 18], crossesCompleted: [3, 6], corners: [2, 6],
+        freeKicks: [14, 12], fouls: [12, 12], offsides: [2, 1],
+        yellowCards: [2, 1], redCards: [0, 0],
+        forcedTurnovers: [26, 30], pressingApplied: [200, 230]
+      }
+    },
+
+    // 7月15日：準決賽第2場 — 🇬🇧英格蘭 vs 🇦🇷阿根廷（尚未開賽）
+    { date: '2026-07-15', time: '20:00 ET', group: 'SF', team1: 'England', team2: 'Argentina', venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'scheduled',
+      note: '🏆 英格蘭 vs 阿根廷 — 2026世界盃準決賽！Bellingham vs Messi！史上最強陣容對決！英格蘭延長賽2-1力克挪威，阿根廷延長賽3-1擊敗瑞士🔥 今晚20:00 ET 亞特蘭大開踢！',
+      goals: [], cards: [],
+      stats: {
+        possession: [50, 50], shots: [0, 0], shotsOnTarget: [0, 0],
+        shotsOffTarget: [0, 0], shotsInsideBox: [0, 0], shotsOutsideBox: [0, 0],
+        passes: [0, 0], passCompleted: [0, 0], passAccuracy: [0, 0],
+        crosses: [0, 0], crossesCompleted: [0, 0], corners: [0, 0],
+        freeKicks: [0, 0], fouls: [0, 0], offsides: [0, 0],
+        yellowCards: [0, 0], redCards: [0, 0],
+        forcedTurnovers: [0, 0], pressingApplied: [0, 0]
+      }
+    },
   ],
 
   // 分組積分（賽後更新）
@@ -3720,7 +3760,7 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: "🔥 準決賽戰果！🇪🇸西班牙 2-0 🇫🇷法國重返決賽🔥 ｜ Oyarzabal點球+Porro進球，西班牙完美防守零封法國！Mbappé全場零射正⚡ ｜ 另一場準決賽：🇬🇧英格蘭 vs 🇦🇷阿根廷（7/15·亞特蘭大）🔥 Messi vs Bellingham！🥇 Messi 8球 · Mbappé 8球 · Haaland 7球 ｜ 🏆 西班牙時隔16年重返世界盃決賽！史上首次歐洲冠軍=世界盃冠軍候選🔥｜ ❌ 已淘汰：🇫🇷🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦🇧🇪🇳🇴🇨🇭",
+    summary: "🔥 準決賽戰果！🇪🇸西班牙 2-0 🇫🇷法國重返決賽🔥 ｜ Oyarzabal點球+Porro進球，西班牙完美防守零封法國！Mbappé全場零射正⚡ ｜ 另一場準決賽：🇬🇧英格蘭 vs 🇦🇷阿根廷（今晚7/15·亞特蘭大·20:00 ET）🔥 Messi vs Bellingham！🥇 Messi 8球 · Mbappé 8球 · Haaland 7球 ｜ 🏆 西班牙時隔16年重返世界盃決賽！史上首次歐洲冠軍=世界盃冠軍候選🔥｜ ❌ 已淘汰：🇫🇷🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦🇧🇪🇳🇴🇨🇭",
     
     // PK 大戰結果
     penalties: {
