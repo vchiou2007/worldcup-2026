@@ -3666,18 +3666,26 @@ const WC_DATA = {
       }
     },
 
-    // 7月15日：準決賽第2場 — 🇬🇧英格蘭 vs 🇦🇷阿根廷（尚未開賽）
-    { date: '2026-07-15', time: '20:00 ET', group: 'SF', team1: 'England', team2: 'Argentina', venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'scheduled',
-      note: '🏆 英格蘭 vs 阿根廷 — 2026世界盃準決賽！Bellingham vs Messi！史上最強陣容對決！英格蘭延長賽2-1力克挪威，阿根廷延長賽3-1擊敗瑞士🔥 今晚20:00 ET 亞特蘭大開踢！',
-      goals: [], cards: [],
+    // 7月15日：準決賽第2場 — 🇬🇧英格蘭 1-2 🇦🇷阿根廷
+    { date: '2026-07-15', time: '20:00 ET', group: 'SF', team1: 'England', score1: 1, team2: 'Argentina', score2: 2, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'completed',
+      note: '🏆 阿根廷 2-1 英格蘭 — 阿根廷延長賽驚天逆轉！Fernández 85分鐘扳平，Lautaro 90+2頭球絕殺！Messi助攻 Fernández！阿根廷重返決賽對決西班牙🔥',
+      goals: [
+        { team: 'England', player: 'Anthony Gordon', minute: 55, type: 'goal' },
+        { team: 'Argentina', player: 'Enzo Fernández', minute: 85, type: 'goal' },
+        { team: 'Argentina', player: 'Lautaro Martínez', minute: 90, type: 'goal', note: '90+2' }
+      ], cards: [
+        { team: 'England', player: 'Jude Bellingham', minute: 78, card: 'yellow' },
+        { team: 'England', player: 'Declan Rice', minute: 82, card: 'yellow' },
+        { team: 'Argentina', player: 'Leandro Paredes', minute: 64, card: 'yellow' }
+      ],
       stats: {
-        possession: [50, 50], shots: [0, 0], shotsOnTarget: [0, 0],
-        shotsOffTarget: [0, 0], shotsInsideBox: [0, 0], shotsOutsideBox: [0, 0],
-        passes: [0, 0], passCompleted: [0, 0], passAccuracy: [0, 0],
-        crosses: [0, 0], crossesCompleted: [0, 0], corners: [0, 0],
-        freeKicks: [0, 0], fouls: [0, 0], offsides: [0, 0],
-        yellowCards: [0, 0], redCards: [0, 0],
-        forcedTurnovers: [0, 0], pressingApplied: [0, 0]
+        possession: [36, 64], shots: [5, 15], shotsOnTarget: [2, 5],
+        shotsOffTarget: [3, 10], shotsInsideBox: [2, 10], shotsOutsideBox: [3, 5],
+        passes: [325, 590], passCompleted: [273, 537], passAccuracy: [84, 91],
+        crosses: [10, 22], crossesCompleted: [2, 8], corners: [1, 8],
+        freeKicks: [16, 14], fouls: [11, 15], offsides: [1, 2],
+        yellowCards: [2, 1], redCards: [0, 0],
+        forcedTurnovers: [22, 28], pressingApplied: [180, 220]
       }
     },
   ],
@@ -3760,7 +3768,7 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: "🔥 準決賽戰果！🇪🇸西班牙 2-0 🇫🇷法國重返決賽🔥 ｜ Oyarzabal點球+Porro進球，西班牙完美防守零封法國！Mbappé全場零射正⚡ ｜ 另一場準決賽：🇬🇧英格蘭 vs 🇦🇷阿根廷（今晚7/15·亞特蘭大·20:00 ET）🔥 Messi vs Bellingham！🥇 Messi 8球 · Mbappé 8球 · Haaland 7球 ｜ 🏆 西班牙時隔16年重返世界盃決賽！史上首次歐洲冠軍=世界盃冠軍候選🔥｜ ❌ 已淘汰：🇫🇷🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦🇧🇪🇳🇴🇨🇭",
+    summary: "🔥 決賽對戰組合出爐🔥 ｜ 🇪🇸西班牙 vs 🇦🇷阿根廷（7/19·大都會人壽體育場·15:00 ET）🔥 ｜ 🇦🇷阿根廷 2-1 🇬🇧英格蘭！Fernández 85' + Lautaro 90'+2' 絕殺⚡ ｜ 🇫🇷法國 vs 🇬🇧英格蘭 — 季軍戰（7/18）🔥 ｜ 🥇 Messi 9球 · Mbappé 8球 · Haaland 7球 ｜ 🏆 Messi vs Yamal！球王傳承之戰！阿根廷挑戰連霸🔥｜ ❌ 已淘汰：🇫🇷(季軍戰)🇬🇧🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦🇧🇪🇳🇴🇨🇭",
     
     // PK 大戰結果
     penalties: {
@@ -3821,17 +3829,17 @@ const WC_DATA = {
       SF: {
         order: 4,
         name: '準決賽', nameEn: 'Semi-Finals',
-        status: 'in_progress',
+        status: 'completed',
         totalMatches: 2,
-        completedCount: 1,
+        completedCount: 2,
         dateRange: '7月14日 — 7月15日',
         matchups: [
           { team1: 'France', score1: 0, team2: 'Spain', score2: 2, date: '2026-07-14', venue: '達拉斯·AT&T體育場', time: '20:00 ET', status: 'completed', winner: 'Spain', note: '🇪🇸西班牙 2-0 🇫🇷法國！Oyarzabal 22分鐘點球破門，Porro 58分鐘擴大領先！西班牙完美限制Mbappé全場零射正，時隔16年重返世界盃決賽🔥' },
-          { team1: 'England', team2: 'Argentina', date: '2026-07-15', venue: '亞特蘭大·梅賽德斯-賓士體育場', time: '20:00 ET', note: '🏆🇬🇧英格蘭 vs 🇦🇷阿根廷 — 史上最強8強賽陣容！英格蘭延長賽2-1力克挪威，阿根廷延長賽3-1擊敗瑞士🔥 Bellingham vs Messi！世界盃冠軍對決！' }
+          { team1: 'England', score1: 1, team2: 'Argentina', score2: 2, date: '2026-07-15', venue: '亞特蘭大·梅賽德斯-賓士體育場', time: '20:00 ET', status: 'completed', winner: 'Argentina', note: '🇦🇷阿根廷 2-1 🇬🇧英格蘭！Fernández 85分鐘扳平，Lautaro 90+2頭球絕殺！Messi助攻！阿根廷重返決賽對決西班牙🔥' }
         ]
       },
       Final: {
-        order: 5,
+        order: 6,
         name: '決賽', nameEn: 'Final',
         status: 'upcoming',
         totalMatches: 1,
@@ -3839,7 +3847,19 @@ const WC_DATA = {
         dateRange: '7月19日',
         venue: '東盧瑟福·大都會人壽體育場',
         matchups: [
-          { team1: 'Spain', team2: 'TBD', date: '2026-07-19', venue: '東盧瑟福·大都會人壽體育場', time: '15:00 ET', note: '🇪🇸西班牙 vs 待定 — 2026世界盃決賽！西班牙時隔16年重返決賽舞台🔥' }
+          { team1: 'Spain', team2: 'Argentina', date: '2026-07-19', venue: '東盧瑟福·大都會人壽體育場', time: '15:00 ET', note: '🏆🇪🇸西班牙 vs 🇦🇷阿根廷 — 2026世界盃決賽！西班牙時隔16年重返決賽舞台⚡阿根廷挑戰連霸🔥 Messi vs Yamal！球王傳承之戰！' }
+        ]
+      },
+      ThirdPlace: {
+        order: 5,
+        name: '季軍戰', nameEn: 'Third Place Play-off',
+        status: 'upcoming',
+        totalMatches: 1,
+        completedCount: 0,
+        dateRange: '7月18日',
+        venue: '邁阿密·硬石體育場',
+        matchups: [
+          { team1: 'France', team2: 'England', date: '2026-07-18', venue: '邁阿密·硬石體育場', time: '16:00 ET', note: '🥉🇫🇷法國 vs 🇬🇧英格蘭 — 2026世界盃季軍戰！Mbappé vs Bellingham！兩大球星對決🔥' }
         ]
       }
     }
