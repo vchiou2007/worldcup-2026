@@ -111,7 +111,7 @@ const PLAYER_IMAGES = {
 };
 
 // ===== 輪播牆圖片（2026-07-12 09:00 cron更新🔥 4場8強賽全數結束！準決賽對陣出爐🔥） =====
-const HERO_IMAGES = [
+var HERO_IMAGES = [
   // 🇫🇷🔥 France 2-0 Morocco — Kylian Mbappé第60分鐘禁區外弧線球破門！世界盃第20球，本屆第8球追平Messi並列金靴榜首🔥（Getty Images）
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/09/USAT/90869525007-gty-2285416745.jpg',
   // 🇫🇷⚡ France 2-0 Morocco — Mbappé第24分鐘12碼罰球被Bounou撲出！本屆首次罰失，但下半場以世界波彌補🔥（Getty Images）
@@ -128,7 +128,7 @@ const HERO_IMAGES = [
   'https://www.usatoday.com/gcdn/authoring/authoring-images/2026/07/10/USAT/90880046007-2284911318.jpg'
 ];
 
-const HERO_CAPTIONS = [
+var HERO_CAPTIONS = [
   "🔥🇫🇷 Kylian Mbappé第60分鐘禁區外弧線球破門！世界盃累計第20球，本屆第8球追平Messi並列金靴榜首⚽ 法國2-0擊敗摩洛哥，連三屆闖入世界盃4強！Mbappé全場5次射門3次射正，雖然第24分鐘罰球被Bounou撲出，仍以進球+助攻統治比賽🔥（Getty Images）",
   "⚡🇫🇷 Kylian Mbappé第24分鐘12碼罰球被Yassine Bounou撲出——本屆世界盃首次罰失！但下半場第60分鐘禁區外弧線球世界波破門、第66分鐘助攻Dembélé低射入網，法國2-0鎖定勝局。Ousmane Dembélé本屆第5球，Mbappé第3次助攻（Getty Images）",
   "🔥🇪🇸 Mikel Merino第88分鐘替補絕殺！Pau Cubarsí遠射造成比利時替補門將Senne Lammens撲球脫手，Merino跟進補射破門⚽ Spain 2-1 Belgium！Fabian Ruiz第30分鐘首開紀錄，Charles De Ketelaere第41分鐘頭槌扳平。Thibaut Courtois第71分鐘傷退成為轉折點（AP Photo）",
