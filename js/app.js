@@ -90,7 +90,7 @@ function mCard(m, plain){
       goalsHtml+=`<div class="goal-event ${side}">
         <span class="goal-min">${g.min}'</span>
         <span class="goal-icon">⚽</span>
-        <span>${fimgSm(teamName)} <span class="goal-scorer">${g.scorer}</span>
+        <span>${fimgSm(teamName)} <span class="goal-scorer">${g.player || g.scorer}</span>
         ${g.assist?`<span class="goal-assist">（助攻：${g.assist}）</span>`:''}
         ${g.detail?`<span class="goal-detail">— ${g.detail}</span>`:''}</span>
       </div>`;

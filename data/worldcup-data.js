@@ -3670,13 +3670,13 @@ const WC_DATA = {
     { date: '2026-07-15', time: '20:00 ET', group: 'SF', team1: 'England', score1: 1, team2: 'Argentina', score2: 2, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'completed',
       note: '🏆 阿根廷 2-1 英格蘭 — 阿根廷延長賽驚天逆轉！Fernández 85分鐘扳平，Lautaro 90+2頭球絕殺！Messi助攻 Fernández！阿根廷重返決賽對決西班牙🔥',
       goals: [
-        { team: 'England', player: 'Anthony Gordon', minute: 55, type: 'goal' },
-        { team: 'Argentina', player: 'Enzo Fernández', minute: 85, type: 'goal' },
-        { team: 'Argentina', player: 'Lautaro Martínez', minute: 90, type: 'goal', note: '90+2' }
+        { team: 1, player: 'Anthony Gordon', minute: 55, type: 'goal' },
+        { team: 2, player: 'Enzo Fernández', minute: 85, type: 'goal' },
+        { team: 2, player: 'Lautaro Martínez', minute: 90, type: 'goal', note: '90+2' }
       ], cards: [
-        { team: 'England', player: 'Jude Bellingham', minute: 78, card: 'yellow' },
-        { team: 'England', player: 'Declan Rice', minute: 82, card: 'yellow' },
-        { team: 'Argentina', player: 'Leandro Paredes', minute: 64, card: 'yellow' }
+        { team: 1, player: 'Jude Bellingham', minute: 78, card: 'yellow' },
+        { team: 1, player: 'Declan Rice', minute: 82, card: 'yellow' },
+        { team: 2, player: 'Leandro Paredes', minute: 64, card: 'yellow' }
       ],
       stats: {
         possession: [36, 64], shots: [5, 15], shotsOnTarget: [2, 5],
