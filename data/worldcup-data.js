@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: "🔥 準決賽戰果🔥 ｜ 🇪🇸西班牙2-0🇫🇷法國晉級決賽！時隔16年重返榮耀🔥 ｜ 📅 7/15 更新：📍 第二場準決賽：🇬🇧英格蘭vs🇦🇷阿根廷（今晚20:00·亞特蘭大）🔥 ｜ 🥇 Messi 8球 · Mbappé 8球 · Haaland 7球 ｜ ❌ 已淘汰：🇫🇷🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦🇧🇪🇳🇴🇨🇭｜ 🏆 西班牙完美防守零封法國！Mbappé全場零射正⚡",
+    currentPhase: "🔥 決賽週末🔥 ｜ 🏆 決賽：🇪🇸西班牙 vs 🇦🇷阿根廷（7/19·大都會人壽·15:00 ET）🔥 ｜ 🥉 季軍戰：🇫🇷法國 vs 🇬🇧英格蘭（7/18·邁阿密·16:00 ET）🔥 ｜ 🇦🇷阿根廷 2-1 🇬🇧英格蘭 — Fernández 85' + Lautaro 90+2' 絕殺！Messi助攻⚡ ｜ 🇪🇸西班牙 2-0 🇫🇷法國 — Oyarzabal 22'(P) Porro 58' 完美零封 ｜ 🥇 Messi 9球 · Mbappé 8球 · Haaland 7球 ｜ 📅 7/17 更新：決賽對戰組合出爐！Messi vs Yamal球王傳承🔥",
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
