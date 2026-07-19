@@ -3859,7 +3859,7 @@ const WC_DATA = {
         dateRange: '7月18日',
         venue: '邁阿密·硬石體育場',
         matchups: [
-          { team1: 'France', score1: 4, team2: 'England', score2: 6, date: '2026-07-18', venue: '邁阿密·硬石體育場', time: '16:00 ET', winner: 'England', note: '🥉🇫🇷法國 4-6 🇬🇧英格蘭 — 2026世界盃季軍戰！Saka帽子戲法！Mbappé梅開二度，10球驚天對決🔥⚽' }
+          { team1: 'France', score1: 4, team2: 'England', score2: 6, date: '2026-07-18', venue: '邁阿密·硬石體育場', time: '16:00 ET', status: 'completed', winner: 'England', note: '🥉🇫🇷法國 4-6 🇬🇧英格蘭 — 2026世界盃季軍戰！Saka帽子戲法！Mbappé梅開二度，10球驚天對決🔥⚽' }
         ]
       }
     }
