@@ -2120,6 +2120,19 @@ body {
 .ca-label { font-weight: 600; color: #94a3b8; }
 .ca-val { font-weight: 700; color: #fbbf24; }
 
+/* ===== 賽事結束橫幅 ===== */
+.tournament-ended {
+  text-align: center;
+  padding: 30px 20px;
+  background: linear-gradient(135deg, rgba(13,148,136,0.04), rgba(8,145,178,0.04));
+  border: 1px dashed var(--card-border);
+  border-radius: var(--radius);
+  margin: 8px 0;
+}
+.tournament-ended .te-icon { font-size: 3rem; margin-bottom: 8px; }
+.tournament-ended .te-text { font-size: 1.15rem; font-weight: 800; color: var(--teal); margin-bottom: 4px; }
+.tournament-ended .te-sub { font-size: 0.82rem; color: var(--text-muted); }
+
 /* ============================================
    最終排名頁 — Standings
    ============================================ */

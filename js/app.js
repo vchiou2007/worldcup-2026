@@ -861,8 +861,19 @@ function renderHome(){
     // 為淘汰賽比賽附加 round 資訊
     for(const mu of ko) mu.round=WC_DATA.knockout.rounds[Object.keys(WC_DATA.knockout.rounds).find(k=>WC_DATA.knockout.rounds[k].matchups&&WC_DATA.knockout.rounds[k].matchups.includes(mu))]?.name||'';
     let h=`<h2 class="section-title">📅 今日比賽 — ${fdFull(t)}</h2>`;
-    if(!ms.length&&!ko.length)h+=`<p style="color:var(--text-muted);padding:12px;">今日無賽事</p>`;
-    else{
+    // 檢查是否所有比賽都已結束
+    const allDone = WC_DATA.matches.every(m => m.status === 'completed') && WC_DATA.knockout && WC_DATA.knockout.rounds.Final.status === 'completed';
+    if(!ms.length&&!ko.length){
+      if(allDone){
+        h+=`<div class="tournament-ended">
+          <div class="te-icon">🏆</div>
+          <div class="te-text">2026 世界盃已圓滿落幕</div>
+          <div class="te-sub">所有 104 場比賽已全部結束 ｜ 🇪🇸西班牙冠軍 🇦🇷阿根廷亞軍</div>
+        </div>`;
+      } else {
+        h+=`<p style="color:var(--text-muted);padding:12px;">今日無賽事</p>`;
+      }
+    } else {
       if(ms.length){h+=`<div class="matches-grid two-cols">`;for(const m of ms)h+=mCard(m);h+=`</div>`;}
       if(ko.length){h+=`<div class="matches-grid two-cols">`;for(const m of ko)h+=koCard(m);h+=`</div>`;}
     }
