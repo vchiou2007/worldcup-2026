@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     case'teams':renderTeams();break;
     case'matches':renderMatches();break;
     case'knockout':renderKnockout();break;
+    case'standings':renderStandings();break;
   }
   const u=document.getElementById('update-time');
   if(u)u.textContent=new Date().toLocaleString('zh-TW',{timeZone:'America/Toronto'});
@@ -439,6 +440,12 @@ function renderBracketTree(){
   // 決賽資訊
   const fin = ko.rounds.Final;
   const finVenue = fin.venue || '東盧瑟福';
+  const finMatch = fin.matchups && fin.matchups[0];
+  const finDone = finMatch && finMatch.status === 'completed';
+  const finScore1 = finDone ? finMatch.score1 : null;
+  const finScore2 = finDone ? finMatch.score2 : null;
+  const finWinner = finDone ? finMatch.winner : null;
+  const finChampion = finDone ? finMatch.winner + ' 冠軍！🏆' : '🏆 冠軍尚未決定';
 
   // 上半區 SF 對手 (SF finalists)
   const sf1t1 = sfL[0].team1;
@@ -451,10 +458,9 @@ function renderBracketTree(){
   const sf2done = sfR_has2 && sfR[0].status === 'completed';
   const sf2w = sf2done ? sfR[0].winner : null;
 
-  const champion1 = sf1done ? sfL[0].winner : null;
-  const champion2 = sfR_has2 && sf2done ? sfR[0].winner : null;
-  const champion = (sf1done && sf2done) ? '🏆 冠軍尚未決定' :
-    (sf1done ? sfL[0].winner : (sf2done ? sfR[0].winner : null));
+  const champion1 = finDone ? finMatch.winner : (sf1done ? sfL[0].winner : null);
+  const champion2 = null;
+  const champion = finChampion;
 
   el.innerHTML = `
     <div class="bracket-tree">
@@ -483,12 +489,14 @@ function renderBracketTree(){
       <!-- ===== 決賽 + 冠軍 ===== -->
       <div class="bracket-final-col">
         <div class="bracket-col-header">決賽</div>
-        <div class="bracket-final-team ${sf1t1 !== 'TBD' && sf1w ? 'finalist' : 'tbd-finalist'}">
-          ${sf1t1 !== 'TBD' && sf1w ? '🏆 ' + sf1w : '🤷 待定'}
+        <div class="bracket-final-team finalist" style="display:flex;align-items:center;gap:8px;justify-content:center;">
+          🏆 ${finDone ? finMatch.team1 : (sf1w || '待定')}
+          ${finDone ? `<span class="b-score" style="font-size:1.2rem;">${finScore1}</span>` : ''}
         </div>
-        <div class="bracket-vs-line">VS</div>
-        <div class="bracket-final-team ${sf2t1 !== 'TBD' && sf2w ? 'finalist' : 'tbd-finalist'}">
-          ${sf2t1 !== 'TBD' && sf2w ? '🏆 ' + sf2w : '🤷 待定'}
+        <div class="bracket-vs-line">${finScore1 !== null && finScore2 !== null ? '—' : 'VS'}</div>
+        <div class="bracket-final-team finalist" style="display:flex;align-items:center;gap:8px;justify-content:center;">
+          🏆 ${finDone ? finMatch.team2 : (sf2w || '待定')}
+          ${finDone ? `<span class="b-score" style="font-size:1.2rem;">${finScore2}</span>` : ''}
         </div>
         <div class="bracket-vs-line" style="margin-top:8px;">—</div>
         <div class="bracket-final-team champion">
@@ -657,6 +665,159 @@ function renderBracket(){
   </div>`;
 }
 
+// ========== 🏆 冠軍大橫幅 ==========
+function renderChampionBanner(){
+  const el = document.getElementById('champion-banner');
+  if(!el) return;
+  // 獲取決賽和季軍戰資訊
+  const fin = WC_DATA.knockout.rounds.Final.matchups[0];
+  const third = WC_DATA.knockout.rounds.ThirdPlace.matchups[0];
+  const sf = WC_DATA.knockout.rounds.SF;
+  const qf = WC_DATA.knockout.rounds.QF;
+  const r16 = WC_DATA.knockout.rounds.R16;
+  const r32 = WC_DATA.knockout.rounds.R32;
+
+  // 所有晉級16強隊伍
+  const r16teams = r32.advanced || [];
+
+  el.innerHTML = `
+<div class="champion-section">
+  <div class="champion-hero">
+    <div class="champion-trophy">🏆</div>
+    <div class="champion-emblem">${fimgXl('Spain')}</div>
+    <div class="champion-name">西班牙 <span class="champion-name-en">Spain</span></div>
+    <div class="champion-title">2026 世界盃冠軍</div>
+    <div class="champion-subtitle">第 2 座世界盃冠軍 🏆🏆</div>
+    <div class="champion-result">決賽：西班牙 1-0 阿根廷（延長賽）</div>
+    <div class="champion-detail">⚽ Ferran Torres 106' ｜ 🥇 Messi 金靴獎（9球） ｜ 🧤 Unai Simón 金手套獎</div>
+  </div>
+  <div class="champion-podium">
+    <div class="podium-item podium-gold">
+      <div class="podium-rank">🥇</div>
+      <div class="podium-flag">${fimgLg('Spain')}</div>
+      <div class="podium-name">西班牙</div>
+      <div class="podium-en">Spain</div>
+      <div class="podium-strip">冠軍</div>
+    </div>
+    <div class="podium-item podium-silver">
+      <div class="podium-rank">🥈</div>
+      <div class="podium-flag">${fimgLg('Argentina')}</div>
+      <div class="podium-name">阿根廷</div>
+      <div class="podium-en">Argentina</div>
+      <div class="podium-strip">亞軍</div>
+    </div>
+    <div class="podium-item podium-bronze">
+      <div class="podium-rank">🥉</div>
+      <div class="podium-flag">${fimgLg('England')}</div>
+      <div class="podium-name">英格蘭</div>
+      <div class="podium-en">England</div>
+      <div class="podium-strip">季軍</div>
+    </div>
+    <div class="podium-item podium-fourth">
+      <div class="podium-rank">4</div>
+      <div class="podium-flag">${fimgLg('France')}</div>
+      <div class="podium-name">法國</div>
+      <div class="podium-en">France</div>
+      <div class="podium-strip">第四名</div>
+    </div>
+  </div>
+  <div class="champion-stats">
+    <div class="champ-stat"><span class="champ-stat-num">48</span> 參賽隊伍</div>
+    <div class="champ-stat"><span class="champ-stat-num">104</span> 總場次</div>
+    <div class="champ-stat"><span class="champ-stat-num">308</span> 總進球</div>
+    <div class="champ-stat"><span class="champ-stat-num">6,810,966</span> 現場觀眾</div>
+  </div>
+  <div class="champion-rounds">
+    <div class="cr-title">🏆 西班牙冠軍之路</div>
+    <div class="cr-grid">
+      <div class="cr-item"><div class="cr-round">分組賽</div><div class="cr-detail">H組第1名（2勝1和·不敗）</div></div>
+      <div class="cr-item"><div class="cr-round">32強賽</div><div class="cr-detail">${r32.advanced.includes('Spain')?'✅ 晉級':'西班牙'}</div></div>
+      <div class="cr-item"><div class="cr-round">16強賽</div><div class="cr-detail">1-0 🇵🇹葡萄牙（Merino 90+1絕殺）</div></div>
+      <div class="cr-item"><div class="cr-round">8強賽</div><div class="cr-detail">2-1 🇧🇪比利時</div></div>
+      <div class="cr-item"><div class="cr-round">準決賽</div><div class="cr-detail">2-0 🇫🇷法國</div></div>
+      <div class="cr-item"><div class="cr-round">🏆決賽</div><div class="cr-detail">1-0 🇦🇷阿根廷（Ferran Torres 106'）</div></div>
+    </div>
+  </div>
+  <div class="champion-awards">
+    <div class="ca-title">🏅 賽事獎項</div>
+    <div class="ca-grid">
+      <div class="ca-item"><span class="ca-icon">⚽</span><span class="ca-label">金靴獎</span><span class="ca-val">Messi（9球）🇦🇷</span></div>
+      <div class="ca-item"><span class="ca-icon">🥇</span><span class="ca-label">金球獎</span><span class="ca-val">Rodri🇪🇸</span></div>
+      <div class="ca-item"><span class="ca-icon">🧤</span><span class="ca-label">金手套獎</span><span class="ca-val">Unai Simón🇪🇸</span></div>
+      <div class="ca-item"><span class="ca-icon">🌟</span><span class="ca-label">最佳新人</span><span class="ca-val">Pau Cubarsí🇪🇸</span></div>
+      <div class="ca-item"><span class="ca-icon">🤝</span><span class="ca-label">公平競賽獎</span><span class="ca-val">荷蘭🇳🇱</span></div>
+    </div>
+  </div>
+</div>`;
+}
+
+// ========== 🏆 最終排名 - 完整48隊 ==========
+function renderStandings(){
+  const el = document.getElementById('standings-container');
+  if(!el) return;
+
+  // 排名層級
+  const tiers = [
+    { label: '🏆 冠軍', icon: '🏆', teams: ['Spain'], color: '#f59e0b' },
+    { label: '🥈 亞軍', icon: '🥈', teams: ['Argentina'], color: '#94a3b8' },
+    { label: '🥉 季軍', icon: '🥉', teams: ['England'], color: '#cd7f32' },
+    { label: '4. 第四名', icon: '4️⃣', teams: ['France'], color: '#64748b' },
+    { label: '8 強賽（5-8名）', icon: '🏅', teams: ['Morocco','Belgium','Norway','Switzerland'], color: '#0d9488' },
+    { label: '16 強賽（9-16名）', icon: '🔵', teams: ['Canada','Paraguay','Brazil','Mexico','Portugal','USA','Egypt','Colombia'], color: '#0891b2' },
+    { label: '32 強賽（17-32名）', icon: '⚪', teams: ['South Africa','Japan','Germany','Netherlands','Ivory Coast','Sweden','Ecuador','DR Congo','Senegal','Bosnia and Herzegovina','Austria','Croatia','Algeria','Australia','Cape Verde','Ghana'], color: '#64748b' },
+    { label: '分組賽（33-48名）', icon: '🔘', teams: ['South Korea','Czechia','Qatar','Scotland','Haiti','Turkey','Curaçao','Tunisia','Iran','New Zealand','Uruguay','Saudi Arabia','Iraq','Jordan','Uzbekistan','Panama'], color: '#94a3b8' }
+  ];
+
+  let h = `
+<div class="standings-page-header">
+  <div class="sp-icon">🏆</div>
+  <h1>2026 世界盃最終排名</h1>
+  <p class="sp-sub">全部 48 支參賽隊伍完整排名｜🇪🇸西班牙冠軍 🇦🇷阿根廷亞軍 🇬🇧英格蘭季軍</p>
+</div>
+
+<div class="standings-tiers">`;
+
+  let rank = 0;
+  for(const tier of tiers){
+    rank++;
+    const startRank = rank;
+    const endRank = rank + tier.teams.length - 1;
+    const rankRange = tier.teams.length === 1 ? `#${startRank}` : `#${startRank}–${endRank}`;
+    
+    h += `<div class="st-tier" data-color="${tier.color}">
+      <div class="st-tier-header" style="border-left:4px solid ${tier.color};">
+        <span class="st-tier-icon">${tier.icon}</span>
+        <span class="st-tier-label">${tier.label}</span>
+        <span class="st-tier-range">${rankRange}</span>
+      </div>
+      <div class="st-tier-teams">`;
+    
+    for(const team of tier.teams){
+      const isChamp = team === 'Spain';
+      h += `<div class="st-team ${isChamp?'st-champion':''}">
+        <span class="st-rank">#${rank}</span>
+        ${fimgMd(team)}
+        <span class="st-name">${team}</span>
+        <span class="st-namezh">${zh(team)}</span>
+        ${isChamp?'<span class="st-crown">🏆</span>':''}
+      </div>`;
+      rank++;
+    }
+    
+    h += `</div></div>`;
+    rank = endRank + 1;
+  }
+
+  h += `</div>
+
+<div class="standings-footer">
+  <p>📅 2026.6.11 — 7.19 ｜ 🇺🇸 美國 · 🇨🇦 加拿大 · 🇲🇽 墨西哥 聯合主辦</p>
+  <p>⚽ 48 隊 · 104 場比賽 · 308 進球 · 6,810,966 現場觀眾</p>
+</div>`;
+
+  el.innerHTML = h;
+}
+
 // ========== 主頁 ==========
 // 收集指定日期的淘汰賽比賽（從 bracket rounds）
 function koMatchesForDate(dateStr){
@@ -688,6 +849,10 @@ function koCard(mu){
 function renderHome(){
   renderSlideshow();
   initLiveClock();
+
+  // 🏆 冠軍大橫幅
+  renderChampionBanner();
+  
   const t=td();
   const el1=document.getElementById('today-matches');
   if(el1){

@@ -1860,3 +1860,378 @@ body {
   .bracket-final-team { font-size: 0.65rem; padding: 4px 6px; }
   .bracket-final-team .trophy-icon { font-size: 1.2rem; }
 }
+
+/* ============================================
+   冠軍大橫幅 — Champion Banner
+   ============================================ */
+#champion-banner {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.champion-section {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 40%, #0f172a 100%);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: 0 8px 40px rgba(0,0,0,0.15);
+  margin: -20px 0 30px;
+  position: relative;
+}
+
+.champion-section::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #f59e0b, #fbbf24, #f59e0b, #d97706);
+}
+
+.champion-hero {
+  text-align: center;
+  padding: 40px 24px 24px;
+  position: relative;
+}
+
+.champion-trophy {
+  font-size: 4.5rem;
+  line-height: 1;
+  margin-bottom: 8px;
+  animation: champGlow 2s ease-in-out infinite;
+}
+
+@keyframes champGlow {
+  0%, 100% { transform: scale(1); filter: drop-shadow(0 0 12px rgba(245,158,11,0.3)); }
+  50% { transform: scale(1.08); filter: drop-shadow(0 0 24px rgba(245,158,11,0.6)); }
+}
+
+.champion-emblem { margin-bottom: 8px; }
+.champion-emblem img { width: 80px; height: 60px; border-radius: 6px; box-shadow: 0 2px 12px rgba(255,255,255,0.1); }
+
+.champion-name {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #fff;
+  letter-spacing: -0.5px;
+}
+.champion-name-en {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: rgba(255,255,255,0.5);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+
+.champion-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fbbf24;
+  margin-top: 4px;
+  letter-spacing: 2px;
+}
+
+.champion-subtitle {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.4);
+  margin-top: 2px;
+}
+
+.champion-result {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 12px;
+  padding: 8px 20px;
+  background: rgba(251,191,36,0.12);
+  border: 1px solid rgba(251,191,36,0.25);
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.champion-detail {
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.5);
+  margin-top: 8px;
+}
+
+/* === 頒獎台 === */
+.champion-podium {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 16px 20px 24px;
+  flex-wrap: wrap;
+}
+
+.podium-item {
+  text-align: center;
+  padding: 16px 20px 12px;
+  border-radius: var(--radius);
+  min-width: 110px;
+  flex: 1;
+  max-width: 160px;
+  transition: var(--transition);
+}
+.podium-item:hover { transform: translateY(-3px); }
+
+.podium-gold {
+  background: linear-gradient(180deg, rgba(251,191,36,0.15), rgba(251,191,36,0.05));
+  border: 1px solid rgba(251,191,36,0.3);
+  order: 2;
+  transform: scale(1.08);
+}
+.podium-silver {
+  background: linear-gradient(180deg, rgba(148,163,184,0.12), rgba(148,163,184,0.04));
+  border: 1px solid rgba(148,163,184,0.2);
+  order: 1;
+}
+.podium-bronze {
+  background: linear-gradient(180deg, rgba(205,127,50,0.12), rgba(205,127,50,0.04));
+  border: 1px solid rgba(205,127,50,0.2);
+  order: 3;
+}
+.podium-fourth {
+  background: linear-gradient(180deg, rgba(100,116,139,0.1), rgba(100,116,139,0.03));
+  border: 1px solid rgba(100,116,139,0.15);
+  order: 4;
+}
+
+.podium-rank { font-size: 1.3rem; margin-bottom: 4px; }
+.podium-flag img { width: 40px; height: 30px; border-radius: 4px; }
+.podium-name { font-size: 0.95rem; font-weight: 700; color: #fff; margin-top: 4px; }
+.podium-en { font-size: 0.62rem; color: rgba(255,255,255,0.4); text-transform: uppercase; letter-spacing: 1px; }
+.podium-strip {
+  display: inline-block;
+  font-size: 0.6rem;
+  font-weight: 700;
+  color: #fff;
+  padding: 2px 10px;
+  border-radius: 10px;
+  margin-top: 4px;
+  background: rgba(255,255,255,0.08);
+}
+.podium-gold .podium-strip { background: rgba(251,191,36,0.2); color: #fbbf24; }
+.podium-silver .podium-strip { background: rgba(148,163,184,0.2); color: #cbd5e1; }
+.podium-bronze .podium-strip { background: rgba(205,127,50,0.2); color: #cd7f32; }
+
+/* === 賽事統計 === */
+.champion-stats {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  padding: 16px 20px 20px;
+  flex-wrap: wrap;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  margin: 0 20px;
+}
+
+.champ-stat {
+  text-align: center;
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.5);
+  font-weight: 500;
+}
+.champ-stat-num {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #fbbf24;
+  margin-bottom: 2px;
+}
+
+/* === 冠軍之路 === */
+.champion-rounds {
+  padding: 0 20px 20px;
+  margin: 0 20px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.cr-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 16px 0 12px;
+  text-align: center;
+}
+
+.cr-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 8px;
+}
+
+.cr-item {
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  text-align: center;
+}
+.cr-round {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: #fbbf24;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.cr-detail {
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.7);
+  line-height: 1.4;
+}
+
+/* === 賽事獎項 === */
+.champion-awards {
+  padding: 0 20px 24px;
+  margin: 0 20px;
+  border-top: 1px solid rgba(255,255,255,0.06);
+}
+
+.ca-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 14px 0 10px;
+  text-align: center;
+}
+
+.ca-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+}
+
+.ca-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 20px;
+  padding: 6px 14px;
+  font-size: 0.78rem;
+  color: rgba(255,255,255,0.7);
+}
+.ca-icon { font-size: 1rem; }
+.ca-label { font-weight: 600; color: #94a3b8; }
+.ca-val { font-weight: 700; color: #fbbf24; }
+
+/* ============================================
+   最終排名頁 — Standings
+   ============================================ */
+.standings-page-header {
+  text-align: center;
+  padding: 20px 0 24px;
+}
+.standings-page-header .sp-icon { font-size: 3rem; margin-bottom: 8px; }
+.standings-page-header h1 { font-size: 1.8rem; font-weight: 900; color: var(--text); margin-bottom: 6px; }
+.standings-page-header .sp-sub { font-size: 0.85rem; color: var(--text-muted); }
+
+.standings-tiers {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.st-tier {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+  transition: var(--transition);
+}
+.st-tier:hover { box-shadow: var(--card-shadow-hover); }
+
+.st-tier-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 18px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--card-border);
+}
+.st-tier-icon { font-size: 1.1rem; }
+.st-tier-label { font-size: 0.88rem; font-weight: 700; color: var(--text); flex: 1; }
+.st-tier-range { font-size: 0.72rem; color: var(--text-muted); font-weight: 600; padding: 2px 10px; background: var(--bg-alt); border-radius: 10px; }
+
+.st-tier-teams {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 4px;
+  padding: 10px 14px;
+}
+
+.st-team {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 0.82rem;
+  transition: var(--transition);
+  background: var(--bg);
+  border: 1px solid transparent;
+}
+.st-team:hover {
+  border-color: var(--card-border);
+  transform: translateX(2px);
+}
+.st-team.st-champion {
+  background: linear-gradient(135deg, rgba(251,191,36,0.08), rgba(251,191,36,0.02));
+  border: 1px solid rgba(251,191,36,0.2);
+  font-weight: 700;
+}
+
+.st-rank {
+  font-size: 0.65rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  min-width: 24px;
+  text-align: right;
+}
+.st-team.st-champion .st-rank { color: #f59e0b; }
+
+.st-name { font-weight: 600; color: var(--text); flex: 1; }
+.st-namezh { font-size: 0.68rem; color: var(--text-muted); }
+.st-crown { font-size: 0.9rem; margin-left: auto; }
+
+.standings-footer {
+  text-align: center;
+  padding: 28px 0;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  line-height: 1.8;
+}
+
+/* ===== 響應式 ===== */
+@media (max-width: 768px) {
+  .champion-trophy { font-size: 3.2rem; }
+  .champion-name { font-size: 1.4rem; }
+  .champion-emblem img { width: 60px; height: 45px; }
+  .champion-podium { gap: 8px; }
+  .podium-item { min-width: 80px; padding: 10px 12px 8px; }
+  .podium-gold { transform: scale(1.04); }
+  .podium-flag img { width: 32px; height: 24px; }
+  .podium-name { font-size: 0.78rem; }
+  .champion-stats { gap: 16px; }
+  .champ-stat-num { font-size: 1rem; }
+  .cr-grid { grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); }
+  .champion-section { margin: -10px 0 20px; }
+  #champion-banner { padding: 0 14px; }
+  .standings-page-header h1 { font-size: 1.3rem; }
+  .st-tier-teams { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); }
+}
+
+@media (max-width: 480px) {
+  .champion-podium { flex-direction: column; align-items: center; }
+  .podium-gold { order: 1; transform: none; }
+  .podium-silver { order: 2; }
+  .podium-bronze { order: 3; }
+  .podium-fourth { order: 4; }
+  .podium-item { max-width: 200px; width: 100%; }
+}

@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: "🏆 2026 世界盃圓滿落幕🏆 ｜ 🏆🇪🇸西班牙 1-0 🇦🇷阿根廷（AET）Ferran Torres加時絕殺！西班牙第二座世界盃冠軍🔥 ｜ 🥉🇫🇷法國 4-6 🇬🇧英格蘭 Saka帽子戲法⚡ ｜ 🥇 Messi 9球金靴·Mbappé 8球·Ferran Torres 4球 ｜ 📅 7/19 更新🔥 西班牙封王！🇪🇸🏆",
+    currentPhase: "✅ 2026 世界盃已圓滿落幕 🏆🇪🇸西班牙冠軍🏆 ｜ 西班牙 1-0 阿根廷（AET）Ferran Torres加時絕殺🔥 ｜ 🥉英格蘭 6-4 法國 Saka帽子戲法⚡ ｜ 🥇 Messi 9球金靴·Mbappé 8球 ｜ 🇪🇸🏆 西班牙封王！第二座世界盃冠軍！",
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)

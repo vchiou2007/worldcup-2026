@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>最終排名 — 2026 世界盃</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon.svg">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="世界盃2026">
+</head>
+<body data-page="standings">
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo"><span class="logo-icon">🏆</span><span>2026 世界盃</span></a>
+      <nav class="main-nav">
+        <a href="index.html">首頁</a><a href="standings.html" class="active">最終排名</a>
+        <a href="bracket.html">樹狀圖</a><a href="knockout.html">淘汰賽</a><a href="groups.html">分組</a>
+        <a href="teams.html">48隊</a><a href="matches.html">賽程</a>
+      </nav>
+    </div>
+  </header>
+  <main class="container" id="standings-container">
+    <div class="loading"><div class="loading-spinner"></div><p>載入最終排名...</p></div>
+  </main>
+  <footer class="site-footer">
+    <p>🏆 2026 世界盃即時資訊站 — 非官方網站 ｜ 🇪🇸西班牙冠軍 🇦🇷阿根廷亞軍</p>
+    <div class="footer-links">
+      <a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026" target="_blank">FIFA 官網</a>
+      <a href="https://github.com/vchiou2007/worldcup-2026" target="_blank">GitHub</a>
+    </div>
+  </footer>
+  <script src="data/worldcup-data.js"></script><script src="data/player_images.js"></script><script src="js/app.js"></script><script>if('serviceWorker'in navigator){navigator.serviceWorker.register('sw.js?v=7')}</script>
+</body>
+</html>
