@@ -10,7 +10,7 @@ const WC_DATA = {
     endDate: '2026-07-19',
     teamsCount: 48,
     matchesCount: 104,
-    currentPhase: "🔥 決賽週末🔥 ｜ 🏆 決賽：🇪🇸西班牙 vs 🇦🇷阿根廷（7/19·大都會人壽·15:00 ET）🔥 ｜ 🥉 季軍戰：🇫🇷法國 4-6 🇬🇧英格蘭（7/18·邁阿密·16:00 ET）完賽！Saka帽子戲法⚡ ｜ 🇦🇷阿根廷 2-1 🇬🇧英格蘭 — Fernández 85' + Lautaro 90+2' 絕殺！Messi助攻⚡ ｜ 🇪🇸西班牙 2-0 🇫🇷法國 — Oyarzabal 22'(P) Porro 58' 完美零封 ｜ 🥇 Messi 9球 · Mbappé 8球 · Haaland 7球 ｜ 📅 7/17 更新：決賽對戰組合出爐！Messi vs Yamal球王傳承🔥",
+    currentPhase: "🏆 2026 世界盃圓滿落幕🏆 ｜ 🏆🇪🇸西班牙 1-0 🇦🇷阿根廷（AET）Ferran Torres加時絕殺！西班牙第二座世界盃冠軍🔥 ｜ 🥉🇫🇷法國 4-6 🇬🇧英格蘭 Saka帽子戲法⚡ ｜ 🥇 Messi 9球金靴·Mbappé 8球·Ferran Torres 4球 ｜ 📅 7/19 更新🔥 西班牙封王！🇪🇸🏆",
   },
 
   // 國家旗幟對應 (Unicode 國旗 emoji)
@@ -3768,7 +3768,7 @@ const WC_DATA = {
 
   // ===== 淘汰賽階段 =====
   knockout: {
-    summary: "🔥 季軍戰完賽🔥 ｜ 🥉英格蘭 6-4 法國奪銅牌！Saka帽子戲法⚡ ｜ 🏆 決賽：🇪🇸西班牙 vs 🇦🇷阿根廷（7/19·大都會人壽·15:00 ET）🔥 ｜ 🇦🇷阿根廷 2-1 🇬🇧英格蘭！Fernández 85' + Lautaro 90'+2' 絕殺⚡ ｜ 🇫🇷法國 vs 🇬🇧英格蘭 — 季軍戰（7/18）🔥 ｜ 🥇 Messi 9球 · Mbappé 8球 · Haaland 7球 ｜ 🏆 Messi vs Yamal！球王傳承之戰！阿根廷挑戰連霸🔥｜ ❌ 已淘汰：🇫🇷(季軍戰)🇬🇧🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦🇧🇪🇳🇴🇨🇭",
+    summary: "🏆 西班牙 1-0 阿根廷（AET）🇪🇸🏆 ｜ Ferran Torres加時絕殺！西班牙第二座世界盃冠軍🔥 ｜ 🥉英格蘭 6-4 法國奪銅牌！Saka帽子戲法⚡ ｜ 🥇 Messi 9球金靴·Mbappé 8球 ｜ ❌ 已淘汰：🇦🇷🇫🇷🇬🇧🇨🇦🇵🇾🇧🇷🇲🇽🇵🇹🇺🇸🇪🇬🇨🇴🇲🇦🇧🇪🇳🇴🇨🇭",
     
     // PK 大戰結果
     penalties: {
@@ -3841,13 +3841,13 @@ const WC_DATA = {
       Final: {
         order: 6,
         name: '決賽', nameEn: 'Final',
-        status: 'upcoming',
+        status: 'completed',
         totalMatches: 1,
-        completedCount: 0,
+        completedCount: 1,
         dateRange: '7月19日',
         venue: '東盧瑟福·大都會人壽體育場',
         matchups: [
-          { team1: 'Spain', team2: 'Argentina', date: '2026-07-19', venue: '東盧瑟福·大都會人壽體育場', time: '15:00 ET', note: '🏆🇪🇸西班牙 vs 🇦🇷阿根廷 — 2026世界盃決賽！西班牙時隔16年重返決賽舞台⚡阿根廷挑戰連霸🔥 Messi vs Yamal！球王傳承之戰！' }
+          { team1: 'Spain', score1: 1, team2: 'Argentina', score2: 0, date: '2026-07-19', venue: '東盧瑟福·大都會人壽體育場', time: '15:00 ET', status: 'completed', winner: 'Spain', note: '🏆🇪🇸西班牙 1-0 🇦🇷阿根廷（AET）— 2026世界盃決賽！Ferran Torres加時賽第98分鐘補射破門，Enzo Fernández第90+5分鐘兩黃變一紅！西班牙第二座世界盃冠軍🔥' }
         ]
       },
       ThirdPlace: {
