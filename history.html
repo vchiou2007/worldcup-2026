@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>淘汰賽樹狀圖 — 2026 世界盃</title>
+  <title>歷史成績 — 2026 世界盃</title>
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏆</text></svg>" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📜</text></svg>" />
 </head>
-<body>
+<body data-page="history">
   <header class="site-header">
     <div class="header-inner">
       <a href="index.html" class="logo">
@@ -16,43 +16,39 @@
       </a>
       <nav class="main-nav">
         <a href="index.html">首頁</a>
-        <a href="history.html">歷史成績</a>
-        <a href="bracket.html" class="active">樹狀圖</a>
+        <a href="standings.html">最終排名</a>
+        <a href="history.html" class="active">歷史成績</a>
+        <a href="bracket.html">樹狀圖</a>
         <a href="knockout.html">淘汰賽</a>
         <a href="groups.html">分組</a>
         <a href="teams.html">48隊</a>
         <a href="matches.html">賽程</a>
-        <a href="https://github.com/vchiou2007/worldcup-2026" target="_blank" style="color:var(--text-muted);font-size:0.72rem;">GitHub</a>
       </nav>
     </div>
   </header>
 
-  <!-- ===== 樹狀圖主內容 ===== -->
-  <div class="bracket-page">
-    <h1>🏆 2026 世界盃淘汰賽樹狀圖</h1>
-    <p class="bracket-sub">16強 → 8強 → 準決賽 → 決賽 · 加拿大/美國/墨西哥</p>
-    <div id="bracket-tree"></div>
-  </div>
+  <!-- ===== 歷史成績主內容 ===== -->
+  <main class="container" id="history-container">
+    <div class="loading"><div class="loading-spinner"></div><p>載入歷史成績...</p></div>
+  </main>
 
   <!-- ===== Footer ===== -->
   <footer class="site-footer">
-    <p>⚽ 2026 世界盃即時資訊站</p>
+    <p>📜 世界盃歷史成績 — 1930 至 2026 ｜ 歷屆前八名總積分排名</p>
     <div class="footer-links">
       <a href="https://www.fifa.com/en/tournaments/mens/worldcup/canadamexicousa2026" target="_blank">FIFA 官網</a>
       <a href="https://github.com/vchiou2007/worldcup-2026" target="_blank">GitHub</a>
     </div>
   </footer>
 
-  <!-- ===== Scripts ===== -->
   <script src="data/worldcup-data.js"></script>
+  <script src="data/worldcup-history.js"></script>
   <script src="data/player_images.js"></script>
   <script src="js/app.js"></script>
+  <script src="js/history.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {
-      document.body.dataset.page = 'bracket';
-      renderBracketTree();
-      const u = document.getElementById('update-time');
-      if(u) u.textContent = new Date().toLocaleString('zh-TW', {timeZone:'America/Toronto'});
+      renderHistory();
     });
     if('serviceWorker' in navigator){ navigator.serviceWorker.register('sw.js?v=7'); }
   </script>

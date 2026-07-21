@@ -2248,3 +2248,322 @@ body {
   .podium-fourth { order: 4; }
   .podium-item { max-width: 200px; width: 100%; }
 }
+
+/* ============================================
+   歷史成績頁面 — 世界盃歷屆前八名
+   ============================================ */
+
+/* 頁頭 */
+.history-page-header {
+  text-align: center;
+  padding: 28px 0 18px;
+}
+.hp-icon { font-size: 2.6rem; margin-bottom: 6px; }
+.history-page-header h1 { font-size: 1.5rem; font-weight: 800; }
+.hp-sub { color: var(--text-muted); font-size: 0.82rem; margin-top: 4px; }
+
+/* 檢視切換 */
+.history-view-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 18px 0 24px;
+}
+.hv-btn {
+  padding: 10px 22px;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--card-border);
+  background: var(--card);
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.hv-btn:hover { border-color: var(--teal); color: var(--teal); }
+.hv-btn.active {
+  background: var(--teal);
+  color: #fff;
+  border-color: var(--teal);
+  box-shadow: 0 4px 12px rgba(13,148,136,0.3);
+}
+
+/* 檢視容器 */
+.history-view { display: none; }
+.history-view.active { display: block; }
+
+/* ===== 依屆次檢視 ===== */
+.ht-tournaments {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: 14px;
+}
+.ht-card {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+  transition: var(--transition);
+}
+.ht-card:hover { box-shadow: var(--card-shadow-hover); transform: translateY(-2px); }
+.ht-card-header {
+  padding: 14px 18px;
+  background: var(--teal-light);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+}
+.ht-year {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: var(--text);
+}
+.ht-host {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+.ht-champion-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--gold);
+  background: var(--gold-bg);
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-left: auto;
+}
+.ht-note {
+  width: 100%;
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  padding-top: 6px;
+  border-top: 1px solid var(--card-border);
+}
+.ht-card-body {
+  padding: 12px 18px 16px;
+}
+.ht-team-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.04);
+}
+.ht-team-row:last-child { border-bottom: none; }
+.ht-team-row.ht-champ {
+  background: var(--gold-bg);
+  border-radius: 8px;
+  margin: 0 -6px;
+  padding: 8px 6px;
+}
+.ht-rank-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  min-width: 80px;
+}
+.ht-team-name {
+  font-weight: 600;
+  font-size: 0.88rem;
+  flex: 1;
+}
+.ht-team-zh {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+}
+.ht-crown { font-size: 0.85rem; }
+
+.ht-qf-section {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--card-border);
+}
+.ht-qf-title {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+  letter-spacing: 0.5px;
+}
+.ht-qf-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.ht-qf-team {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.78rem;
+  padding: 4px 10px;
+  background: var(--bg);
+  border-radius: 6px;
+  color: var(--text-secondary);
+}
+
+/* ===== 依國家積分檢視 ===== */
+.hr-rankings {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.hr-tier-card {
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  box-shadow: var(--card-shadow);
+  overflow: hidden;
+}
+.hr-tier-header {
+  padding: 12px 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hr-tier-icon { font-size: 1rem; }
+.hr-tier-label { font-weight: 700; font-size: 0.9rem; flex: 1; }
+.hr-tier-count {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+.hr-tier-body {
+  padding: 6px 18px 12px;
+}
+.hr-team-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 0;
+  border-bottom: 1px solid rgba(0,0,0,0.03);
+}
+.hr-team-row:last-child { border-bottom: none; }
+.hr-rank {
+  font-size: 0.65rem;
+  font-weight: 800;
+  color: var(--text-muted);
+  min-width: 28px;
+  text-align: right;
+}
+.hr-team-name {
+  font-weight: 600;
+  font-size: 0.88rem;
+  flex: 1;
+}
+.hr-team-zh {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+}
+.hr-score {
+  font-weight: 800;
+  font-size: 0.85rem;
+  padding: 3px 12px;
+  border-radius: 20px;
+  min-width: 50px;
+  text-align: center;
+}
+.hr-score-unit {
+  font-size: 0.6rem;
+  font-weight: 500;
+  margin-left: 2px;
+}
+
+/* 傳奇國家牆 */
+.hr-legend-wall {
+  margin-top: 28px;
+  padding: 22px;
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  box-shadow: var(--card-shadow);
+  text-align: center;
+}
+.hrl-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+.hrl-sub {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 18px;
+}
+.hrl-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 14px;
+}
+.hrl-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 12px 8px;
+  background: var(--bg);
+  border-radius: var(--radius-sm);
+  transition: var(--transition);
+}
+.hrl-item:hover {
+  background: var(--teal-light);
+  transform: translateY(-2px);
+}
+.hrl-name {
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+.hrl-score {
+  font-size: 1rem;
+  font-weight: 800;
+  color: var(--teal);
+}
+.hrl-score span {
+  font-size: 0.6rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+/* 積分計算說明 */
+.history-scoring-note {
+  margin-top: 28px;
+  padding: 18px 22px;
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  box-shadow: var(--card-shadow);
+}
+.hsn-title {
+  font-size: 0.85rem;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+.hsn-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.hsn-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+}
+.hsn-badge {
+  padding: 2px 10px;
+  border-radius: 14px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: #fff;
+}
+
+/* ===== 響應式 ===== */
+@media (max-width: 768px) {
+  .ht-tournaments {
+    grid-template-columns: 1fr;
+  }
+  .hrl-grid {
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+  }
+  .history-page-header h1 { font-size: 1.2rem; }
+  .hv-btn { font-size: 0.78rem; padding: 8px 14px; }
+}
+
