@@ -1157,7 +1157,7 @@ const WC_DATA = {
     },
 
     // === 6月18日 ===
-    { date: '2026-06-18', time: '12:00 ET', group: 'B', team1: 'Czechia', score1: 1, team2: 'South Africa', score2: 1, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'completed',
+    { date: '2026-06-18', time: '12:00 ET', group: 'A', team1: 'Czechia', score1: 1, team2: 'South Africa', score2: 1, venue: '亞特蘭大·梅賽德斯-賓士體育場', status: 'completed',
       goals: [
         { min: 6, team: 1, scorer: 'Michal Sadílek', assist: 'Alexandr Sojka', detail: 'Sojka 禁區邊緣傳球，Sadílek 禁區中央右腳射門入網' },
         { min: 83, team: 2, scorer: 'Teboho Mokoena', detail: '12碼罰球 — Pavel Sulc 禁區內手球犯規，VAR 確認後判罰，Mokoena 騙過門將射入左下角' }
