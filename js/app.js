@@ -331,7 +331,10 @@ function renderHomeKnockout(){
   for(const m of r32matches){
     const adv = getAdvanceInfo(m);
     const pk = getPK(m.team1, m.team2);
-    const scoreStr = pk ? `${m.score1}-${m.score2}（PK ${pk.score}）` : `${m.score1}-${m.score2}`;
+    // 比分以「勝隊-敗隊」順序顯示（修正勝隊為 team2 時比分顛倒的問題）
+    const wScore = adv && adv.winner === m.team1 ? m.score1 : m.score2;
+    const lScore = adv && adv.winner === m.team1 ? m.score2 : m.score1;
+    const scoreStr = pk ? `${wScore}-${lScore}（PK ${pk.score}）` : `${wScore}-${lScore}`;
     matchSummary += `<div class="hs-match">
       <span class="hs-winner">${fimgSm(adv.winner)} ${adv.winner}</span>
       <span class="hs-score">${scoreStr}</span>
@@ -418,7 +421,8 @@ function renderBracketTree(){
         h += `<div class="bracket-slot">${tbd()}${tbd()}</div>`;
       } else {
         const w = done ? m.winner : null;
-        h += `<div class="bracket-slot">${tm(t1, m.score1, done && w === t1)}${tm(t2, m.score2, done && w===t2)}</div>`;
+        const pk = done ? pkStr(t1, t2) : '';
+        h += `<div class="bracket-slot">${tm(t1, m.score1, done && w === t1)}${tm(t2, m.score2, done && w===t2)}${pk ? `<div class="bracket-pk">${pk}</div>` : ''}</div>`;
       }
     }
     return h;
