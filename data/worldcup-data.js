@@ -2648,20 +2648,22 @@ const WC_DATA = {
         pressingApplied: [210, 250]
       }
     },
-    { date: '2026-06-27', time: '22:00 ET', group: 'J', team1: 'Algeria', score1: 2, team2: 'Austria', score2: 2, venue: '堪薩斯城·箭頭體育場', status: 'completed',
-      goals: [
-        { min: 28, team: 2, scorer: 'Marko Arnautović', detail: '禁區邊緣接到傳球後轉身抽射入網，奧地利率先破門' },
-        { min: 45, team: 1, scorer: 'Rafik Belghali', assist: 'Riyad Mahrez', detail: 'Belghali 禁區內接 Mahrez 傳球後勁射入網，阿爾及利亞扳平' },
-        { min: 55, team: 2, scorer: 'Marcel Sabitzer', assist: 'David Alaba', detail: 'Alaba 角球傳中，Sabitzer 頭槌破門，奧地利再度領先' },
-        { min: 60, team: 1, scorer: 'Riyad Mahrez', detail: '禁區外自由球直接射門入死角，阿爾及利亞再次扳平' }
-      ],
+    { date: '2026-06-27', time: '22:00 ET', group: 'J', team1: 'Algeria', score1: 3, team2: 'Austria', score2: 3, venue: '堪薩斯城·箭頭體育場', status: 'completed',
+          goals: [
+            { min: 28, team: 2, scorer: 'Marko Arnautović', detail: '禁區邊緣接到傳球後轉身抽射入網，奧地利率先破門' },
+            { min: 45, team: 1, scorer: 'Rafik Belghali', assist: 'Riyad Mahrez', detail: 'Belghali 禁區內接 Mahrez 傳球後勁射入網，阿爾及利亞扳平' },
+            { min: 55, team: 2, scorer: 'Marcel Sabitzer', assist: 'David Alaba', detail: 'Alaba 角球傳中，Sabitzer 頭槌破門，奧地利再度領先' },
+            { min: 60, team: 1, scorer: 'Riyad Mahrez', detail: '禁區外自由球直接射門入死角，阿爾及利亞再次扳平' },
+            { min: 90, team: 1, scorer: 'Riyad Mahrez', detail: '90+3分鐘禁區內勁射破網，Mahrez 梅開二度，阿爾及利亞三度扳平！' },
+            { min: 90, team: 2, scorer: 'Sasa Kalajdzic', detail: '90+6分鐘角球混戰中頭槌破門，替補上場的 Kalajdzic 最後一刻追平，3-3 握手言和' }
+          ],
       cards: [
         { min: 17, team: 2, player: 'Konrad Laimer', card: 'yellow', detail: '中場戰術犯規' }
       ],
       stats: {
         possession: [48, 52],
         shots: [10, 12],
-        shotsOnTarget: [4, 5],
+        shotsOnTarget: [5, 6],
         shotsOffTarget: [4, 4],
         shotsInsideBox: [5, 7],
         shotsOutsideBox: [5, 5],
@@ -3748,8 +3750,8 @@ const WC_DATA = {
     ],
     'J': [
       { team: 'Argentina', played: 3, won: 3, drawn: 0, lost: 0, gf: 8, ga: 1, gd: 7, pts: 9 },
-      { team: 'Austria', played: 3, won: 1, drawn: 1, lost: 1, gf: 5, ga: 5, gd: 0, pts: 4 },
-      { team: 'Algeria', played: 3, won: 1, drawn: 1, lost: 1, gf: 4, ga: 6, gd: -2, pts: 4 },
+      { team: 'Austria', played: 3, won: 1, drawn: 1, lost: 1, gf: 6, ga: 6, gd: 0, pts: 4 },
+      { team: 'Algeria', played: 3, won: 1, drawn: 1, lost: 1, gf: 5, ga: 7, gd: -2, pts: 4 },
       { team: 'Jordan', played: 3, won: 0, drawn: 0, lost: 3, gf: 3, ga: 8, gd: -5, pts: 0 }
     ],
     'K': [
